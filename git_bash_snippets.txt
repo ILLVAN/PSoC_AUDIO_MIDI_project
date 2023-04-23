@@ -1,0 +1,16 @@
+USEFUL GIT BASH SNIPPETS
+
+//UPLOAD:
+navigate to folder cd "xxx"/"yyy" "						// wherever the local repo should be located
+git init
+git status
+git add --all
+git status
+git commit -m "Initial commit"                                                  // any message
+git remote add origin https://github.com/DEIN_BENUTZERNAME/repo_name.git	// change repo name	  
+git branch -M main
+git push -u origin main
+
+
+//RESET COMMIT
+git rm --cached <file>								// insert file name
