@@ -1,8 +1,7 @@
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|ba0c6803-12cb-4cbb-b35d-2cc69cdc33aa
-C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|9c8902f9-e8f0-49f6-a3f6-f7dfdd7a3337
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|e7c6da28-71f9-4cd5-b7b0-1041b23e4444
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|89c3fdb9-6fd0-40cb-8213-1947d4d708e2
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6c9dc414-9320-47f8-8e03-41843de6f5ec
-C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\My Templates\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cyprj|b45b4baa-5336-4990-add3-cb0a8ced4f8a
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|385d064c-f5bb-4afb-8960-cbde751eadd1
-C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cyprj|13dab4da-077e-46e7-af54-7c8c5f752336
+C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cyprj|1e914f45-4c5a-4323-903e-8c53fd525d51
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|ff650c1a-9bd3-4b0c-ad0f-fc079bb95f55
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d37aebbe-3b6b-4bad-96b1-85f54b3908d1
+C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|f15352ae-be0c-4cbb-9e41-c8cac32e43d6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|e6eb9a56-42ea-4af7-9a1a-a087e92d1cbf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e2e3e331-289d-4eb6-b0fb-8a99be28f97c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|c0f137b1-e3c6-48c7-8398-205b1719d10c

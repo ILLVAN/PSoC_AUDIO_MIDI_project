@@ -28,17 +28,22 @@
 *******************************************************************************/
 
 #include <project.h>
+#define START_FREQ_DIV 2
+#define DELAY_MS 100
 
 
 int main()
 {
     WaveDAC8_1_Start(); /* Start WaveDAC8  */
-    uint8 freqClockDivCounter = 0;
+    uint8 freqClockDivCounter = START_FREQ_DIV;
 	
     for(;;){         /* Loop forever    */
         Clock_1_SetDividerValue(freqClockDivCounter);
         freqClockDivCounter++;
-        CyDelay(10);    
+        CyDelay(DELAY_MS);   
+        if (freqClockDivCounter > 254){
+            freqClockDivCounter = START_FREQ_DIV;
+        }
     }
 }
 

@@ -1,6 +1,6 @@
 -- ======================================================================
 -- WaveDAC8_Example01.ctl generated from WaveDAC8_Example01
--- 04/28/2023 at 16:50
+-- 04/28/2023 at 17:36
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 

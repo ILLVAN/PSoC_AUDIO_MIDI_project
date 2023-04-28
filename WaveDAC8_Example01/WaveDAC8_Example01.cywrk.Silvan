@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="WaveDAC8_Example01\WaveDAC8_Example01\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="WaveDAC8_Example01\WaveDAC8_Example01\TopDesign">
 <ExpandedNodeIds>
 <v>WaveDAC8_Example01</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01</v>
@@ -178,9 +178,8 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\WaveDAC8_Example01.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cydwr" />
 <name v=".\WaveDAC8_Example01.cydsn\main.c" />
+<name v=".\WaveDAC8_Example01.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -188,7 +187,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="857, 583" SelectedTabbedMdiWindow="d4f02813-1f7e-4961-8bb9-8ea76ca605c6"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\TopDesign\TopDesign.cysch" Guid="461db0e8-8eab-4e3f-8ca4-4cc9a191191c" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cydwr" Guid="28d151a1-b6d7-4c0c-9965-be7b58cb432e" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\main.c" Guid="d4f02813-1f7e-4961-8bb9-8ea76ca605c6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="814, 583" SelectedTabbedMdiWindow="0640d028-b778-4257-be1c-f89a4b56600e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\main.c" Guid="55b3a96d-da9e-4f28-abc9-6b206accf6a9" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\TopDesign\TopDesign.cysch" Guid="0640d028-b778-4257-be1c-f89a4b56600e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
