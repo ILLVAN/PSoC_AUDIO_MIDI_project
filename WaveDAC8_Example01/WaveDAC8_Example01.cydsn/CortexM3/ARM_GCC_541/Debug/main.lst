@@ -1,0 +1,532 @@
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.main,"ax",%progbits
+  20              		.align	2
+  21              		.global	main
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	main, %function
+  25              	main:
+  26              	.LFB63:
+  27              		.file 1 "main.c"
+   1:main.c        **** /*******************************************************************************
+   2:main.c        **** * File: main.c      
+   3:main.c        **** *
+   4:main.c        **** * Version: 1.0
+   5:main.c        **** * 
+   6:main.c        **** * Description:
+   7:main.c        **** *  This is a source code for example project that demonstates how to generate
+   8:main.c        **** *  a simple SineWave using the WaveDAC8 component.
+   9:main.c        **** *
+  10:main.c        **** * Hardware Dependency:
+  11:main.c        **** *  Pin Connections:
+  12:main.c        **** *  P0[0] --> SineWave output
+  13:main.c        **** * 
+  14:main.c        **** * Code Tested With:
+  15:main.c        **** *  1. PPSoC Creator 3.0 build 1124
+  16:main.c        **** *  2. DP8051 Keil 9.51
+  17:main.c        **** *  3. ARM GCC 4.7.3
+  18:main.c        **** *
+  19:main.c        **** ********************************************************************************
+  20:main.c        **** * Copyright 2013, Cypress Semiconductor Corporation. All rights reserved.
+  21:main.c        **** * This software is owned by Cypress Semiconductor Corporation and is protected
+  22:main.c        **** * by and subject to worldwide patent and copyright laws and treaties.
+  23:main.c        **** * Therefore, you may use this software only as provided in the license agreement
+  24:main.c        **** * accompanying the software package from which you obtained this software.
+  25:main.c        **** * CYPRESS AND ITS SUPPLIERS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+  26:main.c        **** * WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT,
+  27:main.c        **** * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  28:main.c        **** *******************************************************************************/
+  29:main.c        **** 
+  30:main.c        **** #include <project.h>
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 2
+
+
+  31:main.c        **** 
+  32:main.c        **** 
+  33:main.c        **** int main()
+  34:main.c        **** {
+  28              		.loc 1 34 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 8
+  31              		@ frame_needed = 1, uses_anonymous_args = 0
+  32 0000 80B5     		push	{r7, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 7, -8
+  35              		.cfi_offset 14, -4
+  36 0002 82B0     		sub	sp, sp, #8
+  37              		.cfi_def_cfa_offset 16
+  38 0004 00AF     		add	r7, sp, #0
+  39              		.cfi_def_cfa_register 7
+  35:main.c        ****     WaveDAC8_1_Start(); /* Start WaveDAC8  */
+  40              		.loc 1 35 0
+  41 0006 FFF7FEFF 		bl	WaveDAC8_1_Start
+  36:main.c        ****     uint8 freqClockDivCounter = 0;
+  42              		.loc 1 36 0
+  43 000a 0023     		movs	r3, #0
+  44 000c FB71     		strb	r3, [r7, #7]
+  45              	.L2:
+  37:main.c        **** 	
+  38:main.c        ****     for(;;){         /* Loop forever    */
+  39:main.c        ****         Clock_1_SetDividerValue(freqClockDivCounter);
+  46              		.loc 1 39 0 discriminator 1
+  47 000e FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+  48 0010 9BB2     		uxth	r3, r3
+  49 0012 013B     		subs	r3, r3, #1
+  50 0014 9BB2     		uxth	r3, r3
+  51 0016 0121     		movs	r1, #1
+  52 0018 1846     		mov	r0, r3
+  53 001a FFF7FEFF 		bl	Clock_1_SetDividerRegister
+  40:main.c        ****         freqClockDivCounter++;
+  54              		.loc 1 40 0 discriminator 1
+  55 001e FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+  56 0020 0133     		adds	r3, r3, #1
+  57 0022 FB71     		strb	r3, [r7, #7]
+  41:main.c        ****         CyDelay(10);    
+  58              		.loc 1 41 0 discriminator 1
+  59 0024 0A20     		movs	r0, #10
+  60 0026 FFF7FEFF 		bl	CyDelay
+  42:main.c        ****     }
+  61              		.loc 1 42 0 discriminator 1
+  62 002a F0E7     		b	.L2
+  63              		.cfi_endproc
+  64              	.LFE63:
+  65              		.size	main, .-main
+  66              		.text
+  67              	.Letext0:
+  68              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+  69              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+  70              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
+  71              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
+  72              		.section	.debug_info,"",%progbits
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 3
+
+
+  73              	.Ldebug_info0:
+  74 0000 E6000000 		.4byte	0xe6
+  75 0004 0400     		.2byte	0x4
+  76 0006 00000000 		.4byte	.Ldebug_abbrev0
+  77 000a 04       		.byte	0x4
+  78 000b 01       		.uleb128 0x1
+  79 000c 69000000 		.4byte	.LASF17
+  80 0010 0C       		.byte	0xc
+  81 0011 2E000000 		.4byte	.LASF18
+  82 0015 1A010000 		.4byte	.LASF19
+  83 0019 00000000 		.4byte	.Ldebug_ranges0+0
+  84 001d 00000000 		.4byte	0
+  85 0021 00000000 		.4byte	.Ldebug_line0
+  86 0025 02       		.uleb128 0x2
+  87 0026 01       		.byte	0x1
+  88 0027 06       		.byte	0x6
+  89 0028 83010000 		.4byte	.LASF0
+  90 002c 02       		.uleb128 0x2
+  91 002d 01       		.byte	0x1
+  92 002e 08       		.byte	0x8
+  93 002f F7000000 		.4byte	.LASF1
+  94 0033 02       		.uleb128 0x2
+  95 0034 02       		.byte	0x2
+  96 0035 05       		.byte	0x5
+  97 0036 AB010000 		.4byte	.LASF2
+  98 003a 02       		.uleb128 0x2
+  99 003b 02       		.byte	0x2
+ 100 003c 07       		.byte	0x7
+ 101 003d 0E000000 		.4byte	.LASF3
+ 102 0041 03       		.uleb128 0x3
+ 103 0042 9B010000 		.4byte	.LASF9
+ 104 0046 02       		.byte	0x2
+ 105 0047 3F       		.byte	0x3f
+ 106 0048 4C000000 		.4byte	0x4c
+ 107 004c 02       		.uleb128 0x2
+ 108 004d 04       		.byte	0x4
+ 109 004e 05       		.byte	0x5
+ 110 004f 0A010000 		.4byte	.LASF4
+ 111 0053 02       		.uleb128 0x2
+ 112 0054 04       		.byte	0x4
+ 113 0055 07       		.byte	0x7
+ 114 0056 40000000 		.4byte	.LASF5
+ 115 005a 02       		.uleb128 0x2
+ 116 005b 08       		.byte	0x8
+ 117 005c 05       		.byte	0x5
+ 118 005d 00000000 		.4byte	.LASF6
+ 119 0061 02       		.uleb128 0x2
+ 120 0062 08       		.byte	0x8
+ 121 0063 07       		.byte	0x7
+ 122 0064 52000000 		.4byte	.LASF7
+ 123 0068 04       		.uleb128 0x4
+ 124 0069 04       		.byte	0x4
+ 125 006a 05       		.byte	0x5
+ 126 006b 696E7400 		.ascii	"int\000"
+ 127 006f 02       		.uleb128 0x2
+ 128 0070 04       		.byte	0x4
+ 129 0071 07       		.byte	0x7
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 4
+
+
+ 130 0072 21000000 		.4byte	.LASF8
+ 131 0076 03       		.uleb128 0x3
+ 132 0077 B5010000 		.4byte	.LASF10
+ 133 007b 03       		.byte	0x3
+ 134 007c 2C       		.byte	0x2c
+ 135 007d 41000000 		.4byte	0x41
+ 136 0081 05       		.uleb128 0x5
+ 137 0082 3A000000 		.4byte	.LASF11
+ 138 0086 04       		.byte	0x4
+ 139 0087 9201     		.2byte	0x192
+ 140 0089 2C000000 		.4byte	0x2c
+ 141 008d 02       		.uleb128 0x2
+ 142 008e 04       		.byte	0x4
+ 143 008f 04       		.byte	0x4
+ 144 0090 A5010000 		.4byte	.LASF12
+ 145 0094 02       		.uleb128 0x2
+ 146 0095 08       		.byte	0x8
+ 147 0096 04       		.byte	0x4
+ 148 0097 13010000 		.4byte	.LASF13
+ 149 009b 02       		.uleb128 0x2
+ 150 009c 01       		.byte	0x1
+ 151 009d 08       		.byte	0x8
+ 152 009e 05010000 		.4byte	.LASF14
+ 153 00a2 02       		.uleb128 0x2
+ 154 00a3 08       		.byte	0x8
+ 155 00a4 04       		.byte	0x4
+ 156 00a5 8F010000 		.4byte	.LASF15
+ 157 00a9 02       		.uleb128 0x2
+ 158 00aa 04       		.byte	0x4
+ 159 00ab 07       		.byte	0x7
+ 160 00ac D1010000 		.4byte	.LASF16
+ 161 00b0 06       		.uleb128 0x6
+ 162 00b1 35000000 		.4byte	.LASF20
+ 163 00b5 01       		.byte	0x1
+ 164 00b6 21       		.byte	0x21
+ 165 00b7 68000000 		.4byte	0x68
+ 166 00bb 00000000 		.4byte	.LFB63
+ 167 00bf 2C000000 		.4byte	.LFE63-.LFB63
+ 168 00c3 01       		.uleb128 0x1
+ 169 00c4 9C       		.byte	0x9c
+ 170 00c5 D8000000 		.4byte	0xd8
+ 171 00c9 07       		.uleb128 0x7
+ 172 00ca BD010000 		.4byte	.LASF21
+ 173 00ce 01       		.byte	0x1
+ 174 00cf 24       		.byte	0x24
+ 175 00d0 81000000 		.4byte	0x81
+ 176 00d4 02       		.uleb128 0x2
+ 177 00d5 91       		.byte	0x91
+ 178 00d6 77       		.sleb128 -9
+ 179 00d7 00       		.byte	0
+ 180 00d8 08       		.uleb128 0x8
+ 181 00d9 76010000 		.4byte	.LASF22
+ 182 00dd 05       		.byte	0x5
+ 183 00de 1207     		.2byte	0x712
+ 184 00e0 E4000000 		.4byte	0xe4
+ 185 00e4 09       		.uleb128 0x9
+ 186 00e5 76000000 		.4byte	0x76
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 5
+
+
+ 187 00e9 00       		.byte	0
+ 188              		.section	.debug_abbrev,"",%progbits
+ 189              	.Ldebug_abbrev0:
+ 190 0000 01       		.uleb128 0x1
+ 191 0001 11       		.uleb128 0x11
+ 192 0002 01       		.byte	0x1
+ 193 0003 25       		.uleb128 0x25
+ 194 0004 0E       		.uleb128 0xe
+ 195 0005 13       		.uleb128 0x13
+ 196 0006 0B       		.uleb128 0xb
+ 197 0007 03       		.uleb128 0x3
+ 198 0008 0E       		.uleb128 0xe
+ 199 0009 1B       		.uleb128 0x1b
+ 200 000a 0E       		.uleb128 0xe
+ 201 000b 55       		.uleb128 0x55
+ 202 000c 17       		.uleb128 0x17
+ 203 000d 11       		.uleb128 0x11
+ 204 000e 01       		.uleb128 0x1
+ 205 000f 10       		.uleb128 0x10
+ 206 0010 17       		.uleb128 0x17
+ 207 0011 00       		.byte	0
+ 208 0012 00       		.byte	0
+ 209 0013 02       		.uleb128 0x2
+ 210 0014 24       		.uleb128 0x24
+ 211 0015 00       		.byte	0
+ 212 0016 0B       		.uleb128 0xb
+ 213 0017 0B       		.uleb128 0xb
+ 214 0018 3E       		.uleb128 0x3e
+ 215 0019 0B       		.uleb128 0xb
+ 216 001a 03       		.uleb128 0x3
+ 217 001b 0E       		.uleb128 0xe
+ 218 001c 00       		.byte	0
+ 219 001d 00       		.byte	0
+ 220 001e 03       		.uleb128 0x3
+ 221 001f 16       		.uleb128 0x16
+ 222 0020 00       		.byte	0
+ 223 0021 03       		.uleb128 0x3
+ 224 0022 0E       		.uleb128 0xe
+ 225 0023 3A       		.uleb128 0x3a
+ 226 0024 0B       		.uleb128 0xb
+ 227 0025 3B       		.uleb128 0x3b
+ 228 0026 0B       		.uleb128 0xb
+ 229 0027 49       		.uleb128 0x49
+ 230 0028 13       		.uleb128 0x13
+ 231 0029 00       		.byte	0
+ 232 002a 00       		.byte	0
+ 233 002b 04       		.uleb128 0x4
+ 234 002c 24       		.uleb128 0x24
+ 235 002d 00       		.byte	0
+ 236 002e 0B       		.uleb128 0xb
+ 237 002f 0B       		.uleb128 0xb
+ 238 0030 3E       		.uleb128 0x3e
+ 239 0031 0B       		.uleb128 0xb
+ 240 0032 03       		.uleb128 0x3
+ 241 0033 08       		.uleb128 0x8
+ 242 0034 00       		.byte	0
+ 243 0035 00       		.byte	0
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 6
+
+
+ 244 0036 05       		.uleb128 0x5
+ 245 0037 16       		.uleb128 0x16
+ 246 0038 00       		.byte	0
+ 247 0039 03       		.uleb128 0x3
+ 248 003a 0E       		.uleb128 0xe
+ 249 003b 3A       		.uleb128 0x3a
+ 250 003c 0B       		.uleb128 0xb
+ 251 003d 3B       		.uleb128 0x3b
+ 252 003e 05       		.uleb128 0x5
+ 253 003f 49       		.uleb128 0x49
+ 254 0040 13       		.uleb128 0x13
+ 255 0041 00       		.byte	0
+ 256 0042 00       		.byte	0
+ 257 0043 06       		.uleb128 0x6
+ 258 0044 2E       		.uleb128 0x2e
+ 259 0045 01       		.byte	0x1
+ 260 0046 3F       		.uleb128 0x3f
+ 261 0047 19       		.uleb128 0x19
+ 262 0048 03       		.uleb128 0x3
+ 263 0049 0E       		.uleb128 0xe
+ 264 004a 3A       		.uleb128 0x3a
+ 265 004b 0B       		.uleb128 0xb
+ 266 004c 3B       		.uleb128 0x3b
+ 267 004d 0B       		.uleb128 0xb
+ 268 004e 49       		.uleb128 0x49
+ 269 004f 13       		.uleb128 0x13
+ 270 0050 11       		.uleb128 0x11
+ 271 0051 01       		.uleb128 0x1
+ 272 0052 12       		.uleb128 0x12
+ 273 0053 06       		.uleb128 0x6
+ 274 0054 40       		.uleb128 0x40
+ 275 0055 18       		.uleb128 0x18
+ 276 0056 9642     		.uleb128 0x2116
+ 277 0058 19       		.uleb128 0x19
+ 278 0059 01       		.uleb128 0x1
+ 279 005a 13       		.uleb128 0x13
+ 280 005b 00       		.byte	0
+ 281 005c 00       		.byte	0
+ 282 005d 07       		.uleb128 0x7
+ 283 005e 34       		.uleb128 0x34
+ 284 005f 00       		.byte	0
+ 285 0060 03       		.uleb128 0x3
+ 286 0061 0E       		.uleb128 0xe
+ 287 0062 3A       		.uleb128 0x3a
+ 288 0063 0B       		.uleb128 0xb
+ 289 0064 3B       		.uleb128 0x3b
+ 290 0065 0B       		.uleb128 0xb
+ 291 0066 49       		.uleb128 0x49
+ 292 0067 13       		.uleb128 0x13
+ 293 0068 02       		.uleb128 0x2
+ 294 0069 18       		.uleb128 0x18
+ 295 006a 00       		.byte	0
+ 296 006b 00       		.byte	0
+ 297 006c 08       		.uleb128 0x8
+ 298 006d 34       		.uleb128 0x34
+ 299 006e 00       		.byte	0
+ 300 006f 03       		.uleb128 0x3
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 7
+
+
+ 301 0070 0E       		.uleb128 0xe
+ 302 0071 3A       		.uleb128 0x3a
+ 303 0072 0B       		.uleb128 0xb
+ 304 0073 3B       		.uleb128 0x3b
+ 305 0074 05       		.uleb128 0x5
+ 306 0075 49       		.uleb128 0x49
+ 307 0076 13       		.uleb128 0x13
+ 308 0077 3F       		.uleb128 0x3f
+ 309 0078 19       		.uleb128 0x19
+ 310 0079 3C       		.uleb128 0x3c
+ 311 007a 19       		.uleb128 0x19
+ 312 007b 00       		.byte	0
+ 313 007c 00       		.byte	0
+ 314 007d 09       		.uleb128 0x9
+ 315 007e 35       		.uleb128 0x35
+ 316 007f 00       		.byte	0
+ 317 0080 49       		.uleb128 0x49
+ 318 0081 13       		.uleb128 0x13
+ 319 0082 00       		.byte	0
+ 320 0083 00       		.byte	0
+ 321 0084 00       		.byte	0
+ 322              		.section	.debug_aranges,"",%progbits
+ 323 0000 1C000000 		.4byte	0x1c
+ 324 0004 0200     		.2byte	0x2
+ 325 0006 00000000 		.4byte	.Ldebug_info0
+ 326 000a 04       		.byte	0x4
+ 327 000b 00       		.byte	0
+ 328 000c 0000     		.2byte	0
+ 329 000e 0000     		.2byte	0
+ 330 0010 00000000 		.4byte	.LFB63
+ 331 0014 2C000000 		.4byte	.LFE63-.LFB63
+ 332 0018 00000000 		.4byte	0
+ 333 001c 00000000 		.4byte	0
+ 334              		.section	.debug_ranges,"",%progbits
+ 335              	.Ldebug_ranges0:
+ 336 0000 00000000 		.4byte	.LFB63
+ 337 0004 2C000000 		.4byte	.LFE63
+ 338 0008 00000000 		.4byte	0
+ 339 000c 00000000 		.4byte	0
+ 340              		.section	.debug_line,"",%progbits
+ 341              	.Ldebug_line0:
+ 342 0000 77010000 		.section	.debug_str,"MS",%progbits,1
+ 342      02004C01 
+ 342      00000201 
+ 342      FB0E0D00 
+ 342      01010101 
+ 343              	.LASF6:
+ 344 0000 6C6F6E67 		.ascii	"long long int\000"
+ 344      206C6F6E 
+ 344      6720696E 
+ 344      7400
+ 345              	.LASF3:
+ 346 000e 73686F72 		.ascii	"short unsigned int\000"
+ 346      7420756E 
+ 346      7369676E 
+ 346      65642069 
+ 346      6E7400
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 8
+
+
+ 347              	.LASF8:
+ 348 0021 756E7369 		.ascii	"unsigned int\000"
+ 348      676E6564 
+ 348      20696E74 
+ 348      00
+ 349              	.LASF18:
+ 350 002e 6D61696E 		.ascii	"main.c\000"
+ 350      2E6300
+ 351              	.LASF20:
+ 352 0035 6D61696E 		.ascii	"main\000"
+ 352      00
+ 353              	.LASF11:
+ 354 003a 75696E74 		.ascii	"uint8\000"
+ 354      3800
+ 355              	.LASF5:
+ 356 0040 6C6F6E67 		.ascii	"long unsigned int\000"
+ 356      20756E73 
+ 356      69676E65 
+ 356      6420696E 
+ 356      7400
+ 357              	.LASF7:
+ 358 0052 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 358      206C6F6E 
+ 358      6720756E 
+ 358      7369676E 
+ 358      65642069 
+ 359              	.LASF17:
+ 360 0069 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 360      43313120 
+ 360      352E342E 
+ 360      31203230 
+ 360      31363036 
+ 361 009c 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 361      20726576 
+ 361      6973696F 
+ 361      6E203233 
+ 361      37373135 
+ 362 00cf 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 362      66756E63 
+ 362      74696F6E 
+ 362      2D736563 
+ 362      74696F6E 
+ 363              	.LASF1:
+ 364 00f7 756E7369 		.ascii	"unsigned char\000"
+ 364      676E6564 
+ 364      20636861 
+ 364      7200
+ 365              	.LASF14:
+ 366 0105 63686172 		.ascii	"char\000"
+ 366      00
+ 367              	.LASF4:
+ 368 010a 6C6F6E67 		.ascii	"long int\000"
+ 368      20696E74 
+ 368      00
+ 369              	.LASF13:
+ 370 0113 646F7562 		.ascii	"double\000"
+ 370      6C6500
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccyVNicp.s 			page 9
+
+
+ 371              	.LASF19:
+ 372 011a 433A5C55 		.ascii	"C:\\Users\\Silvan\\OneDrive\\Dokumente\\PSoC Creato"
+ 372      73657273 
+ 372      5C53696C 
+ 372      76616E5C 
+ 372      4F6E6544 
+ 373 0148 725C5761 		.ascii	"r\\WaveDAC8_Example01\\WaveDAC8_Example01.cydsn\000"
+ 373      76654441 
+ 373      43385F45 
+ 373      78616D70 
+ 373      6C653031 
+ 374              	.LASF22:
+ 375 0176 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 375      52784275 
+ 375      66666572 
+ 375      00
+ 376              	.LASF0:
+ 377 0183 7369676E 		.ascii	"signed char\000"
+ 377      65642063 
+ 377      68617200 
+ 378              	.LASF15:
+ 379 018f 6C6F6E67 		.ascii	"long double\000"
+ 379      20646F75 
+ 379      626C6500 
+ 380              	.LASF9:
+ 381 019b 5F5F696E 		.ascii	"__int32_t\000"
+ 381      7433325F 
+ 381      7400
+ 382              	.LASF12:
+ 383 01a5 666C6F61 		.ascii	"float\000"
+ 383      7400
+ 384              	.LASF2:
+ 385 01ab 73686F72 		.ascii	"short int\000"
+ 385      7420696E 
+ 385      7400
+ 386              	.LASF10:
+ 387 01b5 696E7433 		.ascii	"int32_t\000"
+ 387      325F7400 
+ 388              	.LASF21:
+ 389 01bd 66726571 		.ascii	"freqClockDivCounter\000"
+ 389      436C6F63 
+ 389      6B446976 
+ 389      436F756E 
+ 389      74657200 
+ 390              	.LASF16:
+ 391 01d1 73697A65 		.ascii	"sizetype\000"
+ 391      74797065 
+ 391      00
+ 392              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
