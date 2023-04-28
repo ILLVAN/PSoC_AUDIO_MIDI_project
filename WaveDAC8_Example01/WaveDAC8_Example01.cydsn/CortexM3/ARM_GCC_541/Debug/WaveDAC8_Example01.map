@@ -983,9 +983,9 @@ END GROUP
 
 .debug_str      0x00000000     0x1c3c
  *(.debug_str)
- .debug_str     0x00000000      0x197 .\CortexM3\ARM_GCC_541\Debug\main.o
-                                0x1df (size before relaxing)
- .debug_str     0x00000197      0x1d1 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_str     0x00000000      0x198 .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0x1e0 (size before relaxing)
+ .debug_str     0x00000198      0x1d0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
                                 0x31d (size before relaxing)
  .debug_str     0x00000368       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                                 0x1fe (size before relaxing)

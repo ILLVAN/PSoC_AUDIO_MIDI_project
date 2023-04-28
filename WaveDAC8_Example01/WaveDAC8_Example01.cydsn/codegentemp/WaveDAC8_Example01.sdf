@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2023-04-28T15:36:50Z")
+ (DATE "2023-04-28T16:00:48Z")
  (DESIGN "WaveDAC8_Example01")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")

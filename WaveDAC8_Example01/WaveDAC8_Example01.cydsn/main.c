@@ -35,13 +35,13 @@
 int main()
 {
     WaveDAC8_1_Start(); /* Start WaveDAC8  */
-    uint8 freqClockDivCounter = START_FREQ_DIV;
+    uint16 freqClockDivCounter = START_FREQ_DIV;
 	
     for(;;){         /* Loop forever    */
         Clock_1_SetDividerValue(freqClockDivCounter);
         freqClockDivCounter++;
         CyDelay(DELAY_MS);   
-        if (freqClockDivCounter > 254){
+        if (freqClockDivCounter > 30000){
             freqClockDivCounter = START_FREQ_DIV;
         }
     }
