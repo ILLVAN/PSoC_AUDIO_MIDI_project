@@ -29,8 +29,9 @@
 
 #include <project.h>
 #define START_FREQ_DIV 2
-#define DELAY_MS 100
 
+
+volatile uint16 delayMS = 100;
 
 int main()
 {
@@ -40,8 +41,15 @@ int main()
     for(;;){         /* Loop forever    */
         Clock_1_SetDividerValue(freqClockDivCounter);
         freqClockDivCounter++;
-        CyDelay(DELAY_MS);   
-        if (freqClockDivCounter > 30000){
+        CyDelay(delayMS); 
+        if ((delayMS - freqClockDivCounter) > 0){
+            delayMS -= freqClockDivCounter;
+        }
+        else if ( (delayMS - freqClockDivCounter) == 0){
+            delayMS = 100; 
+        }
+        if (freqClockDivCounter > 2000){
+            delayMS = 100;
             freqClockDivCounter = START_FREQ_DIV;
         }
     }

@@ -134,36 +134,6 @@
 <VisibleNodeIds>
 <v>WaveDAC8_Example01</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\P00_Vout.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp_PM.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_PM.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_VDAC8.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_VDAC8_PM.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_Wave1_DMA_dma.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_Wave2_DMA_dma.lst</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\WaveDAC8_Example01.elf</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\WaveDAC8_Example01.hex</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\WaveDAC8_Example01.map</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\WaveDAC8_Example01.gpdsc</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\WaveDAC8_Example01.rpt</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\WaveDAC8_Example01_timing.html</v>
 </VisibleNodeIds>
