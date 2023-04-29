@@ -21,3 +21,16 @@ navigate to folder cd "xxx"/"yyy" "						// wherever the local repo is located
 git remote -v									// check if repo is connected to remote
 git remote add origin https://github.com/NAME/repo_name.git		// change user & repo name, only needed if not connected
 git pull --verbose								// fetch & merge with outputs
+
+
+// SHOW ALL BRANCHES
+git log --all             // without --all, only historically lower branches are shown
+
+// SHOW BRANCH POINTERS
+git log --oneline --decorate
+
+// EXIT BRANCH
+git checkout
+
+// SWITCH TO OTHER BRANCH
+git checkout otherbranch      
