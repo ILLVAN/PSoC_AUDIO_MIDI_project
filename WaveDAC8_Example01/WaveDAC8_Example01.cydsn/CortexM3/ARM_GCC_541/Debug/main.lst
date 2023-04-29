@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 1
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 1
 
 
    1              		.syntax unified
@@ -19,28 +19,512 @@ ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.global	delayMS
-  20              		.data
-  21              		.align	1
-  22              		.type	delayMS, %object
-  23              		.size	delayMS, 2
-  24              	delayMS:
-  25 0000 6400     		.short	100
-  26              		.global	onOffCount
-  27              		.bss
-  28              		.type	onOffCount, %object
-  29              		.size	onOffCount, 1
-  30              	onOffCount:
-  31 0000 00       		.space	1
-  32              		.section	.text.main,"ax",%progbits
-  33              		.align	2
-  34              		.global	main
-  35              		.thumb
-  36              		.thumb_func
-  37              		.type	main, %function
-  38              	main:
-  39              	.LFB63:
-  40              		.file 1 "main.c"
+  19              		.global	notes
+  20              		.section	.rodata
+  21              		.align	2
+  22              		.type	notes, %object
+  23              		.size	notes, 432
+  24              	notes:
+  25 0000 43302000 		.ascii	"C0 \000"
+  26 0004 43233000 		.ascii	"C#0\000"
+  27 0008 44302000 		.ascii	"D0 \000"
+  28 000c 44233000 		.ascii	"D#0\000"
+  29 0010 45302000 		.ascii	"E0 \000"
+  30 0014 46302000 		.ascii	"F0 \000"
+  31 0018 46233000 		.ascii	"F#0\000"
+  32 001c 47302000 		.ascii	"G0 \000"
+  33 0020 47233000 		.ascii	"G#0\000"
+  34 0024 41302000 		.ascii	"A0 \000"
+  35 0028 41233000 		.ascii	"A#0\000"
+  36 002c 42302000 		.ascii	"B0 \000"
+  37 0030 43312000 		.ascii	"C1 \000"
+  38 0034 43233100 		.ascii	"C#1\000"
+  39 0038 44312000 		.ascii	"D1 \000"
+  40 003c 44233100 		.ascii	"D#1\000"
+  41 0040 45312000 		.ascii	"E1 \000"
+  42 0044 46312000 		.ascii	"F1 \000"
+  43 0048 46233100 		.ascii	"F#1\000"
+  44 004c 47312000 		.ascii	"G1 \000"
+  45 0050 47233100 		.ascii	"G#1\000"
+  46 0054 41312000 		.ascii	"A1 \000"
+  47 0058 41233100 		.ascii	"A#1\000"
+  48 005c 42312000 		.ascii	"B1 \000"
+  49 0060 43322000 		.ascii	"C2 \000"
+  50 0064 43233200 		.ascii	"C#2\000"
+  51 0068 44322000 		.ascii	"D2 \000"
+  52 006c 44233200 		.ascii	"D#2\000"
+  53 0070 45322000 		.ascii	"E2 \000"
+  54 0074 46322000 		.ascii	"F2 \000"
+  55 0078 46233200 		.ascii	"F#2\000"
+  56 007c 47322000 		.ascii	"G2 \000"
+  57 0080 47233200 		.ascii	"G#2\000"
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 2
+
+
+  58 0084 41322000 		.ascii	"A2 \000"
+  59 0088 41233200 		.ascii	"A#2\000"
+  60 008c 42322000 		.ascii	"B2 \000"
+  61 0090 43332000 		.ascii	"C3 \000"
+  62 0094 43233300 		.ascii	"C#3\000"
+  63 0098 44332000 		.ascii	"D3 \000"
+  64 009c 44233300 		.ascii	"D#3\000"
+  65 00a0 45332000 		.ascii	"E3 \000"
+  66 00a4 46332000 		.ascii	"F3 \000"
+  67 00a8 46233300 		.ascii	"F#3\000"
+  68 00ac 47332000 		.ascii	"G3 \000"
+  69 00b0 47233300 		.ascii	"G#3\000"
+  70 00b4 41332000 		.ascii	"A3 \000"
+  71 00b8 41233300 		.ascii	"A#3\000"
+  72 00bc 42332000 		.ascii	"B3 \000"
+  73 00c0 43342000 		.ascii	"C4 \000"
+  74 00c4 43233400 		.ascii	"C#4\000"
+  75 00c8 44342000 		.ascii	"D4 \000"
+  76 00cc 44233400 		.ascii	"D#4\000"
+  77 00d0 45342000 		.ascii	"E4 \000"
+  78 00d4 46342000 		.ascii	"F4 \000"
+  79 00d8 46233400 		.ascii	"F#4\000"
+  80 00dc 47342000 		.ascii	"G4 \000"
+  81 00e0 47233400 		.ascii	"G#4\000"
+  82 00e4 41342000 		.ascii	"A4 \000"
+  83 00e8 41233400 		.ascii	"A#4\000"
+  84 00ec 42342000 		.ascii	"B4 \000"
+  85 00f0 43352000 		.ascii	"C5 \000"
+  86 00f4 43233500 		.ascii	"C#5\000"
+  87 00f8 44352000 		.ascii	"D5 \000"
+  88 00fc 44233500 		.ascii	"D#5\000"
+  89 0100 45352000 		.ascii	"E5 \000"
+  90 0104 46352000 		.ascii	"F5 \000"
+  91 0108 46233500 		.ascii	"F#5\000"
+  92 010c 47352000 		.ascii	"G5 \000"
+  93 0110 47233500 		.ascii	"G#5\000"
+  94 0114 41352000 		.ascii	"A5 \000"
+  95 0118 41233500 		.ascii	"A#5\000"
+  96 011c 42352000 		.ascii	"B5 \000"
+  97 0120 43362000 		.ascii	"C6 \000"
+  98 0124 43233600 		.ascii	"C#6\000"
+  99 0128 44362000 		.ascii	"D6 \000"
+ 100 012c 44233600 		.ascii	"D#6\000"
+ 101 0130 45362000 		.ascii	"E6 \000"
+ 102 0134 46362000 		.ascii	"F6 \000"
+ 103 0138 46233600 		.ascii	"F#6\000"
+ 104 013c 47362000 		.ascii	"G6 \000"
+ 105 0140 47233600 		.ascii	"G#6\000"
+ 106 0144 41362000 		.ascii	"A6 \000"
+ 107 0148 41233600 		.ascii	"A#6\000"
+ 108 014c 42362000 		.ascii	"B6 \000"
+ 109 0150 43372000 		.ascii	"C7 \000"
+ 110 0154 43233700 		.ascii	"C#7\000"
+ 111 0158 44372000 		.ascii	"D7 \000"
+ 112 015c 44233700 		.ascii	"D#7\000"
+ 113 0160 45372000 		.ascii	"E7 \000"
+ 114 0164 46372000 		.ascii	"F7 \000"
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 3
+
+
+ 115 0168 46233700 		.ascii	"F#7\000"
+ 116 016c 47372000 		.ascii	"G7 \000"
+ 117 0170 47233700 		.ascii	"G#7\000"
+ 118 0174 41372000 		.ascii	"A7 \000"
+ 119 0178 41233700 		.ascii	"A#7\000"
+ 120 017c 42372000 		.ascii	"B7 \000"
+ 121 0180 43382000 		.ascii	"C8 \000"
+ 122 0184 43233800 		.ascii	"C#8\000"
+ 123 0188 44382000 		.ascii	"D8 \000"
+ 124 018c 44233800 		.ascii	"D#8\000"
+ 125 0190 45382000 		.ascii	"E8 \000"
+ 126 0194 46382000 		.ascii	"F8 \000"
+ 127 0198 46233800 		.ascii	"F#8\000"
+ 128 019c 47382000 		.ascii	"G8 \000"
+ 129 01a0 47233800 		.ascii	"G#8\000"
+ 130 01a4 41382000 		.ascii	"A8 \000"
+ 131 01a8 41233800 		.ascii	"A#8\000"
+ 132 01ac 42382000 		.ascii	"B8 \000"
+ 133              		.global	intFrequency
+ 134              		.align	2
+ 135              		.type	intFrequency, %object
+ 136              		.size	intFrequency, 216
+ 137              	intFrequency:
+ 138 01b0 1000     		.short	16
+ 139 01b2 1100     		.short	17
+ 140 01b4 1200     		.short	18
+ 141 01b6 1300     		.short	19
+ 142 01b8 1500     		.short	21
+ 143 01ba 1600     		.short	22
+ 144 01bc 1700     		.short	23
+ 145 01be 1900     		.short	25
+ 146 01c0 1A00     		.short	26
+ 147 01c2 1C00     		.short	28
+ 148 01c4 1D00     		.short	29
+ 149 01c6 1F00     		.short	31
+ 150 01c8 2100     		.short	33
+ 151 01ca 2300     		.short	35
+ 152 01cc 2500     		.short	37
+ 153 01ce 2700     		.short	39
+ 154 01d0 2900     		.short	41
+ 155 01d2 2C00     		.short	44
+ 156 01d4 2E00     		.short	46
+ 157 01d6 3100     		.short	49
+ 158 01d8 3400     		.short	52
+ 159 01da 3700     		.short	55
+ 160 01dc 3A00     		.short	58
+ 161 01de 3E00     		.short	62
+ 162 01e0 4100     		.short	65
+ 163 01e2 4500     		.short	69
+ 164 01e4 4900     		.short	73
+ 165 01e6 4E00     		.short	78
+ 166 01e8 5200     		.short	82
+ 167 01ea 5700     		.short	87
+ 168 01ec 5C00     		.short	92
+ 169 01ee 6200     		.short	98
+ 170 01f0 6800     		.short	104
+ 171 01f2 6E00     		.short	110
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 4
+
+
+ 172 01f4 7500     		.short	117
+ 173 01f6 7B00     		.short	123
+ 174 01f8 8300     		.short	131
+ 175 01fa 8B00     		.short	139
+ 176 01fc 9300     		.short	147
+ 177 01fe 9C00     		.short	156
+ 178 0200 A500     		.short	165
+ 179 0202 AF00     		.short	175
+ 180 0204 B900     		.short	185
+ 181 0206 C400     		.short	196
+ 182 0208 D000     		.short	208
+ 183 020a DC00     		.short	220
+ 184 020c E900     		.short	233
+ 185 020e F700     		.short	247
+ 186 0210 0601     		.short	262
+ 187 0212 1501     		.short	277
+ 188 0214 2601     		.short	294
+ 189 0216 3701     		.short	311
+ 190 0218 4A01     		.short	330
+ 191 021a 5D01     		.short	349
+ 192 021c 7201     		.short	370
+ 193 021e 8801     		.short	392
+ 194 0220 9F01     		.short	415
+ 195 0222 B801     		.short	440
+ 196 0224 D201     		.short	466
+ 197 0226 EE01     		.short	494
+ 198 0228 0B02     		.short	523
+ 199 022a 2A02     		.short	554
+ 200 022c 4B02     		.short	587
+ 201 022e 6E02     		.short	622
+ 202 0230 9302     		.short	659
+ 203 0232 BA02     		.short	698
+ 204 0234 E402     		.short	740
+ 205 0236 1003     		.short	784
+ 206 0238 3F03     		.short	831
+ 207 023a 7003     		.short	880
+ 208 023c A403     		.short	932
+ 209 023e DC03     		.short	988
+ 210 0240 1704     		.short	1047
+ 211 0242 5504     		.short	1109
+ 212 0244 9704     		.short	1175
+ 213 0246 DD04     		.short	1245
+ 214 0248 2705     		.short	1319
+ 215 024a 7505     		.short	1397
+ 216 024c C805     		.short	1480
+ 217 024e 2006     		.short	1568
+ 218 0250 7D06     		.short	1661
+ 219 0252 E006     		.short	1760
+ 220 0254 4907     		.short	1865
+ 221 0256 B807     		.short	1976
+ 222 0258 2D08     		.short	2093
+ 223 025a A908     		.short	2217
+ 224 025c 2D09     		.short	2349
+ 225 025e B909     		.short	2489
+ 226 0260 4D0A     		.short	2637
+ 227 0262 EA0A     		.short	2794
+ 228 0264 900B     		.short	2960
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 5
+
+
+ 229 0266 400C     		.short	3136
+ 230 0268 FA0C     		.short	3322
+ 231 026a C00D     		.short	3520
+ 232 026c 920E     		.short	3730
+ 233 026e 6F0F     		.short	3951
+ 234 0270 5A10     		.short	4186
+ 235 0272 5311     		.short	4435
+ 236 0274 5B12     		.short	4699
+ 237 0276 7213     		.short	4978
+ 238 0278 9A14     		.short	5274
+ 239 027a D415     		.short	5588
+ 240 027c 1F17     		.short	5919
+ 241 027e 8018     		.short	6272
+ 242 0280 F519     		.short	6645
+ 243 0282 801B     		.short	7040
+ 244 0284 231D     		.short	7459
+ 245 0286 DE1E     		.short	7902
+ 246              		.global	frequency
+ 247              		.align	3
+ 248              		.type	frequency, %object
+ 249              		.size	frequency, 864
+ 250              	frequency:
+ 251 0288 9A999999 		.word	-1717986918
+ 252 028c 99593040 		.word	1076910489
+ 253 0290 52B81E85 		.word	-2061584302
+ 254 0294 EB513140 		.word	1076974059
+ 255 0298 9A999999 		.word	-1717986918
+ 256 029c 99593240 		.word	1077041561
+ 257 02a0 33333333 		.word	858993459
+ 258 02a4 33733340 		.word	1077113651
+ 259 02a8 9A999999 		.word	-1717986918
+ 260 02ac 99993440 		.word	1077189017
+ 261 02b0 14AE47E1 		.word	-515396076
+ 262 02b4 7AD43540 		.word	1077269626
+ 263 02b8 1F85EB51 		.word	1374389535
+ 264 02bc B81E3740 		.word	1077354168
+ 265 02c0 00000000 		.word	0
+ 266 02c4 00803840 		.word	1077444608
+ 267 02c8 F6285C8F 		.word	-1889785610
+ 268 02cc C2F53940 		.word	1077540290
+ 269 02d0 00000000 		.word	0
+ 270 02d4 00803B40 		.word	1077641216
+ 271 02d8 A4703D0A 		.word	171798692
+ 272 02dc D7233D40 		.word	1077748695
+ 273 02e0 1F85EB51 		.word	1374389535
+ 274 02e4 B8DE3E40 		.word	1077862072
+ 275 02e8 9A999999 		.word	-1717986918
+ 276 02ec 99594040 		.word	1077959065
+ 277 02f0 33333333 		.word	858993459
+ 278 02f4 33534140 		.word	1078022963
+ 279 02f8 7B14AE47 		.word	1202590843
+ 280 02fc E15A4240 		.word	1078090465
+ 281 0300 52B81E85 		.word	-2061584302
+ 282 0304 EB714340 		.word	1078161899
+ 283 0308 9A999999 		.word	-1717986918
+ 284 030c 99994440 		.word	1078237593
+ 285 0310 33333333 		.word	858993459
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 6
+
+
+ 286 0314 33D34540 		.word	1078317875
+ 287 0318 00000000 		.word	0
+ 288 031c 00204740 		.word	1078403072
+ 289 0320 00000000 		.word	0
+ 290 0324 00804840 		.word	1078493184
+ 291 0328 14AE47E1 		.word	-515396076
+ 292 032c 7AF44940 		.word	1078588538
+ 293 0330 00000000 		.word	0
+ 294 0334 00804B40 		.word	1078689792
+ 295 0338 C3F5285C 		.word	1546188227
+ 296 033c 8F224D40 		.word	1078796943
+ 297 0340 1F85EB51 		.word	1374389535
+ 298 0344 B8DE4E40 		.word	1078910648
+ 299 0348 0AD7A370 		.word	1889785610
+ 300 034c 3D5A5040 		.word	1079007805
+ 301 0350 33333333 		.word	858993459
+ 302 0354 33535140 		.word	1079071539
+ 303 0358 7B14AE47 		.word	1202590843
+ 304 035c E15A5240 		.word	1079139041
+ 305 0360 52B81E85 		.word	-2061584302
+ 306 0364 EB715340 		.word	1079210475
+ 307 0368 0AD7A370 		.word	1889785610
+ 308 036c 3D9A5440 		.word	1079286333
+ 309 0370 A4703D0A 		.word	171798692
+ 310 0374 D7D35540 		.word	1079366615
+ 311 0378 00000000 		.word	0
+ 312 037c 00205740 		.word	1079451648
+ 313 0380 00000000 		.word	0
+ 314 0384 00805840 		.word	1079541760
+ 315 0388 85EB51B8 		.word	-1202590843
+ 316 038c 1EF55940 		.word	1079637278
+ 317 0390 00000000 		.word	0
+ 318 0394 00805B40 		.word	1079738368
+ 319 0398 C3F5285C 		.word	1546188227
+ 320 039c 8F225D40 		.word	1079845519
+ 321 03a0 AE47E17A 		.word	2061584302
+ 322 03a4 14DE5E40 		.word	1079959060
+ 323 03a8 52B81E85 		.word	-2061584302
+ 324 03ac EB596040 		.word	1080056299
+ 325 03b0 7B14AE47 		.word	1202590843
+ 326 03b4 E1526140 		.word	1080120033
+ 327 03b8 C3F5285C 		.word	1546188227
+ 328 03bc 8F5A6240 		.word	1080187535
+ 329 03c0 52B81E85 		.word	-2061584302
+ 330 03c4 EB716340 		.word	1080259051
+ 331 03c8 52B81E85 		.word	-2061584302
+ 332 03cc EB996440 		.word	1080334827
+ 333 03d0 EC51B81E 		.word	515396076
+ 334 03d4 85D36540 		.word	1080415109
+ 335 03d8 00000000 		.word	0
+ 336 03dc 00206740 		.word	1080500224
+ 337 03e0 00000000 		.word	0
+ 338 03e4 00806840 		.word	1080590336
+ 339 03e8 CDCCCCCC 		.word	-858993459
+ 340 03ec CCF46940 		.word	1080685772
+ 341 03f0 00000000 		.word	0
+ 342 03f4 00806B40 		.word	1080786944
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 7
+
+
+ 343 03f8 C3F5285C 		.word	1546188227
+ 344 03fc 8F226D40 		.word	1080894095
+ 345 0400 AE47E17A 		.word	2061584302
+ 346 0404 14DE6E40 		.word	1081007636
+ 347 0408 AE47E17A 		.word	2061584302
+ 348 040c 145A7040 		.word	1081104916
+ 349 0410 7B14AE47 		.word	1202590843
+ 350 0414 E1527140 		.word	1081168609
+ 351 0418 C3F5285C 		.word	1546188227
+ 352 041c 8F5A7240 		.word	1081236111
+ 353 0420 AE47E17A 		.word	2061584302
+ 354 0424 14727340 		.word	1081307668
+ 355 0428 AE47E17A 		.word	2061584302
+ 356 042c 149A7440 		.word	1081383444
+ 357 0430 48E17A14 		.word	343597384
+ 358 0434 AED37540 		.word	1081463726
+ 359 0438 A4703D0A 		.word	171798692
+ 360 043c D71F7740 		.word	1081548759
+ 361 0440 00000000 		.word	0
+ 362 0444 00807840 		.word	1081638912
+ 363 0448 CDCCCCCC 		.word	-858993459
+ 364 044c CCF47940 		.word	1081734348
+ 365 0450 00000000 		.word	0
+ 366 0454 00807B40 		.word	1081835520
+ 367 0458 C3F5285C 		.word	1546188227
+ 368 045c 8F227D40 		.word	1081942671
+ 369 0460 AE47E17A 		.word	2061584302
+ 370 0464 14DE7E40 		.word	1082056212
+ 371 0468 00000000 		.word	0
+ 372 046c 005A8040 		.word	1082153472
+ 373 0470 295C8FC2 		.word	-1030792151
+ 374 0474 F5528140 		.word	1082217205
+ 375 0478 713D0AD7 		.word	-687194767
+ 376 047c A35A8240 		.word	1082284707
+ 377 0480 00000000 		.word	0
+ 378 0484 00728340 		.word	1082356224
+ 379 0488 00000000 		.word	0
+ 380 048c 009A8440 		.word	1082432000
+ 381 0490 48E17A14 		.word	343597384
+ 382 0494 AED38540 		.word	1082512302
+ 383 0498 52B81E85 		.word	-2061584302
+ 384 049c EB1F8740 		.word	1082597355
+ 385 04a0 52B81E85 		.word	-2061584302
+ 386 04a4 EB7F8840 		.word	1082687467
+ 387 04a8 7B14AE47 		.word	1202590843
+ 388 04ac E1F48940 		.word	1082782945
+ 389 04b0 00000000 		.word	0
+ 390 04b4 00808B40 		.word	1082884096
+ 391 04b8 713D0AD7 		.word	-687194767
+ 392 04bc A3228D40 		.word	1082991267
+ 393 04c0 5C8FC2F5 		.word	-171798692
+ 394 04c4 28DE8E40 		.word	1083104808
+ 395 04c8 00000000 		.word	0
+ 396 04cc 005A9040 		.word	1083202048
+ 397 04d0 52B81E85 		.word	-2061584302
+ 398 04d4 EB529140 		.word	1083265771
+ 399 04d8 713D0AD7 		.word	-687194767
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 8
+
+
+ 400 04dc A35A9240 		.word	1083333283
+ 401 04e0 D7A3703D 		.word	1030792151
+ 402 04e4 0A729340 		.word	1083404810
+ 403 04e8 D7A3703D 		.word	1030792151
+ 404 04ec 0A9A9440 		.word	1083480586
+ 405 04f0 713D0AD7 		.word	-687194767
+ 406 04f4 A3D39540 		.word	1083560867
+ 407 04f8 52B81E85 		.word	-2061584302
+ 408 04fc EB1F9740 		.word	1083645931
+ 409 0500 52B81E85 		.word	-2061584302
+ 410 0504 EB7F9840 		.word	1083736043
+ 411 0508 7B14AE47 		.word	1202590843
+ 412 050c E1F49940 		.word	1083831521
+ 413 0510 00000000 		.word	0
+ 414 0514 00809B40 		.word	1083932672
+ 415 0518 713D0AD7 		.word	-687194767
+ 416 051c A3229D40 		.word	1084039843
+ 417 0520 85EB51B8 		.word	-1202590843
+ 418 0524 1EDE9E40 		.word	1084153374
+ 419 0528 00000000 		.word	0
+ 420 052c 005AA040 		.word	1084250624
+ 421 0530 52B81E85 		.word	-2061584302
+ 422 0534 EB52A140 		.word	1084314347
+ 423 0538 713D0AD7 		.word	-687194767
+ 424 053c A35AA240 		.word	1084381859
+ 425 0540 D7A3703D 		.word	1030792151
+ 426 0544 0A72A340 		.word	1084453386
+ 427 0548 D7A3703D 		.word	1030792151
+ 428 054c 0A9AA440 		.word	1084529162
+ 429 0550 5C8FC2F5 		.word	-171798692
+ 430 0554 A8D3A540 		.word	1084609448
+ 431 0558 52B81E85 		.word	-2061584302
+ 432 055c EB1FA740 		.word	1084694507
+ 433 0560 52B81E85 		.word	-2061584302
+ 434 0564 EB7FA840 		.word	1084784619
+ 435 0568 7B14AE47 		.word	1202590843
+ 436 056c E1F4A940 		.word	1084880097
+ 437 0570 00000000 		.word	0
+ 438 0574 0080AB40 		.word	1084981248
+ 439 0578 85EB51B8 		.word	-1202590843
+ 440 057c 9E22AD40 		.word	1085088414
+ 441 0580 713D0AD7 		.word	-687194767
+ 442 0584 23DEAE40 		.word	1085201955
+ 443 0588 F6285C8F 		.word	-1889785610
+ 444 058c 025AB040 		.word	1085299202
+ 445 0590 52B81E85 		.word	-2061584302
+ 446 0594 EB52B140 		.word	1085362923
+ 447 0598 7B14AE47 		.word	1202590843
+ 448 059c A15AB240 		.word	1085430433
+ 449 05a0 E17A14AE 		.word	-1374389535
+ 450 05a4 0772B340 		.word	1085501959
+ 451 05a8 D7A3703D 		.word	1030792151
+ 452 05ac 0A9AB440 		.word	1085577738
+ 453 05b0 66666666 		.word	1717986918
+ 454 05b4 A6D3B540 		.word	1085658022
+ 455 05b8 5C8FC2F5 		.word	-171798692
+ 456 05bc E81FB740 		.word	1085743080
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 9
+
+
+ 457 05c0 48E17A14 		.word	343597384
+ 458 05c4 EE7FB840 		.word	1085833198
+ 459 05c8 7B14AE47 		.word	1202590843
+ 460 05cc E1F4B940 		.word	1085928673
+ 461 05d0 00000000 		.word	0
+ 462 05d4 0080BB40 		.word	1086029824
+ 463 05d8 85EB51B8 		.word	-1202590843
+ 464 05dc 9E22BD40 		.word	1086136990
+ 465 05e0 7B14AE47 		.word	1202590843
+ 466 05e4 21DEBE40 		.word	1086250529
+ 467              		.global	delayMS
+ 468              		.data
+ 469              		.align	1
+ 470              		.type	delayMS, %object
+ 471              		.size	delayMS, 2
+ 472              	delayMS:
+ 473 0000 6400     		.short	100
+ 474              		.global	onOffCount
+ 475              		.bss
+ 476              		.type	onOffCount, %object
+ 477              		.size	onOffCount, 1
+ 478              	onOffCount:
+ 479 0000 00       		.space	1
+ 480              		.comm	transmitBuffer,100,4
+ 481              		.comm	freq,2,2
+ 482              		.comm	note,3,4
+ 483              		.comm	noteIndex,1,1
+ 484              		.comm	playing,1,1
+ 485              		.section	.rodata
+ 486              		.align	2
+ 487              	.LC0:
+ 488 05e8 25632563 		.ascii	"%c%c%c : %i \012\015\000"
+ 488      2563203A 
+ 488      20256920 
+ 488      0A0D00
+ 489              		.section	.text.main,"ax",%progbits
+ 490              		.align	2
+ 491              		.global	main
+ 492              		.thumb
+ 493              		.thumb_func
+ 494              		.type	main, %function
+ 495              	main:
+ 496              	.LFB64:
+ 497              		.file 1 "main.c"
    1:main.c        **** /*******************************************************************************
    2:main.c        **** * File: main.c      
    3:main.c        **** *
@@ -54,13 +538,13 @@ ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 1
   11:main.c        **** *  Pin Connections:
   12:main.c        **** *  P0[0] --> SineWave output
   13:main.c        **** * 
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 10
+
+
   14:main.c        **** * Code Tested With:
   15:main.c        **** *  1. PPSoC Creator 3.0 build 1124
   16:main.c        **** *  2. DP8051 Keil 9.51
   17:main.c        **** *  3. ARM GCC 4.7.3
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 2
-
-
   18:main.c        **** *
   19:main.c        **** ********************************************************************************
   20:main.c        **** * Copyright 2013, Cypress Semiconductor Corporation. All rights reserved.
@@ -74,628 +558,981 @@ ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 1
   28:main.c        **** *******************************************************************************/
   29:main.c        **** 
   30:main.c        **** #include <project.h>
-  31:main.c        **** #define START_FREQ_DIV 8
-  32:main.c        **** 
-  33:main.c        **** volatile uint16 delayMS = 100;
-  34:main.c        **** volatile uint8 onOffCount = 0;
-  35:main.c        **** 
-  36:main.c        **** int main()
-  37:main.c        **** {
-  41              		.loc 1 37 0
-  42              		.cfi_startproc
-  43              		@ args = 0, pretend = 0, frame = 8
-  44              		@ frame_needed = 1, uses_anonymous_args = 0
-  45 0000 80B5     		push	{r7, lr}
-  46              		.cfi_def_cfa_offset 8
-  47              		.cfi_offset 7, -8
-  48              		.cfi_offset 14, -4
-  49 0002 82B0     		sub	sp, sp, #8
-  50              		.cfi_def_cfa_offset 16
-  51 0004 00AF     		add	r7, sp, #0
-  52              		.cfi_def_cfa_register 7
-  38:main.c        ****     uint16 freqClockDivCounter = START_FREQ_DIV;
-  53              		.loc 1 38 0
-  54 0006 0823     		movs	r3, #8
-  55 0008 FB80     		strh	r3, [r7, #6]	@ movhi
-  56              	.L7:
-  39:main.c        **** 	
-  40:main.c        ****     for(;;){         /* Loop forever    */
-  41:main.c        ****         if (onOffCount < 1){
-  57              		.loc 1 41 0
-  58 000a 254B     		ldr	r3, .L8
-  59 000c 1B78     		ldrb	r3, [r3]
-  60 000e DBB2     		uxtb	r3, r3
-  61 0010 002B     		cmp	r3, #0
-  62 0012 02D1     		bne	.L2
-  42:main.c        ****             WaveDAC8_1_Start(); /* Start WaveDAC8  */
-  63              		.loc 1 42 0
-  64 0014 FFF7FEFF 		bl	WaveDAC8_1_Start
-  65 0018 06E0     		b	.L3
-  66              	.L2:
-  43:main.c        ****         }
-  44:main.c        ****         else if(onOffCount == 127){
-  67              		.loc 1 44 0
-  68 001a 214B     		ldr	r3, .L8
-  69 001c 1B78     		ldrb	r3, [r3]
-  70 001e DBB2     		uxtb	r3, r3
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 3
+  31:main.c        **** #include <stdio.h>
+  32:main.c        **** #define START_FREQ_DIV 8
+  33:main.c        **** 
+  34:main.c        **** const char notes[108][4] = {"C0 ", "C#0", "D0 ", "D#0", "E0 ", "F0 ", "F#0", "G0 ", "G#0", "A0 ", "
+  35:main.c        **** const uint16 intFrequency[108] = {16, 17, 18, 19, 21, 22, 23, 25, 26, 28, 29, 31, 33, 35, 37, 39, 4
+  36:main.c        **** const double frequency[108] = {16.35,17.32,18.35,19.45,20.60,21.83,23.12,24.50,25.96,27.50,29.14,30
+  37:main.c        **** 
+  38:main.c        **** volatile uint16 delayMS = 100;
+  39:main.c        **** volatile uint8 onOffCount = 0;
+  40:main.c        **** char transmitBuffer[100];
+  41:main.c        **** volatile uint16 freq;
+  42:main.c        **** volatile char note[3];
+  43:main.c        **** volatile uint8 noteIndex;
+  44:main.c        **** volatile uint8 playing;
+  45:main.c        **** 
+  46:main.c        **** int main()
+  47:main.c        **** {
+ 498              		.loc 1 47 0
+ 499              		.cfi_startproc
+ 500              		@ args = 0, pretend = 0, frame = 8
+ 501              		@ frame_needed = 1, uses_anonymous_args = 0
+ 502 0000 90B5     		push	{r4, r7, lr}
+ 503              		.cfi_def_cfa_offset 12
+ 504              		.cfi_offset 4, -12
+ 505              		.cfi_offset 7, -8
+ 506              		.cfi_offset 14, -4
+ 507 0002 85B0     		sub	sp, sp, #20
+ 508              		.cfi_def_cfa_offset 32
+ 509 0004 02AF     		add	r7, sp, #8
+ 510              		.cfi_def_cfa 7, 24
+  48:main.c        ****     uint16 freqClockDivCounter = START_FREQ_DIV;
+ 511              		.loc 1 48 0
+ 512 0006 0823     		movs	r3, #8
+ 513 0008 FB80     		strh	r3, [r7, #6]	@ movhi
+  49:main.c        **** 	UART_1_Start();
+ 514              		.loc 1 49 0
+ 515 000a FFF7FEFF 		bl	UART_1_Start
+ 516              	.L10:
+  50:main.c        ****     for(;;){         /* Loop forever    */
+  51:main.c        ****         if (onOffCount < 1){
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 11
 
 
-  71 0020 7F2B     		cmp	r3, #127
-  72 0022 01D1     		bne	.L3
-  45:main.c        ****             WaveDAC8_1_Stop();
-  73              		.loc 1 45 0
-  74 0024 FFF7FEFF 		bl	WaveDAC8_1_Stop
-  75              	.L3:
-  46:main.c        ****         }
-  47:main.c        ****         onOffCount++;
-  76              		.loc 1 47 0
-  77 0028 1D4B     		ldr	r3, .L8
-  78 002a 1B78     		ldrb	r3, [r3]
-  79 002c DBB2     		uxtb	r3, r3
-  80 002e 0133     		adds	r3, r3, #1
-  81 0030 DAB2     		uxtb	r2, r3
-  82 0032 1B4B     		ldr	r3, .L8
-  83 0034 1A70     		strb	r2, [r3]
-  48:main.c        ****         Clock_1_SetDividerValue(freqClockDivCounter);
-  84              		.loc 1 48 0
-  85 0036 FB88     		ldrh	r3, [r7, #6]	@ movhi
-  86 0038 013B     		subs	r3, r3, #1
-  87 003a 9BB2     		uxth	r3, r3
-  88 003c 0121     		movs	r1, #1
-  89 003e 1846     		mov	r0, r3
-  90 0040 FFF7FEFF 		bl	Clock_1_SetDividerRegister
-  49:main.c        ****         freqClockDivCounter++;
-  91              		.loc 1 49 0
-  92 0044 FB88     		ldrh	r3, [r7, #6]
-  93 0046 0133     		adds	r3, r3, #1
-  94 0048 FB80     		strh	r3, [r7, #6]	@ movhi
-  50:main.c        ****         CyDelay(delayMS); 
-  95              		.loc 1 50 0
-  96 004a 164B     		ldr	r3, .L8+4
-  97 004c 1B88     		ldrh	r3, [r3]	@ movhi
-  98 004e 9BB2     		uxth	r3, r3
-  99 0050 1846     		mov	r0, r3
- 100 0052 FFF7FEFF 		bl	CyDelay
-  51:main.c        ****         if ((delayMS - freqClockDivCounter) > 0){
- 101              		.loc 1 51 0
- 102 0056 134B     		ldr	r3, .L8+4
- 103 0058 1B88     		ldrh	r3, [r3]	@ movhi
- 104 005a 9BB2     		uxth	r3, r3
- 105 005c 1A46     		mov	r2, r3
- 106 005e FB88     		ldrh	r3, [r7, #6]
- 107 0060 D31A     		subs	r3, r2, r3
- 108 0062 002B     		cmp	r3, #0
- 109 0064 08DD     		ble	.L4
-  52:main.c        ****             delayMS -= freqClockDivCounter;
- 110              		.loc 1 52 0
- 111 0066 0F4B     		ldr	r3, .L8+4
- 112 0068 1B88     		ldrh	r3, [r3]	@ movhi
- 113 006a 9AB2     		uxth	r2, r3
- 114 006c FB88     		ldrh	r3, [r7, #6]	@ movhi
- 115 006e D31A     		subs	r3, r2, r3
- 116 0070 9AB2     		uxth	r2, r3
- 117 0072 0C4B     		ldr	r3, .L8+4
- 118 0074 1A80     		strh	r2, [r3]	@ movhi
- 119 0076 08E0     		b	.L5
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 4
+ 517              		.loc 1 51 0
+ 518 000e 4E4B     		ldr	r3, .L11
+ 519 0010 1B78     		ldrb	r3, [r3]
+ 520 0012 DBB2     		uxtb	r3, r3
+ 521 0014 002B     		cmp	r3, #0
+ 522 0016 05D1     		bne	.L2
+  52:main.c        ****             WaveDAC8_1_Start(); /* Start WaveDAC8  */
+ 523              		.loc 1 52 0
+ 524 0018 FFF7FEFF 		bl	WaveDAC8_1_Start
+  53:main.c        ****             playing = 1;
+ 525              		.loc 1 53 0
+ 526 001c 4B4B     		ldr	r3, .L11+4
+ 527 001e 0122     		movs	r2, #1
+ 528 0020 1A70     		strb	r2, [r3]
+ 529 0022 09E0     		b	.L3
+ 530              	.L2:
+  54:main.c        ****         }
+  55:main.c        ****         else if(onOffCount == 127){
+ 531              		.loc 1 55 0
+ 532 0024 484B     		ldr	r3, .L11
+ 533 0026 1B78     		ldrb	r3, [r3]
+ 534 0028 DBB2     		uxtb	r3, r3
+ 535 002a 7F2B     		cmp	r3, #127
+ 536 002c 04D1     		bne	.L3
+  56:main.c        ****             WaveDAC8_1_Stop();
+ 537              		.loc 1 56 0
+ 538 002e FFF7FEFF 		bl	WaveDAC8_1_Stop
+  57:main.c        ****             playing = 0;
+ 539              		.loc 1 57 0
+ 540 0032 464B     		ldr	r3, .L11+4
+ 541 0034 0022     		movs	r2, #0
+ 542 0036 1A70     		strb	r2, [r3]
+ 543              	.L3:
+  58:main.c        ****         }
+  59:main.c        ****         onOffCount++;
+ 544              		.loc 1 59 0
+ 545 0038 434B     		ldr	r3, .L11
+ 546 003a 1B78     		ldrb	r3, [r3]
+ 547 003c DBB2     		uxtb	r3, r3
+ 548 003e 0133     		adds	r3, r3, #1
+ 549 0040 DAB2     		uxtb	r2, r3
+ 550 0042 414B     		ldr	r3, .L11
+ 551 0044 1A70     		strb	r2, [r3]
+  60:main.c        ****         Clock_1_SetDividerValue(freqClockDivCounter);
+ 552              		.loc 1 60 0
+ 553 0046 FB88     		ldrh	r3, [r7, #6]	@ movhi
+ 554 0048 013B     		subs	r3, r3, #1
+ 555 004a 9BB2     		uxth	r3, r3
+ 556 004c 0121     		movs	r1, #1
+ 557 004e 1846     		mov	r0, r3
+ 558 0050 FFF7FEFF 		bl	Clock_1_SetDividerRegister
+  61:main.c        ****         freqClockDivCounter++;
+ 559              		.loc 1 61 0
+ 560 0054 FB88     		ldrh	r3, [r7, #6]
+ 561 0056 0133     		adds	r3, r3, #1
+ 562 0058 FB80     		strh	r3, [r7, #6]	@ movhi
+  62:main.c        ****         CyDelay(delayMS); 
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 12
 
 
- 120              	.L4:
-  53:main.c        ****         }
-  54:main.c        ****         else if ( (delayMS - freqClockDivCounter) == 0){
- 121              		.loc 1 54 0
- 122 0078 0A4B     		ldr	r3, .L8+4
- 123 007a 1B88     		ldrh	r3, [r3]	@ movhi
- 124 007c 9BB2     		uxth	r3, r3
- 125 007e FA88     		ldrh	r2, [r7, #6]
- 126 0080 9A42     		cmp	r2, r3
- 127 0082 02D1     		bne	.L5
-  55:main.c        ****             delayMS = 100; 
- 128              		.loc 1 55 0
- 129 0084 074B     		ldr	r3, .L8+4
- 130 0086 6422     		movs	r2, #100
- 131 0088 1A80     		strh	r2, [r3]	@ movhi
- 132              	.L5:
-  56:main.c        ****         }
-  57:main.c        ****         if (freqClockDivCounter > 2000){
- 133              		.loc 1 57 0
- 134 008a FB88     		ldrh	r3, [r7, #6]
- 135 008c B3F5FA6F 		cmp	r3, #2000
- 136 0090 BBD9     		bls	.L7
-  58:main.c        ****             delayMS = 100;
- 137              		.loc 1 58 0
- 138 0092 044B     		ldr	r3, .L8+4
- 139 0094 6422     		movs	r2, #100
- 140 0096 1A80     		strh	r2, [r3]	@ movhi
-  59:main.c        ****             freqClockDivCounter = START_FREQ_DIV;
- 141              		.loc 1 59 0
- 142 0098 0823     		movs	r3, #8
- 143 009a FB80     		strh	r3, [r7, #6]	@ movhi
-  60:main.c        ****         }
-  61:main.c        ****     }
- 144              		.loc 1 61 0
- 145 009c B5E7     		b	.L7
- 146              	.L9:
- 147 009e 00BF     		.align	2
- 148              	.L8:
- 149 00a0 00000000 		.word	onOffCount
- 150 00a4 00000000 		.word	delayMS
- 151              		.cfi_endproc
- 152              	.LFE63:
- 153              		.size	main, .-main
- 154              		.text
- 155              	.Letext0:
- 156              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 157              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 158              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
- 159              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
- 160              		.section	.debug_info,"",%progbits
- 161              	.Ldebug_info0:
- 162 0000 1E010000 		.4byte	0x11e
- 163 0004 0400     		.2byte	0x4
- 164 0006 00000000 		.4byte	.Ldebug_abbrev0
- 165 000a 04       		.byte	0x4
- 166 000b 01       		.uleb128 0x1
- 167 000c D5000000 		.4byte	.LASF21
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 5
+ 563              		.loc 1 62 0
+ 564 005a 3D4B     		ldr	r3, .L11+8
+ 565 005c 1B88     		ldrh	r3, [r3]	@ movhi
+ 566 005e 9BB2     		uxth	r3, r3
+ 567 0060 1846     		mov	r0, r3
+ 568 0062 FFF7FEFF 		bl	CyDelay
+  63:main.c        ****         if ((delayMS - freqClockDivCounter) > 0){
+ 569              		.loc 1 63 0
+ 570 0066 3A4B     		ldr	r3, .L11+8
+ 571 0068 1B88     		ldrh	r3, [r3]	@ movhi
+ 572 006a 9BB2     		uxth	r3, r3
+ 573 006c 1A46     		mov	r2, r3
+ 574 006e FB88     		ldrh	r3, [r7, #6]
+ 575 0070 D31A     		subs	r3, r2, r3
+ 576 0072 002B     		cmp	r3, #0
+ 577 0074 08DD     		ble	.L4
+  64:main.c        ****             delayMS -= freqClockDivCounter;
+ 578              		.loc 1 64 0
+ 579 0076 364B     		ldr	r3, .L11+8
+ 580 0078 1B88     		ldrh	r3, [r3]	@ movhi
+ 581 007a 9AB2     		uxth	r2, r3
+ 582 007c FB88     		ldrh	r3, [r7, #6]	@ movhi
+ 583 007e D31A     		subs	r3, r2, r3
+ 584 0080 9AB2     		uxth	r2, r3
+ 585 0082 334B     		ldr	r3, .L11+8
+ 586 0084 1A80     		strh	r2, [r3]	@ movhi
+ 587 0086 08E0     		b	.L5
+ 588              	.L4:
+  65:main.c        ****         }
+  66:main.c        ****         else if ( (delayMS - freqClockDivCounter) == 0){
+ 589              		.loc 1 66 0
+ 590 0088 314B     		ldr	r3, .L11+8
+ 591 008a 1B88     		ldrh	r3, [r3]	@ movhi
+ 592 008c 9BB2     		uxth	r3, r3
+ 593 008e FA88     		ldrh	r2, [r7, #6]
+ 594 0090 9A42     		cmp	r2, r3
+ 595 0092 02D1     		bne	.L5
+  67:main.c        ****             delayMS = 100; 
+ 596              		.loc 1 67 0
+ 597 0094 2E4B     		ldr	r3, .L11+8
+ 598 0096 6422     		movs	r2, #100
+ 599 0098 1A80     		strh	r2, [r3]	@ movhi
+ 600              	.L5:
+  68:main.c        ****         }
+  69:main.c        ****         if (freqClockDivCounter > 2000){
+ 601              		.loc 1 69 0
+ 602 009a FB88     		ldrh	r3, [r7, #6]
+ 603 009c B3F5FA6F 		cmp	r3, #2000
+ 604 00a0 04D9     		bls	.L6
+  70:main.c        ****             delayMS = 100;
+ 605              		.loc 1 70 0
+ 606 00a2 2B4B     		ldr	r3, .L11+8
+ 607 00a4 6422     		movs	r2, #100
+ 608 00a6 1A80     		strh	r2, [r3]	@ movhi
+  71:main.c        ****             freqClockDivCounter = START_FREQ_DIV;
+ 609              		.loc 1 71 0
+ 610 00a8 0823     		movs	r3, #8
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 13
 
 
- 168 0010 0C       		.byte	0xc
- 169 0011 2E000000 		.4byte	.LASF22
- 170 0015 74000000 		.4byte	.LASF23
- 171 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 172 001d 00000000 		.4byte	0
- 173 0021 00000000 		.4byte	.Ldebug_line0
- 174 0025 02       		.uleb128 0x2
- 175 0026 01       		.byte	0x1
- 176 0027 06       		.byte	0x6
- 177 0028 93010000 		.4byte	.LASF0
- 178 002c 02       		.uleb128 0x2
- 179 002d 01       		.byte	0x1
- 180 002e 08       		.byte	0x8
- 181 002f 63010000 		.4byte	.LASF1
- 182 0033 02       		.uleb128 0x2
- 183 0034 02       		.byte	0x2
- 184 0035 05       		.byte	0x5
- 185 0036 C3010000 		.4byte	.LASF2
- 186 003a 02       		.uleb128 0x2
- 187 003b 02       		.byte	0x2
- 188 003c 07       		.byte	0x7
- 189 003d 0E000000 		.4byte	.LASF3
- 190 0041 03       		.uleb128 0x3
- 191 0042 AB010000 		.4byte	.LASF9
- 192 0046 02       		.byte	0x2
- 193 0047 3F       		.byte	0x3f
- 194 0048 4C000000 		.4byte	0x4c
- 195 004c 02       		.uleb128 0x2
- 196 004d 04       		.byte	0x4
- 197 004e 05       		.byte	0x5
- 198 004f 76010000 		.4byte	.LASF4
- 199 0053 02       		.uleb128 0x2
- 200 0054 04       		.byte	0x4
- 201 0055 07       		.byte	0x7
- 202 0056 4B000000 		.4byte	.LASF5
- 203 005a 02       		.uleb128 0x2
- 204 005b 08       		.byte	0x8
- 205 005c 05       		.byte	0x5
- 206 005d 00000000 		.4byte	.LASF6
- 207 0061 02       		.uleb128 0x2
- 208 0062 08       		.byte	0x8
- 209 0063 07       		.byte	0x7
- 210 0064 5D000000 		.4byte	.LASF7
- 211 0068 04       		.uleb128 0x4
- 212 0069 04       		.byte	0x4
- 213 006a 05       		.byte	0x5
- 214 006b 696E7400 		.ascii	"int\000"
- 215 006f 02       		.uleb128 0x2
- 216 0070 04       		.byte	0x4
- 217 0071 07       		.byte	0x7
- 218 0072 21000000 		.4byte	.LASF8
- 219 0076 03       		.uleb128 0x3
- 220 0077 D4010000 		.4byte	.LASF10
- 221 007b 03       		.byte	0x3
- 222 007c 2C       		.byte	0x2c
- 223 007d 41000000 		.4byte	0x41
- 224 0081 05       		.uleb128 0x5
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 6
+ 611 00aa FB80     		strh	r3, [r7, #6]	@ movhi
+ 612              	.L6:
+  72:main.c        ****         }
+  73:main.c        ****         freq = 250000 / freqClockDivCounter;
+ 613              		.loc 1 73 0
+ 614 00ac FB88     		ldrh	r3, [r7, #6]
+ 615 00ae 294A     		ldr	r2, .L11+12
+ 616 00b0 92FBF3F3 		sdiv	r3, r2, r3
+ 617 00b4 9AB2     		uxth	r2, r3
+ 618 00b6 284B     		ldr	r3, .L11+16
+ 619 00b8 1A80     		strh	r2, [r3]	@ movhi
+ 620              	.LBB2:
+  74:main.c        ****         for (int i=0; i<107; i++){
+ 621              		.loc 1 74 0
+ 622 00ba 0023     		movs	r3, #0
+ 623 00bc 3B60     		str	r3, [r7]
+ 624 00be 3EE0     		b	.L7
+ 625              	.L9:
+  75:main.c        ****             if ((freq == intFrequency[i]) && playing){
+ 626              		.loc 1 75 0
+ 627 00c0 264A     		ldr	r2, .L11+20
+ 628 00c2 3B68     		ldr	r3, [r7]
+ 629 00c4 32F81320 		ldrh	r2, [r2, r3, lsl #1]
+ 630 00c8 234B     		ldr	r3, .L11+16
+ 631 00ca 1B88     		ldrh	r3, [r3]	@ movhi
+ 632 00cc 9BB2     		uxth	r3, r3
+ 633 00ce 9A42     		cmp	r2, r3
+ 634 00d0 32D1     		bne	.L8
+ 635              		.loc 1 75 0 is_stmt 0 discriminator 1
+ 636 00d2 1E4B     		ldr	r3, .L11+4
+ 637 00d4 1B78     		ldrb	r3, [r3]
+ 638 00d6 DBB2     		uxtb	r3, r3
+ 639 00d8 002B     		cmp	r3, #0
+ 640 00da 2DD0     		beq	.L8
+  76:main.c        ****                 noteIndex = i;
+ 641              		.loc 1 76 0 is_stmt 1
+ 642 00dc 3B68     		ldr	r3, [r7]
+ 643 00de DAB2     		uxtb	r2, r3
+ 644 00e0 1F4B     		ldr	r3, .L11+24
+ 645 00e2 1A70     		strb	r2, [r3]
+  77:main.c        ****                 sprintf(transmitBuffer, "%c%c%c : %i \n\r", notes[noteIndex][0],notes[noteIndex][1]
+ 646              		.loc 1 77 0
+ 647 00e4 1E4B     		ldr	r3, .L11+24
+ 648 00e6 1B78     		ldrb	r3, [r3]
+ 649 00e8 DBB2     		uxtb	r3, r3
+ 650 00ea 1A46     		mov	r2, r3
+ 651 00ec 1D4B     		ldr	r3, .L11+28
+ 652 00ee 13F82230 		ldrb	r3, [r3, r2, lsl #2]	@ zero_extendqisi2
+ 653 00f2 1846     		mov	r0, r3
+ 654 00f4 1A4B     		ldr	r3, .L11+24
+ 655 00f6 1B78     		ldrb	r3, [r3]
+ 656 00f8 DBB2     		uxtb	r3, r3
+ 657 00fa 1A4A     		ldr	r2, .L11+28
+ 658 00fc 9B00     		lsls	r3, r3, #2
+ 659 00fe 1344     		add	r3, r3, r2
+ 660 0100 5B78     		ldrb	r3, [r3, #1]	@ zero_extendqisi2
+ 661 0102 1C46     		mov	r4, r3
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 14
 
 
- 225 0082 45000000 		.4byte	.LASF11
- 226 0086 04       		.byte	0x4
- 227 0087 9201     		.2byte	0x192
- 228 0089 2C000000 		.4byte	0x2c
- 229 008d 05       		.uleb128 0x5
- 230 008e CD010000 		.4byte	.LASF12
- 231 0092 04       		.byte	0x4
- 232 0093 9301     		.2byte	0x193
- 233 0095 3A000000 		.4byte	0x3a
- 234 0099 02       		.uleb128 0x2
- 235 009a 04       		.byte	0x4
- 236 009b 04       		.byte	0x4
- 237 009c BD010000 		.4byte	.LASF13
- 238 00a0 02       		.uleb128 0x2
- 239 00a1 08       		.byte	0x8
- 240 00a2 04       		.byte	0x4
- 241 00a3 7F010000 		.4byte	.LASF14
- 242 00a7 02       		.uleb128 0x2
- 243 00a8 01       		.byte	0x1
- 244 00a9 08       		.byte	0x8
- 245 00aa 71010000 		.4byte	.LASF15
- 246 00ae 06       		.uleb128 0x6
- 247 00af 81000000 		.4byte	0x81
- 248 00b3 06       		.uleb128 0x6
- 249 00b4 8D000000 		.4byte	0x8d
- 250 00b8 02       		.uleb128 0x2
- 251 00b9 08       		.byte	0x8
- 252 00ba 04       		.byte	0x4
- 253 00bb 9F010000 		.4byte	.LASF16
- 254 00bf 02       		.uleb128 0x2
- 255 00c0 04       		.byte	0x4
- 256 00c1 07       		.byte	0x7
- 257 00c2 F0010000 		.4byte	.LASF17
- 258 00c6 07       		.uleb128 0x7
- 259 00c7 35000000 		.4byte	.LASF24
- 260 00cb 01       		.byte	0x1
- 261 00cc 24       		.byte	0x24
- 262 00cd 68000000 		.4byte	0x68
- 263 00d1 00000000 		.4byte	.LFB63
- 264 00d5 A8000000 		.4byte	.LFE63-.LFB63
- 265 00d9 01       		.uleb128 0x1
- 266 00da 9C       		.byte	0x9c
- 267 00db EE000000 		.4byte	0xee
- 268 00df 08       		.uleb128 0x8
- 269 00e0 DC010000 		.4byte	.LASF25
- 270 00e4 01       		.byte	0x1
- 271 00e5 26       		.byte	0x26
- 272 00e6 8D000000 		.4byte	0x8d
- 273 00ea 02       		.uleb128 0x2
- 274 00eb 91       		.byte	0x91
- 275 00ec 76       		.sleb128 -10
- 276 00ed 00       		.byte	0
- 277 00ee 09       		.uleb128 0x9
- 278 00ef 86010000 		.4byte	.LASF18
- 279 00f3 05       		.byte	0x5
- 280 00f4 1207     		.2byte	0x712
- 281 00f6 FA000000 		.4byte	0xfa
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 7
+ 662 0104 164B     		ldr	r3, .L11+24
+ 663 0106 1B78     		ldrb	r3, [r3]
+ 664 0108 DBB2     		uxtb	r3, r3
+ 665 010a 164A     		ldr	r2, .L11+28
+ 666 010c 9B00     		lsls	r3, r3, #2
+ 667 010e 1344     		add	r3, r3, r2
+ 668 0110 9B78     		ldrb	r3, [r3, #2]	@ zero_extendqisi2
+ 669 0112 1A46     		mov	r2, r3
+ 670 0114 124B     		ldr	r3, .L11+24
+ 671 0116 1B78     		ldrb	r3, [r3]
+ 672 0118 DBB2     		uxtb	r3, r3
+ 673 011a 1946     		mov	r1, r3
+ 674 011c 0F4B     		ldr	r3, .L11+20
+ 675 011e 33F81130 		ldrh	r3, [r3, r1, lsl #1]
+ 676 0122 0193     		str	r3, [sp, #4]
+ 677 0124 0092     		str	r2, [sp]
+ 678 0126 2346     		mov	r3, r4
+ 679 0128 0246     		mov	r2, r0
+ 680 012a 0F49     		ldr	r1, .L11+32
+ 681 012c 0F48     		ldr	r0, .L11+36
+ 682 012e FFF7FEFF 		bl	sprintf
+  78:main.c        ****                 UART_1_PutString(transmitBuffer);
+ 683              		.loc 1 78 0
+ 684 0132 0E48     		ldr	r0, .L11+36
+ 685 0134 FFF7FEFF 		bl	UART_1_PutString
+ 686              	.L8:
+  74:main.c        ****             if ((freq == intFrequency[i]) && playing){
+ 687              		.loc 1 74 0 discriminator 2
+ 688 0138 3B68     		ldr	r3, [r7]
+ 689 013a 0133     		adds	r3, r3, #1
+ 690 013c 3B60     		str	r3, [r7]
+ 691              	.L7:
+  74:main.c        ****             if ((freq == intFrequency[i]) && playing){
+ 692              		.loc 1 74 0 is_stmt 0 discriminator 1
+ 693 013e 3B68     		ldr	r3, [r7]
+ 694 0140 6A2B     		cmp	r3, #106
+ 695 0142 BDDD     		ble	.L9
+ 696              	.LBE2:
+  79:main.c        ****             }
+  80:main.c        ****         }
+  81:main.c        ****     }
+ 697              		.loc 1 81 0 is_stmt 1
+ 698 0144 63E7     		b	.L10
+ 699              	.L12:
+ 700 0146 00BF     		.align	2
+ 701              	.L11:
+ 702 0148 00000000 		.word	onOffCount
+ 703 014c 00000000 		.word	playing
+ 704 0150 00000000 		.word	delayMS
+ 705 0154 90D00300 		.word	250000
+ 706 0158 00000000 		.word	freq
+ 707 015c 00000000 		.word	intFrequency
+ 708 0160 00000000 		.word	noteIndex
+ 709 0164 00000000 		.word	notes
+ 710 0168 E8050000 		.word	.LC0
+ 711 016c 00000000 		.word	transmitBuffer
+ 712              		.cfi_endproc
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 15
 
 
- 282 00fa 06       		.uleb128 0x6
- 283 00fb 76000000 		.4byte	0x76
- 284 00ff 0A       		.uleb128 0xa
- 285 0100 B5010000 		.4byte	.LASF19
- 286 0104 01       		.byte	0x1
- 287 0105 21       		.byte	0x21
- 288 0106 B3000000 		.4byte	0xb3
- 289 010a 05       		.uleb128 0x5
- 290 010b 03       		.byte	0x3
- 291 010c 00000000 		.4byte	delayMS
- 292 0110 0A       		.uleb128 0xa
- 293 0111 3A000000 		.4byte	.LASF20
- 294 0115 01       		.byte	0x1
- 295 0116 22       		.byte	0x22
- 296 0117 AE000000 		.4byte	0xae
- 297 011b 05       		.uleb128 0x5
- 298 011c 03       		.byte	0x3
- 299 011d 00000000 		.4byte	onOffCount
- 300 0121 00       		.byte	0
- 301              		.section	.debug_abbrev,"",%progbits
- 302              	.Ldebug_abbrev0:
- 303 0000 01       		.uleb128 0x1
- 304 0001 11       		.uleb128 0x11
- 305 0002 01       		.byte	0x1
- 306 0003 25       		.uleb128 0x25
- 307 0004 0E       		.uleb128 0xe
- 308 0005 13       		.uleb128 0x13
- 309 0006 0B       		.uleb128 0xb
- 310 0007 03       		.uleb128 0x3
- 311 0008 0E       		.uleb128 0xe
- 312 0009 1B       		.uleb128 0x1b
- 313 000a 0E       		.uleb128 0xe
- 314 000b 55       		.uleb128 0x55
- 315 000c 17       		.uleb128 0x17
- 316 000d 11       		.uleb128 0x11
- 317 000e 01       		.uleb128 0x1
- 318 000f 10       		.uleb128 0x10
- 319 0010 17       		.uleb128 0x17
- 320 0011 00       		.byte	0
- 321 0012 00       		.byte	0
- 322 0013 02       		.uleb128 0x2
- 323 0014 24       		.uleb128 0x24
- 324 0015 00       		.byte	0
- 325 0016 0B       		.uleb128 0xb
- 326 0017 0B       		.uleb128 0xb
- 327 0018 3E       		.uleb128 0x3e
- 328 0019 0B       		.uleb128 0xb
- 329 001a 03       		.uleb128 0x3
- 330 001b 0E       		.uleb128 0xe
- 331 001c 00       		.byte	0
- 332 001d 00       		.byte	0
- 333 001e 03       		.uleb128 0x3
- 334 001f 16       		.uleb128 0x16
- 335 0020 00       		.byte	0
- 336 0021 03       		.uleb128 0x3
- 337 0022 0E       		.uleb128 0xe
- 338 0023 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 8
+ 713              	.LFE64:
+ 714              		.size	main, .-main
+ 715              		.text
+ 716              	.Letext0:
+ 717              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 718              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 719              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
+ 720              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
+ 721              		.section	.debug_info,"",%progbits
+ 722              	.Ldebug_info0:
+ 723 0000 3A020000 		.4byte	0x23a
+ 724 0004 0400     		.2byte	0x4
+ 725 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 726 000a 04       		.byte	0x4
+ 727 000b 01       		.uleb128 0x1
+ 728 000c 00000000 		.4byte	.LASF30
+ 729 0010 0C       		.byte	0xc
+ 730 0011 F8010000 		.4byte	.LASF31
+ 731 0015 FB000000 		.4byte	.LASF32
+ 732 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 733 001d 00000000 		.4byte	0
+ 734 0021 00000000 		.4byte	.Ldebug_line0
+ 735 0025 02       		.uleb128 0x2
+ 736 0026 01       		.byte	0x1
+ 737 0027 06       		.byte	0x6
+ 738 0028 35020000 		.4byte	.LASF0
+ 739 002c 02       		.uleb128 0x2
+ 740 002d 01       		.byte	0x1
+ 741 002e 08       		.byte	0x8
+ 742 002f 79010000 		.4byte	.LASF1
+ 743 0033 02       		.uleb128 0x2
+ 744 0034 02       		.byte	0x2
+ 745 0035 05       		.byte	0x5
+ 746 0036 63010000 		.4byte	.LASF2
+ 747 003a 02       		.uleb128 0x2
+ 748 003b 02       		.byte	0x2
+ 749 003c 07       		.byte	0x7
+ 750 003d D0000000 		.4byte	.LASF3
+ 751 0041 03       		.uleb128 0x3
+ 752 0042 96000000 		.4byte	.LASF9
+ 753 0046 02       		.byte	0x2
+ 754 0047 3F       		.byte	0x3f
+ 755 0048 4C000000 		.4byte	0x4c
+ 756 004c 02       		.uleb128 0x2
+ 757 004d 04       		.byte	0x4
+ 758 004e 05       		.byte	0x5
+ 759 004f 20020000 		.4byte	.LASF4
+ 760 0053 02       		.uleb128 0x2
+ 761 0054 04       		.byte	0x4
+ 762 0055 07       		.byte	0x7
+ 763 0056 BE000000 		.4byte	.LASF5
+ 764 005a 02       		.uleb128 0x2
+ 765 005b 08       		.byte	0x8
+ 766 005c 05       		.byte	0x5
+ 767 005d EA010000 		.4byte	.LASF6
+ 768 0061 02       		.uleb128 0x2
+ 769 0062 08       		.byte	0x8
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 16
 
 
- 339 0024 0B       		.uleb128 0xb
- 340 0025 3B       		.uleb128 0x3b
- 341 0026 0B       		.uleb128 0xb
- 342 0027 49       		.uleb128 0x49
- 343 0028 13       		.uleb128 0x13
- 344 0029 00       		.byte	0
- 345 002a 00       		.byte	0
- 346 002b 04       		.uleb128 0x4
- 347 002c 24       		.uleb128 0x24
- 348 002d 00       		.byte	0
- 349 002e 0B       		.uleb128 0xb
- 350 002f 0B       		.uleb128 0xb
- 351 0030 3E       		.uleb128 0x3e
- 352 0031 0B       		.uleb128 0xb
- 353 0032 03       		.uleb128 0x3
- 354 0033 08       		.uleb128 0x8
- 355 0034 00       		.byte	0
- 356 0035 00       		.byte	0
- 357 0036 05       		.uleb128 0x5
- 358 0037 16       		.uleb128 0x16
- 359 0038 00       		.byte	0
- 360 0039 03       		.uleb128 0x3
- 361 003a 0E       		.uleb128 0xe
- 362 003b 3A       		.uleb128 0x3a
- 363 003c 0B       		.uleb128 0xb
- 364 003d 3B       		.uleb128 0x3b
- 365 003e 05       		.uleb128 0x5
- 366 003f 49       		.uleb128 0x49
- 367 0040 13       		.uleb128 0x13
- 368 0041 00       		.byte	0
- 369 0042 00       		.byte	0
- 370 0043 06       		.uleb128 0x6
- 371 0044 35       		.uleb128 0x35
- 372 0045 00       		.byte	0
- 373 0046 49       		.uleb128 0x49
- 374 0047 13       		.uleb128 0x13
- 375 0048 00       		.byte	0
- 376 0049 00       		.byte	0
- 377 004a 07       		.uleb128 0x7
- 378 004b 2E       		.uleb128 0x2e
- 379 004c 01       		.byte	0x1
- 380 004d 3F       		.uleb128 0x3f
- 381 004e 19       		.uleb128 0x19
- 382 004f 03       		.uleb128 0x3
- 383 0050 0E       		.uleb128 0xe
- 384 0051 3A       		.uleb128 0x3a
- 385 0052 0B       		.uleb128 0xb
- 386 0053 3B       		.uleb128 0x3b
- 387 0054 0B       		.uleb128 0xb
- 388 0055 49       		.uleb128 0x49
- 389 0056 13       		.uleb128 0x13
- 390 0057 11       		.uleb128 0x11
- 391 0058 01       		.uleb128 0x1
- 392 0059 12       		.uleb128 0x12
- 393 005a 06       		.uleb128 0x6
- 394 005b 40       		.uleb128 0x40
- 395 005c 18       		.uleb128 0x18
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 9
+ 770 0063 07       		.byte	0x7
+ 771 0064 A8010000 		.4byte	.LASF7
+ 772 0068 04       		.uleb128 0x4
+ 773 0069 04       		.byte	0x4
+ 774 006a 05       		.byte	0x5
+ 775 006b 696E7400 		.ascii	"int\000"
+ 776 006f 02       		.uleb128 0x2
+ 777 0070 04       		.byte	0x4
+ 778 0071 07       		.byte	0x7
+ 779 0072 87010000 		.4byte	.LASF8
+ 780 0076 03       		.uleb128 0x3
+ 781 0077 D3010000 		.4byte	.LASF10
+ 782 007b 03       		.byte	0x3
+ 783 007c 2C       		.byte	0x2c
+ 784 007d 41000000 		.4byte	0x41
+ 785 0081 05       		.uleb128 0x5
+ 786 0082 A0000000 		.4byte	.LASF11
+ 787 0086 04       		.byte	0x4
+ 788 0087 9201     		.2byte	0x192
+ 789 0089 2C000000 		.4byte	0x2c
+ 790 008d 05       		.uleb128 0x5
+ 791 008e 6D010000 		.4byte	.LASF12
+ 792 0092 04       		.byte	0x4
+ 793 0093 9301     		.2byte	0x193
+ 794 0095 3A000000 		.4byte	0x3a
+ 795 0099 02       		.uleb128 0x2
+ 796 009a 04       		.byte	0x4
+ 797 009b 04       		.byte	0x4
+ 798 009c A6000000 		.4byte	.LASF13
+ 799 00a0 02       		.uleb128 0x2
+ 800 00a1 08       		.byte	0x8
+ 801 00a2 04       		.byte	0x4
+ 802 00a3 5C010000 		.4byte	.LASF14
+ 803 00a7 02       		.uleb128 0x2
+ 804 00a8 01       		.byte	0x1
+ 805 00a9 08       		.byte	0x8
+ 806 00aa FF010000 		.4byte	.LASF15
+ 807 00ae 06       		.uleb128 0x6
+ 808 00af 81000000 		.4byte	0x81
+ 809 00b3 06       		.uleb128 0x6
+ 810 00b4 8D000000 		.4byte	0x8d
+ 811 00b8 02       		.uleb128 0x2
+ 812 00b9 08       		.byte	0x8
+ 813 00ba 04       		.byte	0x4
+ 814 00bb 29020000 		.4byte	.LASF16
+ 815 00bf 02       		.uleb128 0x2
+ 816 00c0 04       		.byte	0x4
+ 817 00c1 07       		.byte	0x7
+ 818 00c2 E1010000 		.4byte	.LASF17
+ 819 00c6 07       		.uleb128 0x7
+ 820 00c7 A7000000 		.4byte	0xa7
+ 821 00cb 08       		.uleb128 0x8
+ 822 00cc 74010000 		.4byte	.LASF33
+ 823 00d0 01       		.byte	0x1
+ 824 00d1 2E       		.byte	0x2e
+ 825 00d2 68000000 		.4byte	0x68
+ 826 00d6 00000000 		.4byte	.LFB64
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 17
 
 
- 396 005d 9642     		.uleb128 0x2116
- 397 005f 19       		.uleb128 0x19
- 398 0060 01       		.uleb128 0x1
- 399 0061 13       		.uleb128 0x13
- 400 0062 00       		.byte	0
- 401 0063 00       		.byte	0
- 402 0064 08       		.uleb128 0x8
- 403 0065 34       		.uleb128 0x34
- 404 0066 00       		.byte	0
- 405 0067 03       		.uleb128 0x3
- 406 0068 0E       		.uleb128 0xe
- 407 0069 3A       		.uleb128 0x3a
- 408 006a 0B       		.uleb128 0xb
- 409 006b 3B       		.uleb128 0x3b
- 410 006c 0B       		.uleb128 0xb
- 411 006d 49       		.uleb128 0x49
- 412 006e 13       		.uleb128 0x13
- 413 006f 02       		.uleb128 0x2
- 414 0070 18       		.uleb128 0x18
- 415 0071 00       		.byte	0
- 416 0072 00       		.byte	0
- 417 0073 09       		.uleb128 0x9
- 418 0074 34       		.uleb128 0x34
- 419 0075 00       		.byte	0
- 420 0076 03       		.uleb128 0x3
- 421 0077 0E       		.uleb128 0xe
- 422 0078 3A       		.uleb128 0x3a
- 423 0079 0B       		.uleb128 0xb
- 424 007a 3B       		.uleb128 0x3b
- 425 007b 05       		.uleb128 0x5
- 426 007c 49       		.uleb128 0x49
- 427 007d 13       		.uleb128 0x13
- 428 007e 3F       		.uleb128 0x3f
- 429 007f 19       		.uleb128 0x19
- 430 0080 3C       		.uleb128 0x3c
- 431 0081 19       		.uleb128 0x19
- 432 0082 00       		.byte	0
- 433 0083 00       		.byte	0
- 434 0084 0A       		.uleb128 0xa
- 435 0085 34       		.uleb128 0x34
- 436 0086 00       		.byte	0
- 437 0087 03       		.uleb128 0x3
- 438 0088 0E       		.uleb128 0xe
- 439 0089 3A       		.uleb128 0x3a
- 440 008a 0B       		.uleb128 0xb
- 441 008b 3B       		.uleb128 0x3b
- 442 008c 0B       		.uleb128 0xb
- 443 008d 49       		.uleb128 0x49
- 444 008e 13       		.uleb128 0x13
- 445 008f 3F       		.uleb128 0x3f
- 446 0090 19       		.uleb128 0x19
- 447 0091 02       		.uleb128 0x2
- 448 0092 18       		.uleb128 0x18
- 449 0093 00       		.byte	0
- 450 0094 00       		.byte	0
- 451 0095 00       		.byte	0
- 452              		.section	.debug_aranges,"",%progbits
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 10
+ 827 00da 70010000 		.4byte	.LFE64-.LFB64
+ 828 00de 01       		.uleb128 0x1
+ 829 00df 9C       		.byte	0x9c
+ 830 00e0 09010000 		.4byte	0x109
+ 831 00e4 09       		.uleb128 0x9
+ 832 00e5 94010000 		.4byte	.LASF18
+ 833 00e9 01       		.byte	0x1
+ 834 00ea 30       		.byte	0x30
+ 835 00eb 8D000000 		.4byte	0x8d
+ 836 00ef 02       		.uleb128 0x2
+ 837 00f0 91       		.byte	0x91
+ 838 00f1 6E       		.sleb128 -18
+ 839 00f2 0A       		.uleb128 0xa
+ 840 00f3 BA000000 		.4byte	.LBB2
+ 841 00f7 8A000000 		.4byte	.LBE2-.LBB2
+ 842 00fb 0B       		.uleb128 0xb
+ 843 00fc 6900     		.ascii	"i\000"
+ 844 00fe 01       		.byte	0x1
+ 845 00ff 4A       		.byte	0x4a
+ 846 0100 68000000 		.4byte	0x68
+ 847 0104 02       		.uleb128 0x2
+ 848 0105 91       		.byte	0x91
+ 849 0106 68       		.sleb128 -24
+ 850 0107 00       		.byte	0
+ 851 0108 00       		.byte	0
+ 852 0109 0C       		.uleb128 0xc
+ 853 010a EE000000 		.4byte	.LASF19
+ 854 010e 05       		.byte	0x5
+ 855 010f 1207     		.2byte	0x712
+ 856 0111 15010000 		.4byte	0x115
+ 857 0115 06       		.uleb128 0x6
+ 858 0116 76000000 		.4byte	0x76
+ 859 011a 0D       		.uleb128 0xd
+ 860 011b C6000000 		.4byte	0xc6
+ 861 011f 30010000 		.4byte	0x130
+ 862 0123 0E       		.uleb128 0xe
+ 863 0124 BF000000 		.4byte	0xbf
+ 864 0128 6B       		.byte	0x6b
+ 865 0129 0E       		.uleb128 0xe
+ 866 012a BF000000 		.4byte	0xbf
+ 867 012e 03       		.byte	0x3
+ 868 012f 00       		.byte	0
+ 869 0130 0F       		.uleb128 0xf
+ 870 0131 DB010000 		.4byte	.LASF20
+ 871 0135 01       		.byte	0x1
+ 872 0136 22       		.byte	0x22
+ 873 0137 41010000 		.4byte	0x141
+ 874 013b 05       		.uleb128 0x5
+ 875 013c 03       		.byte	0x3
+ 876 013d 00000000 		.4byte	notes
+ 877 0141 07       		.uleb128 0x7
+ 878 0142 1A010000 		.4byte	0x11a
+ 879 0146 0D       		.uleb128 0xd
+ 880 0147 56010000 		.4byte	0x156
+ 881 014b 56010000 		.4byte	0x156
+ 882 014f 0E       		.uleb128 0xe
+ 883 0150 BF000000 		.4byte	0xbf
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 18
 
 
- 453 0000 1C000000 		.4byte	0x1c
- 454 0004 0200     		.2byte	0x2
- 455 0006 00000000 		.4byte	.Ldebug_info0
- 456 000a 04       		.byte	0x4
- 457 000b 00       		.byte	0
- 458 000c 0000     		.2byte	0
- 459 000e 0000     		.2byte	0
- 460 0010 00000000 		.4byte	.LFB63
- 461 0014 A8000000 		.4byte	.LFE63-.LFB63
- 462 0018 00000000 		.4byte	0
- 463 001c 00000000 		.4byte	0
- 464              		.section	.debug_ranges,"",%progbits
- 465              	.Ldebug_ranges0:
- 466 0000 00000000 		.4byte	.LFB63
- 467 0004 A8000000 		.4byte	.LFE63
- 468 0008 00000000 		.4byte	0
- 469 000c 00000000 		.4byte	0
- 470              		.section	.debug_line,"",%progbits
- 471              	.Ldebug_line0:
- 472 0000 72010000 		.section	.debug_str,"MS",%progbits,1
- 472      02004C01 
- 472      00000201 
- 472      FB0E0D00 
- 472      01010101 
- 473              	.LASF6:
- 474 0000 6C6F6E67 		.ascii	"long long int\000"
- 474      206C6F6E 
- 474      6720696E 
- 474      7400
- 475              	.LASF3:
- 476 000e 73686F72 		.ascii	"short unsigned int\000"
- 476      7420756E 
- 476      7369676E 
- 476      65642069 
- 476      6E7400
- 477              	.LASF8:
- 478 0021 756E7369 		.ascii	"unsigned int\000"
- 478      676E6564 
- 478      20696E74 
- 478      00
- 479              	.LASF22:
- 480 002e 6D61696E 		.ascii	"main.c\000"
- 480      2E6300
- 481              	.LASF24:
- 482 0035 6D61696E 		.ascii	"main\000"
- 482      00
- 483              	.LASF20:
- 484 003a 6F6E4F66 		.ascii	"onOffCount\000"
- 484      66436F75 
- 484      6E7400
- 485              	.LASF11:
- 486 0045 75696E74 		.ascii	"uint8\000"
- 486      3800
- 487              	.LASF5:
- 488 004b 6C6F6E67 		.ascii	"long unsigned int\000"
- 488      20756E73 
- 488      69676E65 
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 11
+ 884 0154 6B       		.byte	0x6b
+ 885 0155 00       		.byte	0
+ 886 0156 07       		.uleb128 0x7
+ 887 0157 8D000000 		.4byte	0x8d
+ 888 015b 0F       		.uleb128 0xf
+ 889 015c B1000000 		.4byte	.LASF21
+ 890 0160 01       		.byte	0x1
+ 891 0161 23       		.byte	0x23
+ 892 0162 6C010000 		.4byte	0x16c
+ 893 0166 05       		.uleb128 0x5
+ 894 0167 03       		.byte	0x3
+ 895 0168 00000000 		.4byte	intFrequency
+ 896 016c 07       		.uleb128 0x7
+ 897 016d 46010000 		.4byte	0x146
+ 898 0171 0D       		.uleb128 0xd
+ 899 0172 81010000 		.4byte	0x181
+ 900 0176 81010000 		.4byte	0x181
+ 901 017a 0E       		.uleb128 0xe
+ 902 017b BF000000 		.4byte	0xbf
+ 903 017f 6B       		.byte	0x6b
+ 904 0180 00       		.byte	0
+ 905 0181 07       		.uleb128 0x7
+ 906 0182 A0000000 		.4byte	0xa0
+ 907 0186 0F       		.uleb128 0xf
+ 908 0187 BF010000 		.4byte	.LASF22
+ 909 018b 01       		.byte	0x1
+ 910 018c 24       		.byte	0x24
+ 911 018d 97010000 		.4byte	0x197
+ 912 0191 05       		.uleb128 0x5
+ 913 0192 03       		.byte	0x3
+ 914 0193 00000000 		.4byte	frequency
+ 915 0197 07       		.uleb128 0x7
+ 916 0198 71010000 		.4byte	0x171
+ 917 019c 0F       		.uleb128 0xf
+ 918 019d 8E000000 		.4byte	.LASF23
+ 919 01a1 01       		.byte	0x1
+ 920 01a2 26       		.byte	0x26
+ 921 01a3 B3000000 		.4byte	0xb3
+ 922 01a7 05       		.uleb128 0x5
+ 923 01a8 03       		.byte	0x3
+ 924 01a9 00000000 		.4byte	delayMS
+ 925 01ad 0F       		.uleb128 0xf
+ 926 01ae E3000000 		.4byte	.LASF24
+ 927 01b2 01       		.byte	0x1
+ 928 01b3 27       		.byte	0x27
+ 929 01b4 AE000000 		.4byte	0xae
+ 930 01b8 05       		.uleb128 0x5
+ 931 01b9 03       		.byte	0x3
+ 932 01ba 00000000 		.4byte	onOffCount
+ 933 01be 0D       		.uleb128 0xd
+ 934 01bf A7000000 		.4byte	0xa7
+ 935 01c3 CE010000 		.4byte	0x1ce
+ 936 01c7 0E       		.uleb128 0xe
+ 937 01c8 BF000000 		.4byte	0xbf
+ 938 01cc 63       		.byte	0x63
+ 939 01cd 00       		.byte	0
+ 940 01ce 0F       		.uleb128 0xf
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 19
 
 
- 488      6420696E 
- 488      7400
- 489              	.LASF7:
- 490 005d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 490      206C6F6E 
- 490      6720756E 
- 490      7369676E 
- 490      65642069 
- 491              	.LASF23:
- 492 0074 433A5C55 		.ascii	"C:\\Users\\Silvan\\OneDrive\\GitHubRepos\\PSoC_Audi"
- 492      73657273 
- 492      5C53696C 
- 492      76616E5C 
- 492      4F6E6544 
- 493 00a2 6F5F4D49 		.ascii	"o_MIDI\\WaveDAC8_Example01\\WaveDAC8_Example01.cyds"
- 493      44495C57 
- 493      61766544 
- 493      4143385F 
- 493      4578616D 
- 494 00d3 6E00     		.ascii	"n\000"
- 495              	.LASF21:
- 496 00d5 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 496      43313120 
- 496      352E342E 
- 496      31203230 
- 496      31363036 
- 497 0108 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 497      20726576 
- 497      6973696F 
- 497      6E203233 
- 497      37373135 
- 498 013b 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 498      66756E63 
- 498      74696F6E 
- 498      2D736563 
- 498      74696F6E 
- 499              	.LASF1:
- 500 0163 756E7369 		.ascii	"unsigned char\000"
- 500      676E6564 
- 500      20636861 
- 500      7200
- 501              	.LASF15:
- 502 0171 63686172 		.ascii	"char\000"
- 502      00
- 503              	.LASF4:
- 504 0176 6C6F6E67 		.ascii	"long int\000"
- 504      20696E74 
- 504      00
- 505              	.LASF14:
- 506 017f 646F7562 		.ascii	"double\000"
- 506      6C6500
- 507              	.LASF18:
- 508 0186 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 508      52784275 
- 508      66666572 
- 508      00
- 509              	.LASF0:
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccaar4pH.s 			page 12
+ 941 01cf 11020000 		.4byte	.LASF25
+ 942 01d3 01       		.byte	0x1
+ 943 01d4 28       		.byte	0x28
+ 944 01d5 BE010000 		.4byte	0x1be
+ 945 01d9 05       		.uleb128 0x5
+ 946 01da 03       		.byte	0x3
+ 947 01db 00000000 		.4byte	transmitBuffer
+ 948 01df 0F       		.uleb128 0xf
+ 949 01e0 0C020000 		.4byte	.LASF26
+ 950 01e4 01       		.byte	0x1
+ 951 01e5 29       		.byte	0x29
+ 952 01e6 B3000000 		.4byte	0xb3
+ 953 01ea 05       		.uleb128 0x5
+ 954 01eb 03       		.byte	0x3
+ 955 01ec 00000000 		.4byte	freq
+ 956 01f0 0D       		.uleb128 0xd
+ 957 01f1 00020000 		.4byte	0x200
+ 958 01f5 00020000 		.4byte	0x200
+ 959 01f9 0E       		.uleb128 0xe
+ 960 01fa BF000000 		.4byte	0xbf
+ 961 01fe 02       		.byte	0x2
+ 962 01ff 00       		.byte	0
+ 963 0200 06       		.uleb128 0x6
+ 964 0201 A7000000 		.4byte	0xa7
+ 965 0205 0F       		.uleb128 0xf
+ 966 0206 AC000000 		.4byte	.LASF27
+ 967 020a 01       		.byte	0x1
+ 968 020b 2A       		.byte	0x2a
+ 969 020c 16020000 		.4byte	0x216
+ 970 0210 05       		.uleb128 0x5
+ 971 0211 03       		.byte	0x3
+ 972 0212 00000000 		.4byte	note
+ 973 0216 06       		.uleb128 0x6
+ 974 0217 F0010000 		.4byte	0x1f0
+ 975 021b 0F       		.uleb128 0xf
+ 976 021c C9010000 		.4byte	.LASF28
+ 977 0220 01       		.byte	0x1
+ 978 0221 2B       		.byte	0x2b
+ 979 0222 AE000000 		.4byte	0xae
+ 980 0226 05       		.uleb128 0x5
+ 981 0227 03       		.byte	0x3
+ 982 0228 00000000 		.4byte	noteIndex
+ 983 022c 0F       		.uleb128 0xf
+ 984 022d 04020000 		.4byte	.LASF29
+ 985 0231 01       		.byte	0x1
+ 986 0232 2C       		.byte	0x2c
+ 987 0233 AE000000 		.4byte	0xae
+ 988 0237 05       		.uleb128 0x5
+ 989 0238 03       		.byte	0x3
+ 990 0239 00000000 		.4byte	playing
+ 991 023d 00       		.byte	0
+ 992              		.section	.debug_abbrev,"",%progbits
+ 993              	.Ldebug_abbrev0:
+ 994 0000 01       		.uleb128 0x1
+ 995 0001 11       		.uleb128 0x11
+ 996 0002 01       		.byte	0x1
+ 997 0003 25       		.uleb128 0x25
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 20
 
 
- 510 0193 7369676E 		.ascii	"signed char\000"
- 510      65642063 
- 510      68617200 
- 511              	.LASF16:
- 512 019f 6C6F6E67 		.ascii	"long double\000"
- 512      20646F75 
- 512      626C6500 
- 513              	.LASF9:
- 514 01ab 5F5F696E 		.ascii	"__int32_t\000"
- 514      7433325F 
- 514      7400
- 515              	.LASF19:
- 516 01b5 64656C61 		.ascii	"delayMS\000"
- 516      794D5300 
- 517              	.LASF13:
- 518 01bd 666C6F61 		.ascii	"float\000"
- 518      7400
- 519              	.LASF2:
- 520 01c3 73686F72 		.ascii	"short int\000"
- 520      7420696E 
- 520      7400
- 521              	.LASF12:
- 522 01cd 75696E74 		.ascii	"uint16\000"
- 522      313600
- 523              	.LASF10:
- 524 01d4 696E7433 		.ascii	"int32_t\000"
- 524      325F7400 
- 525              	.LASF25:
- 526 01dc 66726571 		.ascii	"freqClockDivCounter\000"
- 526      436C6F63 
- 526      6B446976 
- 526      436F756E 
- 526      74657200 
- 527              	.LASF17:
- 528 01f0 73697A65 		.ascii	"sizetype\000"
- 528      74797065 
- 528      00
- 529              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 998 0004 0E       		.uleb128 0xe
+ 999 0005 13       		.uleb128 0x13
+ 1000 0006 0B       		.uleb128 0xb
+ 1001 0007 03       		.uleb128 0x3
+ 1002 0008 0E       		.uleb128 0xe
+ 1003 0009 1B       		.uleb128 0x1b
+ 1004 000a 0E       		.uleb128 0xe
+ 1005 000b 55       		.uleb128 0x55
+ 1006 000c 17       		.uleb128 0x17
+ 1007 000d 11       		.uleb128 0x11
+ 1008 000e 01       		.uleb128 0x1
+ 1009 000f 10       		.uleb128 0x10
+ 1010 0010 17       		.uleb128 0x17
+ 1011 0011 00       		.byte	0
+ 1012 0012 00       		.byte	0
+ 1013 0013 02       		.uleb128 0x2
+ 1014 0014 24       		.uleb128 0x24
+ 1015 0015 00       		.byte	0
+ 1016 0016 0B       		.uleb128 0xb
+ 1017 0017 0B       		.uleb128 0xb
+ 1018 0018 3E       		.uleb128 0x3e
+ 1019 0019 0B       		.uleb128 0xb
+ 1020 001a 03       		.uleb128 0x3
+ 1021 001b 0E       		.uleb128 0xe
+ 1022 001c 00       		.byte	0
+ 1023 001d 00       		.byte	0
+ 1024 001e 03       		.uleb128 0x3
+ 1025 001f 16       		.uleb128 0x16
+ 1026 0020 00       		.byte	0
+ 1027 0021 03       		.uleb128 0x3
+ 1028 0022 0E       		.uleb128 0xe
+ 1029 0023 3A       		.uleb128 0x3a
+ 1030 0024 0B       		.uleb128 0xb
+ 1031 0025 3B       		.uleb128 0x3b
+ 1032 0026 0B       		.uleb128 0xb
+ 1033 0027 49       		.uleb128 0x49
+ 1034 0028 13       		.uleb128 0x13
+ 1035 0029 00       		.byte	0
+ 1036 002a 00       		.byte	0
+ 1037 002b 04       		.uleb128 0x4
+ 1038 002c 24       		.uleb128 0x24
+ 1039 002d 00       		.byte	0
+ 1040 002e 0B       		.uleb128 0xb
+ 1041 002f 0B       		.uleb128 0xb
+ 1042 0030 3E       		.uleb128 0x3e
+ 1043 0031 0B       		.uleb128 0xb
+ 1044 0032 03       		.uleb128 0x3
+ 1045 0033 08       		.uleb128 0x8
+ 1046 0034 00       		.byte	0
+ 1047 0035 00       		.byte	0
+ 1048 0036 05       		.uleb128 0x5
+ 1049 0037 16       		.uleb128 0x16
+ 1050 0038 00       		.byte	0
+ 1051 0039 03       		.uleb128 0x3
+ 1052 003a 0E       		.uleb128 0xe
+ 1053 003b 3A       		.uleb128 0x3a
+ 1054 003c 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 21
+
+
+ 1055 003d 3B       		.uleb128 0x3b
+ 1056 003e 05       		.uleb128 0x5
+ 1057 003f 49       		.uleb128 0x49
+ 1058 0040 13       		.uleb128 0x13
+ 1059 0041 00       		.byte	0
+ 1060 0042 00       		.byte	0
+ 1061 0043 06       		.uleb128 0x6
+ 1062 0044 35       		.uleb128 0x35
+ 1063 0045 00       		.byte	0
+ 1064 0046 49       		.uleb128 0x49
+ 1065 0047 13       		.uleb128 0x13
+ 1066 0048 00       		.byte	0
+ 1067 0049 00       		.byte	0
+ 1068 004a 07       		.uleb128 0x7
+ 1069 004b 26       		.uleb128 0x26
+ 1070 004c 00       		.byte	0
+ 1071 004d 49       		.uleb128 0x49
+ 1072 004e 13       		.uleb128 0x13
+ 1073 004f 00       		.byte	0
+ 1074 0050 00       		.byte	0
+ 1075 0051 08       		.uleb128 0x8
+ 1076 0052 2E       		.uleb128 0x2e
+ 1077 0053 01       		.byte	0x1
+ 1078 0054 3F       		.uleb128 0x3f
+ 1079 0055 19       		.uleb128 0x19
+ 1080 0056 03       		.uleb128 0x3
+ 1081 0057 0E       		.uleb128 0xe
+ 1082 0058 3A       		.uleb128 0x3a
+ 1083 0059 0B       		.uleb128 0xb
+ 1084 005a 3B       		.uleb128 0x3b
+ 1085 005b 0B       		.uleb128 0xb
+ 1086 005c 49       		.uleb128 0x49
+ 1087 005d 13       		.uleb128 0x13
+ 1088 005e 11       		.uleb128 0x11
+ 1089 005f 01       		.uleb128 0x1
+ 1090 0060 12       		.uleb128 0x12
+ 1091 0061 06       		.uleb128 0x6
+ 1092 0062 40       		.uleb128 0x40
+ 1093 0063 18       		.uleb128 0x18
+ 1094 0064 9642     		.uleb128 0x2116
+ 1095 0066 19       		.uleb128 0x19
+ 1096 0067 01       		.uleb128 0x1
+ 1097 0068 13       		.uleb128 0x13
+ 1098 0069 00       		.byte	0
+ 1099 006a 00       		.byte	0
+ 1100 006b 09       		.uleb128 0x9
+ 1101 006c 34       		.uleb128 0x34
+ 1102 006d 00       		.byte	0
+ 1103 006e 03       		.uleb128 0x3
+ 1104 006f 0E       		.uleb128 0xe
+ 1105 0070 3A       		.uleb128 0x3a
+ 1106 0071 0B       		.uleb128 0xb
+ 1107 0072 3B       		.uleb128 0x3b
+ 1108 0073 0B       		.uleb128 0xb
+ 1109 0074 49       		.uleb128 0x49
+ 1110 0075 13       		.uleb128 0x13
+ 1111 0076 02       		.uleb128 0x2
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 22
+
+
+ 1112 0077 18       		.uleb128 0x18
+ 1113 0078 00       		.byte	0
+ 1114 0079 00       		.byte	0
+ 1115 007a 0A       		.uleb128 0xa
+ 1116 007b 0B       		.uleb128 0xb
+ 1117 007c 01       		.byte	0x1
+ 1118 007d 11       		.uleb128 0x11
+ 1119 007e 01       		.uleb128 0x1
+ 1120 007f 12       		.uleb128 0x12
+ 1121 0080 06       		.uleb128 0x6
+ 1122 0081 00       		.byte	0
+ 1123 0082 00       		.byte	0
+ 1124 0083 0B       		.uleb128 0xb
+ 1125 0084 34       		.uleb128 0x34
+ 1126 0085 00       		.byte	0
+ 1127 0086 03       		.uleb128 0x3
+ 1128 0087 08       		.uleb128 0x8
+ 1129 0088 3A       		.uleb128 0x3a
+ 1130 0089 0B       		.uleb128 0xb
+ 1131 008a 3B       		.uleb128 0x3b
+ 1132 008b 0B       		.uleb128 0xb
+ 1133 008c 49       		.uleb128 0x49
+ 1134 008d 13       		.uleb128 0x13
+ 1135 008e 02       		.uleb128 0x2
+ 1136 008f 18       		.uleb128 0x18
+ 1137 0090 00       		.byte	0
+ 1138 0091 00       		.byte	0
+ 1139 0092 0C       		.uleb128 0xc
+ 1140 0093 34       		.uleb128 0x34
+ 1141 0094 00       		.byte	0
+ 1142 0095 03       		.uleb128 0x3
+ 1143 0096 0E       		.uleb128 0xe
+ 1144 0097 3A       		.uleb128 0x3a
+ 1145 0098 0B       		.uleb128 0xb
+ 1146 0099 3B       		.uleb128 0x3b
+ 1147 009a 05       		.uleb128 0x5
+ 1148 009b 49       		.uleb128 0x49
+ 1149 009c 13       		.uleb128 0x13
+ 1150 009d 3F       		.uleb128 0x3f
+ 1151 009e 19       		.uleb128 0x19
+ 1152 009f 3C       		.uleb128 0x3c
+ 1153 00a0 19       		.uleb128 0x19
+ 1154 00a1 00       		.byte	0
+ 1155 00a2 00       		.byte	0
+ 1156 00a3 0D       		.uleb128 0xd
+ 1157 00a4 01       		.uleb128 0x1
+ 1158 00a5 01       		.byte	0x1
+ 1159 00a6 49       		.uleb128 0x49
+ 1160 00a7 13       		.uleb128 0x13
+ 1161 00a8 01       		.uleb128 0x1
+ 1162 00a9 13       		.uleb128 0x13
+ 1163 00aa 00       		.byte	0
+ 1164 00ab 00       		.byte	0
+ 1165 00ac 0E       		.uleb128 0xe
+ 1166 00ad 21       		.uleb128 0x21
+ 1167 00ae 00       		.byte	0
+ 1168 00af 49       		.uleb128 0x49
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 23
+
+
+ 1169 00b0 13       		.uleb128 0x13
+ 1170 00b1 2F       		.uleb128 0x2f
+ 1171 00b2 0B       		.uleb128 0xb
+ 1172 00b3 00       		.byte	0
+ 1173 00b4 00       		.byte	0
+ 1174 00b5 0F       		.uleb128 0xf
+ 1175 00b6 34       		.uleb128 0x34
+ 1176 00b7 00       		.byte	0
+ 1177 00b8 03       		.uleb128 0x3
+ 1178 00b9 0E       		.uleb128 0xe
+ 1179 00ba 3A       		.uleb128 0x3a
+ 1180 00bb 0B       		.uleb128 0xb
+ 1181 00bc 3B       		.uleb128 0x3b
+ 1182 00bd 0B       		.uleb128 0xb
+ 1183 00be 49       		.uleb128 0x49
+ 1184 00bf 13       		.uleb128 0x13
+ 1185 00c0 3F       		.uleb128 0x3f
+ 1186 00c1 19       		.uleb128 0x19
+ 1187 00c2 02       		.uleb128 0x2
+ 1188 00c3 18       		.uleb128 0x18
+ 1189 00c4 00       		.byte	0
+ 1190 00c5 00       		.byte	0
+ 1191 00c6 00       		.byte	0
+ 1192              		.section	.debug_aranges,"",%progbits
+ 1193 0000 1C000000 		.4byte	0x1c
+ 1194 0004 0200     		.2byte	0x2
+ 1195 0006 00000000 		.4byte	.Ldebug_info0
+ 1196 000a 04       		.byte	0x4
+ 1197 000b 00       		.byte	0
+ 1198 000c 0000     		.2byte	0
+ 1199 000e 0000     		.2byte	0
+ 1200 0010 00000000 		.4byte	.LFB64
+ 1201 0014 70010000 		.4byte	.LFE64-.LFB64
+ 1202 0018 00000000 		.4byte	0
+ 1203 001c 00000000 		.4byte	0
+ 1204              		.section	.debug_ranges,"",%progbits
+ 1205              	.Ldebug_ranges0:
+ 1206 0000 00000000 		.4byte	.LFB64
+ 1207 0004 70010000 		.4byte	.LFE64
+ 1208 0008 00000000 		.4byte	0
+ 1209 000c 00000000 		.4byte	0
+ 1210              		.section	.debug_line,"",%progbits
+ 1211              	.Ldebug_line0:
+ 1212 0000 90010000 		.section	.debug_str,"MS",%progbits,1
+ 1212      02004C01 
+ 1212      00000201 
+ 1212      FB0E0D00 
+ 1212      01010101 
+ 1213              	.LASF30:
+ 1214 0000 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1214      43313120 
+ 1214      352E342E 
+ 1214      31203230 
+ 1214      31363036 
+ 1215 0033 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1215      20726576 
+ 1215      6973696F 
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 24
+
+
+ 1215      6E203233 
+ 1215      37373135 
+ 1216 0066 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1216      66756E63 
+ 1216      74696F6E 
+ 1216      2D736563 
+ 1216      74696F6E 
+ 1217              	.LASF23:
+ 1218 008e 64656C61 		.ascii	"delayMS\000"
+ 1218      794D5300 
+ 1219              	.LASF9:
+ 1220 0096 5F5F696E 		.ascii	"__int32_t\000"
+ 1220      7433325F 
+ 1220      7400
+ 1221              	.LASF11:
+ 1222 00a0 75696E74 		.ascii	"uint8\000"
+ 1222      3800
+ 1223              	.LASF13:
+ 1224 00a6 666C6F61 		.ascii	"float\000"
+ 1224      7400
+ 1225              	.LASF27:
+ 1226 00ac 6E6F7465 		.ascii	"note\000"
+ 1226      00
+ 1227              	.LASF21:
+ 1228 00b1 696E7446 		.ascii	"intFrequency\000"
+ 1228      72657175 
+ 1228      656E6379 
+ 1228      00
+ 1229              	.LASF5:
+ 1230 00be 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1230      20756E73 
+ 1230      69676E65 
+ 1230      6420696E 
+ 1230      7400
+ 1231              	.LASF3:
+ 1232 00d0 73686F72 		.ascii	"short unsigned int\000"
+ 1232      7420756E 
+ 1232      7369676E 
+ 1232      65642069 
+ 1232      6E7400
+ 1233              	.LASF24:
+ 1234 00e3 6F6E4F66 		.ascii	"onOffCount\000"
+ 1234      66436F75 
+ 1234      6E7400
+ 1235              	.LASF19:
+ 1236 00ee 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1236      52784275 
+ 1236      66666572 
+ 1236      00
+ 1237              	.LASF32:
+ 1238 00fb 433A5C55 		.ascii	"C:\\Users\\Silvan\\OneDrive\\GitHubRepos\\PSoC_Audi"
+ 1238      73657273 
+ 1238      5C53696C 
+ 1238      76616E5C 
+ 1238      4F6E6544 
+ 1239 0129 6F5F4D49 		.ascii	"o_MIDI\\WaveDAC8_Example01\\WaveDAC8_Example01.cyds"
+ 1239      44495C57 
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 25
+
+
+ 1239      61766544 
+ 1239      4143385F 
+ 1239      4578616D 
+ 1240 015a 6E00     		.ascii	"n\000"
+ 1241              	.LASF14:
+ 1242 015c 646F7562 		.ascii	"double\000"
+ 1242      6C6500
+ 1243              	.LASF2:
+ 1244 0163 73686F72 		.ascii	"short int\000"
+ 1244      7420696E 
+ 1244      7400
+ 1245              	.LASF12:
+ 1246 016d 75696E74 		.ascii	"uint16\000"
+ 1246      313600
+ 1247              	.LASF33:
+ 1248 0174 6D61696E 		.ascii	"main\000"
+ 1248      00
+ 1249              	.LASF1:
+ 1250 0179 756E7369 		.ascii	"unsigned char\000"
+ 1250      676E6564 
+ 1250      20636861 
+ 1250      7200
+ 1251              	.LASF8:
+ 1252 0187 756E7369 		.ascii	"unsigned int\000"
+ 1252      676E6564 
+ 1252      20696E74 
+ 1252      00
+ 1253              	.LASF18:
+ 1254 0194 66726571 		.ascii	"freqClockDivCounter\000"
+ 1254      436C6F63 
+ 1254      6B446976 
+ 1254      436F756E 
+ 1254      74657200 
+ 1255              	.LASF7:
+ 1256 01a8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1256      206C6F6E 
+ 1256      6720756E 
+ 1256      7369676E 
+ 1256      65642069 
+ 1257              	.LASF22:
+ 1258 01bf 66726571 		.ascii	"frequency\000"
+ 1258      75656E63 
+ 1258      7900
+ 1259              	.LASF28:
+ 1260 01c9 6E6F7465 		.ascii	"noteIndex\000"
+ 1260      496E6465 
+ 1260      7800
+ 1261              	.LASF10:
+ 1262 01d3 696E7433 		.ascii	"int32_t\000"
+ 1262      325F7400 
+ 1263              	.LASF20:
+ 1264 01db 6E6F7465 		.ascii	"notes\000"
+ 1264      7300
+ 1265              	.LASF17:
+ 1266 01e1 73697A65 		.ascii	"sizetype\000"
+ 1266      74797065 
+ 1266      00
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccXqBCza.s 			page 26
+
+
+ 1267              	.LASF6:
+ 1268 01ea 6C6F6E67 		.ascii	"long long int\000"
+ 1268      206C6F6E 
+ 1268      6720696E 
+ 1268      7400
+ 1269              	.LASF31:
+ 1270 01f8 6D61696E 		.ascii	"main.c\000"
+ 1270      2E6300
+ 1271              	.LASF15:
+ 1272 01ff 63686172 		.ascii	"char\000"
+ 1272      00
+ 1273              	.LASF29:
+ 1274 0204 706C6179 		.ascii	"playing\000"
+ 1274      696E6700 
+ 1275              	.LASF26:
+ 1276 020c 66726571 		.ascii	"freq\000"
+ 1276      00
+ 1277              	.LASF25:
+ 1278 0211 7472616E 		.ascii	"transmitBuffer\000"
+ 1278      736D6974 
+ 1278      42756666 
+ 1278      657200
+ 1279              	.LASF4:
+ 1280 0220 6C6F6E67 		.ascii	"long int\000"
+ 1280      20696E74 
+ 1280      00
+ 1281              	.LASF16:
+ 1282 0229 6C6F6E67 		.ascii	"long double\000"
+ 1282      20646F75 
+ 1282      626C6500 
+ 1283              	.LASF0:
+ 1284 0235 7369676E 		.ascii	"signed char\000"
+ 1284      65642063 
+ 1284      68617200 
+ 1285              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,4 +1,4 @@
-C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cyprj|7c6d08bb-8094-4b6c-9975-1eccab6f9eb4
+C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cyprj|46f27f21-bebe-4322-a262-5e31a8bc5a04
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|9ff7728e-8b5b-4eb9-b56a-67ea10348624
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|9b462a09-c111-49e1-b523-1342711dd3e5
 C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|87f24f17-eca0-41ad-899e-2ddbf8082290

@@ -34,6 +34,7 @@
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Source Files\main.c</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_VDAC8</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA</v>
@@ -63,6 +64,13 @@
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\cy_boot</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\P00_Vout</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1\UART_1.c</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1\UART_1.h</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1\UART_1_BOOT.c</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1\UART_1_INT.c</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1\UART_1_PM.c</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\UART_1_IntClock</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1\WaveDAC8_1.c</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1\WaveDAC8_1.h</v>
@@ -75,13 +83,6 @@
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA\WaveDAC8_1_Wave1_DMA_dma.c</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA\WaveDAC8_1_Wave1_DMA_dma.h</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA\WaveDAC8_1_Wave2_DMA_dma.c</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA\WaveDAC8_1_Wave2_DMA_dma.h</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\cycodeshareexport.ld</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\cycodeshareimport.ld</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\cycodeshareimport.scat</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\Generated_Source\PSoC5\cydevice.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -120,6 +121,11 @@
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\P00_Vout.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_INT.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_IntClock.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_PM.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp_PM.lst</v>
@@ -156,6 +162,11 @@
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\P00_Vout.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_INT.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_IntClock.lst</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_PM.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp.lst</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp_PM.lst</v>
@@ -186,8 +197,10 @@
 <v>WaveDAC8_Example01\WaveDAC8_Example01\System Reference Guides</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\System Reference Guides\cy_boot_v5_60</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\cy_clock_v2_20.pdf</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\cy_pins_v2_20.pdf</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\cy_pins_v2_20</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Gnd_v1_0.pdf</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\UART_v2_50.pdf</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\WaveDAC8_v2_10.pdf</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\ZeroTerminal.pdf</v>
 </ExpandedNodeIds>
@@ -199,8 +212,10 @@
 <v>WaveDAC8_Example01\WaveDAC8_Example01\System Reference Guides</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\System Reference Guides\cy_boot_v5_60</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\cy_clock_v2_20.pdf</v>
-<v>WaveDAC8_Example01\WaveDAC8_Example01\cy_pins_v2_20.pdf</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\cy_pins_v2_20</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\Gnd_v1_0.pdf</v>
+<v>WaveDAC8_Example01\WaveDAC8_Example01\UART_v2_50.pdf</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\WaveDAC8_v2_10.pdf</v>
 <v>WaveDAC8_Example01\WaveDAC8_Example01\ZeroTerminal.pdf</v>
 </VisibleNodeIds>
@@ -212,8 +227,15 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\WaveDAC8_Example01.cydsn\main.c" />
 <name v=".\WaveDAC8_Example01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA_dma.c" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA_dma.h" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA_dma.c" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA_dma.h" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_VDAC8.c" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_VDAC8_PM.c" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_VDAC8.h" />
+<name v=".\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -221,7 +243,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="814, 583" SelectedTabbedMdiWindow="0640d028-b778-4257-be1c-f89a4b56600e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\main.c" Guid="55b3a96d-da9e-4f28-abc9-6b206accf6a9" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\TopDesign\TopDesign.cysch" Guid="0640d028-b778-4257-be1c-f89a4b56600e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="814, 583" SelectedTabbedMdiWindow="0640d028-b778-4257-be1c-f89a4b56600e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\TopDesign\TopDesign.cysch" Guid="0640d028-b778-4257-be1c-f89a4b56600e" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA_dma.c" Guid="c0d244f8-b8e3-4bca-b7ae-d1382993c2a7" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA_dma.h" Guid="63da9560-b3a5-4b8e-8fd7-ddfd1161a6a9" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA_dma.c" Guid="49673187-a2a3-4643-9888-b4ee18d8f35b" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA_dma.h" Guid="c7097838-f161-4fea-84e7-115ae6db07a1" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_VDAC8.c" Guid="59772f42-a487-4f0e-a742-924b044bf986" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_VDAC8_PM.c" Guid="cf9995c9-cc14-43bb-a8f0-9da4ddd3d945" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1_VDAC8.h" Guid="ee5d6aaa-8a72-4ddb-b57d-f0e6c5e84704" /><DocumentWindow Key="C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\Generated_Source\PSoC5\WaveDAC8_1.c" Guid="b2c32822-3f4d-42fb-afcd-e2d12709cd6e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
