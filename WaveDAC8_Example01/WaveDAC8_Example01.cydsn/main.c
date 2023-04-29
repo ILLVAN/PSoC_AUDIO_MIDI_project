@@ -28,17 +28,23 @@
 *******************************************************************************/
 
 #include <project.h>
-#define START_FREQ_DIV 2
-
+#define START_FREQ_DIV 8
 
 volatile uint16 delayMS = 100;
+volatile uint8 onOffCount = 0;
 
 int main()
 {
-    WaveDAC8_1_Start(); /* Start WaveDAC8  */
     uint16 freqClockDivCounter = START_FREQ_DIV;
 	
     for(;;){         /* Loop forever    */
+        if (onOffCount < 1){
+            WaveDAC8_1_Start(); /* Start WaveDAC8  */
+        }
+        else if(onOffCount == 127){
+            WaveDAC8_1_Stop();
+        }
+        onOffCount++;
         Clock_1_SetDividerValue(freqClockDivCounter);
         freqClockDivCounter++;
         CyDelay(delayMS); 
