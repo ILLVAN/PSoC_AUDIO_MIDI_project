@@ -31,6 +31,25 @@
   <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_PM.c" value="SOURCE_C;CortexM3;;;;UART_1" />
   <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_INT.c" value="SOURCE_C;CortexM3;;;;UART_1" />
   <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_BOOT.c" value="SOURCE_C;CortexM3;;;;UART_1" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_1_aliases.h" value="HEADER;;;;;Pin_Dice_1" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_1.c" value="SOURCE_C;CortexM3;;;;Pin_Dice_1" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_1.h" value="HEADER;;;;;Pin_Dice_1" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_LED_1_aliases.h" value="HEADER;;;;;Pin_Dice_LED_1" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_LED_1.c" value="SOURCE_C;CortexM3;;;;Pin_Dice_LED_1" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_LED_1.h" value="HEADER;;;;;Pin_Dice_LED_1" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_LED_2_aliases.h" value="HEADER;;;;;Pin_Dice_LED_2" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_LED_2.c" value="SOURCE_C;CortexM3;;;;Pin_Dice_LED_2" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_LED_2.h" value="HEADER;;;;;Pin_Dice_LED_2" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_checkMode.c" value="SOURCE_C;CortexM3;;;;isr_checkMode" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_checkMode.h" value="HEADER;;;;;isr_checkMode" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_Mode.c" value="SOURCE_C;CortexM3;;;;Clock_Mode" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_Mode.h" value="HEADER;;;;;Clock_Mode" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Mode.c" value="SOURCE_C;CortexM3;;;;Timer_Mode" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Mode.h" value="HEADER;;;;;Timer_Mode" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Mode_PM.c" value="SOURCE_C;CortexM3;;;;Timer_Mode" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2_aliases.h" value="HEADER;;;;;Pin_Dice_2" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2.c" value="SOURCE_C;CortexM3;;;;Pin_Dice_2" />
+  <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2.h" value="HEADER;;;;;Pin_Dice_2" />
   <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave1_DMA" />
   <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.h" value="HEADER;;;;;WaveDAC8_1_Wave1_DMA" />
   <file name="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave2_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave2_DMA" />

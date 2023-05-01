@@ -1,5 +1,5 @@
 # PSoC_Audio_MIDI
-# 2023-05-01 08:28:34Z
+# 2023-05-01 12:58:19Z
 
 # IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 0
@@ -10,5 +10,9 @@ dont_use_io iocell 1 3
 set_io "P00_Vout(0)" iocell 3 6
 set_io "Rx_1(0)" iocell 12 6
 set_io "Tx_1(0)" iocell 12 7
+set_io "Pin_Dice_1(0)" iocell 1 7
+set_io "Pin_Dice_LED_1(0)" iocell 1 6
+set_io "Pin_Dice_LED_2(0)" iocell 1 4
+set_io "Pin_Dice_2(0)" iocell 1 5
 set_location "\WaveDAC8_1:VDAC8:viDAC8\" vidaccell -1 -1 3
 set_location "\WaveDAC8_1:BuffAmp:ABuf\" abufcell -1 -1 1
