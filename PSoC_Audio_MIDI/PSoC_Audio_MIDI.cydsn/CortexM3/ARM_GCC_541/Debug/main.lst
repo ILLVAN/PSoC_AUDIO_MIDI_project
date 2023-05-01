@@ -1,0 +1,1730 @@
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	notes
+  20              		.section	.rodata
+  21              		.align	2
+  22              		.type	notes, %object
+  23              		.size	notes, 324
+  24              	notes:
+  25 0000 433020   		.ascii	"C0 "
+  26 0003 432330   		.ascii	"C#0"
+  27 0006 443020   		.ascii	"D0 "
+  28 0009 442330   		.ascii	"D#0"
+  29 000c 453020   		.ascii	"E0 "
+  30 000f 463020   		.ascii	"F0 "
+  31 0012 462330   		.ascii	"F#0"
+  32 0015 473020   		.ascii	"G0 "
+  33 0018 472330   		.ascii	"G#0"
+  34 001b 413020   		.ascii	"A0 "
+  35 001e 412330   		.ascii	"A#0"
+  36 0021 423020   		.ascii	"B0 "
+  37 0024 433120   		.ascii	"C1 "
+  38 0027 432331   		.ascii	"C#1"
+  39 002a 443120   		.ascii	"D1 "
+  40 002d 442331   		.ascii	"D#1"
+  41 0030 453120   		.ascii	"E1 "
+  42 0033 463120   		.ascii	"F1 "
+  43 0036 462331   		.ascii	"F#1"
+  44 0039 473120   		.ascii	"G1 "
+  45 003c 472331   		.ascii	"G#1"
+  46 003f 413120   		.ascii	"A1 "
+  47 0042 412331   		.ascii	"A#1"
+  48 0045 423120   		.ascii	"B1 "
+  49 0048 433220   		.ascii	"C2 "
+  50 004b 432332   		.ascii	"C#2"
+  51 004e 443220   		.ascii	"D2 "
+  52 0051 442332   		.ascii	"D#2"
+  53 0054 453220   		.ascii	"E2 "
+  54 0057 463220   		.ascii	"F2 "
+  55 005a 462332   		.ascii	"F#2"
+  56 005d 473220   		.ascii	"G2 "
+  57 0060 472332   		.ascii	"G#2"
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 2
+
+
+  58 0063 413220   		.ascii	"A2 "
+  59 0066 412332   		.ascii	"A#2"
+  60 0069 423220   		.ascii	"B2 "
+  61 006c 433320   		.ascii	"C3 "
+  62 006f 432333   		.ascii	"C#3"
+  63 0072 443320   		.ascii	"D3 "
+  64 0075 442333   		.ascii	"D#3"
+  65 0078 453320   		.ascii	"E3 "
+  66 007b 463320   		.ascii	"F3 "
+  67 007e 462333   		.ascii	"F#3"
+  68 0081 473320   		.ascii	"G3 "
+  69 0084 472333   		.ascii	"G#3"
+  70 0087 413320   		.ascii	"A3 "
+  71 008a 412333   		.ascii	"A#3"
+  72 008d 423320   		.ascii	"B3 "
+  73 0090 433420   		.ascii	"C4 "
+  74 0093 432334   		.ascii	"C#4"
+  75 0096 443420   		.ascii	"D4 "
+  76 0099 442334   		.ascii	"D#4"
+  77 009c 453420   		.ascii	"E4 "
+  78 009f 463420   		.ascii	"F4 "
+  79 00a2 462334   		.ascii	"F#4"
+  80 00a5 473420   		.ascii	"G4 "
+  81 00a8 472334   		.ascii	"G#4"
+  82 00ab 413420   		.ascii	"A4 "
+  83 00ae 412334   		.ascii	"A#4"
+  84 00b1 423420   		.ascii	"B4 "
+  85 00b4 433520   		.ascii	"C5 "
+  86 00b7 432335   		.ascii	"C#5"
+  87 00ba 443520   		.ascii	"D5 "
+  88 00bd 442335   		.ascii	"D#5"
+  89 00c0 453520   		.ascii	"E5 "
+  90 00c3 463520   		.ascii	"F5 "
+  91 00c6 462335   		.ascii	"F#5"
+  92 00c9 473520   		.ascii	"G5 "
+  93 00cc 472335   		.ascii	"G#5"
+  94 00cf 413520   		.ascii	"A5 "
+  95 00d2 412335   		.ascii	"A#5"
+  96 00d5 423520   		.ascii	"B5 "
+  97 00d8 433620   		.ascii	"C6 "
+  98 00db 432336   		.ascii	"C#6"
+  99 00de 443620   		.ascii	"D6 "
+ 100 00e1 442336   		.ascii	"D#6"
+ 101 00e4 453620   		.ascii	"E6 "
+ 102 00e7 463620   		.ascii	"F6 "
+ 103 00ea 462336   		.ascii	"F#6"
+ 104 00ed 473620   		.ascii	"G6 "
+ 105 00f0 472336   		.ascii	"G#6"
+ 106 00f3 413620   		.ascii	"A6 "
+ 107 00f6 412336   		.ascii	"A#6"
+ 108 00f9 423620   		.ascii	"B6 "
+ 109 00fc 433720   		.ascii	"C7 "
+ 110 00ff 432337   		.ascii	"C#7"
+ 111 0102 443720   		.ascii	"D7 "
+ 112 0105 442337   		.ascii	"D#7"
+ 113 0108 453720   		.ascii	"E7 "
+ 114 010b 463720   		.ascii	"F7 "
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 3
+
+
+ 115 010e 462337   		.ascii	"F#7"
+ 116 0111 473720   		.ascii	"G7 "
+ 117 0114 472337   		.ascii	"G#7"
+ 118 0117 413720   		.ascii	"A7 "
+ 119 011a 412337   		.ascii	"A#7"
+ 120 011d 423720   		.ascii	"B7 "
+ 121 0120 433820   		.ascii	"C8 "
+ 122 0123 432338   		.ascii	"C#8"
+ 123 0126 443820   		.ascii	"D8 "
+ 124 0129 442338   		.ascii	"D#8"
+ 125 012c 453820   		.ascii	"E8 "
+ 126 012f 463820   		.ascii	"F8 "
+ 127 0132 462338   		.ascii	"F#8"
+ 128 0135 473820   		.ascii	"G8 "
+ 129 0138 472338   		.ascii	"G#8"
+ 130 013b 413820   		.ascii	"A8 "
+ 131 013e 412338   		.ascii	"A#8"
+ 132 0141 423820   		.ascii	"B8 "
+ 133              		.global	intFrequency
+ 134              		.align	2
+ 135              		.type	intFrequency, %object
+ 136              		.size	intFrequency, 216
+ 137              	intFrequency:
+ 138 0144 1000     		.short	16
+ 139 0146 1100     		.short	17
+ 140 0148 1200     		.short	18
+ 141 014a 1300     		.short	19
+ 142 014c 1500     		.short	21
+ 143 014e 1600     		.short	22
+ 144 0150 1700     		.short	23
+ 145 0152 1900     		.short	25
+ 146 0154 1A00     		.short	26
+ 147 0156 1C00     		.short	28
+ 148 0158 1D00     		.short	29
+ 149 015a 1F00     		.short	31
+ 150 015c 2100     		.short	33
+ 151 015e 2300     		.short	35
+ 152 0160 2500     		.short	37
+ 153 0162 2700     		.short	39
+ 154 0164 2900     		.short	41
+ 155 0166 2C00     		.short	44
+ 156 0168 2E00     		.short	46
+ 157 016a 3100     		.short	49
+ 158 016c 3400     		.short	52
+ 159 016e 3700     		.short	55
+ 160 0170 3A00     		.short	58
+ 161 0172 3E00     		.short	62
+ 162 0174 4100     		.short	65
+ 163 0176 4500     		.short	69
+ 164 0178 4900     		.short	73
+ 165 017a 4E00     		.short	78
+ 166 017c 5200     		.short	82
+ 167 017e 5700     		.short	87
+ 168 0180 5C00     		.short	92
+ 169 0182 6200     		.short	98
+ 170 0184 6800     		.short	104
+ 171 0186 6E00     		.short	110
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 4
+
+
+ 172 0188 7500     		.short	117
+ 173 018a 7B00     		.short	123
+ 174 018c 8300     		.short	131
+ 175 018e 8B00     		.short	139
+ 176 0190 9300     		.short	147
+ 177 0192 9C00     		.short	156
+ 178 0194 A500     		.short	165
+ 179 0196 AF00     		.short	175
+ 180 0198 B900     		.short	185
+ 181 019a C400     		.short	196
+ 182 019c D000     		.short	208
+ 183 019e DC00     		.short	220
+ 184 01a0 E900     		.short	233
+ 185 01a2 F700     		.short	247
+ 186 01a4 0601     		.short	262
+ 187 01a6 1501     		.short	277
+ 188 01a8 2601     		.short	294
+ 189 01aa 3701     		.short	311
+ 190 01ac 4A01     		.short	330
+ 191 01ae 5D01     		.short	349
+ 192 01b0 7201     		.short	370
+ 193 01b2 8801     		.short	392
+ 194 01b4 9F01     		.short	415
+ 195 01b6 B801     		.short	440
+ 196 01b8 D201     		.short	466
+ 197 01ba EE01     		.short	494
+ 198 01bc 0B02     		.short	523
+ 199 01be 2A02     		.short	554
+ 200 01c0 4B02     		.short	587
+ 201 01c2 6E02     		.short	622
+ 202 01c4 9302     		.short	659
+ 203 01c6 BA02     		.short	698
+ 204 01c8 E402     		.short	740
+ 205 01ca 1003     		.short	784
+ 206 01cc 3F03     		.short	831
+ 207 01ce 7003     		.short	880
+ 208 01d0 A403     		.short	932
+ 209 01d2 DC03     		.short	988
+ 210 01d4 1704     		.short	1047
+ 211 01d6 5504     		.short	1109
+ 212 01d8 9704     		.short	1175
+ 213 01da DD04     		.short	1245
+ 214 01dc 2705     		.short	1319
+ 215 01de 7505     		.short	1397
+ 216 01e0 C805     		.short	1480
+ 217 01e2 2006     		.short	1568
+ 218 01e4 7D06     		.short	1661
+ 219 01e6 E006     		.short	1760
+ 220 01e8 4907     		.short	1865
+ 221 01ea B807     		.short	1976
+ 222 01ec 2D08     		.short	2093
+ 223 01ee A908     		.short	2217
+ 224 01f0 2D09     		.short	2349
+ 225 01f2 B909     		.short	2489
+ 226 01f4 4D0A     		.short	2637
+ 227 01f6 EA0A     		.short	2794
+ 228 01f8 900B     		.short	2960
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 5
+
+
+ 229 01fa 400C     		.short	3136
+ 230 01fc FA0C     		.short	3322
+ 231 01fe C00D     		.short	3520
+ 232 0200 920E     		.short	3730
+ 233 0202 6F0F     		.short	3951
+ 234 0204 5A10     		.short	4186
+ 235 0206 5311     		.short	4435
+ 236 0208 5B12     		.short	4699
+ 237 020a 7213     		.short	4978
+ 238 020c 9A14     		.short	5274
+ 239 020e D415     		.short	5588
+ 240 0210 1F17     		.short	5919
+ 241 0212 8018     		.short	6272
+ 242 0214 F519     		.short	6645
+ 243 0216 801B     		.short	7040
+ 244 0218 231D     		.short	7459
+ 245 021a DE1E     		.short	7902
+ 246              		.global	frequency
+ 247 021c 00000000 		.align	3
+ 248              		.type	frequency, %object
+ 249              		.size	frequency, 864
+ 250              	frequency:
+ 251 0220 9A999999 		.word	-1717986918
+ 252 0224 99593040 		.word	1076910489
+ 253 0228 52B81E85 		.word	-2061584302
+ 254 022c EB513140 		.word	1076974059
+ 255 0230 9A999999 		.word	-1717986918
+ 256 0234 99593240 		.word	1077041561
+ 257 0238 33333333 		.word	858993459
+ 258 023c 33733340 		.word	1077113651
+ 259 0240 9A999999 		.word	-1717986918
+ 260 0244 99993440 		.word	1077189017
+ 261 0248 14AE47E1 		.word	-515396076
+ 262 024c 7AD43540 		.word	1077269626
+ 263 0250 1F85EB51 		.word	1374389535
+ 264 0254 B81E3740 		.word	1077354168
+ 265 0258 00000000 		.word	0
+ 266 025c 00803840 		.word	1077444608
+ 267 0260 F6285C8F 		.word	-1889785610
+ 268 0264 C2F53940 		.word	1077540290
+ 269 0268 00000000 		.word	0
+ 270 026c 00803B40 		.word	1077641216
+ 271 0270 A4703D0A 		.word	171798692
+ 272 0274 D7233D40 		.word	1077748695
+ 273 0278 1F85EB51 		.word	1374389535
+ 274 027c B8DE3E40 		.word	1077862072
+ 275 0280 9A999999 		.word	-1717986918
+ 276 0284 99594040 		.word	1077959065
+ 277 0288 33333333 		.word	858993459
+ 278 028c 33534140 		.word	1078022963
+ 279 0290 7B14AE47 		.word	1202590843
+ 280 0294 E15A4240 		.word	1078090465
+ 281 0298 52B81E85 		.word	-2061584302
+ 282 029c EB714340 		.word	1078161899
+ 283 02a0 9A999999 		.word	-1717986918
+ 284 02a4 99994440 		.word	1078237593
+ 285 02a8 33333333 		.word	858993459
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 6
+
+
+ 286 02ac 33D34540 		.word	1078317875
+ 287 02b0 00000000 		.word	0
+ 288 02b4 00204740 		.word	1078403072
+ 289 02b8 00000000 		.word	0
+ 290 02bc 00804840 		.word	1078493184
+ 291 02c0 14AE47E1 		.word	-515396076
+ 292 02c4 7AF44940 		.word	1078588538
+ 293 02c8 00000000 		.word	0
+ 294 02cc 00804B40 		.word	1078689792
+ 295 02d0 C3F5285C 		.word	1546188227
+ 296 02d4 8F224D40 		.word	1078796943
+ 297 02d8 1F85EB51 		.word	1374389535
+ 298 02dc B8DE4E40 		.word	1078910648
+ 299 02e0 0AD7A370 		.word	1889785610
+ 300 02e4 3D5A5040 		.word	1079007805
+ 301 02e8 33333333 		.word	858993459
+ 302 02ec 33535140 		.word	1079071539
+ 303 02f0 7B14AE47 		.word	1202590843
+ 304 02f4 E15A5240 		.word	1079139041
+ 305 02f8 52B81E85 		.word	-2061584302
+ 306 02fc EB715340 		.word	1079210475
+ 307 0300 0AD7A370 		.word	1889785610
+ 308 0304 3D9A5440 		.word	1079286333
+ 309 0308 A4703D0A 		.word	171798692
+ 310 030c D7D35540 		.word	1079366615
+ 311 0310 00000000 		.word	0
+ 312 0314 00205740 		.word	1079451648
+ 313 0318 00000000 		.word	0
+ 314 031c 00805840 		.word	1079541760
+ 315 0320 85EB51B8 		.word	-1202590843
+ 316 0324 1EF55940 		.word	1079637278
+ 317 0328 00000000 		.word	0
+ 318 032c 00805B40 		.word	1079738368
+ 319 0330 C3F5285C 		.word	1546188227
+ 320 0334 8F225D40 		.word	1079845519
+ 321 0338 AE47E17A 		.word	2061584302
+ 322 033c 14DE5E40 		.word	1079959060
+ 323 0340 52B81E85 		.word	-2061584302
+ 324 0344 EB596040 		.word	1080056299
+ 325 0348 7B14AE47 		.word	1202590843
+ 326 034c E1526140 		.word	1080120033
+ 327 0350 C3F5285C 		.word	1546188227
+ 328 0354 8F5A6240 		.word	1080187535
+ 329 0358 52B81E85 		.word	-2061584302
+ 330 035c EB716340 		.word	1080259051
+ 331 0360 52B81E85 		.word	-2061584302
+ 332 0364 EB996440 		.word	1080334827
+ 333 0368 EC51B81E 		.word	515396076
+ 334 036c 85D36540 		.word	1080415109
+ 335 0370 00000000 		.word	0
+ 336 0374 00206740 		.word	1080500224
+ 337 0378 00000000 		.word	0
+ 338 037c 00806840 		.word	1080590336
+ 339 0380 CDCCCCCC 		.word	-858993459
+ 340 0384 CCF46940 		.word	1080685772
+ 341 0388 00000000 		.word	0
+ 342 038c 00806B40 		.word	1080786944
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 7
+
+
+ 343 0390 C3F5285C 		.word	1546188227
+ 344 0394 8F226D40 		.word	1080894095
+ 345 0398 AE47E17A 		.word	2061584302
+ 346 039c 14DE6E40 		.word	1081007636
+ 347 03a0 AE47E17A 		.word	2061584302
+ 348 03a4 145A7040 		.word	1081104916
+ 349 03a8 7B14AE47 		.word	1202590843
+ 350 03ac E1527140 		.word	1081168609
+ 351 03b0 C3F5285C 		.word	1546188227
+ 352 03b4 8F5A7240 		.word	1081236111
+ 353 03b8 AE47E17A 		.word	2061584302
+ 354 03bc 14727340 		.word	1081307668
+ 355 03c0 AE47E17A 		.word	2061584302
+ 356 03c4 149A7440 		.word	1081383444
+ 357 03c8 48E17A14 		.word	343597384
+ 358 03cc AED37540 		.word	1081463726
+ 359 03d0 A4703D0A 		.word	171798692
+ 360 03d4 D71F7740 		.word	1081548759
+ 361 03d8 00000000 		.word	0
+ 362 03dc 00807840 		.word	1081638912
+ 363 03e0 CDCCCCCC 		.word	-858993459
+ 364 03e4 CCF47940 		.word	1081734348
+ 365 03e8 00000000 		.word	0
+ 366 03ec 00807B40 		.word	1081835520
+ 367 03f0 C3F5285C 		.word	1546188227
+ 368 03f4 8F227D40 		.word	1081942671
+ 369 03f8 AE47E17A 		.word	2061584302
+ 370 03fc 14DE7E40 		.word	1082056212
+ 371 0400 00000000 		.word	0
+ 372 0404 005A8040 		.word	1082153472
+ 373 0408 295C8FC2 		.word	-1030792151
+ 374 040c F5528140 		.word	1082217205
+ 375 0410 713D0AD7 		.word	-687194767
+ 376 0414 A35A8240 		.word	1082284707
+ 377 0418 00000000 		.word	0
+ 378 041c 00728340 		.word	1082356224
+ 379 0420 00000000 		.word	0
+ 380 0424 009A8440 		.word	1082432000
+ 381 0428 48E17A14 		.word	343597384
+ 382 042c AED38540 		.word	1082512302
+ 383 0430 52B81E85 		.word	-2061584302
+ 384 0434 EB1F8740 		.word	1082597355
+ 385 0438 52B81E85 		.word	-2061584302
+ 386 043c EB7F8840 		.word	1082687467
+ 387 0440 7B14AE47 		.word	1202590843
+ 388 0444 E1F48940 		.word	1082782945
+ 389 0448 00000000 		.word	0
+ 390 044c 00808B40 		.word	1082884096
+ 391 0450 713D0AD7 		.word	-687194767
+ 392 0454 A3228D40 		.word	1082991267
+ 393 0458 5C8FC2F5 		.word	-171798692
+ 394 045c 28DE8E40 		.word	1083104808
+ 395 0460 00000000 		.word	0
+ 396 0464 005A9040 		.word	1083202048
+ 397 0468 52B81E85 		.word	-2061584302
+ 398 046c EB529140 		.word	1083265771
+ 399 0470 713D0AD7 		.word	-687194767
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 8
+
+
+ 400 0474 A35A9240 		.word	1083333283
+ 401 0478 D7A3703D 		.word	1030792151
+ 402 047c 0A729340 		.word	1083404810
+ 403 0480 D7A3703D 		.word	1030792151
+ 404 0484 0A9A9440 		.word	1083480586
+ 405 0488 713D0AD7 		.word	-687194767
+ 406 048c A3D39540 		.word	1083560867
+ 407 0490 52B81E85 		.word	-2061584302
+ 408 0494 EB1F9740 		.word	1083645931
+ 409 0498 52B81E85 		.word	-2061584302
+ 410 049c EB7F9840 		.word	1083736043
+ 411 04a0 7B14AE47 		.word	1202590843
+ 412 04a4 E1F49940 		.word	1083831521
+ 413 04a8 00000000 		.word	0
+ 414 04ac 00809B40 		.word	1083932672
+ 415 04b0 713D0AD7 		.word	-687194767
+ 416 04b4 A3229D40 		.word	1084039843
+ 417 04b8 85EB51B8 		.word	-1202590843
+ 418 04bc 1EDE9E40 		.word	1084153374
+ 419 04c0 00000000 		.word	0
+ 420 04c4 005AA040 		.word	1084250624
+ 421 04c8 52B81E85 		.word	-2061584302
+ 422 04cc EB52A140 		.word	1084314347
+ 423 04d0 713D0AD7 		.word	-687194767
+ 424 04d4 A35AA240 		.word	1084381859
+ 425 04d8 D7A3703D 		.word	1030792151
+ 426 04dc 0A72A340 		.word	1084453386
+ 427 04e0 D7A3703D 		.word	1030792151
+ 428 04e4 0A9AA440 		.word	1084529162
+ 429 04e8 5C8FC2F5 		.word	-171798692
+ 430 04ec A8D3A540 		.word	1084609448
+ 431 04f0 52B81E85 		.word	-2061584302
+ 432 04f4 EB1FA740 		.word	1084694507
+ 433 04f8 52B81E85 		.word	-2061584302
+ 434 04fc EB7FA840 		.word	1084784619
+ 435 0500 7B14AE47 		.word	1202590843
+ 436 0504 E1F4A940 		.word	1084880097
+ 437 0508 00000000 		.word	0
+ 438 050c 0080AB40 		.word	1084981248
+ 439 0510 85EB51B8 		.word	-1202590843
+ 440 0514 9E22AD40 		.word	1085088414
+ 441 0518 713D0AD7 		.word	-687194767
+ 442 051c 23DEAE40 		.word	1085201955
+ 443 0520 F6285C8F 		.word	-1889785610
+ 444 0524 025AB040 		.word	1085299202
+ 445 0528 52B81E85 		.word	-2061584302
+ 446 052c EB52B140 		.word	1085362923
+ 447 0530 7B14AE47 		.word	1202590843
+ 448 0534 A15AB240 		.word	1085430433
+ 449 0538 E17A14AE 		.word	-1374389535
+ 450 053c 0772B340 		.word	1085501959
+ 451 0540 D7A3703D 		.word	1030792151
+ 452 0544 0A9AB440 		.word	1085577738
+ 453 0548 66666666 		.word	1717986918
+ 454 054c A6D3B540 		.word	1085658022
+ 455 0550 5C8FC2F5 		.word	-171798692
+ 456 0554 E81FB740 		.word	1085743080
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 9
+
+
+ 457 0558 48E17A14 		.word	343597384
+ 458 055c EE7FB840 		.word	1085833198
+ 459 0560 7B14AE47 		.word	1202590843
+ 460 0564 E1F4B940 		.word	1085928673
+ 461 0568 00000000 		.word	0
+ 462 056c 0080BB40 		.word	1086029824
+ 463 0570 85EB51B8 		.word	-1202590843
+ 464 0574 9E22BD40 		.word	1086136990
+ 465 0578 7B14AE47 		.word	1202590843
+ 466 057c 21DEBE40 		.word	1086250529
+ 467              		.global	delayMS
+ 468              		.data
+ 469              		.align	1
+ 470              		.type	delayMS, %object
+ 471              		.size	delayMS, 2
+ 472              	delayMS:
+ 473 0000 1400     		.short	20
+ 474              		.global	onOffCount
+ 475              		.bss
+ 476              		.type	onOffCount, %object
+ 477              		.size	onOffCount, 1
+ 478              	onOffCount:
+ 479 0000 00       		.space	1
+ 480              		.comm	transmitBuffer,100,4
+ 481              		.comm	freq,8,8
+ 482              		.comm	intFreq,2,2
+ 483              		.comm	note,3,4
+ 484              		.comm	noteIndex,1,1
+ 485              		.comm	playing,1,1
+ 486              		.global	mode
+ 487              		.type	mode, %object
+ 488              		.size	mode, 1
+ 489              	mode:
+ 490 0001 00       		.space	1
+ 491              		.global	checkingMode
+ 492              		.type	checkingMode, %object
+ 493              		.size	checkingMode, 1
+ 494              	checkingMode:
+ 495 0002 00       		.space	1
+ 496              		.global	freqClockDivCounter
+ 497              		.data
+ 498              		.align	1
+ 499              		.type	freqClockDivCounter, %object
+ 500              		.size	freqClockDivCounter, 2
+ 501              	freqClockDivCounter:
+ 502 0002 7800     		.short	120
+ 503              		.section	.text.modeCheck,"ax",%progbits
+ 504              		.align	2
+ 505              		.global	modeCheck
+ 506              		.thumb
+ 507              		.thumb_func
+ 508              		.type	modeCheck, %function
+ 509              	modeCheck:
+ 510              	.LFB64:
+ 511              		.file 1 "main.c"
+   1:main.c        **** /*******************************************************************************
+   2:main.c        **** * File: main.c      
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 10
+
+
+   3:main.c        **** *
+   4:main.c        **** *******************************************************************************/
+   5:main.c        **** 
+   6:main.c        **** #include <project.h>
+   7:main.c        **** #include <stdio.h>
+   8:main.c        **** #define START_FREQ_DIV 120
+   9:main.c        **** #define MAX_FREQ_DIV 8000
+  10:main.c        **** 
+  11:main.c        **** const char notes[108][3] = {"C0 ", "C#0", "D0 ", "D#0", "E0 ", "F0 ", "F#0", "G0 ", "G#0", "A0 ", "
+  12:main.c        **** const uint16 intFrequency[108] = {16, 17, 18, 19, 21, 22, 23, 25, 26, 28, 29, 31, 33, 35, 37, 39, 4
+  13:main.c        **** const double frequency[108] = {16.35,17.32,18.35,19.45,20.60,21.83,23.12,24.50,25.96,27.50,29.14,30
+  14:main.c        **** 
+  15:main.c        **** volatile uint16 delayMS = 20;
+  16:main.c        **** volatile uint8 onOffCount = 0;
+  17:main.c        **** char transmitBuffer[100];
+  18:main.c        **** volatile double freq;
+  19:main.c        **** volatile uint16 intFreq;
+  20:main.c        **** volatile char note[3];
+  21:main.c        **** volatile uint8 noteIndex;
+  22:main.c        **** volatile uint8 playing;
+  23:main.c        **** volatile uint8 mode = 0;            // set default mode 
+  24:main.c        **** volatile uint8 checkingMode = 0;    // set bool if checking mode or not 
+  25:main.c        **** uint16 freqClockDivCounter = START_FREQ_DIV;
+  26:main.c        **** 
+  27:main.c        **** void modeCheck(){
+ 512              		.loc 1 27 0
+ 513              		.cfi_startproc
+ 514              		@ args = 0, pretend = 0, frame = 0
+ 515              		@ frame_needed = 1, uses_anonymous_args = 0
+ 516              		@ link register save eliminated.
+ 517 0000 80B4     		push	{r7}
+ 518              		.cfi_def_cfa_offset 4
+ 519              		.cfi_offset 7, -4
+ 520 0002 00AF     		add	r7, sp, #0
+ 521              		.cfi_def_cfa_register 7
+  28:main.c        ****     if (checkingMode){
+ 522              		.loc 1 28 0
+ 523 0004 024B     		ldr	r3, .L2
+ 524 0006 1B78     		ldrb	r3, [r3]
+  29:main.c        ****         // ... whatever defines the modes
+  30:main.c        ****     }
+  31:main.c        **** }
+ 525              		.loc 1 31 0
+ 526 0008 00BF     		nop
+ 527 000a BD46     		mov	sp, r7
+ 528              		.cfi_def_cfa_register 13
+ 529              		@ sp needed
+ 530 000c 80BC     		pop	{r7}
+ 531              		.cfi_restore 7
+ 532              		.cfi_def_cfa_offset 0
+ 533 000e 7047     		bx	lr
+ 534              	.L3:
+ 535              		.align	2
+ 536              	.L2:
+ 537 0010 00000000 		.word	checkingMode
+ 538              		.cfi_endproc
+ 539              	.LFE64:
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 11
+
+
+ 540              		.size	modeCheck, .-modeCheck
+ 541              		.global	__aeabi_i2d
+ 542              		.global	__aeabi_d2uiz
+ 543              		.section	.rodata
+ 544              		.align	2
+ 545              	.LC0:
+ 546 0580 25632563 		.ascii	"%c%c%c : %iHz DIV: %i\012\015\000"
+ 546      2563203A 
+ 546      20256948 
+ 546      7A204449 
+ 546      563A2025 
+ 547              		.section	.text.longSweep,"ax",%progbits
+ 548              		.align	2
+ 549              		.global	longSweep
+ 550              		.thumb
+ 551              		.thumb_func
+ 552              		.type	longSweep, %function
+ 553              	longSweep:
+ 554              	.LFB65:
+  32:main.c        **** 
+  33:main.c        **** void longSweep(){ // FREQ SWEEP 6kHz to 30Hz SHOWING FREQS AND DIV VIA UART
+ 555              		.loc 1 33 0
+ 556              		.cfi_startproc
+ 557              		@ args = 0, pretend = 0, frame = 8
+ 558              		@ frame_needed = 1, uses_anonymous_args = 0
+ 559 0000 90B5     		push	{r4, r7, lr}
+ 560              		.cfi_def_cfa_offset 12
+ 561              		.cfi_offset 4, -12
+ 562              		.cfi_offset 7, -8
+ 563              		.cfi_offset 14, -4
+ 564 0002 87B0     		sub	sp, sp, #28
+ 565              		.cfi_def_cfa_offset 40
+ 566 0004 04AF     		add	r7, sp, #16
+ 567              		.cfi_def_cfa 7, 24
+  34:main.c        ****     if (freqClockDivCounter > MAX_FREQ_DIV){
+ 568              		.loc 1 34 0
+ 569 0006 474B     		ldr	r3, .L9
+ 570 0008 1B88     		ldrh	r3, [r3]
+ 571 000a B3F5FA5F 		cmp	r3, #8000
+ 572 000e 02D9     		bls	.L5
+  35:main.c        ****         freqClockDivCounter = START_FREQ_DIV;
+ 573              		.loc 1 35 0
+ 574 0010 444B     		ldr	r3, .L9
+ 575 0012 7822     		movs	r2, #120
+ 576 0014 1A80     		strh	r2, [r3]	@ movhi
+ 577              	.L5:
+  36:main.c        ****     }
+  37:main.c        ****     freq = 250000 / freqClockDivCounter;
+ 578              		.loc 1 37 0
+ 579 0016 434B     		ldr	r3, .L9
+ 580 0018 1B88     		ldrh	r3, [r3]
+ 581 001a 1A46     		mov	r2, r3
+ 582 001c 424B     		ldr	r3, .L9+4
+ 583 001e 93FBF2F3 		sdiv	r3, r3, r2
+ 584 0022 1846     		mov	r0, r3
+ 585 0024 FFF7FEFF 		bl	__aeabi_i2d
+ 586 0028 0346     		mov	r3, r0
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 12
+
+
+ 587 002a 0C46     		mov	r4, r1
+ 588 002c 3F4A     		ldr	r2, .L9+8
+ 589 002e C2E90034 		strd	r3, [r2]
+  38:main.c        ****     intFreq = freq;
+ 590              		.loc 1 38 0
+ 591 0032 3E4B     		ldr	r3, .L9+8
+ 592 0034 18CB     		ldmia	r3, {r3-r4}
+ 593 0036 1846     		mov	r0, r3
+ 594 0038 2146     		mov	r1, r4
+ 595 003a FFF7FEFF 		bl	__aeabi_d2uiz
+ 596 003e 0346     		mov	r3, r0
+ 597 0040 9AB2     		uxth	r2, r3
+ 598 0042 3B4B     		ldr	r3, .L9+12
+ 599 0044 1A80     		strh	r2, [r3]	@ movhi
+ 600              	.LBB2:
+  39:main.c        ****     for (uint i=0; i < sizeof(intFrequency)/sizeof(intFrequency[0]); i++){
+ 601              		.loc 1 39 0
+ 602 0046 0023     		movs	r3, #0
+ 603 0048 7B60     		str	r3, [r7, #4]
+ 604 004a 44E0     		b	.L6
+ 605              	.L8:
+  40:main.c        ****         if (intFreq == intFrequency[i]){
+ 606              		.loc 1 40 0
+ 607 004c 394A     		ldr	r2, .L9+16
+ 608 004e 7B68     		ldr	r3, [r7, #4]
+ 609 0050 32F81320 		ldrh	r2, [r2, r3, lsl #1]
+ 610 0054 364B     		ldr	r3, .L9+12
+ 611 0056 1B88     		ldrh	r3, [r3]	@ movhi
+ 612 0058 9BB2     		uxth	r3, r3
+ 613 005a 9A42     		cmp	r2, r3
+ 614 005c 38D1     		bne	.L7
+  41:main.c        ****             noteIndex = i;
+ 615              		.loc 1 41 0
+ 616 005e 7B68     		ldr	r3, [r7, #4]
+ 617 0060 DAB2     		uxtb	r2, r3
+ 618 0062 354B     		ldr	r3, .L9+20
+ 619 0064 1A70     		strb	r2, [r3]
+  42:main.c        ****             sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[noteIndex][0],notes[noteInde
+ 620              		.loc 1 42 0
+ 621 0066 344B     		ldr	r3, .L9+20
+ 622 0068 1B78     		ldrb	r3, [r3]
+ 623 006a DBB2     		uxtb	r3, r3
+ 624 006c 1946     		mov	r1, r3
+ 625 006e 334A     		ldr	r2, .L9+24
+ 626 0070 0B46     		mov	r3, r1
+ 627 0072 5B00     		lsls	r3, r3, #1
+ 628 0074 0B44     		add	r3, r3, r1
+ 629 0076 1344     		add	r3, r3, r2
+ 630 0078 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 631 007a 1846     		mov	r0, r3
+ 632 007c 2E4B     		ldr	r3, .L9+20
+ 633 007e 1B78     		ldrb	r3, [r3]
+ 634 0080 DBB2     		uxtb	r3, r3
+ 635 0082 1946     		mov	r1, r3
+ 636 0084 2D4A     		ldr	r2, .L9+24
+ 637 0086 0B46     		mov	r3, r1
+ 638 0088 5B00     		lsls	r3, r3, #1
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 13
+
+
+ 639 008a 0B44     		add	r3, r3, r1
+ 640 008c 1344     		add	r3, r3, r2
+ 641 008e 0133     		adds	r3, r3, #1
+ 642 0090 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 643 0092 1C46     		mov	r4, r3
+ 644 0094 284B     		ldr	r3, .L9+20
+ 645 0096 1B78     		ldrb	r3, [r3]
+ 646 0098 DBB2     		uxtb	r3, r3
+ 647 009a 1946     		mov	r1, r3
+ 648 009c 274A     		ldr	r2, .L9+24
+ 649 009e 0B46     		mov	r3, r1
+ 650 00a0 5B00     		lsls	r3, r3, #1
+ 651 00a2 0B44     		add	r3, r3, r1
+ 652 00a4 1344     		add	r3, r3, r2
+ 653 00a6 0233     		adds	r3, r3, #2
+ 654 00a8 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 655 00aa 1A46     		mov	r2, r3
+ 656 00ac 204B     		ldr	r3, .L9+12
+ 657 00ae 1B88     		ldrh	r3, [r3]	@ movhi
+ 658 00b0 9BB2     		uxth	r3, r3
+ 659 00b2 1946     		mov	r1, r3
+ 660 00b4 1B4B     		ldr	r3, .L9
+ 661 00b6 1B88     		ldrh	r3, [r3]
+ 662 00b8 0293     		str	r3, [sp, #8]
+ 663 00ba 0191     		str	r1, [sp, #4]
+ 664 00bc 0092     		str	r2, [sp]
+ 665 00be 2346     		mov	r3, r4
+ 666 00c0 0246     		mov	r2, r0
+ 667 00c2 1F49     		ldr	r1, .L9+28
+ 668 00c4 1F48     		ldr	r0, .L9+32
+ 669 00c6 FFF7FEFF 		bl	sprintf
+  43:main.c        ****             UART_1_PutString(transmitBuffer);
+ 670              		.loc 1 43 0
+ 671 00ca 1E48     		ldr	r0, .L9+32
+ 672 00cc FFF7FEFF 		bl	UART_1_PutString
+ 673              	.L7:
+  39:main.c        ****         if (intFreq == intFrequency[i]){
+ 674              		.loc 1 39 0 discriminator 2
+ 675 00d0 7B68     		ldr	r3, [r7, #4]
+ 676 00d2 0133     		adds	r3, r3, #1
+ 677 00d4 7B60     		str	r3, [r7, #4]
+ 678              	.L6:
+  39:main.c        ****         if (intFreq == intFrequency[i]){
+ 679              		.loc 1 39 0 is_stmt 0 discriminator 1
+ 680 00d6 7B68     		ldr	r3, [r7, #4]
+ 681 00d8 6B2B     		cmp	r3, #107
+ 682 00da B7D9     		bls	.L8
+ 683              	.LBE2:
+  44:main.c        ****         }
+  45:main.c        ****     }
+  46:main.c        ****     Clock_1_SetDividerValue(freqClockDivCounter);
+ 684              		.loc 1 46 0 is_stmt 1
+ 685 00dc 114B     		ldr	r3, .L9
+ 686 00de 1B88     		ldrh	r3, [r3]
+ 687 00e0 013B     		subs	r3, r3, #1
+ 688 00e2 9BB2     		uxth	r3, r3
+ 689 00e4 0121     		movs	r1, #1
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 14
+
+
+ 690 00e6 1846     		mov	r0, r3
+ 691 00e8 FFF7FEFF 		bl	Clock_1_SetDividerRegister
+  47:main.c        ****     freqClockDivCounter++;
+ 692              		.loc 1 47 0
+ 693 00ec 0D4B     		ldr	r3, .L9
+ 694 00ee 1B88     		ldrh	r3, [r3]
+ 695 00f0 0133     		adds	r3, r3, #1
+ 696 00f2 9AB2     		uxth	r2, r3
+ 697 00f4 0B4B     		ldr	r3, .L9
+ 698 00f6 1A80     		strh	r2, [r3]	@ movhi
+  48:main.c        ****     delayMS = (MAX_FREQ_DIV / freqClockDivCounter) + 20;
+ 699              		.loc 1 48 0
+ 700 00f8 0A4B     		ldr	r3, .L9
+ 701 00fa 1B88     		ldrh	r3, [r3]
+ 702 00fc 1A46     		mov	r2, r3
+ 703 00fe 4FF4FA53 		mov	r3, #8000
+ 704 0102 93FBF2F3 		sdiv	r3, r3, r2
+ 705 0106 9BB2     		uxth	r3, r3
+ 706 0108 1433     		adds	r3, r3, #20
+ 707 010a 9AB2     		uxth	r2, r3
+ 708 010c 0E4B     		ldr	r3, .L9+36
+ 709 010e 1A80     		strh	r2, [r3]	@ movhi
+  49:main.c        ****     CyDelay(delayMS);
+ 710              		.loc 1 49 0
+ 711 0110 0D4B     		ldr	r3, .L9+36
+ 712 0112 1B88     		ldrh	r3, [r3]	@ movhi
+ 713 0114 9BB2     		uxth	r3, r3
+ 714 0116 1846     		mov	r0, r3
+ 715 0118 FFF7FEFF 		bl	CyDelay
+  50:main.c        **** }
+ 716              		.loc 1 50 0
+ 717 011c 00BF     		nop
+ 718 011e 0C37     		adds	r7, r7, #12
+ 719              		.cfi_def_cfa_offset 12
+ 720 0120 BD46     		mov	sp, r7
+ 721              		.cfi_def_cfa_register 13
+ 722              		@ sp needed
+ 723 0122 90BD     		pop	{r4, r7, pc}
+ 724              	.L10:
+ 725              		.align	2
+ 726              	.L9:
+ 727 0124 00000000 		.word	freqClockDivCounter
+ 728 0128 90D00300 		.word	250000
+ 729 012c 00000000 		.word	freq
+ 730 0130 00000000 		.word	intFreq
+ 731 0134 00000000 		.word	intFrequency
+ 732 0138 00000000 		.word	noteIndex
+ 733 013c 00000000 		.word	notes
+ 734 0140 80050000 		.word	.LC0
+ 735 0144 00000000 		.word	transmitBuffer
+ 736 0148 00000000 		.word	delayMS
+ 737              		.cfi_endproc
+ 738              	.LFE65:
+ 739              		.size	longSweep, .-longSweep
+ 740              		.section	.text.main,"ax",%progbits
+ 741              		.align	2
+ 742              		.global	main
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 15
+
+
+ 743              		.thumb
+ 744              		.thumb_func
+ 745              		.type	main, %function
+ 746              	main:
+ 747              	.LFB66:
+  51:main.c        **** 
+  52:main.c        **** int main(){
+ 748              		.loc 1 52 0
+ 749              		.cfi_startproc
+ 750              		@ args = 0, pretend = 0, frame = 0
+ 751              		@ frame_needed = 1, uses_anonymous_args = 0
+ 752 0000 80B5     		push	{r7, lr}
+ 753              		.cfi_def_cfa_offset 8
+ 754              		.cfi_offset 7, -8
+ 755              		.cfi_offset 14, -4
+ 756 0002 00AF     		add	r7, sp, #0
+ 757              		.cfi_def_cfa_register 7
+  53:main.c        **** 	UART_1_Start();
+ 758              		.loc 1 53 0
+ 759 0004 FFF7FEFF 		bl	UART_1_Start
+  54:main.c        ****     WaveDAC8_1_Start(); /* Start WaveDAC8  */
+ 760              		.loc 1 54 0
+ 761 0008 FFF7FEFF 		bl	WaveDAC8_1_Start
+ 762              	.L21:
+  55:main.c        ****     for(;;){  
+  56:main.c        ****         modeCheck();
+ 763              		.loc 1 56 0
+ 764 000c FFF7FEFF 		bl	modeCheck
+  57:main.c        ****         switch (mode){
+ 765              		.loc 1 57 0
+ 766 0010 0C4B     		ldr	r3, .L23
+ 767 0012 1B78     		ldrb	r3, [r3]
+ 768 0014 DBB2     		uxtb	r3, r3
+ 769 0016 052B     		cmp	r3, #5
+ 770 0018 11D8     		bhi	.L22
+ 771 001a 01A2     		adr	r2, .L14
+ 772 001c 52F823F0 		ldr	pc, [r2, r3, lsl #2]
+ 773              		.p2align 2
+ 774              	.L14:
+ 775 0020 39000000 		.word	.L13+1
+ 776 0024 3F000000 		.word	.L22+1
+ 777 0028 3F000000 		.word	.L22+1
+ 778 002c 3F000000 		.word	.L22+1
+ 779 0030 3F000000 		.word	.L22+1
+ 780 0034 3F000000 		.word	.L22+1
+ 781              		.p2align 1
+ 782              	.L13:
+  58:main.c        ****             case 0:     
+  59:main.c        ****                 longSweep();
+ 783              		.loc 1 59 0
+ 784 0038 FFF7FEFF 		bl	longSweep
+  60:main.c        ****                 break;
+ 785              		.loc 1 60 0
+ 786 003c 00E0     		b	.L20
+ 787              	.L22:
+  61:main.c        ****             case 1:
+  62:main.c        ****                 break;
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 16
+
+
+  63:main.c        ****             case 2:
+  64:main.c        ****                 break;
+  65:main.c        ****             case 3:
+  66:main.c        ****                 break;
+  67:main.c        ****             case 4:
+  68:main.c        ****                 break;
+  69:main.c        ****             case 5:
+  70:main.c        ****                 break;
+  71:main.c        ****             default:
+  72:main.c        ****                 break;
+ 788              		.loc 1 72 0
+ 789 003e 00BF     		nop
+ 790              	.L20:
+  73:main.c        ****         }
+  74:main.c        ****     }
+ 791              		.loc 1 74 0 discriminator 1
+ 792 0040 E4E7     		b	.L21
+ 793              	.L24:
+ 794 0042 00BF     		.align	2
+ 795              	.L23:
+ 796 0044 00000000 		.word	mode
+ 797              		.cfi_endproc
+ 798              	.LFE66:
+ 799              		.size	main, .-main
+ 800              		.text
+ 801              	.Letext0:
+ 802              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 803              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 804              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
+ 805              		.file 5 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 806              		.file 6 "Generated_Source\\PSoC5/core_cm3.h"
+ 807              		.section	.debug_info,"",%progbits
+ 808              	.Ldebug_info0:
+ 809 0000 A2020000 		.4byte	0x2a2
+ 810 0004 0400     		.2byte	0x4
+ 811 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 812 000a 04       		.byte	0x4
+ 813 000b 01       		.uleb128 0x1
+ 814 000c 08000000 		.4byte	.LASF34
+ 815 0010 0C       		.byte	0xc
+ 816 0011 13020000 		.4byte	.LASF35
+ 817 0015 AE000000 		.4byte	.LASF36
+ 818 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 819 001d 00000000 		.4byte	0
+ 820 0021 00000000 		.4byte	.Ldebug_line0
+ 821 0025 02       		.uleb128 0x2
+ 822 0026 01       		.byte	0x1
+ 823 0027 06       		.byte	0x6
+ 824 0028 50020000 		.4byte	.LASF0
+ 825 002c 02       		.uleb128 0x2
+ 826 002d 01       		.byte	0x1
+ 827 002e 08       		.byte	0x8
+ 828 002f 63010000 		.4byte	.LASF1
+ 829 0033 02       		.uleb128 0x2
+ 830 0034 02       		.byte	0x2
+ 831 0035 05       		.byte	0x5
+ 832 0036 78010000 		.4byte	.LASF2
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 17
+
+
+ 833 003a 02       		.uleb128 0x2
+ 834 003b 02       		.byte	0x2
+ 835 003c 07       		.byte	0x7
+ 836 003d 38010000 		.4byte	.LASF3
+ 837 0041 03       		.uleb128 0x3
+ 838 0042 9E000000 		.4byte	.LASF9
+ 839 0046 02       		.byte	0x2
+ 840 0047 3F       		.byte	0x3f
+ 841 0048 4C000000 		.4byte	0x4c
+ 842 004c 02       		.uleb128 0x2
+ 843 004d 04       		.byte	0x4
+ 844 004e 05       		.byte	0x5
+ 845 004f 3B020000 		.4byte	.LASF4
+ 846 0053 02       		.uleb128 0x2
+ 847 0054 04       		.byte	0x4
+ 848 0055 07       		.byte	0x7
+ 849 0056 26010000 		.4byte	.LASF5
+ 850 005a 02       		.uleb128 0x2
+ 851 005b 08       		.byte	0x8
+ 852 005c 05       		.byte	0x5
+ 853 005d 05020000 		.4byte	.LASF6
+ 854 0061 02       		.uleb128 0x2
+ 855 0062 08       		.byte	0x8
+ 856 0063 07       		.byte	0x7
+ 857 0064 BE010000 		.4byte	.LASF7
+ 858 0068 04       		.uleb128 0x4
+ 859 0069 04       		.byte	0x4
+ 860 006a 05       		.byte	0x5
+ 861 006b 696E7400 		.ascii	"int\000"
+ 862 006f 02       		.uleb128 0x2
+ 863 0070 04       		.byte	0x4
+ 864 0071 07       		.byte	0x7
+ 865 0072 9D010000 		.4byte	.LASF8
+ 866 0076 03       		.uleb128 0x3
+ 867 0077 EE010000 		.4byte	.LASF10
+ 868 007b 03       		.byte	0x3
+ 869 007c 2C       		.byte	0x2c
+ 870 007d 41000000 		.4byte	0x41
+ 871 0081 05       		.uleb128 0x5
+ 872 0082 A8000000 		.4byte	.LASF11
+ 873 0086 04       		.byte	0x4
+ 874 0087 9201     		.2byte	0x192
+ 875 0089 2C000000 		.4byte	0x2c
+ 876 008d 05       		.uleb128 0x5
+ 877 008e 82010000 		.4byte	.LASF12
+ 878 0092 04       		.byte	0x4
+ 879 0093 9301     		.2byte	0x193
+ 880 0095 3A000000 		.4byte	0x3a
+ 881 0099 02       		.uleb128 0x2
+ 882 009a 04       		.byte	0x4
+ 883 009b 04       		.byte	0x4
+ 884 009c 04010000 		.4byte	.LASF13
+ 885 00a0 02       		.uleb128 0x2
+ 886 00a1 08       		.byte	0x8
+ 887 00a2 04       		.byte	0x4
+ 888 00a3 71010000 		.4byte	.LASF14
+ 889 00a7 02       		.uleb128 0x2
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 18
+
+
+ 890 00a8 01       		.byte	0x1
+ 891 00a9 08       		.byte	0x8
+ 892 00aa 1A020000 		.4byte	.LASF15
+ 893 00ae 06       		.uleb128 0x6
+ 894 00af 81000000 		.4byte	0x81
+ 895 00b3 06       		.uleb128 0x6
+ 896 00b4 8D000000 		.4byte	0x8d
+ 897 00b8 02       		.uleb128 0x2
+ 898 00b9 08       		.byte	0x8
+ 899 00ba 04       		.byte	0x4
+ 900 00bb 44020000 		.4byte	.LASF16
+ 901 00bf 02       		.uleb128 0x2
+ 902 00c0 04       		.byte	0x4
+ 903 00c1 07       		.byte	0x7
+ 904 00c2 FC010000 		.4byte	.LASF17
+ 905 00c6 07       		.uleb128 0x7
+ 906 00c7 A7000000 		.4byte	0xa7
+ 907 00cb 03       		.uleb128 0x3
+ 908 00cc 89010000 		.4byte	.LASF18
+ 909 00d0 05       		.byte	0x5
+ 910 00d1 6C       		.byte	0x6c
+ 911 00d2 6F000000 		.4byte	0x6f
+ 912 00d6 08       		.uleb128 0x8
+ 913 00d7 1C010000 		.4byte	.LASF37
+ 914 00db 01       		.byte	0x1
+ 915 00dc 1B       		.byte	0x1b
+ 916 00dd 00000000 		.4byte	.LFB64
+ 917 00e1 14000000 		.4byte	.LFE64-.LFB64
+ 918 00e5 01       		.uleb128 0x1
+ 919 00e6 9C       		.byte	0x9c
+ 920 00e7 09       		.uleb128 0x9
+ 921 00e8 93010000 		.4byte	.LASF38
+ 922 00ec 01       		.byte	0x1
+ 923 00ed 21       		.byte	0x21
+ 924 00ee 00000000 		.4byte	.LFB65
+ 925 00f2 4C010000 		.4byte	.LFE65-.LFB65
+ 926 00f6 01       		.uleb128 0x1
+ 927 00f7 9C       		.byte	0x9c
+ 928 00f8 13010000 		.4byte	0x113
+ 929 00fc 0A       		.uleb128 0xa
+ 930 00fd 46000000 		.4byte	.LBB2
+ 931 0101 96000000 		.4byte	.LBE2-.LBB2
+ 932 0105 0B       		.uleb128 0xb
+ 933 0106 6900     		.ascii	"i\000"
+ 934 0108 01       		.byte	0x1
+ 935 0109 27       		.byte	0x27
+ 936 010a CB000000 		.4byte	0xcb
+ 937 010e 02       		.uleb128 0x2
+ 938 010f 91       		.byte	0x91
+ 939 0110 6C       		.sleb128 -20
+ 940 0111 00       		.byte	0
+ 941 0112 00       		.byte	0
+ 942 0113 0C       		.uleb128 0xc
+ 943 0114 8E010000 		.4byte	.LASF39
+ 944 0118 01       		.byte	0x1
+ 945 0119 34       		.byte	0x34
+ 946 011a 68000000 		.4byte	0x68
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 19
+
+
+ 947 011e 00000000 		.4byte	.LFB66
+ 948 0122 48000000 		.4byte	.LFE66-.LFB66
+ 949 0126 01       		.uleb128 0x1
+ 950 0127 9C       		.byte	0x9c
+ 951 0128 0D       		.uleb128 0xd
+ 952 0129 56010000 		.4byte	.LASF19
+ 953 012d 06       		.byte	0x6
+ 954 012e 1207     		.2byte	0x712
+ 955 0130 34010000 		.4byte	0x134
+ 956 0134 06       		.uleb128 0x6
+ 957 0135 76000000 		.4byte	0x76
+ 958 0139 0E       		.uleb128 0xe
+ 959 013a C6000000 		.4byte	0xc6
+ 960 013e 4F010000 		.4byte	0x14f
+ 961 0142 0F       		.uleb128 0xf
+ 962 0143 BF000000 		.4byte	0xbf
+ 963 0147 6B       		.byte	0x6b
+ 964 0148 0F       		.uleb128 0xf
+ 965 0149 BF000000 		.4byte	0xbf
+ 966 014d 02       		.byte	0x2
+ 967 014e 00       		.byte	0
+ 968 014f 10       		.uleb128 0x10
+ 969 0150 F6010000 		.4byte	.LASF20
+ 970 0154 01       		.byte	0x1
+ 971 0155 0B       		.byte	0xb
+ 972 0156 60010000 		.4byte	0x160
+ 973 015a 05       		.uleb128 0x5
+ 974 015b 03       		.byte	0x3
+ 975 015c 00000000 		.4byte	notes
+ 976 0160 07       		.uleb128 0x7
+ 977 0161 39010000 		.4byte	0x139
+ 978 0165 0E       		.uleb128 0xe
+ 979 0166 75010000 		.4byte	0x175
+ 980 016a 75010000 		.4byte	0x175
+ 981 016e 0F       		.uleb128 0xf
+ 982 016f BF000000 		.4byte	0xbf
+ 983 0173 6B       		.byte	0x6b
+ 984 0174 00       		.byte	0
+ 985 0175 07       		.uleb128 0x7
+ 986 0176 8D000000 		.4byte	0x8d
+ 987 017a 10       		.uleb128 0x10
+ 988 017b 0F010000 		.4byte	.LASF21
+ 989 017f 01       		.byte	0x1
+ 990 0180 0C       		.byte	0xc
+ 991 0181 8B010000 		.4byte	0x18b
+ 992 0185 05       		.uleb128 0x5
+ 993 0186 03       		.byte	0x3
+ 994 0187 00000000 		.4byte	intFrequency
+ 995 018b 07       		.uleb128 0x7
+ 996 018c 65010000 		.4byte	0x165
+ 997 0190 0E       		.uleb128 0xe
+ 998 0191 A0010000 		.4byte	0x1a0
+ 999 0195 A0010000 		.4byte	0x1a0
+ 1000 0199 0F       		.uleb128 0xf
+ 1001 019a BF000000 		.4byte	0xbf
+ 1002 019e 6B       		.byte	0x6b
+ 1003 019f 00       		.byte	0
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 20
+
+
+ 1004 01a0 07       		.uleb128 0x7
+ 1005 01a1 A0000000 		.4byte	0xa0
+ 1006 01a5 10       		.uleb128 0x10
+ 1007 01a6 DA010000 		.4byte	.LASF22
+ 1008 01aa 01       		.byte	0x1
+ 1009 01ab 0D       		.byte	0xd
+ 1010 01ac B6010000 		.4byte	0x1b6
+ 1011 01b0 05       		.uleb128 0x5
+ 1012 01b1 03       		.byte	0x3
+ 1013 01b2 00000000 		.4byte	frequency
+ 1014 01b6 07       		.uleb128 0x7
+ 1015 01b7 90010000 		.4byte	0x190
+ 1016 01bb 10       		.uleb128 0x10
+ 1017 01bc 96000000 		.4byte	.LASF23
+ 1018 01c0 01       		.byte	0x1
+ 1019 01c1 0F       		.byte	0xf
+ 1020 01c2 B3000000 		.4byte	0xb3
+ 1021 01c6 05       		.uleb128 0x5
+ 1022 01c7 03       		.byte	0x3
+ 1023 01c8 00000000 		.4byte	delayMS
+ 1024 01cc 10       		.uleb128 0x10
+ 1025 01cd 4B010000 		.4byte	.LASF24
+ 1026 01d1 01       		.byte	0x1
+ 1027 01d2 10       		.byte	0x10
+ 1028 01d3 AE000000 		.4byte	0xae
+ 1029 01d7 05       		.uleb128 0x5
+ 1030 01d8 03       		.byte	0x3
+ 1031 01d9 00000000 		.4byte	onOffCount
+ 1032 01dd 0E       		.uleb128 0xe
+ 1033 01de A7000000 		.4byte	0xa7
+ 1034 01e2 ED010000 		.4byte	0x1ed
+ 1035 01e6 0F       		.uleb128 0xf
+ 1036 01e7 BF000000 		.4byte	0xbf
+ 1037 01eb 63       		.byte	0x63
+ 1038 01ec 00       		.byte	0
+ 1039 01ed 10       		.uleb128 0x10
+ 1040 01ee 2C020000 		.4byte	.LASF25
+ 1041 01f2 01       		.byte	0x1
+ 1042 01f3 11       		.byte	0x11
+ 1043 01f4 DD010000 		.4byte	0x1dd
+ 1044 01f8 05       		.uleb128 0x5
+ 1045 01f9 03       		.byte	0x3
+ 1046 01fa 00000000 		.4byte	transmitBuffer
+ 1047 01fe 10       		.uleb128 0x10
+ 1048 01ff 27020000 		.4byte	.LASF26
+ 1049 0203 01       		.byte	0x1
+ 1050 0204 12       		.byte	0x12
+ 1051 0205 0F020000 		.4byte	0x20f
+ 1052 0209 05       		.uleb128 0x5
+ 1053 020a 03       		.byte	0x3
+ 1054 020b 00000000 		.4byte	freq
+ 1055 020f 06       		.uleb128 0x6
+ 1056 0210 A0000000 		.4byte	0xa0
+ 1057 0214 10       		.uleb128 0x10
+ 1058 0215 00000000 		.4byte	.LASF27
+ 1059 0219 01       		.byte	0x1
+ 1060 021a 13       		.byte	0x13
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 21
+
+
+ 1061 021b B3000000 		.4byte	0xb3
+ 1062 021f 05       		.uleb128 0x5
+ 1063 0220 03       		.byte	0x3
+ 1064 0221 00000000 		.4byte	intFreq
+ 1065 0225 0E       		.uleb128 0xe
+ 1066 0226 35020000 		.4byte	0x235
+ 1067 022a 35020000 		.4byte	0x235
+ 1068 022e 0F       		.uleb128 0xf
+ 1069 022f BF000000 		.4byte	0xbf
+ 1070 0233 02       		.byte	0x2
+ 1071 0234 00       		.byte	0
+ 1072 0235 06       		.uleb128 0x6
+ 1073 0236 A7000000 		.4byte	0xa7
+ 1074 023a 10       		.uleb128 0x10
+ 1075 023b 0A010000 		.4byte	.LASF28
+ 1076 023f 01       		.byte	0x1
+ 1077 0240 14       		.byte	0x14
+ 1078 0241 4B020000 		.4byte	0x24b
+ 1079 0245 05       		.uleb128 0x5
+ 1080 0246 03       		.byte	0x3
+ 1081 0247 00000000 		.4byte	note
+ 1082 024b 06       		.uleb128 0x6
+ 1083 024c 25020000 		.4byte	0x225
+ 1084 0250 10       		.uleb128 0x10
+ 1085 0251 E4010000 		.4byte	.LASF29
+ 1086 0255 01       		.byte	0x1
+ 1087 0256 15       		.byte	0x15
+ 1088 0257 AE000000 		.4byte	0xae
+ 1089 025b 05       		.uleb128 0x5
+ 1090 025c 03       		.byte	0x3
+ 1091 025d 00000000 		.4byte	noteIndex
+ 1092 0261 10       		.uleb128 0x10
+ 1093 0262 1F020000 		.4byte	.LASF30
+ 1094 0266 01       		.byte	0x1
+ 1095 0267 16       		.byte	0x16
+ 1096 0268 AE000000 		.4byte	0xae
+ 1097 026c 05       		.uleb128 0x5
+ 1098 026d 03       		.byte	0x3
+ 1099 026e 00000000 		.4byte	playing
+ 1100 0272 10       		.uleb128 0x10
+ 1101 0273 D5010000 		.4byte	.LASF31
+ 1102 0277 01       		.byte	0x1
+ 1103 0278 17       		.byte	0x17
+ 1104 0279 AE000000 		.4byte	0xae
+ 1105 027d 05       		.uleb128 0x5
+ 1106 027e 03       		.byte	0x3
+ 1107 027f 00000000 		.4byte	mode
+ 1108 0283 10       		.uleb128 0x10
+ 1109 0284 5C020000 		.4byte	.LASF32
+ 1110 0288 01       		.byte	0x1
+ 1111 0289 18       		.byte	0x18
+ 1112 028a AE000000 		.4byte	0xae
+ 1113 028e 05       		.uleb128 0x5
+ 1114 028f 03       		.byte	0x3
+ 1115 0290 00000000 		.4byte	checkingMode
+ 1116 0294 10       		.uleb128 0x10
+ 1117 0295 AA010000 		.4byte	.LASF33
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 22
+
+
+ 1118 0299 01       		.byte	0x1
+ 1119 029a 19       		.byte	0x19
+ 1120 029b 8D000000 		.4byte	0x8d
+ 1121 029f 05       		.uleb128 0x5
+ 1122 02a0 03       		.byte	0x3
+ 1123 02a1 00000000 		.4byte	freqClockDivCounter
+ 1124 02a5 00       		.byte	0
+ 1125              		.section	.debug_abbrev,"",%progbits
+ 1126              	.Ldebug_abbrev0:
+ 1127 0000 01       		.uleb128 0x1
+ 1128 0001 11       		.uleb128 0x11
+ 1129 0002 01       		.byte	0x1
+ 1130 0003 25       		.uleb128 0x25
+ 1131 0004 0E       		.uleb128 0xe
+ 1132 0005 13       		.uleb128 0x13
+ 1133 0006 0B       		.uleb128 0xb
+ 1134 0007 03       		.uleb128 0x3
+ 1135 0008 0E       		.uleb128 0xe
+ 1136 0009 1B       		.uleb128 0x1b
+ 1137 000a 0E       		.uleb128 0xe
+ 1138 000b 55       		.uleb128 0x55
+ 1139 000c 17       		.uleb128 0x17
+ 1140 000d 11       		.uleb128 0x11
+ 1141 000e 01       		.uleb128 0x1
+ 1142 000f 10       		.uleb128 0x10
+ 1143 0010 17       		.uleb128 0x17
+ 1144 0011 00       		.byte	0
+ 1145 0012 00       		.byte	0
+ 1146 0013 02       		.uleb128 0x2
+ 1147 0014 24       		.uleb128 0x24
+ 1148 0015 00       		.byte	0
+ 1149 0016 0B       		.uleb128 0xb
+ 1150 0017 0B       		.uleb128 0xb
+ 1151 0018 3E       		.uleb128 0x3e
+ 1152 0019 0B       		.uleb128 0xb
+ 1153 001a 03       		.uleb128 0x3
+ 1154 001b 0E       		.uleb128 0xe
+ 1155 001c 00       		.byte	0
+ 1156 001d 00       		.byte	0
+ 1157 001e 03       		.uleb128 0x3
+ 1158 001f 16       		.uleb128 0x16
+ 1159 0020 00       		.byte	0
+ 1160 0021 03       		.uleb128 0x3
+ 1161 0022 0E       		.uleb128 0xe
+ 1162 0023 3A       		.uleb128 0x3a
+ 1163 0024 0B       		.uleb128 0xb
+ 1164 0025 3B       		.uleb128 0x3b
+ 1165 0026 0B       		.uleb128 0xb
+ 1166 0027 49       		.uleb128 0x49
+ 1167 0028 13       		.uleb128 0x13
+ 1168 0029 00       		.byte	0
+ 1169 002a 00       		.byte	0
+ 1170 002b 04       		.uleb128 0x4
+ 1171 002c 24       		.uleb128 0x24
+ 1172 002d 00       		.byte	0
+ 1173 002e 0B       		.uleb128 0xb
+ 1174 002f 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 23
+
+
+ 1175 0030 3E       		.uleb128 0x3e
+ 1176 0031 0B       		.uleb128 0xb
+ 1177 0032 03       		.uleb128 0x3
+ 1178 0033 08       		.uleb128 0x8
+ 1179 0034 00       		.byte	0
+ 1180 0035 00       		.byte	0
+ 1181 0036 05       		.uleb128 0x5
+ 1182 0037 16       		.uleb128 0x16
+ 1183 0038 00       		.byte	0
+ 1184 0039 03       		.uleb128 0x3
+ 1185 003a 0E       		.uleb128 0xe
+ 1186 003b 3A       		.uleb128 0x3a
+ 1187 003c 0B       		.uleb128 0xb
+ 1188 003d 3B       		.uleb128 0x3b
+ 1189 003e 05       		.uleb128 0x5
+ 1190 003f 49       		.uleb128 0x49
+ 1191 0040 13       		.uleb128 0x13
+ 1192 0041 00       		.byte	0
+ 1193 0042 00       		.byte	0
+ 1194 0043 06       		.uleb128 0x6
+ 1195 0044 35       		.uleb128 0x35
+ 1196 0045 00       		.byte	0
+ 1197 0046 49       		.uleb128 0x49
+ 1198 0047 13       		.uleb128 0x13
+ 1199 0048 00       		.byte	0
+ 1200 0049 00       		.byte	0
+ 1201 004a 07       		.uleb128 0x7
+ 1202 004b 26       		.uleb128 0x26
+ 1203 004c 00       		.byte	0
+ 1204 004d 49       		.uleb128 0x49
+ 1205 004e 13       		.uleb128 0x13
+ 1206 004f 00       		.byte	0
+ 1207 0050 00       		.byte	0
+ 1208 0051 08       		.uleb128 0x8
+ 1209 0052 2E       		.uleb128 0x2e
+ 1210 0053 00       		.byte	0
+ 1211 0054 3F       		.uleb128 0x3f
+ 1212 0055 19       		.uleb128 0x19
+ 1213 0056 03       		.uleb128 0x3
+ 1214 0057 0E       		.uleb128 0xe
+ 1215 0058 3A       		.uleb128 0x3a
+ 1216 0059 0B       		.uleb128 0xb
+ 1217 005a 3B       		.uleb128 0x3b
+ 1218 005b 0B       		.uleb128 0xb
+ 1219 005c 11       		.uleb128 0x11
+ 1220 005d 01       		.uleb128 0x1
+ 1221 005e 12       		.uleb128 0x12
+ 1222 005f 06       		.uleb128 0x6
+ 1223 0060 40       		.uleb128 0x40
+ 1224 0061 18       		.uleb128 0x18
+ 1225 0062 9742     		.uleb128 0x2117
+ 1226 0064 19       		.uleb128 0x19
+ 1227 0065 00       		.byte	0
+ 1228 0066 00       		.byte	0
+ 1229 0067 09       		.uleb128 0x9
+ 1230 0068 2E       		.uleb128 0x2e
+ 1231 0069 01       		.byte	0x1
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 24
+
+
+ 1232 006a 3F       		.uleb128 0x3f
+ 1233 006b 19       		.uleb128 0x19
+ 1234 006c 03       		.uleb128 0x3
+ 1235 006d 0E       		.uleb128 0xe
+ 1236 006e 3A       		.uleb128 0x3a
+ 1237 006f 0B       		.uleb128 0xb
+ 1238 0070 3B       		.uleb128 0x3b
+ 1239 0071 0B       		.uleb128 0xb
+ 1240 0072 11       		.uleb128 0x11
+ 1241 0073 01       		.uleb128 0x1
+ 1242 0074 12       		.uleb128 0x12
+ 1243 0075 06       		.uleb128 0x6
+ 1244 0076 40       		.uleb128 0x40
+ 1245 0077 18       		.uleb128 0x18
+ 1246 0078 9642     		.uleb128 0x2116
+ 1247 007a 19       		.uleb128 0x19
+ 1248 007b 01       		.uleb128 0x1
+ 1249 007c 13       		.uleb128 0x13
+ 1250 007d 00       		.byte	0
+ 1251 007e 00       		.byte	0
+ 1252 007f 0A       		.uleb128 0xa
+ 1253 0080 0B       		.uleb128 0xb
+ 1254 0081 01       		.byte	0x1
+ 1255 0082 11       		.uleb128 0x11
+ 1256 0083 01       		.uleb128 0x1
+ 1257 0084 12       		.uleb128 0x12
+ 1258 0085 06       		.uleb128 0x6
+ 1259 0086 00       		.byte	0
+ 1260 0087 00       		.byte	0
+ 1261 0088 0B       		.uleb128 0xb
+ 1262 0089 34       		.uleb128 0x34
+ 1263 008a 00       		.byte	0
+ 1264 008b 03       		.uleb128 0x3
+ 1265 008c 08       		.uleb128 0x8
+ 1266 008d 3A       		.uleb128 0x3a
+ 1267 008e 0B       		.uleb128 0xb
+ 1268 008f 3B       		.uleb128 0x3b
+ 1269 0090 0B       		.uleb128 0xb
+ 1270 0091 49       		.uleb128 0x49
+ 1271 0092 13       		.uleb128 0x13
+ 1272 0093 02       		.uleb128 0x2
+ 1273 0094 18       		.uleb128 0x18
+ 1274 0095 00       		.byte	0
+ 1275 0096 00       		.byte	0
+ 1276 0097 0C       		.uleb128 0xc
+ 1277 0098 2E       		.uleb128 0x2e
+ 1278 0099 00       		.byte	0
+ 1279 009a 3F       		.uleb128 0x3f
+ 1280 009b 19       		.uleb128 0x19
+ 1281 009c 03       		.uleb128 0x3
+ 1282 009d 0E       		.uleb128 0xe
+ 1283 009e 3A       		.uleb128 0x3a
+ 1284 009f 0B       		.uleb128 0xb
+ 1285 00a0 3B       		.uleb128 0x3b
+ 1286 00a1 0B       		.uleb128 0xb
+ 1287 00a2 49       		.uleb128 0x49
+ 1288 00a3 13       		.uleb128 0x13
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 25
+
+
+ 1289 00a4 11       		.uleb128 0x11
+ 1290 00a5 01       		.uleb128 0x1
+ 1291 00a6 12       		.uleb128 0x12
+ 1292 00a7 06       		.uleb128 0x6
+ 1293 00a8 40       		.uleb128 0x40
+ 1294 00a9 18       		.uleb128 0x18
+ 1295 00aa 9642     		.uleb128 0x2116
+ 1296 00ac 19       		.uleb128 0x19
+ 1297 00ad 00       		.byte	0
+ 1298 00ae 00       		.byte	0
+ 1299 00af 0D       		.uleb128 0xd
+ 1300 00b0 34       		.uleb128 0x34
+ 1301 00b1 00       		.byte	0
+ 1302 00b2 03       		.uleb128 0x3
+ 1303 00b3 0E       		.uleb128 0xe
+ 1304 00b4 3A       		.uleb128 0x3a
+ 1305 00b5 0B       		.uleb128 0xb
+ 1306 00b6 3B       		.uleb128 0x3b
+ 1307 00b7 05       		.uleb128 0x5
+ 1308 00b8 49       		.uleb128 0x49
+ 1309 00b9 13       		.uleb128 0x13
+ 1310 00ba 3F       		.uleb128 0x3f
+ 1311 00bb 19       		.uleb128 0x19
+ 1312 00bc 3C       		.uleb128 0x3c
+ 1313 00bd 19       		.uleb128 0x19
+ 1314 00be 00       		.byte	0
+ 1315 00bf 00       		.byte	0
+ 1316 00c0 0E       		.uleb128 0xe
+ 1317 00c1 01       		.uleb128 0x1
+ 1318 00c2 01       		.byte	0x1
+ 1319 00c3 49       		.uleb128 0x49
+ 1320 00c4 13       		.uleb128 0x13
+ 1321 00c5 01       		.uleb128 0x1
+ 1322 00c6 13       		.uleb128 0x13
+ 1323 00c7 00       		.byte	0
+ 1324 00c8 00       		.byte	0
+ 1325 00c9 0F       		.uleb128 0xf
+ 1326 00ca 21       		.uleb128 0x21
+ 1327 00cb 00       		.byte	0
+ 1328 00cc 49       		.uleb128 0x49
+ 1329 00cd 13       		.uleb128 0x13
+ 1330 00ce 2F       		.uleb128 0x2f
+ 1331 00cf 0B       		.uleb128 0xb
+ 1332 00d0 00       		.byte	0
+ 1333 00d1 00       		.byte	0
+ 1334 00d2 10       		.uleb128 0x10
+ 1335 00d3 34       		.uleb128 0x34
+ 1336 00d4 00       		.byte	0
+ 1337 00d5 03       		.uleb128 0x3
+ 1338 00d6 0E       		.uleb128 0xe
+ 1339 00d7 3A       		.uleb128 0x3a
+ 1340 00d8 0B       		.uleb128 0xb
+ 1341 00d9 3B       		.uleb128 0x3b
+ 1342 00da 0B       		.uleb128 0xb
+ 1343 00db 49       		.uleb128 0x49
+ 1344 00dc 13       		.uleb128 0x13
+ 1345 00dd 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 26
+
+
+ 1346 00de 19       		.uleb128 0x19
+ 1347 00df 02       		.uleb128 0x2
+ 1348 00e0 18       		.uleb128 0x18
+ 1349 00e1 00       		.byte	0
+ 1350 00e2 00       		.byte	0
+ 1351 00e3 00       		.byte	0
+ 1352              		.section	.debug_aranges,"",%progbits
+ 1353 0000 2C000000 		.4byte	0x2c
+ 1354 0004 0200     		.2byte	0x2
+ 1355 0006 00000000 		.4byte	.Ldebug_info0
+ 1356 000a 04       		.byte	0x4
+ 1357 000b 00       		.byte	0
+ 1358 000c 0000     		.2byte	0
+ 1359 000e 0000     		.2byte	0
+ 1360 0010 00000000 		.4byte	.LFB64
+ 1361 0014 14000000 		.4byte	.LFE64-.LFB64
+ 1362 0018 00000000 		.4byte	.LFB65
+ 1363 001c 4C010000 		.4byte	.LFE65-.LFB65
+ 1364 0020 00000000 		.4byte	.LFB66
+ 1365 0024 48000000 		.4byte	.LFE66-.LFB66
+ 1366 0028 00000000 		.4byte	0
+ 1367 002c 00000000 		.4byte	0
+ 1368              		.section	.debug_ranges,"",%progbits
+ 1369              	.Ldebug_ranges0:
+ 1370 0000 00000000 		.4byte	.LFB64
+ 1371 0004 14000000 		.4byte	.LFE64
+ 1372 0008 00000000 		.4byte	.LFB65
+ 1373 000c 4C010000 		.4byte	.LFE65
+ 1374 0010 00000000 		.4byte	.LFB66
+ 1375 0014 48000000 		.4byte	.LFE66
+ 1376 0018 00000000 		.4byte	0
+ 1377 001c 00000000 		.4byte	0
+ 1378              		.section	.debug_line,"",%progbits
+ 1379              	.Ldebug_line0:
+ 1380 0000 B7010000 		.section	.debug_str,"MS",%progbits,1
+ 1380      02005701 
+ 1380      00000201 
+ 1380      FB0E0D00 
+ 1380      01010101 
+ 1381              	.LASF27:
+ 1382 0000 696E7446 		.ascii	"intFreq\000"
+ 1382      72657100 
+ 1383              	.LASF34:
+ 1384 0008 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1384      43313120 
+ 1384      352E342E 
+ 1384      31203230 
+ 1384      31363036 
+ 1385 003b 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1385      20726576 
+ 1385      6973696F 
+ 1385      6E203233 
+ 1385      37373135 
+ 1386 006e 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1386      66756E63 
+ 1386      74696F6E 
+ 1386      2D736563 
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 27
+
+
+ 1386      74696F6E 
+ 1387              	.LASF23:
+ 1388 0096 64656C61 		.ascii	"delayMS\000"
+ 1388      794D5300 
+ 1389              	.LASF9:
+ 1390 009e 5F5F696E 		.ascii	"__int32_t\000"
+ 1390      7433325F 
+ 1390      7400
+ 1391              	.LASF11:
+ 1392 00a8 75696E74 		.ascii	"uint8\000"
+ 1392      3800
+ 1393              	.LASF36:
+ 1394 00ae 433A5C55 		.ascii	"C:\\Users\\Silvan\\OneDrive\\Dokumente\\PSoC Creato"
+ 1394      73657273 
+ 1394      5C53696C 
+ 1394      76616E5C 
+ 1394      4F6E6544 
+ 1395 00dc 725C5053 		.ascii	"r\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI.cydsn\000"
+ 1395      6F435F41 
+ 1395      7564696F 
+ 1395      5F4D4944 
+ 1395      495C5053 
+ 1396              	.LASF13:
+ 1397 0104 666C6F61 		.ascii	"float\000"
+ 1397      7400
+ 1398              	.LASF28:
+ 1399 010a 6E6F7465 		.ascii	"note\000"
+ 1399      00
+ 1400              	.LASF21:
+ 1401 010f 696E7446 		.ascii	"intFrequency\000"
+ 1401      72657175 
+ 1401      656E6379 
+ 1401      00
+ 1402              	.LASF37:
+ 1403 011c 6D6F6465 		.ascii	"modeCheck\000"
+ 1403      43686563 
+ 1403      6B00
+ 1404              	.LASF5:
+ 1405 0126 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1405      20756E73 
+ 1405      69676E65 
+ 1405      6420696E 
+ 1405      7400
+ 1406              	.LASF3:
+ 1407 0138 73686F72 		.ascii	"short unsigned int\000"
+ 1407      7420756E 
+ 1407      7369676E 
+ 1407      65642069 
+ 1407      6E7400
+ 1408              	.LASF24:
+ 1409 014b 6F6E4F66 		.ascii	"onOffCount\000"
+ 1409      66436F75 
+ 1409      6E7400
+ 1410              	.LASF19:
+ 1411 0156 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1411      52784275 
+ 1411      66666572 
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 28
+
+
+ 1411      00
+ 1412              	.LASF1:
+ 1413 0163 756E7369 		.ascii	"unsigned char\000"
+ 1413      676E6564 
+ 1413      20636861 
+ 1413      7200
+ 1414              	.LASF14:
+ 1415 0171 646F7562 		.ascii	"double\000"
+ 1415      6C6500
+ 1416              	.LASF2:
+ 1417 0178 73686F72 		.ascii	"short int\000"
+ 1417      7420696E 
+ 1417      7400
+ 1418              	.LASF12:
+ 1419 0182 75696E74 		.ascii	"uint16\000"
+ 1419      313600
+ 1420              	.LASF18:
+ 1421 0189 75696E74 		.ascii	"uint\000"
+ 1421      00
+ 1422              	.LASF39:
+ 1423 018e 6D61696E 		.ascii	"main\000"
+ 1423      00
+ 1424              	.LASF38:
+ 1425 0193 6C6F6E67 		.ascii	"longSweep\000"
+ 1425      53776565 
+ 1425      7000
+ 1426              	.LASF8:
+ 1427 019d 756E7369 		.ascii	"unsigned int\000"
+ 1427      676E6564 
+ 1427      20696E74 
+ 1427      00
+ 1428              	.LASF33:
+ 1429 01aa 66726571 		.ascii	"freqClockDivCounter\000"
+ 1429      436C6F63 
+ 1429      6B446976 
+ 1429      436F756E 
+ 1429      74657200 
+ 1430              	.LASF7:
+ 1431 01be 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1431      206C6F6E 
+ 1431      6720756E 
+ 1431      7369676E 
+ 1431      65642069 
+ 1432              	.LASF31:
+ 1433 01d5 6D6F6465 		.ascii	"mode\000"
+ 1433      00
+ 1434              	.LASF22:
+ 1435 01da 66726571 		.ascii	"frequency\000"
+ 1435      75656E63 
+ 1435      7900
+ 1436              	.LASF29:
+ 1437 01e4 6E6F7465 		.ascii	"noteIndex\000"
+ 1437      496E6465 
+ 1437      7800
+ 1438              	.LASF10:
+ 1439 01ee 696E7433 		.ascii	"int32_t\000"
+ 1439      325F7400 
+ARM GAS  C:\Users\Silvan\AppData\Local\Temp\ccMaWaQb.s 			page 29
+
+
+ 1440              	.LASF20:
+ 1441 01f6 6E6F7465 		.ascii	"notes\000"
+ 1441      7300
+ 1442              	.LASF17:
+ 1443 01fc 73697A65 		.ascii	"sizetype\000"
+ 1443      74797065 
+ 1443      00
+ 1444              	.LASF6:
+ 1445 0205 6C6F6E67 		.ascii	"long long int\000"
+ 1445      206C6F6E 
+ 1445      6720696E 
+ 1445      7400
+ 1446              	.LASF35:
+ 1447 0213 6D61696E 		.ascii	"main.c\000"
+ 1447      2E6300
+ 1448              	.LASF15:
+ 1449 021a 63686172 		.ascii	"char\000"
+ 1449      00
+ 1450              	.LASF30:
+ 1451 021f 706C6179 		.ascii	"playing\000"
+ 1451      696E6700 
+ 1452              	.LASF26:
+ 1453 0227 66726571 		.ascii	"freq\000"
+ 1453      00
+ 1454              	.LASF25:
+ 1455 022c 7472616E 		.ascii	"transmitBuffer\000"
+ 1455      736D6974 
+ 1455      42756666 
+ 1455      657200
+ 1456              	.LASF4:
+ 1457 023b 6C6F6E67 		.ascii	"long int\000"
+ 1457      20696E74 
+ 1457      00
+ 1458              	.LASF16:
+ 1459 0244 6C6F6E67 		.ascii	"long double\000"
+ 1459      20646F75 
+ 1459      626C6500 
+ 1460              	.LASF0:
+ 1461 0250 7369676E 		.ascii	"signed char\000"
+ 1461      65642063 
+ 1461      68617200 
+ 1462              	.LASF32:
+ 1463 025c 63686563 		.ascii	"checkingMode\000"
+ 1463      6B696E67 
+ 1463      4D6F6465 
+ 1463      00
+ 1464              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,7 +1,0 @@
-C:\Users\Silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\WaveDAC8_Example01\WaveDAC8_Example01.cydsn\WaveDAC8_Example01.cyprj|f023fa55-4160-4b7f-a831-cbc49fe2515b
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|4a959ecc-fdf1-46fe-850a-7b82cdc726c6
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|83453e67-cebf-4a9a-810e-f4fd04f776cc
-C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|195f613e-31d6-431a-bd6f-7c4b1857b454
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8ad2ba7e-3dfc-4afd-88d3-b87890a6918d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5a77ae70-1244-4a94-9950-5285c8103524
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|b569010e-4ef0-444a-9dcb-4374c034e28b
