@@ -21,9 +21,8 @@ volatile double freq;
 volatile uint16 intFreq;
 volatile char note[3];
 volatile uint8 noteIndex;
-volatile uint8 playing;
 volatile uint8 mode = 0;            // set default mode   
-volatile uint8 modeFlag = 0;
+volatile uint8 modeFlag = 0;        // flag is set by Timer_Mode, resets after check
 volatile uint8 checkingMode = 1;    // set bool if checking mode or not 
 uint16 freqClockDivCounter = START_FREQ_DIV;
 volatile uint dice1;
@@ -78,10 +77,24 @@ void longSweep(){ // FREQ SWEEP 6kHz to 30Hz SHOWING FREQS AND DIV VIA UART
     CyDelay(delayMS);
 }
 
+void playRange(uint8 minIndex, uint8 maxIndex){
+    UART_1_PutString("PLAY RANGE \n\r");
+    if (maxIndex > 107){
+        maxIndex = 107;
+    }
+    for (uint8 i = minIndex; i <= maxIndex; i++){
+        freqClockDivCounter = 250000 / intFrequency[i];
+        Clock_1_SetDividerValue(freqClockDivCounter);
+        sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[i][0],notes[i][1], notes[i][2], intFrequency[i], freqClockDivCounter) ;
+        UART_1_PutString(transmitBuffer);
+        CyDelay(811);
+    }
+}
+
 int main(){
     CyGlobalIntEnable;
 	UART_1_Start();
-    UART_1_PutString("Hello");
+    UART_1_PutString("Hello \n\r");
     WaveDAC8_1_Start();
     Timer_Mode_Start();
     Clock_Mode_Start();
@@ -96,6 +109,7 @@ int main(){
                 longSweep();
                 break;
             case 1:
+                playRange(40,60);
                 break;
             case 2:
                 break;
