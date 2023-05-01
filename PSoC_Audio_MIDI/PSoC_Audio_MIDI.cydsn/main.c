@@ -77,7 +77,7 @@ void longSweep(){ // FREQ SWEEP 6kHz to 30Hz SHOWING FREQS AND DIV VIA UART
     CyDelay(delayMS);
 }
 
-void playRange(uint8 minIndex, uint8 maxIndex){
+void playRange(uint8 minIndex, uint8 maxIndex, uint16 playRangeDelay){
     UART_1_PutString("PLAY RANGE \n\r");
     if (maxIndex > 107){
         maxIndex = 107;
@@ -87,13 +87,13 @@ void playRange(uint8 minIndex, uint8 maxIndex){
         Clock_1_SetDividerValue(freqClockDivCounter);
         sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[i][0],notes[i][1], notes[i][2], intFrequency[i], freqClockDivCounter) ;
         UART_1_PutString(transmitBuffer);
-        CyDelay(811);
+        CyDelay(playRangeDelay);
     }
 }
 
 int main(){
     CyGlobalIntEnable;
-	UART_1_Start();
+    UART_1_Start();
     UART_1_PutString("Hello \n\r");
     WaveDAC8_1_Start();
     Timer_Mode_Start();
@@ -109,7 +109,7 @@ int main(){
                 longSweep();
                 break;
             case 1:
-                playRange(40,60);
+                playRange(50,90,120); // set min index, max Index, delay [ms]
                 break;
             case 2:
                 break;
