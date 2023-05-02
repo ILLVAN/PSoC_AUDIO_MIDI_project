@@ -393,45 +393,34 @@
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA_dma.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\analogPress.o">
-<dep name=".\Generated_Source\PSoC5\analogPress.c" />
-<dep name=".\Generated_Source\PSoC5\analogPress.h" />
-<dep name=".\Generated_Source\PSoC5\analogPress_aliases.h" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\analogBut.o">
+<dep name=".\Generated_Source\PSoC5\analogBut.c" />
+<dep name=".\Generated_Source\PSoC5\analogBut.h" />
+<dep name=".\Generated_Source\PSoC5\analogBut_aliases.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC5\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC5\cypins.h" />
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
-<file name=".\Generated_Source\PSoC5\analogPress.c" />
-<file name=".\Generated_Source\PSoC5\analogPress.h" />
-<file name=".\Generated_Source\PSoC5\analogPress_aliases.h" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\analogX.o">
-<dep name=".\Generated_Source\PSoC5\analogX.c" />
-<dep name=".\Generated_Source\PSoC5\analogX.h" />
-<dep name=".\Generated_Source\PSoC5\analogX_aliases.h" />
+<file name=".\Generated_Source\PSoC5\analogBut.c" />
+<file name=".\Generated_Source\PSoC5\analogBut.h" />
+<file name=".\Generated_Source\PSoC5\analogBut_aliases.h" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\analogBut_isr.o">
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\analogBut_isr.c" />
+<dep name=".\Generated_Source\PSoC5\analogBut_isr.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
 </file>
-<file name=".\Generated_Source\PSoC5\analogX.c" />
-<file name=".\Generated_Source\PSoC5\analogX.h" />
-<file name=".\Generated_Source\PSoC5\analogX_aliases.h" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\analogY.o">
-<dep name=".\Generated_Source\PSoC5\analogY.c" />
-<dep name=".\Generated_Source\PSoC5\analogY.h" />
-<dep name=".\Generated_Source\PSoC5\analogY_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cypins.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC5\analogY.c" />
-<file name=".\Generated_Source\PSoC5\analogY.h" />
-<file name=".\Generated_Source\PSoC5\analogY_aliases.h" />
+<file name=".\Generated_Source\PSoC5\analogBut_isr.c" />
+<file name=".\Generated_Source\PSoC5\analogBut_isr.h" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\but1.o">
 <dep name=".\Generated_Source\PSoC5\but1.c" />
 <dep name=".\Generated_Source\PSoC5\but1.h" />
@@ -624,21 +613,6 @@
 </file>
 <file name=".\Generated_Source\PSoC5\debouncerClock.c" />
 <file name=".\Generated_Source\PSoC5\debouncerClock.h" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\isr_1.o">
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-<dep name=".\Generated_Source\PSoC5\isr_1.c" />
-<dep name=".\Generated_Source\PSoC5\isr_1.h" />
-<dep name=".\cyapicallbacks.h" />
-</file>
-<file name=".\Generated_Source\PSoC5\isr_1.c" />
-<file name=".\Generated_Source\PSoC5\isr_1.h" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\isr_checkMode.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -688,12 +662,9 @@
 <dep name=".\Generated_Source\PSoC5\WaveDAC8_1_VDAC8.h" />
 <dep name=".\Generated_Source\PSoC5\WaveDAC8_1_Wave1_DMA_dma.h" />
 <dep name=".\Generated_Source\PSoC5\WaveDAC8_1_Wave2_DMA_dma.h" />
-<dep name=".\Generated_Source\PSoC5\analogPress.h" />
-<dep name=".\Generated_Source\PSoC5\analogPress_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\analogX.h" />
-<dep name=".\Generated_Source\PSoC5\analogX_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\analogY.h" />
-<dep name=".\Generated_Source\PSoC5\analogY_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\analogBut.h" />
+<dep name=".\Generated_Source\PSoC5\analogBut_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\analogBut_isr.h" />
 <dep name=".\Generated_Source\PSoC5\but1.h" />
 <dep name=".\Generated_Source\PSoC5\but1_aliases.h" />
 <dep name=".\Generated_Source\PSoC5\but1_isr_neg.h" />
@@ -715,7 +686,6 @@
 <dep name=".\Generated_Source\PSoC5\cypins.h" />
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 <dep name=".\Generated_Source\PSoC5\debouncerClock.h" />
-<dep name=".\Generated_Source\PSoC5\isr_1.h" />
 <dep name=".\Generated_Source\PSoC5\isr_checkMode.h" />
 <dep name=".\main.c" />
 </file>
@@ -737,6 +707,60 @@
 <file name=".\Generated_Source\PSoC5\cydevicegnu.inc" />
 <file name=".\Generated_Source\PSoC5\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC5\cyfittergnu.inc" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\analogPress.o">
+<dep name=".\Generated_Source\PSoC5\analogPress.c" />
+<dep name=".\Generated_Source\PSoC5\analogPress.h" />
+<dep name=".\Generated_Source\PSoC5\analogPress_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\analogPress.c" />
+<file name=".\Generated_Source\PSoC5\analogPress.h" />
+<file name=".\Generated_Source\PSoC5\analogPress_aliases.h" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\analogX.o">
+<dep name=".\Generated_Source\PSoC5\analogX.c" />
+<dep name=".\Generated_Source\PSoC5\analogX.h" />
+<dep name=".\Generated_Source\PSoC5\analogX_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\analogX.c" />
+<file name=".\Generated_Source\PSoC5\analogX.h" />
+<file name=".\Generated_Source\PSoC5\analogX_aliases.h" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\analogY.o">
+<dep name=".\Generated_Source\PSoC5\analogY.c" />
+<dep name=".\Generated_Source\PSoC5\analogY.h" />
+<dep name=".\Generated_Source\PSoC5\analogY_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\analogY.c" />
+<file name=".\Generated_Source\PSoC5\analogY.h" />
+<file name=".\Generated_Source\PSoC5\analogY_aliases.h" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\isr_1.o">
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+<dep name=".\Generated_Source\PSoC5\isr_1.c" />
+<dep name=".\Generated_Source\PSoC5\isr_1.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\isr_1.c" />
+<file name=".\Generated_Source\PSoC5\isr_1.h" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\but1_isr.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -792,7 +816,6 @@
 <dep name=".\CortexM3\ARM_GCC_541\Debug\Pin_Dice_2.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\Pin_Dice_LED_1.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\Pin_Dice_LED_2.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\isr_1.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\isr_checkMode.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\Timer_Mode.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\Timer_Mode_PM.o" />
@@ -807,9 +830,8 @@
 <dep name=".\CortexM3\ARM_GCC_541\Debug\but3_isr_neg.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\but2.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\but3.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\analogX.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\analogY.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\analogPress.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\analogBut_isr.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\analogBut.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" />
 </file>
@@ -874,6 +896,8 @@
 <name_val_pair name="Generated_Source\PSoC5\analogX.c" v="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -O0" />
 <name_val_pair name="Generated_Source\PSoC5\analogY.c" v="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -O0" />
 <name_val_pair name="Generated_Source\PSoC5\analogPress.c" v="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -O0" />
+<name_val_pair name="Generated_Source\PSoC5\analogBut_isr.c" v="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -O0" />
+<name_val_pair name="Generated_Source\PSoC5\analogBut.c" v="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -O0" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\mariu\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p &quot;C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj&quot; -d CY8C5888LTI-LP097 -s &quot;C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Generated_Source\PSoC5&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -1309,6 +1333,11 @@
 <v>Generated_Source\PSoC5\analogPress_aliases.h</v>
 <v>Generated_Source\PSoC5\analogPress.c</v>
 <v>Generated_Source\PSoC5\analogPress.h</v>
+<v>Generated_Source\PSoC5\analogBut_isr.c</v>
+<v>Generated_Source\PSoC5\analogBut_isr.h</v>
+<v>Generated_Source\PSoC5\analogBut_aliases.h</v>
+<v>Generated_Source\PSoC5\analogBut.c</v>
+<v>Generated_Source\PSoC5\analogBut.h</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
@@ -1318,7 +1347,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="133275005074420185" />
+<deps_time v="133275047118568983" />
 <top_block v="TopDesign" />
 <last_generation v="6" />
 <pdl_path v="" />
@@ -1328,7 +1357,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="133275005188960936" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="133275047241716044" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

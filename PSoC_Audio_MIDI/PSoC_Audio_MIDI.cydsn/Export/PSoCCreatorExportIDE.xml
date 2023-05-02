@@ -128,8 +128,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Dice_LED_2_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Dice_LED_2.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Dice_LED_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_checkMode.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_checkMode.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_Mode.c</File>
@@ -160,15 +158,11 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogPress_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogPress.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogPress.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut_isr.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut_isr.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_GCC_Generic">

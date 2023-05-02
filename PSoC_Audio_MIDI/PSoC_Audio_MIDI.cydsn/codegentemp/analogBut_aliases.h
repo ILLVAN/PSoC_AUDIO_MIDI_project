@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: analogPress.h  
+* File Name: analogBut.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_analogPress_ALIASES_H) /* Pins analogPress_ALIASES_H */
-#define CY_PINS_analogPress_ALIASES_H
+#if !defined(CY_PINS_analogBut_ALIASES_H) /* Pins analogBut_ALIASES_H */
+#define CY_PINS_analogBut_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define analogPress_0			(analogPress__0__PC)
-#define analogPress_0_INTR	((uint16)((uint16)0x0001u << analogPress__0__SHIFT))
+#define analogBut_0			(analogBut__0__PC)
+#define analogBut_0_INTR	((uint16)((uint16)0x0001u << analogBut__0__SHIFT))
 
-#define analogPress_INTR_ALL	 ((uint16)(analogPress_0_INTR))
+#define analogBut_INTR_ALL	 ((uint16)(analogBut_0_INTR))
 
-#endif /* End Pins analogPress_ALIASES_H */
+#endif /* End Pins analogBut_ALIASES_H */
 
 
 /* [] END OF FILE */

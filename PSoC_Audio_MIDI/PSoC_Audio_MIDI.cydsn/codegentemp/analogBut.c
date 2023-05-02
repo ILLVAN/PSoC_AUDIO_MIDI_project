@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: analogX.c  
+* File Name: analogBut.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "analogX.h"
+#include "analogBut.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 analogX__PORT == 15 && ((analogX__MASK & 0xC0) != 0))
+	 analogBut__PORT == 15 && ((analogBut__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: analogX_Write
+* Function Name: analogBut_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet analogX_SUT.c usage_analogX_Write
+*  \snippet analogBut_SUT.c usage_analogBut_Write
 *******************************************************************************/
-void analogX_Write(uint8 value)
+void analogBut_Write(uint8 value)
 {
-    uint8 staticBits = (analogX_DR & (uint8)(~analogX_MASK));
-    analogX_DR = staticBits | ((uint8)(value << analogX_SHIFT) & analogX_MASK);
+    uint8 staticBits = (analogBut_DR & (uint8)(~analogBut_MASK));
+    analogBut_DR = staticBits | ((uint8)(value << analogBut_SHIFT) & analogBut_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: analogX_SetDriveMode
+* Function Name: analogBut_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void analogX_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet analogX_SUT.c usage_analogX_SetDriveMode
+*  \snippet analogBut_SUT.c usage_analogBut_SetDriveMode
 *******************************************************************************/
-void analogX_SetDriveMode(uint8 mode)
+void analogBut_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(analogX_0, mode);
+	CyPins_SetPinDriveMode(analogBut_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: analogX_Read
+* Function Name: analogBut_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void analogX_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet analogX_SUT.c usage_analogX_Read  
+*  \snippet analogBut_SUT.c usage_analogBut_Read  
 *******************************************************************************/
-uint8 analogX_Read(void)
+uint8 analogBut_Read(void)
 {
-    return (analogX_PS & analogX_MASK) >> analogX_SHIFT;
+    return (analogBut_PS & analogBut_MASK) >> analogBut_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: analogX_ReadDataReg
+* Function Name: analogBut_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 analogX_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred analogX_Read() API because the 
-* analogX_ReadDataReg() reads the data register instead of the status 
+* preferred analogBut_Read() API because the 
+* analogBut_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 analogX_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet analogX_SUT.c usage_analogX_ReadDataReg 
+*  \snippet analogBut_SUT.c usage_analogBut_ReadDataReg 
 *******************************************************************************/
-uint8 analogX_ReadDataReg(void)
+uint8 analogBut_ReadDataReg(void)
 {
-    return (analogX_DR & analogX_MASK) >> analogX_SHIFT;
+    return (analogBut_DR & analogBut_MASK) >> analogBut_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(analogX_INTSTAT) 
+#if defined(analogBut_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: analogX_SetInterruptMode
+    * Function Name: analogBut_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 analogX_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use analogX_INTR_ALL to configure the
+    *  component. Or you may use analogBut_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - analogX_0_INTR       (First pin in the list)
-    *  - analogX_1_INTR       (Second pin in the list)
+    *  - analogBut_0_INTR       (First pin in the list)
+    *  - analogBut_1_INTR       (Second pin in the list)
     *  - ...
-    *  - analogX_INTR_ALL     (All pins in Pins component)
+    *  - analogBut_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 analogX_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet analogX_SUT.c usage_analogX_SetInterruptMode
+    *  \snippet analogBut_SUT.c usage_analogBut_SetInterruptMode
     *******************************************************************************/
-    void analogX_SetInterruptMode(uint16 position, uint16 mode)
+    void analogBut_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & analogX_0_INTR) != 0u) 
+		if((position & analogBut_0_INTR) != 0u) 
 		{ 
-			 analogX_0_INTTYPE_REG = (uint8)mode; 
+			 analogBut_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: analogX_ClearInterrupt
+    * Function Name: analogBut_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 analogX_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet analogX_SUT.c usage_analogX_ClearInterrupt
+    *  \snippet analogBut_SUT.c usage_analogBut_ClearInterrupt
     *******************************************************************************/
-    uint8 analogX_ClearInterrupt(void)
+    uint8 analogBut_ClearInterrupt(void)
     {
-        return (analogX_INTSTAT & analogX_MASK) >> analogX_SHIFT;
+        return (analogBut_INTSTAT & analogBut_MASK) >> analogBut_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 

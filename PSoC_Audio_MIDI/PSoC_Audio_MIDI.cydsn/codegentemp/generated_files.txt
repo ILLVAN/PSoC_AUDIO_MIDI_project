@@ -50,40 +50,34 @@
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2_aliases.h" value="HEADER;;;;;Pin_Dice_2" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2.c" value="SOURCE_C;CortexM3;;;;Pin_Dice_2" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2.h" value="HEADER;;;;;Pin_Dice_2" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_aliases.h" value="HEADER;;;;;but1" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1.c" value="SOURCE_C;CortexM3;;;;but1" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1.h" value="HEADER;;;;;but1" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_pos.c" value="SOURCE_C;CortexM3;;;;but1_isr_pos" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_pos.h" value="HEADER;;;;;but1_isr_pos" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_neg.c" value="SOURCE_C;CortexM3;;;;but1_isr_neg" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_neg.h" value="HEADER;;;;;but1_isr_neg" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\debouncerClock.c" value="SOURCE_C;CortexM3;;;;debouncerClock" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\debouncerClock.h" value="HEADER;;;;;debouncerClock" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogX_aliases.h" value="HEADER;;;;;analogX" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogX.c" value="SOURCE_C;CortexM3;;;;analogX" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogX.h" value="HEADER;;;;;analogX" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogBut_isr.c" value="SOURCE_C;CortexM3;;;;analogBut_isr" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogBut_isr.h" value="HEADER;;;;;analogBut_isr" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_isr_pos.c" value="SOURCE_C;CortexM3;;;;but2_isr_pos" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_isr_pos.h" value="HEADER;;;;;but2_isr_pos" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_isr_neg.c" value="SOURCE_C;CortexM3;;;;but2_isr_neg" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_isr_neg.h" value="HEADER;;;;;but2_isr_neg" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_pos.c" value="SOURCE_C;CortexM3;;;;but3_isr_pos" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_pos.h" value="HEADER;;;;;but3_isr_pos" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_neg.c" value="SOURCE_C;CortexM3;;;;but3_isr_neg" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_neg.h" value="HEADER;;;;;but3_isr_neg" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_aliases.h" value="HEADER;;;;;but2" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2.c" value="SOURCE_C;CortexM3;;;;but2" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2.h" value="HEADER;;;;;but2" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogBut_aliases.h" value="HEADER;;;;;analogBut" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogBut.c" value="SOURCE_C;CortexM3;;;;analogBut" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogBut.h" value="HEADER;;;;;analogBut" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_aliases.h" value="HEADER;;;;;but3" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3.c" value="SOURCE_C;CortexM3;;;;but3" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3.h" value="HEADER;;;;;but3" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogY_aliases.h" value="HEADER;;;;;analogY" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogY.c" value="SOURCE_C;CortexM3;;;;analogY" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogY.h" value="HEADER;;;;;analogY" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogPress_aliases.h" value="HEADER;;;;;analogPress" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogPress.c" value="SOURCE_C;CortexM3;;;;analogPress" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogPress.h" value="HEADER;;;;;analogPress" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_1.c" value="SOURCE_C;CortexM3;;;;isr_1" />
-  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_1.h" value="HEADER;;;;;isr_1" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_aliases.h" value="HEADER;;;;;but2" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2.c" value="SOURCE_C;CortexM3;;;;but2" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2.h" value="HEADER;;;;;but2" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_neg.c" value="SOURCE_C;CortexM3;;;;but3_isr_neg" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_neg.h" value="HEADER;;;;;but3_isr_neg" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_pos.c" value="SOURCE_C;CortexM3;;;;but3_isr_pos" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but3_isr_pos.h" value="HEADER;;;;;but3_isr_pos" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_isr_neg.c" value="SOURCE_C;CortexM3;;;;but2_isr_neg" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but2_isr_neg.h" value="HEADER;;;;;but2_isr_neg" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\debouncerClock.c" value="SOURCE_C;CortexM3;;;;debouncerClock" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\debouncerClock.h" value="HEADER;;;;;debouncerClock" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_neg.c" value="SOURCE_C;CortexM3;;;;but1_isr_neg" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_neg.h" value="HEADER;;;;;but1_isr_neg" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_pos.c" value="SOURCE_C;CortexM3;;;;but1_isr_pos" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_isr_pos.h" value="HEADER;;;;;but1_isr_pos" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1_aliases.h" value="HEADER;;;;;but1" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1.c" value="SOURCE_C;CortexM3;;;;but1" />
+  <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\but1.h" value="HEADER;;;;;but1" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave1_DMA" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.h" value="HEADER;;;;;WaveDAC8_1_Wave1_DMA" />
   <file name="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave2_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave2_DMA" />

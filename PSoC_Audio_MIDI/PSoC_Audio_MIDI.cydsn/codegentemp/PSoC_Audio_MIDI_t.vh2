@@ -1,5 +1,5 @@
 -- Project:   C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj
--- Generated: 05/02/2023 13:28:23
+-- Generated: 05/02/2023 14:38:28
 -- PSoC Creator  4.4
 
 ENTITY PSoC_Audio_MIDI IS
@@ -10,12 +10,10 @@ ENTITY PSoC_Audio_MIDI IS
         Pin_Dice_LED_1(0)_PAD : OUT std_ulogic;
         Pin_Dice_LED_2(0)_PAD : OUT std_ulogic;
         Pin_Dice_2(0)_PAD : IN std_ulogic;
-        but1(0)_PAD : IN std_ulogic;
-        analogX(0)_PAD : INOUT std_ulogic;
-        but2(0)_PAD : IN std_ulogic;
+        analogBut(0)_PAD : IN std_ulogic;
         but3(0)_PAD : IN std_ulogic;
-        analogY(0)_PAD : INOUT std_ulogic;
-        analogPress(0)_PAD : IN std_ulogic);
+        but2(0)_PAD : IN std_ulogic;
+        but1(0)_PAD : IN std_ulogic);
     ATTRIBUTE voltage_VDDABUF OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VDDA OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VUSB OF __DEFAULT__ : ENTITY IS 5e0;
@@ -51,28 +49,28 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE udbclken_assigned OF Net_163 : SIGNAL IS "True";
     ATTRIBUTE global_signal OF Net_163 : SIGNAL IS true;
     SIGNAL Net_163_local : bit;
-    SIGNAL Net_167 : bit;
-    ATTRIBUTE placement_force OF Net_167 : SIGNAL IS "U(0,2,B)0";
-    SIGNAL Net_168 : bit;
-    SIGNAL Net_171 : bit;
-    ATTRIBUTE placement_force OF Net_171 : SIGNAL IS "U(1,4,A)2";
-    SIGNAL Net_173 : bit;
-    ATTRIBUTE placement_force OF Net_173 : SIGNAL IS "U(1,4,B)3";
-    SIGNAL Net_180 : bit;
-    ATTRIBUTE placement_force OF Net_180 : SIGNAL IS "U(0,4,B)1";
-    SIGNAL Net_181 : bit;
-    ATTRIBUTE placement_force OF Net_181 : SIGNAL IS "U(0,4,A)3";
-    SIGNAL Net_189 : bit;
-    ATTRIBUTE placement_force OF Net_189 : SIGNAL IS "U(0,2,B)2";
-    SIGNAL Net_196 : bit;
-    SIGNAL Net_200 : bit;
-    SIGNAL Net_205 : bit;
-    ATTRIBUTE placement_force OF Net_205 : SIGNAL IS "U(0,4,B)0";
+    SIGNAL Net_232 : bit;
+    ATTRIBUTE placement_force OF Net_232 : SIGNAL IS "U(1,4,B)2";
+    SIGNAL Net_234 : bit;
+    ATTRIBUTE placement_force OF Net_234 : SIGNAL IS "U(1,4,A)0";
+    SIGNAL Net_237 : bit;
+    SIGNAL Net_239 : bit;
+    ATTRIBUTE placement_force OF Net_239 : SIGNAL IS "U(1,4,B)0";
+    SIGNAL Net_240 : bit;
+    ATTRIBUTE placement_force OF Net_240 : SIGNAL IS "U(0,4,B)2";
+    SIGNAL Net_242 : bit;
+    SIGNAL Net_244 : bit;
+    ATTRIBUTE placement_force OF Net_244 : SIGNAL IS "U(0,4,B)0";
+    SIGNAL Net_245 : bit;
+    ATTRIBUTE placement_force OF Net_245 : SIGNAL IS "U(0,4,A)2";
+    SIGNAL Net_249 : bit;
+    SIGNAL Net_252 : bit;
+    ATTRIBUTE placement_force OF Net_252 : SIGNAL IS "U(1,4,A)2";
     SIGNAL Net_30 : bit;
     SIGNAL Net_31 : bit;
     SIGNAL Net_33 : bit;
     SIGNAL Net_41 : bit;
-    ATTRIBUTE placement_force OF Net_41 : SIGNAL IS "U(1,1,A)1";
+    ATTRIBUTE placement_force OF Net_41 : SIGNAL IS "U(0,2,B)2";
     SIGNAL P00_Vout(0)__PA : bit;
     SIGNAL Pin_Dice_1(0)__PA : bit;
     SIGNAL Pin_Dice_2(0)__PA : bit;
@@ -81,31 +79,31 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     SIGNAL Rx_1(0)__PA : bit;
     SIGNAL Tx_1(0)__PA : bit;
     SIGNAL \Debouncer_1:DEBOUNCER[0]:d_sync_0\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_1:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(0,4,B)2";
+    ATTRIBUTE placement_force OF \Debouncer_1:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(0,4,B)1";
     SIGNAL \Debouncer_1:DEBOUNCER[0]:d_sync_1\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_1:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(1,4,A)0";
+    ATTRIBUTE placement_force OF \Debouncer_1:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(0,4,A)1";
     SIGNAL \Debouncer_2:DEBOUNCER[0]:d_sync_0\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_2:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(0,2,B)3";
+    ATTRIBUTE placement_force OF \Debouncer_2:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(0,4,B)3";
     SIGNAL \Debouncer_2:DEBOUNCER[0]:d_sync_1\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_2:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(0,2,B)1";
+    ATTRIBUTE placement_force OF \Debouncer_2:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(1,4,A)1";
     SIGNAL \Debouncer_3:DEBOUNCER[0]:d_sync_0\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_3:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(1,4,B)0";
+    ATTRIBUTE placement_force OF \Debouncer_3:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(0,4,A)3";
     SIGNAL \Debouncer_3:DEBOUNCER[0]:d_sync_1\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_3:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(1,2,B)1";
+    ATTRIBUTE placement_force OF \Debouncer_3:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(0,4,A)0";
     SIGNAL \Debouncer_4:DEBOUNCER[0]:d_sync_0\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_4:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(0,4,B)3";
+    ATTRIBUTE placement_force OF \Debouncer_4:DEBOUNCER[0]:d_sync_0\ : SIGNAL IS "U(1,4,B)3";
     SIGNAL \Debouncer_4:DEBOUNCER[0]:d_sync_1\ : bit;
-    ATTRIBUTE placement_force OF \Debouncer_4:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(0,4,A)1";
+    ATTRIBUTE placement_force OF \Debouncer_4:DEBOUNCER[0]:d_sync_1\ : SIGNAL IS "U(1,4,B)1";
     SIGNAL \Timer_Mode:Net_261\ : bit;
     SIGNAL \Timer_Mode:Net_51\ : bit;
     SIGNAL \UART_1:BUART:counter_load_not\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:counter_load_not\ : SIGNAL IS "U(1,2,B)3";
+    ATTRIBUTE placement_force OF \UART_1:BUART:counter_load_not\ : SIGNAL IS "U(1,2,A)2";
     SIGNAL \UART_1:BUART:pollcount_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:pollcount_0\ : SIGNAL IS "U(0,0,A)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:pollcount_0\ : SIGNAL IS "U(0,0,B)2";
     SIGNAL \UART_1:BUART:pollcount_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:pollcount_1\ : SIGNAL IS "U(0,0,B)2";
+    ATTRIBUTE placement_force OF \UART_1:BUART:pollcount_1\ : SIGNAL IS "U(0,0,A)2";
     SIGNAL \UART_1:BUART:rx_bitclk_enable\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_bitclk_enable\ : SIGNAL IS "U(0,0,A)2";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_bitclk_enable\ : SIGNAL IS "U(1,1,A)0";
     SIGNAL \UART_1:BUART:rx_count7_tc\ : bit;
     SIGNAL \UART_1:BUART:rx_count_0\ : bit;
     SIGNAL \UART_1:BUART:rx_count_1\ : bit;
@@ -115,62 +113,60 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     SIGNAL \UART_1:BUART:rx_count_5\ : bit;
     SIGNAL \UART_1:BUART:rx_count_6\ : bit;
     SIGNAL \UART_1:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_counter_load\ : SIGNAL IS "U(0,1,A)3";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_counter_load\ : SIGNAL IS "U(1,1,B)1";
     SIGNAL \UART_1:BUART:rx_fifofull\ : bit;
     SIGNAL \UART_1:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART_1:BUART:rx_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_last\ : SIGNAL IS "U(0,0,A)3";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_last\ : SIGNAL IS "U(0,0,A)1";
     SIGNAL \UART_1:BUART:rx_load_fifo\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_load_fifo\ : SIGNAL IS "U(0,1,B)1";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_load_fifo\ : SIGNAL IS "U(1,0,B)1";
     SIGNAL \UART_1:BUART:rx_postpoll\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_postpoll\ : SIGNAL IS "U(0,0,A)1";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_postpoll\ : SIGNAL IS "U(0,0,B)1";
     SIGNAL \UART_1:BUART:rx_state_0\ : bit;
     ATTRIBUTE placement_force OF \UART_1:BUART:rx_state_0\ : SIGNAL IS "U(0,1,A)0";
     SIGNAL \UART_1:BUART:rx_state_2\ : bit;
     ATTRIBUTE placement_force OF \UART_1:BUART:rx_state_2\ : SIGNAL IS "U(0,1,B)0";
     SIGNAL \UART_1:BUART:rx_state_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_state_3\ : SIGNAL IS "U(0,1,B)2";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_state_3\ : SIGNAL IS "U(1,0,A)3";
     SIGNAL \UART_1:BUART:rx_state_stop1_reg\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(0,2,A)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(1,1,A)3";
     SIGNAL \UART_1:BUART:rx_status_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_status_3\ : SIGNAL IS "U(0,2,A)2";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_status_3\ : SIGNAL IS "U(0,1,B)2";
     SIGNAL \UART_1:BUART:rx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_status_4\ : SIGNAL IS "U(0,0,B)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_status_4\ : SIGNAL IS "U(0,0,A)0";
     SIGNAL \UART_1:BUART:rx_status_5\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:rx_status_5\ : SIGNAL IS "U(0,2,A)1";
+    ATTRIBUTE placement_force OF \UART_1:BUART:rx_status_5\ : SIGNAL IS "U(0,0,B)3";
     SIGNAL \UART_1:BUART:tx_bitclk\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:tx_bitclk\ : SIGNAL IS "U(1,0,A)2";
+    ATTRIBUTE placement_force OF \UART_1:BUART:tx_bitclk\ : SIGNAL IS "U(1,2,A)3";
     SIGNAL \UART_1:BUART:tx_bitclk_enable_pre\ : bit;
     SIGNAL \UART_1:BUART:tx_counter_dp\ : bit;
     SIGNAL \UART_1:BUART:tx_ctrl_mark_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(0,2,A)3";
+    ATTRIBUTE placement_force OF \UART_1:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(1,0,A)2";
     SIGNAL \UART_1:BUART:tx_fifo_empty\ : bit;
     SIGNAL \UART_1:BUART:tx_fifo_notfull\ : bit;
     SIGNAL \UART_1:BUART:tx_shift_out\ : bit;
     SIGNAL \UART_1:BUART:tx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:tx_state_0\ : SIGNAL IS "U(1,1,B)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:tx_state_0\ : SIGNAL IS "U(0,2,B)0";
     SIGNAL \UART_1:BUART:tx_state_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:tx_state_1\ : SIGNAL IS "U(1,2,A)1";
+    ATTRIBUTE placement_force OF \UART_1:BUART:tx_state_1\ : SIGNAL IS "U(0,2,A)2";
     SIGNAL \UART_1:BUART:tx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:tx_state_2\ : SIGNAL IS "U(1,1,A)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:tx_state_2\ : SIGNAL IS "U(1,2,A)1";
     SIGNAL \UART_1:BUART:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:tx_status_0\ : SIGNAL IS "U(1,0,B)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:tx_status_0\ : SIGNAL IS "U(1,2,B)3";
     SIGNAL \UART_1:BUART:tx_status_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:tx_status_2\ : SIGNAL IS "U(1,0,A)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:tx_status_2\ : SIGNAL IS "U(1,2,B)0";
     SIGNAL \UART_1:BUART:txn\ : bit;
-    ATTRIBUTE placement_force OF \UART_1:BUART:txn\ : SIGNAL IS "U(1,2,A)0";
+    ATTRIBUTE placement_force OF \UART_1:BUART:txn\ : SIGNAL IS "U(0,2,A)0";
     SIGNAL \UART_1:Net_9\ : bit;
     ATTRIBUTE udbclken_assigned OF \UART_1:Net_9\ : SIGNAL IS "True";
     ATTRIBUTE global_signal OF \UART_1:Net_9\ : SIGNAL IS true;
     SIGNAL \UART_1:Net_9_local\ : bit;
     SIGNAL __ONE__ : bit;
-    ATTRIBUTE placement_force OF __ONE__ : SIGNAL IS "U(1,1,A)3";
+    ATTRIBUTE placement_force OF __ONE__ : SIGNAL IS "U(2,1,A)0";
     ATTRIBUTE POWER OF __ONE__ : SIGNAL IS true;
     SIGNAL __ZERO__ : bit;
     ATTRIBUTE GROUND OF __ZERO__ : SIGNAL IS true;
-    SIGNAL analogPress(0)__PA : bit;
-    SIGNAL analogX(0)__PA : bit;
-    SIGNAL analogY(0)__PA : bit;
+    SIGNAL analogBut(0)__PA : bit;
     SIGNAL but1(0)__PA : bit;
     SIGNAL but2(0)__PA : bit;
     SIGNAL but3(0)__PA : bit;
@@ -194,34 +190,30 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE Location OF Pin_Dice_LED_2(0) : LABEL IS "P1[4]";
     ATTRIBUTE lib_model OF Pin_Dice_2(0) : LABEL IS "iocell7";
     ATTRIBUTE Location OF Pin_Dice_2(0) : LABEL IS "P1[5]";
-    ATTRIBUTE lib_model OF but1(0) : LABEL IS "iocell8";
-    ATTRIBUTE Location OF but1(0) : LABEL IS "P2[2]";
-    ATTRIBUTE lib_model OF analogX(0) : LABEL IS "iocell9";
-    ATTRIBUTE Location OF analogX(0) : LABEL IS "P2[7]";
+    ATTRIBUTE lib_model OF analogBut(0) : LABEL IS "iocell8";
+    ATTRIBUTE Location OF analogBut(0) : LABEL IS "P2[5]";
+    ATTRIBUTE lib_model OF but3(0) : LABEL IS "iocell9";
+    ATTRIBUTE Location OF but3(0) : LABEL IS "P2[4]";
     ATTRIBUTE lib_model OF but2(0) : LABEL IS "iocell10";
     ATTRIBUTE Location OF but2(0) : LABEL IS "P2[3]";
-    ATTRIBUTE lib_model OF but3(0) : LABEL IS "iocell11";
-    ATTRIBUTE Location OF but3(0) : LABEL IS "P2[4]";
-    ATTRIBUTE lib_model OF analogY(0) : LABEL IS "iocell12";
-    ATTRIBUTE Location OF analogY(0) : LABEL IS "P2[1]";
-    ATTRIBUTE lib_model OF analogPress(0) : LABEL IS "iocell13";
-    ATTRIBUTE Location OF analogPress(0) : LABEL IS "P0[0]";
+    ATTRIBUTE lib_model OF but1(0) : LABEL IS "iocell11";
+    ATTRIBUTE Location OF but1(0) : LABEL IS "P2[2]";
     ATTRIBUTE lib_model OF Net_41 : LABEL IS "macrocell1";
-    ATTRIBUTE Location OF Net_41 : LABEL IS "U(1,1)";
+    ATTRIBUTE Location OF Net_41 : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:counter_load_not\ : LABEL IS "macrocell2";
     ATTRIBUTE Location OF \UART_1:BUART:counter_load_not\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_status_0\ : LABEL IS "macrocell3";
-    ATTRIBUTE Location OF \UART_1:BUART:tx_status_0\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_1:BUART:tx_status_0\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_status_2\ : LABEL IS "macrocell4";
-    ATTRIBUTE Location OF \UART_1:BUART:tx_status_2\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_1:BUART:tx_status_2\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_counter_load\ : LABEL IS "macrocell5";
-    ATTRIBUTE Location OF \UART_1:BUART:rx_counter_load\ : LABEL IS "U(0,1)";
+    ATTRIBUTE Location OF \UART_1:BUART:rx_counter_load\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_postpoll\ : LABEL IS "macrocell6";
     ATTRIBUTE Location OF \UART_1:BUART:rx_postpoll\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_status_4\ : LABEL IS "macrocell7";
     ATTRIBUTE Location OF \UART_1:BUART:rx_status_4\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_status_5\ : LABEL IS "macrocell8";
-    ATTRIBUTE Location OF \UART_1:BUART:rx_status_5\ : LABEL IS "U(0,2)";
+    ATTRIBUTE Location OF \UART_1:BUART:rx_status_5\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \WaveDAC8_1:Wave1_DMA\ : LABEL IS "drqcell1";
     ATTRIBUTE Location OF \WaveDAC8_1:Wave1_DMA\ : LABEL IS "[DrqContainer=(0)][DrqId=(0)]";
     ATTRIBUTE lib_model OF \WaveDAC8_1:Wave2_DMA\ : LABEL IS "drqcell2";
@@ -229,89 +221,89 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE Location OF \WaveDAC8_1:VDAC8:viDAC8\ : LABEL IS "F(VIDAC,3)";
     ATTRIBUTE Location OF \WaveDAC8_1:BuffAmp:ABuf\ : LABEL IS "F(OpAmp,1)";
     ATTRIBUTE lib_model OF __ONE__ : LABEL IS "macrocell9";
-    ATTRIBUTE Location OF __ONE__ : LABEL IS "U(1,1)";
+    ATTRIBUTE Location OF __ONE__ : LABEL IS "U(2,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:sTX:TxShifter:u0\ : LABEL IS "datapathcell1";
-    ATTRIBUTE Location OF \UART_1:BUART:sTX:TxShifter:u0\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_1:BUART:sTX:TxShifter:u0\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "datapathcell2";
     ATTRIBUTE Location OF \UART_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:sTX:TxSts\ : LABEL IS "statusicell1";
-    ATTRIBUTE Location OF \UART_1:BUART:sTX:TxSts\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_1:BUART:sTX:TxSts\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell3";
     ATTRIBUTE Location OF \UART_1:BUART:sRX:RxShifter:u0\ : LABEL IS "U(0,0)";
-    ATTRIBUTE Location OF \UART_1:BUART:sRX:RxBitCounter\ : LABEL IS "U(0,1)";
+    ATTRIBUTE Location OF \UART_1:BUART:sRX:RxBitCounter\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:sRX:RxSts\ : LABEL IS "statusicell2";
-    ATTRIBUTE Location OF \UART_1:BUART:sRX:RxSts\ : LABEL IS "U(0,2)";
+    ATTRIBUTE Location OF \UART_1:BUART:sRX:RxSts\ : LABEL IS "U(0,0)";
     ATTRIBUTE Location OF isr_checkMode : LABEL IS "[IntrContainer=(0)][IntrId=(17)]";
     ATTRIBUTE Location OF \Timer_Mode:TimerHW\ : LABEL IS "F(Timer,0)";
-    ATTRIBUTE Location OF but1_isr_pos : LABEL IS "[IntrContainer=(0)][IntrId=(1)]";
-    ATTRIBUTE Location OF but1_isr_neg : LABEL IS "[IntrContainer=(0)][IntrId=(0)]";
-    ATTRIBUTE Location OF but2_isr_pos : LABEL IS "[IntrContainer=(0)][IntrId=(3)]";
-    ATTRIBUTE Location OF but2_isr_neg : LABEL IS "[IntrContainer=(0)][IntrId=(2)]";
-    ATTRIBUTE Location OF but3_isr_pos : LABEL IS "[IntrContainer=(0)][IntrId=(5)]";
-    ATTRIBUTE Location OF but3_isr_neg : LABEL IS "[IntrContainer=(0)][IntrId=(4)]";
-    ATTRIBUTE Location OF isr_1 : LABEL IS "[IntrContainer=(0)][IntrId=(6)]";
+    ATTRIBUTE Location OF analogBut_isr : LABEL IS "[IntrContainer=(0)][IntrId=(0)]";
+    ATTRIBUTE Location OF but2_isr_pos : LABEL IS "[IntrContainer=(0)][IntrId=(4)]";
+    ATTRIBUTE Location OF but3_isr_neg : LABEL IS "[IntrContainer=(0)][IntrId=(5)]";
+    ATTRIBUTE Location OF but3_isr_pos : LABEL IS "[IntrContainer=(0)][IntrId=(6)]";
+    ATTRIBUTE Location OF but2_isr_neg : LABEL IS "[IntrContainer=(0)][IntrId=(3)]";
+    ATTRIBUTE Location OF but1_isr_neg : LABEL IS "[IntrContainer=(0)][IntrId=(1)]";
+    ATTRIBUTE Location OF but1_isr_pos : LABEL IS "[IntrContainer=(0)][IntrId=(2)]";
     ATTRIBUTE lib_model OF \UART_1:BUART:txn\ : LABEL IS "macrocell10";
-    ATTRIBUTE Location OF \UART_1:BUART:txn\ : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF \UART_1:BUART:txn\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_state_1\ : LABEL IS "macrocell11";
-    ATTRIBUTE Location OF \UART_1:BUART:tx_state_1\ : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF \UART_1:BUART:tx_state_1\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_state_0\ : LABEL IS "macrocell12";
-    ATTRIBUTE Location OF \UART_1:BUART:tx_state_0\ : LABEL IS "U(1,1)";
+    ATTRIBUTE Location OF \UART_1:BUART:tx_state_0\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_state_2\ : LABEL IS "macrocell13";
-    ATTRIBUTE Location OF \UART_1:BUART:tx_state_2\ : LABEL IS "U(1,1)";
+    ATTRIBUTE Location OF \UART_1:BUART:tx_state_2\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_bitclk\ : LABEL IS "macrocell14";
-    ATTRIBUTE Location OF \UART_1:BUART:tx_bitclk\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_1:BUART:tx_bitclk\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell15";
-    ATTRIBUTE Location OF \UART_1:BUART:tx_ctrl_mark_last\ : LABEL IS "U(0,2)";
+    ATTRIBUTE Location OF \UART_1:BUART:tx_ctrl_mark_last\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_state_0\ : LABEL IS "macrocell16";
     ATTRIBUTE Location OF \UART_1:BUART:rx_state_0\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_load_fifo\ : LABEL IS "macrocell17";
-    ATTRIBUTE Location OF \UART_1:BUART:rx_load_fifo\ : LABEL IS "U(0,1)";
+    ATTRIBUTE Location OF \UART_1:BUART:rx_load_fifo\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_state_3\ : LABEL IS "macrocell18";
-    ATTRIBUTE Location OF \UART_1:BUART:rx_state_3\ : LABEL IS "U(0,1)";
+    ATTRIBUTE Location OF \UART_1:BUART:rx_state_3\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_state_2\ : LABEL IS "macrocell19";
     ATTRIBUTE Location OF \UART_1:BUART:rx_state_2\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_bitclk_enable\ : LABEL IS "macrocell20";
-    ATTRIBUTE Location OF \UART_1:BUART:rx_bitclk_enable\ : LABEL IS "U(0,0)";
+    ATTRIBUTE Location OF \UART_1:BUART:rx_bitclk_enable\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell21";
-    ATTRIBUTE Location OF \UART_1:BUART:rx_state_stop1_reg\ : LABEL IS "U(0,2)";
+    ATTRIBUTE Location OF \UART_1:BUART:rx_state_stop1_reg\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:pollcount_1\ : LABEL IS "macrocell22";
     ATTRIBUTE Location OF \UART_1:BUART:pollcount_1\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \UART_1:BUART:pollcount_0\ : LABEL IS "macrocell23";
     ATTRIBUTE Location OF \UART_1:BUART:pollcount_0\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_status_3\ : LABEL IS "macrocell24";
-    ATTRIBUTE Location OF \UART_1:BUART:rx_status_3\ : LABEL IS "U(0,2)";
+    ATTRIBUTE Location OF \UART_1:BUART:rx_status_3\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_last\ : LABEL IS "macrocell25";
     ATTRIBUTE Location OF \UART_1:BUART:rx_last\ : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF Net_180 : LABEL IS "macrocell26";
-    ATTRIBUTE Location OF Net_180 : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \Debouncer_1:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell27";
+    ATTRIBUTE lib_model OF Net_252 : LABEL IS "macrocell26";
+    ATTRIBUTE Location OF Net_252 : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \Debouncer_4:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell27";
+    ATTRIBUTE Location OF \Debouncer_4:DEBOUNCER[0]:d_sync_0\ : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \Debouncer_4:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell28";
+    ATTRIBUTE Location OF \Debouncer_4:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF Net_240 : LABEL IS "macrocell29";
+    ATTRIBUTE Location OF Net_240 : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF Net_244 : LABEL IS "macrocell30";
+    ATTRIBUTE Location OF Net_244 : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF Net_245 : LABEL IS "macrocell31";
+    ATTRIBUTE Location OF Net_245 : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF Net_239 : LABEL IS "macrocell32";
+    ATTRIBUTE Location OF Net_239 : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \Debouncer_3:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell33";
+    ATTRIBUTE Location OF \Debouncer_3:DEBOUNCER[0]:d_sync_0\ : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF \Debouncer_3:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell34";
+    ATTRIBUTE Location OF \Debouncer_3:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF \Debouncer_2:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell35";
+    ATTRIBUTE Location OF \Debouncer_2:DEBOUNCER[0]:d_sync_0\ : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF \Debouncer_2:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell36";
+    ATTRIBUTE Location OF \Debouncer_2:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF Net_234 : LABEL IS "macrocell37";
+    ATTRIBUTE Location OF Net_234 : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \Debouncer_1:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell38";
     ATTRIBUTE Location OF \Debouncer_1:DEBOUNCER[0]:d_sync_0\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \Debouncer_1:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell28";
-    ATTRIBUTE Location OF \Debouncer_1:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF Net_181 : LABEL IS "macrocell29";
-    ATTRIBUTE Location OF Net_181 : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \Debouncer_2:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell30";
-    ATTRIBUTE Location OF \Debouncer_2:DEBOUNCER[0]:d_sync_0\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \Debouncer_2:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell31";
-    ATTRIBUTE Location OF \Debouncer_2:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF Net_167 : LABEL IS "macrocell32";
-    ATTRIBUTE Location OF Net_167 : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF Net_189 : LABEL IS "macrocell33";
-    ATTRIBUTE Location OF Net_189 : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \Debouncer_3:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell34";
-    ATTRIBUTE Location OF \Debouncer_3:DEBOUNCER[0]:d_sync_0\ : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF \Debouncer_3:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell35";
-    ATTRIBUTE Location OF \Debouncer_3:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(1,2)";
-    ATTRIBUTE lib_model OF Net_173 : LABEL IS "macrocell36";
-    ATTRIBUTE Location OF Net_173 : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF Net_171 : LABEL IS "macrocell37";
-    ATTRIBUTE Location OF Net_171 : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF \Debouncer_4:DEBOUNCER[0]:d_sync_0\ : LABEL IS "macrocell38";
-    ATTRIBUTE Location OF \Debouncer_4:DEBOUNCER[0]:d_sync_0\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \Debouncer_4:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell39";
-    ATTRIBUTE Location OF \Debouncer_4:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF Net_205 : LABEL IS "macrocell40";
-    ATTRIBUTE Location OF Net_205 : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF \Debouncer_1:DEBOUNCER[0]:d_sync_1\ : LABEL IS "macrocell39";
+    ATTRIBUTE Location OF \Debouncer_1:DEBOUNCER[0]:d_sync_1\ : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF Net_232 : LABEL IS "macrocell40";
+    ATTRIBUTE Location OF Net_232 : LABEL IS "U(1,4)";
     COMPONENT abufcell
     END COMPONENT;
     COMPONENT clockblockcell
@@ -653,10 +645,10 @@ BEGIN
             clk_bus => ClockBlock_BUS_CLK_local,
             dsi_clkin_div => open,
             dsi_glb_div => open,
-            dclk_glb_0 => Net_10,
-            dclk_0 => Net_10_local,
-            dclk_glb_1 => \UART_1:Net_9\,
-            dclk_1 => \UART_1:Net_9_local\,
+            dclk_glb_0 => \UART_1:Net_9\,
+            dclk_0 => \UART_1:Net_9_local\,
+            dclk_glb_1 => Net_10,
+            dclk_1 => Net_10_local,
             dclk_glb_2 => Net_163,
             dclk_2 => Net_163_local,
             dclk_glb_3 => Net_128,
@@ -1296,11 +1288,11 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    but1:logicalport
+    analogBut:logicalport
         GENERIC MAP(
             drive_mode => "011",
             ibuf_enabled => "1",
-            id => "f11e6622-ea81-4356-8387-a1ac1de30e21",
+            id => "eb653043-62e0-4ac3-a358-4e2ede74f3cb",
             init_dr_st => "0",
             input_buffer_sel => "00",
             input_clk_en => 0,
@@ -1367,200 +1359,19 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    but1(0):iocell
+    analogBut(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "but1",
+            logicalport => "analogBut",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => but1(0)__PA,
+            pa_out => analogBut(0)__PA,
             oe => open,
-            fb => Net_145,
-            pad_in => but1(0)_PAD,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
-    analogX:logicalport
-        GENERIC MAP(
-            drive_mode => "000",
-            ibuf_enabled => "0",
-            id => "77715107-f8d5-47e5-a629-0fb83101ac6b",
-            init_dr_st => "0",
-            input_buffer_sel => "00",
-            input_clk_en => 0,
-            input_sync => "1",
-            input_sync_mode => "0",
-            intr_mode => "00",
-            invert_in_clock => 0,
-            invert_in_clock_en => 0,
-            invert_in_reset => 0,
-            invert_out_clock => 0,
-            invert_out_clock_en => 0,
-            invert_out_reset => 0,
-            io_voltage => "",
-            layout_mode => "CONTIGUOUS",
-            oe_conn => "0",
-            oe_reset => 0,
-            oe_sync => "0",
-            output_clk_en => 0,
-            output_clock_mode => "0",
-            output_conn => "0",
-            output_mode => "0",
-            output_reset => 0,
-            output_sync => "0",
-            ovt_hyst_trim => "0",
-            ovt_needed => "0",
-            ovt_slew_control => "00",
-            pa_in_clock => -1,
-            pa_in_clock_en => -1,
-            pa_in_reset => -1,
-            pa_out_clock => -1,
-            pa_out_clock_en => -1,
-            pa_out_reset => -1,
-            pin_aliases => "",
-            pin_mode => "A",
-            por_state => 4,
-            port_alias_group => "",
-            port_alias_required => 0,
-            sio_group_cnt => 0,
-            sio_hifreq => "00000000",
-            sio_hyst => "1",
-            sio_ibuf => "00000000",
-            sio_info => "00",
-            sio_obuf => "00000000",
-            sio_refsel => "00000000",
-            sio_vohsel => "00000000",
-            sio_vtrip => "00000000",
-            slew_rate => "0",
-            spanning => 0,
-            sw_only => 0,
-            use_annotation => "0",
-            vtrip => "10",
-            width => 1,
-            in_clk_inv => 0,
-            in_clken_inv => 0,
-            in_clken_mode => 1,
-            in_rst_inv => 0,
-            out_clk_inv => 0,
-            out_clken_inv => 0,
-            out_clken_mode => 1,
-            out_rst_inv => 0)
-        PORT MAP(
-            in_clock_en => open,
-            in_reset => open,
-            out_clock_en => open,
-            out_reset => open);
-
-    analogX(0):iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "analogX",
-            logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000010")
-        PORT MAP(
-            pa_out => analogX(0)__PA,
-            oe => open,
-            pad_in => analogX(0)_PAD,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
-    but2:logicalport
-        GENERIC MAP(
-            drive_mode => "011",
-            ibuf_enabled => "1",
-            id => "14709a95-81ac-40dd-bae5-219b5fe98877",
-            init_dr_st => "0",
-            input_buffer_sel => "00",
-            input_clk_en => 0,
-            input_sync => "0",
-            input_sync_mode => "0",
-            intr_mode => "00",
-            invert_in_clock => 0,
-            invert_in_clock_en => 0,
-            invert_in_reset => 0,
-            invert_out_clock => 0,
-            invert_out_clock_en => 0,
-            invert_out_reset => 0,
-            io_voltage => "",
-            layout_mode => "CONTIGUOUS",
-            oe_conn => "0",
-            oe_reset => 0,
-            oe_sync => "0",
-            output_clk_en => 0,
-            output_clock_mode => "0",
-            output_conn => "0",
-            output_mode => "0",
-            output_reset => 0,
-            output_sync => "0",
-            ovt_hyst_trim => "0",
-            ovt_needed => "0",
-            ovt_slew_control => "00",
-            pa_in_clock => -1,
-            pa_in_clock_en => -1,
-            pa_in_reset => -1,
-            pa_out_clock => -1,
-            pa_out_clock_en => -1,
-            pa_out_reset => -1,
-            pin_aliases => "",
-            pin_mode => "I",
-            por_state => 4,
-            port_alias_group => "",
-            port_alias_required => 0,
-            sio_group_cnt => 0,
-            sio_hifreq => "00000000",
-            sio_hyst => "1",
-            sio_ibuf => "00000000",
-            sio_info => "00",
-            sio_obuf => "00000000",
-            sio_refsel => "00000000",
-            sio_vohsel => "00000000",
-            sio_vtrip => "00000000",
-            slew_rate => "0",
-            spanning => 0,
-            sw_only => 0,
-            use_annotation => "0",
-            vtrip => "00",
-            width => 1,
-            in_clk_inv => 0,
-            in_clken_inv => 0,
-            in_clken_mode => 1,
-            in_rst_inv => 0,
-            out_clk_inv => 0,
-            out_clken_inv => 0,
-            out_clken_mode => 1,
-            out_rst_inv => 0)
-        PORT MAP(
-            in_clock_en => open,
-            in_reset => open,
-            out_clock_en => open,
-            out_reset => open);
-
-    but2(0):iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "but2",
-            logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
-        PORT MAP(
-            pa_out => but2(0)__PA,
-            oe => open,
-            fb => Net_196,
-            pad_in => but2(0)_PAD,
+            fb => Net_249,
+            pad_in => analogBut(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -1650,7 +1461,7 @@ BEGIN
         PORT MAP(
             pa_out => but3(0)__PA,
             oe => open,
-            fb => Net_168,
+            fb => Net_242,
             pad_in => but3(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
@@ -1659,101 +1470,11 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    analogY:logicalport
+    but2:logicalport
         GENERIC MAP(
-            drive_mode => "000",
-            ibuf_enabled => "0",
-            id => "f2122544-ea7f-45fe-8e70-f7b25cb4b039",
-            init_dr_st => "0",
-            input_buffer_sel => "00",
-            input_clk_en => 0,
-            input_sync => "1",
-            input_sync_mode => "0",
-            intr_mode => "00",
-            invert_in_clock => 0,
-            invert_in_clock_en => 0,
-            invert_in_reset => 0,
-            invert_out_clock => 0,
-            invert_out_clock_en => 0,
-            invert_out_reset => 0,
-            io_voltage => "",
-            layout_mode => "CONTIGUOUS",
-            oe_conn => "0",
-            oe_reset => 0,
-            oe_sync => "0",
-            output_clk_en => 0,
-            output_clock_mode => "0",
-            output_conn => "0",
-            output_mode => "0",
-            output_reset => 0,
-            output_sync => "0",
-            ovt_hyst_trim => "0",
-            ovt_needed => "0",
-            ovt_slew_control => "00",
-            pa_in_clock => -1,
-            pa_in_clock_en => -1,
-            pa_in_reset => -1,
-            pa_out_clock => -1,
-            pa_out_clock_en => -1,
-            pa_out_reset => -1,
-            pin_aliases => "",
-            pin_mode => "A",
-            por_state => 4,
-            port_alias_group => "",
-            port_alias_required => 0,
-            sio_group_cnt => 0,
-            sio_hifreq => "00000000",
-            sio_hyst => "1",
-            sio_ibuf => "00000000",
-            sio_info => "00",
-            sio_obuf => "00000000",
-            sio_refsel => "00000000",
-            sio_vohsel => "00000000",
-            sio_vtrip => "00000000",
-            slew_rate => "0",
-            spanning => 0,
-            sw_only => 0,
-            use_annotation => "0",
-            vtrip => "10",
-            width => 1,
-            in_clk_inv => 0,
-            in_clken_inv => 0,
-            in_clken_mode => 1,
-            in_rst_inv => 0,
-            out_clk_inv => 0,
-            out_clken_inv => 0,
-            out_clken_mode => 1,
-            out_rst_inv => 0)
-        PORT MAP(
-            in_clock_en => open,
-            in_reset => open,
-            out_clock_en => open,
-            out_reset => open);
-
-    analogY(0):iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "analogY",
-            logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000010")
-        PORT MAP(
-            pa_out => analogY(0)__PA,
-            oe => open,
-            pad_in => analogY(0)_PAD,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
-    analogPress:logicalport
-        GENERIC MAP(
-            drive_mode => "001",
+            drive_mode => "011",
             ibuf_enabled => "1",
-            id => "eb653043-62e0-4ac3-a358-4e2ede74f3cb",
+            id => "14709a95-81ac-40dd-bae5-219b5fe98877",
             init_dr_st => "0",
             input_buffer_sel => "00",
             input_clk_en => 0,
@@ -1820,19 +1541,110 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    analogPress(0):iocell
+    but2(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "analogPress",
+            logicalport => "but2",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => analogPress(0)__PA,
+            pa_out => but2(0)__PA,
             oe => open,
-            fb => Net_200,
-            pad_in => analogPress(0)_PAD,
+            fb => Net_237,
+            pad_in => but2(0)_PAD,
+            in_clock => open,
+            in_clock_en => '1',
+            in_reset => '0',
+            out_clock => open,
+            out_clock_en => '1',
+            out_reset => '0');
+
+    but1:logicalport
+        GENERIC MAP(
+            drive_mode => "011",
+            ibuf_enabled => "1",
+            id => "f11e6622-ea81-4356-8387-a1ac1de30e21",
+            init_dr_st => "0",
+            input_buffer_sel => "00",
+            input_clk_en => 0,
+            input_sync => "0",
+            input_sync_mode => "0",
+            intr_mode => "00",
+            invert_in_clock => 0,
+            invert_in_clock_en => 0,
+            invert_in_reset => 0,
+            invert_out_clock => 0,
+            invert_out_clock_en => 0,
+            invert_out_reset => 0,
+            io_voltage => "",
+            layout_mode => "CONTIGUOUS",
+            oe_conn => "0",
+            oe_reset => 0,
+            oe_sync => "0",
+            output_clk_en => 0,
+            output_clock_mode => "0",
+            output_conn => "0",
+            output_mode => "0",
+            output_reset => 0,
+            output_sync => "0",
+            ovt_hyst_trim => "0",
+            ovt_needed => "0",
+            ovt_slew_control => "00",
+            pa_in_clock => -1,
+            pa_in_clock_en => -1,
+            pa_in_reset => -1,
+            pa_out_clock => -1,
+            pa_out_clock_en => -1,
+            pa_out_reset => -1,
+            pin_aliases => "",
+            pin_mode => "I",
+            por_state => 4,
+            port_alias_group => "",
+            port_alias_required => 0,
+            sio_group_cnt => 0,
+            sio_hifreq => "00000000",
+            sio_hyst => "1",
+            sio_ibuf => "00000000",
+            sio_info => "00",
+            sio_obuf => "00000000",
+            sio_refsel => "00000000",
+            sio_vohsel => "00000000",
+            sio_vtrip => "00000000",
+            slew_rate => "0",
+            spanning => 0,
+            sw_only => 0,
+            use_annotation => "0",
+            vtrip => "00",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0)
+        PORT MAP(
+            in_clock_en => open,
+            in_reset => open,
+            out_clock_en => open,
+            out_reset => open);
+
+    but1(0):iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "but1",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
+        PORT MAP(
+            pa_out => but1(0)__PA,
+            oe => open,
+            fb => Net_145,
+            pad_in => but1(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -2161,20 +1973,12 @@ BEGIN
             cmp => \Timer_Mode:Net_261\,
             irq => Net_133);
 
-    but1_isr_pos:interrupt
+    analogBut_isr:interrupt
         GENERIC MAP(
             int_type => "00",
             is_nmi => 0)
         PORT MAP(
-            interrupt => Net_180,
-            clock => ClockBlock_BUS_CLK);
-
-    but1_isr_neg:interrupt
-        GENERIC MAP(
-            int_type => "00",
-            is_nmi => 0)
-        PORT MAP(
-            interrupt => Net_181,
+            interrupt => Net_252,
             clock => ClockBlock_BUS_CLK);
 
     but2_isr_pos:interrupt
@@ -2182,23 +1986,7 @@ BEGIN
             int_type => "00",
             is_nmi => 0)
         PORT MAP(
-            interrupt => Net_167,
-            clock => ClockBlock_BUS_CLK);
-
-    but2_isr_neg:interrupt
-        GENERIC MAP(
-            int_type => "00",
-            is_nmi => 0)
-        PORT MAP(
-            interrupt => Net_189,
-            clock => ClockBlock_BUS_CLK);
-
-    but3_isr_pos:interrupt
-        GENERIC MAP(
-            int_type => "00",
-            is_nmi => 0)
-        PORT MAP(
-            interrupt => Net_173,
+            interrupt => Net_240,
             clock => ClockBlock_BUS_CLK);
 
     but3_isr_neg:interrupt
@@ -2206,15 +1994,39 @@ BEGIN
             int_type => "00",
             is_nmi => 0)
         PORT MAP(
-            interrupt => Net_171,
+            interrupt => Net_244,
             clock => ClockBlock_BUS_CLK);
 
-    isr_1:interrupt
+    but3_isr_pos:interrupt
         GENERIC MAP(
             int_type => "00",
             is_nmi => 0)
         PORT MAP(
-            interrupt => Net_205,
+            interrupt => Net_245,
+            clock => ClockBlock_BUS_CLK);
+
+    but2_isr_neg:interrupt
+        GENERIC MAP(
+            int_type => "00",
+            is_nmi => 0)
+        PORT MAP(
+            interrupt => Net_239,
+            clock => ClockBlock_BUS_CLK);
+
+    but1_isr_neg:interrupt
+        GENERIC MAP(
+            int_type => "00",
+            is_nmi => 0)
+        PORT MAP(
+            interrupt => Net_234,
+            clock => ClockBlock_BUS_CLK);
+
+    but1_isr_pos:interrupt
+        GENERIC MAP(
+            int_type => "00",
+            is_nmi => 0)
+        PORT MAP(
+            interrupt => Net_232,
             clock => ClockBlock_BUS_CLK);
 
     \UART_1:BUART:txn\:macrocell
@@ -2468,14 +2280,140 @@ BEGIN
             clock_0 => \UART_1:Net_9\,
             main_0 => Net_33);
 
-    Net_180:macrocell
+    Net_252:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1)",
             regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
-            q => Net_180,
+            q => Net_252,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_4:DEBOUNCER[0]:d_sync_0\,
+            main_1 => \Debouncer_4:DEBOUNCER[0]:d_sync_1\);
+
+    \Debouncer_4:DEBOUNCER[0]:d_sync_0\:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => \Debouncer_4:DEBOUNCER[0]:d_sync_0\,
+            clock_0 => Net_163,
+            main_0 => Net_249);
+
+    \Debouncer_4:DEBOUNCER[0]:d_sync_1\:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => \Debouncer_4:DEBOUNCER[0]:d_sync_1\,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_4:DEBOUNCER[0]:d_sync_0\);
+
+    Net_240:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0 * !main_1)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => Net_240,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_2:DEBOUNCER[0]:d_sync_0\,
+            main_1 => \Debouncer_2:DEBOUNCER[0]:d_sync_1\);
+
+    Net_244:macrocell
+        GENERIC MAP(
+            eqn_main => "(!main_0 * main_1)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => Net_244,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_3:DEBOUNCER[0]:d_sync_0\,
+            main_1 => \Debouncer_3:DEBOUNCER[0]:d_sync_1\);
+
+    Net_245:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0 * !main_1)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => Net_245,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_3:DEBOUNCER[0]:d_sync_0\,
+            main_1 => \Debouncer_3:DEBOUNCER[0]:d_sync_1\);
+
+    Net_239:macrocell
+        GENERIC MAP(
+            eqn_main => "(!main_0 * main_1)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => Net_239,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_2:DEBOUNCER[0]:d_sync_0\,
+            main_1 => \Debouncer_2:DEBOUNCER[0]:d_sync_1\);
+
+    \Debouncer_3:DEBOUNCER[0]:d_sync_0\:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => \Debouncer_3:DEBOUNCER[0]:d_sync_0\,
+            clock_0 => Net_163,
+            main_0 => Net_242);
+
+    \Debouncer_3:DEBOUNCER[0]:d_sync_1\:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => \Debouncer_3:DEBOUNCER[0]:d_sync_1\,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_3:DEBOUNCER[0]:d_sync_0\);
+
+    \Debouncer_2:DEBOUNCER[0]:d_sync_0\:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => \Debouncer_2:DEBOUNCER[0]:d_sync_0\,
+            clock_0 => Net_163,
+            main_0 => Net_237);
+
+    \Debouncer_2:DEBOUNCER[0]:d_sync_1\:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => \Debouncer_2:DEBOUNCER[0]:d_sync_1\,
+            clock_0 => Net_163,
+            main_0 => \Debouncer_2:DEBOUNCER[0]:d_sync_0\);
+
+    Net_234:macrocell
+        GENERIC MAP(
+            eqn_main => "(!main_0 * main_1)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => Net_234,
             clock_0 => Net_163,
             main_0 => \Debouncer_1:DEBOUNCER[0]:d_sync_0\,
             main_1 => \Debouncer_1:DEBOUNCER[0]:d_sync_1\);
@@ -2502,142 +2440,16 @@ BEGIN
             clock_0 => Net_163,
             main_0 => \Debouncer_1:DEBOUNCER[0]:d_sync_0\);
 
-    Net_181:macrocell
+    Net_232:macrocell
         GENERIC MAP(
-            eqn_main => "(!main_0 * main_1)",
+            eqn_main => "(main_0 * !main_1)",
             regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
-            q => Net_181,
+            q => Net_232,
             clock_0 => Net_163,
             main_0 => \Debouncer_1:DEBOUNCER[0]:d_sync_0\,
             main_1 => \Debouncer_1:DEBOUNCER[0]:d_sync_1\);
-
-    \Debouncer_2:DEBOUNCER[0]:d_sync_0\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \Debouncer_2:DEBOUNCER[0]:d_sync_0\,
-            clock_0 => Net_163,
-            main_0 => Net_196);
-
-    \Debouncer_2:DEBOUNCER[0]:d_sync_1\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \Debouncer_2:DEBOUNCER[0]:d_sync_1\,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_2:DEBOUNCER[0]:d_sync_0\);
-
-    Net_167:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0 * !main_1)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => Net_167,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_2:DEBOUNCER[0]:d_sync_0\,
-            main_1 => \Debouncer_2:DEBOUNCER[0]:d_sync_1\);
-
-    Net_189:macrocell
-        GENERIC MAP(
-            eqn_main => "(!main_0 * main_1)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => Net_189,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_2:DEBOUNCER[0]:d_sync_0\,
-            main_1 => \Debouncer_2:DEBOUNCER[0]:d_sync_1\);
-
-    \Debouncer_3:DEBOUNCER[0]:d_sync_0\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \Debouncer_3:DEBOUNCER[0]:d_sync_0\,
-            clock_0 => Net_163,
-            main_0 => Net_168);
-
-    \Debouncer_3:DEBOUNCER[0]:d_sync_1\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \Debouncer_3:DEBOUNCER[0]:d_sync_1\,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_3:DEBOUNCER[0]:d_sync_0\);
-
-    Net_173:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0 * !main_1)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => Net_173,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_3:DEBOUNCER[0]:d_sync_0\,
-            main_1 => \Debouncer_3:DEBOUNCER[0]:d_sync_1\);
-
-    Net_171:macrocell
-        GENERIC MAP(
-            eqn_main => "(!main_0 * main_1)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => Net_171,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_3:DEBOUNCER[0]:d_sync_0\,
-            main_1 => \Debouncer_3:DEBOUNCER[0]:d_sync_1\);
-
-    \Debouncer_4:DEBOUNCER[0]:d_sync_0\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \Debouncer_4:DEBOUNCER[0]:d_sync_0\,
-            clock_0 => Net_163,
-            main_0 => Net_200);
-
-    \Debouncer_4:DEBOUNCER[0]:d_sync_1\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \Debouncer_4:DEBOUNCER[0]:d_sync_1\,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_4:DEBOUNCER[0]:d_sync_0\);
-
-    Net_205:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0 * !main_1)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => Net_205,
-            clock_0 => Net_163,
-            main_0 => \Debouncer_4:DEBOUNCER[0]:d_sync_0\,
-            main_1 => \Debouncer_4:DEBOUNCER[0]:d_sync_1\);
 
 END __DEFAULT__;
