@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 1
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 1
 
 
    1              		.syntax unified
@@ -19,2367 +19,3050 @@ ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.global	notes
-  20              		.section	.rodata
-  21              		.align	2
-  22              		.type	notes, %object
-  23              		.size	notes, 324
-  24              	notes:
-  25 0000 433020   		.ascii	"C0 "
-  26 0003 432330   		.ascii	"C#0"
-  27 0006 443020   		.ascii	"D0 "
-  28 0009 442330   		.ascii	"D#0"
-  29 000c 453020   		.ascii	"E0 "
-  30 000f 463020   		.ascii	"F0 "
-  31 0012 462330   		.ascii	"F#0"
-  32 0015 473020   		.ascii	"G0 "
-  33 0018 472330   		.ascii	"G#0"
-  34 001b 413020   		.ascii	"A0 "
-  35 001e 412330   		.ascii	"A#0"
-  36 0021 423020   		.ascii	"B0 "
-  37 0024 433120   		.ascii	"C1 "
-  38 0027 432331   		.ascii	"C#1"
-  39 002a 443120   		.ascii	"D1 "
-  40 002d 442331   		.ascii	"D#1"
-  41 0030 453120   		.ascii	"E1 "
-  42 0033 463120   		.ascii	"F1 "
-  43 0036 462331   		.ascii	"F#1"
-  44 0039 473120   		.ascii	"G1 "
-  45 003c 472331   		.ascii	"G#1"
-  46 003f 413120   		.ascii	"A1 "
-  47 0042 412331   		.ascii	"A#1"
-  48 0045 423120   		.ascii	"B1 "
-  49 0048 433220   		.ascii	"C2 "
-  50 004b 432332   		.ascii	"C#2"
-  51 004e 443220   		.ascii	"D2 "
-  52 0051 442332   		.ascii	"D#2"
-  53 0054 453220   		.ascii	"E2 "
-  54 0057 463220   		.ascii	"F2 "
-  55 005a 462332   		.ascii	"F#2"
-  56 005d 473220   		.ascii	"G2 "
-  57 0060 472332   		.ascii	"G#2"
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 2
+  19              		.global	button1
+  20              		.bss
+  21              		.type	button1, %object
+  22              		.size	button1, 1
+  23              	button1:
+  24 0000 00       		.space	1
+  25              		.global	button2
+  26              		.type	button2, %object
+  27              		.size	button2, 1
+  28              	button2:
+  29 0001 00       		.space	1
+  30              		.global	button3
+  31              		.type	button3, %object
+  32              		.size	button3, 1
+  33              	button3:
+  34 0002 00       		.space	1
+  35              		.global	squarewave
+  36              		.data
+  37              		.align	2
+  38              		.type	squarewave, %object
+  39              		.size	squarewave, 4
+  40              	squarewave:
+  41 0000 01       		.byte	1
+  42 0001 00       		.byte	0
+  43 0002 01       		.byte	1
+  44 0003 00       		.byte	0
+  45              		.global	notes
+  46              		.section	.rodata
+  47              		.align	2
+  48              		.type	notes, %object
+  49              		.size	notes, 324
+  50              	notes:
+  51 0000 433020   		.ascii	"C0 "
+  52 0003 432330   		.ascii	"C#0"
+  53 0006 443020   		.ascii	"D0 "
+  54 0009 442330   		.ascii	"D#0"
+  55 000c 453020   		.ascii	"E0 "
+  56 000f 463020   		.ascii	"F0 "
+  57 0012 462330   		.ascii	"F#0"
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 2
 
 
-  58 0063 413220   		.ascii	"A2 "
-  59 0066 412332   		.ascii	"A#2"
-  60 0069 423220   		.ascii	"B2 "
-  61 006c 433320   		.ascii	"C3 "
-  62 006f 432333   		.ascii	"C#3"
-  63 0072 443320   		.ascii	"D3 "
-  64 0075 442333   		.ascii	"D#3"
-  65 0078 453320   		.ascii	"E3 "
-  66 007b 463320   		.ascii	"F3 "
-  67 007e 462333   		.ascii	"F#3"
-  68 0081 473320   		.ascii	"G3 "
-  69 0084 472333   		.ascii	"G#3"
-  70 0087 413320   		.ascii	"A3 "
-  71 008a 412333   		.ascii	"A#3"
-  72 008d 423320   		.ascii	"B3 "
-  73 0090 433420   		.ascii	"C4 "
-  74 0093 432334   		.ascii	"C#4"
-  75 0096 443420   		.ascii	"D4 "
-  76 0099 442334   		.ascii	"D#4"
-  77 009c 453420   		.ascii	"E4 "
-  78 009f 463420   		.ascii	"F4 "
-  79 00a2 462334   		.ascii	"F#4"
-  80 00a5 473420   		.ascii	"G4 "
-  81 00a8 472334   		.ascii	"G#4"
-  82 00ab 413420   		.ascii	"A4 "
-  83 00ae 412334   		.ascii	"A#4"
-  84 00b1 423420   		.ascii	"B4 "
-  85 00b4 433520   		.ascii	"C5 "
-  86 00b7 432335   		.ascii	"C#5"
-  87 00ba 443520   		.ascii	"D5 "
-  88 00bd 442335   		.ascii	"D#5"
-  89 00c0 453520   		.ascii	"E5 "
-  90 00c3 463520   		.ascii	"F5 "
-  91 00c6 462335   		.ascii	"F#5"
-  92 00c9 473520   		.ascii	"G5 "
-  93 00cc 472335   		.ascii	"G#5"
-  94 00cf 413520   		.ascii	"A5 "
-  95 00d2 412335   		.ascii	"A#5"
-  96 00d5 423520   		.ascii	"B5 "
-  97 00d8 433620   		.ascii	"C6 "
-  98 00db 432336   		.ascii	"C#6"
-  99 00de 443620   		.ascii	"D6 "
- 100 00e1 442336   		.ascii	"D#6"
- 101 00e4 453620   		.ascii	"E6 "
- 102 00e7 463620   		.ascii	"F6 "
- 103 00ea 462336   		.ascii	"F#6"
- 104 00ed 473620   		.ascii	"G6 "
- 105 00f0 472336   		.ascii	"G#6"
- 106 00f3 413620   		.ascii	"A6 "
- 107 00f6 412336   		.ascii	"A#6"
- 108 00f9 423620   		.ascii	"B6 "
- 109 00fc 433720   		.ascii	"C7 "
- 110 00ff 432337   		.ascii	"C#7"
- 111 0102 443720   		.ascii	"D7 "
- 112 0105 442337   		.ascii	"D#7"
- 113 0108 453720   		.ascii	"E7 "
- 114 010b 463720   		.ascii	"F7 "
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 3
+  58 0015 473020   		.ascii	"G0 "
+  59 0018 472330   		.ascii	"G#0"
+  60 001b 413020   		.ascii	"A0 "
+  61 001e 412330   		.ascii	"A#0"
+  62 0021 423020   		.ascii	"B0 "
+  63 0024 433120   		.ascii	"C1 "
+  64 0027 432331   		.ascii	"C#1"
+  65 002a 443120   		.ascii	"D1 "
+  66 002d 442331   		.ascii	"D#1"
+  67 0030 453120   		.ascii	"E1 "
+  68 0033 463120   		.ascii	"F1 "
+  69 0036 462331   		.ascii	"F#1"
+  70 0039 473120   		.ascii	"G1 "
+  71 003c 472331   		.ascii	"G#1"
+  72 003f 413120   		.ascii	"A1 "
+  73 0042 412331   		.ascii	"A#1"
+  74 0045 423120   		.ascii	"B1 "
+  75 0048 433220   		.ascii	"C2 "
+  76 004b 432332   		.ascii	"C#2"
+  77 004e 443220   		.ascii	"D2 "
+  78 0051 442332   		.ascii	"D#2"
+  79 0054 453220   		.ascii	"E2 "
+  80 0057 463220   		.ascii	"F2 "
+  81 005a 462332   		.ascii	"F#2"
+  82 005d 473220   		.ascii	"G2 "
+  83 0060 472332   		.ascii	"G#2"
+  84 0063 413220   		.ascii	"A2 "
+  85 0066 412332   		.ascii	"A#2"
+  86 0069 423220   		.ascii	"B2 "
+  87 006c 433320   		.ascii	"C3 "
+  88 006f 432333   		.ascii	"C#3"
+  89 0072 443320   		.ascii	"D3 "
+  90 0075 442333   		.ascii	"D#3"
+  91 0078 453320   		.ascii	"E3 "
+  92 007b 463320   		.ascii	"F3 "
+  93 007e 462333   		.ascii	"F#3"
+  94 0081 473320   		.ascii	"G3 "
+  95 0084 472333   		.ascii	"G#3"
+  96 0087 413320   		.ascii	"A3 "
+  97 008a 412333   		.ascii	"A#3"
+  98 008d 423320   		.ascii	"B3 "
+  99 0090 433420   		.ascii	"C4 "
+ 100 0093 432334   		.ascii	"C#4"
+ 101 0096 443420   		.ascii	"D4 "
+ 102 0099 442334   		.ascii	"D#4"
+ 103 009c 453420   		.ascii	"E4 "
+ 104 009f 463420   		.ascii	"F4 "
+ 105 00a2 462334   		.ascii	"F#4"
+ 106 00a5 473420   		.ascii	"G4 "
+ 107 00a8 472334   		.ascii	"G#4"
+ 108 00ab 413420   		.ascii	"A4 "
+ 109 00ae 412334   		.ascii	"A#4"
+ 110 00b1 423420   		.ascii	"B4 "
+ 111 00b4 433520   		.ascii	"C5 "
+ 112 00b7 432335   		.ascii	"C#5"
+ 113 00ba 443520   		.ascii	"D5 "
+ 114 00bd 442335   		.ascii	"D#5"
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 3
 
 
- 115 010e 462337   		.ascii	"F#7"
- 116 0111 473720   		.ascii	"G7 "
- 117 0114 472337   		.ascii	"G#7"
- 118 0117 413720   		.ascii	"A7 "
- 119 011a 412337   		.ascii	"A#7"
- 120 011d 423720   		.ascii	"B7 "
- 121 0120 433820   		.ascii	"C8 "
- 122 0123 432338   		.ascii	"C#8"
- 123 0126 443820   		.ascii	"D8 "
- 124 0129 442338   		.ascii	"D#8"
- 125 012c 453820   		.ascii	"E8 "
- 126 012f 463820   		.ascii	"F8 "
- 127 0132 462338   		.ascii	"F#8"
- 128 0135 473820   		.ascii	"G8 "
- 129 0138 472338   		.ascii	"G#8"
- 130 013b 413820   		.ascii	"A8 "
- 131 013e 412338   		.ascii	"A#8"
- 132 0141 423820   		.ascii	"B8 "
- 133              		.global	intFrequency
- 134              		.align	2
- 135              		.type	intFrequency, %object
- 136              		.size	intFrequency, 216
- 137              	intFrequency:
- 138 0144 1000     		.short	16
- 139 0146 1100     		.short	17
- 140 0148 1200     		.short	18
- 141 014a 1300     		.short	19
- 142 014c 1500     		.short	21
- 143 014e 1600     		.short	22
- 144 0150 1700     		.short	23
- 145 0152 1900     		.short	25
- 146 0154 1A00     		.short	26
- 147 0156 1C00     		.short	28
- 148 0158 1D00     		.short	29
- 149 015a 1F00     		.short	31
- 150 015c 2100     		.short	33
- 151 015e 2300     		.short	35
- 152 0160 2500     		.short	37
- 153 0162 2700     		.short	39
- 154 0164 2900     		.short	41
- 155 0166 2C00     		.short	44
- 156 0168 2E00     		.short	46
- 157 016a 3100     		.short	49
- 158 016c 3400     		.short	52
- 159 016e 3700     		.short	55
- 160 0170 3A00     		.short	58
- 161 0172 3E00     		.short	62
- 162 0174 4100     		.short	65
- 163 0176 4500     		.short	69
- 164 0178 4900     		.short	73
- 165 017a 4E00     		.short	78
- 166 017c 5200     		.short	82
- 167 017e 5700     		.short	87
- 168 0180 5C00     		.short	92
- 169 0182 6200     		.short	98
- 170 0184 6800     		.short	104
- 171 0186 6E00     		.short	110
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 4
+ 115 00c0 453520   		.ascii	"E5 "
+ 116 00c3 463520   		.ascii	"F5 "
+ 117 00c6 462335   		.ascii	"F#5"
+ 118 00c9 473520   		.ascii	"G5 "
+ 119 00cc 472335   		.ascii	"G#5"
+ 120 00cf 413520   		.ascii	"A5 "
+ 121 00d2 412335   		.ascii	"A#5"
+ 122 00d5 423520   		.ascii	"B5 "
+ 123 00d8 433620   		.ascii	"C6 "
+ 124 00db 432336   		.ascii	"C#6"
+ 125 00de 443620   		.ascii	"D6 "
+ 126 00e1 442336   		.ascii	"D#6"
+ 127 00e4 453620   		.ascii	"E6 "
+ 128 00e7 463620   		.ascii	"F6 "
+ 129 00ea 462336   		.ascii	"F#6"
+ 130 00ed 473620   		.ascii	"G6 "
+ 131 00f0 472336   		.ascii	"G#6"
+ 132 00f3 413620   		.ascii	"A6 "
+ 133 00f6 412336   		.ascii	"A#6"
+ 134 00f9 423620   		.ascii	"B6 "
+ 135 00fc 433720   		.ascii	"C7 "
+ 136 00ff 432337   		.ascii	"C#7"
+ 137 0102 443720   		.ascii	"D7 "
+ 138 0105 442337   		.ascii	"D#7"
+ 139 0108 453720   		.ascii	"E7 "
+ 140 010b 463720   		.ascii	"F7 "
+ 141 010e 462337   		.ascii	"F#7"
+ 142 0111 473720   		.ascii	"G7 "
+ 143 0114 472337   		.ascii	"G#7"
+ 144 0117 413720   		.ascii	"A7 "
+ 145 011a 412337   		.ascii	"A#7"
+ 146 011d 423720   		.ascii	"B7 "
+ 147 0120 433820   		.ascii	"C8 "
+ 148 0123 432338   		.ascii	"C#8"
+ 149 0126 443820   		.ascii	"D8 "
+ 150 0129 442338   		.ascii	"D#8"
+ 151 012c 453820   		.ascii	"E8 "
+ 152 012f 463820   		.ascii	"F8 "
+ 153 0132 462338   		.ascii	"F#8"
+ 154 0135 473820   		.ascii	"G8 "
+ 155 0138 472338   		.ascii	"G#8"
+ 156 013b 413820   		.ascii	"A8 "
+ 157 013e 412338   		.ascii	"A#8"
+ 158 0141 423820   		.ascii	"B8 "
+ 159              		.global	intFrequency
+ 160              		.align	2
+ 161              		.type	intFrequency, %object
+ 162              		.size	intFrequency, 216
+ 163              	intFrequency:
+ 164 0144 1000     		.short	16
+ 165 0146 1100     		.short	17
+ 166 0148 1200     		.short	18
+ 167 014a 1300     		.short	19
+ 168 014c 1500     		.short	21
+ 169 014e 1600     		.short	22
+ 170 0150 1700     		.short	23
+ 171 0152 1900     		.short	25
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 4
 
 
- 172 0188 7500     		.short	117
- 173 018a 7B00     		.short	123
- 174 018c 8300     		.short	131
- 175 018e 8B00     		.short	139
- 176 0190 9300     		.short	147
- 177 0192 9C00     		.short	156
- 178 0194 A500     		.short	165
- 179 0196 AF00     		.short	175
- 180 0198 B900     		.short	185
- 181 019a C400     		.short	196
- 182 019c D000     		.short	208
- 183 019e DC00     		.short	220
- 184 01a0 E900     		.short	233
- 185 01a2 F700     		.short	247
- 186 01a4 0601     		.short	262
- 187 01a6 1501     		.short	277
- 188 01a8 2601     		.short	294
- 189 01aa 3701     		.short	311
- 190 01ac 4A01     		.short	330
- 191 01ae 5D01     		.short	349
- 192 01b0 7201     		.short	370
- 193 01b2 8801     		.short	392
- 194 01b4 9F01     		.short	415
- 195 01b6 B801     		.short	440
- 196 01b8 D201     		.short	466
- 197 01ba EE01     		.short	494
- 198 01bc 0B02     		.short	523
- 199 01be 2A02     		.short	554
- 200 01c0 4B02     		.short	587
- 201 01c2 6E02     		.short	622
- 202 01c4 9302     		.short	659
- 203 01c6 BA02     		.short	698
- 204 01c8 E402     		.short	740
- 205 01ca 1003     		.short	784
- 206 01cc 3F03     		.short	831
- 207 01ce 7003     		.short	880
- 208 01d0 A403     		.short	932
- 209 01d2 DC03     		.short	988
- 210 01d4 1704     		.short	1047
- 211 01d6 5504     		.short	1109
- 212 01d8 9704     		.short	1175
- 213 01da DD04     		.short	1245
- 214 01dc 2705     		.short	1319
- 215 01de 7505     		.short	1397
- 216 01e0 C805     		.short	1480
- 217 01e2 2006     		.short	1568
- 218 01e4 7D06     		.short	1661
- 219 01e6 E006     		.short	1760
- 220 01e8 4907     		.short	1865
- 221 01ea B807     		.short	1976
- 222 01ec 2D08     		.short	2093
- 223 01ee A908     		.short	2217
- 224 01f0 2D09     		.short	2349
- 225 01f2 B909     		.short	2489
- 226 01f4 4D0A     		.short	2637
- 227 01f6 EA0A     		.short	2794
- 228 01f8 900B     		.short	2960
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 5
+ 172 0154 1A00     		.short	26
+ 173 0156 1C00     		.short	28
+ 174 0158 1D00     		.short	29
+ 175 015a 1F00     		.short	31
+ 176 015c 2100     		.short	33
+ 177 015e 2300     		.short	35
+ 178 0160 2500     		.short	37
+ 179 0162 2700     		.short	39
+ 180 0164 2900     		.short	41
+ 181 0166 2C00     		.short	44
+ 182 0168 2E00     		.short	46
+ 183 016a 3100     		.short	49
+ 184 016c 3400     		.short	52
+ 185 016e 3700     		.short	55
+ 186 0170 3A00     		.short	58
+ 187 0172 3E00     		.short	62
+ 188 0174 4100     		.short	65
+ 189 0176 4500     		.short	69
+ 190 0178 4900     		.short	73
+ 191 017a 4E00     		.short	78
+ 192 017c 5200     		.short	82
+ 193 017e 5700     		.short	87
+ 194 0180 5C00     		.short	92
+ 195 0182 6200     		.short	98
+ 196 0184 6800     		.short	104
+ 197 0186 6E00     		.short	110
+ 198 0188 7500     		.short	117
+ 199 018a 7B00     		.short	123
+ 200 018c 8300     		.short	131
+ 201 018e 8B00     		.short	139
+ 202 0190 9300     		.short	147
+ 203 0192 9C00     		.short	156
+ 204 0194 A500     		.short	165
+ 205 0196 AF00     		.short	175
+ 206 0198 B900     		.short	185
+ 207 019a C400     		.short	196
+ 208 019c D000     		.short	208
+ 209 019e DC00     		.short	220
+ 210 01a0 E900     		.short	233
+ 211 01a2 F700     		.short	247
+ 212 01a4 0601     		.short	262
+ 213 01a6 1501     		.short	277
+ 214 01a8 2601     		.short	294
+ 215 01aa 3701     		.short	311
+ 216 01ac 4A01     		.short	330
+ 217 01ae 5D01     		.short	349
+ 218 01b0 7201     		.short	370
+ 219 01b2 8801     		.short	392
+ 220 01b4 9F01     		.short	415
+ 221 01b6 B801     		.short	440
+ 222 01b8 D201     		.short	466
+ 223 01ba EE01     		.short	494
+ 224 01bc 0B02     		.short	523
+ 225 01be 2A02     		.short	554
+ 226 01c0 4B02     		.short	587
+ 227 01c2 6E02     		.short	622
+ 228 01c4 9302     		.short	659
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 5
 
 
- 229 01fa 400C     		.short	3136
- 230 01fc FA0C     		.short	3322
- 231 01fe C00D     		.short	3520
- 232 0200 920E     		.short	3730
- 233 0202 6F0F     		.short	3951
- 234 0204 5A10     		.short	4186
- 235 0206 5311     		.short	4435
- 236 0208 5B12     		.short	4699
- 237 020a 7213     		.short	4978
- 238 020c 9A14     		.short	5274
- 239 020e D415     		.short	5588
- 240 0210 1F17     		.short	5919
- 241 0212 8018     		.short	6272
- 242 0214 F519     		.short	6645
- 243 0216 801B     		.short	7040
- 244 0218 231D     		.short	7459
- 245 021a DE1E     		.short	7902
- 246              		.global	frequency
- 247 021c 00000000 		.align	3
- 248              		.type	frequency, %object
- 249              		.size	frequency, 864
- 250              	frequency:
- 251 0220 9A999999 		.word	-1717986918
- 252 0224 99593040 		.word	1076910489
- 253 0228 52B81E85 		.word	-2061584302
- 254 022c EB513140 		.word	1076974059
- 255 0230 9A999999 		.word	-1717986918
- 256 0234 99593240 		.word	1077041561
- 257 0238 33333333 		.word	858993459
- 258 023c 33733340 		.word	1077113651
- 259 0240 9A999999 		.word	-1717986918
- 260 0244 99993440 		.word	1077189017
- 261 0248 14AE47E1 		.word	-515396076
- 262 024c 7AD43540 		.word	1077269626
- 263 0250 1F85EB51 		.word	1374389535
- 264 0254 B81E3740 		.word	1077354168
- 265 0258 00000000 		.word	0
- 266 025c 00803840 		.word	1077444608
- 267 0260 F6285C8F 		.word	-1889785610
- 268 0264 C2F53940 		.word	1077540290
- 269 0268 00000000 		.word	0
- 270 026c 00803B40 		.word	1077641216
- 271 0270 A4703D0A 		.word	171798692
- 272 0274 D7233D40 		.word	1077748695
- 273 0278 1F85EB51 		.word	1374389535
- 274 027c B8DE3E40 		.word	1077862072
- 275 0280 9A999999 		.word	-1717986918
- 276 0284 99594040 		.word	1077959065
- 277 0288 33333333 		.word	858993459
- 278 028c 33534140 		.word	1078022963
- 279 0290 7B14AE47 		.word	1202590843
- 280 0294 E15A4240 		.word	1078090465
- 281 0298 52B81E85 		.word	-2061584302
- 282 029c EB714340 		.word	1078161899
- 283 02a0 9A999999 		.word	-1717986918
- 284 02a4 99994440 		.word	1078237593
- 285 02a8 33333333 		.word	858993459
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 6
+ 229 01c6 BA02     		.short	698
+ 230 01c8 E402     		.short	740
+ 231 01ca 1003     		.short	784
+ 232 01cc 3F03     		.short	831
+ 233 01ce 7003     		.short	880
+ 234 01d0 A403     		.short	932
+ 235 01d2 DC03     		.short	988
+ 236 01d4 1704     		.short	1047
+ 237 01d6 5504     		.short	1109
+ 238 01d8 9704     		.short	1175
+ 239 01da DD04     		.short	1245
+ 240 01dc 2705     		.short	1319
+ 241 01de 7505     		.short	1397
+ 242 01e0 C805     		.short	1480
+ 243 01e2 2006     		.short	1568
+ 244 01e4 7D06     		.short	1661
+ 245 01e6 E006     		.short	1760
+ 246 01e8 4907     		.short	1865
+ 247 01ea B807     		.short	1976
+ 248 01ec 2D08     		.short	2093
+ 249 01ee A908     		.short	2217
+ 250 01f0 2D09     		.short	2349
+ 251 01f2 B909     		.short	2489
+ 252 01f4 4D0A     		.short	2637
+ 253 01f6 EA0A     		.short	2794
+ 254 01f8 900B     		.short	2960
+ 255 01fa 400C     		.short	3136
+ 256 01fc FA0C     		.short	3322
+ 257 01fe C00D     		.short	3520
+ 258 0200 920E     		.short	3730
+ 259 0202 6F0F     		.short	3951
+ 260 0204 5A10     		.short	4186
+ 261 0206 5311     		.short	4435
+ 262 0208 5B12     		.short	4699
+ 263 020a 7213     		.short	4978
+ 264 020c 9A14     		.short	5274
+ 265 020e D415     		.short	5588
+ 266 0210 1F17     		.short	5919
+ 267 0212 8018     		.short	6272
+ 268 0214 F519     		.short	6645
+ 269 0216 801B     		.short	7040
+ 270 0218 231D     		.short	7459
+ 271 021a DE1E     		.short	7902
+ 272              		.global	frequency
+ 273 021c 00000000 		.align	3
+ 274              		.type	frequency, %object
+ 275              		.size	frequency, 864
+ 276              	frequency:
+ 277 0220 9A999999 		.word	-1717986918
+ 278 0224 99593040 		.word	1076910489
+ 279 0228 52B81E85 		.word	-2061584302
+ 280 022c EB513140 		.word	1076974059
+ 281 0230 9A999999 		.word	-1717986918
+ 282 0234 99593240 		.word	1077041561
+ 283 0238 33333333 		.word	858993459
+ 284 023c 33733340 		.word	1077113651
+ 285 0240 9A999999 		.word	-1717986918
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 6
 
 
- 286 02ac 33D34540 		.word	1078317875
- 287 02b0 00000000 		.word	0
- 288 02b4 00204740 		.word	1078403072
- 289 02b8 00000000 		.word	0
- 290 02bc 00804840 		.word	1078493184
- 291 02c0 14AE47E1 		.word	-515396076
- 292 02c4 7AF44940 		.word	1078588538
- 293 02c8 00000000 		.word	0
- 294 02cc 00804B40 		.word	1078689792
- 295 02d0 C3F5285C 		.word	1546188227
- 296 02d4 8F224D40 		.word	1078796943
- 297 02d8 1F85EB51 		.word	1374389535
- 298 02dc B8DE4E40 		.word	1078910648
- 299 02e0 0AD7A370 		.word	1889785610
- 300 02e4 3D5A5040 		.word	1079007805
- 301 02e8 33333333 		.word	858993459
- 302 02ec 33535140 		.word	1079071539
- 303 02f0 7B14AE47 		.word	1202590843
- 304 02f4 E15A5240 		.word	1079139041
- 305 02f8 52B81E85 		.word	-2061584302
- 306 02fc EB715340 		.word	1079210475
- 307 0300 0AD7A370 		.word	1889785610
- 308 0304 3D9A5440 		.word	1079286333
- 309 0308 A4703D0A 		.word	171798692
- 310 030c D7D35540 		.word	1079366615
- 311 0310 00000000 		.word	0
- 312 0314 00205740 		.word	1079451648
- 313 0318 00000000 		.word	0
- 314 031c 00805840 		.word	1079541760
- 315 0320 85EB51B8 		.word	-1202590843
- 316 0324 1EF55940 		.word	1079637278
- 317 0328 00000000 		.word	0
- 318 032c 00805B40 		.word	1079738368
- 319 0330 C3F5285C 		.word	1546188227
- 320 0334 8F225D40 		.word	1079845519
- 321 0338 AE47E17A 		.word	2061584302
- 322 033c 14DE5E40 		.word	1079959060
- 323 0340 52B81E85 		.word	-2061584302
- 324 0344 EB596040 		.word	1080056299
- 325 0348 7B14AE47 		.word	1202590843
- 326 034c E1526140 		.word	1080120033
- 327 0350 C3F5285C 		.word	1546188227
- 328 0354 8F5A6240 		.word	1080187535
- 329 0358 52B81E85 		.word	-2061584302
- 330 035c EB716340 		.word	1080259051
- 331 0360 52B81E85 		.word	-2061584302
- 332 0364 EB996440 		.word	1080334827
- 333 0368 EC51B81E 		.word	515396076
- 334 036c 85D36540 		.word	1080415109
- 335 0370 00000000 		.word	0
- 336 0374 00206740 		.word	1080500224
- 337 0378 00000000 		.word	0
- 338 037c 00806840 		.word	1080590336
- 339 0380 CDCCCCCC 		.word	-858993459
- 340 0384 CCF46940 		.word	1080685772
- 341 0388 00000000 		.word	0
- 342 038c 00806B40 		.word	1080786944
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 7
+ 286 0244 99993440 		.word	1077189017
+ 287 0248 14AE47E1 		.word	-515396076
+ 288 024c 7AD43540 		.word	1077269626
+ 289 0250 1F85EB51 		.word	1374389535
+ 290 0254 B81E3740 		.word	1077354168
+ 291 0258 00000000 		.word	0
+ 292 025c 00803840 		.word	1077444608
+ 293 0260 F6285C8F 		.word	-1889785610
+ 294 0264 C2F53940 		.word	1077540290
+ 295 0268 00000000 		.word	0
+ 296 026c 00803B40 		.word	1077641216
+ 297 0270 A4703D0A 		.word	171798692
+ 298 0274 D7233D40 		.word	1077748695
+ 299 0278 1F85EB51 		.word	1374389535
+ 300 027c B8DE3E40 		.word	1077862072
+ 301 0280 9A999999 		.word	-1717986918
+ 302 0284 99594040 		.word	1077959065
+ 303 0288 33333333 		.word	858993459
+ 304 028c 33534140 		.word	1078022963
+ 305 0290 7B14AE47 		.word	1202590843
+ 306 0294 E15A4240 		.word	1078090465
+ 307 0298 52B81E85 		.word	-2061584302
+ 308 029c EB714340 		.word	1078161899
+ 309 02a0 9A999999 		.word	-1717986918
+ 310 02a4 99994440 		.word	1078237593
+ 311 02a8 33333333 		.word	858993459
+ 312 02ac 33D34540 		.word	1078317875
+ 313 02b0 00000000 		.word	0
+ 314 02b4 00204740 		.word	1078403072
+ 315 02b8 00000000 		.word	0
+ 316 02bc 00804840 		.word	1078493184
+ 317 02c0 14AE47E1 		.word	-515396076
+ 318 02c4 7AF44940 		.word	1078588538
+ 319 02c8 00000000 		.word	0
+ 320 02cc 00804B40 		.word	1078689792
+ 321 02d0 C3F5285C 		.word	1546188227
+ 322 02d4 8F224D40 		.word	1078796943
+ 323 02d8 1F85EB51 		.word	1374389535
+ 324 02dc B8DE4E40 		.word	1078910648
+ 325 02e0 0AD7A370 		.word	1889785610
+ 326 02e4 3D5A5040 		.word	1079007805
+ 327 02e8 33333333 		.word	858993459
+ 328 02ec 33535140 		.word	1079071539
+ 329 02f0 7B14AE47 		.word	1202590843
+ 330 02f4 E15A5240 		.word	1079139041
+ 331 02f8 52B81E85 		.word	-2061584302
+ 332 02fc EB715340 		.word	1079210475
+ 333 0300 0AD7A370 		.word	1889785610
+ 334 0304 3D9A5440 		.word	1079286333
+ 335 0308 A4703D0A 		.word	171798692
+ 336 030c D7D35540 		.word	1079366615
+ 337 0310 00000000 		.word	0
+ 338 0314 00205740 		.word	1079451648
+ 339 0318 00000000 		.word	0
+ 340 031c 00805840 		.word	1079541760
+ 341 0320 85EB51B8 		.word	-1202590843
+ 342 0324 1EF55940 		.word	1079637278
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 7
 
 
- 343 0390 C3F5285C 		.word	1546188227
- 344 0394 8F226D40 		.word	1080894095
- 345 0398 AE47E17A 		.word	2061584302
- 346 039c 14DE6E40 		.word	1081007636
- 347 03a0 AE47E17A 		.word	2061584302
- 348 03a4 145A7040 		.word	1081104916
- 349 03a8 7B14AE47 		.word	1202590843
- 350 03ac E1527140 		.word	1081168609
- 351 03b0 C3F5285C 		.word	1546188227
- 352 03b4 8F5A7240 		.word	1081236111
- 353 03b8 AE47E17A 		.word	2061584302
- 354 03bc 14727340 		.word	1081307668
- 355 03c0 AE47E17A 		.word	2061584302
- 356 03c4 149A7440 		.word	1081383444
- 357 03c8 48E17A14 		.word	343597384
- 358 03cc AED37540 		.word	1081463726
- 359 03d0 A4703D0A 		.word	171798692
- 360 03d4 D71F7740 		.word	1081548759
- 361 03d8 00000000 		.word	0
- 362 03dc 00807840 		.word	1081638912
- 363 03e0 CDCCCCCC 		.word	-858993459
- 364 03e4 CCF47940 		.word	1081734348
- 365 03e8 00000000 		.word	0
- 366 03ec 00807B40 		.word	1081835520
- 367 03f0 C3F5285C 		.word	1546188227
- 368 03f4 8F227D40 		.word	1081942671
- 369 03f8 AE47E17A 		.word	2061584302
- 370 03fc 14DE7E40 		.word	1082056212
- 371 0400 00000000 		.word	0
- 372 0404 005A8040 		.word	1082153472
- 373 0408 295C8FC2 		.word	-1030792151
- 374 040c F5528140 		.word	1082217205
- 375 0410 713D0AD7 		.word	-687194767
- 376 0414 A35A8240 		.word	1082284707
- 377 0418 00000000 		.word	0
- 378 041c 00728340 		.word	1082356224
- 379 0420 00000000 		.word	0
- 380 0424 009A8440 		.word	1082432000
- 381 0428 48E17A14 		.word	343597384
- 382 042c AED38540 		.word	1082512302
- 383 0430 52B81E85 		.word	-2061584302
- 384 0434 EB1F8740 		.word	1082597355
- 385 0438 52B81E85 		.word	-2061584302
- 386 043c EB7F8840 		.word	1082687467
- 387 0440 7B14AE47 		.word	1202590843
- 388 0444 E1F48940 		.word	1082782945
- 389 0448 00000000 		.word	0
- 390 044c 00808B40 		.word	1082884096
- 391 0450 713D0AD7 		.word	-687194767
- 392 0454 A3228D40 		.word	1082991267
- 393 0458 5C8FC2F5 		.word	-171798692
- 394 045c 28DE8E40 		.word	1083104808
- 395 0460 00000000 		.word	0
- 396 0464 005A9040 		.word	1083202048
- 397 0468 52B81E85 		.word	-2061584302
- 398 046c EB529140 		.word	1083265771
- 399 0470 713D0AD7 		.word	-687194767
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 8
+ 343 0328 00000000 		.word	0
+ 344 032c 00805B40 		.word	1079738368
+ 345 0330 C3F5285C 		.word	1546188227
+ 346 0334 8F225D40 		.word	1079845519
+ 347 0338 AE47E17A 		.word	2061584302
+ 348 033c 14DE5E40 		.word	1079959060
+ 349 0340 52B81E85 		.word	-2061584302
+ 350 0344 EB596040 		.word	1080056299
+ 351 0348 7B14AE47 		.word	1202590843
+ 352 034c E1526140 		.word	1080120033
+ 353 0350 C3F5285C 		.word	1546188227
+ 354 0354 8F5A6240 		.word	1080187535
+ 355 0358 52B81E85 		.word	-2061584302
+ 356 035c EB716340 		.word	1080259051
+ 357 0360 52B81E85 		.word	-2061584302
+ 358 0364 EB996440 		.word	1080334827
+ 359 0368 EC51B81E 		.word	515396076
+ 360 036c 85D36540 		.word	1080415109
+ 361 0370 00000000 		.word	0
+ 362 0374 00206740 		.word	1080500224
+ 363 0378 00000000 		.word	0
+ 364 037c 00806840 		.word	1080590336
+ 365 0380 CDCCCCCC 		.word	-858993459
+ 366 0384 CCF46940 		.word	1080685772
+ 367 0388 00000000 		.word	0
+ 368 038c 00806B40 		.word	1080786944
+ 369 0390 C3F5285C 		.word	1546188227
+ 370 0394 8F226D40 		.word	1080894095
+ 371 0398 AE47E17A 		.word	2061584302
+ 372 039c 14DE6E40 		.word	1081007636
+ 373 03a0 AE47E17A 		.word	2061584302
+ 374 03a4 145A7040 		.word	1081104916
+ 375 03a8 7B14AE47 		.word	1202590843
+ 376 03ac E1527140 		.word	1081168609
+ 377 03b0 C3F5285C 		.word	1546188227
+ 378 03b4 8F5A7240 		.word	1081236111
+ 379 03b8 AE47E17A 		.word	2061584302
+ 380 03bc 14727340 		.word	1081307668
+ 381 03c0 AE47E17A 		.word	2061584302
+ 382 03c4 149A7440 		.word	1081383444
+ 383 03c8 48E17A14 		.word	343597384
+ 384 03cc AED37540 		.word	1081463726
+ 385 03d0 A4703D0A 		.word	171798692
+ 386 03d4 D71F7740 		.word	1081548759
+ 387 03d8 00000000 		.word	0
+ 388 03dc 00807840 		.word	1081638912
+ 389 03e0 CDCCCCCC 		.word	-858993459
+ 390 03e4 CCF47940 		.word	1081734348
+ 391 03e8 00000000 		.word	0
+ 392 03ec 00807B40 		.word	1081835520
+ 393 03f0 C3F5285C 		.word	1546188227
+ 394 03f4 8F227D40 		.word	1081942671
+ 395 03f8 AE47E17A 		.word	2061584302
+ 396 03fc 14DE7E40 		.word	1082056212
+ 397 0400 00000000 		.word	0
+ 398 0404 005A8040 		.word	1082153472
+ 399 0408 295C8FC2 		.word	-1030792151
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 8
 
 
- 400 0474 A35A9240 		.word	1083333283
- 401 0478 D7A3703D 		.word	1030792151
- 402 047c 0A729340 		.word	1083404810
- 403 0480 D7A3703D 		.word	1030792151
- 404 0484 0A9A9440 		.word	1083480586
- 405 0488 713D0AD7 		.word	-687194767
- 406 048c A3D39540 		.word	1083560867
- 407 0490 52B81E85 		.word	-2061584302
- 408 0494 EB1F9740 		.word	1083645931
- 409 0498 52B81E85 		.word	-2061584302
- 410 049c EB7F9840 		.word	1083736043
- 411 04a0 7B14AE47 		.word	1202590843
- 412 04a4 E1F49940 		.word	1083831521
- 413 04a8 00000000 		.word	0
- 414 04ac 00809B40 		.word	1083932672
- 415 04b0 713D0AD7 		.word	-687194767
- 416 04b4 A3229D40 		.word	1084039843
- 417 04b8 85EB51B8 		.word	-1202590843
- 418 04bc 1EDE9E40 		.word	1084153374
- 419 04c0 00000000 		.word	0
- 420 04c4 005AA040 		.word	1084250624
- 421 04c8 52B81E85 		.word	-2061584302
- 422 04cc EB52A140 		.word	1084314347
- 423 04d0 713D0AD7 		.word	-687194767
- 424 04d4 A35AA240 		.word	1084381859
- 425 04d8 D7A3703D 		.word	1030792151
- 426 04dc 0A72A340 		.word	1084453386
- 427 04e0 D7A3703D 		.word	1030792151
- 428 04e4 0A9AA440 		.word	1084529162
- 429 04e8 5C8FC2F5 		.word	-171798692
- 430 04ec A8D3A540 		.word	1084609448
- 431 04f0 52B81E85 		.word	-2061584302
- 432 04f4 EB1FA740 		.word	1084694507
- 433 04f8 52B81E85 		.word	-2061584302
- 434 04fc EB7FA840 		.word	1084784619
- 435 0500 7B14AE47 		.word	1202590843
- 436 0504 E1F4A940 		.word	1084880097
- 437 0508 00000000 		.word	0
- 438 050c 0080AB40 		.word	1084981248
- 439 0510 85EB51B8 		.word	-1202590843
- 440 0514 9E22AD40 		.word	1085088414
- 441 0518 713D0AD7 		.word	-687194767
- 442 051c 23DEAE40 		.word	1085201955
- 443 0520 F6285C8F 		.word	-1889785610
- 444 0524 025AB040 		.word	1085299202
- 445 0528 52B81E85 		.word	-2061584302
- 446 052c EB52B140 		.word	1085362923
- 447 0530 7B14AE47 		.word	1202590843
- 448 0534 A15AB240 		.word	1085430433
- 449 0538 E17A14AE 		.word	-1374389535
- 450 053c 0772B340 		.word	1085501959
- 451 0540 D7A3703D 		.word	1030792151
- 452 0544 0A9AB440 		.word	1085577738
- 453 0548 66666666 		.word	1717986918
- 454 054c A6D3B540 		.word	1085658022
- 455 0550 5C8FC2F5 		.word	-171798692
- 456 0554 E81FB740 		.word	1085743080
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 9
+ 400 040c F5528140 		.word	1082217205
+ 401 0410 713D0AD7 		.word	-687194767
+ 402 0414 A35A8240 		.word	1082284707
+ 403 0418 00000000 		.word	0
+ 404 041c 00728340 		.word	1082356224
+ 405 0420 00000000 		.word	0
+ 406 0424 009A8440 		.word	1082432000
+ 407 0428 48E17A14 		.word	343597384
+ 408 042c AED38540 		.word	1082512302
+ 409 0430 52B81E85 		.word	-2061584302
+ 410 0434 EB1F8740 		.word	1082597355
+ 411 0438 52B81E85 		.word	-2061584302
+ 412 043c EB7F8840 		.word	1082687467
+ 413 0440 7B14AE47 		.word	1202590843
+ 414 0444 E1F48940 		.word	1082782945
+ 415 0448 00000000 		.word	0
+ 416 044c 00808B40 		.word	1082884096
+ 417 0450 713D0AD7 		.word	-687194767
+ 418 0454 A3228D40 		.word	1082991267
+ 419 0458 5C8FC2F5 		.word	-171798692
+ 420 045c 28DE8E40 		.word	1083104808
+ 421 0460 00000000 		.word	0
+ 422 0464 005A9040 		.word	1083202048
+ 423 0468 52B81E85 		.word	-2061584302
+ 424 046c EB529140 		.word	1083265771
+ 425 0470 713D0AD7 		.word	-687194767
+ 426 0474 A35A9240 		.word	1083333283
+ 427 0478 D7A3703D 		.word	1030792151
+ 428 047c 0A729340 		.word	1083404810
+ 429 0480 D7A3703D 		.word	1030792151
+ 430 0484 0A9A9440 		.word	1083480586
+ 431 0488 713D0AD7 		.word	-687194767
+ 432 048c A3D39540 		.word	1083560867
+ 433 0490 52B81E85 		.word	-2061584302
+ 434 0494 EB1F9740 		.word	1083645931
+ 435 0498 52B81E85 		.word	-2061584302
+ 436 049c EB7F9840 		.word	1083736043
+ 437 04a0 7B14AE47 		.word	1202590843
+ 438 04a4 E1F49940 		.word	1083831521
+ 439 04a8 00000000 		.word	0
+ 440 04ac 00809B40 		.word	1083932672
+ 441 04b0 713D0AD7 		.word	-687194767
+ 442 04b4 A3229D40 		.word	1084039843
+ 443 04b8 85EB51B8 		.word	-1202590843
+ 444 04bc 1EDE9E40 		.word	1084153374
+ 445 04c0 00000000 		.word	0
+ 446 04c4 005AA040 		.word	1084250624
+ 447 04c8 52B81E85 		.word	-2061584302
+ 448 04cc EB52A140 		.word	1084314347
+ 449 04d0 713D0AD7 		.word	-687194767
+ 450 04d4 A35AA240 		.word	1084381859
+ 451 04d8 D7A3703D 		.word	1030792151
+ 452 04dc 0A72A340 		.word	1084453386
+ 453 04e0 D7A3703D 		.word	1030792151
+ 454 04e4 0A9AA440 		.word	1084529162
+ 455 04e8 5C8FC2F5 		.word	-171798692
+ 456 04ec A8D3A540 		.word	1084609448
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 9
 
 
- 457 0558 48E17A14 		.word	343597384
- 458 055c EE7FB840 		.word	1085833198
- 459 0560 7B14AE47 		.word	1202590843
- 460 0564 E1F4B940 		.word	1085928673
- 461 0568 00000000 		.word	0
- 462 056c 0080BB40 		.word	1086029824
- 463 0570 85EB51B8 		.word	-1202590843
- 464 0574 9E22BD40 		.word	1086136990
- 465 0578 7B14AE47 		.word	1202590843
- 466 057c 21DEBE40 		.word	1086250529
- 467              		.global	delayMS
- 468              		.data
- 469              		.align	1
- 470              		.type	delayMS, %object
- 471              		.size	delayMS, 2
- 472              	delayMS:
- 473 0000 1400     		.short	20
- 474              		.global	onOffCount
- 475              		.bss
- 476              		.type	onOffCount, %object
- 477              		.size	onOffCount, 1
- 478              	onOffCount:
- 479 0000 00       		.space	1
- 480              		.comm	transmitBuffer,100,4
- 481              		.comm	freq,8,8
- 482              		.comm	intFreq,2,2
- 483              		.comm	note,3,4
- 484              		.comm	noteIndex,1,1
- 485              		.global	mode
- 486              		.type	mode, %object
- 487              		.size	mode, 1
- 488              	mode:
- 489 0001 00       		.space	1
- 490              		.global	modeFlag
- 491              		.type	modeFlag, %object
- 492              		.size	modeFlag, 1
- 493              	modeFlag:
- 494 0002 00       		.space	1
- 495              		.global	checkingMode
- 496              		.data
- 497              		.type	checkingMode, %object
- 498              		.size	checkingMode, 1
- 499              	checkingMode:
- 500 0002 01       		.byte	1
- 501              		.global	freqClockDivCounter
- 502 0003 00       		.align	1
- 503              		.type	freqClockDivCounter, %object
- 504              		.size	freqClockDivCounter, 2
- 505              	freqClockDivCounter:
- 506 0004 7800     		.short	120
- 507              		.comm	dice1,4,4
- 508              		.comm	dice2,4,4
- 509              		.section	.rodata
- 510              		.align	2
- 511              	.LC0:
- 512 0580 4D4F4445 		.ascii	"MODE 0 \012\015\000"
- 512      2030200A 
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 10
+ 457 04f0 52B81E85 		.word	-2061584302
+ 458 04f4 EB1FA740 		.word	1084694507
+ 459 04f8 52B81E85 		.word	-2061584302
+ 460 04fc EB7FA840 		.word	1084784619
+ 461 0500 7B14AE47 		.word	1202590843
+ 462 0504 E1F4A940 		.word	1084880097
+ 463 0508 00000000 		.word	0
+ 464 050c 0080AB40 		.word	1084981248
+ 465 0510 85EB51B8 		.word	-1202590843
+ 466 0514 9E22AD40 		.word	1085088414
+ 467 0518 713D0AD7 		.word	-687194767
+ 468 051c 23DEAE40 		.word	1085201955
+ 469 0520 F6285C8F 		.word	-1889785610
+ 470 0524 025AB040 		.word	1085299202
+ 471 0528 52B81E85 		.word	-2061584302
+ 472 052c EB52B140 		.word	1085362923
+ 473 0530 7B14AE47 		.word	1202590843
+ 474 0534 A15AB240 		.word	1085430433
+ 475 0538 E17A14AE 		.word	-1374389535
+ 476 053c 0772B340 		.word	1085501959
+ 477 0540 D7A3703D 		.word	1030792151
+ 478 0544 0A9AB440 		.word	1085577738
+ 479 0548 66666666 		.word	1717986918
+ 480 054c A6D3B540 		.word	1085658022
+ 481 0550 5C8FC2F5 		.word	-171798692
+ 482 0554 E81FB740 		.word	1085743080
+ 483 0558 48E17A14 		.word	343597384
+ 484 055c EE7FB840 		.word	1085833198
+ 485 0560 7B14AE47 		.word	1202590843
+ 486 0564 E1F4B940 		.word	1085928673
+ 487 0568 00000000 		.word	0
+ 488 056c 0080BB40 		.word	1086029824
+ 489 0570 85EB51B8 		.word	-1202590843
+ 490 0574 9E22BD40 		.word	1086136990
+ 491 0578 7B14AE47 		.word	1202590843
+ 492 057c 21DEBE40 		.word	1086250529
+ 493              		.global	delayMS
+ 494              		.data
+ 495              		.align	1
+ 496              		.type	delayMS, %object
+ 497              		.size	delayMS, 2
+ 498              	delayMS:
+ 499 0004 1400     		.short	20
+ 500              		.global	onOffCount
+ 501              		.bss
+ 502              		.type	onOffCount, %object
+ 503              		.size	onOffCount, 1
+ 504              	onOffCount:
+ 505 0003 00       		.space	1
+ 506              		.comm	transmitBuffer,100,4
+ 507              		.comm	freq,8,8
+ 508              		.comm	intFreq,2,2
+ 509              		.comm	note,3,4
+ 510              		.comm	noteIndex,1,1
+ 511              		.global	mode
+ 512              		.type	mode, %object
+ 513              		.size	mode, 1
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 10
 
 
- 512      0D00
- 513 058a 0000     		.align	2
- 514              	.LC1:
- 515 058c 4D4F4445 		.ascii	"MODE 1 \012\015\000"
- 515      2031200A 
- 515      0D00
- 516 0596 0000     		.align	2
- 517              	.LC2:
- 518 0598 4D4F4445 		.ascii	"MODE 2 \012\015\000"
- 518      2032200A 
- 518      0D00
- 519 05a2 0000     		.align	2
- 520              	.LC3:
- 521 05a4 4D4F4445 		.ascii	"MODE 3 \012\015\000"
- 521      2033200A 
- 521      0D00
- 522              		.section	.text.modecheck,"ax",%progbits
- 523              		.align	2
- 524              		.global	modecheck
- 525              		.thumb
- 526              		.thumb_func
- 527              		.type	modecheck, %function
- 528              	modecheck:
- 529              	.LFB64:
- 530              		.file 1 "main.c"
+ 514              	mode:
+ 515 0004 00       		.space	1
+ 516              		.global	modeFlag
+ 517              		.type	modeFlag, %object
+ 518              		.size	modeFlag, 1
+ 519              	modeFlag:
+ 520 0005 00       		.space	1
+ 521              		.global	checkingMode
+ 522              		.data
+ 523              		.type	checkingMode, %object
+ 524              		.size	checkingMode, 1
+ 525              	checkingMode:
+ 526 0006 01       		.byte	1
+ 527              		.global	freqClockDivCounter
+ 528 0007 00       		.align	1
+ 529              		.type	freqClockDivCounter, %object
+ 530              		.size	freqClockDivCounter, 2
+ 531              	freqClockDivCounter:
+ 532 0008 7800     		.short	120
+ 533              		.comm	dice1,4,4
+ 534              		.comm	dice2,4,4
+ 535              		.section	.rodata
+ 536              		.align	2
+ 537              	.LC0:
+ 538 0580 4D4F4445 		.ascii	"MODE 0 \012\015\000"
+ 538      2030200A 
+ 538      0D00
+ 539 058a 0000     		.align	2
+ 540              	.LC1:
+ 541 058c 4D4F4445 		.ascii	"MODE 1 \012\015\000"
+ 541      2031200A 
+ 541      0D00
+ 542 0596 0000     		.align	2
+ 543              	.LC2:
+ 544 0598 4D4F4445 		.ascii	"MODE 2 \012\015\000"
+ 544      2032200A 
+ 544      0D00
+ 545 05a2 0000     		.align	2
+ 546              	.LC3:
+ 547 05a4 4D4F4445 		.ascii	"MODE 3 \012\015\000"
+ 547      2033200A 
+ 547      0D00
+ 548              		.section	.text.modecheck,"ax",%progbits
+ 549              		.align	2
+ 550              		.global	modecheck
+ 551              		.thumb
+ 552              		.thumb_func
+ 553              		.type	modecheck, %function
+ 554              	modecheck:
+ 555              	.LFB64:
+ 556              		.file 1 "main.c"
    1:main.c        **** /*******************************************************************************
    2:main.c        **** * File: main.c      
    3:main.c        **** *
    4:main.c        **** *******************************************************************************/
    5:main.c        **** 
    6:main.c        **** #include <project.h>
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 11
+
+
    7:main.c        **** #include <stdio.h>
    8:main.c        **** #define START_FREQ_DIV 120
    9:main.c        **** #define MAX_FREQ_DIV 8000
   10:main.c        **** 
   11:main.c        **** CY_ISR_PROTO(userModeTimer_ISR);
   12:main.c        **** 
-  13:main.c        **** const char notes[108][3] = {"C0 ", "C#0", "D0 ", "D#0", "E0 ", "F0 ", "F#0", "G0 ", "G#0", "A0 ", "
-  14:main.c        **** const uint16 intFrequency[108] = {16, 17, 18, 19, 21, 22, 23, 25, 26, 28, 29, 31, 33, 35, 37, 39, 4
-  15:main.c        **** const double frequency[108] = {16.35,17.32,18.35,19.45,20.60,21.83,23.12,24.50,25.96,27.50,29.14,30
-  16:main.c        **** 
-  17:main.c        **** volatile uint16 delayMS = 20;
-  18:main.c        **** volatile uint8 onOffCount = 0;
-  19:main.c        **** char transmitBuffer[100];
-  20:main.c        **** volatile double freq;
-  21:main.c        **** volatile uint16 intFreq;
-  22:main.c        **** volatile char note[3];
-  23:main.c        **** volatile uint8 noteIndex;
-  24:main.c        **** volatile uint8 mode = 0;            // set default mode   
-  25:main.c        **** volatile uint8 modeFlag = 0;        // flag is set by Timer_Mode, resets after check
-  26:main.c        **** volatile uint8 checkingMode = 1;    // set bool if checking mode or not 
-  27:main.c        **** uint16 freqClockDivCounter = START_FREQ_DIV;
-  28:main.c        **** volatile uint dice1;
-  29:main.c        **** volatile uint dice2;
-  30:main.c        **** 
-  31:main.c        **** // MODECHECK FUNCTION checks mode on 4 state cube
-  32:main.c        **** void modecheck(){
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 11
+  13:main.c        **** CY_ISR_PROTO(but1_isr_neg_vect);
+  14:main.c        **** CY_ISR_PROTO(but1_isr_pos_vect);
+  15:main.c        **** CY_ISR_PROTO(but2_isr_neg_vect);
+  16:main.c        **** CY_ISR_PROTO(but2_isr_pos_vect);
+  17:main.c        **** CY_ISR_PROTO(but3_isr_neg_vect);
+  18:main.c        **** CY_ISR_PROTO(but3_isr_pos_vect);
+  19:main.c        **** 
+  20:main.c        **** volatile uint8 button1 = 0;
+  21:main.c        **** volatile uint8 button2 = 0;
+  22:main.c        **** volatile uint8 button3 = 0;
+  23:main.c        **** 
+  24:main.c        **** char squarewave[4] = {1,0,1,0}; 
+  25:main.c        **** 
+  26:main.c        **** const char notes[108][3] = {"C0 ", "C#0", "D0 ", "D#0", "E0 ", "F0 ", "F#0", "G0 ", "G#0", "A0 ", "
+  27:main.c        **** const uint16 intFrequency[108] = {16, 17, 18, 19, 21, 22, 23, 25, 26, 28, 29, 31, 33, 35, 37, 39, 4
+  28:main.c        **** const double frequency[108] = {16.35,17.32,18.35,19.45,20.60,21.83,23.12,24.50,25.96,27.50,29.14,30
+  29:main.c        **** 
+  30:main.c        **** volatile uint16 delayMS = 20;
+  31:main.c        **** volatile uint8 onOffCount = 0;
+  32:main.c        **** char transmitBuffer[100];
+  33:main.c        **** volatile double freq;
+  34:main.c        **** volatile uint16 intFreq;
+  35:main.c        **** volatile char note[3];
+  36:main.c        **** volatile uint8 noteIndex;
+  37:main.c        **** volatile uint8 mode = 0;            // set default mode   
+  38:main.c        **** volatile uint8 modeFlag = 0;        // flag is set by Timer_Mode, resets after check
+  39:main.c        **** volatile uint8 checkingMode = 1;    // set bool if checking mode or not 
+  40:main.c        **** uint16 freqClockDivCounter = START_FREQ_DIV;
+  41:main.c        **** volatile uint dice1;
+  42:main.c        **** volatile uint dice2;
+  43:main.c        **** 
+  44:main.c        **** // MODECHECK FUNCTION checks mode on 4 state cube
+  45:main.c        **** void modecheck(){
+ 557              		.loc 1 45 0
+ 558              		.cfi_startproc
+ 559              		@ args = 0, pretend = 0, frame = 0
+ 560              		@ frame_needed = 1, uses_anonymous_args = 0
+ 561 0000 80B5     		push	{r7, lr}
+ 562              		.cfi_def_cfa_offset 8
+ 563              		.cfi_offset 7, -8
+ 564              		.cfi_offset 14, -4
+ 565 0002 00AF     		add	r7, sp, #0
+ 566              		.cfi_def_cfa_register 7
+  46:main.c        ****     dice1 = Pin_Dice_1_Read();
+ 567              		.loc 1 46 0
+ 568 0004 FFF7FEFF 		bl	Pin_Dice_1_Read
+ 569 0008 0346     		mov	r3, r0
+ 570 000a 1A46     		mov	r2, r3
+ 571 000c 384B     		ldr	r3, .L7
+ 572 000e 1A60     		str	r2, [r3]
+  47:main.c        ****     dice2 = Pin_Dice_2_Read();
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 12
 
 
- 531              		.loc 1 32 0
- 532              		.cfi_startproc
- 533              		@ args = 0, pretend = 0, frame = 0
- 534              		@ frame_needed = 1, uses_anonymous_args = 0
- 535 0000 80B5     		push	{r7, lr}
- 536              		.cfi_def_cfa_offset 8
- 537              		.cfi_offset 7, -8
- 538              		.cfi_offset 14, -4
- 539 0002 00AF     		add	r7, sp, #0
- 540              		.cfi_def_cfa_register 7
-  33:main.c        ****     dice1 = Pin_Dice_1_Read();
- 541              		.loc 1 33 0
- 542 0004 FFF7FEFF 		bl	Pin_Dice_1_Read
- 543 0008 0346     		mov	r3, r0
- 544 000a 1A46     		mov	r2, r3
- 545 000c 384B     		ldr	r3, .L7
- 546 000e 1A60     		str	r2, [r3]
-  34:main.c        ****     dice2 = Pin_Dice_2_Read();
- 547              		.loc 1 34 0
- 548 0010 FFF7FEFF 		bl	Pin_Dice_2_Read
- 549 0014 0346     		mov	r3, r0
- 550 0016 1A46     		mov	r2, r3
- 551 0018 364B     		ldr	r3, .L7+4
- 552 001a 1A60     		str	r2, [r3]
-  35:main.c        ****     if(dice1 == 0 && dice2 == 0 && mode != 0){
- 553              		.loc 1 35 0
- 554 001c 344B     		ldr	r3, .L7
- 555 001e 1B68     		ldr	r3, [r3]
- 556 0020 002B     		cmp	r3, #0
- 557 0022 15D1     		bne	.L2
- 558              		.loc 1 35 0 is_stmt 0 discriminator 1
- 559 0024 334B     		ldr	r3, .L7+4
- 560 0026 1B68     		ldr	r3, [r3]
- 561 0028 002B     		cmp	r3, #0
- 562 002a 11D1     		bne	.L2
- 563              		.loc 1 35 0 discriminator 2
- 564 002c 324B     		ldr	r3, .L7+8
- 565 002e 1B78     		ldrb	r3, [r3]
- 566 0030 DBB2     		uxtb	r3, r3
- 567 0032 002B     		cmp	r3, #0
- 568 0034 0CD0     		beq	.L2
-  36:main.c        ****         mode = 0;
- 569              		.loc 1 36 0 is_stmt 1
- 570 0036 304B     		ldr	r3, .L7+8
- 571 0038 0022     		movs	r2, #0
- 572 003a 1A70     		strb	r2, [r3]
-  37:main.c        ****         Pin_Dice_LED_1_Write(0);
- 573              		.loc 1 37 0
- 574 003c 0020     		movs	r0, #0
- 575 003e FFF7FEFF 		bl	Pin_Dice_LED_1_Write
-  38:main.c        ****         Pin_Dice_LED_2_Write(0);
- 576              		.loc 1 38 0
- 577 0042 0020     		movs	r0, #0
- 578 0044 FFF7FEFF 		bl	Pin_Dice_LED_2_Write
-  39:main.c        ****         UART_1_PutString("MODE 0 \n\r");
- 579              		.loc 1 39 0
- 580 0048 2C48     		ldr	r0, .L7+12
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 12
+ 573              		.loc 1 47 0
+ 574 0010 FFF7FEFF 		bl	Pin_Dice_2_Read
+ 575 0014 0346     		mov	r3, r0
+ 576 0016 1A46     		mov	r2, r3
+ 577 0018 364B     		ldr	r3, .L7+4
+ 578 001a 1A60     		str	r2, [r3]
+  48:main.c        ****     if(dice1 == 0 && dice2 == 0 && mode != 0){
+ 579              		.loc 1 48 0
+ 580 001c 344B     		ldr	r3, .L7
+ 581 001e 1B68     		ldr	r3, [r3]
+ 582 0020 002B     		cmp	r3, #0
+ 583 0022 15D1     		bne	.L2
+ 584              		.loc 1 48 0 is_stmt 0 discriminator 1
+ 585 0024 334B     		ldr	r3, .L7+4
+ 586 0026 1B68     		ldr	r3, [r3]
+ 587 0028 002B     		cmp	r3, #0
+ 588 002a 11D1     		bne	.L2
+ 589              		.loc 1 48 0 discriminator 2
+ 590 002c 324B     		ldr	r3, .L7+8
+ 591 002e 1B78     		ldrb	r3, [r3]
+ 592 0030 DBB2     		uxtb	r3, r3
+ 593 0032 002B     		cmp	r3, #0
+ 594 0034 0CD0     		beq	.L2
+  49:main.c        ****         mode = 0;
+ 595              		.loc 1 49 0 is_stmt 1
+ 596 0036 304B     		ldr	r3, .L7+8
+ 597 0038 0022     		movs	r2, #0
+ 598 003a 1A70     		strb	r2, [r3]
+  50:main.c        ****         Pin_Dice_LED_1_Write(0);
+ 599              		.loc 1 50 0
+ 600 003c 0020     		movs	r0, #0
+ 601 003e FFF7FEFF 		bl	Pin_Dice_LED_1_Write
+  51:main.c        ****         Pin_Dice_LED_2_Write(0);
+ 602              		.loc 1 51 0
+ 603 0042 0020     		movs	r0, #0
+ 604 0044 FFF7FEFF 		bl	Pin_Dice_LED_2_Write
+  52:main.c        ****         UART_1_PutString("MODE 0 \n\r");
+ 605              		.loc 1 52 0
+ 606 0048 2C48     		ldr	r0, .L7+12
+ 607 004a FFF7FEFF 		bl	UART_1_PutString
+ 608 004e 4DE0     		b	.L3
+ 609              	.L2:
+  53:main.c        ****     }
+  54:main.c        ****     else if(dice1 == 0 && dice2 == 1 && mode != 1){
+ 610              		.loc 1 54 0
+ 611 0050 274B     		ldr	r3, .L7
+ 612 0052 1B68     		ldr	r3, [r3]
+ 613 0054 002B     		cmp	r3, #0
+ 614 0056 15D1     		bne	.L4
+ 615              		.loc 1 54 0 is_stmt 0 discriminator 1
+ 616 0058 264B     		ldr	r3, .L7+4
+ 617 005a 1B68     		ldr	r3, [r3]
+ 618 005c 012B     		cmp	r3, #1
+ 619 005e 11D1     		bne	.L4
+ 620              		.loc 1 54 0 discriminator 2
+ 621 0060 254B     		ldr	r3, .L7+8
+ 622 0062 1B78     		ldrb	r3, [r3]
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 13
 
 
- 581 004a FFF7FEFF 		bl	UART_1_PutString
- 582 004e 4DE0     		b	.L3
- 583              	.L2:
-  40:main.c        ****     }
-  41:main.c        ****     else if(dice1 == 0 && dice2 == 1 && mode != 1){
- 584              		.loc 1 41 0
- 585 0050 274B     		ldr	r3, .L7
- 586 0052 1B68     		ldr	r3, [r3]
- 587 0054 002B     		cmp	r3, #0
- 588 0056 15D1     		bne	.L4
- 589              		.loc 1 41 0 is_stmt 0 discriminator 1
- 590 0058 264B     		ldr	r3, .L7+4
- 591 005a 1B68     		ldr	r3, [r3]
- 592 005c 012B     		cmp	r3, #1
- 593 005e 11D1     		bne	.L4
- 594              		.loc 1 41 0 discriminator 2
- 595 0060 254B     		ldr	r3, .L7+8
- 596 0062 1B78     		ldrb	r3, [r3]
- 597 0064 DBB2     		uxtb	r3, r3
- 598 0066 012B     		cmp	r3, #1
- 599 0068 0CD0     		beq	.L4
-  42:main.c        ****         mode = 1;  
- 600              		.loc 1 42 0 is_stmt 1
- 601 006a 234B     		ldr	r3, .L7+8
- 602 006c 0122     		movs	r2, #1
- 603 006e 1A70     		strb	r2, [r3]
-  43:main.c        ****         Pin_Dice_LED_1_Write(0);
- 604              		.loc 1 43 0
- 605 0070 0020     		movs	r0, #0
- 606 0072 FFF7FEFF 		bl	Pin_Dice_LED_1_Write
-  44:main.c        ****         Pin_Dice_LED_2_Write(1);
- 607              		.loc 1 44 0
- 608 0076 0120     		movs	r0, #1
- 609 0078 FFF7FEFF 		bl	Pin_Dice_LED_2_Write
-  45:main.c        ****         UART_1_PutString("MODE 1 \n\r");
- 610              		.loc 1 45 0
- 611 007c 2048     		ldr	r0, .L7+16
- 612 007e FFF7FEFF 		bl	UART_1_PutString
- 613 0082 33E0     		b	.L3
- 614              	.L4:
-  46:main.c        ****     }
-  47:main.c        ****     else if(dice1 == 1 && dice2 == 0 && mode != 2){
- 615              		.loc 1 47 0
- 616 0084 1A4B     		ldr	r3, .L7
- 617 0086 1B68     		ldr	r3, [r3]
- 618 0088 012B     		cmp	r3, #1
- 619 008a 15D1     		bne	.L5
- 620              		.loc 1 47 0 is_stmt 0 discriminator 1
- 621 008c 194B     		ldr	r3, .L7+4
- 622 008e 1B68     		ldr	r3, [r3]
- 623 0090 002B     		cmp	r3, #0
- 624 0092 11D1     		bne	.L5
- 625              		.loc 1 47 0 discriminator 2
- 626 0094 184B     		ldr	r3, .L7+8
- 627 0096 1B78     		ldrb	r3, [r3]
- 628 0098 DBB2     		uxtb	r3, r3
- 629 009a 022B     		cmp	r3, #2
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 13
+ 623 0064 DBB2     		uxtb	r3, r3
+ 624 0066 012B     		cmp	r3, #1
+ 625 0068 0CD0     		beq	.L4
+  55:main.c        ****         mode = 1;  
+ 626              		.loc 1 55 0 is_stmt 1
+ 627 006a 234B     		ldr	r3, .L7+8
+ 628 006c 0122     		movs	r2, #1
+ 629 006e 1A70     		strb	r2, [r3]
+  56:main.c        ****         Pin_Dice_LED_1_Write(0);
+ 630              		.loc 1 56 0
+ 631 0070 0020     		movs	r0, #0
+ 632 0072 FFF7FEFF 		bl	Pin_Dice_LED_1_Write
+  57:main.c        ****         Pin_Dice_LED_2_Write(1);
+ 633              		.loc 1 57 0
+ 634 0076 0120     		movs	r0, #1
+ 635 0078 FFF7FEFF 		bl	Pin_Dice_LED_2_Write
+  58:main.c        ****         UART_1_PutString("MODE 1 \n\r");
+ 636              		.loc 1 58 0
+ 637 007c 2048     		ldr	r0, .L7+16
+ 638 007e FFF7FEFF 		bl	UART_1_PutString
+ 639 0082 33E0     		b	.L3
+ 640              	.L4:
+  59:main.c        ****     }
+  60:main.c        ****     else if(dice1 == 1 && dice2 == 0 && mode != 2){
+ 641              		.loc 1 60 0
+ 642 0084 1A4B     		ldr	r3, .L7
+ 643 0086 1B68     		ldr	r3, [r3]
+ 644 0088 012B     		cmp	r3, #1
+ 645 008a 15D1     		bne	.L5
+ 646              		.loc 1 60 0 is_stmt 0 discriminator 1
+ 647 008c 194B     		ldr	r3, .L7+4
+ 648 008e 1B68     		ldr	r3, [r3]
+ 649 0090 002B     		cmp	r3, #0
+ 650 0092 11D1     		bne	.L5
+ 651              		.loc 1 60 0 discriminator 2
+ 652 0094 184B     		ldr	r3, .L7+8
+ 653 0096 1B78     		ldrb	r3, [r3]
+ 654 0098 DBB2     		uxtb	r3, r3
+ 655 009a 022B     		cmp	r3, #2
+ 656 009c 0CD0     		beq	.L5
+  61:main.c        ****         mode = 2;
+ 657              		.loc 1 61 0 is_stmt 1
+ 658 009e 164B     		ldr	r3, .L7+8
+ 659 00a0 0222     		movs	r2, #2
+ 660 00a2 1A70     		strb	r2, [r3]
+  62:main.c        ****         Pin_Dice_LED_1_Write(1);
+ 661              		.loc 1 62 0
+ 662 00a4 0120     		movs	r0, #1
+ 663 00a6 FFF7FEFF 		bl	Pin_Dice_LED_1_Write
+  63:main.c        ****         Pin_Dice_LED_2_Write(0);
+ 664              		.loc 1 63 0
+ 665 00aa 0020     		movs	r0, #0
+ 666 00ac FFF7FEFF 		bl	Pin_Dice_LED_2_Write
+  64:main.c        ****         UART_1_PutString("MODE 2 \n\r");
+ 667              		.loc 1 64 0
+ 668 00b0 1448     		ldr	r0, .L7+20
+ 669 00b2 FFF7FEFF 		bl	UART_1_PutString
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 14
 
 
- 630 009c 0CD0     		beq	.L5
-  48:main.c        ****         mode = 2;
- 631              		.loc 1 48 0 is_stmt 1
- 632 009e 164B     		ldr	r3, .L7+8
- 633 00a0 0222     		movs	r2, #2
- 634 00a2 1A70     		strb	r2, [r3]
-  49:main.c        ****         Pin_Dice_LED_1_Write(1);
- 635              		.loc 1 49 0
- 636 00a4 0120     		movs	r0, #1
- 637 00a6 FFF7FEFF 		bl	Pin_Dice_LED_1_Write
-  50:main.c        ****         Pin_Dice_LED_2_Write(0);
- 638              		.loc 1 50 0
- 639 00aa 0020     		movs	r0, #0
- 640 00ac FFF7FEFF 		bl	Pin_Dice_LED_2_Write
-  51:main.c        ****         UART_1_PutString("MODE 2 \n\r");
- 641              		.loc 1 51 0
- 642 00b0 1448     		ldr	r0, .L7+20
- 643 00b2 FFF7FEFF 		bl	UART_1_PutString
- 644 00b6 19E0     		b	.L3
- 645              	.L5:
-  52:main.c        ****     }
-  53:main.c        ****     else if(dice1 == 1 && dice2 == 1 && mode != 3){
- 646              		.loc 1 53 0
- 647 00b8 0D4B     		ldr	r3, .L7
- 648 00ba 1B68     		ldr	r3, [r3]
- 649 00bc 012B     		cmp	r3, #1
- 650 00be 15D1     		bne	.L6
- 651              		.loc 1 53 0 is_stmt 0 discriminator 1
- 652 00c0 0C4B     		ldr	r3, .L7+4
- 653 00c2 1B68     		ldr	r3, [r3]
- 654 00c4 012B     		cmp	r3, #1
- 655 00c6 11D1     		bne	.L6
- 656              		.loc 1 53 0 discriminator 2
- 657 00c8 0B4B     		ldr	r3, .L7+8
- 658 00ca 1B78     		ldrb	r3, [r3]
- 659 00cc DBB2     		uxtb	r3, r3
- 660 00ce 032B     		cmp	r3, #3
- 661 00d0 0CD0     		beq	.L6
-  54:main.c        ****         mode = 3;
- 662              		.loc 1 54 0 is_stmt 1
- 663 00d2 094B     		ldr	r3, .L7+8
- 664 00d4 0322     		movs	r2, #3
- 665 00d6 1A70     		strb	r2, [r3]
-  55:main.c        ****         Pin_Dice_LED_1_Write(1);
- 666              		.loc 1 55 0
- 667 00d8 0120     		movs	r0, #1
- 668 00da FFF7FEFF 		bl	Pin_Dice_LED_1_Write
-  56:main.c        ****         Pin_Dice_LED_2_Write(1);
- 669              		.loc 1 56 0
- 670 00de 0120     		movs	r0, #1
- 671 00e0 FFF7FEFF 		bl	Pin_Dice_LED_2_Write
-  57:main.c        ****         UART_1_PutString("MODE 3 \n\r");
- 672              		.loc 1 57 0
- 673 00e4 0848     		ldr	r0, .L7+24
- 674 00e6 FFF7FEFF 		bl	UART_1_PutString
-  58:main.c        ****     }
-  59:main.c        **** }
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 14
+ 670 00b6 19E0     		b	.L3
+ 671              	.L5:
+  65:main.c        ****     }
+  66:main.c        ****     else if(dice1 == 1 && dice2 == 1 && mode != 3){
+ 672              		.loc 1 66 0
+ 673 00b8 0D4B     		ldr	r3, .L7
+ 674 00ba 1B68     		ldr	r3, [r3]
+ 675 00bc 012B     		cmp	r3, #1
+ 676 00be 15D1     		bne	.L6
+ 677              		.loc 1 66 0 is_stmt 0 discriminator 1
+ 678 00c0 0C4B     		ldr	r3, .L7+4
+ 679 00c2 1B68     		ldr	r3, [r3]
+ 680 00c4 012B     		cmp	r3, #1
+ 681 00c6 11D1     		bne	.L6
+ 682              		.loc 1 66 0 discriminator 2
+ 683 00c8 0B4B     		ldr	r3, .L7+8
+ 684 00ca 1B78     		ldrb	r3, [r3]
+ 685 00cc DBB2     		uxtb	r3, r3
+ 686 00ce 032B     		cmp	r3, #3
+ 687 00d0 0CD0     		beq	.L6
+  67:main.c        ****         mode = 3;
+ 688              		.loc 1 67 0 is_stmt 1
+ 689 00d2 094B     		ldr	r3, .L7+8
+ 690 00d4 0322     		movs	r2, #3
+ 691 00d6 1A70     		strb	r2, [r3]
+  68:main.c        ****         Pin_Dice_LED_1_Write(1);
+ 692              		.loc 1 68 0
+ 693 00d8 0120     		movs	r0, #1
+ 694 00da FFF7FEFF 		bl	Pin_Dice_LED_1_Write
+  69:main.c        ****         Pin_Dice_LED_2_Write(1);
+ 695              		.loc 1 69 0
+ 696 00de 0120     		movs	r0, #1
+ 697 00e0 FFF7FEFF 		bl	Pin_Dice_LED_2_Write
+  70:main.c        ****         UART_1_PutString("MODE 3 \n\r");
+ 698              		.loc 1 70 0
+ 699 00e4 0848     		ldr	r0, .L7+24
+ 700 00e6 FFF7FEFF 		bl	UART_1_PutString
+  71:main.c        ****     }
+  72:main.c        **** }
+ 701              		.loc 1 72 0
+ 702 00ea FFE7     		b	.L6
+ 703              	.L3:
+ 704              	.L6:
+ 705 00ec 00BF     		nop
+ 706 00ee 80BD     		pop	{r7, pc}
+ 707              	.L8:
+ 708              		.align	2
+ 709              	.L7:
+ 710 00f0 00000000 		.word	dice1
+ 711 00f4 00000000 		.word	dice2
+ 712 00f8 00000000 		.word	mode
+ 713 00fc 80050000 		.word	.LC0
+ 714 0100 8C050000 		.word	.LC1
+ 715 0104 98050000 		.word	.LC2
+ 716 0108 A4050000 		.word	.LC3
+ 717              		.cfi_endproc
+ 718              	.LFE64:
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 15
 
 
- 675              		.loc 1 59 0
- 676 00ea FFE7     		b	.L6
- 677              	.L3:
- 678              	.L6:
- 679 00ec 00BF     		nop
- 680 00ee 80BD     		pop	{r7, pc}
- 681              	.L8:
- 682              		.align	2
- 683              	.L7:
- 684 00f0 00000000 		.word	dice1
- 685 00f4 00000000 		.word	dice2
- 686 00f8 00000000 		.word	mode
- 687 00fc 80050000 		.word	.LC0
- 688 0100 8C050000 		.word	.LC1
- 689 0104 98050000 		.word	.LC2
- 690 0108 A4050000 		.word	.LC3
- 691              		.cfi_endproc
- 692              	.LFE64:
- 693              		.size	modecheck, .-modecheck
- 694              		.global	__aeabi_i2d
- 695              		.global	__aeabi_d2uiz
- 696              		.section	.rodata
- 697 05ae 0000     		.align	2
- 698              	.LC4:
- 699 05b0 25632563 		.ascii	"%c%c%c : %iHz DIV: %i\012\015\000"
- 699      2563203A 
- 699      20256948 
- 699      7A204449 
- 699      563A2025 
- 700              		.section	.text.longSweep,"ax",%progbits
- 701              		.align	2
- 702              		.global	longSweep
- 703              		.thumb
- 704              		.thumb_func
- 705              		.type	longSweep, %function
- 706              	longSweep:
- 707              	.LFB65:
-  60:main.c        **** 
-  61:main.c        **** void longSweep(){ // FREQ SWEEP 6kHz to 30Hz SHOWING FREQS AND DIV VIA UART
- 708              		.loc 1 61 0
- 709              		.cfi_startproc
- 710              		@ args = 0, pretend = 0, frame = 8
- 711              		@ frame_needed = 1, uses_anonymous_args = 0
- 712 0000 90B5     		push	{r4, r7, lr}
- 713              		.cfi_def_cfa_offset 12
- 714              		.cfi_offset 4, -12
- 715              		.cfi_offset 7, -8
- 716              		.cfi_offset 14, -4
- 717 0002 87B0     		sub	sp, sp, #28
- 718              		.cfi_def_cfa_offset 40
- 719 0004 04AF     		add	r7, sp, #16
- 720              		.cfi_def_cfa 7, 24
-  62:main.c        ****     if (freqClockDivCounter > MAX_FREQ_DIV){
- 721              		.loc 1 62 0
- 722 0006 474B     		ldr	r3, .L14
- 723 0008 1B88     		ldrh	r3, [r3]
- 724 000a B3F5FA5F 		cmp	r3, #8000
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 15
+ 719              		.size	modecheck, .-modecheck
+ 720              		.global	__aeabi_i2d
+ 721              		.global	__aeabi_d2uiz
+ 722              		.section	.rodata
+ 723 05ae 0000     		.align	2
+ 724              	.LC4:
+ 725 05b0 25632563 		.ascii	"%c%c%c : %iHz DIV: %i\012\015\000"
+ 725      2563203A 
+ 725      20256948 
+ 725      7A204449 
+ 725      563A2025 
+ 726              		.section	.text.longSweep,"ax",%progbits
+ 727              		.align	2
+ 728              		.global	longSweep
+ 729              		.thumb
+ 730              		.thumb_func
+ 731              		.type	longSweep, %function
+ 732              	longSweep:
+ 733              	.LFB65:
+  73:main.c        **** 
+  74:main.c        **** void longSweep(){ // FREQ SWEEP 6kHz to 30Hz SHOWING FREQS AND DIV VIA UART
+ 734              		.loc 1 74 0
+ 735              		.cfi_startproc
+ 736              		@ args = 0, pretend = 0, frame = 8
+ 737              		@ frame_needed = 1, uses_anonymous_args = 0
+ 738 0000 90B5     		push	{r4, r7, lr}
+ 739              		.cfi_def_cfa_offset 12
+ 740              		.cfi_offset 4, -12
+ 741              		.cfi_offset 7, -8
+ 742              		.cfi_offset 14, -4
+ 743 0002 87B0     		sub	sp, sp, #28
+ 744              		.cfi_def_cfa_offset 40
+ 745 0004 04AF     		add	r7, sp, #16
+ 746              		.cfi_def_cfa 7, 24
+  75:main.c        ****     if (freqClockDivCounter > MAX_FREQ_DIV){
+ 747              		.loc 1 75 0
+ 748 0006 474B     		ldr	r3, .L14
+ 749 0008 1B88     		ldrh	r3, [r3]
+ 750 000a B3F5FA5F 		cmp	r3, #8000
+ 751 000e 02D9     		bls	.L10
+  76:main.c        ****         freqClockDivCounter = START_FREQ_DIV;
+ 752              		.loc 1 76 0
+ 753 0010 444B     		ldr	r3, .L14
+ 754 0012 7822     		movs	r2, #120
+ 755 0014 1A80     		strh	r2, [r3]	@ movhi
+ 756              	.L10:
+  77:main.c        ****     }
+  78:main.c        ****     freq = 250000 / freqClockDivCounter;
+ 757              		.loc 1 78 0
+ 758 0016 434B     		ldr	r3, .L14
+ 759 0018 1B88     		ldrh	r3, [r3]
+ 760 001a 1A46     		mov	r2, r3
+ 761 001c 424B     		ldr	r3, .L14+4
+ 762 001e 93FBF2F3 		sdiv	r3, r3, r2
+ 763 0022 1846     		mov	r0, r3
+ 764 0024 FFF7FEFF 		bl	__aeabi_i2d
+ 765 0028 0346     		mov	r3, r0
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 16
 
 
- 725 000e 02D9     		bls	.L10
-  63:main.c        ****         freqClockDivCounter = START_FREQ_DIV;
- 726              		.loc 1 63 0
- 727 0010 444B     		ldr	r3, .L14
- 728 0012 7822     		movs	r2, #120
- 729 0014 1A80     		strh	r2, [r3]	@ movhi
- 730              	.L10:
-  64:main.c        ****     }
-  65:main.c        ****     freq = 250000 / freqClockDivCounter;
- 731              		.loc 1 65 0
- 732 0016 434B     		ldr	r3, .L14
- 733 0018 1B88     		ldrh	r3, [r3]
- 734 001a 1A46     		mov	r2, r3
- 735 001c 424B     		ldr	r3, .L14+4
- 736 001e 93FBF2F3 		sdiv	r3, r3, r2
- 737 0022 1846     		mov	r0, r3
- 738 0024 FFF7FEFF 		bl	__aeabi_i2d
- 739 0028 0346     		mov	r3, r0
- 740 002a 0C46     		mov	r4, r1
- 741 002c 3F4A     		ldr	r2, .L14+8
- 742 002e C2E90034 		strd	r3, [r2]
-  66:main.c        ****     intFreq = freq;
- 743              		.loc 1 66 0
- 744 0032 3E4B     		ldr	r3, .L14+8
- 745 0034 18CB     		ldmia	r3, {r3-r4}
- 746 0036 1846     		mov	r0, r3
- 747 0038 2146     		mov	r1, r4
- 748 003a FFF7FEFF 		bl	__aeabi_d2uiz
- 749 003e 0346     		mov	r3, r0
- 750 0040 9AB2     		uxth	r2, r3
- 751 0042 3B4B     		ldr	r3, .L14+12
- 752 0044 1A80     		strh	r2, [r3]	@ movhi
- 753              	.LBB2:
-  67:main.c        ****     for (uint i=0; i < sizeof(intFrequency)/sizeof(intFrequency[0]); i++){
- 754              		.loc 1 67 0
- 755 0046 0023     		movs	r3, #0
- 756 0048 7B60     		str	r3, [r7, #4]
- 757 004a 44E0     		b	.L11
- 758              	.L13:
-  68:main.c        ****         if (intFreq == intFrequency[i]){
- 759              		.loc 1 68 0
- 760 004c 394A     		ldr	r2, .L14+16
- 761 004e 7B68     		ldr	r3, [r7, #4]
- 762 0050 32F81320 		ldrh	r2, [r2, r3, lsl #1]
- 763 0054 364B     		ldr	r3, .L14+12
- 764 0056 1B88     		ldrh	r3, [r3]	@ movhi
- 765 0058 9BB2     		uxth	r3, r3
- 766 005a 9A42     		cmp	r2, r3
- 767 005c 38D1     		bne	.L12
-  69:main.c        ****             noteIndex = i;
- 768              		.loc 1 69 0
- 769 005e 7B68     		ldr	r3, [r7, #4]
- 770 0060 DAB2     		uxtb	r2, r3
- 771 0062 354B     		ldr	r3, .L14+20
- 772 0064 1A70     		strb	r2, [r3]
-  70:main.c        ****             sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[noteIndex][0],notes[noteInde
- 773              		.loc 1 70 0
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 16
+ 766 002a 0C46     		mov	r4, r1
+ 767 002c 3F4A     		ldr	r2, .L14+8
+ 768 002e C2E90034 		strd	r3, [r2]
+  79:main.c        ****     intFreq = freq;
+ 769              		.loc 1 79 0
+ 770 0032 3E4B     		ldr	r3, .L14+8
+ 771 0034 18CB     		ldmia	r3, {r3-r4}
+ 772 0036 1846     		mov	r0, r3
+ 773 0038 2146     		mov	r1, r4
+ 774 003a FFF7FEFF 		bl	__aeabi_d2uiz
+ 775 003e 0346     		mov	r3, r0
+ 776 0040 9AB2     		uxth	r2, r3
+ 777 0042 3B4B     		ldr	r3, .L14+12
+ 778 0044 1A80     		strh	r2, [r3]	@ movhi
+ 779              	.LBB2:
+  80:main.c        ****     for (uint i=0; i < sizeof(intFrequency)/sizeof(intFrequency[0]); i++){
+ 780              		.loc 1 80 0
+ 781 0046 0023     		movs	r3, #0
+ 782 0048 7B60     		str	r3, [r7, #4]
+ 783 004a 44E0     		b	.L11
+ 784              	.L13:
+  81:main.c        ****         if (intFreq == intFrequency[i]){
+ 785              		.loc 1 81 0
+ 786 004c 394A     		ldr	r2, .L14+16
+ 787 004e 7B68     		ldr	r3, [r7, #4]
+ 788 0050 32F81320 		ldrh	r2, [r2, r3, lsl #1]
+ 789 0054 364B     		ldr	r3, .L14+12
+ 790 0056 1B88     		ldrh	r3, [r3]	@ movhi
+ 791 0058 9BB2     		uxth	r3, r3
+ 792 005a 9A42     		cmp	r2, r3
+ 793 005c 38D1     		bne	.L12
+  82:main.c        ****             noteIndex = i;
+ 794              		.loc 1 82 0
+ 795 005e 7B68     		ldr	r3, [r7, #4]
+ 796 0060 DAB2     		uxtb	r2, r3
+ 797 0062 354B     		ldr	r3, .L14+20
+ 798 0064 1A70     		strb	r2, [r3]
+  83:main.c        ****             sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[noteIndex][0],notes[noteInde
+ 799              		.loc 1 83 0
+ 800 0066 344B     		ldr	r3, .L14+20
+ 801 0068 1B78     		ldrb	r3, [r3]
+ 802 006a DBB2     		uxtb	r3, r3
+ 803 006c 1946     		mov	r1, r3
+ 804 006e 334A     		ldr	r2, .L14+24
+ 805 0070 0B46     		mov	r3, r1
+ 806 0072 5B00     		lsls	r3, r3, #1
+ 807 0074 0B44     		add	r3, r3, r1
+ 808 0076 1344     		add	r3, r3, r2
+ 809 0078 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 810 007a 1846     		mov	r0, r3
+ 811 007c 2E4B     		ldr	r3, .L14+20
+ 812 007e 1B78     		ldrb	r3, [r3]
+ 813 0080 DBB2     		uxtb	r3, r3
+ 814 0082 1946     		mov	r1, r3
+ 815 0084 2D4A     		ldr	r2, .L14+24
+ 816 0086 0B46     		mov	r3, r1
+ 817 0088 5B00     		lsls	r3, r3, #1
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 17
 
 
- 774 0066 344B     		ldr	r3, .L14+20
- 775 0068 1B78     		ldrb	r3, [r3]
- 776 006a DBB2     		uxtb	r3, r3
- 777 006c 1946     		mov	r1, r3
- 778 006e 334A     		ldr	r2, .L14+24
- 779 0070 0B46     		mov	r3, r1
- 780 0072 5B00     		lsls	r3, r3, #1
- 781 0074 0B44     		add	r3, r3, r1
- 782 0076 1344     		add	r3, r3, r2
- 783 0078 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 784 007a 1846     		mov	r0, r3
- 785 007c 2E4B     		ldr	r3, .L14+20
- 786 007e 1B78     		ldrb	r3, [r3]
- 787 0080 DBB2     		uxtb	r3, r3
- 788 0082 1946     		mov	r1, r3
- 789 0084 2D4A     		ldr	r2, .L14+24
- 790 0086 0B46     		mov	r3, r1
- 791 0088 5B00     		lsls	r3, r3, #1
- 792 008a 0B44     		add	r3, r3, r1
- 793 008c 1344     		add	r3, r3, r2
- 794 008e 0133     		adds	r3, r3, #1
- 795 0090 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 796 0092 1C46     		mov	r4, r3
- 797 0094 284B     		ldr	r3, .L14+20
- 798 0096 1B78     		ldrb	r3, [r3]
- 799 0098 DBB2     		uxtb	r3, r3
- 800 009a 1946     		mov	r1, r3
- 801 009c 274A     		ldr	r2, .L14+24
- 802 009e 0B46     		mov	r3, r1
- 803 00a0 5B00     		lsls	r3, r3, #1
- 804 00a2 0B44     		add	r3, r3, r1
- 805 00a4 1344     		add	r3, r3, r2
- 806 00a6 0233     		adds	r3, r3, #2
- 807 00a8 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 808 00aa 1A46     		mov	r2, r3
- 809 00ac 204B     		ldr	r3, .L14+12
- 810 00ae 1B88     		ldrh	r3, [r3]	@ movhi
- 811 00b0 9BB2     		uxth	r3, r3
- 812 00b2 1946     		mov	r1, r3
- 813 00b4 1B4B     		ldr	r3, .L14
- 814 00b6 1B88     		ldrh	r3, [r3]
- 815 00b8 0293     		str	r3, [sp, #8]
- 816 00ba 0191     		str	r1, [sp, #4]
- 817 00bc 0092     		str	r2, [sp]
- 818 00be 2346     		mov	r3, r4
- 819 00c0 0246     		mov	r2, r0
- 820 00c2 1F49     		ldr	r1, .L14+28
- 821 00c4 1F48     		ldr	r0, .L14+32
- 822 00c6 FFF7FEFF 		bl	sprintf
-  71:main.c        ****             UART_1_PutString(transmitBuffer);
- 823              		.loc 1 71 0
- 824 00ca 1E48     		ldr	r0, .L14+32
- 825 00cc FFF7FEFF 		bl	UART_1_PutString
- 826              	.L12:
-  67:main.c        ****         if (intFreq == intFrequency[i]){
- 827              		.loc 1 67 0 discriminator 2
- 828 00d0 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 17
+ 818 008a 0B44     		add	r3, r3, r1
+ 819 008c 1344     		add	r3, r3, r2
+ 820 008e 0133     		adds	r3, r3, #1
+ 821 0090 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 822 0092 1C46     		mov	r4, r3
+ 823 0094 284B     		ldr	r3, .L14+20
+ 824 0096 1B78     		ldrb	r3, [r3]
+ 825 0098 DBB2     		uxtb	r3, r3
+ 826 009a 1946     		mov	r1, r3
+ 827 009c 274A     		ldr	r2, .L14+24
+ 828 009e 0B46     		mov	r3, r1
+ 829 00a0 5B00     		lsls	r3, r3, #1
+ 830 00a2 0B44     		add	r3, r3, r1
+ 831 00a4 1344     		add	r3, r3, r2
+ 832 00a6 0233     		adds	r3, r3, #2
+ 833 00a8 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 834 00aa 1A46     		mov	r2, r3
+ 835 00ac 204B     		ldr	r3, .L14+12
+ 836 00ae 1B88     		ldrh	r3, [r3]	@ movhi
+ 837 00b0 9BB2     		uxth	r3, r3
+ 838 00b2 1946     		mov	r1, r3
+ 839 00b4 1B4B     		ldr	r3, .L14
+ 840 00b6 1B88     		ldrh	r3, [r3]
+ 841 00b8 0293     		str	r3, [sp, #8]
+ 842 00ba 0191     		str	r1, [sp, #4]
+ 843 00bc 0092     		str	r2, [sp]
+ 844 00be 2346     		mov	r3, r4
+ 845 00c0 0246     		mov	r2, r0
+ 846 00c2 1F49     		ldr	r1, .L14+28
+ 847 00c4 1F48     		ldr	r0, .L14+32
+ 848 00c6 FFF7FEFF 		bl	sprintf
+  84:main.c        ****             UART_1_PutString(transmitBuffer);
+ 849              		.loc 1 84 0
+ 850 00ca 1E48     		ldr	r0, .L14+32
+ 851 00cc FFF7FEFF 		bl	UART_1_PutString
+ 852              	.L12:
+  80:main.c        ****         if (intFreq == intFrequency[i]){
+ 853              		.loc 1 80 0 discriminator 2
+ 854 00d0 7B68     		ldr	r3, [r7, #4]
+ 855 00d2 0133     		adds	r3, r3, #1
+ 856 00d4 7B60     		str	r3, [r7, #4]
+ 857              	.L11:
+  80:main.c        ****         if (intFreq == intFrequency[i]){
+ 858              		.loc 1 80 0 is_stmt 0 discriminator 1
+ 859 00d6 7B68     		ldr	r3, [r7, #4]
+ 860 00d8 6B2B     		cmp	r3, #107
+ 861 00da B7D9     		bls	.L13
+ 862              	.LBE2:
+  85:main.c        ****         }
+  86:main.c        ****     }
+  87:main.c        ****     Clock_1_SetDividerValue(freqClockDivCounter);
+ 863              		.loc 1 87 0 is_stmt 1
+ 864 00dc 114B     		ldr	r3, .L14
+ 865 00de 1B88     		ldrh	r3, [r3]
+ 866 00e0 013B     		subs	r3, r3, #1
+ 867 00e2 9BB2     		uxth	r3, r3
+ 868 00e4 0121     		movs	r1, #1
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 18
 
 
- 829 00d2 0133     		adds	r3, r3, #1
- 830 00d4 7B60     		str	r3, [r7, #4]
- 831              	.L11:
-  67:main.c        ****         if (intFreq == intFrequency[i]){
- 832              		.loc 1 67 0 is_stmt 0 discriminator 1
- 833 00d6 7B68     		ldr	r3, [r7, #4]
- 834 00d8 6B2B     		cmp	r3, #107
- 835 00da B7D9     		bls	.L13
- 836              	.LBE2:
-  72:main.c        ****         }
-  73:main.c        ****     }
-  74:main.c        ****     Clock_1_SetDividerValue(freqClockDivCounter);
- 837              		.loc 1 74 0 is_stmt 1
- 838 00dc 114B     		ldr	r3, .L14
- 839 00de 1B88     		ldrh	r3, [r3]
- 840 00e0 013B     		subs	r3, r3, #1
- 841 00e2 9BB2     		uxth	r3, r3
- 842 00e4 0121     		movs	r1, #1
- 843 00e6 1846     		mov	r0, r3
- 844 00e8 FFF7FEFF 		bl	Clock_1_SetDividerRegister
-  75:main.c        ****     freqClockDivCounter++;
- 845              		.loc 1 75 0
- 846 00ec 0D4B     		ldr	r3, .L14
- 847 00ee 1B88     		ldrh	r3, [r3]
- 848 00f0 0133     		adds	r3, r3, #1
- 849 00f2 9AB2     		uxth	r2, r3
- 850 00f4 0B4B     		ldr	r3, .L14
- 851 00f6 1A80     		strh	r2, [r3]	@ movhi
-  76:main.c        ****     delayMS = (MAX_FREQ_DIV / freqClockDivCounter) + 20;
- 852              		.loc 1 76 0
- 853 00f8 0A4B     		ldr	r3, .L14
- 854 00fa 1B88     		ldrh	r3, [r3]
- 855 00fc 1A46     		mov	r2, r3
- 856 00fe 4FF4FA53 		mov	r3, #8000
- 857 0102 93FBF2F3 		sdiv	r3, r3, r2
- 858 0106 9BB2     		uxth	r3, r3
- 859 0108 1433     		adds	r3, r3, #20
- 860 010a 9AB2     		uxth	r2, r3
- 861 010c 0E4B     		ldr	r3, .L14+36
- 862 010e 1A80     		strh	r2, [r3]	@ movhi
-  77:main.c        ****     CyDelay(delayMS);
- 863              		.loc 1 77 0
- 864 0110 0D4B     		ldr	r3, .L14+36
- 865 0112 1B88     		ldrh	r3, [r3]	@ movhi
- 866 0114 9BB2     		uxth	r3, r3
- 867 0116 1846     		mov	r0, r3
- 868 0118 FFF7FEFF 		bl	CyDelay
-  78:main.c        **** }
- 869              		.loc 1 78 0
- 870 011c 00BF     		nop
- 871 011e 0C37     		adds	r7, r7, #12
- 872              		.cfi_def_cfa_offset 12
- 873 0120 BD46     		mov	sp, r7
- 874              		.cfi_def_cfa_register 13
- 875              		@ sp needed
- 876 0122 90BD     		pop	{r4, r7, pc}
- 877              	.L15:
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 18
+ 869 00e6 1846     		mov	r0, r3
+ 870 00e8 FFF7FEFF 		bl	Clock_1_SetDividerRegister
+  88:main.c        ****     freqClockDivCounter++;
+ 871              		.loc 1 88 0
+ 872 00ec 0D4B     		ldr	r3, .L14
+ 873 00ee 1B88     		ldrh	r3, [r3]
+ 874 00f0 0133     		adds	r3, r3, #1
+ 875 00f2 9AB2     		uxth	r2, r3
+ 876 00f4 0B4B     		ldr	r3, .L14
+ 877 00f6 1A80     		strh	r2, [r3]	@ movhi
+  89:main.c        ****     delayMS = (MAX_FREQ_DIV / freqClockDivCounter) + 20;
+ 878              		.loc 1 89 0
+ 879 00f8 0A4B     		ldr	r3, .L14
+ 880 00fa 1B88     		ldrh	r3, [r3]
+ 881 00fc 1A46     		mov	r2, r3
+ 882 00fe 4FF4FA53 		mov	r3, #8000
+ 883 0102 93FBF2F3 		sdiv	r3, r3, r2
+ 884 0106 9BB2     		uxth	r3, r3
+ 885 0108 1433     		adds	r3, r3, #20
+ 886 010a 9AB2     		uxth	r2, r3
+ 887 010c 0E4B     		ldr	r3, .L14+36
+ 888 010e 1A80     		strh	r2, [r3]	@ movhi
+  90:main.c        ****     CyDelay(delayMS);
+ 889              		.loc 1 90 0
+ 890 0110 0D4B     		ldr	r3, .L14+36
+ 891 0112 1B88     		ldrh	r3, [r3]	@ movhi
+ 892 0114 9BB2     		uxth	r3, r3
+ 893 0116 1846     		mov	r0, r3
+ 894 0118 FFF7FEFF 		bl	CyDelay
+  91:main.c        **** }
+ 895              		.loc 1 91 0
+ 896 011c 00BF     		nop
+ 897 011e 0C37     		adds	r7, r7, #12
+ 898              		.cfi_def_cfa_offset 12
+ 899 0120 BD46     		mov	sp, r7
+ 900              		.cfi_def_cfa_register 13
+ 901              		@ sp needed
+ 902 0122 90BD     		pop	{r4, r7, pc}
+ 903              	.L15:
+ 904              		.align	2
+ 905              	.L14:
+ 906 0124 00000000 		.word	freqClockDivCounter
+ 907 0128 90D00300 		.word	250000
+ 908 012c 00000000 		.word	freq
+ 909 0130 00000000 		.word	intFreq
+ 910 0134 00000000 		.word	intFrequency
+ 911 0138 00000000 		.word	noteIndex
+ 912 013c 00000000 		.word	notes
+ 913 0140 B0050000 		.word	.LC4
+ 914 0144 00000000 		.word	transmitBuffer
+ 915 0148 00000000 		.word	delayMS
+ 916              		.cfi_endproc
+ 917              	.LFE65:
+ 918              		.size	longSweep, .-longSweep
+ 919              		.section	.rodata
+ 920              		.align	2
+ 921              	.LC5:
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 19
 
 
- 878              		.align	2
- 879              	.L14:
- 880 0124 00000000 		.word	freqClockDivCounter
- 881 0128 90D00300 		.word	250000
- 882 012c 00000000 		.word	freq
- 883 0130 00000000 		.word	intFreq
- 884 0134 00000000 		.word	intFrequency
- 885 0138 00000000 		.word	noteIndex
- 886 013c 00000000 		.word	notes
- 887 0140 B0050000 		.word	.LC4
- 888 0144 00000000 		.word	transmitBuffer
- 889 0148 00000000 		.word	delayMS
- 890              		.cfi_endproc
- 891              	.LFE65:
- 892              		.size	longSweep, .-longSweep
- 893              		.section	.rodata
- 894              		.align	2
- 895              	.LC5:
- 896 05c8 504C4159 		.ascii	"PLAY RANGE \012\015\000"
- 896      2052414E 
- 896      4745200A 
- 896      0D00
- 897              		.section	.text.playRange,"ax",%progbits
- 898              		.align	2
- 899              		.global	playRange
- 900              		.thumb
- 901              		.thumb_func
- 902              		.type	playRange, %function
- 903              	playRange:
- 904              	.LFB66:
-  79:main.c        **** 
-  80:main.c        **** void playRange(uint8 minIndex, uint8 maxIndex, uint16 playRangeDelay){
- 905              		.loc 1 80 0
- 906              		.cfi_startproc
- 907              		@ args = 0, pretend = 0, frame = 16
- 908              		@ frame_needed = 1, uses_anonymous_args = 0
- 909 0000 90B5     		push	{r4, r7, lr}
- 910              		.cfi_def_cfa_offset 12
- 911              		.cfi_offset 4, -12
- 912              		.cfi_offset 7, -8
- 913              		.cfi_offset 14, -4
- 914 0002 89B0     		sub	sp, sp, #36
- 915              		.cfi_def_cfa_offset 48
- 916 0004 04AF     		add	r7, sp, #16
- 917              		.cfi_def_cfa 7, 32
- 918 0006 0346     		mov	r3, r0
- 919 0008 FB71     		strb	r3, [r7, #7]
- 920 000a 0B46     		mov	r3, r1
- 921 000c BB71     		strb	r3, [r7, #6]
- 922 000e 1346     		mov	r3, r2	@ movhi
- 923 0010 BB80     		strh	r3, [r7, #4]	@ movhi
-  81:main.c        ****     UART_1_PutString("PLAY RANGE \n\r");
- 924              		.loc 1 81 0
- 925 0012 2D48     		ldr	r0, .L20
- 926 0014 FFF7FEFF 		bl	UART_1_PutString
-  82:main.c        ****     if (maxIndex > 107){
- 927              		.loc 1 82 0
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 19
+ 922 05c8 504C4159 		.ascii	"PLAY RANGE \012\015\000"
+ 922      2052414E 
+ 922      4745200A 
+ 922      0D00
+ 923              		.section	.text.playRange,"ax",%progbits
+ 924              		.align	2
+ 925              		.global	playRange
+ 926              		.thumb
+ 927              		.thumb_func
+ 928              		.type	playRange, %function
+ 929              	playRange:
+ 930              	.LFB66:
+  92:main.c        **** 
+  93:main.c        **** void playRange(uint8 minIndex, uint8 maxIndex, uint16 playRangeDelay){
+ 931              		.loc 1 93 0
+ 932              		.cfi_startproc
+ 933              		@ args = 0, pretend = 0, frame = 16
+ 934              		@ frame_needed = 1, uses_anonymous_args = 0
+ 935 0000 90B5     		push	{r4, r7, lr}
+ 936              		.cfi_def_cfa_offset 12
+ 937              		.cfi_offset 4, -12
+ 938              		.cfi_offset 7, -8
+ 939              		.cfi_offset 14, -4
+ 940 0002 89B0     		sub	sp, sp, #36
+ 941              		.cfi_def_cfa_offset 48
+ 942 0004 04AF     		add	r7, sp, #16
+ 943              		.cfi_def_cfa 7, 32
+ 944 0006 0346     		mov	r3, r0
+ 945 0008 FB71     		strb	r3, [r7, #7]
+ 946 000a 0B46     		mov	r3, r1
+ 947 000c BB71     		strb	r3, [r7, #6]
+ 948 000e 1346     		mov	r3, r2	@ movhi
+ 949 0010 BB80     		strh	r3, [r7, #4]	@ movhi
+  94:main.c        ****     UART_1_PutString("PLAY RANGE \n\r");
+ 950              		.loc 1 94 0
+ 951 0012 2D48     		ldr	r0, .L20
+ 952 0014 FFF7FEFF 		bl	UART_1_PutString
+  95:main.c        ****     if (maxIndex > 107){
+ 953              		.loc 1 95 0
+ 954 0018 BB79     		ldrb	r3, [r7, #6]	@ zero_extendqisi2
+ 955 001a 6B2B     		cmp	r3, #107
+ 956 001c 01D9     		bls	.L17
+  96:main.c        ****         maxIndex = 107;
+ 957              		.loc 1 96 0
+ 958 001e 6B23     		movs	r3, #107
+ 959 0020 BB71     		strb	r3, [r7, #6]
+ 960              	.L17:
+ 961              	.LBB3:
+  97:main.c        ****     }
+  98:main.c        ****     for (uint8 i = minIndex; i <= maxIndex; i++){
+ 962              		.loc 1 98 0
+ 963 0022 FB79     		ldrb	r3, [r7, #7]
+ 964 0024 FB73     		strb	r3, [r7, #15]
+ 965 0026 46E0     		b	.L18
+ 966              	.L19:
+  99:main.c        ****         freqClockDivCounter = 250000 / intFrequency[i];
+ 967              		.loc 1 99 0 discriminator 3
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 20
 
 
- 928 0018 BB79     		ldrb	r3, [r7, #6]	@ zero_extendqisi2
- 929 001a 6B2B     		cmp	r3, #107
- 930 001c 01D9     		bls	.L17
-  83:main.c        ****         maxIndex = 107;
- 931              		.loc 1 83 0
- 932 001e 6B23     		movs	r3, #107
- 933 0020 BB71     		strb	r3, [r7, #6]
- 934              	.L17:
- 935              	.LBB3:
-  84:main.c        ****     }
-  85:main.c        ****     for (uint8 i = minIndex; i <= maxIndex; i++){
- 936              		.loc 1 85 0
- 937 0022 FB79     		ldrb	r3, [r7, #7]
- 938 0024 FB73     		strb	r3, [r7, #15]
- 939 0026 46E0     		b	.L18
- 940              	.L19:
-  86:main.c        ****         freqClockDivCounter = 250000 / intFrequency[i];
- 941              		.loc 1 86 0 discriminator 3
- 942 0028 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
- 943 002a 284A     		ldr	r2, .L20+4
- 944 002c 32F81330 		ldrh	r3, [r2, r3, lsl #1]
- 945 0030 1A46     		mov	r2, r3
- 946 0032 274B     		ldr	r3, .L20+8
- 947 0034 93FBF2F3 		sdiv	r3, r3, r2
- 948 0038 9AB2     		uxth	r2, r3
- 949 003a 264B     		ldr	r3, .L20+12
- 950 003c 1A80     		strh	r2, [r3]	@ movhi
-  87:main.c        ****         Clock_1_SetDividerValue(freqClockDivCounter);
- 951              		.loc 1 87 0 discriminator 3
- 952 003e 254B     		ldr	r3, .L20+12
- 953 0040 1B88     		ldrh	r3, [r3]
- 954 0042 013B     		subs	r3, r3, #1
- 955 0044 9BB2     		uxth	r3, r3
- 956 0046 0121     		movs	r1, #1
- 957 0048 1846     		mov	r0, r3
- 958 004a FFF7FEFF 		bl	Clock_1_SetDividerRegister
-  88:main.c        ****         sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[i][0],notes[i][1], notes[i][2], 
- 959              		.loc 1 88 0 discriminator 3
- 960 004e FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
- 961 0050 2149     		ldr	r1, .L20+16
- 962 0052 1346     		mov	r3, r2
- 963 0054 5B00     		lsls	r3, r3, #1
- 964 0056 1344     		add	r3, r3, r2
- 965 0058 0B44     		add	r3, r3, r1
- 966 005a 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 967 005c 1846     		mov	r0, r3
- 968 005e FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
- 969 0060 1D49     		ldr	r1, .L20+16
- 970 0062 1346     		mov	r3, r2
- 971 0064 5B00     		lsls	r3, r3, #1
- 972 0066 1344     		add	r3, r3, r2
- 973 0068 0B44     		add	r3, r3, r1
- 974 006a 0133     		adds	r3, r3, #1
- 975 006c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 976 006e 1C46     		mov	r4, r3
- 977 0070 FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
- 978 0072 1949     		ldr	r1, .L20+16
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 20
+ 968 0028 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
+ 969 002a 284A     		ldr	r2, .L20+4
+ 970 002c 32F81330 		ldrh	r3, [r2, r3, lsl #1]
+ 971 0030 1A46     		mov	r2, r3
+ 972 0032 274B     		ldr	r3, .L20+8
+ 973 0034 93FBF2F3 		sdiv	r3, r3, r2
+ 974 0038 9AB2     		uxth	r2, r3
+ 975 003a 264B     		ldr	r3, .L20+12
+ 976 003c 1A80     		strh	r2, [r3]	@ movhi
+ 100:main.c        ****         Clock_1_SetDividerValue(freqClockDivCounter);
+ 977              		.loc 1 100 0 discriminator 3
+ 978 003e 254B     		ldr	r3, .L20+12
+ 979 0040 1B88     		ldrh	r3, [r3]
+ 980 0042 013B     		subs	r3, r3, #1
+ 981 0044 9BB2     		uxth	r3, r3
+ 982 0046 0121     		movs	r1, #1
+ 983 0048 1846     		mov	r0, r3
+ 984 004a FFF7FEFF 		bl	Clock_1_SetDividerRegister
+ 101:main.c        ****         sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[i][0],notes[i][1], notes[i][2], 
+ 985              		.loc 1 101 0 discriminator 3
+ 986 004e FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
+ 987 0050 2149     		ldr	r1, .L20+16
+ 988 0052 1346     		mov	r3, r2
+ 989 0054 5B00     		lsls	r3, r3, #1
+ 990 0056 1344     		add	r3, r3, r2
+ 991 0058 0B44     		add	r3, r3, r1
+ 992 005a 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 993 005c 1846     		mov	r0, r3
+ 994 005e FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
+ 995 0060 1D49     		ldr	r1, .L20+16
+ 996 0062 1346     		mov	r3, r2
+ 997 0064 5B00     		lsls	r3, r3, #1
+ 998 0066 1344     		add	r3, r3, r2
+ 999 0068 0B44     		add	r3, r3, r1
+ 1000 006a 0133     		adds	r3, r3, #1
+ 1001 006c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1002 006e 1C46     		mov	r4, r3
+ 1003 0070 FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
+ 1004 0072 1949     		ldr	r1, .L20+16
+ 1005 0074 1346     		mov	r3, r2
+ 1006 0076 5B00     		lsls	r3, r3, #1
+ 1007 0078 1344     		add	r3, r3, r2
+ 1008 007a 0B44     		add	r3, r3, r1
+ 1009 007c 0233     		adds	r3, r3, #2
+ 1010 007e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1011 0080 1946     		mov	r1, r3
+ 1012 0082 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
+ 1013 0084 114A     		ldr	r2, .L20+4
+ 1014 0086 32F81330 		ldrh	r3, [r2, r3, lsl #1]
+ 1015 008a 1A46     		mov	r2, r3
+ 1016 008c 114B     		ldr	r3, .L20+12
+ 1017 008e 1B88     		ldrh	r3, [r3]
+ 1018 0090 0293     		str	r3, [sp, #8]
+ 1019 0092 0192     		str	r2, [sp, #4]
+ 1020 0094 0091     		str	r1, [sp]
+ 1021 0096 2346     		mov	r3, r4
+ 1022 0098 0246     		mov	r2, r0
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 21
 
 
- 979 0074 1346     		mov	r3, r2
- 980 0076 5B00     		lsls	r3, r3, #1
- 981 0078 1344     		add	r3, r3, r2
- 982 007a 0B44     		add	r3, r3, r1
- 983 007c 0233     		adds	r3, r3, #2
- 984 007e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 985 0080 1946     		mov	r1, r3
- 986 0082 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
- 987 0084 114A     		ldr	r2, .L20+4
- 988 0086 32F81330 		ldrh	r3, [r2, r3, lsl #1]
- 989 008a 1A46     		mov	r2, r3
- 990 008c 114B     		ldr	r3, .L20+12
- 991 008e 1B88     		ldrh	r3, [r3]
- 992 0090 0293     		str	r3, [sp, #8]
- 993 0092 0192     		str	r2, [sp, #4]
- 994 0094 0091     		str	r1, [sp]
- 995 0096 2346     		mov	r3, r4
- 996 0098 0246     		mov	r2, r0
- 997 009a 1049     		ldr	r1, .L20+20
- 998 009c 1048     		ldr	r0, .L20+24
- 999 009e FFF7FEFF 		bl	sprintf
-  89:main.c        ****         UART_1_PutString(transmitBuffer);
- 1000              		.loc 1 89 0 discriminator 3
- 1001 00a2 0F48     		ldr	r0, .L20+24
- 1002 00a4 FFF7FEFF 		bl	UART_1_PutString
-  90:main.c        ****         CyDelay(playRangeDelay);
- 1003              		.loc 1 90 0 discriminator 3
- 1004 00a8 BB88     		ldrh	r3, [r7, #4]
- 1005 00aa 1846     		mov	r0, r3
- 1006 00ac FFF7FEFF 		bl	CyDelay
-  85:main.c        ****         freqClockDivCounter = 250000 / intFrequency[i];
- 1007              		.loc 1 85 0 discriminator 3
- 1008 00b0 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
- 1009 00b2 0133     		adds	r3, r3, #1
- 1010 00b4 FB73     		strb	r3, [r7, #15]
- 1011              	.L18:
-  85:main.c        ****         freqClockDivCounter = 250000 / intFrequency[i];
- 1012              		.loc 1 85 0 is_stmt 0 discriminator 1
- 1013 00b6 FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
- 1014 00b8 BB79     		ldrb	r3, [r7, #6]	@ zero_extendqisi2
- 1015 00ba 9A42     		cmp	r2, r3
- 1016 00bc B4D9     		bls	.L19
- 1017              	.LBE3:
-  91:main.c        ****     }
-  92:main.c        **** }
- 1018              		.loc 1 92 0 is_stmt 1
- 1019 00be 00BF     		nop
- 1020 00c0 1437     		adds	r7, r7, #20
- 1021              		.cfi_def_cfa_offset 12
- 1022 00c2 BD46     		mov	sp, r7
- 1023              		.cfi_def_cfa_register 13
- 1024              		@ sp needed
- 1025 00c4 90BD     		pop	{r4, r7, pc}
- 1026              	.L21:
- 1027 00c6 00BF     		.align	2
- 1028              	.L20:
- 1029 00c8 C8050000 		.word	.LC5
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 21
+ 1023 009a 1049     		ldr	r1, .L20+20
+ 1024 009c 1048     		ldr	r0, .L20+24
+ 1025 009e FFF7FEFF 		bl	sprintf
+ 102:main.c        ****         UART_1_PutString(transmitBuffer);
+ 1026              		.loc 1 102 0 discriminator 3
+ 1027 00a2 0F48     		ldr	r0, .L20+24
+ 1028 00a4 FFF7FEFF 		bl	UART_1_PutString
+ 103:main.c        ****         CyDelay(playRangeDelay);
+ 1029              		.loc 1 103 0 discriminator 3
+ 1030 00a8 BB88     		ldrh	r3, [r7, #4]
+ 1031 00aa 1846     		mov	r0, r3
+ 1032 00ac FFF7FEFF 		bl	CyDelay
+  98:main.c        ****         freqClockDivCounter = 250000 / intFrequency[i];
+ 1033              		.loc 1 98 0 discriminator 3
+ 1034 00b0 FB7B     		ldrb	r3, [r7, #15]	@ zero_extendqisi2
+ 1035 00b2 0133     		adds	r3, r3, #1
+ 1036 00b4 FB73     		strb	r3, [r7, #15]
+ 1037              	.L18:
+  98:main.c        ****         freqClockDivCounter = 250000 / intFrequency[i];
+ 1038              		.loc 1 98 0 is_stmt 0 discriminator 1
+ 1039 00b6 FA7B     		ldrb	r2, [r7, #15]	@ zero_extendqisi2
+ 1040 00b8 BB79     		ldrb	r3, [r7, #6]	@ zero_extendqisi2
+ 1041 00ba 9A42     		cmp	r2, r3
+ 1042 00bc B4D9     		bls	.L19
+ 1043              	.LBE3:
+ 104:main.c        ****     }
+ 105:main.c        **** }
+ 1044              		.loc 1 105 0 is_stmt 1
+ 1045 00be 00BF     		nop
+ 1046 00c0 1437     		adds	r7, r7, #20
+ 1047              		.cfi_def_cfa_offset 12
+ 1048 00c2 BD46     		mov	sp, r7
+ 1049              		.cfi_def_cfa_register 13
+ 1050              		@ sp needed
+ 1051 00c4 90BD     		pop	{r4, r7, pc}
+ 1052              	.L21:
+ 1053 00c6 00BF     		.align	2
+ 1054              	.L20:
+ 1055 00c8 C8050000 		.word	.LC5
+ 1056 00cc 00000000 		.word	intFrequency
+ 1057 00d0 90D00300 		.word	250000
+ 1058 00d4 00000000 		.word	freqClockDivCounter
+ 1059 00d8 00000000 		.word	notes
+ 1060 00dc B0050000 		.word	.LC4
+ 1061 00e0 00000000 		.word	transmitBuffer
+ 1062              		.cfi_endproc
+ 1063              	.LFE66:
+ 1064              		.size	playRange, .-playRange
+ 1065              		.section	.rodata
+ 1066 05d6 0000     		.align	2
+ 1067              	.LC6:
+ 1068 05d8 48656C6C 		.ascii	"Hello \012\015\000"
+ 1068      6F200A0D 
+ 1068      00
+ 1069 05e1 000000   		.align	2
+ 1070              	.LC7:
+ 1071 05e4 0D0A00   		.ascii	"\015\012\000"
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 22
 
 
- 1030 00cc 00000000 		.word	intFrequency
- 1031 00d0 90D00300 		.word	250000
- 1032 00d4 00000000 		.word	freqClockDivCounter
- 1033 00d8 00000000 		.word	notes
- 1034 00dc B0050000 		.word	.LC4
- 1035 00e0 00000000 		.word	transmitBuffer
- 1036              		.cfi_endproc
- 1037              	.LFE66:
- 1038              		.size	playRange, .-playRange
- 1039              		.section	.rodata
- 1040 05d6 0000     		.align	2
- 1041              	.LC6:
- 1042 05d8 48656C6C 		.ascii	"Hello \012\015\000"
- 1042      6F200A0D 
- 1042      00
- 1043              		.section	.text.main,"ax",%progbits
- 1044              		.align	2
- 1045              		.global	main
- 1046              		.thumb
- 1047              		.thumb_func
- 1048              		.type	main, %function
- 1049              	main:
- 1050              	.LFB67:
-  93:main.c        **** 
-  94:main.c        **** int main(){
- 1051              		.loc 1 94 0
- 1052              		.cfi_startproc
- 1053              		@ args = 0, pretend = 0, frame = 0
- 1054              		@ frame_needed = 1, uses_anonymous_args = 0
- 1055 0000 80B5     		push	{r7, lr}
- 1056              		.cfi_def_cfa_offset 8
- 1057              		.cfi_offset 7, -8
- 1058              		.cfi_offset 14, -4
- 1059 0002 00AF     		add	r7, sp, #0
- 1060              		.cfi_def_cfa_register 7
-  95:main.c        ****     CyGlobalIntEnable;
- 1061              		.loc 1 95 0
- 1062              		.syntax unified
- 1063              	@ 95 "main.c" 1
- 1064 0004 62B6     		CPSIE   i
- 1065              	@ 0 "" 2
-  96:main.c        ****     UART_1_Start();
- 1066              		.loc 1 96 0
- 1067              		.thumb
- 1068              		.syntax unified
- 1069 0006 FFF7FEFF 		bl	UART_1_Start
-  97:main.c        ****     UART_1_PutString("Hello \n\r");
- 1070              		.loc 1 97 0
- 1071 000a 1B48     		ldr	r0, .L33
- 1072 000c FFF7FEFF 		bl	UART_1_PutString
-  98:main.c        ****     WaveDAC8_1_Start();
- 1073              		.loc 1 98 0
- 1074 0010 FFF7FEFF 		bl	WaveDAC8_1_Start
-  99:main.c        ****     Timer_Mode_Start();
- 1075              		.loc 1 99 0
- 1076 0014 FFF7FEFF 		bl	Timer_Mode_Start
- 100:main.c        ****     Clock_Mode_Start();
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 22
+ 1072              		.section	.text.main,"ax",%progbits
+ 1073              		.align	2
+ 1074              		.global	main
+ 1075              		.thumb
+ 1076              		.thumb_func
+ 1077              		.type	main, %function
+ 1078              	main:
+ 1079              	.LFB67:
+ 106:main.c        **** 
+ 107:main.c        **** 
+ 108:main.c        **** int main(){
+ 1080              		.loc 1 108 0
+ 1081              		.cfi_startproc
+ 1082              		@ args = 0, pretend = 0, frame = 0
+ 1083              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1084 0000 80B5     		push	{r7, lr}
+ 1085              		.cfi_def_cfa_offset 8
+ 1086              		.cfi_offset 7, -8
+ 1087              		.cfi_offset 14, -4
+ 1088 0002 00AF     		add	r7, sp, #0
+ 1089              		.cfi_def_cfa_register 7
+ 109:main.c        ****     CyGlobalIntEnable;
+ 1090              		.loc 1 109 0
+ 1091              		.syntax unified
+ 1092              	@ 109 "main.c" 1
+ 1093 0004 62B6     		CPSIE   i
+ 1094              	@ 0 "" 2
+ 110:main.c        ****     
+ 111:main.c        ****     debouncerClock_Start();
+ 1095              		.loc 1 111 0
+ 1096              		.thumb
+ 1097              		.syntax unified
+ 1098 0006 FFF7FEFF 		bl	debouncerClock_Start
+ 112:main.c        ****     but1_isr_pos_StartEx(but1_isr_pos_vect);
+ 1099              		.loc 1 112 0
+ 1100 000a 5748     		ldr	r0, .L35
+ 1101 000c FFF7FEFF 		bl	but1_isr_pos_StartEx
+ 113:main.c        ****     but1_isr_neg_StartEx(but1_isr_neg_vect);
+ 1102              		.loc 1 113 0
+ 1103 0010 5648     		ldr	r0, .L35+4
+ 1104 0012 FFF7FEFF 		bl	but1_isr_neg_StartEx
+ 114:main.c        ****     but2_isr_pos_StartEx(but2_isr_pos_vect);
+ 1105              		.loc 1 114 0
+ 1106 0016 5648     		ldr	r0, .L35+8
+ 1107 0018 FFF7FEFF 		bl	but2_isr_pos_StartEx
+ 115:main.c        ****     but2_isr_neg_StartEx(but2_isr_neg_vect);
+ 1108              		.loc 1 115 0
+ 1109 001c 5548     		ldr	r0, .L35+12
+ 1110 001e FFF7FEFF 		bl	but2_isr_neg_StartEx
+ 116:main.c        ****     but3_isr_pos_StartEx(but3_isr_pos_vect);
+ 1111              		.loc 1 116 0
+ 1112 0022 5548     		ldr	r0, .L35+16
+ 1113 0024 FFF7FEFF 		bl	but3_isr_pos_StartEx
+ 117:main.c        ****     but3_isr_neg_StartEx(but3_isr_neg_vect);
+ 1114              		.loc 1 117 0
+ 1115 0028 5448     		ldr	r0, .L35+20
+ 1116 002a FFF7FEFF 		bl	but3_isr_neg_StartEx
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 23
 
 
- 1077              		.loc 1 100 0
- 1078 0018 FFF7FEFF 		bl	Clock_Mode_Start
- 101:main.c        ****     isr_checkMode_StartEx(userModeTimer_ISR);  
- 1079              		.loc 1 101 0
- 1080 001c 1748     		ldr	r0, .L33+4
- 1081 001e FFF7FEFF 		bl	isr_checkMode_StartEx
- 1082              	.L31:
- 102:main.c        ****     for(;;){
- 103:main.c        ****         if (checkingMode && modeFlag){
- 1083              		.loc 1 103 0
- 1084 0022 174B     		ldr	r3, .L33+8
- 1085 0024 1B78     		ldrb	r3, [r3]
- 1086 0026 DBB2     		uxtb	r3, r3
- 1087 0028 002B     		cmp	r3, #0
- 1088 002a 09D0     		beq	.L23
- 1089              		.loc 1 103 0 is_stmt 0 discriminator 1
- 1090 002c 154B     		ldr	r3, .L33+12
- 1091 002e 1B78     		ldrb	r3, [r3]
- 1092 0030 DBB2     		uxtb	r3, r3
- 1093 0032 002B     		cmp	r3, #0
- 1094 0034 04D0     		beq	.L23
- 104:main.c        ****             modecheck();
- 1095              		.loc 1 104 0 is_stmt 1
- 1096 0036 FFF7FEFF 		bl	modecheck
- 105:main.c        ****             modeFlag = 0;
- 1097              		.loc 1 105 0
- 1098 003a 124B     		ldr	r3, .L33+12
- 1099 003c 0022     		movs	r2, #0
- 1100 003e 1A70     		strb	r2, [r3]
- 1101              	.L23:
- 106:main.c        ****         }
- 107:main.c        ****         switch (mode){
- 1102              		.loc 1 107 0
- 1103 0040 114B     		ldr	r3, .L33+16
- 1104 0042 1B78     		ldrb	r3, [r3]
- 1105 0044 DBB2     		uxtb	r3, r3
- 1106 0046 032B     		cmp	r3, #3
- 1107 0048 13D8     		bhi	.L32
- 1108 004a 01A2     		adr	r2, .L26
- 1109 004c 52F823F0 		ldr	pc, [r2, r3, lsl #2]
- 1110              		.p2align 2
- 1111              	.L26:
- 1112 0050 61000000 		.word	.L25+1
- 1113 0054 67000000 		.word	.L27+1
- 1114 0058 73000000 		.word	.L32+1
- 1115 005c 73000000 		.word	.L32+1
- 1116              		.p2align 1
- 1117              	.L25:
- 108:main.c        ****             case 0:     
- 109:main.c        ****                 longSweep();
- 1118              		.loc 1 109 0
- 1119 0060 FFF7FEFF 		bl	longSweep
- 110:main.c        ****                 break;
- 1120              		.loc 1 110 0
- 1121 0064 06E0     		b	.L30
- 1122              	.L27:
- 111:main.c        ****             case 1:
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 23
+ 118:main.c        ****     
+ 119:main.c        ****     
+ 120:main.c        ****     UART_1_Start();
+ 1117              		.loc 1 120 0
+ 1118 002e FFF7FEFF 		bl	UART_1_Start
+ 121:main.c        ****     UART_1_PutString("Hello \n\r");
+ 1119              		.loc 1 121 0
+ 1120 0032 5348     		ldr	r0, .L35+24
+ 1121 0034 FFF7FEFF 		bl	UART_1_PutString
+ 122:main.c        ****     WaveDAC8_1_Start();
+ 1122              		.loc 1 122 0
+ 1123 0038 FFF7FEFF 		bl	WaveDAC8_1_Start
+ 1124              	.L33:
+ 123:main.c        ****     //Timer_Mode_Start();
+ 124:main.c        ****     //Clock_Mode_Start();
+ 125:main.c        ****     //isr_checkMode_StartEx(userModeTimer_ISR);  
+ 126:main.c        ****     for(;;){
+ 127:main.c        ****         //if (checkingMode && modeFlag){
+ 128:main.c        ****         //    modecheck();
+ 129:main.c        ****         //    modeFlag = 0;
+ 130:main.c        ****         //}
+ 131:main.c        ****         mode = 3;
+ 1125              		.loc 1 131 0
+ 1126 003c 514B     		ldr	r3, .L35+28
+ 1127 003e 0322     		movs	r2, #3
+ 1128 0040 1A70     		strb	r2, [r3]
+ 132:main.c        ****         switch (mode){
+ 1129              		.loc 1 132 0
+ 1130 0042 504B     		ldr	r3, .L35+28
+ 1131 0044 1B78     		ldrb	r3, [r3]
+ 1132 0046 DBB2     		uxtb	r3, r3
+ 1133 0048 032B     		cmp	r3, #3
+ 1134 004a 00F28A80 		bhi	.L34
+ 1135 004e 01A2     		adr	r2, .L25
+ 1136 0050 52F823F0 		ldr	pc, [r2, r3, lsl #2]
+ 1137              		.p2align 2
+ 1138              	.L25:
+ 1139 0054 65000000 		.word	.L24+1
+ 1140 0058 6B000000 		.word	.L26+1
+ 1141 005c 63010000 		.word	.L34+1
+ 1142 0060 77000000 		.word	.L28+1
+ 1143              		.p2align 1
+ 1144              	.L24:
+ 133:main.c        ****             case 0:     
+ 134:main.c        ****                 longSweep();
+ 1145              		.loc 1 134 0
+ 1146 0064 FFF7FEFF 		bl	longSweep
+ 135:main.c        ****                 break;
+ 1147              		.loc 1 135 0
+ 1148 0068 7CE0     		b	.L29
+ 1149              	.L26:
+ 136:main.c        ****             case 1:
+ 137:main.c        ****                 playRange(50,90,120); // set min index, max Index, delay [ms]
+ 1150              		.loc 1 137 0
+ 1151 006a 7822     		movs	r2, #120
+ 1152 006c 5A21     		movs	r1, #90
+ 1153 006e 3220     		movs	r0, #50
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 24
 
 
- 112:main.c        ****                 playRange(50,90,120); // set min index, max Index, delay [ms]
- 1123              		.loc 1 112 0
- 1124 0066 7822     		movs	r2, #120
- 1125 0068 5A21     		movs	r1, #90
- 1126 006a 3220     		movs	r0, #50
- 1127 006c FFF7FEFF 		bl	playRange
- 113:main.c        ****                 break;
- 1128              		.loc 1 113 0
- 1129 0070 00E0     		b	.L30
- 1130              	.L32:
- 114:main.c        ****             case 2:
- 115:main.c        ****                 break;
- 116:main.c        ****             case 3:
- 117:main.c        ****                 break;
- 118:main.c        ****             default:
- 119:main.c        ****                 break;
- 1131              		.loc 1 119 0
- 1132 0072 00BF     		nop
- 1133              	.L30:
- 120:main.c        ****         }
- 121:main.c        ****     }
- 1134              		.loc 1 121 0 discriminator 1
- 1135 0074 D5E7     		b	.L31
- 1136              	.L34:
- 1137 0076 00BF     		.align	2
- 1138              	.L33:
- 1139 0078 D8050000 		.word	.LC6
- 1140 007c 00000000 		.word	userModeTimer_ISR
- 1141 0080 00000000 		.word	checkingMode
- 1142 0084 00000000 		.word	modeFlag
- 1143 0088 00000000 		.word	mode
- 1144              		.cfi_endproc
- 1145              	.LFE67:
- 1146              		.size	main, .-main
- 1147              		.section	.text.userModeTimer_ISR,"ax",%progbits
- 1148              		.align	2
- 1149              		.global	userModeTimer_ISR
- 1150              		.thumb
- 1151              		.thumb_func
- 1152              		.type	userModeTimer_ISR, %function
- 1153              	userModeTimer_ISR:
- 1154              	.LFB68:
- 122:main.c        **** }
- 123:main.c        **** 
- 124:main.c        **** CY_ISR(userModeTimer_ISR){ 
- 1155              		.loc 1 124 0
- 1156              		.cfi_startproc
- 1157              		@ args = 0, pretend = 0, frame = 0
- 1158              		@ frame_needed = 1, uses_anonymous_args = 0
- 1159 0000 80B5     		push	{r7, lr}
- 1160              		.cfi_def_cfa_offset 8
- 1161              		.cfi_offset 7, -8
- 1162              		.cfi_offset 14, -4
- 1163 0002 00AF     		add	r7, sp, #0
- 1164              		.cfi_def_cfa_register 7
- 125:main.c        ****     modeFlag = 1;
- 1165              		.loc 1 125 0
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 24
+ 1154 0070 FFF7FEFF 		bl	playRange
+ 138:main.c        ****                 break;
+ 1155              		.loc 1 138 0
+ 1156 0074 76E0     		b	.L29
+ 1157              	.L28:
+ 139:main.c        ****             case 2:
+ 140:main.c        ****                 break;
+ 141:main.c        ****             case 3:
+ 142:main.c        ****                 if(button1){
+ 1158              		.loc 1 142 0
+ 1159 0076 444B     		ldr	r3, .L35+32
+ 1160 0078 1B78     		ldrb	r3, [r3]
+ 1161 007a DBB2     		uxtb	r3, r3
+ 1162 007c 002B     		cmp	r3, #0
+ 1163 007e 0FD0     		beq	.L30
+ 143:main.c        ****                     UART_1_PutString("\r\n");
+ 1164              		.loc 1 143 0
+ 1165 0080 4248     		ldr	r0, .L35+36
+ 1166 0082 FFF7FEFF 		bl	UART_1_PutString
+ 144:main.c        ****                     UART_1_PutChar(notes[button1][0]);
+ 1167              		.loc 1 144 0
+ 1168 0086 404B     		ldr	r3, .L35+32
+ 1169 0088 1B78     		ldrb	r3, [r3]
+ 1170 008a DBB2     		uxtb	r3, r3
+ 1171 008c 1946     		mov	r1, r3
+ 1172 008e 404A     		ldr	r2, .L35+40
+ 1173 0090 0B46     		mov	r3, r1
+ 1174 0092 5B00     		lsls	r3, r3, #1
+ 1175 0094 0B44     		add	r3, r3, r1
+ 1176 0096 1344     		add	r3, r3, r2
+ 1177 0098 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1178 009a 1846     		mov	r0, r3
+ 1179 009c FFF7FEFF 		bl	UART_1_PutChar
+ 1180              	.L30:
+ 145:main.c        ****                 }
+ 146:main.c        ****                 Clock_1_SetDividerValue(250000 / intFrequency[button1]);
+ 1181              		.loc 1 146 0
+ 1182 00a0 394B     		ldr	r3, .L35+32
+ 1183 00a2 1B78     		ldrb	r3, [r3]
+ 1184 00a4 DBB2     		uxtb	r3, r3
+ 1185 00a6 1A46     		mov	r2, r3
+ 1186 00a8 3A4B     		ldr	r3, .L35+44
+ 1187 00aa 33F81230 		ldrh	r3, [r3, r2, lsl #1]
+ 1188 00ae 1A46     		mov	r2, r3
+ 1189 00b0 394B     		ldr	r3, .L35+48
+ 1190 00b2 93FBF2F3 		sdiv	r3, r3, r2
+ 1191 00b6 9BB2     		uxth	r3, r3
+ 1192 00b8 013B     		subs	r3, r3, #1
+ 1193 00ba 9BB2     		uxth	r3, r3
+ 1194 00bc 0121     		movs	r1, #1
+ 1195 00be 1846     		mov	r0, r3
+ 1196 00c0 FFF7FEFF 		bl	Clock_1_SetDividerRegister
+ 147:main.c        ****                 if(button2){
+ 1197              		.loc 1 147 0
+ 1198 00c4 354B     		ldr	r3, .L35+52
+ 1199 00c6 1B78     		ldrb	r3, [r3]
+ 1200 00c8 DBB2     		uxtb	r3, r3
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 25
 
 
- 1166 0004 034B     		ldr	r3, .L36
- 1167 0006 0122     		movs	r2, #1
- 1168 0008 1A70     		strb	r2, [r3]
- 126:main.c        ****     Timer_Mode_ReadStatusRegister();
- 1169              		.loc 1 126 0
- 1170 000a FFF7FEFF 		bl	Timer_Mode_ReadStatusRegister
- 127:main.c        **** }
- 1171              		.loc 1 127 0
- 1172 000e 00BF     		nop
- 1173 0010 80BD     		pop	{r7, pc}
- 1174              	.L37:
- 1175 0012 00BF     		.align	2
- 1176              	.L36:
- 1177 0014 00000000 		.word	modeFlag
- 1178              		.cfi_endproc
- 1179              	.LFE68:
- 1180              		.size	userModeTimer_ISR, .-userModeTimer_ISR
- 1181              		.text
- 1182              	.Letext0:
- 1183              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 1184              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 1185              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
- 1186              		.file 5 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 1187              		.file 6 "Generated_Source\\PSoC5/core_cm3.h"
- 1188              		.section	.debug_info,"",%progbits
- 1189              	.Ldebug_info0:
- 1190 0000 30030000 		.4byte	0x330
- 1191 0004 0400     		.2byte	0x4
- 1192 0006 00000000 		.4byte	.Ldebug_abbrev0
- 1193 000a 04       		.byte	0x4
- 1194 000b 01       		.uleb128 0x1
- 1195 000c 12000000 		.4byte	.LASF41
- 1196 0010 0C       		.byte	0xc
- 1197 0011 48020000 		.4byte	.LASF42
- 1198 0015 C8000000 		.4byte	.LASF43
- 1199 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 1200 001d 00000000 		.4byte	0
- 1201 0021 00000000 		.4byte	.Ldebug_line0
- 1202 0025 02       		.uleb128 0x2
- 1203 0026 01       		.byte	0x1
- 1204 0027 06       		.byte	0x6
- 1205 0028 9A020000 		.4byte	.LASF0
- 1206 002c 02       		.uleb128 0x2
- 1207 002d 01       		.byte	0x1
- 1208 002e 08       		.byte	0x8
- 1209 002f 7D010000 		.4byte	.LASF1
- 1210 0033 02       		.uleb128 0x2
- 1211 0034 02       		.byte	0x2
- 1212 0035 05       		.byte	0x5
- 1213 0036 AD010000 		.4byte	.LASF2
- 1214 003a 02       		.uleb128 0x2
- 1215 003b 02       		.byte	0x2
- 1216 003c 07       		.byte	0x7
- 1217 003d 48010000 		.4byte	.LASF3
- 1218 0041 03       		.uleb128 0x3
- 1219 0042 AF000000 		.4byte	.LASF9
- 1220 0046 02       		.byte	0x2
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 25
+ 1201 00ca 002B     		cmp	r3, #0
+ 1202 00cc 0FD0     		beq	.L31
+ 148:main.c        ****                     UART_1_PutString("\r\n");
+ 1203              		.loc 1 148 0
+ 1204 00ce 2F48     		ldr	r0, .L35+36
+ 1205 00d0 FFF7FEFF 		bl	UART_1_PutString
+ 149:main.c        ****                     UART_1_PutChar(notes[button2][0]);
+ 1206              		.loc 1 149 0
+ 1207 00d4 314B     		ldr	r3, .L35+52
+ 1208 00d6 1B78     		ldrb	r3, [r3]
+ 1209 00d8 DBB2     		uxtb	r3, r3
+ 1210 00da 1946     		mov	r1, r3
+ 1211 00dc 2C4A     		ldr	r2, .L35+40
+ 1212 00de 0B46     		mov	r3, r1
+ 1213 00e0 5B00     		lsls	r3, r3, #1
+ 1214 00e2 0B44     		add	r3, r3, r1
+ 1215 00e4 1344     		add	r3, r3, r2
+ 1216 00e6 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1217 00e8 1846     		mov	r0, r3
+ 1218 00ea FFF7FEFF 		bl	UART_1_PutChar
+ 1219              	.L31:
+ 150:main.c        ****                 }
+ 151:main.c        ****                 Clock_1_SetDividerValue(250000 / intFrequency[button2]);
+ 1220              		.loc 1 151 0
+ 1221 00ee 2B4B     		ldr	r3, .L35+52
+ 1222 00f0 1B78     		ldrb	r3, [r3]
+ 1223 00f2 DBB2     		uxtb	r3, r3
+ 1224 00f4 1A46     		mov	r2, r3
+ 1225 00f6 274B     		ldr	r3, .L35+44
+ 1226 00f8 33F81230 		ldrh	r3, [r3, r2, lsl #1]
+ 1227 00fc 1A46     		mov	r2, r3
+ 1228 00fe 264B     		ldr	r3, .L35+48
+ 1229 0100 93FBF2F3 		sdiv	r3, r3, r2
+ 1230 0104 9BB2     		uxth	r3, r3
+ 1231 0106 013B     		subs	r3, r3, #1
+ 1232 0108 9BB2     		uxth	r3, r3
+ 1233 010a 0121     		movs	r1, #1
+ 1234 010c 1846     		mov	r0, r3
+ 1235 010e FFF7FEFF 		bl	Clock_1_SetDividerRegister
+ 152:main.c        ****                 if(button3){
+ 1236              		.loc 1 152 0
+ 1237 0112 234B     		ldr	r3, .L35+56
+ 1238 0114 1B78     		ldrb	r3, [r3]
+ 1239 0116 DBB2     		uxtb	r3, r3
+ 1240 0118 002B     		cmp	r3, #0
+ 1241 011a 0FD0     		beq	.L32
+ 153:main.c        ****                     UART_1_PutString("\r\n");
+ 1242              		.loc 1 153 0
+ 1243 011c 1B48     		ldr	r0, .L35+36
+ 1244 011e FFF7FEFF 		bl	UART_1_PutString
+ 154:main.c        ****                     UART_1_PutChar(notes[button3][0]);
+ 1245              		.loc 1 154 0
+ 1246 0122 1F4B     		ldr	r3, .L35+56
+ 1247 0124 1B78     		ldrb	r3, [r3]
+ 1248 0126 DBB2     		uxtb	r3, r3
+ 1249 0128 1946     		mov	r1, r3
+ 1250 012a 194A     		ldr	r2, .L35+40
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 26
 
 
- 1221 0047 3F       		.byte	0x3f
- 1222 0048 4C000000 		.4byte	0x4c
- 1223 004c 02       		.uleb128 0x2
- 1224 004d 04       		.byte	0x4
- 1225 004e 05       		.byte	0x5
- 1226 004f 85020000 		.4byte	.LASF4
- 1227 0053 02       		.uleb128 0x2
- 1228 0054 04       		.byte	0x4
- 1229 0055 07       		.byte	0x7
- 1230 0056 36010000 		.4byte	.LASF5
- 1231 005a 02       		.uleb128 0x2
- 1232 005b 08       		.byte	0x8
- 1233 005c 05       		.byte	0x5
- 1234 005d 3A020000 		.4byte	.LASF6
- 1235 0061 02       		.uleb128 0x2
- 1236 0062 08       		.byte	0x8
- 1237 0063 07       		.byte	0x7
- 1238 0064 F3010000 		.4byte	.LASF7
- 1239 0068 04       		.uleb128 0x4
- 1240 0069 04       		.byte	0x4
- 1241 006a 05       		.byte	0x5
- 1242 006b 696E7400 		.ascii	"int\000"
- 1243 006f 02       		.uleb128 0x2
- 1244 0070 04       		.byte	0x4
- 1245 0071 07       		.byte	0x7
- 1246 0072 D2010000 		.4byte	.LASF8
- 1247 0076 03       		.uleb128 0x3
- 1248 0077 23020000 		.4byte	.LASF10
- 1249 007b 03       		.byte	0x3
- 1250 007c 2C       		.byte	0x2c
- 1251 007d 41000000 		.4byte	0x41
- 1252 0081 05       		.uleb128 0x5
- 1253 0082 B9000000 		.4byte	.LASF11
- 1254 0086 04       		.byte	0x4
- 1255 0087 9201     		.2byte	0x192
- 1256 0089 2C000000 		.4byte	0x2c
- 1257 008d 05       		.uleb128 0x5
- 1258 008e B7010000 		.4byte	.LASF12
- 1259 0092 04       		.byte	0x4
- 1260 0093 9301     		.2byte	0x193
- 1261 0095 3A000000 		.4byte	0x3a
- 1262 0099 02       		.uleb128 0x2
- 1263 009a 04       		.byte	0x4
- 1264 009b 04       		.byte	0x4
- 1265 009c 1E010000 		.4byte	.LASF13
- 1266 00a0 02       		.uleb128 0x2
- 1267 00a1 08       		.byte	0x8
- 1268 00a2 04       		.byte	0x4
- 1269 00a3 8B010000 		.4byte	.LASF14
- 1270 00a7 02       		.uleb128 0x2
- 1271 00a8 01       		.byte	0x1
- 1272 00a9 08       		.byte	0x8
- 1273 00aa 4F020000 		.4byte	.LASF15
- 1274 00ae 06       		.uleb128 0x6
- 1275 00af 81000000 		.4byte	0x81
- 1276 00b3 06       		.uleb128 0x6
- 1277 00b4 8D000000 		.4byte	0x8d
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 26
+ 1251 012c 0B46     		mov	r3, r1
+ 1252 012e 5B00     		lsls	r3, r3, #1
+ 1253 0130 0B44     		add	r3, r3, r1
+ 1254 0132 1344     		add	r3, r3, r2
+ 1255 0134 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1256 0136 1846     		mov	r0, r3
+ 1257 0138 FFF7FEFF 		bl	UART_1_PutChar
+ 1258              	.L32:
+ 155:main.c        ****                 }
+ 156:main.c        ****                 Clock_1_SetDividerValue(250000 / intFrequency[button3]);
+ 1259              		.loc 1 156 0
+ 1260 013c 184B     		ldr	r3, .L35+56
+ 1261 013e 1B78     		ldrb	r3, [r3]
+ 1262 0140 DBB2     		uxtb	r3, r3
+ 1263 0142 1A46     		mov	r2, r3
+ 1264 0144 134B     		ldr	r3, .L35+44
+ 1265 0146 33F81230 		ldrh	r3, [r3, r2, lsl #1]
+ 1266 014a 1A46     		mov	r2, r3
+ 1267 014c 124B     		ldr	r3, .L35+48
+ 1268 014e 93FBF2F3 		sdiv	r3, r3, r2
+ 1269 0152 9BB2     		uxth	r3, r3
+ 1270 0154 013B     		subs	r3, r3, #1
+ 1271 0156 9BB2     		uxth	r3, r3
+ 1272 0158 0121     		movs	r1, #1
+ 1273 015a 1846     		mov	r0, r3
+ 1274 015c FFF7FEFF 		bl	Clock_1_SetDividerRegister
+ 157:main.c        ****                 break;
+ 1275              		.loc 1 157 0
+ 1276 0160 00E0     		b	.L29
+ 1277              	.L34:
+ 158:main.c        ****             default:
+ 159:main.c        ****                 break;
+ 1278              		.loc 1 159 0
+ 1279 0162 00BF     		nop
+ 1280              	.L29:
+ 160:main.c        ****         }
+ 161:main.c        ****     }
+ 1281              		.loc 1 161 0 discriminator 1
+ 1282 0164 6AE7     		b	.L33
+ 1283              	.L36:
+ 1284 0166 00BF     		.align	2
+ 1285              	.L35:
+ 1286 0168 00000000 		.word	but1_isr_pos_vect
+ 1287 016c 00000000 		.word	but1_isr_neg_vect
+ 1288 0170 00000000 		.word	but2_isr_pos_vect
+ 1289 0174 00000000 		.word	but2_isr_neg_vect
+ 1290 0178 00000000 		.word	but3_isr_pos_vect
+ 1291 017c 00000000 		.word	but3_isr_neg_vect
+ 1292 0180 D8050000 		.word	.LC6
+ 1293 0184 00000000 		.word	mode
+ 1294 0188 00000000 		.word	button1
+ 1295 018c E4050000 		.word	.LC7
+ 1296 0190 00000000 		.word	notes
+ 1297 0194 00000000 		.word	intFrequency
+ 1298 0198 90D00300 		.word	250000
+ 1299 019c 00000000 		.word	button2
+ 1300 01a0 00000000 		.word	button3
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 27
 
 
- 1278 00b8 02       		.uleb128 0x2
- 1279 00b9 08       		.byte	0x8
- 1280 00ba 04       		.byte	0x4
- 1281 00bb 8E020000 		.4byte	.LASF16
- 1282 00bf 02       		.uleb128 0x2
- 1283 00c0 04       		.byte	0x4
- 1284 00c1 07       		.byte	0x7
- 1285 00c2 31020000 		.4byte	.LASF17
- 1286 00c6 07       		.uleb128 0x7
- 1287 00c7 A7000000 		.4byte	0xa7
- 1288 00cb 03       		.uleb128 0x3
- 1289 00cc BE010000 		.4byte	.LASF18
- 1290 00d0 05       		.byte	0x5
- 1291 00d1 6C       		.byte	0x6c
- 1292 00d2 6F000000 		.4byte	0x6f
- 1293 00d6 08       		.uleb128 0x8
- 1294 00d7 00000000 		.4byte	.LASF44
- 1295 00db 01       		.byte	0x1
- 1296 00dc 20       		.byte	0x20
- 1297 00dd 00000000 		.4byte	.LFB64
- 1298 00e1 0C010000 		.4byte	.LFE64-.LFB64
- 1299 00e5 01       		.uleb128 0x1
- 1300 00e6 9C       		.byte	0x9c
- 1301 00e7 09       		.uleb128 0x9
- 1302 00e8 C8010000 		.4byte	.LASF45
- 1303 00ec 01       		.byte	0x1
- 1304 00ed 3D       		.byte	0x3d
- 1305 00ee 00000000 		.4byte	.LFB65
- 1306 00f2 4C010000 		.4byte	.LFE65-.LFB65
- 1307 00f6 01       		.uleb128 0x1
- 1308 00f7 9C       		.byte	0x9c
- 1309 00f8 13010000 		.4byte	0x113
- 1310 00fc 0A       		.uleb128 0xa
- 1311 00fd 46000000 		.4byte	.LBB2
- 1312 0101 96000000 		.4byte	.LBE2-.LBB2
- 1313 0105 0B       		.uleb128 0xb
- 1314 0106 6900     		.ascii	"i\000"
- 1315 0108 01       		.byte	0x1
- 1316 0109 43       		.byte	0x43
- 1317 010a CB000000 		.4byte	0xcb
- 1318 010e 02       		.uleb128 0x2
- 1319 010f 91       		.byte	0x91
- 1320 0110 6C       		.sleb128 -20
- 1321 0111 00       		.byte	0
- 1322 0112 00       		.byte	0
- 1323 0113 0C       		.uleb128 0xc
- 1324 0114 73010000 		.4byte	.LASF46
- 1325 0118 01       		.byte	0x1
- 1326 0119 50       		.byte	0x50
- 1327 011a 00000000 		.4byte	.LFB66
- 1328 011e E4000000 		.4byte	.LFE66-.LFB66
- 1329 0122 01       		.uleb128 0x1
- 1330 0123 9C       		.byte	0x9c
- 1331 0124 69010000 		.4byte	0x169
- 1332 0128 0D       		.uleb128 0xd
- 1333 0129 A0000000 		.4byte	.LASF19
- 1334 012d 01       		.byte	0x1
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 27
+ 1301              		.cfi_endproc
+ 1302              	.LFE67:
+ 1303              		.size	main, .-main
+ 1304              		.section	.rodata
+ 1305 05e7 00       		.align	2
+ 1306              	.LC8:
+ 1307 05e8 0D0A6275 		.ascii	"\015\012button 1 pressed\000"
+ 1307      74746F6E 
+ 1307      20312070 
+ 1307      72657373 
+ 1307      656400
+ 1308              		.section	.text.but1_isr_pos_vect,"ax",%progbits
+ 1309              		.align	2
+ 1310              		.global	but1_isr_pos_vect
+ 1311              		.thumb
+ 1312              		.thumb_func
+ 1313              		.type	but1_isr_pos_vect, %function
+ 1314              	but1_isr_pos_vect:
+ 1315              	.LFB68:
+ 162:main.c        **** }
+ 163:main.c        **** 
+ 164:main.c        **** CY_ISR(but1_isr_pos_vect)   {
+ 1316              		.loc 1 164 0
+ 1317              		.cfi_startproc
+ 1318              		@ args = 0, pretend = 0, frame = 0
+ 1319              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1320 0000 80B5     		push	{r7, lr}
+ 1321              		.cfi_def_cfa_offset 8
+ 1322              		.cfi_offset 7, -8
+ 1323              		.cfi_offset 14, -4
+ 1324 0002 00AF     		add	r7, sp, #0
+ 1325              		.cfi_def_cfa_register 7
+ 165:main.c        ****     UART_1_PutString("\r\nbutton 1 pressed");
+ 1326              		.loc 1 165 0
+ 1327 0004 0348     		ldr	r0, .L38
+ 1328 0006 FFF7FEFF 		bl	UART_1_PutString
+ 166:main.c        ****     button1 = 50;
+ 1329              		.loc 1 166 0
+ 1330 000a 034B     		ldr	r3, .L38+4
+ 1331 000c 3222     		movs	r2, #50
+ 1332 000e 1A70     		strb	r2, [r3]
+ 167:main.c        **** }
+ 1333              		.loc 1 167 0
+ 1334 0010 00BF     		nop
+ 1335 0012 80BD     		pop	{r7, pc}
+ 1336              	.L39:
+ 1337              		.align	2
+ 1338              	.L38:
+ 1339 0014 E8050000 		.word	.LC8
+ 1340 0018 00000000 		.word	button1
+ 1341              		.cfi_endproc
+ 1342              	.LFE68:
+ 1343              		.size	but1_isr_pos_vect, .-but1_isr_pos_vect
+ 1344              		.section	.rodata
+ 1345 05fb 00       		.align	2
+ 1346              	.LC9:
+ 1347 05fc 0D0A6275 		.ascii	"\015\012button 1 released\000"
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 28
 
 
- 1335 012e 50       		.byte	0x50
- 1336 012f 81000000 		.4byte	0x81
- 1337 0133 02       		.uleb128 0x2
- 1338 0134 91       		.byte	0x91
- 1339 0135 67       		.sleb128 -25
- 1340 0136 0D       		.uleb128 0xd
- 1341 0137 A4010000 		.4byte	.LASF20
- 1342 013b 01       		.byte	0x1
- 1343 013c 50       		.byte	0x50
- 1344 013d 81000000 		.4byte	0x81
- 1345 0141 02       		.uleb128 0x2
- 1346 0142 91       		.byte	0x91
- 1347 0143 66       		.sleb128 -26
- 1348 0144 0D       		.uleb128 0xd
- 1349 0145 54020000 		.4byte	.LASF21
- 1350 0149 01       		.byte	0x1
- 1351 014a 50       		.byte	0x50
- 1352 014b 8D000000 		.4byte	0x8d
- 1353 014f 02       		.uleb128 0x2
- 1354 0150 91       		.byte	0x91
- 1355 0151 64       		.sleb128 -28
- 1356 0152 0A       		.uleb128 0xa
- 1357 0153 22000000 		.4byte	.LBB3
- 1358 0157 9C000000 		.4byte	.LBE3-.LBB3
- 1359 015b 0B       		.uleb128 0xb
- 1360 015c 6900     		.ascii	"i\000"
- 1361 015e 01       		.byte	0x1
- 1362 015f 55       		.byte	0x55
- 1363 0160 81000000 		.4byte	0x81
- 1364 0164 02       		.uleb128 0x2
- 1365 0165 91       		.byte	0x91
- 1366 0166 6F       		.sleb128 -17
- 1367 0167 00       		.byte	0
- 1368 0168 00       		.byte	0
- 1369 0169 0E       		.uleb128 0xe
- 1370 016a C3010000 		.4byte	.LASF22
- 1371 016e 01       		.byte	0x1
- 1372 016f 5E       		.byte	0x5e
- 1373 0170 68000000 		.4byte	0x68
- 1374 0174 00000000 		.4byte	.LFB67
- 1375 0178 8C000000 		.4byte	.LFE67-.LFB67
- 1376 017c 01       		.uleb128 0x1
- 1377 017d 9C       		.byte	0x9c
- 1378 017e 0F       		.uleb128 0xf
- 1379 017f 92010000 		.4byte	.LASF23
- 1380 0183 01       		.byte	0x1
- 1381 0184 7C       		.byte	0x7c
- 1382 0185 00000000 		.4byte	.LFB68
- 1383 0189 18000000 		.4byte	.LFE68-.LFB68
- 1384 018d 01       		.uleb128 0x1
- 1385 018e 9C       		.byte	0x9c
- 1386 018f 10       		.uleb128 0x10
- 1387 0190 66010000 		.4byte	.LASF24
- 1388 0194 06       		.byte	0x6
- 1389 0195 1207     		.2byte	0x712
- 1390 0197 9B010000 		.4byte	0x19b
- 1391 019b 06       		.uleb128 0x6
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 28
+ 1347      74746F6E 
+ 1347      20312072 
+ 1347      656C6561 
+ 1347      73656400 
+ 1348              		.section	.text.but1_isr_neg_vect,"ax",%progbits
+ 1349              		.align	2
+ 1350              		.global	but1_isr_neg_vect
+ 1351              		.thumb
+ 1352              		.thumb_func
+ 1353              		.type	but1_isr_neg_vect, %function
+ 1354              	but1_isr_neg_vect:
+ 1355              	.LFB69:
+ 168:main.c        **** CY_ISR(but1_isr_neg_vect)   {
+ 1356              		.loc 1 168 0
+ 1357              		.cfi_startproc
+ 1358              		@ args = 0, pretend = 0, frame = 0
+ 1359              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1360 0000 80B5     		push	{r7, lr}
+ 1361              		.cfi_def_cfa_offset 8
+ 1362              		.cfi_offset 7, -8
+ 1363              		.cfi_offset 14, -4
+ 1364 0002 00AF     		add	r7, sp, #0
+ 1365              		.cfi_def_cfa_register 7
+ 169:main.c        ****     UART_1_PutString("\r\nbutton 1 released");
+ 1366              		.loc 1 169 0
+ 1367 0004 0348     		ldr	r0, .L41
+ 1368 0006 FFF7FEFF 		bl	UART_1_PutString
+ 170:main.c        ****     button1 = 0;
+ 1369              		.loc 1 170 0
+ 1370 000a 034B     		ldr	r3, .L41+4
+ 1371 000c 0022     		movs	r2, #0
+ 1372 000e 1A70     		strb	r2, [r3]
+ 171:main.c        **** }
+ 1373              		.loc 1 171 0
+ 1374 0010 00BF     		nop
+ 1375 0012 80BD     		pop	{r7, pc}
+ 1376              	.L42:
+ 1377              		.align	2
+ 1378              	.L41:
+ 1379 0014 FC050000 		.word	.LC9
+ 1380 0018 00000000 		.word	button1
+ 1381              		.cfi_endproc
+ 1382              	.LFE69:
+ 1383              		.size	but1_isr_neg_vect, .-but1_isr_neg_vect
+ 1384              		.section	.rodata
+ 1385              		.align	2
+ 1386              	.LC10:
+ 1387 0610 0D0A6275 		.ascii	"\015\012button 2 pressed\000"
+ 1387      74746F6E 
+ 1387      20322070 
+ 1387      72657373 
+ 1387      656400
+ 1388              		.section	.text.but2_isr_pos_vect,"ax",%progbits
+ 1389              		.align	2
+ 1390              		.global	but2_isr_pos_vect
+ 1391              		.thumb
+ 1392              		.thumb_func
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 29
 
 
- 1392 019c 76000000 		.4byte	0x76
- 1393 01a0 11       		.uleb128 0x11
- 1394 01a1 C6000000 		.4byte	0xc6
- 1395 01a5 B6010000 		.4byte	0x1b6
- 1396 01a9 12       		.uleb128 0x12
- 1397 01aa BF000000 		.4byte	0xbf
- 1398 01ae 6B       		.byte	0x6b
- 1399 01af 12       		.uleb128 0x12
- 1400 01b0 BF000000 		.4byte	0xbf
- 1401 01b4 02       		.byte	0x2
- 1402 01b5 00       		.byte	0
- 1403 01b6 13       		.uleb128 0x13
- 1404 01b7 2B020000 		.4byte	.LASF25
- 1405 01bb 01       		.byte	0x1
- 1406 01bc 0D       		.byte	0xd
- 1407 01bd C7010000 		.4byte	0x1c7
- 1408 01c1 05       		.uleb128 0x5
- 1409 01c2 03       		.byte	0x3
- 1410 01c3 00000000 		.4byte	notes
- 1411 01c7 07       		.uleb128 0x7
- 1412 01c8 A0010000 		.4byte	0x1a0
- 1413 01cc 11       		.uleb128 0x11
- 1414 01cd DC010000 		.4byte	0x1dc
- 1415 01d1 DC010000 		.4byte	0x1dc
- 1416 01d5 12       		.uleb128 0x12
- 1417 01d6 BF000000 		.4byte	0xbf
- 1418 01da 6B       		.byte	0x6b
- 1419 01db 00       		.byte	0
- 1420 01dc 07       		.uleb128 0x7
- 1421 01dd 8D000000 		.4byte	0x8d
- 1422 01e1 13       		.uleb128 0x13
- 1423 01e2 29010000 		.4byte	.LASF26
- 1424 01e6 01       		.byte	0x1
- 1425 01e7 0E       		.byte	0xe
- 1426 01e8 F2010000 		.4byte	0x1f2
- 1427 01ec 05       		.uleb128 0x5
- 1428 01ed 03       		.byte	0x3
- 1429 01ee 00000000 		.4byte	intFrequency
- 1430 01f2 07       		.uleb128 0x7
- 1431 01f3 CC010000 		.4byte	0x1cc
- 1432 01f7 11       		.uleb128 0x11
- 1433 01f8 07020000 		.4byte	0x207
- 1434 01fc 07020000 		.4byte	0x207
- 1435 0200 12       		.uleb128 0x12
- 1436 0201 BF000000 		.4byte	0xbf
- 1437 0205 6B       		.byte	0x6b
- 1438 0206 00       		.byte	0
- 1439 0207 07       		.uleb128 0x7
- 1440 0208 A0000000 		.4byte	0xa0
- 1441 020c 13       		.uleb128 0x13
- 1442 020d 0F020000 		.4byte	.LASF27
- 1443 0211 01       		.byte	0x1
- 1444 0212 0F       		.byte	0xf
- 1445 0213 1D020000 		.4byte	0x21d
- 1446 0217 05       		.uleb128 0x5
- 1447 0218 03       		.byte	0x3
- 1448 0219 00000000 		.4byte	frequency
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 29
+ 1393              		.type	but2_isr_pos_vect, %function
+ 1394              	but2_isr_pos_vect:
+ 1395              	.LFB70:
+ 172:main.c        **** CY_ISR(but2_isr_pos_vect)   {
+ 1396              		.loc 1 172 0
+ 1397              		.cfi_startproc
+ 1398              		@ args = 0, pretend = 0, frame = 0
+ 1399              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1400 0000 80B5     		push	{r7, lr}
+ 1401              		.cfi_def_cfa_offset 8
+ 1402              		.cfi_offset 7, -8
+ 1403              		.cfi_offset 14, -4
+ 1404 0002 00AF     		add	r7, sp, #0
+ 1405              		.cfi_def_cfa_register 7
+ 173:main.c        ****     UART_1_PutString("\r\nbutton 2 pressed");
+ 1406              		.loc 1 173 0
+ 1407 0004 0348     		ldr	r0, .L44
+ 1408 0006 FFF7FEFF 		bl	UART_1_PutString
+ 174:main.c        ****     button2 = 100;
+ 1409              		.loc 1 174 0
+ 1410 000a 034B     		ldr	r3, .L44+4
+ 1411 000c 6422     		movs	r2, #100
+ 1412 000e 1A70     		strb	r2, [r3]
+ 175:main.c        **** }
+ 1413              		.loc 1 175 0
+ 1414 0010 00BF     		nop
+ 1415 0012 80BD     		pop	{r7, pc}
+ 1416              	.L45:
+ 1417              		.align	2
+ 1418              	.L44:
+ 1419 0014 10060000 		.word	.LC10
+ 1420 0018 00000000 		.word	button2
+ 1421              		.cfi_endproc
+ 1422              	.LFE70:
+ 1423              		.size	but2_isr_pos_vect, .-but2_isr_pos_vect
+ 1424              		.section	.rodata
+ 1425 0623 00       		.align	2
+ 1426              	.LC11:
+ 1427 0624 0D0A6275 		.ascii	"\015\012button 2 released\000"
+ 1427      74746F6E 
+ 1427      20322072 
+ 1427      656C6561 
+ 1427      73656400 
+ 1428              		.section	.text.but2_isr_neg_vect,"ax",%progbits
+ 1429              		.align	2
+ 1430              		.global	but2_isr_neg_vect
+ 1431              		.thumb
+ 1432              		.thumb_func
+ 1433              		.type	but2_isr_neg_vect, %function
+ 1434              	but2_isr_neg_vect:
+ 1435              	.LFB71:
+ 176:main.c        **** CY_ISR(but2_isr_neg_vect)   {
+ 1436              		.loc 1 176 0
+ 1437              		.cfi_startproc
+ 1438              		@ args = 0, pretend = 0, frame = 0
+ 1439              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1440 0000 80B5     		push	{r7, lr}
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 30
 
 
- 1449 021d 07       		.uleb128 0x7
- 1450 021e F7010000 		.4byte	0x1f7
- 1451 0222 13       		.uleb128 0x13
- 1452 0223 63020000 		.4byte	.LASF28
- 1453 0227 01       		.byte	0x1
- 1454 0228 11       		.byte	0x11
- 1455 0229 B3000000 		.4byte	0xb3
- 1456 022d 05       		.uleb128 0x5
- 1457 022e 03       		.byte	0x3
- 1458 022f 00000000 		.4byte	delayMS
- 1459 0233 13       		.uleb128 0x13
- 1460 0234 5B010000 		.4byte	.LASF29
- 1461 0238 01       		.byte	0x1
- 1462 0239 12       		.byte	0x12
- 1463 023a AE000000 		.4byte	0xae
- 1464 023e 05       		.uleb128 0x5
- 1465 023f 03       		.byte	0x3
- 1466 0240 00000000 		.4byte	onOffCount
- 1467 0244 11       		.uleb128 0x11
- 1468 0245 A7000000 		.4byte	0xa7
- 1469 0249 54020000 		.4byte	0x254
- 1470 024d 12       		.uleb128 0x12
- 1471 024e BF000000 		.4byte	0xbf
- 1472 0252 63       		.byte	0x63
- 1473 0253 00       		.byte	0
- 1474 0254 13       		.uleb128 0x13
- 1475 0255 76020000 		.4byte	.LASF30
- 1476 0259 01       		.byte	0x1
- 1477 025a 13       		.byte	0x13
- 1478 025b 44020000 		.4byte	0x244
- 1479 025f 05       		.uleb128 0x5
- 1480 0260 03       		.byte	0x3
- 1481 0261 00000000 		.4byte	transmitBuffer
- 1482 0265 13       		.uleb128 0x13
- 1483 0266 6B020000 		.4byte	.LASF31
- 1484 026a 01       		.byte	0x1
- 1485 026b 14       		.byte	0x14
- 1486 026c 76020000 		.4byte	0x276
- 1487 0270 05       		.uleb128 0x5
- 1488 0271 03       		.byte	0x3
- 1489 0272 00000000 		.4byte	freq
- 1490 0276 06       		.uleb128 0x6
- 1491 0277 A0000000 		.4byte	0xa0
- 1492 027b 13       		.uleb128 0x13
- 1493 027c 0A000000 		.4byte	.LASF32
- 1494 0280 01       		.byte	0x1
- 1495 0281 15       		.byte	0x15
- 1496 0282 B3000000 		.4byte	0xb3
- 1497 0286 05       		.uleb128 0x5
- 1498 0287 03       		.byte	0x3
- 1499 0288 00000000 		.4byte	intFreq
- 1500 028c 11       		.uleb128 0x11
- 1501 028d 9C020000 		.4byte	0x29c
- 1502 0291 9C020000 		.4byte	0x29c
- 1503 0295 12       		.uleb128 0x12
- 1504 0296 BF000000 		.4byte	0xbf
- 1505 029a 02       		.byte	0x2
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 30
+ 1441              		.cfi_def_cfa_offset 8
+ 1442              		.cfi_offset 7, -8
+ 1443              		.cfi_offset 14, -4
+ 1444 0002 00AF     		add	r7, sp, #0
+ 1445              		.cfi_def_cfa_register 7
+ 177:main.c        ****     UART_1_PutString("\r\nbutton 2 released");
+ 1446              		.loc 1 177 0
+ 1447 0004 0348     		ldr	r0, .L47
+ 1448 0006 FFF7FEFF 		bl	UART_1_PutString
+ 178:main.c        ****     button2 = 0;
+ 1449              		.loc 1 178 0
+ 1450 000a 034B     		ldr	r3, .L47+4
+ 1451 000c 0022     		movs	r2, #0
+ 1452 000e 1A70     		strb	r2, [r3]
+ 179:main.c        **** }
+ 1453              		.loc 1 179 0
+ 1454 0010 00BF     		nop
+ 1455 0012 80BD     		pop	{r7, pc}
+ 1456              	.L48:
+ 1457              		.align	2
+ 1458              	.L47:
+ 1459 0014 24060000 		.word	.LC11
+ 1460 0018 00000000 		.word	button2
+ 1461              		.cfi_endproc
+ 1462              	.LFE71:
+ 1463              		.size	but2_isr_neg_vect, .-but2_isr_neg_vect
+ 1464              		.section	.rodata
+ 1465              		.align	2
+ 1466              	.LC12:
+ 1467 0638 0D0A6275 		.ascii	"\015\012button 3 pressed\000"
+ 1467      74746F6E 
+ 1467      20332070 
+ 1467      72657373 
+ 1467      656400
+ 1468              		.section	.text.but3_isr_pos_vect,"ax",%progbits
+ 1469              		.align	2
+ 1470              		.global	but3_isr_pos_vect
+ 1471              		.thumb
+ 1472              		.thumb_func
+ 1473              		.type	but3_isr_pos_vect, %function
+ 1474              	but3_isr_pos_vect:
+ 1475              	.LFB72:
+ 180:main.c        **** CY_ISR(but3_isr_pos_vect)   {
+ 1476              		.loc 1 180 0
+ 1477              		.cfi_startproc
+ 1478              		@ args = 0, pretend = 0, frame = 0
+ 1479              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1480 0000 80B5     		push	{r7, lr}
+ 1481              		.cfi_def_cfa_offset 8
+ 1482              		.cfi_offset 7, -8
+ 1483              		.cfi_offset 14, -4
+ 1484 0002 00AF     		add	r7, sp, #0
+ 1485              		.cfi_def_cfa_register 7
+ 181:main.c        ****     UART_1_PutString("\r\nbutton 3 pressed");
+ 1486              		.loc 1 181 0
+ 1487 0004 0348     		ldr	r0, .L50
+ 1488 0006 FFF7FEFF 		bl	UART_1_PutString
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 31
 
 
- 1506 029b 00       		.byte	0
- 1507 029c 06       		.uleb128 0x6
- 1508 029d A7000000 		.4byte	0xa7
- 1509 02a1 13       		.uleb128 0x13
- 1510 02a2 24010000 		.4byte	.LASF33
- 1511 02a6 01       		.byte	0x1
- 1512 02a7 16       		.byte	0x16
- 1513 02a8 B2020000 		.4byte	0x2b2
- 1514 02ac 05       		.uleb128 0x5
- 1515 02ad 03       		.byte	0x3
- 1516 02ae 00000000 		.4byte	note
- 1517 02b2 06       		.uleb128 0x6
- 1518 02b3 8C020000 		.4byte	0x28c
- 1519 02b7 13       		.uleb128 0x13
- 1520 02b8 19020000 		.4byte	.LASF34
- 1521 02bc 01       		.byte	0x1
- 1522 02bd 17       		.byte	0x17
- 1523 02be AE000000 		.4byte	0xae
- 1524 02c2 05       		.uleb128 0x5
- 1525 02c3 03       		.byte	0x3
- 1526 02c4 00000000 		.4byte	noteIndex
- 1527 02c8 13       		.uleb128 0x13
- 1528 02c9 0A020000 		.4byte	.LASF35
- 1529 02cd 01       		.byte	0x1
- 1530 02ce 18       		.byte	0x18
- 1531 02cf AE000000 		.4byte	0xae
- 1532 02d3 05       		.uleb128 0x5
- 1533 02d4 03       		.byte	0x3
- 1534 02d5 00000000 		.4byte	mode
- 1535 02d9 13       		.uleb128 0x13
- 1536 02da BF000000 		.4byte	.LASF36
- 1537 02de 01       		.byte	0x1
- 1538 02df 19       		.byte	0x19
- 1539 02e0 AE000000 		.4byte	0xae
- 1540 02e4 05       		.uleb128 0x5
- 1541 02e5 03       		.byte	0x3
- 1542 02e6 00000000 		.4byte	modeFlag
- 1543 02ea 13       		.uleb128 0x13
- 1544 02eb A6020000 		.4byte	.LASF37
- 1545 02ef 01       		.byte	0x1
- 1546 02f0 1A       		.byte	0x1a
- 1547 02f1 AE000000 		.4byte	0xae
- 1548 02f5 05       		.uleb128 0x5
- 1549 02f6 03       		.byte	0x3
- 1550 02f7 00000000 		.4byte	checkingMode
- 1551 02fb 13       		.uleb128 0x13
- 1552 02fc DF010000 		.4byte	.LASF38
- 1553 0300 01       		.byte	0x1
- 1554 0301 1B       		.byte	0x1b
- 1555 0302 8D000000 		.4byte	0x8d
- 1556 0306 05       		.uleb128 0x5
- 1557 0307 03       		.byte	0x3
- 1558 0308 00000000 		.4byte	freqClockDivCounter
- 1559 030c 13       		.uleb128 0x13
- 1560 030d 70020000 		.4byte	.LASF39
- 1561 0311 01       		.byte	0x1
- 1562 0312 1C       		.byte	0x1c
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 31
+ 182:main.c        ****     button3 = 60;
+ 1489              		.loc 1 182 0
+ 1490 000a 034B     		ldr	r3, .L50+4
+ 1491 000c 3C22     		movs	r2, #60
+ 1492 000e 1A70     		strb	r2, [r3]
+ 183:main.c        **** }
+ 1493              		.loc 1 183 0
+ 1494 0010 00BF     		nop
+ 1495 0012 80BD     		pop	{r7, pc}
+ 1496              	.L51:
+ 1497              		.align	2
+ 1498              	.L50:
+ 1499 0014 38060000 		.word	.LC12
+ 1500 0018 00000000 		.word	button3
+ 1501              		.cfi_endproc
+ 1502              	.LFE72:
+ 1503              		.size	but3_isr_pos_vect, .-but3_isr_pos_vect
+ 1504              		.section	.rodata
+ 1505 064b 00       		.align	2
+ 1506              	.LC13:
+ 1507 064c 0D0A6275 		.ascii	"\015\012button 3 released\000"
+ 1507      74746F6E 
+ 1507      20332072 
+ 1507      656C6561 
+ 1507      73656400 
+ 1508              		.section	.text.but3_isr_neg_vect,"ax",%progbits
+ 1509              		.align	2
+ 1510              		.global	but3_isr_neg_vect
+ 1511              		.thumb
+ 1512              		.thumb_func
+ 1513              		.type	but3_isr_neg_vect, %function
+ 1514              	but3_isr_neg_vect:
+ 1515              	.LFB73:
+ 184:main.c        **** CY_ISR(but3_isr_neg_vect)   {
+ 1516              		.loc 1 184 0
+ 1517              		.cfi_startproc
+ 1518              		@ args = 0, pretend = 0, frame = 0
+ 1519              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1520 0000 80B5     		push	{r7, lr}
+ 1521              		.cfi_def_cfa_offset 8
+ 1522              		.cfi_offset 7, -8
+ 1523              		.cfi_offset 14, -4
+ 1524 0002 00AF     		add	r7, sp, #0
+ 1525              		.cfi_def_cfa_register 7
+ 185:main.c        ****     UART_1_PutString("\r\nbutton 3 released");
+ 1526              		.loc 1 185 0
+ 1527 0004 0348     		ldr	r0, .L53
+ 1528 0006 FFF7FEFF 		bl	UART_1_PutString
+ 186:main.c        ****     button3 = 0;
+ 1529              		.loc 1 186 0
+ 1530 000a 034B     		ldr	r3, .L53+4
+ 1531 000c 0022     		movs	r2, #0
+ 1532 000e 1A70     		strb	r2, [r3]
+ 187:main.c        **** }
+ 1533              		.loc 1 187 0
+ 1534 0010 00BF     		nop
+ 1535 0012 80BD     		pop	{r7, pc}
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 32
 
 
- 1563 0313 1D030000 		.4byte	0x31d
- 1564 0317 05       		.uleb128 0x5
- 1565 0318 03       		.byte	0x3
- 1566 0319 00000000 		.4byte	dice1
- 1567 031d 06       		.uleb128 0x6
- 1568 031e CB000000 		.4byte	0xcb
- 1569 0322 13       		.uleb128 0x13
- 1570 0323 A9000000 		.4byte	.LASF40
- 1571 0327 01       		.byte	0x1
- 1572 0328 1D       		.byte	0x1d
- 1573 0329 1D030000 		.4byte	0x31d
- 1574 032d 05       		.uleb128 0x5
- 1575 032e 03       		.byte	0x3
- 1576 032f 00000000 		.4byte	dice2
- 1577 0333 00       		.byte	0
- 1578              		.section	.debug_abbrev,"",%progbits
- 1579              	.Ldebug_abbrev0:
- 1580 0000 01       		.uleb128 0x1
- 1581 0001 11       		.uleb128 0x11
- 1582 0002 01       		.byte	0x1
- 1583 0003 25       		.uleb128 0x25
- 1584 0004 0E       		.uleb128 0xe
- 1585 0005 13       		.uleb128 0x13
- 1586 0006 0B       		.uleb128 0xb
- 1587 0007 03       		.uleb128 0x3
- 1588 0008 0E       		.uleb128 0xe
- 1589 0009 1B       		.uleb128 0x1b
- 1590 000a 0E       		.uleb128 0xe
- 1591 000b 55       		.uleb128 0x55
- 1592 000c 17       		.uleb128 0x17
- 1593 000d 11       		.uleb128 0x11
- 1594 000e 01       		.uleb128 0x1
- 1595 000f 10       		.uleb128 0x10
- 1596 0010 17       		.uleb128 0x17
- 1597 0011 00       		.byte	0
- 1598 0012 00       		.byte	0
- 1599 0013 02       		.uleb128 0x2
- 1600 0014 24       		.uleb128 0x24
- 1601 0015 00       		.byte	0
- 1602 0016 0B       		.uleb128 0xb
- 1603 0017 0B       		.uleb128 0xb
- 1604 0018 3E       		.uleb128 0x3e
- 1605 0019 0B       		.uleb128 0xb
- 1606 001a 03       		.uleb128 0x3
- 1607 001b 0E       		.uleb128 0xe
- 1608 001c 00       		.byte	0
- 1609 001d 00       		.byte	0
- 1610 001e 03       		.uleb128 0x3
- 1611 001f 16       		.uleb128 0x16
- 1612 0020 00       		.byte	0
- 1613 0021 03       		.uleb128 0x3
- 1614 0022 0E       		.uleb128 0xe
- 1615 0023 3A       		.uleb128 0x3a
- 1616 0024 0B       		.uleb128 0xb
- 1617 0025 3B       		.uleb128 0x3b
- 1618 0026 0B       		.uleb128 0xb
- 1619 0027 49       		.uleb128 0x49
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 32
+ 1536              	.L54:
+ 1537              		.align	2
+ 1538              	.L53:
+ 1539 0014 4C060000 		.word	.LC13
+ 1540 0018 00000000 		.word	button3
+ 1541              		.cfi_endproc
+ 1542              	.LFE73:
+ 1543              		.size	but3_isr_neg_vect, .-but3_isr_neg_vect
+ 1544              		.section	.text.userModeTimer_ISR,"ax",%progbits
+ 1545              		.align	2
+ 1546              		.global	userModeTimer_ISR
+ 1547              		.thumb
+ 1548              		.thumb_func
+ 1549              		.type	userModeTimer_ISR, %function
+ 1550              	userModeTimer_ISR:
+ 1551              	.LFB74:
+ 188:main.c        **** 
+ 189:main.c        **** 
+ 190:main.c        **** CY_ISR(userModeTimer_ISR){ 
+ 1552              		.loc 1 190 0
+ 1553              		.cfi_startproc
+ 1554              		@ args = 0, pretend = 0, frame = 0
+ 1555              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1556 0000 80B5     		push	{r7, lr}
+ 1557              		.cfi_def_cfa_offset 8
+ 1558              		.cfi_offset 7, -8
+ 1559              		.cfi_offset 14, -4
+ 1560 0002 00AF     		add	r7, sp, #0
+ 1561              		.cfi_def_cfa_register 7
+ 191:main.c        ****     modeFlag = 1;
+ 1562              		.loc 1 191 0
+ 1563 0004 034B     		ldr	r3, .L56
+ 1564 0006 0122     		movs	r2, #1
+ 1565 0008 1A70     		strb	r2, [r3]
+ 192:main.c        ****     Timer_Mode_ReadStatusRegister();
+ 1566              		.loc 1 192 0
+ 1567 000a FFF7FEFF 		bl	Timer_Mode_ReadStatusRegister
+ 193:main.c        **** }
+ 1568              		.loc 1 193 0
+ 1569 000e 00BF     		nop
+ 1570 0010 80BD     		pop	{r7, pc}
+ 1571              	.L57:
+ 1572 0012 00BF     		.align	2
+ 1573              	.L56:
+ 1574 0014 00000000 		.word	modeFlag
+ 1575              		.cfi_endproc
+ 1576              	.LFE74:
+ 1577              		.size	userModeTimer_ISR, .-userModeTimer_ISR
+ 1578              		.text
+ 1579              	.Letext0:
+ 1580              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1581              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1582              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
+ 1583              		.file 5 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1584              		.file 6 "Generated_Source\\PSoC5/core_cm3.h"
+ 1585              		.section	.debug_info,"",%progbits
+ 1586              	.Ldebug_info0:
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 33
 
 
- 1620 0028 13       		.uleb128 0x13
- 1621 0029 00       		.byte	0
- 1622 002a 00       		.byte	0
- 1623 002b 04       		.uleb128 0x4
- 1624 002c 24       		.uleb128 0x24
- 1625 002d 00       		.byte	0
- 1626 002e 0B       		.uleb128 0xb
- 1627 002f 0B       		.uleb128 0xb
- 1628 0030 3E       		.uleb128 0x3e
- 1629 0031 0B       		.uleb128 0xb
- 1630 0032 03       		.uleb128 0x3
- 1631 0033 08       		.uleb128 0x8
- 1632 0034 00       		.byte	0
- 1633 0035 00       		.byte	0
- 1634 0036 05       		.uleb128 0x5
- 1635 0037 16       		.uleb128 0x16
- 1636 0038 00       		.byte	0
- 1637 0039 03       		.uleb128 0x3
- 1638 003a 0E       		.uleb128 0xe
- 1639 003b 3A       		.uleb128 0x3a
- 1640 003c 0B       		.uleb128 0xb
- 1641 003d 3B       		.uleb128 0x3b
- 1642 003e 05       		.uleb128 0x5
- 1643 003f 49       		.uleb128 0x49
- 1644 0040 13       		.uleb128 0x13
- 1645 0041 00       		.byte	0
- 1646 0042 00       		.byte	0
- 1647 0043 06       		.uleb128 0x6
- 1648 0044 35       		.uleb128 0x35
- 1649 0045 00       		.byte	0
- 1650 0046 49       		.uleb128 0x49
- 1651 0047 13       		.uleb128 0x13
- 1652 0048 00       		.byte	0
- 1653 0049 00       		.byte	0
- 1654 004a 07       		.uleb128 0x7
- 1655 004b 26       		.uleb128 0x26
- 1656 004c 00       		.byte	0
- 1657 004d 49       		.uleb128 0x49
- 1658 004e 13       		.uleb128 0x13
- 1659 004f 00       		.byte	0
- 1660 0050 00       		.byte	0
- 1661 0051 08       		.uleb128 0x8
- 1662 0052 2E       		.uleb128 0x2e
- 1663 0053 00       		.byte	0
- 1664 0054 3F       		.uleb128 0x3f
- 1665 0055 19       		.uleb128 0x19
- 1666 0056 03       		.uleb128 0x3
- 1667 0057 0E       		.uleb128 0xe
- 1668 0058 3A       		.uleb128 0x3a
- 1669 0059 0B       		.uleb128 0xb
- 1670 005a 3B       		.uleb128 0x3b
- 1671 005b 0B       		.uleb128 0xb
- 1672 005c 11       		.uleb128 0x11
- 1673 005d 01       		.uleb128 0x1
- 1674 005e 12       		.uleb128 0x12
- 1675 005f 06       		.uleb128 0x6
- 1676 0060 40       		.uleb128 0x40
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 33
+ 1587 0000 EA030000 		.4byte	0x3ea
+ 1588 0004 0400     		.2byte	0x4
+ 1589 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1590 000a 04       		.byte	0x4
+ 1591 000b 01       		.uleb128 0x1
+ 1592 000c 12000000 		.4byte	.LASF51
+ 1593 0010 0C       		.byte	0xc
+ 1594 0011 55020000 		.4byte	.LASF52
+ 1595 0015 70020000 		.4byte	.LASF53
+ 1596 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 1597 001d 00000000 		.4byte	0
+ 1598 0021 00000000 		.4byte	.Ldebug_line0
+ 1599 0025 02       		.uleb128 0x2
+ 1600 0026 01       		.byte	0x1
+ 1601 0027 06       		.byte	0x6
+ 1602 0028 15030000 		.4byte	.LASF0
+ 1603 002c 02       		.uleb128 0x2
+ 1604 002d 01       		.byte	0x1
+ 1605 002e 08       		.byte	0x8
+ 1606 002f 7A010000 		.4byte	.LASF1
+ 1607 0033 02       		.uleb128 0x2
+ 1608 0034 02       		.byte	0x2
+ 1609 0035 05       		.byte	0x5
+ 1610 0036 AA010000 		.4byte	.LASF2
+ 1611 003a 02       		.uleb128 0x2
+ 1612 003b 02       		.byte	0x2
+ 1613 003c 07       		.byte	0x7
+ 1614 003d 45010000 		.4byte	.LASF3
+ 1615 0041 03       		.uleb128 0x3
+ 1616 0042 CD000000 		.4byte	.LASF9
+ 1617 0046 02       		.byte	0x2
+ 1618 0047 3F       		.byte	0x3f
+ 1619 0048 4C000000 		.4byte	0x4c
+ 1620 004c 02       		.uleb128 0x2
+ 1621 004d 04       		.byte	0x4
+ 1622 004e 05       		.byte	0x5
+ 1623 004f 00030000 		.4byte	.LASF4
+ 1624 0053 02       		.uleb128 0x2
+ 1625 0054 04       		.byte	0x4
+ 1626 0055 07       		.byte	0x7
+ 1627 0056 33010000 		.4byte	.LASF5
+ 1628 005a 02       		.uleb128 0x2
+ 1629 005b 08       		.byte	0x8
+ 1630 005c 05       		.byte	0x5
+ 1631 005d 47020000 		.4byte	.LASF6
+ 1632 0061 02       		.uleb128 0x2
+ 1633 0062 08       		.byte	0x8
+ 1634 0063 07       		.byte	0x7
+ 1635 0064 F8010000 		.4byte	.LASF7
+ 1636 0068 04       		.uleb128 0x4
+ 1637 0069 04       		.byte	0x4
+ 1638 006a 05       		.byte	0x5
+ 1639 006b 696E7400 		.ascii	"int\000"
+ 1640 006f 02       		.uleb128 0x2
+ 1641 0070 04       		.byte	0x4
+ 1642 0071 07       		.byte	0x7
+ 1643 0072 CF010000 		.4byte	.LASF8
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 34
 
 
- 1677 0061 18       		.uleb128 0x18
- 1678 0062 9642     		.uleb128 0x2116
- 1679 0064 19       		.uleb128 0x19
- 1680 0065 00       		.byte	0
- 1681 0066 00       		.byte	0
- 1682 0067 09       		.uleb128 0x9
- 1683 0068 2E       		.uleb128 0x2e
- 1684 0069 01       		.byte	0x1
- 1685 006a 3F       		.uleb128 0x3f
- 1686 006b 19       		.uleb128 0x19
- 1687 006c 03       		.uleb128 0x3
- 1688 006d 0E       		.uleb128 0xe
- 1689 006e 3A       		.uleb128 0x3a
- 1690 006f 0B       		.uleb128 0xb
- 1691 0070 3B       		.uleb128 0x3b
- 1692 0071 0B       		.uleb128 0xb
- 1693 0072 11       		.uleb128 0x11
- 1694 0073 01       		.uleb128 0x1
- 1695 0074 12       		.uleb128 0x12
- 1696 0075 06       		.uleb128 0x6
- 1697 0076 40       		.uleb128 0x40
- 1698 0077 18       		.uleb128 0x18
- 1699 0078 9642     		.uleb128 0x2116
- 1700 007a 19       		.uleb128 0x19
- 1701 007b 01       		.uleb128 0x1
- 1702 007c 13       		.uleb128 0x13
- 1703 007d 00       		.byte	0
- 1704 007e 00       		.byte	0
- 1705 007f 0A       		.uleb128 0xa
- 1706 0080 0B       		.uleb128 0xb
- 1707 0081 01       		.byte	0x1
- 1708 0082 11       		.uleb128 0x11
- 1709 0083 01       		.uleb128 0x1
- 1710 0084 12       		.uleb128 0x12
- 1711 0085 06       		.uleb128 0x6
- 1712 0086 00       		.byte	0
- 1713 0087 00       		.byte	0
- 1714 0088 0B       		.uleb128 0xb
- 1715 0089 34       		.uleb128 0x34
- 1716 008a 00       		.byte	0
- 1717 008b 03       		.uleb128 0x3
- 1718 008c 08       		.uleb128 0x8
- 1719 008d 3A       		.uleb128 0x3a
- 1720 008e 0B       		.uleb128 0xb
- 1721 008f 3B       		.uleb128 0x3b
- 1722 0090 0B       		.uleb128 0xb
- 1723 0091 49       		.uleb128 0x49
- 1724 0092 13       		.uleb128 0x13
- 1725 0093 02       		.uleb128 0x2
- 1726 0094 18       		.uleb128 0x18
- 1727 0095 00       		.byte	0
- 1728 0096 00       		.byte	0
- 1729 0097 0C       		.uleb128 0xc
- 1730 0098 2E       		.uleb128 0x2e
- 1731 0099 01       		.byte	0x1
- 1732 009a 3F       		.uleb128 0x3f
- 1733 009b 19       		.uleb128 0x19
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 34
+ 1644 0076 03       		.uleb128 0x3
+ 1645 0077 30020000 		.4byte	.LASF10
+ 1646 007b 03       		.byte	0x3
+ 1647 007c 2C       		.byte	0x2c
+ 1648 007d 41000000 		.4byte	0x41
+ 1649 0081 05       		.uleb128 0x5
+ 1650 0082 D7000000 		.4byte	.LASF11
+ 1651 0086 04       		.byte	0x4
+ 1652 0087 9201     		.2byte	0x192
+ 1653 0089 2C000000 		.4byte	0x2c
+ 1654 008d 05       		.uleb128 0x5
+ 1655 008e B4010000 		.4byte	.LASF12
+ 1656 0092 04       		.byte	0x4
+ 1657 0093 9301     		.2byte	0x193
+ 1658 0095 3A000000 		.4byte	0x3a
+ 1659 0099 02       		.uleb128 0x2
+ 1660 009a 04       		.byte	0x4
+ 1661 009b 04       		.byte	0x4
+ 1662 009c F8000000 		.4byte	.LASF13
+ 1663 00a0 02       		.uleb128 0x2
+ 1664 00a1 08       		.byte	0x8
+ 1665 00a2 04       		.byte	0x4
+ 1666 00a3 88010000 		.4byte	.LASF14
+ 1667 00a7 02       		.uleb128 0x2
+ 1668 00a8 01       		.byte	0x1
+ 1669 00a9 08       		.byte	0x8
+ 1670 00aa 5C020000 		.4byte	.LASF15
+ 1671 00ae 06       		.uleb128 0x6
+ 1672 00af 81000000 		.4byte	0x81
+ 1673 00b3 06       		.uleb128 0x6
+ 1674 00b4 8D000000 		.4byte	0x8d
+ 1675 00b8 02       		.uleb128 0x2
+ 1676 00b9 08       		.byte	0x8
+ 1677 00ba 04       		.byte	0x4
+ 1678 00bb 09030000 		.4byte	.LASF16
+ 1679 00bf 02       		.uleb128 0x2
+ 1680 00c0 04       		.byte	0x4
+ 1681 00c1 07       		.byte	0x7
+ 1682 00c2 3E020000 		.4byte	.LASF17
+ 1683 00c6 07       		.uleb128 0x7
+ 1684 00c7 A7000000 		.4byte	0xa7
+ 1685 00cb 03       		.uleb128 0x3
+ 1686 00cc BB010000 		.4byte	.LASF18
+ 1687 00d0 05       		.byte	0x5
+ 1688 00d1 6C       		.byte	0x6c
+ 1689 00d2 6F000000 		.4byte	0x6f
+ 1690 00d6 08       		.uleb128 0x8
+ 1691 00d7 00000000 		.4byte	.LASF54
+ 1692 00db 01       		.byte	0x1
+ 1693 00dc 2D       		.byte	0x2d
+ 1694 00dd 00000000 		.4byte	.LFB64
+ 1695 00e1 0C010000 		.4byte	.LFE64-.LFB64
+ 1696 00e5 01       		.uleb128 0x1
+ 1697 00e6 9C       		.byte	0x9c
+ 1698 00e7 09       		.uleb128 0x9
+ 1699 00e8 C5010000 		.4byte	.LASF55
+ 1700 00ec 01       		.byte	0x1
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 35
 
 
- 1734 009c 03       		.uleb128 0x3
- 1735 009d 0E       		.uleb128 0xe
- 1736 009e 3A       		.uleb128 0x3a
- 1737 009f 0B       		.uleb128 0xb
- 1738 00a0 3B       		.uleb128 0x3b
- 1739 00a1 0B       		.uleb128 0xb
- 1740 00a2 27       		.uleb128 0x27
- 1741 00a3 19       		.uleb128 0x19
- 1742 00a4 11       		.uleb128 0x11
- 1743 00a5 01       		.uleb128 0x1
- 1744 00a6 12       		.uleb128 0x12
- 1745 00a7 06       		.uleb128 0x6
- 1746 00a8 40       		.uleb128 0x40
- 1747 00a9 18       		.uleb128 0x18
- 1748 00aa 9642     		.uleb128 0x2116
- 1749 00ac 19       		.uleb128 0x19
- 1750 00ad 01       		.uleb128 0x1
- 1751 00ae 13       		.uleb128 0x13
- 1752 00af 00       		.byte	0
- 1753 00b0 00       		.byte	0
- 1754 00b1 0D       		.uleb128 0xd
- 1755 00b2 05       		.uleb128 0x5
- 1756 00b3 00       		.byte	0
- 1757 00b4 03       		.uleb128 0x3
- 1758 00b5 0E       		.uleb128 0xe
- 1759 00b6 3A       		.uleb128 0x3a
- 1760 00b7 0B       		.uleb128 0xb
- 1761 00b8 3B       		.uleb128 0x3b
- 1762 00b9 0B       		.uleb128 0xb
- 1763 00ba 49       		.uleb128 0x49
- 1764 00bb 13       		.uleb128 0x13
- 1765 00bc 02       		.uleb128 0x2
- 1766 00bd 18       		.uleb128 0x18
- 1767 00be 00       		.byte	0
- 1768 00bf 00       		.byte	0
- 1769 00c0 0E       		.uleb128 0xe
- 1770 00c1 2E       		.uleb128 0x2e
- 1771 00c2 00       		.byte	0
- 1772 00c3 3F       		.uleb128 0x3f
- 1773 00c4 19       		.uleb128 0x19
- 1774 00c5 03       		.uleb128 0x3
- 1775 00c6 0E       		.uleb128 0xe
- 1776 00c7 3A       		.uleb128 0x3a
- 1777 00c8 0B       		.uleb128 0xb
- 1778 00c9 3B       		.uleb128 0x3b
- 1779 00ca 0B       		.uleb128 0xb
- 1780 00cb 49       		.uleb128 0x49
- 1781 00cc 13       		.uleb128 0x13
- 1782 00cd 11       		.uleb128 0x11
- 1783 00ce 01       		.uleb128 0x1
- 1784 00cf 12       		.uleb128 0x12
- 1785 00d0 06       		.uleb128 0x6
- 1786 00d1 40       		.uleb128 0x40
- 1787 00d2 18       		.uleb128 0x18
- 1788 00d3 9642     		.uleb128 0x2116
- 1789 00d5 19       		.uleb128 0x19
- 1790 00d6 00       		.byte	0
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 35
+ 1701 00ed 4A       		.byte	0x4a
+ 1702 00ee 00000000 		.4byte	.LFB65
+ 1703 00f2 4C010000 		.4byte	.LFE65-.LFB65
+ 1704 00f6 01       		.uleb128 0x1
+ 1705 00f7 9C       		.byte	0x9c
+ 1706 00f8 13010000 		.4byte	0x113
+ 1707 00fc 0A       		.uleb128 0xa
+ 1708 00fd 46000000 		.4byte	.LBB2
+ 1709 0101 96000000 		.4byte	.LBE2-.LBB2
+ 1710 0105 0B       		.uleb128 0xb
+ 1711 0106 6900     		.ascii	"i\000"
+ 1712 0108 01       		.byte	0x1
+ 1713 0109 50       		.byte	0x50
+ 1714 010a CB000000 		.4byte	0xcb
+ 1715 010e 02       		.uleb128 0x2
+ 1716 010f 91       		.byte	0x91
+ 1717 0110 6C       		.sleb128 -20
+ 1718 0111 00       		.byte	0
+ 1719 0112 00       		.byte	0
+ 1720 0113 0C       		.uleb128 0xc
+ 1721 0114 70010000 		.4byte	.LASF56
+ 1722 0118 01       		.byte	0x1
+ 1723 0119 5D       		.byte	0x5d
+ 1724 011a 00000000 		.4byte	.LFB66
+ 1725 011e E4000000 		.4byte	.LFE66-.LFB66
+ 1726 0122 01       		.uleb128 0x1
+ 1727 0123 9C       		.byte	0x9c
+ 1728 0124 69010000 		.4byte	0x169
+ 1729 0128 0D       		.uleb128 0xd
+ 1730 0129 B2000000 		.4byte	.LASF19
+ 1731 012d 01       		.byte	0x1
+ 1732 012e 5D       		.byte	0x5d
+ 1733 012f 81000000 		.4byte	0x81
+ 1734 0133 02       		.uleb128 0x2
+ 1735 0134 91       		.byte	0x91
+ 1736 0135 67       		.sleb128 -25
+ 1737 0136 0D       		.uleb128 0xd
+ 1738 0137 A1010000 		.4byte	.LASF20
+ 1739 013b 01       		.byte	0x1
+ 1740 013c 5D       		.byte	0x5d
+ 1741 013d 81000000 		.4byte	0x81
+ 1742 0141 02       		.uleb128 0x2
+ 1743 0142 91       		.byte	0x91
+ 1744 0143 66       		.sleb128 -26
+ 1745 0144 0D       		.uleb128 0xd
+ 1746 0145 61020000 		.4byte	.LASF21
+ 1747 0149 01       		.byte	0x1
+ 1748 014a 5D       		.byte	0x5d
+ 1749 014b 8D000000 		.4byte	0x8d
+ 1750 014f 02       		.uleb128 0x2
+ 1751 0150 91       		.byte	0x91
+ 1752 0151 64       		.sleb128 -28
+ 1753 0152 0A       		.uleb128 0xa
+ 1754 0153 22000000 		.4byte	.LBB3
+ 1755 0157 9C000000 		.4byte	.LBE3-.LBB3
+ 1756 015b 0B       		.uleb128 0xb
+ 1757 015c 6900     		.ascii	"i\000"
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 36
 
 
- 1791 00d7 00       		.byte	0
- 1792 00d8 0F       		.uleb128 0xf
- 1793 00d9 2E       		.uleb128 0x2e
- 1794 00da 00       		.byte	0
- 1795 00db 3F       		.uleb128 0x3f
- 1796 00dc 19       		.uleb128 0x19
- 1797 00dd 03       		.uleb128 0x3
- 1798 00de 0E       		.uleb128 0xe
- 1799 00df 3A       		.uleb128 0x3a
- 1800 00e0 0B       		.uleb128 0xb
- 1801 00e1 3B       		.uleb128 0x3b
- 1802 00e2 0B       		.uleb128 0xb
- 1803 00e3 27       		.uleb128 0x27
- 1804 00e4 19       		.uleb128 0x19
- 1805 00e5 11       		.uleb128 0x11
- 1806 00e6 01       		.uleb128 0x1
- 1807 00e7 12       		.uleb128 0x12
- 1808 00e8 06       		.uleb128 0x6
- 1809 00e9 40       		.uleb128 0x40
- 1810 00ea 18       		.uleb128 0x18
- 1811 00eb 9642     		.uleb128 0x2116
- 1812 00ed 19       		.uleb128 0x19
- 1813 00ee 00       		.byte	0
- 1814 00ef 00       		.byte	0
- 1815 00f0 10       		.uleb128 0x10
- 1816 00f1 34       		.uleb128 0x34
- 1817 00f2 00       		.byte	0
- 1818 00f3 03       		.uleb128 0x3
- 1819 00f4 0E       		.uleb128 0xe
- 1820 00f5 3A       		.uleb128 0x3a
- 1821 00f6 0B       		.uleb128 0xb
- 1822 00f7 3B       		.uleb128 0x3b
- 1823 00f8 05       		.uleb128 0x5
- 1824 00f9 49       		.uleb128 0x49
- 1825 00fa 13       		.uleb128 0x13
- 1826 00fb 3F       		.uleb128 0x3f
- 1827 00fc 19       		.uleb128 0x19
- 1828 00fd 3C       		.uleb128 0x3c
- 1829 00fe 19       		.uleb128 0x19
- 1830 00ff 00       		.byte	0
- 1831 0100 00       		.byte	0
- 1832 0101 11       		.uleb128 0x11
- 1833 0102 01       		.uleb128 0x1
- 1834 0103 01       		.byte	0x1
- 1835 0104 49       		.uleb128 0x49
- 1836 0105 13       		.uleb128 0x13
- 1837 0106 01       		.uleb128 0x1
- 1838 0107 13       		.uleb128 0x13
- 1839 0108 00       		.byte	0
- 1840 0109 00       		.byte	0
- 1841 010a 12       		.uleb128 0x12
- 1842 010b 21       		.uleb128 0x21
- 1843 010c 00       		.byte	0
- 1844 010d 49       		.uleb128 0x49
- 1845 010e 13       		.uleb128 0x13
- 1846 010f 2F       		.uleb128 0x2f
- 1847 0110 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 36
+ 1758 015e 01       		.byte	0x1
+ 1759 015f 62       		.byte	0x62
+ 1760 0160 81000000 		.4byte	0x81
+ 1761 0164 02       		.uleb128 0x2
+ 1762 0165 91       		.byte	0x91
+ 1763 0166 6F       		.sleb128 -17
+ 1764 0167 00       		.byte	0
+ 1765 0168 00       		.byte	0
+ 1766 0169 0E       		.uleb128 0xe
+ 1767 016a C0010000 		.4byte	.LASF22
+ 1768 016e 01       		.byte	0x1
+ 1769 016f 6C       		.byte	0x6c
+ 1770 0170 68000000 		.4byte	0x68
+ 1771 0174 00000000 		.4byte	.LFB67
+ 1772 0178 A4010000 		.4byte	.LFE67-.LFB67
+ 1773 017c 01       		.uleb128 0x1
+ 1774 017d 9C       		.byte	0x9c
+ 1775 017e 0F       		.uleb128 0xf
+ 1776 017f A0000000 		.4byte	.LASF23
+ 1777 0183 01       		.byte	0x1
+ 1778 0184 A4       		.byte	0xa4
+ 1779 0185 00000000 		.4byte	.LFB68
+ 1780 0189 1C000000 		.4byte	.LFE68-.LFB68
+ 1781 018d 01       		.uleb128 0x1
+ 1782 018e 9C       		.byte	0x9c
+ 1783 018f 0F       		.uleb128 0xf
+ 1784 0190 10010000 		.4byte	.LASF24
+ 1785 0194 01       		.byte	0x1
+ 1786 0195 A8       		.byte	0xa8
+ 1787 0196 00000000 		.4byte	.LFB69
+ 1788 019a 1C000000 		.4byte	.LFE69-.LFB69
+ 1789 019e 01       		.uleb128 0x1
+ 1790 019f 9C       		.byte	0x9c
+ 1791 01a0 0F       		.uleb128 0xf
+ 1792 01a1 21030000 		.4byte	.LASF25
+ 1793 01a5 01       		.byte	0x1
+ 1794 01a6 AC       		.byte	0xac
+ 1795 01a7 00000000 		.4byte	.LFB70
+ 1796 01ab 1C000000 		.4byte	.LFE70-.LFB70
+ 1797 01af 01       		.uleb128 0x1
+ 1798 01b0 9C       		.byte	0x9c
+ 1799 01b1 0F       		.uleb128 0xf
+ 1800 01b2 E6000000 		.4byte	.LASF26
+ 1801 01b6 01       		.byte	0x1
+ 1802 01b7 B0       		.byte	0xb0
+ 1803 01b8 00000000 		.4byte	.LFB71
+ 1804 01bc 1C000000 		.4byte	.LFE71-.LFB71
+ 1805 01c0 01       		.uleb128 0x1
+ 1806 01c1 9C       		.byte	0x9c
+ 1807 01c2 0F       		.uleb128 0xf
+ 1808 01c3 BB000000 		.4byte	.LASF27
+ 1809 01c7 01       		.byte	0x1
+ 1810 01c8 B4       		.byte	0xb4
+ 1811 01c9 00000000 		.4byte	.LFB72
+ 1812 01cd 1C000000 		.4byte	.LFE72-.LFB72
+ 1813 01d1 01       		.uleb128 0x1
+ 1814 01d2 9C       		.byte	0x9c
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 37
 
 
- 1848 0111 00       		.byte	0
- 1849 0112 00       		.byte	0
- 1850 0113 13       		.uleb128 0x13
- 1851 0114 34       		.uleb128 0x34
- 1852 0115 00       		.byte	0
- 1853 0116 03       		.uleb128 0x3
- 1854 0117 0E       		.uleb128 0xe
- 1855 0118 3A       		.uleb128 0x3a
- 1856 0119 0B       		.uleb128 0xb
- 1857 011a 3B       		.uleb128 0x3b
- 1858 011b 0B       		.uleb128 0xb
- 1859 011c 49       		.uleb128 0x49
- 1860 011d 13       		.uleb128 0x13
- 1861 011e 3F       		.uleb128 0x3f
- 1862 011f 19       		.uleb128 0x19
- 1863 0120 02       		.uleb128 0x2
- 1864 0121 18       		.uleb128 0x18
- 1865 0122 00       		.byte	0
- 1866 0123 00       		.byte	0
- 1867 0124 00       		.byte	0
- 1868              		.section	.debug_aranges,"",%progbits
- 1869 0000 3C000000 		.4byte	0x3c
- 1870 0004 0200     		.2byte	0x2
- 1871 0006 00000000 		.4byte	.Ldebug_info0
- 1872 000a 04       		.byte	0x4
- 1873 000b 00       		.byte	0
- 1874 000c 0000     		.2byte	0
- 1875 000e 0000     		.2byte	0
- 1876 0010 00000000 		.4byte	.LFB64
- 1877 0014 0C010000 		.4byte	.LFE64-.LFB64
- 1878 0018 00000000 		.4byte	.LFB65
- 1879 001c 4C010000 		.4byte	.LFE65-.LFB65
- 1880 0020 00000000 		.4byte	.LFB66
- 1881 0024 E4000000 		.4byte	.LFE66-.LFB66
- 1882 0028 00000000 		.4byte	.LFB67
- 1883 002c 8C000000 		.4byte	.LFE67-.LFB67
- 1884 0030 00000000 		.4byte	.LFB68
- 1885 0034 18000000 		.4byte	.LFE68-.LFB68
- 1886 0038 00000000 		.4byte	0
- 1887 003c 00000000 		.4byte	0
- 1888              		.section	.debug_ranges,"",%progbits
- 1889              	.Ldebug_ranges0:
- 1890 0000 00000000 		.4byte	.LFB64
- 1891 0004 0C010000 		.4byte	.LFE64
- 1892 0008 00000000 		.4byte	.LFB65
- 1893 000c 4C010000 		.4byte	.LFE65
- 1894 0010 00000000 		.4byte	.LFB66
- 1895 0014 E4000000 		.4byte	.LFE66
- 1896 0018 00000000 		.4byte	.LFB67
- 1897 001c 8C000000 		.4byte	.LFE67
- 1898 0020 00000000 		.4byte	.LFB68
- 1899 0024 18000000 		.4byte	.LFE68
- 1900 0028 00000000 		.4byte	0
- 1901 002c 00000000 		.4byte	0
- 1902              		.section	.debug_line,"",%progbits
- 1903              	.Ldebug_line0:
- 1904 0000 58020000 		.section	.debug_str,"MS",%progbits,1
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 37
+ 1815 01d3 0F       		.uleb128 0xf
+ 1816 01d4 EE020000 		.4byte	.LASF28
+ 1817 01d8 01       		.byte	0x1
+ 1818 01d9 B8       		.byte	0xb8
+ 1819 01da 00000000 		.4byte	.LFB73
+ 1820 01de 1C000000 		.4byte	.LFE73-.LFB73
+ 1821 01e2 01       		.uleb128 0x1
+ 1822 01e3 9C       		.byte	0x9c
+ 1823 01e4 0F       		.uleb128 0xf
+ 1824 01e5 8F010000 		.4byte	.LASF29
+ 1825 01e9 01       		.byte	0x1
+ 1826 01ea BE       		.byte	0xbe
+ 1827 01eb 00000000 		.4byte	.LFB74
+ 1828 01ef 18000000 		.4byte	.LFE74-.LFB74
+ 1829 01f3 01       		.uleb128 0x1
+ 1830 01f4 9C       		.byte	0x9c
+ 1831 01f5 10       		.uleb128 0x10
+ 1832 01f6 63010000 		.4byte	.LASF30
+ 1833 01fa 06       		.byte	0x6
+ 1834 01fb 1207     		.2byte	0x712
+ 1835 01fd 01020000 		.4byte	0x201
+ 1836 0201 06       		.uleb128 0x6
+ 1837 0202 76000000 		.4byte	0x76
+ 1838 0206 11       		.uleb128 0x11
+ 1839 0207 F0010000 		.4byte	.LASF31
+ 1840 020b 01       		.byte	0x1
+ 1841 020c 14       		.byte	0x14
+ 1842 020d AE000000 		.4byte	0xae
+ 1843 0211 05       		.uleb128 0x5
+ 1844 0212 03       		.byte	0x3
+ 1845 0213 00000000 		.4byte	button1
+ 1846 0217 11       		.uleb128 0x11
+ 1847 0218 33030000 		.4byte	.LASF32
+ 1848 021c 01       		.byte	0x1
+ 1849 021d 15       		.byte	0x15
+ 1850 021e AE000000 		.4byte	0xae
+ 1851 0222 05       		.uleb128 0x5
+ 1852 0223 03       		.byte	0x3
+ 1853 0224 00000000 		.4byte	button2
+ 1854 0228 11       		.uleb128 0x11
+ 1855 0229 0F020000 		.4byte	.LASF33
+ 1856 022d 01       		.byte	0x1
+ 1857 022e 16       		.byte	0x16
+ 1858 022f AE000000 		.4byte	0xae
+ 1859 0233 05       		.uleb128 0x5
+ 1860 0234 03       		.byte	0x3
+ 1861 0235 00000000 		.4byte	button3
+ 1862 0239 12       		.uleb128 0x12
+ 1863 023a A7000000 		.4byte	0xa7
+ 1864 023e 49020000 		.4byte	0x249
+ 1865 0242 13       		.uleb128 0x13
+ 1866 0243 BF000000 		.4byte	0xbf
+ 1867 0247 03       		.byte	0x3
+ 1868 0248 00       		.byte	0
+ 1869 0249 11       		.uleb128 0x11
+ 1870 024a 22010000 		.4byte	.LASF34
+ 1871 024e 01       		.byte	0x1
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 38
 
 
- 1904      02005701 
- 1904      00000201 
- 1904      FB0E0D00 
- 1904      01010101 
- 1905              	.LASF44:
- 1906 0000 6D6F6465 		.ascii	"modecheck\000"
- 1906      63686563 
- 1906      6B00
- 1907              	.LASF32:
- 1908 000a 696E7446 		.ascii	"intFreq\000"
- 1908      72657100 
- 1909              	.LASF41:
- 1910 0012 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1910      43313120 
- 1910      352E342E 
- 1910      31203230 
- 1910      31363036 
- 1911 0045 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 1911      20726576 
- 1911      6973696F 
- 1911      6E203233 
- 1911      37373135 
- 1912 0078 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1912      66756E63 
- 1912      74696F6E 
- 1912      2D736563 
- 1912      74696F6E 
- 1913              	.LASF19:
- 1914 00a0 6D696E49 		.ascii	"minIndex\000"
- 1914      6E646578 
- 1914      00
- 1915              	.LASF40:
- 1916 00a9 64696365 		.ascii	"dice2\000"
- 1916      3200
- 1917              	.LASF9:
- 1918 00af 5F5F696E 		.ascii	"__int32_t\000"
- 1918      7433325F 
- 1918      7400
- 1919              	.LASF11:
- 1920 00b9 75696E74 		.ascii	"uint8\000"
- 1920      3800
- 1921              	.LASF36:
- 1922 00bf 6D6F6465 		.ascii	"modeFlag\000"
- 1922      466C6167 
- 1922      00
- 1923              	.LASF43:
- 1924 00c8 433A5C55 		.ascii	"C:\\Users\\Silvan\\OneDrive\\Dokumente\\PSoC Creato"
- 1924      73657273 
- 1924      5C53696C 
- 1924      76616E5C 
- 1924      4F6E6544 
- 1925 00f6 725C5053 		.ascii	"r\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI.cydsn\000"
- 1925      6F435F41 
- 1925      7564696F 
- 1925      5F4D4944 
- 1925      495C5053 
- 1926              	.LASF13:
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 38
+ 1872 024f 18       		.byte	0x18
+ 1873 0250 39020000 		.4byte	0x239
+ 1874 0254 05       		.uleb128 0x5
+ 1875 0255 03       		.byte	0x3
+ 1876 0256 00000000 		.4byte	squarewave
+ 1877 025a 12       		.uleb128 0x12
+ 1878 025b C6000000 		.4byte	0xc6
+ 1879 025f 70020000 		.4byte	0x270
+ 1880 0263 13       		.uleb128 0x13
+ 1881 0264 BF000000 		.4byte	0xbf
+ 1882 0268 6B       		.byte	0x6b
+ 1883 0269 13       		.uleb128 0x13
+ 1884 026a BF000000 		.4byte	0xbf
+ 1885 026e 02       		.byte	0x2
+ 1886 026f 00       		.byte	0
+ 1887 0270 11       		.uleb128 0x11
+ 1888 0271 38020000 		.4byte	.LASF35
+ 1889 0275 01       		.byte	0x1
+ 1890 0276 1A       		.byte	0x1a
+ 1891 0277 81020000 		.4byte	0x281
+ 1892 027b 05       		.uleb128 0x5
+ 1893 027c 03       		.byte	0x3
+ 1894 027d 00000000 		.4byte	notes
+ 1895 0281 07       		.uleb128 0x7
+ 1896 0282 5A020000 		.4byte	0x25a
+ 1897 0286 12       		.uleb128 0x12
+ 1898 0287 96020000 		.4byte	0x296
+ 1899 028b 96020000 		.4byte	0x296
+ 1900 028f 13       		.uleb128 0x13
+ 1901 0290 BF000000 		.4byte	0xbf
+ 1902 0294 6B       		.byte	0x6b
+ 1903 0295 00       		.byte	0
+ 1904 0296 07       		.uleb128 0x7
+ 1905 0297 8D000000 		.4byte	0x8d
+ 1906 029b 11       		.uleb128 0x11
+ 1907 029c 03010000 		.4byte	.LASF36
+ 1908 02a0 01       		.byte	0x1
+ 1909 02a1 1B       		.byte	0x1b
+ 1910 02a2 AC020000 		.4byte	0x2ac
+ 1911 02a6 05       		.uleb128 0x5
+ 1912 02a7 03       		.byte	0x3
+ 1913 02a8 00000000 		.4byte	intFrequency
+ 1914 02ac 07       		.uleb128 0x7
+ 1915 02ad 86020000 		.4byte	0x286
+ 1916 02b1 12       		.uleb128 0x12
+ 1917 02b2 C1020000 		.4byte	0x2c1
+ 1918 02b6 C1020000 		.4byte	0x2c1
+ 1919 02ba 13       		.uleb128 0x13
+ 1920 02bb BF000000 		.4byte	0xbf
+ 1921 02bf 6B       		.byte	0x6b
+ 1922 02c0 00       		.byte	0
+ 1923 02c1 07       		.uleb128 0x7
+ 1924 02c2 A0000000 		.4byte	0xa0
+ 1925 02c6 11       		.uleb128 0x11
+ 1926 02c7 1C020000 		.4byte	.LASF37
+ 1927 02cb 01       		.byte	0x1
+ 1928 02cc 1C       		.byte	0x1c
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 39
 
 
- 1927 011e 666C6F61 		.ascii	"float\000"
- 1927      7400
- 1928              	.LASF33:
- 1929 0124 6E6F7465 		.ascii	"note\000"
- 1929      00
- 1930              	.LASF26:
- 1931 0129 696E7446 		.ascii	"intFrequency\000"
- 1931      72657175 
- 1931      656E6379 
- 1931      00
- 1932              	.LASF5:
- 1933 0136 6C6F6E67 		.ascii	"long unsigned int\000"
- 1933      20756E73 
- 1933      69676E65 
- 1933      6420696E 
- 1933      7400
- 1934              	.LASF3:
- 1935 0148 73686F72 		.ascii	"short unsigned int\000"
- 1935      7420756E 
- 1935      7369676E 
- 1935      65642069 
- 1935      6E7400
- 1936              	.LASF29:
- 1937 015b 6F6E4F66 		.ascii	"onOffCount\000"
- 1937      66436F75 
- 1937      6E7400
- 1938              	.LASF24:
- 1939 0166 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1939      52784275 
- 1939      66666572 
- 1939      00
- 1940              	.LASF46:
- 1941 0173 706C6179 		.ascii	"playRange\000"
- 1941      52616E67 
- 1941      6500
- 1942              	.LASF1:
- 1943 017d 756E7369 		.ascii	"unsigned char\000"
- 1943      676E6564 
- 1943      20636861 
- 1943      7200
- 1944              	.LASF14:
- 1945 018b 646F7562 		.ascii	"double\000"
- 1945      6C6500
- 1946              	.LASF23:
- 1947 0192 75736572 		.ascii	"userModeTimer_ISR\000"
- 1947      4D6F6465 
- 1947      54696D65 
- 1947      725F4953 
- 1947      5200
- 1948              	.LASF20:
- 1949 01a4 6D617849 		.ascii	"maxIndex\000"
- 1949      6E646578 
- 1949      00
- 1950              	.LASF2:
- 1951 01ad 73686F72 		.ascii	"short int\000"
- 1951      7420696E 
- 1951      7400
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 39
+ 1929 02cd D7020000 		.4byte	0x2d7
+ 1930 02d1 05       		.uleb128 0x5
+ 1931 02d2 03       		.byte	0x3
+ 1932 02d3 00000000 		.4byte	frequency
+ 1933 02d7 07       		.uleb128 0x7
+ 1934 02d8 B1020000 		.4byte	0x2b1
+ 1935 02dc 11       		.uleb128 0x11
+ 1936 02dd CC020000 		.4byte	.LASF38
+ 1937 02e1 01       		.byte	0x1
+ 1938 02e2 1E       		.byte	0x1e
+ 1939 02e3 B3000000 		.4byte	0xb3
+ 1940 02e7 05       		.uleb128 0x5
+ 1941 02e8 03       		.byte	0x3
+ 1942 02e9 00000000 		.4byte	delayMS
+ 1943 02ed 11       		.uleb128 0x11
+ 1944 02ee 58010000 		.4byte	.LASF39
+ 1945 02f2 01       		.byte	0x1
+ 1946 02f3 1F       		.byte	0x1f
+ 1947 02f4 AE000000 		.4byte	0xae
+ 1948 02f8 05       		.uleb128 0x5
+ 1949 02f9 03       		.byte	0x3
+ 1950 02fa 00000000 		.4byte	onOffCount
+ 1951 02fe 12       		.uleb128 0x12
+ 1952 02ff A7000000 		.4byte	0xa7
+ 1953 0303 0E030000 		.4byte	0x30e
+ 1954 0307 13       		.uleb128 0x13
+ 1955 0308 BF000000 		.4byte	0xbf
+ 1956 030c 63       		.byte	0x63
+ 1957 030d 00       		.byte	0
+ 1958 030e 11       		.uleb128 0x11
+ 1959 030f DF020000 		.4byte	.LASF40
+ 1960 0313 01       		.byte	0x1
+ 1961 0314 20       		.byte	0x20
+ 1962 0315 FE020000 		.4byte	0x2fe
+ 1963 0319 05       		.uleb128 0x5
+ 1964 031a 03       		.byte	0x3
+ 1965 031b 00000000 		.4byte	transmitBuffer
+ 1966 031f 11       		.uleb128 0x11
+ 1967 0320 D4020000 		.4byte	.LASF41
+ 1968 0324 01       		.byte	0x1
+ 1969 0325 21       		.byte	0x21
+ 1970 0326 30030000 		.4byte	0x330
+ 1971 032a 05       		.uleb128 0x5
+ 1972 032b 03       		.byte	0x3
+ 1973 032c 00000000 		.4byte	freq
+ 1974 0330 06       		.uleb128 0x6
+ 1975 0331 A0000000 		.4byte	0xa0
+ 1976 0335 11       		.uleb128 0x11
+ 1977 0336 0A000000 		.4byte	.LASF42
+ 1978 033a 01       		.byte	0x1
+ 1979 033b 22       		.byte	0x22
+ 1980 033c B3000000 		.4byte	0xb3
+ 1981 0340 05       		.uleb128 0x5
+ 1982 0341 03       		.byte	0x3
+ 1983 0342 00000000 		.4byte	intFreq
+ 1984 0346 12       		.uleb128 0x12
+ 1985 0347 56030000 		.4byte	0x356
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 40
 
 
- 1952              	.LASF12:
- 1953 01b7 75696E74 		.ascii	"uint16\000"
- 1953      313600
- 1954              	.LASF18:
- 1955 01be 75696E74 		.ascii	"uint\000"
- 1955      00
- 1956              	.LASF22:
- 1957 01c3 6D61696E 		.ascii	"main\000"
- 1957      00
- 1958              	.LASF45:
- 1959 01c8 6C6F6E67 		.ascii	"longSweep\000"
- 1959      53776565 
- 1959      7000
- 1960              	.LASF8:
- 1961 01d2 756E7369 		.ascii	"unsigned int\000"
- 1961      676E6564 
- 1961      20696E74 
- 1961      00
- 1962              	.LASF38:
- 1963 01df 66726571 		.ascii	"freqClockDivCounter\000"
- 1963      436C6F63 
- 1963      6B446976 
- 1963      436F756E 
- 1963      74657200 
- 1964              	.LASF7:
- 1965 01f3 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1965      206C6F6E 
- 1965      6720756E 
- 1965      7369676E 
- 1965      65642069 
- 1966              	.LASF35:
- 1967 020a 6D6F6465 		.ascii	"mode\000"
- 1967      00
- 1968              	.LASF27:
- 1969 020f 66726571 		.ascii	"frequency\000"
- 1969      75656E63 
- 1969      7900
- 1970              	.LASF34:
- 1971 0219 6E6F7465 		.ascii	"noteIndex\000"
- 1971      496E6465 
- 1971      7800
- 1972              	.LASF10:
- 1973 0223 696E7433 		.ascii	"int32_t\000"
- 1973      325F7400 
- 1974              	.LASF25:
- 1975 022b 6E6F7465 		.ascii	"notes\000"
- 1975      7300
- 1976              	.LASF17:
- 1977 0231 73697A65 		.ascii	"sizetype\000"
- 1977      74797065 
- 1977      00
- 1978              	.LASF6:
- 1979 023a 6C6F6E67 		.ascii	"long long int\000"
- 1979      206C6F6E 
- 1979      6720696E 
- 1979      7400
- 1980              	.LASF42:
-ARM GAS  C:\Users\Silvan\AppData\Local\Temp\cciT9LNe.s 			page 40
+ 1986 034b 56030000 		.4byte	0x356
+ 1987 034f 13       		.uleb128 0x13
+ 1988 0350 BF000000 		.4byte	0xbf
+ 1989 0354 02       		.byte	0x2
+ 1990 0355 00       		.byte	0
+ 1991 0356 06       		.uleb128 0x6
+ 1992 0357 A7000000 		.4byte	0xa7
+ 1993 035b 11       		.uleb128 0x11
+ 1994 035c FE000000 		.4byte	.LASF43
+ 1995 0360 01       		.byte	0x1
+ 1996 0361 23       		.byte	0x23
+ 1997 0362 6C030000 		.4byte	0x36c
+ 1998 0366 05       		.uleb128 0x5
+ 1999 0367 03       		.byte	0x3
+ 2000 0368 00000000 		.4byte	note
+ 2001 036c 06       		.uleb128 0x6
+ 2002 036d 46030000 		.4byte	0x346
+ 2003 0371 11       		.uleb128 0x11
+ 2004 0372 26020000 		.4byte	.LASF44
+ 2005 0376 01       		.byte	0x1
+ 2006 0377 24       		.byte	0x24
+ 2007 0378 AE000000 		.4byte	0xae
+ 2008 037c 05       		.uleb128 0x5
+ 2009 037d 03       		.byte	0x3
+ 2010 037e 00000000 		.4byte	noteIndex
+ 2011 0382 11       		.uleb128 0x11
+ 2012 0383 17020000 		.4byte	.LASF45
+ 2013 0387 01       		.byte	0x1
+ 2014 0388 25       		.byte	0x25
+ 2015 0389 AE000000 		.4byte	0xae
+ 2016 038d 05       		.uleb128 0x5
+ 2017 038e 03       		.byte	0x3
+ 2018 038f 00000000 		.4byte	mode
+ 2019 0393 11       		.uleb128 0x11
+ 2020 0394 DD000000 		.4byte	.LASF46
+ 2021 0398 01       		.byte	0x1
+ 2022 0399 26       		.byte	0x26
+ 2023 039a AE000000 		.4byte	0xae
+ 2024 039e 05       		.uleb128 0x5
+ 2025 039f 03       		.byte	0x3
+ 2026 03a0 00000000 		.4byte	modeFlag
+ 2027 03a4 11       		.uleb128 0x11
+ 2028 03a5 3B030000 		.4byte	.LASF47
+ 2029 03a9 01       		.byte	0x1
+ 2030 03aa 27       		.byte	0x27
+ 2031 03ab AE000000 		.4byte	0xae
+ 2032 03af 05       		.uleb128 0x5
+ 2033 03b0 03       		.byte	0x3
+ 2034 03b1 00000000 		.4byte	checkingMode
+ 2035 03b5 11       		.uleb128 0x11
+ 2036 03b6 DC010000 		.4byte	.LASF48
+ 2037 03ba 01       		.byte	0x1
+ 2038 03bb 28       		.byte	0x28
+ 2039 03bc 8D000000 		.4byte	0x8d
+ 2040 03c0 05       		.uleb128 0x5
+ 2041 03c1 03       		.byte	0x3
+ 2042 03c2 00000000 		.4byte	freqClockDivCounter
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 41
 
 
- 1981 0248 6D61696E 		.ascii	"main.c\000"
- 1981      2E6300
- 1982              	.LASF15:
- 1983 024f 63686172 		.ascii	"char\000"
- 1983      00
- 1984              	.LASF21:
- 1985 0254 706C6179 		.ascii	"playRangeDelay\000"
- 1985      52616E67 
- 1985      6544656C 
- 1985      617900
- 1986              	.LASF28:
- 1987 0263 64656C61 		.ascii	"delayMS\000"
- 1987      794D5300 
- 1988              	.LASF31:
- 1989 026b 66726571 		.ascii	"freq\000"
- 1989      00
- 1990              	.LASF39:
- 1991 0270 64696365 		.ascii	"dice1\000"
- 1991      3100
- 1992              	.LASF30:
- 1993 0276 7472616E 		.ascii	"transmitBuffer\000"
- 1993      736D6974 
- 1993      42756666 
- 1993      657200
- 1994              	.LASF4:
- 1995 0285 6C6F6E67 		.ascii	"long int\000"
- 1995      20696E74 
- 1995      00
- 1996              	.LASF16:
- 1997 028e 6C6F6E67 		.ascii	"long double\000"
- 1997      20646F75 
- 1997      626C6500 
- 1998              	.LASF0:
- 1999 029a 7369676E 		.ascii	"signed char\000"
- 1999      65642063 
- 1999      68617200 
- 2000              	.LASF37:
- 2001 02a6 63686563 		.ascii	"checkingMode\000"
- 2001      6B696E67 
- 2001      4D6F6465 
- 2001      00
- 2002              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 2043 03c6 11       		.uleb128 0x11
+ 2044 03c7 D9020000 		.4byte	.LASF49
+ 2045 03cb 01       		.byte	0x1
+ 2046 03cc 29       		.byte	0x29
+ 2047 03cd D7030000 		.4byte	0x3d7
+ 2048 03d1 05       		.uleb128 0x5
+ 2049 03d2 03       		.byte	0x3
+ 2050 03d3 00000000 		.4byte	dice1
+ 2051 03d7 06       		.uleb128 0x6
+ 2052 03d8 CB000000 		.4byte	0xcb
+ 2053 03dc 11       		.uleb128 0x11
+ 2054 03dd 2D010000 		.4byte	.LASF50
+ 2055 03e1 01       		.byte	0x1
+ 2056 03e2 2A       		.byte	0x2a
+ 2057 03e3 D7030000 		.4byte	0x3d7
+ 2058 03e7 05       		.uleb128 0x5
+ 2059 03e8 03       		.byte	0x3
+ 2060 03e9 00000000 		.4byte	dice2
+ 2061 03ed 00       		.byte	0
+ 2062              		.section	.debug_abbrev,"",%progbits
+ 2063              	.Ldebug_abbrev0:
+ 2064 0000 01       		.uleb128 0x1
+ 2065 0001 11       		.uleb128 0x11
+ 2066 0002 01       		.byte	0x1
+ 2067 0003 25       		.uleb128 0x25
+ 2068 0004 0E       		.uleb128 0xe
+ 2069 0005 13       		.uleb128 0x13
+ 2070 0006 0B       		.uleb128 0xb
+ 2071 0007 03       		.uleb128 0x3
+ 2072 0008 0E       		.uleb128 0xe
+ 2073 0009 1B       		.uleb128 0x1b
+ 2074 000a 0E       		.uleb128 0xe
+ 2075 000b 55       		.uleb128 0x55
+ 2076 000c 17       		.uleb128 0x17
+ 2077 000d 11       		.uleb128 0x11
+ 2078 000e 01       		.uleb128 0x1
+ 2079 000f 10       		.uleb128 0x10
+ 2080 0010 17       		.uleb128 0x17
+ 2081 0011 00       		.byte	0
+ 2082 0012 00       		.byte	0
+ 2083 0013 02       		.uleb128 0x2
+ 2084 0014 24       		.uleb128 0x24
+ 2085 0015 00       		.byte	0
+ 2086 0016 0B       		.uleb128 0xb
+ 2087 0017 0B       		.uleb128 0xb
+ 2088 0018 3E       		.uleb128 0x3e
+ 2089 0019 0B       		.uleb128 0xb
+ 2090 001a 03       		.uleb128 0x3
+ 2091 001b 0E       		.uleb128 0xe
+ 2092 001c 00       		.byte	0
+ 2093 001d 00       		.byte	0
+ 2094 001e 03       		.uleb128 0x3
+ 2095 001f 16       		.uleb128 0x16
+ 2096 0020 00       		.byte	0
+ 2097 0021 03       		.uleb128 0x3
+ 2098 0022 0E       		.uleb128 0xe
+ 2099 0023 3A       		.uleb128 0x3a
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 42
+
+
+ 2100 0024 0B       		.uleb128 0xb
+ 2101 0025 3B       		.uleb128 0x3b
+ 2102 0026 0B       		.uleb128 0xb
+ 2103 0027 49       		.uleb128 0x49
+ 2104 0028 13       		.uleb128 0x13
+ 2105 0029 00       		.byte	0
+ 2106 002a 00       		.byte	0
+ 2107 002b 04       		.uleb128 0x4
+ 2108 002c 24       		.uleb128 0x24
+ 2109 002d 00       		.byte	0
+ 2110 002e 0B       		.uleb128 0xb
+ 2111 002f 0B       		.uleb128 0xb
+ 2112 0030 3E       		.uleb128 0x3e
+ 2113 0031 0B       		.uleb128 0xb
+ 2114 0032 03       		.uleb128 0x3
+ 2115 0033 08       		.uleb128 0x8
+ 2116 0034 00       		.byte	0
+ 2117 0035 00       		.byte	0
+ 2118 0036 05       		.uleb128 0x5
+ 2119 0037 16       		.uleb128 0x16
+ 2120 0038 00       		.byte	0
+ 2121 0039 03       		.uleb128 0x3
+ 2122 003a 0E       		.uleb128 0xe
+ 2123 003b 3A       		.uleb128 0x3a
+ 2124 003c 0B       		.uleb128 0xb
+ 2125 003d 3B       		.uleb128 0x3b
+ 2126 003e 05       		.uleb128 0x5
+ 2127 003f 49       		.uleb128 0x49
+ 2128 0040 13       		.uleb128 0x13
+ 2129 0041 00       		.byte	0
+ 2130 0042 00       		.byte	0
+ 2131 0043 06       		.uleb128 0x6
+ 2132 0044 35       		.uleb128 0x35
+ 2133 0045 00       		.byte	0
+ 2134 0046 49       		.uleb128 0x49
+ 2135 0047 13       		.uleb128 0x13
+ 2136 0048 00       		.byte	0
+ 2137 0049 00       		.byte	0
+ 2138 004a 07       		.uleb128 0x7
+ 2139 004b 26       		.uleb128 0x26
+ 2140 004c 00       		.byte	0
+ 2141 004d 49       		.uleb128 0x49
+ 2142 004e 13       		.uleb128 0x13
+ 2143 004f 00       		.byte	0
+ 2144 0050 00       		.byte	0
+ 2145 0051 08       		.uleb128 0x8
+ 2146 0052 2E       		.uleb128 0x2e
+ 2147 0053 00       		.byte	0
+ 2148 0054 3F       		.uleb128 0x3f
+ 2149 0055 19       		.uleb128 0x19
+ 2150 0056 03       		.uleb128 0x3
+ 2151 0057 0E       		.uleb128 0xe
+ 2152 0058 3A       		.uleb128 0x3a
+ 2153 0059 0B       		.uleb128 0xb
+ 2154 005a 3B       		.uleb128 0x3b
+ 2155 005b 0B       		.uleb128 0xb
+ 2156 005c 11       		.uleb128 0x11
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 43
+
+
+ 2157 005d 01       		.uleb128 0x1
+ 2158 005e 12       		.uleb128 0x12
+ 2159 005f 06       		.uleb128 0x6
+ 2160 0060 40       		.uleb128 0x40
+ 2161 0061 18       		.uleb128 0x18
+ 2162 0062 9642     		.uleb128 0x2116
+ 2163 0064 19       		.uleb128 0x19
+ 2164 0065 00       		.byte	0
+ 2165 0066 00       		.byte	0
+ 2166 0067 09       		.uleb128 0x9
+ 2167 0068 2E       		.uleb128 0x2e
+ 2168 0069 01       		.byte	0x1
+ 2169 006a 3F       		.uleb128 0x3f
+ 2170 006b 19       		.uleb128 0x19
+ 2171 006c 03       		.uleb128 0x3
+ 2172 006d 0E       		.uleb128 0xe
+ 2173 006e 3A       		.uleb128 0x3a
+ 2174 006f 0B       		.uleb128 0xb
+ 2175 0070 3B       		.uleb128 0x3b
+ 2176 0071 0B       		.uleb128 0xb
+ 2177 0072 11       		.uleb128 0x11
+ 2178 0073 01       		.uleb128 0x1
+ 2179 0074 12       		.uleb128 0x12
+ 2180 0075 06       		.uleb128 0x6
+ 2181 0076 40       		.uleb128 0x40
+ 2182 0077 18       		.uleb128 0x18
+ 2183 0078 9642     		.uleb128 0x2116
+ 2184 007a 19       		.uleb128 0x19
+ 2185 007b 01       		.uleb128 0x1
+ 2186 007c 13       		.uleb128 0x13
+ 2187 007d 00       		.byte	0
+ 2188 007e 00       		.byte	0
+ 2189 007f 0A       		.uleb128 0xa
+ 2190 0080 0B       		.uleb128 0xb
+ 2191 0081 01       		.byte	0x1
+ 2192 0082 11       		.uleb128 0x11
+ 2193 0083 01       		.uleb128 0x1
+ 2194 0084 12       		.uleb128 0x12
+ 2195 0085 06       		.uleb128 0x6
+ 2196 0086 00       		.byte	0
+ 2197 0087 00       		.byte	0
+ 2198 0088 0B       		.uleb128 0xb
+ 2199 0089 34       		.uleb128 0x34
+ 2200 008a 00       		.byte	0
+ 2201 008b 03       		.uleb128 0x3
+ 2202 008c 08       		.uleb128 0x8
+ 2203 008d 3A       		.uleb128 0x3a
+ 2204 008e 0B       		.uleb128 0xb
+ 2205 008f 3B       		.uleb128 0x3b
+ 2206 0090 0B       		.uleb128 0xb
+ 2207 0091 49       		.uleb128 0x49
+ 2208 0092 13       		.uleb128 0x13
+ 2209 0093 02       		.uleb128 0x2
+ 2210 0094 18       		.uleb128 0x18
+ 2211 0095 00       		.byte	0
+ 2212 0096 00       		.byte	0
+ 2213 0097 0C       		.uleb128 0xc
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 44
+
+
+ 2214 0098 2E       		.uleb128 0x2e
+ 2215 0099 01       		.byte	0x1
+ 2216 009a 3F       		.uleb128 0x3f
+ 2217 009b 19       		.uleb128 0x19
+ 2218 009c 03       		.uleb128 0x3
+ 2219 009d 0E       		.uleb128 0xe
+ 2220 009e 3A       		.uleb128 0x3a
+ 2221 009f 0B       		.uleb128 0xb
+ 2222 00a0 3B       		.uleb128 0x3b
+ 2223 00a1 0B       		.uleb128 0xb
+ 2224 00a2 27       		.uleb128 0x27
+ 2225 00a3 19       		.uleb128 0x19
+ 2226 00a4 11       		.uleb128 0x11
+ 2227 00a5 01       		.uleb128 0x1
+ 2228 00a6 12       		.uleb128 0x12
+ 2229 00a7 06       		.uleb128 0x6
+ 2230 00a8 40       		.uleb128 0x40
+ 2231 00a9 18       		.uleb128 0x18
+ 2232 00aa 9642     		.uleb128 0x2116
+ 2233 00ac 19       		.uleb128 0x19
+ 2234 00ad 01       		.uleb128 0x1
+ 2235 00ae 13       		.uleb128 0x13
+ 2236 00af 00       		.byte	0
+ 2237 00b0 00       		.byte	0
+ 2238 00b1 0D       		.uleb128 0xd
+ 2239 00b2 05       		.uleb128 0x5
+ 2240 00b3 00       		.byte	0
+ 2241 00b4 03       		.uleb128 0x3
+ 2242 00b5 0E       		.uleb128 0xe
+ 2243 00b6 3A       		.uleb128 0x3a
+ 2244 00b7 0B       		.uleb128 0xb
+ 2245 00b8 3B       		.uleb128 0x3b
+ 2246 00b9 0B       		.uleb128 0xb
+ 2247 00ba 49       		.uleb128 0x49
+ 2248 00bb 13       		.uleb128 0x13
+ 2249 00bc 02       		.uleb128 0x2
+ 2250 00bd 18       		.uleb128 0x18
+ 2251 00be 00       		.byte	0
+ 2252 00bf 00       		.byte	0
+ 2253 00c0 0E       		.uleb128 0xe
+ 2254 00c1 2E       		.uleb128 0x2e
+ 2255 00c2 00       		.byte	0
+ 2256 00c3 3F       		.uleb128 0x3f
+ 2257 00c4 19       		.uleb128 0x19
+ 2258 00c5 03       		.uleb128 0x3
+ 2259 00c6 0E       		.uleb128 0xe
+ 2260 00c7 3A       		.uleb128 0x3a
+ 2261 00c8 0B       		.uleb128 0xb
+ 2262 00c9 3B       		.uleb128 0x3b
+ 2263 00ca 0B       		.uleb128 0xb
+ 2264 00cb 49       		.uleb128 0x49
+ 2265 00cc 13       		.uleb128 0x13
+ 2266 00cd 11       		.uleb128 0x11
+ 2267 00ce 01       		.uleb128 0x1
+ 2268 00cf 12       		.uleb128 0x12
+ 2269 00d0 06       		.uleb128 0x6
+ 2270 00d1 40       		.uleb128 0x40
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 45
+
+
+ 2271 00d2 18       		.uleb128 0x18
+ 2272 00d3 9642     		.uleb128 0x2116
+ 2273 00d5 19       		.uleb128 0x19
+ 2274 00d6 00       		.byte	0
+ 2275 00d7 00       		.byte	0
+ 2276 00d8 0F       		.uleb128 0xf
+ 2277 00d9 2E       		.uleb128 0x2e
+ 2278 00da 00       		.byte	0
+ 2279 00db 3F       		.uleb128 0x3f
+ 2280 00dc 19       		.uleb128 0x19
+ 2281 00dd 03       		.uleb128 0x3
+ 2282 00de 0E       		.uleb128 0xe
+ 2283 00df 3A       		.uleb128 0x3a
+ 2284 00e0 0B       		.uleb128 0xb
+ 2285 00e1 3B       		.uleb128 0x3b
+ 2286 00e2 0B       		.uleb128 0xb
+ 2287 00e3 27       		.uleb128 0x27
+ 2288 00e4 19       		.uleb128 0x19
+ 2289 00e5 11       		.uleb128 0x11
+ 2290 00e6 01       		.uleb128 0x1
+ 2291 00e7 12       		.uleb128 0x12
+ 2292 00e8 06       		.uleb128 0x6
+ 2293 00e9 40       		.uleb128 0x40
+ 2294 00ea 18       		.uleb128 0x18
+ 2295 00eb 9642     		.uleb128 0x2116
+ 2296 00ed 19       		.uleb128 0x19
+ 2297 00ee 00       		.byte	0
+ 2298 00ef 00       		.byte	0
+ 2299 00f0 10       		.uleb128 0x10
+ 2300 00f1 34       		.uleb128 0x34
+ 2301 00f2 00       		.byte	0
+ 2302 00f3 03       		.uleb128 0x3
+ 2303 00f4 0E       		.uleb128 0xe
+ 2304 00f5 3A       		.uleb128 0x3a
+ 2305 00f6 0B       		.uleb128 0xb
+ 2306 00f7 3B       		.uleb128 0x3b
+ 2307 00f8 05       		.uleb128 0x5
+ 2308 00f9 49       		.uleb128 0x49
+ 2309 00fa 13       		.uleb128 0x13
+ 2310 00fb 3F       		.uleb128 0x3f
+ 2311 00fc 19       		.uleb128 0x19
+ 2312 00fd 3C       		.uleb128 0x3c
+ 2313 00fe 19       		.uleb128 0x19
+ 2314 00ff 00       		.byte	0
+ 2315 0100 00       		.byte	0
+ 2316 0101 11       		.uleb128 0x11
+ 2317 0102 34       		.uleb128 0x34
+ 2318 0103 00       		.byte	0
+ 2319 0104 03       		.uleb128 0x3
+ 2320 0105 0E       		.uleb128 0xe
+ 2321 0106 3A       		.uleb128 0x3a
+ 2322 0107 0B       		.uleb128 0xb
+ 2323 0108 3B       		.uleb128 0x3b
+ 2324 0109 0B       		.uleb128 0xb
+ 2325 010a 49       		.uleb128 0x49
+ 2326 010b 13       		.uleb128 0x13
+ 2327 010c 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 46
+
+
+ 2328 010d 19       		.uleb128 0x19
+ 2329 010e 02       		.uleb128 0x2
+ 2330 010f 18       		.uleb128 0x18
+ 2331 0110 00       		.byte	0
+ 2332 0111 00       		.byte	0
+ 2333 0112 12       		.uleb128 0x12
+ 2334 0113 01       		.uleb128 0x1
+ 2335 0114 01       		.byte	0x1
+ 2336 0115 49       		.uleb128 0x49
+ 2337 0116 13       		.uleb128 0x13
+ 2338 0117 01       		.uleb128 0x1
+ 2339 0118 13       		.uleb128 0x13
+ 2340 0119 00       		.byte	0
+ 2341 011a 00       		.byte	0
+ 2342 011b 13       		.uleb128 0x13
+ 2343 011c 21       		.uleb128 0x21
+ 2344 011d 00       		.byte	0
+ 2345 011e 49       		.uleb128 0x49
+ 2346 011f 13       		.uleb128 0x13
+ 2347 0120 2F       		.uleb128 0x2f
+ 2348 0121 0B       		.uleb128 0xb
+ 2349 0122 00       		.byte	0
+ 2350 0123 00       		.byte	0
+ 2351 0124 00       		.byte	0
+ 2352              		.section	.debug_aranges,"",%progbits
+ 2353 0000 6C000000 		.4byte	0x6c
+ 2354 0004 0200     		.2byte	0x2
+ 2355 0006 00000000 		.4byte	.Ldebug_info0
+ 2356 000a 04       		.byte	0x4
+ 2357 000b 00       		.byte	0
+ 2358 000c 0000     		.2byte	0
+ 2359 000e 0000     		.2byte	0
+ 2360 0010 00000000 		.4byte	.LFB64
+ 2361 0014 0C010000 		.4byte	.LFE64-.LFB64
+ 2362 0018 00000000 		.4byte	.LFB65
+ 2363 001c 4C010000 		.4byte	.LFE65-.LFB65
+ 2364 0020 00000000 		.4byte	.LFB66
+ 2365 0024 E4000000 		.4byte	.LFE66-.LFB66
+ 2366 0028 00000000 		.4byte	.LFB67
+ 2367 002c A4010000 		.4byte	.LFE67-.LFB67
+ 2368 0030 00000000 		.4byte	.LFB68
+ 2369 0034 1C000000 		.4byte	.LFE68-.LFB68
+ 2370 0038 00000000 		.4byte	.LFB69
+ 2371 003c 1C000000 		.4byte	.LFE69-.LFB69
+ 2372 0040 00000000 		.4byte	.LFB70
+ 2373 0044 1C000000 		.4byte	.LFE70-.LFB70
+ 2374 0048 00000000 		.4byte	.LFB71
+ 2375 004c 1C000000 		.4byte	.LFE71-.LFB71
+ 2376 0050 00000000 		.4byte	.LFB72
+ 2377 0054 1C000000 		.4byte	.LFE72-.LFB72
+ 2378 0058 00000000 		.4byte	.LFB73
+ 2379 005c 1C000000 		.4byte	.LFE73-.LFB73
+ 2380 0060 00000000 		.4byte	.LFB74
+ 2381 0064 18000000 		.4byte	.LFE74-.LFB74
+ 2382 0068 00000000 		.4byte	0
+ 2383 006c 00000000 		.4byte	0
+ 2384              		.section	.debug_ranges,"",%progbits
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 47
+
+
+ 2385              	.Ldebug_ranges0:
+ 2386 0000 00000000 		.4byte	.LFB64
+ 2387 0004 0C010000 		.4byte	.LFE64
+ 2388 0008 00000000 		.4byte	.LFB65
+ 2389 000c 4C010000 		.4byte	.LFE65
+ 2390 0010 00000000 		.4byte	.LFB66
+ 2391 0014 E4000000 		.4byte	.LFE66
+ 2392 0018 00000000 		.4byte	.LFB67
+ 2393 001c A4010000 		.4byte	.LFE67
+ 2394 0020 00000000 		.4byte	.LFB68
+ 2395 0024 1C000000 		.4byte	.LFE68
+ 2396 0028 00000000 		.4byte	.LFB69
+ 2397 002c 1C000000 		.4byte	.LFE69
+ 2398 0030 00000000 		.4byte	.LFB70
+ 2399 0034 1C000000 		.4byte	.LFE70
+ 2400 0038 00000000 		.4byte	.LFB71
+ 2401 003c 1C000000 		.4byte	.LFE71
+ 2402 0040 00000000 		.4byte	.LFB72
+ 2403 0044 1C000000 		.4byte	.LFE72
+ 2404 0048 00000000 		.4byte	.LFB73
+ 2405 004c 1C000000 		.4byte	.LFE73
+ 2406 0050 00000000 		.4byte	.LFB74
+ 2407 0054 18000000 		.4byte	.LFE74
+ 2408 0058 00000000 		.4byte	0
+ 2409 005c 00000000 		.4byte	0
+ 2410              		.section	.debug_line,"",%progbits
+ 2411              	.Ldebug_line0:
+ 2412 0000 D9020000 		.section	.debug_str,"MS",%progbits,1
+ 2412      02005701 
+ 2412      00000201 
+ 2412      FB0E0D00 
+ 2412      01010101 
+ 2413              	.LASF54:
+ 2414 0000 6D6F6465 		.ascii	"modecheck\000"
+ 2414      63686563 
+ 2414      6B00
+ 2415              	.LASF42:
+ 2416 000a 696E7446 		.ascii	"intFreq\000"
+ 2416      72657100 
+ 2417              	.LASF51:
+ 2418 0012 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2418      43313120 
+ 2418      352E342E 
+ 2418      31203230 
+ 2418      31363036 
+ 2419 0045 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2419      20726576 
+ 2419      6973696F 
+ 2419      6E203233 
+ 2419      37373135 
+ 2420 0078 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 2420      66756E63 
+ 2420      74696F6E 
+ 2420      2D736563 
+ 2420      74696F6E 
+ 2421              	.LASF23:
+ 2422 00a0 62757431 		.ascii	"but1_isr_pos_vect\000"
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 48
+
+
+ 2422      5F697372 
+ 2422      5F706F73 
+ 2422      5F766563 
+ 2422      7400
+ 2423              	.LASF19:
+ 2424 00b2 6D696E49 		.ascii	"minIndex\000"
+ 2424      6E646578 
+ 2424      00
+ 2425              	.LASF27:
+ 2426 00bb 62757433 		.ascii	"but3_isr_pos_vect\000"
+ 2426      5F697372 
+ 2426      5F706F73 
+ 2426      5F766563 
+ 2426      7400
+ 2427              	.LASF9:
+ 2428 00cd 5F5F696E 		.ascii	"__int32_t\000"
+ 2428      7433325F 
+ 2428      7400
+ 2429              	.LASF11:
+ 2430 00d7 75696E74 		.ascii	"uint8\000"
+ 2430      3800
+ 2431              	.LASF46:
+ 2432 00dd 6D6F6465 		.ascii	"modeFlag\000"
+ 2432      466C6167 
+ 2432      00
+ 2433              	.LASF26:
+ 2434 00e6 62757432 		.ascii	"but2_isr_neg_vect\000"
+ 2434      5F697372 
+ 2434      5F6E6567 
+ 2434      5F766563 
+ 2434      7400
+ 2435              	.LASF13:
+ 2436 00f8 666C6F61 		.ascii	"float\000"
+ 2436      7400
+ 2437              	.LASF43:
+ 2438 00fe 6E6F7465 		.ascii	"note\000"
+ 2438      00
+ 2439              	.LASF36:
+ 2440 0103 696E7446 		.ascii	"intFrequency\000"
+ 2440      72657175 
+ 2440      656E6379 
+ 2440      00
+ 2441              	.LASF24:
+ 2442 0110 62757431 		.ascii	"but1_isr_neg_vect\000"
+ 2442      5F697372 
+ 2442      5F6E6567 
+ 2442      5F766563 
+ 2442      7400
+ 2443              	.LASF34:
+ 2444 0122 73717561 		.ascii	"squarewave\000"
+ 2444      72657761 
+ 2444      766500
+ 2445              	.LASF50:
+ 2446 012d 64696365 		.ascii	"dice2\000"
+ 2446      3200
+ 2447              	.LASF5:
+ 2448 0133 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 49
+
+
+ 2448      20756E73 
+ 2448      69676E65 
+ 2448      6420696E 
+ 2448      7400
+ 2449              	.LASF3:
+ 2450 0145 73686F72 		.ascii	"short unsigned int\000"
+ 2450      7420756E 
+ 2450      7369676E 
+ 2450      65642069 
+ 2450      6E7400
+ 2451              	.LASF39:
+ 2452 0158 6F6E4F66 		.ascii	"onOffCount\000"
+ 2452      66436F75 
+ 2452      6E7400
+ 2453              	.LASF30:
+ 2454 0163 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 2454      52784275 
+ 2454      66666572 
+ 2454      00
+ 2455              	.LASF56:
+ 2456 0170 706C6179 		.ascii	"playRange\000"
+ 2456      52616E67 
+ 2456      6500
+ 2457              	.LASF1:
+ 2458 017a 756E7369 		.ascii	"unsigned char\000"
+ 2458      676E6564 
+ 2458      20636861 
+ 2458      7200
+ 2459              	.LASF14:
+ 2460 0188 646F7562 		.ascii	"double\000"
+ 2460      6C6500
+ 2461              	.LASF29:
+ 2462 018f 75736572 		.ascii	"userModeTimer_ISR\000"
+ 2462      4D6F6465 
+ 2462      54696D65 
+ 2462      725F4953 
+ 2462      5200
+ 2463              	.LASF20:
+ 2464 01a1 6D617849 		.ascii	"maxIndex\000"
+ 2464      6E646578 
+ 2464      00
+ 2465              	.LASF2:
+ 2466 01aa 73686F72 		.ascii	"short int\000"
+ 2466      7420696E 
+ 2466      7400
+ 2467              	.LASF12:
+ 2468 01b4 75696E74 		.ascii	"uint16\000"
+ 2468      313600
+ 2469              	.LASF18:
+ 2470 01bb 75696E74 		.ascii	"uint\000"
+ 2470      00
+ 2471              	.LASF22:
+ 2472 01c0 6D61696E 		.ascii	"main\000"
+ 2472      00
+ 2473              	.LASF55:
+ 2474 01c5 6C6F6E67 		.ascii	"longSweep\000"
+ 2474      53776565 
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 50
+
+
+ 2474      7000
+ 2475              	.LASF8:
+ 2476 01cf 756E7369 		.ascii	"unsigned int\000"
+ 2476      676E6564 
+ 2476      20696E74 
+ 2476      00
+ 2477              	.LASF48:
+ 2478 01dc 66726571 		.ascii	"freqClockDivCounter\000"
+ 2478      436C6F63 
+ 2478      6B446976 
+ 2478      436F756E 
+ 2478      74657200 
+ 2479              	.LASF31:
+ 2480 01f0 62757474 		.ascii	"button1\000"
+ 2480      6F6E3100 
+ 2481              	.LASF7:
+ 2482 01f8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2482      206C6F6E 
+ 2482      6720756E 
+ 2482      7369676E 
+ 2482      65642069 
+ 2483              	.LASF33:
+ 2484 020f 62757474 		.ascii	"button3\000"
+ 2484      6F6E3300 
+ 2485              	.LASF45:
+ 2486 0217 6D6F6465 		.ascii	"mode\000"
+ 2486      00
+ 2487              	.LASF37:
+ 2488 021c 66726571 		.ascii	"frequency\000"
+ 2488      75656E63 
+ 2488      7900
+ 2489              	.LASF44:
+ 2490 0226 6E6F7465 		.ascii	"noteIndex\000"
+ 2490      496E6465 
+ 2490      7800
+ 2491              	.LASF10:
+ 2492 0230 696E7433 		.ascii	"int32_t\000"
+ 2492      325F7400 
+ 2493              	.LASF35:
+ 2494 0238 6E6F7465 		.ascii	"notes\000"
+ 2494      7300
+ 2495              	.LASF17:
+ 2496 023e 73697A65 		.ascii	"sizetype\000"
+ 2496      74797065 
+ 2496      00
+ 2497              	.LASF6:
+ 2498 0247 6C6F6E67 		.ascii	"long long int\000"
+ 2498      206C6F6E 
+ 2498      6720696E 
+ 2498      7400
+ 2499              	.LASF52:
+ 2500 0255 6D61696E 		.ascii	"main.c\000"
+ 2500      2E6300
+ 2501              	.LASF15:
+ 2502 025c 63686172 		.ascii	"char\000"
+ 2502      00
+ 2503              	.LASF21:
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 51
+
+
+ 2504 0261 706C6179 		.ascii	"playRangeDelay\000"
+ 2504      52616E67 
+ 2504      6544656C 
+ 2504      617900
+ 2505              	.LASF53:
+ 2506 0270 433A5C55 		.ascii	"C:\\Users\\mariu\\Documents\\PSoC Creator\\PSoC_Aud"
+ 2506      73657273 
+ 2506      5C6D6172 
+ 2506      69755C44 
+ 2506      6F63756D 
+ 2507 029e 696F5F4D 		.ascii	"io_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI.cydsn\000"
+ 2507      4944495C 
+ 2507      50536F43 
+ 2507      5F417564 
+ 2507      696F5F4D 
+ 2508              	.LASF38:
+ 2509 02cc 64656C61 		.ascii	"delayMS\000"
+ 2509      794D5300 
+ 2510              	.LASF41:
+ 2511 02d4 66726571 		.ascii	"freq\000"
+ 2511      00
+ 2512              	.LASF49:
+ 2513 02d9 64696365 		.ascii	"dice1\000"
+ 2513      3100
+ 2514              	.LASF40:
+ 2515 02df 7472616E 		.ascii	"transmitBuffer\000"
+ 2515      736D6974 
+ 2515      42756666 
+ 2515      657200
+ 2516              	.LASF28:
+ 2517 02ee 62757433 		.ascii	"but3_isr_neg_vect\000"
+ 2517      5F697372 
+ 2517      5F6E6567 
+ 2517      5F766563 
+ 2517      7400
+ 2518              	.LASF4:
+ 2519 0300 6C6F6E67 		.ascii	"long int\000"
+ 2519      20696E74 
+ 2519      00
+ 2520              	.LASF16:
+ 2521 0309 6C6F6E67 		.ascii	"long double\000"
+ 2521      20646F75 
+ 2521      626C6500 
+ 2522              	.LASF0:
+ 2523 0315 7369676E 		.ascii	"signed char\000"
+ 2523      65642063 
+ 2523      68617200 
+ 2524              	.LASF25:
+ 2525 0321 62757432 		.ascii	"but2_isr_pos_vect\000"
+ 2525      5F697372 
+ 2525      5F706F73 
+ 2525      5F766563 
+ 2525      7400
+ 2526              	.LASF32:
+ 2527 0333 62757474 		.ascii	"button2\000"
+ 2527      6F6E3200 
+ 2528              	.LASF47:
+ARM GAS  C:\Users\mariu\AppData\Local\Temp\cc5jx6F1.s 			page 52
+
+
+ 2529 033b 63686563 		.ascii	"checkingMode\000"
+ 2529      6B696E67 
+ 2529      4D6F6465 
+ 2529      00
+ 2530              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

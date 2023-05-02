@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="PSoC_Audio_MIDI" Path="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" Version="5.60" Type="Normal">
+  <Project Name="PSoC_Audio_MIDI" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" Version="5.60" Type="Normal">
     <CMSIS_SVD_File>PSoC_Audio_MIDI.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,14 +34,14 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC5\Cm3Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="STRICT" Path="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Generated_Source\PSoC5">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Generated_Source\PSoC5">
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cymetadata.c</File>
@@ -128,6 +128,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Dice_LED_2_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Dice_LED_2.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_Dice_LED_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_checkMode.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\isr_checkMode.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_Mode.c</File>
@@ -135,52 +137,84 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_Mode_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_Mode.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_Mode.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1_isr_pos.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1_isr_pos.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1_isr_neg.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1_isr_neg.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\debouncerClock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\debouncerClock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but2_isr_pos.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but2_isr_pos.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but2_isr_neg.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but2_isr_neg.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3_isr_pos.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3_isr_pos.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3_isr_neg.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3_isr_neg.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogPress_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogPress.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogPress.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_GCC_Generic">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_GCC_Generic">
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_MDK_Generic">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_MDK_Generic">
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_IAR_Generic">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_IAR_Generic">
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM4">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
-        <Files Root="C:\Users\Silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
+        <Files Root="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn" />
       </Folder>
     </Folders>
   </Project>
