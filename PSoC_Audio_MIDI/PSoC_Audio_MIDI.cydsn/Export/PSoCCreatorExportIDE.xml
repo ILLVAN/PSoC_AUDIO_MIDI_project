@@ -158,11 +158,33 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogX.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogY.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut_isr.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut_isr.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogBut.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogMUX.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogMUX.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_isr.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_isr.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_AMux.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_AMux.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_Ext_CP_Clk.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_Ext_CP_Clk.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_theACLK.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\analogADC_theACLK.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_GCC_Generic">
