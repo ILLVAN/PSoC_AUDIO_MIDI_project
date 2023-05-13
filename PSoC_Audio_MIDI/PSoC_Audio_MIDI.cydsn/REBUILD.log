@@ -1,10 +1,3 @@
---------------- Rebuild Started: 05/01/2023 13:58:20 Project: main.c, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Rebuild Started: 05/13/2023 14:33:54 Project: main.c, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -O0 -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
-main.c: In function 'main':
-main.c:84:5: warning: implicit declaration of function 'isr_dice1_StartEx' [-Wimplicit-function-declaration]
-     isr_dice1_StartEx(dice1_ISR);
-     ^
-main.c:85:5: warning: implicit declaration of function 'isr_dice2_StartEx' [-Wimplicit-function-declaration]
-     isr_dice2_StartEx(dice2_ISR);
-     ^
---------------- Rebuild Succeeded: 05/01/2023 13:58:20 ---------------
+--------------- Rebuild Succeeded: 05/13/2023 14:33:55 ---------------

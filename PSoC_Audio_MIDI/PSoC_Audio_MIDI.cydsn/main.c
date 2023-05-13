@@ -9,6 +9,7 @@
 #define MAX_FREQ_DIV 8000
 
 CY_ISR_PROTO(userModeTimer_ISR);
+CY_ISR_PROTO(userEcho_ISR);
 
 CY_ISR_PROTO(adc_isr_vect);
 
@@ -31,7 +32,61 @@ volatile uint8 adcFlag = 0;
 int pitch[2] = {0,0};
 int oldYinput = 0;
 
-uint8 squarewave[4] = {252u,0u,252u,0u}; 
+uint8 squarewave[4] = {252u, 0u, 252u, 0u};
+//uint8 squarewave[502] = {
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
+//    252u, 252u, 252u, 252u, 252u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
+//    0u, 0u, 0u, 0u, 0u, 0u, 0u
+//};
 uint8 trianglewave[502] = {126u, 127u, 128u, 129u, 130u, 131u, 132u, 133u, 134u, 135u, 136u, 137u, 138u, 139u, 140u, 141u, 142u, 143u, 144u, 145u, 146u, 147u, 148u, 149u, 150u, 151u, 152u, 153u, 154u, 155u, 156u, 157u, 158u, 159u, 160u, 161u, 162u, 163u, 164u, 165u, 166u, 167u, 168u, 169u, 170u, 171u, 172u, 173u, 174u, 175u, 176u, 177u, 178u, 179u, 180u, 181u, 182u, 183u, 184u, 185u, 186u, 187u, 188u, 189u, 190u, 191u, 192u, 193u, 194u, 195u, 196u, 197u, 198u, 199u, 200u, 201u, 202u, 203u, 204u, 205u, 206u, 207u, 208u, 209u, 210u, 211u, 212u, 213u, 214u, 215u, 216u, 217u, 218u, 219u, 220u, 221u, 222u, 223u, 224u, 225u, 226u, 227u, 228u, 229u, 230u, 231u, 232u, 233u, 234u, 235u, 236u, 237u, 238u, 239u, 240u, 241u, 242u, 243u, 244u, 245u, 246u, 247u, 248u, 249u, 250u, 251u, 252u, 2u, 3u, 4u, 5u, 6u, 7u, 8u, 9u, 10u, 11u, 12u, 13u, 14u, 15u, 16u, 17u, 18u, 19u, 20u, 21u, 22u, 23u, 24u, 25u, 26u, 27u, 28u, 29u, 30u, 31u, 32u, 33u, 34u, 35u, 36u, 37u, 38u, 39u, 40u, 41u, 42u, 43u, 44u, 45u, 46u, 47u, 48u, 49u, 50u, 51u, 52u, 53u, 54u, 55u, 56u, 57u, 58u, 59u, 60u, 61u, 62u, 63u, 64u, 65u, 66u, 67u, 68u, 69u, 70u, 71u, 72u, 73u, 74u, 75u, 76u, 77u, 78u, 79u, 80u, 81u, 82u, 83u, 84u, 85u, 86u, 87u, 88u, 89u, 90u, 91u, 92u, 93u, 94u, 95u, 96u, 97u, 98u, 99u, 100u, 101u, 102u, 103u, 104u, 105u, 106u, 107u, 108u, 109u, 110u, 111u, 112u, 113u, 114u, 115u, 116u, 117u, 118u, 119u, 120u, 121u, 122u, 123u, 124u, 125u};
 uint8 sinewave[502] = {127u, 128u, 130u, 131u, 133u, 134u, 136u, 137u, 139u, 141u, 142u, 144u, 145u, 147u, 148u, 150u, 151u, 153u, 154u, 156u, 157u, 159u, 160u, 162u, 163u, 165u, 166u, 168u, 169u, 171u, 172u, 174u, 175u, 177u, 178u, 180u, 181u, 182u, 184u, 185u, 186u, 188u, 189u, 191u, 192u, 193u, 195u, 196u, 197u, 198u, 200u, 201u, 202u, 203u, 205u, 206u, 207u, 208u, 209u, 211u, 212u, 213u, 214u, 215u, 216u, 217u, 218u, 219u, 221u, 222u, 223u, 224u, 225u, 225u, 226u, 227u, 228u, 229u, 230u, 231u, 232u, 233u, 233u, 234u, 235u, 236u, 237u, 237u, 238u, 239u, 239u, 240u, 241u, 241u, 242u, 243u, 243u, 244u, 244u, 245u, 245u, 246u, 246u, 247u, 247u, 247u, 248u, 248u, 249u, 249u, 249u, 249u, 250u, 250u, 250u, 250u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 250u, 250u, 250u, 250u, 249u, 249u, 249u, 249u, 248u, 248u, 247u, 247u, 247u, 246u, 246u, 245u, 245u, 244u, 244u, 243u, 243u, 242u, 241u, 241u, 240u, 239u, 239u, 238u, 237u, 237u, 236u, 235u, 234u, 233u, 233u, 232u, 231u, 230u, 229u, 228u, 227u, 226u, 225u, 225u, 224u, 223u, 222u, 221u, 219u, 218u, 217u, 216u, 215u, 214u, 213u, 212u, 211u, 209u, 208u, 207u, 206u, 205u, 203u, 202u, 201u, 200u, 198u, 197u, 196u, 195u, 193u, 192u, 191u, 189u, 188u, 186u, 185u, 184u, 182u, 181u, 180u, 178u, 177u, 175u, 174u, 172u, 171u, 169u, 168u, 166u, 165u, 163u, 162u, 160u, 159u, 157u, 156u, 154u, 153u, 151u, 150u, 148u, 147u, 145u, 144u, 142u, 141u, 139u, 137u, 136u, 134u, 133u, 131u, 130u, 128u, 127u, 125u, 123u, 122u, 120u, 119u, 117u, 116u, 114u, 112u, 111u, 109u, 108u, 106u, 105u, 103u, 102u, 100u, 99u, 97u, 96u, 94u, 93u, 91u, 90u, 88u, 87u, 85u, 84u, 82u, 81u, 79u, 78u, 76u, 75u, 73u, 72u, 71u, 69u, 68u, 67u, 65u, 64u, 62u, 61u, 60u, 58u, 57u, 56u, 55u, 53u, 52u, 51u, 50u, 48u, 47u, 46u, 45u, 44u, 42u, 41u, 40u, 39u, 38u, 37u, 36u, 35u, 34u, 32u, 31u, 30u, 29u, 28u, 28u, 27u, 26u, 25u, 24u, 23u, 22u, 21u, 20u, 20u, 19u, 18u, 17u, 16u, 16u, 15u, 14u, 14u, 13u, 12u, 12u, 11u, 10u, 10u, 9u, 9u, 8u, 8u, 7u, 7u, 6u, 6u, 6u, 5u, 5u, 4u, 4u, 4u, 4u, 3u, 3u, 3u, 3u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 3u, 3u, 3u, 3u, 4u, 4u, 4u, 4u, 5u, 5u, 6u, 6u, 6u, 7u, 7u, 8u, 8u, 9u, 9u, 10u, 10u, 11u, 12u, 12u, 13u, 14u, 14u, 15u, 16u, 16u, 17u, 18u, 19u, 20u, 20u, 21u, 22u, 23u, 24u, 25u, 26u, 27u, 28u, 28u, 29u, 30u, 31u, 32u, 34u, 35u, 36u, 37u, 38u, 39u, 40u, 41u, 42u, 44u, 45u, 46u, 47u, 48u, 50u, 51u, 52u, 53u, 55u, 56u, 57u, 58u, 60u, 61u, 62u, 64u, 65u, 67u, 68u, 69u, 71u, 72u, 73u, 75u, 76u, 78u, 79u, 81u, 82u, 84u, 85u, 87u, 88u, 90u, 91u, 93u, 94u, 96u, 97u, 99u, 100u, 102u, 103u, 105u, 106u, 108u, 109u, 111u, 112u, 114u, 116u, 117u, 119u, 120u, 122u, 123u, 125u};
 
@@ -48,12 +103,40 @@ volatile double freq;
 volatile uint16 intFreq;
 volatile char note[3];
 volatile uint8 noteIndex;
-volatile uint8 mode = 3;            // set default mode   
+volatile uint8 mode = 1;            // set default mode   
 volatile uint8 modeFlag = 0;        // flag is set by Timer_Mode, resets after check
-volatile uint8 checkingMode = 0;    // set bool if checking mode or not 
+volatile uint8 checkingMode = 1;    // set bool if checking mode or not 
+volatile uint8 lastMode = 1;
 uint16 freqClockDivCounter = START_FREQ_DIV;
 volatile uint dice1;
 volatile uint dice2;
+
+////////////////////////////////////////////////New 13_05 in progress:
+const uint8 cChurchModes[8][7] = {{0, 2, 4, 7, 9, 0, 0},          // 0 major pentatonic
+                                  {0, 2, 4, 5, 7, 9, 11},         // 1 ionic
+                                  {0, 2, 3, 5, 7, 9, 10},         // 2 dorian
+                                  {0, 1, 3, 5, 6, 8, 10},         // 3 phrygian
+                                  {0, 2, 4, 6, 7, 9, 11},         // 4 lydian
+                                  {0, 2, 4, 5, 7, 9, 10},         // 5 mixolydian
+                                  {0, 2, 3, 5, 7, 8, 10},         // 6 aeolian
+                                  {0, 1, 3, 5, 6, 8, 10},         // 7 locrian
+};                
+const uint8 cDorian[8] = {0, 2, 3, 5, 7, 9, 10} ;
+const uint8 cPhrygian[8] = {0, 1, 3, 5, 6, 8, 10};
+const uint8 cLydian[8] = {0, 2, 4, 6, 7, 9, 11};
+const uint8 cMixolydian[8] = {0, 2, 4, 5, 7, 9, 10};
+const uint8 cAeolian[8] = {0, 2, 3, 5, 7, 8, 10};
+const uint8 cLocrian[8] = {0, 1, 3, 5, 6, 8, 10};
+volatile uint16 echoTuneRangeDiv = 1;
+volatile uint16 churchModeIndex = 0;
+////////////////////////////////////////////////////
+
+volatile uint16 echoDuration;
+volatile uint16 echoDistance;
+volatile uint8 echoFlag = 0;        // 0 idle | 1 trig sent | 2 timer value ready
+volatile uint16 echoTimerPeriod;
+volatile uint16 echoReadCounter;
+volatile uint16 echoTuneDelay = 40;
 
 // MODECHECK FUNCTION checks mode on 4 state cube
 void modecheck(){
@@ -86,36 +169,84 @@ void modecheck(){
 }
 
 void longSweep(){ // FREQ SWEEP 6kHz to 30Hz SHOWING FREQS AND DIV VIA UART
-    if (freqClockDivCounter > MAX_FREQ_DIV){
-        freqClockDivCounter = START_FREQ_DIV;
-    }
-    freq = 250000 / freqClockDivCounter;
-    intFreq = freq;
-    for (uint i=0; i < sizeof(intFrequency)/sizeof(intFrequency[0]); i++){
-        if (intFreq == intFrequency[i]){
-            noteIndex = i;
-            sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[noteIndex][0],notes[noteIndex][1], notes[noteIndex][2], intFreq, freqClockDivCounter) ;
-            UART_1_PutString(transmitBuffer);
+    if (button2){
+        if (freqClockDivCounter > MAX_FREQ_DIV){
+            freqClockDivCounter = START_FREQ_DIV;
         }
+        freq = 250000 / freqClockDivCounter;
+        intFreq = freq;
+        for (uint i=0; i < sizeof(intFrequency)/sizeof(intFrequency[0]); i++){
+            if (intFreq == intFrequency[i]){
+                noteIndex = i;
+                sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[noteIndex][0],notes[noteIndex][1], notes[noteIndex][2], intFreq, freqClockDivCounter) ;
+                UART_1_PutString(transmitBuffer);
+            }
+        }
+        Clock_1_SetDividerValue(freqClockDivCounter);
+        freqClockDivCounter++;
+        delayMS = (MAX_FREQ_DIV / (2* freqClockDivCounter)) + 20;
+        CyDelay(delayMS);    
     }
-    Clock_1_SetDividerValue(freqClockDivCounter);
-    freqClockDivCounter++;
-    delayMS = (MAX_FREQ_DIV / freqClockDivCounter) + 20;
-    CyDelay(delayMS);
 }
 
 void playRange(uint8 minIndex, uint8 maxIndex, uint16 playRangeDelay){
-    UART_1_PutString("PLAY RANGE \n\r");
     if (maxIndex > 107){
         maxIndex = 107;
     }
-    for (uint8 i = minIndex; i <= maxIndex; i++){
-        freqClockDivCounter = 250000 / intFrequency[button1];
-        Clock_1_SetDividerValue(freqClockDivCounter);
-        sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[i][0],notes[i][1], notes[i][2], intFrequency[i], freqClockDivCounter) ;
-        UART_1_PutString(transmitBuffer);
-        CyDelay(playRangeDelay);
+    if (button1){
+        UART_1_PutString("PLAY RANGE \n\r");
+        for (uint8 i = minIndex; i <= maxIndex; i++){
+            if (button2){
+                return;
+            }
+            freqClockDivCounter = 250000 / intFrequency[i];
+            Clock_1_SetDividerValue(freqClockDivCounter);
+            sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[i][0],notes[i][1], notes[i][2], intFrequency[i], freqClockDivCounter) ;
+            UART_1_PutString(transmitBuffer);
+            CyDelay(playRangeDelay);
+        }     
     }
+}
+
+void distanceEchoPitch(){
+    if (button1){
+        echoTuneDelay *= 2;
+        if (echoTuneDelay > 330){
+           echoTuneDelay = 40; 
+        }
+        sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", echoTuneDelay);             
+        UART_1_PutString(transmitBuffer);
+        button1 = 0;
+    }
+    if (button2){
+        sprintf(transmitBuffer, "echoTuneRangeDiv: %i\n\r", echoTuneRangeDiv);             
+        UART_1_PutString(transmitBuffer);
+        button2 = 0;
+    }
+    if (echoFlag == 0){
+        Pin_EchoTrig_Write(0);
+        CyDelayUs(2);
+        Pin_EchoTrig_Write(1);
+        CyDelayUs(20);
+        Pin_EchoTrig_Write(0);
+        echoFlag = 1;       
+    }
+    else if (echoFlag == 2){
+        echoDuration = echoTimerPeriod - echoReadCounter;
+        sprintf(transmitBuffer, "EchoDuration: %i\n\r", echoDuration);        
+        UART_1_PutString(transmitBuffer); 
+        if (echoDuration < 320 && echoDuration > 10){                // define play range
+           echoDistance = echoDuration / 5.5;  
+        }                 
+        sprintf(transmitBuffer, "echoDistance: %i\n\r", echoDistance);             
+        UART_1_PutString(transmitBuffer); 
+        noteIndex = echoDistance+30;
+        Clock_1_SetDividerValue(250000 / intFrequency[noteIndex]); 
+        echoFlag = 0;
+    }
+    sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", button1);             
+    UART_1_PutString(transmitBuffer);
+    CyDelay(echoTuneDelay);
 }
 
 void waveSelect(int yInput)   {
@@ -178,6 +309,12 @@ int main(){
     Timer_Mode_Start();
     Clock_Mode_Start();
     isr_checkMode_StartEx(userModeTimer_ISR);  
+    
+    Clock_Echo_Start();
+    Timer_Echo_Start();
+    isr_Echo_StartEx(userEcho_ISR);
+    echoTimerPeriod = Timer_Echo_ReadPeriod();
+    WaveDAC8_1_Start();
     for(;;){
         if (checkingMode && modeFlag){
             modecheck();
@@ -197,11 +334,18 @@ int main(){
             analogADC_StartConvert();
         }
         switch (mode){
-            case 0:     
+            case 0: 
+                if (lastMode != mode){
+                    WaveDAC8_1_Start();
+                }
+                playRange(noteIndex,90,120); // set min index, max Index, delay [ms]
                 longSweep();
                 break;
             case 1:
-                playRange(50,90,120); // set min index, max Index, delay [ms]
+                if (lastMode != mode){
+                    WaveDAC8_1_Start();
+                }
+                distanceEchoPitch();        
                 break;
             case 2:
                 break;
@@ -232,6 +376,7 @@ int main(){
             default:
                 break;
         }
+        lastMode = mode;
     }
 }
 
@@ -268,7 +413,14 @@ CY_ISR(but3_isr_neg_vect)   {
     UART_1_PutString("\r\nbutton 3 released");
     button3 = 0;
 }
-
+CY_ISR(userEcho_ISR){
+    if (echoFlag == 1){
+        echoReadCounter = Timer_Echo_ReadCounter();
+        echoFlag = 2;    
+        Timer_Echo_WriteCounter(0);
+        Pin_EchoReturn_ClearInterrupt();
+    }
+}
 
 CY_ISR(userModeTimer_ISR){ 
     modeFlag = 1;
