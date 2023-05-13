@@ -126,7 +126,7 @@ const uint8 cMixolydian[8] = {0, 2, 4, 5, 7, 9, 10};
 const uint8 cAeolian[8] = {0, 2, 3, 5, 7, 8, 10};
 const uint8 cLocrian[8] = {0, 1, 3, 5, 6, 8, 10};
 volatile uint16 echoTuneRangeDiv = 1;
-volatile uint16 churchModeIndex = 0;
+volatile uint16 churchModeIndex = 100; // free run
 ////////////////////////////////////////////////////
 
 volatile uint16 echoDuration;
@@ -209,7 +209,7 @@ void playRange(uint8 minIndex, uint8 maxIndex, uint16 playRangeDelay){
 void distanceEchoPitch(){
     if (button1){
         echoTuneDelay *= 2;
-        if (echoTuneDelay > 330){
+        if (echoTuneDelay > 300){
            echoTuneDelay = 40; 
         }
         sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", echoTuneDelay);             
@@ -220,6 +220,18 @@ void distanceEchoPitch(){
         sprintf(transmitBuffer, "echoTuneRangeDiv: %i\n\r", echoTuneRangeDiv);             
         UART_1_PutString(transmitBuffer);
         button2 = 0;
+    }
+    if (button3){
+        if (churchModeIndex == 100){
+            churchModeIndex = 0;
+        }
+        else if (churchModeIndex == 8){
+            churchModeIndex = 100;
+        }
+        else{
+            churchModeIndex++;   
+        }
+        button3 = 0;
     }
     if (echoFlag == 0){
         Pin_EchoTrig_Write(0);
@@ -238,7 +250,16 @@ void distanceEchoPitch(){
         }                 
         sprintf(transmitBuffer, "echoDistance: %i\n\r", echoDistance);             
         UART_1_PutString(transmitBuffer); 
-        noteIndex = echoDistance+30;
+        if (churchModeIndex != 100){
+            for (int i = 0; i < 7; i++){
+                if ((echoDistance+30) % 12 == cChurchModes[churchModeIndex][i]){
+                    noteIndex = echoDistance+30;
+                }
+            }         
+        }
+        else{
+           noteIndex = echoDistance+30;  
+        }
         Clock_1_SetDividerValue(250000 / intFrequency[noteIndex]); 
         echoFlag = 0;
     }
