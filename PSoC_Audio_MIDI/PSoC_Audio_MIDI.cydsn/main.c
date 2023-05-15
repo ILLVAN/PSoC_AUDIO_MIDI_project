@@ -11,8 +11,6 @@
 CY_ISR_PROTO(userModeTimer_ISR);
 CY_ISR_PROTO(userEcho_ISR);
 
-CY_ISR_PROTO(adc_isr_vect);
-
 CY_ISR_PROTO(but1_isr_neg_vect);
 CY_ISR_PROTO(but1_isr_pos_vect);
 CY_ISR_PROTO(but2_isr_neg_vect);
@@ -31,6 +29,7 @@ volatile uint8 muxChannel = 0;
 volatile uint8 adcFlag = 0;
 int pitch[2] = {0,0};
 int oldYinput = 0;
+uint8 analogButFlag;
 
 uint8 squarewave[502] = { 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
                             252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
@@ -57,7 +56,7 @@ uint8 squarewave[502] = { 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 
                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
-                            0u, 0u, 0u, 0u, 0u,
+                            0u, 0u, 0u, 0u, 0u, 0u,
                             252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
                             252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
                             252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
@@ -83,7 +82,7 @@ uint8 squarewave[502] = { 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 
                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
-                            0u, 0u, 0u, 0u, 0u, 0u, 0u
+                            0u, 0u, 0u, 0u, 0u, 0u
 };
 uint8 trianglewave[502] = {126u, 127u, 128u, 129u, 130u, 131u, 132u, 133u, 134u, 135u, 136u, 137u, 138u, 139u, 140u, 141u, 142u, 143u, 144u, 145u, 146u, 147u, 148u, 149u, 150u, 151u, 152u, 153u, 154u, 155u, 156u, 157u, 158u, 159u, 160u, 161u, 162u, 163u, 164u, 165u, 166u, 167u, 168u, 169u, 170u, 171u, 172u, 173u, 174u, 175u, 176u, 177u, 178u, 179u, 180u, 181u, 182u, 183u, 184u, 185u, 186u, 187u, 188u, 189u, 190u, 191u, 192u, 193u, 194u, 195u, 196u, 197u, 198u, 199u, 200u, 201u, 202u, 203u, 204u, 205u, 206u, 207u, 208u, 209u, 210u, 211u, 212u, 213u, 214u, 215u, 216u, 217u, 218u, 219u, 220u, 221u, 222u, 223u, 224u, 225u, 226u, 227u, 228u, 229u, 230u, 231u, 232u, 233u, 234u, 235u, 236u, 237u, 238u, 239u, 240u, 241u, 242u, 243u, 244u, 245u, 246u, 247u, 248u, 249u, 250u, 251u, 252u, 2u, 3u, 4u, 5u, 6u, 7u, 8u, 9u, 10u, 11u, 12u, 13u, 14u, 15u, 16u, 17u, 18u, 19u, 20u, 21u, 22u, 23u, 24u, 25u, 26u, 27u, 28u, 29u, 30u, 31u, 32u, 33u, 34u, 35u, 36u, 37u, 38u, 39u, 40u, 41u, 42u, 43u, 44u, 45u, 46u, 47u, 48u, 49u, 50u, 51u, 52u, 53u, 54u, 55u, 56u, 57u, 58u, 59u, 60u, 61u, 62u, 63u, 64u, 65u, 66u, 67u, 68u, 69u, 70u, 71u, 72u, 73u, 74u, 75u, 76u, 77u, 78u, 79u, 80u, 81u, 82u, 83u, 84u, 85u, 86u, 87u, 88u, 89u, 90u, 91u, 92u, 93u, 94u, 95u, 96u, 97u, 98u, 99u, 100u, 101u, 102u, 103u, 104u, 105u, 106u, 107u, 108u, 109u, 110u, 111u, 112u, 113u, 114u, 115u, 116u, 117u, 118u, 119u, 120u, 121u, 122u, 123u, 124u, 125u};
 uint8 sinewave[502] = {127u, 128u, 130u, 131u, 133u, 134u, 136u, 137u, 139u, 141u, 142u, 144u, 145u, 147u, 148u, 150u, 151u, 153u, 154u, 156u, 157u, 159u, 160u, 162u, 163u, 165u, 166u, 168u, 169u, 171u, 172u, 174u, 175u, 177u, 178u, 180u, 181u, 182u, 184u, 185u, 186u, 188u, 189u, 191u, 192u, 193u, 195u, 196u, 197u, 198u, 200u, 201u, 202u, 203u, 205u, 206u, 207u, 208u, 209u, 211u, 212u, 213u, 214u, 215u, 216u, 217u, 218u, 219u, 221u, 222u, 223u, 224u, 225u, 225u, 226u, 227u, 228u, 229u, 230u, 231u, 232u, 233u, 233u, 234u, 235u, 236u, 237u, 237u, 238u, 239u, 239u, 240u, 241u, 241u, 242u, 243u, 243u, 244u, 244u, 245u, 245u, 246u, 246u, 247u, 247u, 247u, 248u, 248u, 249u, 249u, 249u, 249u, 250u, 250u, 250u, 250u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 251u, 250u, 250u, 250u, 250u, 249u, 249u, 249u, 249u, 248u, 248u, 247u, 247u, 247u, 246u, 246u, 245u, 245u, 244u, 244u, 243u, 243u, 242u, 241u, 241u, 240u, 239u, 239u, 238u, 237u, 237u, 236u, 235u, 234u, 233u, 233u, 232u, 231u, 230u, 229u, 228u, 227u, 226u, 225u, 225u, 224u, 223u, 222u, 221u, 219u, 218u, 217u, 216u, 215u, 214u, 213u, 212u, 211u, 209u, 208u, 207u, 206u, 205u, 203u, 202u, 201u, 200u, 198u, 197u, 196u, 195u, 193u, 192u, 191u, 189u, 188u, 186u, 185u, 184u, 182u, 181u, 180u, 178u, 177u, 175u, 174u, 172u, 171u, 169u, 168u, 166u, 165u, 163u, 162u, 160u, 159u, 157u, 156u, 154u, 153u, 151u, 150u, 148u, 147u, 145u, 144u, 142u, 141u, 139u, 137u, 136u, 134u, 133u, 131u, 130u, 128u, 127u, 125u, 123u, 122u, 120u, 119u, 117u, 116u, 114u, 112u, 111u, 109u, 108u, 106u, 105u, 103u, 102u, 100u, 99u, 97u, 96u, 94u, 93u, 91u, 90u, 88u, 87u, 85u, 84u, 82u, 81u, 79u, 78u, 76u, 75u, 73u, 72u, 71u, 69u, 68u, 67u, 65u, 64u, 62u, 61u, 60u, 58u, 57u, 56u, 55u, 53u, 52u, 51u, 50u, 48u, 47u, 46u, 45u, 44u, 42u, 41u, 40u, 39u, 38u, 37u, 36u, 35u, 34u, 32u, 31u, 30u, 29u, 28u, 28u, 27u, 26u, 25u, 24u, 23u, 22u, 21u, 20u, 20u, 19u, 18u, 17u, 16u, 16u, 15u, 14u, 14u, 13u, 12u, 12u, 11u, 10u, 10u, 9u, 9u, 8u, 8u, 7u, 7u, 6u, 6u, 6u, 5u, 5u, 4u, 4u, 4u, 4u, 3u, 3u, 3u, 3u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 2u, 3u, 3u, 3u, 3u, 4u, 4u, 4u, 4u, 5u, 5u, 6u, 6u, 6u, 7u, 7u, 8u, 8u, 9u, 9u, 10u, 10u, 11u, 12u, 12u, 13u, 14u, 14u, 15u, 16u, 16u, 17u, 18u, 19u, 20u, 20u, 21u, 22u, 23u, 24u, 25u, 26u, 27u, 28u, 28u, 29u, 30u, 31u, 32u, 34u, 35u, 36u, 37u, 38u, 39u, 40u, 41u, 42u, 44u, 45u, 46u, 47u, 48u, 50u, 51u, 52u, 53u, 55u, 56u, 57u, 58u, 60u, 61u, 62u, 64u, 65u, 67u, 68u, 69u, 71u, 72u, 73u, 75u, 76u, 78u, 79u, 81u, 82u, 84u, 85u, 87u, 88u, 90u, 91u, 93u, 94u, 96u, 97u, 99u, 100u, 102u, 103u, 105u, 106u, 108u, 109u, 111u, 112u, 114u, 116u, 117u, 119u, 120u, 122u, 123u, 125u};
@@ -109,24 +108,69 @@ uint16 freqClockDivCounter = START_FREQ_DIV;
 volatile uint dice1;
 volatile uint dice2;
 
-////////////////////////////////////////////////New 13_05 in progress:
-const uint8 cChurchModes[8][7] = {{0, 2, 4, 7, 9, 0, 0},          // 0 major pentatonic
-                                  {0, 2, 4, 5, 7, 9, 11},         // 1 ionic
-                                  {0, 2, 3, 5, 7, 9, 10},         // 2 dorian
-                                  {0, 1, 3, 5, 6, 8, 10},         // 3 phrygian
-                                  {0, 2, 4, 6, 7, 9, 11},         // 4 lydian
-                                  {0, 2, 4, 5, 7, 9, 10},         // 5 mixolydian
-                                  {0, 2, 3, 5, 7, 8, 10},         // 6 aeolian
-                                  {0, 1, 3, 5, 6, 8, 10},         // 7 locrian
-};                
-const uint8 cDorian[8] = {0, 2, 3, 5, 7, 9, 10} ;
-const uint8 cPhrygian[8] = {0, 1, 3, 5, 6, 8, 10};
-const uint8 cLydian[8] = {0, 2, 4, 6, 7, 9, 11};
-const uint8 cMixolydian[8] = {0, 2, 4, 5, 7, 9, 10};
-const uint8 cAeolian[8] = {0, 2, 3, 5, 7, 8, 10};
-const uint8 cLocrian[8] = {0, 1, 3, 5, 6, 8, 10};
-volatile uint16 echoTuneRangeDiv = 1;
-volatile uint16 churchModeIndex = 100; // free run
+//////////////////////////////////////////////// MODAL MONDIAL
+volatile uint8 cScales[6][8][8] =  {{                                   // WORLD PENTATONICS                       
+                                     {0, 2, 4, 7, 9, 0, 0, 0},          // 0 major pentatonic
+                                     {0, 3, 5, 7, 10, 0, 0, 0},         // 1 minor pentatonic
+                                     {0, 1, 5, 7, 8, 0, 0, 0},          // 2 kumoi penta [japan] 
+                                     {0, 1, 5, 6, 10, 0, 0, 0},         // 3 iwato penta [japan] 
+                                     {0, 1, 3, 7, 8, 0, 0, 0},          // 4 pelog penta [bali] 
+                                     {0, 2, 5, 7, 9, 0, 0, 0},          // 5 hyojo penta [china] 
+                                     {0, 3, 6, 7, 11, 0, 0, 0},         // 6 penta [china] 
+                                     {0, 2, 5, 7, 10, 0, 0, 0},         // 7 penta [egypt]                                                           
+                                    },                                  // BLUES AND MIXED MINORS
+                                    {{0, 3, 5, 6, 7, 10, 0, 0},         // 0 blues
+                                     {0, 2, 3, 5, 7, 9, 11, 0},         // 1 melodic minor [MM1]
+                                     {0, 2, 3, 5, 7, 9, 10, 0},         // 2 dorian [II]  
+                                     {0, 1, 3, 5, 6, 8, 10, 0},         // 3 phrygian  [III]
+                                     {0, 3, 5, 7, 10, 0, 0, 0},         // 4 minor pentatonic
+                                     {0, 2, 3, 5, 7, 8, 11, 0},         // 5 harmonic minor [HM1]
+                                     {0, 2, 3, 5, 7, 8, 10, 0},         // 6 aeolian [VI]
+                                     {0, 1, 3, 5, 6, 8, 10, 0},         // 7 locrian [VII]
+                                    },                                  // DOMINANT 7
+                                    {{0, 2, 4, 0, 7, 9, 10, 0},         // 0 mixolydian_avoid4                         
+                                     {0, 2, 4, 6, 7, 9, 10, 0},         // 1 mixolydian_#11 [MM4] 
+                                     {0, 1, 4, 0, 7, 8, 10, 0},         // 2 HM5 mixolydian_b9b13_avoid4
+                                     {0, 1, 3, 4, 6, 8, 10, 0},         // 3 altered/superlocrian [MM7]       
+                                     {0, 2, 4, 0, 7, 8, 10, 0},         // 4 mixolydian_b13_avoid4  
+                                     {0, 1, 3, 4, 6, 7, 9, 10},         // 5 HTFT [half tone full tone] 
+                                     {0, 2, 4, 6, 8, 10, 0, 0},         // 6 FT [full tone scale]   
+                                     {0, 2, 4, 5, 7, 9, 10, 0},         // 7 mixolydian [V-7]   
+                                    },                                  // CHURCH MODES
+                                    {{0, 2, 4, 7, 9, 0, 0, 0},          // 0 major pentatonic
+                                     {0, 2, 4, 5, 7, 9, 11, 0},         // 1 ionic [I]
+                                     {0, 2, 3, 5, 7, 9, 10, 0},         // 2 dorian [II]
+                                     {0, 1, 3, 5, 6, 8, 10, 0},         // 3 phrygian [III]
+                                     {0, 2, 4, 6, 7, 9, 11, 0},         // 4 lydian [IV]
+                                     {0, 2, 4, 5, 7, 9, 10, 0},         // 5 mixolydian [V7]
+                                     {0, 2, 3, 5, 7, 8, 10, 0},         // 6 aeolian [VI]
+                                     {0, 1, 3, 5, 6, 8, 10, 0},         // 7 locrian [VII]
+                                    },                                  // HARMONIIC MINOR MODES
+                                    {{0, 3, 5, 7, 8, 11, 0, 0},         // 0 HM penta+_b6°7
+                                     {0, 2, 3, 5, 7, 8, 11, 0},         // 1 harmonic minor [HM1]
+                                     {0, 1, 3, 5, 6, 9, 10, 0},         // 2 locrian_°6 [HM2]
+                                     {0, 2, 4, 5, 6, 9, 11, 0},         // 3 ionic_#5 [HM3]                                   
+                                     {0, 2, 3, 6, 7, 9, 10, 0},         // 4 dorian_#11 [HM4]
+                                     {0, 1, 4, 5, 7, 8, 10, 0},         // 5 mixo_b9b13 [HM5]
+                                     {0, 3, 4, 6, 7, 9, 11, 0},         // 6 lydian_#9 [HM6]                                   
+                                     {0, 1, 3, 4, 6, 8, 9, 0},          // 7 HM7                                 
+                                    },                                  // MELODIC MINOR MODES
+                                    {{0, 3, 5, 7, 9, 11, 0, 0},         // 0 MM penta+_°6°7
+                                     {0, 2, 3, 5, 7, 9, 11, 0},         // 1 melodic minor [MM1]
+                                     {0, 1, 3, 5, 7, 9, 10, 0},         // 2 dorian_b2 [MM2] 
+                                     {0, 2, 4, 6, 8, 9, 11, 0},         // 3 lydian_#5 [MM3]                                    
+                                     {0, 2, 4, 6, 7, 9, 10, 0},         // 4 mixolydian_#11 [MM4]   
+                                     {0, 2, 4, 5, 7, 8, 10, 0},         // 5 mixolydian_b13 [MM5]      
+                                     {0, 2, 3, 5, 6, 8, 10, 0},         // 6 locrian_°9 [MM6]                                    
+                                     {0, 1, 3, 4, 6, 8, 10, 0},         // 7 altered/superlocrian [MM7]                              
+                                    }
+};
+                                    
+volatile uint8 cScaleGroupSelect = 100;                                 // 0 world penta | 1 blues and minors | 2 dominant scales | 3 church modes | 100 chromatic
+const uint8 cScaleGroupsLength = 6;                                     // scale groups count
+volatile uint8 cScaleSelect = 100;                                      // 0-7 depending on group | 100 chromatic
+volatile uint8 octaveSelect = 1;                                        // switch octaves
+volatile uint8 bassOffsetUp = 12;                                       // index 12 is C1
 ////////////////////////////////////////////////////
 
 volatile uint16 echoDuration;
@@ -135,6 +179,7 @@ volatile uint8 echoFlag = 0;        // 0 idle | 1 trig sent | 2 timer value read
 volatile uint16 echoTimerPeriod;
 volatile uint16 echoReadCounter;
 volatile uint16 echoTuneDelay = 40;
+
 
 // MODECHECK FUNCTION checks mode on 4 state cube
 void modecheck(){
@@ -207,6 +252,15 @@ void playRange(uint8 minIndex, uint8 maxIndex, uint16 playRangeDelay){
 }
 
 void distanceEchoPitch(){
+    if (analogButFlag){
+        octaveSelect++;
+        if (octaveSelect > 4){
+           octaveSelect = 1; 
+        }
+        sprintf(transmitBuffer, "octaveSelect: %i\n\r", octaveSelect);             
+        UART_1_PutString(transmitBuffer);
+        analogButFlag = 0;
+    }
     if (button1){
         echoTuneDelay *= 2;
         if (echoTuneDelay > 300){
@@ -217,21 +271,34 @@ void distanceEchoPitch(){
         button1 = 0;
     }
     if (button2){
-        sprintf(transmitBuffer, "echoTuneRangeDiv: %i\n\r", echoTuneRangeDiv);             
-        UART_1_PutString(transmitBuffer);
-        button2 = 0;
-    }
-    if (button3){
-        if (churchModeIndex == 100){
-            churchModeIndex = 0;
+        if (cScaleGroupSelect == 100){
+            cScaleGroupSelect = 0;
+            cScaleSelect = 0;
         }
-        else if (churchModeIndex == 8){
-            churchModeIndex = 100;
+        else if (cScaleGroupSelect == cScaleGroupsLength - 1){
+            cScaleGroupSelect = 100;
+            cScaleSelect = 0;
         }
         else{
-            churchModeIndex++;   
+            cScaleGroupSelect++;   
+        }
+        button2 = 0;
+        sprintf(transmitBuffer, "cScaleGroup: %i\n\r", cScaleGroupSelect);             
+        UART_1_PutString(transmitBuffer);
+    }
+    if (button3){
+        if (cScaleSelect == 100){
+            cScaleSelect = 0;
+        }
+        else if (cScaleSelect == 7){
+            cScaleSelect = 100;
+        }
+        else{
+            cScaleSelect++;   
         }
         button3 = 0;
+        sprintf(transmitBuffer, "cScale:      %i\n\r", cScaleSelect);             
+        UART_1_PutString(transmitBuffer);
     }
     if (echoFlag == 0){
         Pin_EchoTrig_Write(0);
@@ -243,28 +310,28 @@ void distanceEchoPitch(){
     }
     else if (echoFlag == 2){
         echoDuration = echoTimerPeriod - echoReadCounter;
-        sprintf(transmitBuffer, "EchoDuration: %i\n\r", echoDuration);        
-        UART_1_PutString(transmitBuffer); 
-        if (echoDuration < 320 && echoDuration > 10){                // define play range
+//        sprintf(transmitBuffer, "EchoDuration: %i\n\r", echoDuration);        
+//        UART_1_PutString(transmitBuffer); 
+        if (echoDuration < 320 && echoDuration > 10){                
            echoDistance = echoDuration / 5.5;  
         }                 
-        sprintf(transmitBuffer, "echoDistance: %i\n\r", echoDistance);             
-        UART_1_PutString(transmitBuffer); 
-        if (churchModeIndex != 100){
-            for (int i = 0; i < 7; i++){
-                if ((echoDistance+30) % 12 == cChurchModes[churchModeIndex][i]){
-                    noteIndex = echoDistance+30;
+//        sprintf(transmitBuffer, "echoDistance: %i\n\r", echoDistance);             
+//        UART_1_PutString(transmitBuffer); 
+        if (cScaleGroupSelect != 100 && cScaleGroupSelect != 100){
+            for (int i = 0; i < 8; i++){
+                if ((echoDistance + bassOffsetUp) % 12 == cScales[cScaleGroupSelect][cScaleSelect][i]){
+                    noteIndex = echoDistance + bassOffsetUp + octaveSelect * 12;
                 }
             }         
         }
         else{
-           noteIndex = echoDistance+30;  
+           noteIndex = echoDistance + bassOffsetUp + octaveSelect * 12;  
         }
         Clock_1_SetDividerValue(250000 / intFrequency[noteIndex]); 
         echoFlag = 0;
     }
-    sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", button1);             
-    UART_1_PutString(transmitBuffer);
+//    sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", button1);             
+//    UART_1_PutString(transmitBuffer);
     CyDelay(echoTuneDelay);
 }
 
@@ -298,9 +365,7 @@ void waveSelect(int yInput)   {
         }
     }
     oldYinput = yInput;
-    
 }
-
 
 int main(){
     CyGlobalIntEnable;
@@ -321,7 +386,6 @@ int main(){
     analogADC_Start();
     analogADC_StartConvert();
     
-    
     UART_1_Start();
     UART_1_PutString("Hello \n\r");
     
@@ -333,7 +397,6 @@ int main(){
     Timer_Echo_Start();
     isr_Echo_StartEx(userEcho_ISR);
     echoTimerPeriod = Timer_Echo_ReadPeriod();
-    WaveDAC8_1_Start();
     for(;;){
         if (checkingMode && modeFlag){
             modecheck();
@@ -390,7 +453,6 @@ int main(){
                 } else  {
                     WaveDAC8_1_Stop();
                 }
-                
                 break;
             default:
                 break;
@@ -400,7 +462,8 @@ int main(){
 }
 
 CY_ISR(analogBut_isr_vect)    {
-    UART_1_PutString("\r\nanalogbutton pressed");
+    analogButFlag = 1;
+//    UART_1_PutString("\r\nanalogbutton pressed");
 }
 
 CY_ISR(adc_isr_vect)  {
@@ -409,27 +472,27 @@ CY_ISR(adc_isr_vect)  {
 }
 
 CY_ISR(but1_isr_pos_vect)   {
-    UART_1_PutString("\r\nbutton 1 pressed");
+//    UART_1_PutString("\r\nbutton 1 pressed");
     button1 = 75;
 }
 CY_ISR(but1_isr_neg_vect)   {
-    UART_1_PutString("\r\nbutton 1 released");
+//    UART_1_PutString("\r\nbutton 1 released");
     button1 = 0;
 }
 CY_ISR(but2_isr_pos_vect)   {
-    UART_1_PutString("\r\nbutton 2 pressed");
+//    UART_1_PutString("\r\nbutton 2 pressed");
     button2 = 85;
 }
 CY_ISR(but2_isr_neg_vect)   {
-    UART_1_PutString("\r\nbutton 2 released");
+//    UART_1_PutString("\r\nbutton 2 released");
     button2 = 0;
 }
 CY_ISR(but3_isr_pos_vect)   {
-    UART_1_PutString("\r\nbutton 3 pressed");
+//    UART_1_PutString("\r\nbutton 3 pressed");
     button3 = 80;
 }
 CY_ISR(but3_isr_neg_vect)   {
-    UART_1_PutString("\r\nbutton 3 released");
+//    UART_1_PutString("\r\nbutton 3 released");
     button3 = 0;
 }
 CY_ISR(userEcho_ISR){

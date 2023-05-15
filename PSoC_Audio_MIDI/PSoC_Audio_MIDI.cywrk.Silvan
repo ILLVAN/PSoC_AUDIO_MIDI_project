@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\but2_isr_neg">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>PSoC_Audio_MIDI</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI</v>
@@ -193,62 +193,6 @@
 <VisibleNodeIds>
 <v>PSoC_Audio_MIDI</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_isr.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_AMux.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_Ext_CP_Clk.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_INT.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_IRQ.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_PM.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_theACLK.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogBut.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogBut_isr.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogMUX.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogX.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogY.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but1_isr_neg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but1_isr_pos.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but2_isr_neg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but2_isr_pos.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but3.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but3_isr_neg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but3_isr_pos.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_Echo.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_Mode.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\debouncerClock.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_checkMode.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_Echo.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\P00_Vout.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_LED_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_LED_2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_EchoReturn.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_EchoTrig.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_Echo.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_Echo_PM.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_Mode.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_Mode_PM.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -315,13 +259,34 @@
 <CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
 <indicators>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="94" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="93" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="100" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="99" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="106" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="105" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="322" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="171" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="284" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="277" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="287" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="294" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
+</CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
+<CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="297" DocumentName=".\PSoC_Audio_MIDI.cydsn\main.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 </indicators>
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
