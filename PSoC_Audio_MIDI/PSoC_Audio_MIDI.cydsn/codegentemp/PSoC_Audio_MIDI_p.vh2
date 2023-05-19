@@ -1,5 +1,5 @@
 -- Project:   PSoC_Audio_MIDI
--- Generated: 05/19/2023 16:05:36
+-- Generated: 05/19/2023 23:18:52
 -- PSoC Creator  4.4
 
 ENTITY PSoC_Audio_MIDI IS
@@ -74,8 +74,6 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE global_signal OF Net_274 : SIGNAL IS true;
     SIGNAL Net_274_local : bit;
     SIGNAL Net_287 : bit;
-    SIGNAL Net_294 : bit;
-    SIGNAL Net_295 : bit;
     SIGNAL Net_297 : bit;
     SIGNAL Net_305 : bit;
     SIGNAL Net_316 : bit;
@@ -89,7 +87,12 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     SIGNAL Net_396 : bit;
     ATTRIBUTE global_signal OF Net_396 : SIGNAL IS true;
     SIGNAL Net_396_local : bit;
+    SIGNAL Net_489 : bit;
+    SIGNAL Net_515 : bit;
+    SIGNAL Net_516 : bit;
+    SIGNAL Net_8 : bit;
     SIGNAL P00_Vout(0)__PA : bit;
+    SIGNAL Pin_1(0)__PA : bit;
     SIGNAL Pin_Dice_1(0)__PA : bit;
     SIGNAL Pin_Dice_2(0)__PA : bit;
     SIGNAL Pin_Dice_LED_1(0)__PA : bit;
@@ -336,6 +339,8 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE Location OF Rx_2(0) : LABEL IS "P0[2]";
     ATTRIBUTE lib_model OF Tx_2(0) : LABEL IS "iocell19";
     ATTRIBUTE Location OF Tx_2(0) : LABEL IS "P15[1]";
+    ATTRIBUTE lib_model OF Pin_1(0) : LABEL IS "iocell20";
+    ATTRIBUTE Location OF Pin_1(0) : LABEL IS "P3[7]";
     ATTRIBUTE lib_model OF Net_305 : LABEL IS "macrocell2";
     ATTRIBUTE lib_model OF \UART_1:BUART:counter_load_not\ : LABEL IS "macrocell3";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_status_0\ : LABEL IS "macrocell4";
@@ -383,6 +388,10 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE lib_model OF \UART_TOESP:BUART:sTX:TxSts\ : LABEL IS "statusicell5";
     ATTRIBUTE lib_model OF \UART_TOESP:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell10";
     ATTRIBUTE lib_model OF \UART_TOESP:BUART:sRX:RxSts\ : LABEL IS "statusicell6";
+    ATTRIBUTE lib_model OF \WaveDAC8_2:Wave1_DMA\ : LABEL IS "drqcell3";
+    ATTRIBUTE lib_model OF \WaveDAC8_2:Wave2_DMA\ : LABEL IS "drqcell4";
+    ATTRIBUTE Location OF \WaveDAC8_2:VDAC8:viDAC8\ : LABEL IS "F(VIDAC,1)";
+    ATTRIBUTE Location OF \WaveDAC8_2:BuffAmp:ABuf\ : LABEL IS "F(OpAmp,3)";
     ATTRIBUTE lib_model OF \UART_1:BUART:txn\ : LABEL IS "macrocell27";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_state_1\ : LABEL IS "macrocell28";
     ATTRIBUTE lib_model OF \UART_1:BUART:tx_state_0\ : LABEL IS "macrocell29";
@@ -437,24 +446,24 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE lib_model OF \I2COLED:Net_643_3\ : LABEL IS "macrocell78";
     ATTRIBUTE lib_model OF \I2COLED:sda_x_wire\ : LABEL IS "macrocell79";
     ATTRIBUTE lib_model OF \I2COLED:bI2C_UDB:m_reset\ : LABEL IS "macrocell80";
-    ATTRIBUTE lib_model OF \I2COLED:bI2C_UDB:m_state_0_split\ : LABEL IS "macrocell81";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:txn\ : LABEL IS "macrocell82";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_state_1\ : LABEL IS "macrocell83";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_state_0\ : LABEL IS "macrocell84";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_state_2\ : LABEL IS "macrocell85";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_bitclk\ : LABEL IS "macrocell86";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell87";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_0\ : LABEL IS "macrocell88";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_load_fifo\ : LABEL IS "macrocell89";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_3\ : LABEL IS "macrocell90";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_2\ : LABEL IS "macrocell91";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_bitclk_enable\ : LABEL IS "macrocell92";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell93";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:pollcount_1\ : LABEL IS "macrocell94";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:pollcount_0\ : LABEL IS "macrocell95";
-    ATTRIBUTE lib_model OF \I2COLED:bI2C_UDB:m_state_2_split\ : LABEL IS "macrocell96";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_status_3\ : LABEL IS "macrocell97";
-    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_last\ : LABEL IS "macrocell98";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:txn\ : LABEL IS "macrocell81";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_state_1\ : LABEL IS "macrocell82";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_state_0\ : LABEL IS "macrocell83";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_state_2\ : LABEL IS "macrocell84";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_bitclk\ : LABEL IS "macrocell85";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell86";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_0\ : LABEL IS "macrocell87";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_load_fifo\ : LABEL IS "macrocell88";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_3\ : LABEL IS "macrocell89";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_2\ : LABEL IS "macrocell90";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_bitclk_enable\ : LABEL IS "macrocell91";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell92";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:pollcount_1\ : LABEL IS "macrocell93";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:pollcount_0\ : LABEL IS "macrocell94";
+    ATTRIBUTE lib_model OF \I2COLED:bI2C_UDB:m_state_0_split\ : LABEL IS "macrocell95";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_status_3\ : LABEL IS "macrocell96";
+    ATTRIBUTE lib_model OF \UART_TOESP:BUART:rx_last\ : LABEL IS "macrocell97";
+    ATTRIBUTE lib_model OF \I2COLED:bI2C_UDB:m_state_2_split\ : LABEL IS "macrocell98";
     COMPONENT abufcell
     END COMPONENT;
     COMPONENT clockblockcell
@@ -2638,6 +2647,95 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
+    Pin_1:logicalport
+        GENERIC MAP(
+            drive_mode => "000",
+            ibuf_enabled => "0",
+            id => "856b9009-4aa4-4c4f-8084-32b10627d69a",
+            init_dr_st => "0",
+            input_buffer_sel => "00",
+            input_clk_en => 0,
+            input_sync => "1",
+            input_sync_mode => "0",
+            intr_mode => "00",
+            invert_in_clock => 0,
+            invert_in_clock_en => 0,
+            invert_in_reset => 0,
+            invert_out_clock => 0,
+            invert_out_clock_en => 0,
+            invert_out_reset => 0,
+            io_voltage => "",
+            layout_mode => "CONTIGUOUS",
+            oe_conn => "0",
+            oe_reset => 0,
+            oe_sync => "0",
+            output_clk_en => 0,
+            output_clock_mode => "0",
+            output_conn => "0",
+            output_mode => "0",
+            output_reset => 0,
+            output_sync => "0",
+            ovt_hyst_trim => "0",
+            ovt_needed => "0",
+            ovt_slew_control => "00",
+            pa_in_clock => -1,
+            pa_in_clock_en => -1,
+            pa_in_reset => -1,
+            pa_out_clock => -1,
+            pa_out_clock_en => -1,
+            pa_out_reset => -1,
+            pin_aliases => "",
+            pin_mode => "A",
+            por_state => 4,
+            port_alias_group => "",
+            port_alias_required => 0,
+            sio_group_cnt => 0,
+            sio_hifreq => "00000000",
+            sio_hyst => "1",
+            sio_ibuf => "00000000",
+            sio_info => "00",
+            sio_obuf => "00000000",
+            sio_refsel => "00000000",
+            sio_vohsel => "00000000",
+            sio_vtrip => "00000000",
+            slew_rate => "0",
+            spanning => 0,
+            sw_only => 0,
+            use_annotation => "1",
+            vtrip => "10",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0)
+        PORT MAP(
+            in_clock_en => open,
+            in_reset => open,
+            out_clock_en => open,
+            out_reset => open);
+
+    Pin_1(0):iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "Pin_1",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000010")
+        PORT MAP(
+            pa_out => Pin_1(0)__PA,
+            oe => open,
+            in_clock => open,
+            in_clock_en => '1',
+            in_reset => '0',
+            out_clock => open,
+            out_clock_en => '1',
+            out_reset => '0');
+
     Net_305:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
@@ -3124,7 +3222,7 @@ BEGIN
         PORT MAP(
             dmareq => Net_10_local,
             termin => '0',
-            termout => Net_294,
+            termout => Net_489,
             clock => ClockBlock_BUS_CLK);
 
     \WaveDAC8_1:Wave2_DMA\:drqcell
@@ -3134,7 +3232,7 @@ BEGIN
         PORT MAP(
             dmareq => open,
             termin => '0',
-            termout => Net_295,
+            termout => Net_8,
             clock => ClockBlock_BUS_CLK);
 
     \WaveDAC8_1:VDAC8:viDAC8\:vidaccell
@@ -3690,6 +3788,41 @@ BEGIN
             status_2 => open,
             status_1 => open,
             status_0 => open);
+
+    \WaveDAC8_2:Wave1_DMA\:drqcell
+        GENERIC MAP(
+            drq_type => "10",
+            num_tds => 0)
+        PORT MAP(
+            dmareq => Net_10_local,
+            termin => '0',
+            termout => Net_515,
+            clock => ClockBlock_BUS_CLK);
+
+    \WaveDAC8_2:Wave2_DMA\:drqcell
+        GENERIC MAP(
+            drq_type => "10",
+            num_tds => 0)
+        PORT MAP(
+            dmareq => open,
+            termin => '0',
+            termout => Net_516,
+            clock => ClockBlock_BUS_CLK);
+
+    \WaveDAC8_2:VDAC8:viDAC8\:vidaccell
+        GENERIC MAP(
+            cy_registers => "",
+            is_all_if_any => 0,
+            reg_data => 0)
+        PORT MAP(
+            reset => open,
+            idir => open,
+            ioff => open,
+            strobe_udb => Net_10_local);
+
+    \WaveDAC8_2:BuffAmp:ABuf\:abufcell
+        GENERIC MAP(
+            cy_registers => "");
 
     \UART_1:BUART:txn\:macrocell
         GENERIC MAP(
@@ -4461,26 +4594,6 @@ BEGIN
             clock_0 => Net_341,
             main_0 => \I2COLED:bI2C_UDB:control_1\);
 
-    \I2COLED:bI2C_UDB:m_state_0_split\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0 * !main_5 * !main_6 * main_7 * !main_8 * !main_9 * main_10) + (main_1 * !main_4 * main_6 * main_7 * main_8 * !main_9 * !main_11) + (!main_2 * main_3 * main_5 * !main_6 * !main_7 * !main_8 * !main_9 * main_10) + (!main_4 * !main_5 * !main_6 * !main_7 * main_8 * !main_9) + (!main_4 * main_5 * main_6 * main_7 * !main_9 * main_10) + (main_4 * !main_5 * !main_8 * !main_9 * main_10) + (main_4 * main_5 * !main_6 * !main_7 * main_8 * !main_9) + (!main_5 * main_6 * !main_7 * !main_8 * !main_9 * main_10)",
-            regmode => 0,
-            clken_mode => 1)
-        PORT MAP(
-            q => \I2COLED:bI2C_UDB:m_state_0_split\,
-            main_0 => \I2COLED:bI2C_UDB:control_7\,
-            main_1 => \I2COLED:bI2C_UDB:control_6\,
-            main_2 => \I2COLED:bI2C_UDB:control_5\,
-            main_3 => \I2COLED:bI2C_UDB:control_4\,
-            main_4 => \I2COLED:bI2C_UDB:m_state_4\,
-            main_5 => \I2COLED:bI2C_UDB:m_state_3\,
-            main_6 => \I2COLED:bI2C_UDB:m_state_2\,
-            main_7 => \I2COLED:bI2C_UDB:m_state_1\,
-            main_8 => \I2COLED:bI2C_UDB:m_state_0\,
-            main_9 => \I2COLED:bI2C_UDB:m_reset\,
-            main_10 => \I2COLED:bI2C_UDB:clkgen_tc1_reg\,
-            main_11 => \I2COLED:bI2C_UDB:lost_arb_reg\);
-
     \UART_TOESP:BUART:txn\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_6) + (main_0 * main_4) + (!main_1 * main_2 * !main_3 * !main_4) + (!main_1 * main_2 * !main_4 * !main_6) + (main_1 * !main_2 * !main_3 * !main_4 * !main_5 * main_6)",
@@ -4703,17 +4816,17 @@ BEGIN
             main_2 => \UART_TOESP:BUART:rx_count_1\,
             main_3 => \UART_TOESP:BUART:pollcount_0\);
 
-    \I2COLED:bI2C_UDB:m_state_2_split\:macrocell
+    \I2COLED:bI2C_UDB:m_state_0_split\:macrocell
         GENERIC MAP(
-            eqn_main => "(!main_0 * !main_1 * !main_3 * !main_4 * !main_5 * main_6 * main_10) + (main_2 * main_4 * main_5 * !main_7 * !main_9 * main_10) + (!main_3 * !main_4 * !main_5 * main_6 * !main_8 * main_10) + (!main_3 * !main_4 * !main_5 * main_6 * main_10 * main_11) + (!main_4 * !main_5 * main_6 * !main_7 * main_10) + (!main_4 * main_5 * main_7 * main_8 * !main_9 * main_10) + (main_4 * !main_5 * !main_6 * main_7 * main_8 * !main_9 * main_10) + (main_4 * main_5 * !main_7 * main_8 * !main_9 * main_10)",
+            eqn_main => "(main_0 * !main_5 * !main_6 * main_7 * !main_8 * !main_9 * main_10) + (main_1 * !main_4 * main_6 * main_7 * main_8 * !main_9 * !main_11) + (!main_2 * main_3 * main_5 * !main_6 * !main_7 * !main_8 * !main_9 * main_10) + (!main_4 * !main_5 * !main_6 * !main_7 * main_8 * !main_9) + (!main_4 * main_5 * main_6 * main_7 * !main_9 * main_10) + (main_4 * !main_5 * !main_8 * !main_9 * main_10) + (main_4 * main_5 * !main_6 * !main_7 * main_8 * !main_9) + (!main_5 * main_6 * !main_7 * !main_8 * !main_9 * main_10)",
             regmode => 0,
             clken_mode => 1)
         PORT MAP(
-            q => \I2COLED:bI2C_UDB:m_state_2_split\,
-            main_0 => \I2COLED:bI2C_UDB:control_6\,
-            main_1 => \I2COLED:bI2C_UDB:control_5\,
-            main_2 => \I2COLED:bI2C_UDB:control_4\,
-            main_3 => \I2COLED:bI2C_UDB:tx_reg_empty\,
+            q => \I2COLED:bI2C_UDB:m_state_0_split\,
+            main_0 => \I2COLED:bI2C_UDB:control_7\,
+            main_1 => \I2COLED:bI2C_UDB:control_6\,
+            main_2 => \I2COLED:bI2C_UDB:control_5\,
+            main_3 => \I2COLED:bI2C_UDB:control_4\,
             main_4 => \I2COLED:bI2C_UDB:m_state_4\,
             main_5 => \I2COLED:bI2C_UDB:m_state_3\,
             main_6 => \I2COLED:bI2C_UDB:m_state_2\,
@@ -4751,5 +4864,25 @@ BEGIN
             q => \UART_TOESP:BUART:rx_last\,
             clock_0 => \UART_TOESP:Net_9\,
             main_0 => Net_368);
+
+    \I2COLED:bI2C_UDB:m_state_2_split\:macrocell
+        GENERIC MAP(
+            eqn_main => "(!main_0 * !main_1 * !main_3 * !main_4 * !main_5 * main_6 * main_10) + (main_2 * main_4 * main_5 * !main_7 * !main_9 * main_10) + (!main_3 * !main_4 * !main_5 * main_6 * !main_8 * main_10) + (!main_3 * !main_4 * !main_5 * main_6 * main_10 * main_11) + (!main_4 * !main_5 * main_6 * !main_7 * main_10) + (!main_4 * main_5 * main_7 * main_8 * !main_9 * main_10) + (main_4 * !main_5 * !main_6 * main_7 * main_8 * !main_9 * main_10) + (main_4 * main_5 * !main_7 * main_8 * !main_9 * main_10)",
+            regmode => 0,
+            clken_mode => 1)
+        PORT MAP(
+            q => \I2COLED:bI2C_UDB:m_state_2_split\,
+            main_0 => \I2COLED:bI2C_UDB:control_6\,
+            main_1 => \I2COLED:bI2C_UDB:control_5\,
+            main_2 => \I2COLED:bI2C_UDB:control_4\,
+            main_3 => \I2COLED:bI2C_UDB:tx_reg_empty\,
+            main_4 => \I2COLED:bI2C_UDB:m_state_4\,
+            main_5 => \I2COLED:bI2C_UDB:m_state_3\,
+            main_6 => \I2COLED:bI2C_UDB:m_state_2\,
+            main_7 => \I2COLED:bI2C_UDB:m_state_1\,
+            main_8 => \I2COLED:bI2C_UDB:m_state_0\,
+            main_9 => \I2COLED:bI2C_UDB:m_reset\,
+            main_10 => \I2COLED:bI2C_UDB:clkgen_tc1_reg\,
+            main_11 => \I2COLED:bI2C_UDB:lost_arb_reg\);
 
 END __DEFAULT__;

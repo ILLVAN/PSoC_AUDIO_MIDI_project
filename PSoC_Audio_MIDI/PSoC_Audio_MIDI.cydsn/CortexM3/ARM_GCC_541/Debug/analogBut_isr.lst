@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
   28:Generated_Source\PSoC5/analogBut_isr.c **** ********************************************************************************/
   29:Generated_Source\PSoC5/analogBut_isr.c **** /* `#START analogBut_isr_intc` */
   30:Generated_Source\PSoC5/analogBut_isr.c **** 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 2
 
 
   31:Generated_Source\PSoC5/analogBut_isr.c **** /* `#END` */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
   70:Generated_Source\PSoC5/analogBut_isr.c ****     analogBut_isr_SetPriority((uint8)analogBut_isr_INTC_PRIOR_NUMBER);
   43              		.loc 1 70 0
   44 000e 0620     		movs	r0, #6
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 3
 
 
   45 0010 FFF7FEFF 		bl	analogBut_isr_SetPriority
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  104:Generated_Source\PSoC5/analogBut_isr.c **** void analogBut_isr_StartEx(cyisraddress address)
  105:Generated_Source\PSoC5/analogBut_isr.c **** {
   66              		.loc 1 105 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 4
 
 
   67              		.cfi_startproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  119:Generated_Source\PSoC5/analogBut_isr.c **** 
  120:Generated_Source\PSoC5/analogBut_isr.c **** /*******************************************************************************
  121:Generated_Source\PSoC5/analogBut_isr.c **** * Function Name: analogBut_isr_Stop
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 5
 
 
  122:Generated_Source\PSoC5/analogBut_isr.c **** ********************************************************************************
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  143:Generated_Source\PSoC5/analogBut_isr.c **** 
  144:Generated_Source\PSoC5/analogBut_isr.c **** /*******************************************************************************
  145:Generated_Source\PSoC5/analogBut_isr.c **** * Function Name: analogBut_isr_Interrupt
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 6
 
 
  146:Generated_Source\PSoC5/analogBut_isr.c **** ********************************************************************************
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  170              	.LFB4:
  171:Generated_Source\PSoC5/analogBut_isr.c **** 
  172:Generated_Source\PSoC5/analogBut_isr.c **** 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 7
 
 
  173:Generated_Source\PSoC5/analogBut_isr.c **** /*******************************************************************************
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  191 0012 7A68     		ldr	r2, [r7, #4]
  192 0014 1A60     		str	r2, [r3]
  207:Generated_Source\PSoC5/analogBut_isr.c **** }
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 8
 
 
  193              		.loc 1 207 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  229 0004 00AF     		add	r7, sp, #0
  230              		.cfi_def_cfa_register 7
  226:Generated_Source\PSoC5/analogBut_isr.c ****     cyisraddress * ramVectorTable;
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 9
 
 
  227:Generated_Source\PSoC5/analogBut_isr.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  248:Generated_Source\PSoC5/analogBut_isr.c **** *
  249:Generated_Source\PSoC5/analogBut_isr.c **** * Parameters:
  250:Generated_Source\PSoC5/analogBut_isr.c **** *   priority: Priority of the interrupt, 0 being the highest priority
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 10
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 10
 
 
  251:Generated_Source\PSoC5/analogBut_isr.c **** *             PSoC 3 and PSoC 5LP: Priority is from 0 to 7.
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  307              		.type	analogBut_isr_GetPriority, %function
  308              	analogBut_isr_GetPriority:
  309              	.LFB7:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 11
 
 
  262:Generated_Source\PSoC5/analogBut_isr.c **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  337 0018 80BC     		pop	{r7}
  338              		.cfi_restore 7
  339              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 12
 
 
  340 001a 7047     		bx	lr
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  371 000a 00BF     		nop
  372 000c BD46     		mov	sp, r7
  373              		.cfi_def_cfa_register 13
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 13
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 13
 
 
  374              		@ sp needed
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  408 000c 002B     		cmp	r3, #0
  409 000e 01D0     		beq	.L27
  410              		.loc 1 331 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 14
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 14
 
 
  411 0010 0123     		movs	r3, #1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  446 0000 80B4     		push	{r7}
  447              		.cfi_def_cfa_offset 4
  448              		.cfi_offset 7, -4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 15
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 15
 
 
  449 0002 00AF     		add	r7, sp, #0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  375:Generated_Source\PSoC5/analogBut_isr.c **** *******************************************************************************/
  376:Generated_Source\PSoC5/analogBut_isr.c **** void analogBut_isr_SetPending(void)
  377:Generated_Source\PSoC5/analogBut_isr.c **** {
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 16
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 16
 
 
  479              		.loc 1 377 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  394:Generated_Source\PSoC5/analogBut_isr.c **** * Parameters:
  395:Generated_Source\PSoC5/analogBut_isr.c **** *   None
  396:Generated_Source\PSoC5/analogBut_isr.c **** *
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 17
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 17
 
 
  397:Generated_Source\PSoC5/analogBut_isr.c **** * Return:
@@ -1011,14 +1011,14 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  556 000b 01       		.uleb128 0x1
  557 000c 14000000 		.4byte	.LASF34
  558 0010 0C       		.byte	0xc
- 559 0011 92010000 		.4byte	.LASF35
- 560 0015 10010000 		.4byte	.LASF36
+ 559 0011 2C010000 		.4byte	.LASF35
+ 560 0015 EE010000 		.4byte	.LASF36
  561 0019 00000000 		.4byte	.Ldebug_ranges0+0
  562 001d 00000000 		.4byte	0
  563 0021 00000000 		.4byte	.Ldebug_line0
  564 0025 02       		.uleb128 0x2
  565 0026 04       		.byte	0x4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 18
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 18
 
 
  566 0027 05       		.byte	0x5
@@ -1026,7 +1026,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  568 002c 03       		.uleb128 0x3
  569 002d 04       		.byte	0x4
  570 002e 07       		.byte	0x7
- 571 002f 54020000 		.4byte	.LASF0
+ 571 002f 24020000 		.4byte	.LASF0
  572 0033 03       		.uleb128 0x3
  573 0034 08       		.byte	0x8
  574 0035 05       		.byte	0x5
@@ -1034,19 +1034,19 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  576 003a 03       		.uleb128 0x3
  577 003b 08       		.byte	0x8
  578 003c 04       		.byte	0x4
- 579 003d 07030000 		.4byte	.LASF2
+ 579 003d D7020000 		.4byte	.LASF2
  580 0041 03       		.uleb128 0x3
  581 0042 01       		.byte	0x1
  582 0043 06       		.byte	0x6
- 583 0044 13030000 		.4byte	.LASF3
+ 583 0044 E3020000 		.4byte	.LASF3
  584 0048 03       		.uleb128 0x3
  585 0049 01       		.byte	0x1
  586 004a 08       		.byte	0x8
- 587 004b B9010000 		.4byte	.LASF4
+ 587 004b 53010000 		.4byte	.LASF4
  588 004f 03       		.uleb128 0x3
  589 0050 02       		.byte	0x2
  590 0051 05       		.byte	0x5
- 591 0052 F4020000 		.4byte	.LASF5
+ 591 0052 C4020000 		.4byte	.LASF5
  592 0056 03       		.uleb128 0x3
  593 0057 02       		.byte	0x2
  594 0058 07       		.byte	0x7
@@ -1054,50 +1054,50 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  596 005d 03       		.uleb128 0x3
  597 005e 04       		.byte	0x4
  598 005f 05       		.byte	0x5
- 599 0060 FE020000 		.4byte	.LASF7
+ 599 0060 CE020000 		.4byte	.LASF7
  600 0064 03       		.uleb128 0x3
  601 0065 04       		.byte	0x4
  602 0066 07       		.byte	0x7
- 603 0067 FD010000 		.4byte	.LASF8
+ 603 0067 97010000 		.4byte	.LASF8
  604 006b 03       		.uleb128 0x3
  605 006c 08       		.byte	0x8
  606 006d 07       		.byte	0x7
- 607 006e 83020000 		.4byte	.LASF9
+ 607 006e 53020000 		.4byte	.LASF9
  608 0072 03       		.uleb128 0x3
  609 0073 04       		.byte	0x4
  610 0074 07       		.byte	0x7
- 611 0075 BF020000 		.4byte	.LASF10
+ 611 0075 8F020000 		.4byte	.LASF10
  612 0079 03       		.uleb128 0x3
  613 007a 01       		.byte	0x1
  614 007b 08       		.byte	0x8
- 615 007c E0020000 		.4byte	.LASF11
+ 615 007c B0020000 		.4byte	.LASF11
  616 0080 04       		.uleb128 0x4
  617 0081 04       		.byte	0x4
  618 0082 86000000 		.4byte	0x86
  619 0086 05       		.uleb128 0x5
  620 0087 06       		.uleb128 0x6
- 621 0088 0F020000 		.4byte	.LASF12
+ 621 0088 A9010000 		.4byte	.LASF12
  622 008c 02       		.byte	0x2
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 19
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 19
 
 
  623 008d 9201     		.2byte	0x192
  624 008f 48000000 		.4byte	0x48
  625 0093 06       		.uleb128 0x6
- 626 0094 4D020000 		.4byte	.LASF13
+ 626 0094 E7010000 		.4byte	.LASF13
  627 0098 02       		.byte	0x2
  628 0099 9401     		.2byte	0x194
  629 009b 64000000 		.4byte	0x64
  630 009f 03       		.uleb128 0x3
  631 00a0 04       		.byte	0x4
  632 00a1 04       		.byte	0x4
- 633 00a2 76010000 		.4byte	.LASF14
+ 633 00a2 10010000 		.4byte	.LASF14
  634 00a6 03       		.uleb128 0x3
  635 00a7 08       		.byte	0x8
  636 00a8 04       		.byte	0x4
- 637 00a9 33020000 		.4byte	.LASF15
+ 637 00a9 CD010000 		.4byte	.LASF15
  638 00ad 06       		.uleb128 0x6
- 639 00ae F8010000 		.4byte	.LASF16
+ 639 00ae 92010000 		.4byte	.LASF16
  640 00b2 02       		.byte	0x2
  641 00b3 3C02     		.2byte	0x23c
  642 00b5 B9000000 		.4byte	0xb9
@@ -1111,7 +1111,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  650 00ca 07       		.uleb128 0x7
  651 00cb 93000000 		.4byte	0x93
  652 00cf 06       		.uleb128 0x6
- 653 00d0 9A020000 		.4byte	.LASF18
+ 653 00d0 6A020000 		.4byte	.LASF18
  654 00d4 02       		.byte	0x2
  655 00d5 4E02     		.2byte	0x24e
  656 00d7 80000000 		.4byte	0x80
@@ -1133,19 +1133,19 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  672 00fc 9C       		.byte	0x9c
  673 00fd 10010000 		.4byte	0x110
  674 0101 0A       		.uleb128 0xa
- 675 0102 7B020000 		.4byte	.LASF24
+ 675 0102 4B020000 		.4byte	.LASF24
  676 0106 01       		.byte	0x1
  677 0107 68       		.byte	0x68
  678 0108 CF000000 		.4byte	0xcf
  679 010c 02       		.uleb128 0x2
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 20
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 20
 
 
  680 010d 91       		.byte	0x91
  681 010e 74       		.sleb128 -12
  682 010f 00       		.byte	0
  683 0110 08       		.uleb128 0x8
- 684 0111 3A020000 		.4byte	.LASF20
+ 684 0111 D4010000 		.4byte	.LASF20
  685 0115 01       		.byte	0x1
  686 0116 86       		.byte	0x86
  687 0117 00000000 		.4byte	.LFB2
@@ -1153,7 +1153,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  689 011f 01       		.uleb128 0x1
  690 0120 9C       		.byte	0x9c
  691 0121 0B       		.uleb128 0xb
- 692 0122 C8020000 		.4byte	.LASF21
+ 692 0122 98020000 		.4byte	.LASF21
  693 0126 01       		.byte	0x1
  694 0127 A0       		.byte	0xa0
  695 0128 00000000 		.4byte	.LFB3
@@ -1161,7 +1161,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  697 0130 01       		.uleb128 0x1
  698 0131 9C       		.byte	0x9c
  699 0132 0C       		.uleb128 0xc
- 700 0133 E0010000 		.4byte	.LASF23
+ 700 0133 7A010000 		.4byte	.LASF23
  701 0137 01       		.byte	0x1
  702 0138 C8       		.byte	0xc8
  703 0139 00000000 		.4byte	.LFB4
@@ -1170,7 +1170,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  706 0142 9C       		.byte	0x9c
  707 0143 64010000 		.4byte	0x164
  708 0147 0A       		.uleb128 0xa
- 709 0148 7B020000 		.4byte	.LASF24
+ 709 0148 4B020000 		.4byte	.LASF24
  710 014c 01       		.byte	0x1
  711 014d C8       		.byte	0xc8
  712 014e CF000000 		.4byte	0xcf
@@ -1178,7 +1178,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  714 0153 91       		.byte	0x91
  715 0154 6C       		.sleb128 -20
  716 0155 0D       		.uleb128 0xd
- 717 0156 E5020000 		.4byte	.LASF25
+ 717 0156 B5020000 		.4byte	.LASF25
  718 015a 01       		.byte	0x1
  719 015b CA       		.byte	0xca
  720 015c 64010000 		.4byte	0x164
@@ -1190,7 +1190,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  726 0165 04       		.byte	0x4
  727 0166 CF000000 		.4byte	0xcf
  728 016a 0E       		.uleb128 0xe
- 729 016b A7020000 		.4byte	.LASF28
+ 729 016b 77020000 		.4byte	.LASF28
  730 016f 01       		.byte	0x1
  731 0170 E0       		.byte	0xe0
  732 0171 CF000000 		.4byte	0xcf
@@ -1198,12 +1198,12 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  734 0179 20000000 		.4byte	.LFE5-.LFB5
  735 017d 01       		.uleb128 0x1
  736 017e 9C       		.byte	0x9c
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 21
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 21
 
 
  737 017f 92010000 		.4byte	0x192
  738 0183 0D       		.uleb128 0xd
- 739 0184 E5020000 		.4byte	.LASF25
+ 739 0184 B5020000 		.4byte	.LASF25
  740 0188 01       		.byte	0x1
  741 0189 E2       		.byte	0xe2
  742 018a 64010000 		.4byte	0x164
@@ -1212,7 +1212,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  745 0190 74       		.sleb128 -12
  746 0191 00       		.byte	0
  747 0192 0F       		.uleb128 0xf
- 748 0193 61020000 		.4byte	.LASF26
+ 748 0193 31020000 		.4byte	.LASF26
  749 0197 01       		.byte	0x1
  750 0198 0201     		.2byte	0x102
  751 019a 00000000 		.4byte	.LFB6
@@ -1221,7 +1221,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  754 01a3 9C       		.byte	0x9c
  755 01a4 B8010000 		.4byte	0x1b8
  756 01a8 10       		.uleb128 0x10
- 757 01a9 2A020000 		.4byte	.LASF27
+ 757 01a9 C4010000 		.4byte	.LASF27
  758 01ad 01       		.byte	0x1
  759 01ae 0201     		.2byte	0x102
  760 01b0 87000000 		.4byte	0x87
@@ -1240,7 +1240,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  773 01cd 9C       		.byte	0x9c
  774 01ce E2010000 		.4byte	0x1e2
  775 01d2 12       		.uleb128 0x12
- 776 01d3 2A020000 		.4byte	.LASF27
+ 776 01d3 C4010000 		.4byte	.LASF27
  777 01d7 01       		.byte	0x1
  778 01d8 1A01     		.2byte	0x11a
  779 01da 87000000 		.4byte	0x87
@@ -1249,7 +1249,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  782 01e0 77       		.sleb128 -9
  783 01e1 00       		.byte	0
  784 01e2 13       		.uleb128 0x13
- 785 01e3 15020000 		.4byte	.LASF30
+ 785 01e3 AF010000 		.4byte	.LASF30
  786 01e7 01       		.byte	0x1
  787 01e8 3301     		.2byte	0x133
  788 01ea 00000000 		.4byte	.LFB8
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  791 01f3 9C       		.byte	0x9c
  792 01f4 14       		.uleb128 0x14
  793 01f5 B6000000 		.4byte	.LASF37
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 22
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 22
 
 
  794 01f9 01       		.byte	0x1
@@ -1269,7 +1269,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  799 0208 01       		.uleb128 0x1
  800 0209 9C       		.byte	0x9c
  801 020a 13       		.uleb128 0x13
- 802 020b 7C010000 		.4byte	.LASF31
+ 802 020b 16010000 		.4byte	.LASF31
  803 020f 01       		.byte	0x1
  804 0210 5D01     		.2byte	0x15d
  805 0212 00000000 		.4byte	.LFB10
@@ -1277,7 +1277,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  807 021a 01       		.uleb128 0x1
  808 021b 9C       		.byte	0x9c
  809 021c 13       		.uleb128 0x13
- 810 021d C7010000 		.4byte	.LASF32
+ 810 021d 61010000 		.4byte	.LASF32
  811 0221 01       		.byte	0x1
  812 0222 7801     		.2byte	0x178
  813 0224 00000000 		.4byte	.LFB11
@@ -1285,7 +1285,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  815 022c 01       		.uleb128 0x1
  816 022d 9C       		.byte	0x9c
  817 022e 13       		.uleb128 0x13
- 818 022f 1F030000 		.4byte	.LASF33
+ 818 022f EF020000 		.4byte	.LASF33
  819 0233 01       		.byte	0x1
  820 0234 9101     		.2byte	0x191
  821 0236 00000000 		.4byte	.LFB12
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  848 0014 24       		.uleb128 0x24
  849 0015 00       		.byte	0
  850 0016 0B       		.uleb128 0xb
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 23
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 23
 
 
  851 0017 0B       		.uleb128 0xb
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  905 004d 08       		.uleb128 0x8
  906 004e 2E       		.uleb128 0x2e
  907 004f 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 24
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 24
 
 
  908 0050 3F       		.uleb128 0x3f
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  962 0088 49       		.uleb128 0x49
  963 0089 13       		.uleb128 0x13
  964 008a 02       		.uleb128 0x2
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 25
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 25
 
 
  965 008b 18       		.uleb128 0x18
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  1019 00c3 03       		.uleb128 0x3
  1020 00c4 0E       		.uleb128 0xe
  1021 00c5 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 26
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 26
 
 
  1022 00c6 0B       		.uleb128 0xb
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  1076 00fd 18       		.uleb128 0x18
  1077 00fe 9742     		.uleb128 0x2117
  1078 0100 19       		.uleb128 0x19
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 27
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 27
 
 
  1079 0101 01       		.uleb128 0x1
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  1133 0138 05       		.uleb128 0x5
  1134 0139 49       		.uleb128 0x49
  1135 013a 13       		.uleb128 0x13
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 28
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 28
 
 
  1136 013b 02       		.uleb128 0x2
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  1190 0000 7C000000 		.4byte	0x7c
  1191 0004 0200     		.2byte	0x2
  1192 0006 00000000 		.4byte	.Ldebug_info0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 29
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 29
 
 
  1193 000a 04       		.byte	0x4
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  1247 0050 00000000 		.4byte	.LFB10
  1248 0054 18000000 		.4byte	.LFE10
  1249 0058 00000000 		.4byte	.LFB11
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 30
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 30
 
 
  1250 005c 18000000 		.4byte	.LFE11
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  1272              	.LASF6:
  1273 00e3 73686F72 		.ascii	"short unsigned int\000"
  1273      7420756E 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 31
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 31
 
 
  1273      7369676E 
@@ -1810,160 +1810,155 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 1
  1275      745F6973 
  1275      725F4765 
  1275      74507269 
- 1276              	.LASF36:
- 1277 0110 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\Dokumente\\PSoC Creato"
- 1277      73657273 
- 1277      5C73696C 
- 1277      76616E5C 
- 1277      4F6E6544 
- 1278 013e 725C5053 		.ascii	"r\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MID"
- 1278      6F435F41 
- 1278      7564696F 
- 1278      5F4D4944 
- 1278      495C5053 
- 1279 016e 492E6379 		.ascii	"I.cydsn\000"
- 1279      64736E00 
- 1280              	.LASF14:
- 1281 0176 666C6F61 		.ascii	"float\000"
- 1281      7400
- 1282              	.LASF31:
- 1283 017c 616E616C 		.ascii	"analogBut_isr_Disable\000"
- 1283      6F674275 
- 1283      745F6973 
- 1283      725F4469 
- 1283      7361626C 
- 1284              	.LASF35:
- 1285 0192 47656E65 		.ascii	"Generated_Source\\PSoC5\\analogBut_isr.c\000"
- 1285      72617465 
- 1285      645F536F 
- 1285      75726365 
- 1285      5C50536F 
- 1286              	.LASF4:
- 1287 01b9 756E7369 		.ascii	"unsigned char\000"
- 1287      676E6564 
- 1287      20636861 
- 1287      7200
- 1288              	.LASF32:
- 1289 01c7 616E616C 		.ascii	"analogBut_isr_SetPending\000"
- 1289      6F674275 
- 1289      745F6973 
- 1289      725F5365 
- 1289      7450656E 
- 1290              	.LASF23:
- 1291 01e0 616E616C 		.ascii	"analogBut_isr_SetVector\000"
- 1291      6F674275 
- 1291      745F6973 
- 1291      725F5365 
- 1291      74566563 
- 1292              	.LASF16:
- 1293 01f8 72656738 		.ascii	"reg8\000"
- 1293      00
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 32
+ 1276              	.LASF14:
+ 1277 0110 666C6F61 		.ascii	"float\000"
+ 1277      7400
+ 1278              	.LASF31:
+ 1279 0116 616E616C 		.ascii	"analogBut_isr_Disable\000"
+ 1279      6F674275 
+ 1279      745F6973 
+ 1279      725F4469 
+ 1279      7361626C 
+ 1280              	.LASF35:
+ 1281 012c 47656E65 		.ascii	"Generated_Source\\PSoC5\\analogBut_isr.c\000"
+ 1281      72617465 
+ 1281      645F536F 
+ 1281      75726365 
+ 1281      5C50536F 
+ 1282              	.LASF4:
+ 1283 0153 756E7369 		.ascii	"unsigned char\000"
+ 1283      676E6564 
+ 1283      20636861 
+ 1283      7200
+ 1284              	.LASF32:
+ 1285 0161 616E616C 		.ascii	"analogBut_isr_SetPending\000"
+ 1285      6F674275 
+ 1285      745F6973 
+ 1285      725F5365 
+ 1285      7450656E 
+ 1286              	.LASF23:
+ 1287 017a 616E616C 		.ascii	"analogBut_isr_SetVector\000"
+ 1287      6F674275 
+ 1287      745F6973 
+ 1287      725F5365 
+ 1287      74566563 
+ 1288              	.LASF16:
+ 1289 0192 72656738 		.ascii	"reg8\000"
+ 1289      00
+ 1290              	.LASF8:
+ 1291 0197 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1291      20756E73 
+ 1291      69676E65 
+ 1291      6420696E 
+ 1291      7400
+ 1292              	.LASF12:
+ 1293 01a9 75696E74 		.ascii	"uint8\000"
+ 1293      3800
+ 1294              	.LASF30:
+ 1295 01af 616E616C 		.ascii	"analogBut_isr_Enable\000"
+ 1295      6F674275 
+ 1295      745F6973 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 32
 
 
- 1294              	.LASF8:
- 1295 01fd 6C6F6E67 		.ascii	"long unsigned int\000"
- 1295      20756E73 
- 1295      69676E65 
- 1295      6420696E 
- 1295      7400
- 1296              	.LASF12:
- 1297 020f 75696E74 		.ascii	"uint8\000"
- 1297      3800
- 1298              	.LASF30:
- 1299 0215 616E616C 		.ascii	"analogBut_isr_Enable\000"
- 1299      6F674275 
- 1299      745F6973 
- 1299      725F456E 
- 1299      61626C65 
- 1300              	.LASF27:
- 1301 022a 7072696F 		.ascii	"priority\000"
- 1301      72697479 
- 1301      00
- 1302              	.LASF15:
- 1303 0233 646F7562 		.ascii	"double\000"
- 1303      6C6500
- 1304              	.LASF20:
- 1305 023a 616E616C 		.ascii	"analogBut_isr_Stop\000"
- 1305      6F674275 
- 1305      745F6973 
- 1305      725F5374 
- 1305      6F7000
- 1306              	.LASF13:
- 1307 024d 75696E74 		.ascii	"uint32\000"
- 1307      333200
- 1308              	.LASF0:
- 1309 0254 756E7369 		.ascii	"unsigned int\000"
- 1309      676E6564 
- 1309      20696E74 
- 1309      00
- 1310              	.LASF26:
- 1311 0261 616E616C 		.ascii	"analogBut_isr_SetPriority\000"
- 1311      6F674275 
- 1311      745F6973 
- 1311      725F5365 
- 1311      74507269 
- 1312              	.LASF24:
- 1313 027b 61646472 		.ascii	"address\000"
- 1313      65737300 
- 1314              	.LASF9:
- 1315 0283 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1315      206C6F6E 
- 1315      6720756E 
- 1315      7369676E 
- 1315      65642069 
- 1316              	.LASF18:
- 1317 029a 63796973 		.ascii	"cyisraddress\000"
- 1317      72616464 
- 1317      72657373 
- 1317      00
- 1318              	.LASF28:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccAUhV2h.s 			page 33
+ 1295      725F456E 
+ 1295      61626C65 
+ 1296              	.LASF27:
+ 1297 01c4 7072696F 		.ascii	"priority\000"
+ 1297      72697479 
+ 1297      00
+ 1298              	.LASF15:
+ 1299 01cd 646F7562 		.ascii	"double\000"
+ 1299      6C6500
+ 1300              	.LASF20:
+ 1301 01d4 616E616C 		.ascii	"analogBut_isr_Stop\000"
+ 1301      6F674275 
+ 1301      745F6973 
+ 1301      725F5374 
+ 1301      6F7000
+ 1302              	.LASF13:
+ 1303 01e7 75696E74 		.ascii	"uint32\000"
+ 1303      333200
+ 1304              	.LASF36:
+ 1305 01ee 533A5C43 		.ascii	"S:\\CODE 22\\PSOC\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI"
+ 1305      4F444520 
+ 1305      32325C50 
+ 1305      534F435C 
+ 1305      50536F43 
+ 1306 021d 2E637964 		.ascii	".cydsn\000"
+ 1306      736E00
+ 1307              	.LASF0:
+ 1308 0224 756E7369 		.ascii	"unsigned int\000"
+ 1308      676E6564 
+ 1308      20696E74 
+ 1308      00
+ 1309              	.LASF26:
+ 1310 0231 616E616C 		.ascii	"analogBut_isr_SetPriority\000"
+ 1310      6F674275 
+ 1310      745F6973 
+ 1310      725F5365 
+ 1310      74507269 
+ 1311              	.LASF24:
+ 1312 024b 61646472 		.ascii	"address\000"
+ 1312      65737300 
+ 1313              	.LASF9:
+ 1314 0253 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1314      206C6F6E 
+ 1314      6720756E 
+ 1314      7369676E 
+ 1314      65642069 
+ 1315              	.LASF18:
+ 1316 026a 63796973 		.ascii	"cyisraddress\000"
+ 1316      72616464 
+ 1316      72657373 
+ 1316      00
+ 1317              	.LASF28:
+ 1318 0277 616E616C 		.ascii	"analogBut_isr_GetVector\000"
+ 1318      6F674275 
+ 1318      745F6973 
+ 1318      725F4765 
+ 1318      74566563 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccd3sz02.s 			page 33
 
 
- 1319 02a7 616E616C 		.ascii	"analogBut_isr_GetVector\000"
- 1319      6F674275 
- 1319      745F6973 
- 1319      725F4765 
- 1319      74566563 
- 1320              	.LASF10:
- 1321 02bf 73697A65 		.ascii	"sizetype\000"
- 1321      74797065 
- 1321      00
- 1322              	.LASF21:
- 1323 02c8 616E616C 		.ascii	"analogBut_isr_Interrupt\000"
- 1323      6F674275 
- 1323      745F6973 
- 1323      725F496E 
- 1323      74657272 
- 1324              	.LASF11:
- 1325 02e0 63686172 		.ascii	"char\000"
- 1325      00
- 1326              	.LASF25:
- 1327 02e5 72616D56 		.ascii	"ramVectorTable\000"
- 1327      6563746F 
- 1327      72546162 
- 1327      6C6500
- 1328              	.LASF5:
- 1329 02f4 73686F72 		.ascii	"short int\000"
- 1329      7420696E 
- 1329      7400
- 1330              	.LASF7:
- 1331 02fe 6C6F6E67 		.ascii	"long int\000"
- 1331      20696E74 
- 1331      00
- 1332              	.LASF2:
- 1333 0307 6C6F6E67 		.ascii	"long double\000"
- 1333      20646F75 
- 1333      626C6500 
- 1334              	.LASF3:
- 1335 0313 7369676E 		.ascii	"signed char\000"
- 1335      65642063 
- 1335      68617200 
- 1336              	.LASF33:
- 1337 031f 616E616C 		.ascii	"analogBut_isr_ClearPending\000"
- 1337      6F674275 
- 1337      745F6973 
- 1337      725F436C 
- 1337      65617250 
- 1338              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1319              	.LASF10:
+ 1320 028f 73697A65 		.ascii	"sizetype\000"
+ 1320      74797065 
+ 1320      00
+ 1321              	.LASF21:
+ 1322 0298 616E616C 		.ascii	"analogBut_isr_Interrupt\000"
+ 1322      6F674275 
+ 1322      745F6973 
+ 1322      725F496E 
+ 1322      74657272 
+ 1323              	.LASF11:
+ 1324 02b0 63686172 		.ascii	"char\000"
+ 1324      00
+ 1325              	.LASF25:
+ 1326 02b5 72616D56 		.ascii	"ramVectorTable\000"
+ 1326      6563746F 
+ 1326      72546162 
+ 1326      6C6500
+ 1327              	.LASF5:
+ 1328 02c4 73686F72 		.ascii	"short int\000"
+ 1328      7420696E 
+ 1328      7400
+ 1329              	.LASF7:
+ 1330 02ce 6C6F6E67 		.ascii	"long int\000"
+ 1330      20696E74 
+ 1330      00
+ 1331              	.LASF2:
+ 1332 02d7 6C6F6E67 		.ascii	"long double\000"
+ 1332      20646F75 
+ 1332      626C6500 
+ 1333              	.LASF3:
+ 1334 02e3 7369676E 		.ascii	"signed char\000"
+ 1334      65642063 
+ 1334      68617200 
+ 1335              	.LASF33:
+ 1336 02ef 616E616C 		.ascii	"analogBut_isr_ClearPending\000"
+ 1336      6F674275 
+ 1336      745F6973 
+ 1336      725F436C 
+ 1336      65617250 
+ 1337              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

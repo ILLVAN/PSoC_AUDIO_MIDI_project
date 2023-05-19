@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
   55 001f 5E       		.byte	94
   56 0020 7F       		.byte	127
   57 0021 5E       		.byte	94
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 2
 
 
   58 0022 1C       		.byte	28
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  112 0058 3E       		.byte	62
  113 0059 7F       		.byte	127
  114 005a 14       		.byte	20
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 3
 
 
  115 005b 22       		.byte	34
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  169 0091 0C       		.byte	12
  170 0092 1E       		.byte	30
  171 0093 0C       		.byte	12
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 4
 
 
  172 0094 1E       		.byte	30
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  226 00ca 22       		.byte	34
  227 00cb 41       		.byte	65
  228 00cc 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 5
 
 
  229 00cd 00       		.byte	0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  283 0103 33       		.byte	51
  284 0104 18       		.byte	24
  285 0105 14       		.byte	20
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 6
 
 
  286 0106 12       		.byte	18
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  340 013c 01       		.byte	1
  341 013d 59       		.byte	89
  342 013e 09       		.byte	9
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 7
 
 
  343 013f 06       		.byte	6
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  397 0175 3F       		.byte	63
  398 0176 01       		.byte	1
  399 0177 7F       		.byte	127
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 8
 
 
  400 0178 08       		.byte	8
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  454 01ae 1F       		.byte	31
  455 01af 20       		.byte	32
  456 01b0 40       		.byte	64
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 9
 
 
  457 01b1 20       		.byte	32
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  511 01e7 54       		.byte	84
  512 01e8 78       		.byte	120
  513 01e9 40       		.byte	64
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 10
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 10
 
 
  514 01ea 7F       		.byte	127
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  568 0220 00       		.byte	0
  569 0221 7C       		.byte	124
  570 0222 04       		.byte	4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 11
 
 
  571 0223 78       		.byte	120
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  625 0259 28       		.byte	40
  626 025a 10       		.byte	16
  627 025b 28       		.byte	40
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 12
 
 
  628 025c 44       		.byte	68
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  682 0292 79       		.byte	121
  683 0293 41       		.byte	65
  684 0294 22       		.byte	34
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 13
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 13
 
 
  685 0295 54       		.byte	84
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  739 02cb F0       		.byte	-16
  740 02cc 28       		.byte	40
  741 02cd 25       		.byte	37
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 14
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 14
 
 
  742 02ce 28       		.byte	40
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  796 0304 40       		.byte	64
  797 0305 40       		.byte	64
  798 0306 3D       		.byte	61
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 15
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 15
 
 
  799 0307 3C       		.byte	60
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  853 033d 7D       		.byte	125
  854 033e 26       		.byte	38
  855 033f 29       		.byte	41
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 16
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 16
 
 
  856 0340 29       		.byte	41
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  910 0376 55       		.byte	85
  911 0377 AA       		.byte	-86
  912 0378 55       		.byte	85
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 17
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 17
 
 
  913 0379 AA       		.byte	-86
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  967 03af 10       		.byte	16
  968 03b0 1F       		.byte	31
  969 03b1 14       		.byte	20
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 18
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 18
 
 
  970 03b2 14       		.byte	20
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1024 03e8 00       		.byte	0
  1025 03e9 00       		.byte	0
  1026 03ea FC       		.byte	-4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 19
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 19
 
 
  1027 03eb 04       		.byte	4
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1081 0421 00       		.byte	0
  1082 0422 1F       		.byte	31
  1083 0423 14       		.byte	20
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 20
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 20
 
 
  1084 0424 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1138 045a 0F       		.byte	15
  1139 045b 38       		.byte	56
  1140 045c 44       		.byte	68
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 21
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 21
 
 
  1141 045d 44       		.byte	68
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1195 0493 4A       		.byte	74
  1196 0494 4D       		.byte	77
  1197 0495 4D       		.byte	77
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 22
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 22
 
 
  1198 0496 30       		.byte	48
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1252 04cc 6B       		.byte	107
  1253 04cd 08       		.byte	8
  1254 04ce 36       		.byte	54
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 23
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 23
 
 
  1255 04cf 12       		.byte	18
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1308      00000000 
  1308      00000000 
  1308      00000000 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 24
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 24
 
 
  1308      00000000 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
    6:ssd1306.c     **** 
    7:ssd1306.c     **** This is a I2C driver for SSD1306 OLED displays including graphics library.
    8:ssd1306.c     **** 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 25
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 25
 
 
    9:ssd1306.c     **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
   63:ssd1306.c     **** #define SSD1306_SETDISPLAYCLOCKDIV 0xD5
   64:ssd1306.c     **** #define SSD1306_SETPRECHARGE 0xD9
   65:ssd1306.c     **** #define SSD1306_SETMULTIPLEX 0xA8
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 26
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 26
 
 
   66:ssd1306.c     **** #define SSD1306_SETLOWCOLUMN 0x00
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1360              		@ frame_needed = 1, uses_anonymous_args = 0
  1361 0000 B0B5     		push	{r4, r5, r7, lr}
  1362              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 27
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 27
 
 
  1363              		.cfi_offset 4, -16
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  139:ssd1306.c     ****         SSD1306_SETCONTRAST,
  140:ssd1306.c     ****         0xcf,
  141:ssd1306.c     ****         SSD1306_SETPRECHARGE,
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 28
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 28
 
 
  142:ssd1306.c     ****         0xf1,
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1432              		.cfi_def_cfa_offset 24
  1433 0004 00AF     		add	r7, sp, #0
  1434              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 29
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 29
 
 
  1435 0006 7860     		str	r0, [r7, #4]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1477              		.loc 1 168 0
  1478 0048 1846     		mov	r0, r3
  1479 004a 1037     		adds	r7, r7, #16
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 30
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 30
 
 
  1480              		.cfi_def_cfa_offset 8
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1528 002c C0F28480 		blt	.L20
  1529              		.loc 1 174 0 discriminator 3
  1530 0030 B7F90430 		ldrsh	r3, [r7, #4]
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 31
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 31
 
 
  1531 0034 3F2B     		cmp	r3, #63
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1579 0094 51E0     		b	.L10
  1580              	.L16:
  181:ssd1306.c     ****         case BLACK:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 32
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 32
 
 
  182:ssd1306.c     ****             PIXEL_OFF(x,y);
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1631 00fa 0346     		mov	r3, r0
  1632 00fc DB01     		lsls	r3, r3, #7
  1633 00fe 1946     		mov	r1, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 33
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 33
 
 
  1634 0100 B7F90630 		ldrsh	r3, [r7, #6]
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1684              		.thumb_func
  1685              		.type	display_clear, %function
  1686              	display_clear:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 34
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 34
 
 
  1687              	.LFB66:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1731              		.cfi_startproc
  1732              		@ args = 0, pretend = 0, frame = 16
  1733              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 35
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 35
 
 
  1734 0000 80B5     		push	{r7, lr}
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1776              		.cfi_startproc
  1777              		@ args = 0, pretend = 0, frame = 16
  1778              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 36
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 36
 
 
  1779 0000 80B5     		push	{r7, lr}
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1825              	.LC1:
  1826 0518 00       		.byte	0
  1827 0519 21       		.byte	33
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 37
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 37
 
 
  1828 051a 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1867              		.loc 1 233 0
  1868 0020 40F20141 		movw	r1, #1025
  1869 0024 0448     		ldr	r0, .L31+4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 38
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 38
 
 
  1870 0026 FFF7FEFF 		bl	display_write_buf
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  1917 001a 1346     		mov	r3, r2	@ movhi
  1918 001c 3B80     		strh	r3, [r7]	@ movhi
  241:ssd1306.c     **** 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 39
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 39
 
 
  242:ssd1306.c     ****     if( x1 == x2 ){
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  251:ssd1306.c     ****             if( ptr == pstart ){
  1964              		.loc 1 251 0
  1965 0072 FA6A     		ldr	r2, [r7, #44]
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 40
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 40
 
 
  1966 0074 3B6A     		ldr	r3, [r7, #32]
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2013              	.L38:
  259:ssd1306.c     ****             }else if( ptr == pend ){
  2014              		.loc 1 259 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 41
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 41
 
 
  2015 00d2 FA6A     		ldr	r2, [r7, #44]
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2058              	.L46:
  267:ssd1306.c     ****                     case WHITE:     *ptr |= mask; break;
  2059              		.loc 1 267 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 42
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 42
 
 
  2060 011e FB6A     		ldr	r3, [r7, #44]
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2109 0172 1A70     		strb	r2, [r3]
  2110 0174 0AE0     		b	.L49
  2111              	.L52:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 43
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 43
 
 
  274:ssd1306.c     ****                     case BLACK:     *ptr = 0x00; break;
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2141              	.L34:
  2142              	.LBB6:
  283:ssd1306.c     ****         uint8_t* pend = pstart + x2 - x1;
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 44
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 44
 
 
  2143              		.loc 1 283 0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2191 01f6 FB7B     		ldrb	r3, [r7, #15]
  2192 01f8 1343     		orrs	r3, r3, r2
  2193 01fa DAB2     		uxtb	r2, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 45
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 45
 
 
  2194 01fc 7B6A     		ldr	r3, [r7, #36]
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2244              		.cfi_def_cfa_offset 0
  2245 0242 7047     		bx	lr
  2246              	.L64:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 46
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 46
 
 
  2247              		.align	2
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2290              		@ sp needed
  2291 001e 80BD     		pop	{r7, pc}
  2292              		.cfi_endproc
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 47
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 47
 
 
  2293              	.LFE71:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2343 003a FF23     		movs	r3, #255
  2344 003c FB74     		strb	r3, [r7, #19]
  2345 003e 2F23     		movs	r3, #47
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 48
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 48
 
 
  2346 0040 3B75     		strb	r3, [r7, #20]
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2388              		.section	.text.gfx_init,"ax",%progbits
  2389              		.align	2
  2390              		.global	gfx_init
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 49
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 49
 
 
  2391              		.thumb
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2425 0024 1A80     		strh	r2, [r3]	@ movhi
  345:ssd1306.c     ****     _height = HEIGHT;
  2426              		.loc 1 345 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 50
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 50
 
 
  2427 0026 124B     		ldr	r3, .L68+4
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2474 0070 00000000 		.word	HEIGHT
  2475 0074 02000000 		.word	_width
  2476 0078 04000000 		.word	_height
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 51
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 51
 
 
  2477 007c 00000000 		.word	rotation
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2526              		.global	gfx_height
  2527              		.thumb
  2528              		.thumb_func
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 52
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 52
 
 
  2529              		.type	gfx_height, %function
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2577 0002 00AF     		add	r7, sp, #0
  2578              		.cfi_def_cfa_register 7
  364:ssd1306.c     ****     return rotation;
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 53
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 53
 
 
  2579              		.loc 1 364 0
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2628 0016 054A     		ldr	r2, .L83+4
  2629 0018 BB88     		ldrh	r3, [r7, #4]	@ movhi
  2630 001a 1380     		strh	r3, [r2]	@ movhi
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 54
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 54
 
 
  370:ssd1306.c     **** }
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2681 0014 0123     		movs	r3, #1
  2682              	.L87:
  2683              		.loc 1 373 0 discriminator 4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 55
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 55
 
 
  2684 0016 034A     		ldr	r2, .L88
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2732 0014 044B     		ldr	r3, .L91+4
  2733 0016 1A80     		strh	r2, [r3]	@ movhi
  380:ssd1306.c     **** }
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 56
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 56
 
 
  2734              		.loc 1 380 0
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2784              		.cfi_def_cfa_register 13
  2785              		@ sp needed
  2786 0016 80BC     		pop	{r7}
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 57
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 57
 
 
  2787              		.cfi_restore 7
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2837 001c 00000000 		.word	wrap
  2838              		.cfi_endproc
  2839              	.LFE81:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 58
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 58
 
 
  2840              		.size	gfx_setTextWrap, .-gfx_setTextWrap
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2886 0036 B3F90020 		ldrsh	r2, [r3]
  2887 003a 0E4B     		ldr	r3, .L105+8
  2888 003c 1A80     		strh	r2, [r3]	@ movhi
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 59
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 59
 
 
  397:ssd1306.c     ****             _height = HEIGHT;
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2934              		.align	2
  2935              		.thumb
  2936              		.thumb_func
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 60
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 60
 
 
  2937              		.type	gfx_rotation_adjust, %function
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  2970              		.loc 1 413 0
  2971 0022 7B68     		ldr	r3, [r7, #4]
  2972 0024 B3F90020 		ldrsh	r2, [r3]
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 61
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 61
 
 
  2973 0028 3B68     		ldr	r3, [r7]
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3021              		.loc 1 421 0
  3022 0084 0D4B     		ldr	r3, .L113+8
  3023 0086 B3F90030 		ldrsh	r3, [r3]
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 62
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 62
 
 
  3024 008a 9AB2     		uxth	r2, r3
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3074              		@ frame_needed = 1, uses_anonymous_args = 0
  3075 0000 80B5     		push	{r7, lr}
  3076              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 63
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 63
 
 
  3077              		.cfi_offset 7, -8
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3123              		.loc 1 430 0
  3124 005c 00BF     		nop
  3125              	.L115:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 64
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 64
 
 
  435:ssd1306.c     **** }
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3174 001e B7F90620 		ldrsh	r2, [r7, #6]
  3175 0022 B7F90230 		ldrsh	r3, [r7, #2]
  3176 0026 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 65
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 65
 
 
  3177 0028 06D0     		beq	.L123
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3222 008c B3F90030 		ldrsh	r3, [r3]
  3223 0090 9A42     		cmp	r2, r3
  3224 0092 7DDA     		bge	.L140
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 66
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 66
 
 
  3225              		.loc 1 449 0 discriminator 2
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3274 00fa 2B4B     		ldr	r3, .L144+8
  3275 00fc B3F90030 		ldrsh	r3, [r3]
  3276 0100 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 67
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 67
 
 
  3277 0102 49DA     		bge	.L143
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3320 0152 FB81     		strh	r3, [r7, #14]	@ movhi
  3321 0154 B7F90230 		ldrsh	r3, [r7, #2]
  3322 0158 FB80     		strh	r3, [r7, #6]	@ movhi
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 68
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 68
 
 
  3323 015a FB89     		ldrh	r3, [r7, #14]	@ movhi
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3367 019c BD46     		mov	sp, r7
  3368              		.cfi_def_cfa_register 13
  3369              		@ sp needed
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 69
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 69
 
 
  3370 019e 90BD     		pop	{r4, r7, pc}
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3419 002a B7F90420 		ldrsh	r2, [r7, #4]
  3420 002e B7F90030 		ldrsh	r3, [r7]
  3421 0032 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 70
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 70
 
 
  3422 0034 0DD1     		bne	.L148
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3465              		.loc 1 485 0
  3466 0094 7B88     		ldrh	r3, [r7, #2]	@ movhi
  3467 0096 3B82     		strh	r3, [r7, #16]	@ movhi
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 71
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 71
 
 
  3468 0098 3B88     		ldrh	r3, [r7]	@ movhi
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  495:ssd1306.c     ****     int16_t ystep;
  496:ssd1306.c     ****     if( y0 < y1 ){
  3513              		.loc 1 496 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 72
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 72
 
 
  3514 00ec B7F90420 		ldrsh	r2, [r7, #4]
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3556 013e 002B     		cmp	r3, #0
  3557 0140 09DA     		bge	.L157
  509:ssd1306.c     ****             y0 += ystep;
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 73
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 73
 
 
  3558              		.loc 1 509 0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3604              		@ args = 4, pretend = 0, frame = 8
  3605              		@ frame_needed = 1, uses_anonymous_args = 0
  3606 0000 90B5     		push	{r4, r7, lr}
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 74
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 74
 
 
  3607              		.cfi_def_cfa_offset 12
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3658 0060 3B88     		ldrh	r3, [r7]
  3659 0062 1344     		add	r3, r3, r2
  3660 0064 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 75
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 75
 
 
  3661 0066 013B     		subs	r3, r3, #1
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  521:ssd1306.c     **** }
  3713              		.loc 1 521 0
  3714 00da 00BF     		nop
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 76
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 76
 
 
  3715 00dc 0C37     		adds	r7, r7, #12
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  526:ssd1306.c     ****         for( i = x ; i < x+w ; i++ ){
  3765              		.loc 1 526 0
  3766 002e FB88     		ldrh	r3, [r7, #6]	@ movhi
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 77
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 77
 
 
  3767 0030 FB81     		strh	r3, [r7, #14]	@ movhi
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3809 0080 7B88     		ldrh	r3, [r7, #2]
  3810 0082 1344     		add	r3, r3, r2
  3811 0084 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 78
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 78
 
 
  3812 0086 013B     		subs	r3, r3, #1
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3860 0000 90B5     		push	{r4, r7, lr}
  3861              		.cfi_def_cfa_offset 12
  3862              		.cfi_offset 4, -12
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 79
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 79
 
 
  3863              		.cfi_offset 7, -8
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3910 004e B7F90630 		ldrsh	r3, [r7, #6]
  3911 0052 1846     		mov	r0, r3
  3912 0054 FFF7FEFF 		bl	gfx_drawPixel
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 80
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 80
 
 
  546:ssd1306.c     ****     gfx_drawPixel( x0 , y0-r, color );
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  3960 00b6 7B82     		strh	r3, [r7, #18]	@ movhi
  553:ssd1306.c     ****             f += ddF_y;
  3961              		.loc 1 553 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 81
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 81
 
 
  3962 00b8 FA8A     		ldrh	r2, [r7, #22]
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4010 0110 3A88     		ldrh	r2, [r7]
  4011 0112 1946     		mov	r1, r3
  4012 0114 FFF7FEFF 		bl	gfx_drawPixel
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 82
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 82
 
 
  560:ssd1306.c     ****         gfx_drawPixel( x0 + x, y0 - y, color );
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4063 017a 1344     		add	r3, r3, r2
  4064 017c 9BB2     		uxth	r3, r3
  4065 017e 1BB2     		sxth	r3, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 83
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 83
 
 
  4066 0180 3A88     		ldrh	r2, [r7]
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4115              		.align	2
  4116              		.global	gfx_drawTriangle
  4117              		.thumb
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 84
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 84
 
 
  4118              		.thumb_func
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4166 0052 B7F90440 		ldrsh	r4, [r7, #4]
  4167 0056 B7F90620 		ldrsh	r2, [r7, #6]
  4168 005a B7F91C10 		ldrsh	r1, [r7, #28]
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 85
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 85
 
 
  4169 005e B7F91800 		ldrsh	r0, [r7, #24]
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  579:ssd1306.c     ****     if( (x >= _width) || // Clip right
  4218              		.loc 1 579 0
  4219 001e 714B     		ldr	r3, .L189
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 86
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 86
 
 
  4220 0020 B3F90030 		ldrsh	r3, [r3]
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4262 0076 97F90F30 		ldrsb	r3, [r7, #15]
  4263 007a 052B     		cmp	r3, #5
  4264 007c 02D1     		bne	.L178
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 87
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 87
 
 
  589:ssd1306.c     ****             line = 0x0;
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4311 00d0 3A88     		ldrh	r2, [r7]
  4312 00d2 1946     		mov	r1, r3
  4313 00d4 FFF7FEFF 		bl	gfx_drawPixel
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 88
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 88
 
 
  4314 00d8 65E0     		b	.L184
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4362 0142 18B2     		sxth	r0, r3
  4363 0144 97F90D30 		ldrsb	r3, [r7, #13]
  4364 0148 9AB2     		uxth	r2, r3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 89
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 89
 
 
  4365 014a BB88     		ldrh	r3, [r7, #4]
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4413 01b6 7B73     		strb	r3, [r7, #13]
  4414              	.L180:
  593:ssd1306.c     ****             if( line & 0x1 ){
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 90
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 90
 
 
  4415              		.loc 1 593 0 is_stmt 0 discriminator 1
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4461              		.cfi_startproc
  4462              		@ args = 0, pretend = 0, frame = 8
  4463              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 91
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 91
 
 
  4464 0000 B0B5     		push	{r4, r5, r7, lr}
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4503 0036 0D2B     		cmp	r3, #13
  4504 0038 4AD0     		beq	.L194
  619:ssd1306.c     ****         cursor_x += textsize*6;
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 92
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 92
 
 
  4505              		.loc 1 619 0
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4556 00a4 9B1A     		subs	r3, r3, r2
  4557 00a6 5B00     		lsls	r3, r3, #1
  4558 00a8 0344     		add	r3, r3, r0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 93
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 93
 
 
  4559 00aa 9942     		cmp	r1, r3
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4609              		.loc 1 628 0
  4610              		.cfi_startproc
  4611              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 94
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 94
 
 
  4612              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4657              		@ sp needed
  4658 003c 80BD     		pop	{r7, pc}
  4659              		.cfi_endproc
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 95
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 95
 
 
  4660              	.LFE93:
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4709              	.Ldebug_info0:
  4710 0000 880C0000 		.4byte	0xc88
  4711 0004 0400     		.2byte	0x4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 96
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 96
 
 
  4712 0006 00000000 		.4byte	.Ldebug_abbrev0
@@ -5706,38 +5706,38 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4714 000b 01       		.uleb128 0x1
  4715 000c 49000000 		.4byte	.LASF116
  4716 0010 0C       		.byte	0xc
- 4717 0011 F1030000 		.4byte	.LASF117
- 4718 0015 15050000 		.4byte	.LASF118
+ 4717 0011 27040000 		.4byte	.LASF117
+ 4718 0015 27030000 		.4byte	.LASF118
  4719 0019 00000000 		.4byte	.Ldebug_ranges0+0
  4720 001d 00000000 		.4byte	0
  4721 0021 00000000 		.4byte	.Ldebug_line0
  4722 0025 02       		.uleb128 0x2
- 4723 0026 C8030000 		.4byte	.LASF0
+ 4723 0026 FE030000 		.4byte	.LASF0
  4724 002a 02       		.byte	0x2
  4725 002b 1B       		.byte	0x1b
  4726 002c 30000000 		.4byte	0x30
  4727 0030 03       		.uleb128 0x3
  4728 0031 01       		.byte	0x1
  4729 0032 06       		.byte	0x6
- 4730 0033 B3050000 		.4byte	.LASF2
+ 4730 0033 83050000 		.4byte	.LASF2
  4731 0037 02       		.uleb128 0x2
- 4732 0038 6B040000 		.4byte	.LASF1
+ 4732 0038 A1040000 		.4byte	.LASF1
  4733 003c 02       		.byte	0x2
  4734 003d 1D       		.byte	0x1d
  4735 003e 42000000 		.4byte	0x42
  4736 0042 03       		.uleb128 0x3
  4737 0043 01       		.byte	0x1
  4738 0044 08       		.byte	0x8
- 4739 0045 F0040000 		.4byte	.LASF3
+ 4739 0045 26050000 		.4byte	.LASF3
  4740 0049 02       		.uleb128 0x2
- 4741 004a 61030000 		.4byte	.LASF4
+ 4741 004a 97030000 		.4byte	.LASF4
  4742 004e 02       		.byte	0x2
  4743 004f 29       		.byte	0x29
  4744 0050 54000000 		.4byte	0x54
  4745 0054 03       		.uleb128 0x3
  4746 0055 02       		.byte	0x2
  4747 0056 05       		.byte	0x5
- 4748 0057 08040000 		.4byte	.LASF5
+ 4748 0057 3E040000 		.4byte	.LASF5
  4749 005b 02       		.uleb128 0x2
  4750 005c 0C020000 		.4byte	.LASF6
  4751 0060 02       		.byte	0x2
@@ -5746,7 +5746,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4754 0066 03       		.uleb128 0x3
  4755 0067 02       		.byte	0x2
  4756 0068 07       		.byte	0x7
- 4757 0069 BF050000 		.4byte	.LASF7
+ 4757 0069 8F050000 		.4byte	.LASF7
  4758 006d 02       		.uleb128 0x2
  4759 006e 3F000000 		.4byte	.LASF8
  4760 0072 02       		.byte	0x2
@@ -5755,18 +5755,18 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4763 0078 03       		.uleb128 0x3
  4764 0079 04       		.byte	0x4
  4765 007a 05       		.byte	0x5
- 4766 007b 1A040000 		.4byte	.LASF9
+ 4766 007b 50040000 		.4byte	.LASF9
  4767 007f 03       		.uleb128 0x3
  4768 0080 04       		.byte	0x4
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 97
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 97
 
 
  4769 0081 07       		.byte	0x7
- 4770 0082 A5040000 		.4byte	.LASF10
+ 4770 0082 DB040000 		.4byte	.LASF10
  4771 0086 03       		.uleb128 0x3
  4772 0087 08       		.byte	0x8
  4773 0088 05       		.byte	0x5
- 4774 0089 27030000 		.4byte	.LASF11
+ 4774 0089 5D030000 		.4byte	.LASF11
  4775 008d 03       		.uleb128 0x3
  4776 008e 08       		.byte	0x8
  4777 008f 07       		.byte	0x7
@@ -5795,22 +5795,22 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4800 00be 20       		.byte	0x20
  4801 00bf 49000000 		.4byte	0x49
  4802 00c3 02       		.uleb128 0x2
- 4803 00c4 E8030000 		.4byte	.LASF17
+ 4803 00c4 1E040000 		.4byte	.LASF17
  4804 00c8 03       		.byte	0x3
  4805 00c9 24       		.byte	0x24
  4806 00ca 5B000000 		.4byte	0x5b
  4807 00ce 02       		.uleb128 0x2
- 4808 00cf D1040000 		.4byte	.LASF18
+ 4808 00cf 07050000 		.4byte	.LASF18
  4809 00d3 03       		.byte	0x3
  4810 00d4 2C       		.byte	0x2c
  4811 00d5 6D000000 		.4byte	0x6d
  4812 00d9 05       		.uleb128 0x5
- 4813 00da E5050000 		.4byte	.LASF19
+ 4813 00da B5050000 		.4byte	.LASF19
  4814 00de 04       		.byte	0x4
  4815 00df 9201     		.2byte	0x192
  4816 00e1 42000000 		.4byte	0x42
  4817 00e5 05       		.uleb128 0x5
- 4818 00e6 89030000 		.4byte	.LASF20
+ 4818 00e6 BF030000 		.4byte	.LASF20
  4819 00ea 04       		.byte	0x4
  4820 00eb 9401     		.2byte	0x194
  4821 00ed 7F000000 		.4byte	0x7f
@@ -5818,13 +5818,13 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4823 00f2 04       		.byte	0x4
  4824 00f3 04       		.byte	0x4
  4825 00f4 B4010000 		.4byte	.LASF21
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 98
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 98
 
 
  4826 00f8 03       		.uleb128 0x3
  4827 00f9 08       		.byte	0x8
  4828 00fa 04       		.byte	0x4
- 4829 00fb EB050000 		.4byte	.LASF22
+ 4829 00fb BB050000 		.4byte	.LASF22
  4830 00ff 03       		.uleb128 0x3
  4831 0100 01       		.byte	0x1
  4832 0101 08       		.byte	0x8
@@ -5832,11 +5832,11 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4834 0106 03       		.uleb128 0x3
  4835 0107 08       		.byte	0x8
  4836 0108 04       		.byte	0x4
- 4837 0109 D1030000 		.4byte	.LASF24
+ 4837 0109 07040000 		.4byte	.LASF24
  4838 010d 03       		.uleb128 0x3
  4839 010e 04       		.byte	0x4
  4840 010f 07       		.byte	0x7
- 4841 0110 95040000 		.4byte	.LASF25
+ 4841 0110 CB040000 		.4byte	.LASF25
  4842 0114 06       		.uleb128 0x6
  4843 0115 04       		.byte	0x4
  4844 0116 1A010000 		.4byte	0x11a
@@ -5849,10 +5849,10 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4851 0126 19       		.byte	0x19
  4852 0127 38010000 		.4byte	0x138
  4853 012b 09       		.uleb128 0x9
- 4854 012c E3040000 		.4byte	.LASF26
+ 4854 012c 19050000 		.4byte	.LASF26
  4855 0130 26       		.byte	0x26
  4856 0131 09       		.uleb128 0x9
- 4857 0132 B7040000 		.4byte	.LASF27
+ 4857 0132 ED040000 		.4byte	.LASF27
  4858 0136 2A       		.byte	0x2a
  4859 0137 00       		.byte	0
  4860 0138 02       		.uleb128 0x2
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4880 0161 09       		.uleb128 0x9
  4881 0162 5B010000 		.4byte	.LASF32
  4882 0166 06       		.byte	0x6
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 99
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 99
 
 
  4883 0167 09       		.uleb128 0x9
@@ -5895,7 +5895,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4894 017e 07       		.byte	0x7
  4895 017f 00       		.byte	0
  4896 0180 02       		.uleb128 0x2
- 4897 0181 3E030000 		.4byte	.LASF37
+ 4897 0181 74030000 		.4byte	.LASF37
  4898 0185 05       		.byte	0x5
  4899 0186 27       		.byte	0x27
  4900 0187 43010000 		.4byte	0x143
@@ -5931,14 +5931,14 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4930 01c6 07       		.byte	0x7
  4931 01c7 00       		.byte	0
  4932 01c8 02       		.uleb128 0x2
- 4933 01c9 4B030000 		.4byte	.LASF46
+ 4933 01c9 81030000 		.4byte	.LASF46
  4934 01cd 05       		.byte	0x5
  4935 01ce 32       		.byte	0x32
  4936 01cf 8B010000 		.4byte	0x18b
  4937 01d3 0A       		.uleb128 0xa
  4938 01d4 21010000 		.4byte	.LASF52
  4939 01d8 01       		.byte	0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 100
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 100
 
 
  4940 01d9 74       		.byte	0x74
@@ -5956,7 +5956,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4952 01f4 91       		.byte	0x91
  4953 01f5 4F       		.sleb128 -49
  4954 01f6 0C       		.uleb128 0xc
- 4955 01f7 9E040000 		.4byte	.LASF49
+ 4955 01f7 D4040000 		.4byte	.LASF49
  4956 01fb 01       		.byte	0x1
  4957 01fc 79       		.byte	0x79
  4958 01fd 05020000 		.4byte	0x205
@@ -5972,7 +5972,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4968 0213 19       		.byte	0x19
  4969 0214 00       		.byte	0
  4970 0215 0F       		.uleb128 0xf
- 4971 0216 90030000 		.4byte	.LASF119
+ 4971 0216 C6030000 		.4byte	.LASF119
  4972 021a 01       		.byte	0x1
  4973 021b 9E       		.byte	0x9e
  4974 021c E5000000 		.4byte	0xe5
@@ -5990,7 +5990,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4986 023a 91       		.byte	0x91
  4987 023b 6C       		.sleb128 -20
  4988 023c 0B       		.uleb128 0xb
- 4989 023d 73030000 		.4byte	.LASF48
+ 4989 023d A9030000 		.4byte	.LASF48
  4990 0241 01       		.byte	0x1
  4991 0242 9E       		.byte	0x9e
  4992 0243 C3000000 		.4byte	0xc3
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  4994 0248 91       		.byte	0x91
  4995 0249 6A       		.sleb128 -22
  4996 024a 0C       		.uleb128 0xc
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 101
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 101
 
 
  4997 024b 06030000 		.4byte	.LASF50
@@ -6050,7 +6050,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5043 02a0 91       		.byte	0x91
  5044 02a1 74       		.sleb128 -12
  5045 02a2 0B       		.uleb128 0xb
- 5046 02a3 55040000 		.4byte	.LASF51
+ 5046 02a3 8B040000 		.4byte	.LASF51
  5047 02a7 01       		.byte	0x1
  5048 02a8 AC       		.byte	0xac
  5049 02a9 C3000000 		.4byte	0xc3
@@ -6058,11 +6058,11 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5051 02ae 91       		.byte	0x91
  5052 02af 72       		.sleb128 -14
  5053 02b0 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 102
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 102
 
 
  5054 02b1 14       		.uleb128 0x14
- 5055 02b2 C3040000 		.4byte	.LASF120
+ 5055 02b2 F9040000 		.4byte	.LASF120
  5056 02b6 01       		.byte	0x1
  5057 02b7 BF       		.byte	0xbf
  5058 02b8 00000000 		.4byte	.LFB66
@@ -6070,7 +6070,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5060 02c0 01       		.uleb128 0x1
  5061 02c1 9C       		.byte	0x9c
  5062 02c2 0A       		.uleb128 0xa
- 5063 02c3 96050000 		.4byte	.LASF53
+ 5063 02c3 66050000 		.4byte	.LASF53
  5064 02c7 01       		.byte	0x1
  5065 02c8 C6       		.byte	0xc6
  5066 02c9 00000000 		.4byte	.LFB67
@@ -6079,7 +6079,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5069 02d2 9C       		.byte	0x9c
  5070 02d3 F4020000 		.4byte	0x2f4
  5071 02d7 0B       		.uleb128 0xb
- 5072 02d8 35030000 		.4byte	.LASF54
+ 5072 02d8 6B030000 		.4byte	.LASF54
  5073 02dc 01       		.byte	0x1
  5074 02dd C6       		.byte	0xc6
  5075 02de AD000000 		.4byte	0xad
@@ -6087,7 +6087,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5077 02e3 91       		.byte	0x91
  5078 02e4 6F       		.sleb128 -17
  5079 02e5 0C       		.uleb128 0xc
- 5080 02e6 9E040000 		.4byte	.LASF49
+ 5080 02e6 D4040000 		.4byte	.LASF49
  5081 02ea 01       		.byte	0x1
  5082 02eb C8       		.byte	0xc8
  5083 02ec F4020000 		.4byte	0x2f4
@@ -6103,7 +6103,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5093 0302 02       		.byte	0x2
  5094 0303 00       		.byte	0
  5095 0304 0A       		.uleb128 0xa
- 5096 0305 46040000 		.4byte	.LASF55
+ 5096 0305 7C040000 		.4byte	.LASF55
  5097 0309 01       		.byte	0x1
  5098 030a D2       		.byte	0xd2
  5099 030b 00000000 		.4byte	.LFB68
@@ -6118,12 +6118,12 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5108 0320 AD000000 		.4byte	0xad
  5109 0324 02       		.uleb128 0x2
  5110 0325 91       		.byte	0x91
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 103
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 103
 
 
  5111 0326 6F       		.sleb128 -17
  5112 0327 0C       		.uleb128 0xc
- 5113 0328 9E040000 		.4byte	.LASF49
+ 5113 0328 D4040000 		.4byte	.LASF49
  5114 032c 01       		.byte	0x1
  5115 032d D4       		.byte	0xd4
  5116 032e 36030000 		.4byte	0x336
@@ -6148,7 +6148,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5135 0356 9C       		.byte	0x9c
  5136 0357 6A030000 		.4byte	0x36a
  5137 035b 0C       		.uleb128 0xc
- 5138 035c 9E040000 		.4byte	.LASF49
+ 5138 035c D4040000 		.4byte	.LASF49
  5139 0360 01       		.byte	0x1
  5140 0361 DF       		.byte	0xdf
  5141 0362 6A030000 		.4byte	0x36a
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5165 0394 F0       		.byte	0xf0
  5166 0395 B8000000 		.4byte	0xb8
  5167 0399 02       		.uleb128 0x2
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 104
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 104
 
 
  5168 039a 91       		.byte	0x91
@@ -6208,7 +6208,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5192 03c1 91       		.byte	0x91
  5193 03c2 48       		.sleb128 -56
  5194 03c3 0B       		.uleb128 0xb
- 5195 03c4 55040000 		.4byte	.LASF51
+ 5195 03c4 8B040000 		.4byte	.LASF51
  5196 03c8 01       		.byte	0x1
  5197 03c9 F0       		.byte	0xf0
  5198 03ca C3000000 		.4byte	0xc3
@@ -6228,7 +6228,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5212 03ea 91       		.byte	0x91
  5213 03eb 68       		.sleb128 -24
  5214 03ec 0C       		.uleb128 0xc
- 5215 03ed DE040000 		.4byte	.LASF61
+ 5215 03ed 14050000 		.4byte	.LASF61
  5216 03f1 01       		.byte	0x1
  5217 03f2 F5       		.byte	0xf5
  5218 03f3 8E040000 		.4byte	0x48e
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5222 03fa 12       		.uleb128 0x12
  5223 03fb 70747200 		.ascii	"ptr\000"
  5224 03ff 01       		.byte	0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 105
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 105
 
 
  5225 0400 F6       		.byte	0xf6
@@ -6250,7 +6250,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5231 0409 72000000 		.4byte	.LBB4
  5232 040d 20010000 		.4byte	.LBE4-.LBB4
  5233 0411 0C       		.uleb128 0xc
- 5234 0412 A2030000 		.4byte	.LASF62
+ 5234 0412 D8030000 		.4byte	.LASF62
  5235 0416 01       		.byte	0x1
  5236 0417 FA       		.byte	0xfa
  5237 0418 AD000000 		.4byte	0xad
@@ -6261,7 +6261,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5242 0420 7A000000 		.4byte	.LBB5
  5243 0424 56000000 		.4byte	.LBE5-.LBB5
  5244 0428 0C       		.uleb128 0xc
- 5245 0429 75040000 		.4byte	.LASF63
+ 5245 0429 AB040000 		.4byte	.LASF63
  5246 042d 01       		.byte	0x1
  5247 042e FD       		.byte	0xfd
  5248 042f AD000000 		.4byte	0xad
@@ -6269,7 +6269,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5250 0434 91       		.byte	0x91
  5251 0435 63       		.sleb128 -29
  5252 0436 0C       		.uleb128 0xc
- 5253 0437 FE040000 		.4byte	.LASF64
+ 5253 0437 34050000 		.4byte	.LASF64
  5254 043b 01       		.byte	0x1
  5255 043c FF       		.byte	0xff
  5256 043d AD000000 		.4byte	0xad
@@ -6291,18 +6291,18 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5272 045d 91       		.byte	0x91
  5273 045e 5C       		.sleb128 -36
  5274 045f 16       		.uleb128 0x16
- 5275 0460 DE040000 		.4byte	.LASF61
+ 5275 0460 14050000 		.4byte	.LASF61
  5276 0464 01       		.byte	0x1
  5277 0465 1C01     		.2byte	0x11c
  5278 0467 8E040000 		.4byte	0x48e
  5279 046b 02       		.uleb128 0x2
  5280 046c 91       		.byte	0x91
  5281 046d 58       		.sleb128 -40
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 106
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 106
 
 
  5282 046e 16       		.uleb128 0x16
- 5283 046f 12040000 		.4byte	.LASF65
+ 5283 046f 48040000 		.4byte	.LASF65
  5284 0473 01       		.byte	0x1
  5285 0474 1D01     		.2byte	0x11d
  5286 0476 AD000000 		.4byte	0xad
@@ -6323,7 +6323,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5301 048f 04       		.byte	0x4
  5302 0490 AD000000 		.4byte	0xad
  5303 0494 18       		.uleb128 0x18
- 5304 0495 D2050000 		.4byte	.LASF66
+ 5304 0495 A2050000 		.4byte	.LASF66
  5305 0499 01       		.byte	0x1
  5306 049a 2D01     		.2byte	0x12d
  5307 049c 00000000 		.4byte	.LFB71
@@ -6332,7 +6332,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5310 04a5 9C       		.byte	0x9c
  5311 04a6 BA040000 		.4byte	0x4ba
  5312 04aa 16       		.uleb128 0x16
- 5313 04ab 9E040000 		.4byte	.LASF49
+ 5313 04ab D4040000 		.4byte	.LASF49
  5314 04af 01       		.byte	0x1
  5315 04b0 2F01     		.2byte	0x12f
  5316 04b2 36030000 		.4byte	0x336
@@ -6341,7 +6341,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5319 04b8 74       		.sleb128 -12
  5320 04b9 00       		.byte	0
  5321 04ba 18       		.uleb128 0x18
- 5322 04bb 7B050000 		.4byte	.LASF67
+ 5322 04bb 4B050000 		.4byte	.LASF67
  5323 04bf 01       		.byte	0x1
  5324 04c0 3601     		.2byte	0x136
  5325 04c2 00000000 		.4byte	.LFB72
@@ -6350,7 +6350,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5328 04cb 9C       		.byte	0x9c
  5329 04cc 1C050000 		.4byte	0x51c
  5330 04d0 19       		.uleb128 0x19
- 5331 04d1 7A040000 		.4byte	.LASF68
+ 5331 04d1 B0040000 		.4byte	.LASF68
  5332 04d5 01       		.byte	0x1
  5333 04d6 3601     		.2byte	0x136
  5334 04d8 C8010000 		.4byte	0x1c8
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5336 04dd 91       		.byte	0x91
  5337 04de 5F       		.sleb128 -33
  5338 04df 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 107
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 107
 
 
  5339 04e0 656E6400 		.ascii	"end\000"
@@ -6385,7 +6385,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5360 050a 91       		.byte	0x91
  5361 050b 5C       		.sleb128 -36
  5362 050c 16       		.uleb128 0x16
- 5363 050d 9E040000 		.4byte	.LASF49
+ 5363 050d D4040000 		.4byte	.LASF49
  5364 0511 01       		.byte	0x1
  5365 0512 3801     		.2byte	0x138
  5366 0514 1C050000 		.4byte	0x51c
@@ -6418,10 +6418,10 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5393 054f 91       		.byte	0x91
  5394 0550 76       		.sleb128 -10
  5395 0551 19       		.uleb128 0x19
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 108
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 108
 
 
- 5396 0552 B0030000 		.4byte	.LASF72
+ 5396 0552 E6030000 		.4byte	.LASF72
  5397 0556 01       		.byte	0x1
  5398 0557 5501     		.2byte	0x155
  5399 0559 B8000000 		.4byte	0xb8
@@ -6430,7 +6430,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5402 055f 74       		.sleb128 -12
  5403 0560 00       		.byte	0
  5404 0561 1C       		.uleb128 0x1c
- 5405 0562 57030000 		.4byte	.LASF73
+ 5405 0562 8D030000 		.4byte	.LASF73
  5406 0566 01       		.byte	0x1
  5407 0567 6301     		.2byte	0x163
  5408 0569 B8000000 		.4byte	0xb8
@@ -6439,7 +6439,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5411 0575 01       		.uleb128 0x1
  5412 0576 9C       		.byte	0x9c
  5413 0577 1C       		.uleb128 0x1c
- 5414 0578 DD030000 		.4byte	.LASF74
+ 5414 0578 13040000 		.4byte	.LASF74
  5415 057c 01       		.byte	0x1
  5416 057d 6701     		.2byte	0x167
  5417 057f B8000000 		.4byte	0xb8
@@ -6457,7 +6457,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5429 05a1 01       		.uleb128 0x1
  5430 05a2 9C       		.byte	0x9c
  5431 05a3 1B       		.uleb128 0x1b
- 5432 05a4 08060000 		.4byte	.LASF76
+ 5432 05a4 D8050000 		.4byte	.LASF76
  5433 05a8 01       		.byte	0x1
  5434 05a9 6F01     		.2byte	0x16f
  5435 05ab 00000000 		.4byte	.LFB77
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5450 05c9 01       		.byte	0x1
  5451 05ca 6F01     		.2byte	0x16f
  5452 05cc B8000000 		.4byte	0xb8
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 109
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 109
 
 
  5453 05d0 02       		.uleb128 0x2
@@ -6486,7 +6486,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5455 05d2 74       		.sleb128 -12
  5456 05d3 00       		.byte	0
  5457 05d4 1B       		.uleb128 0x1b
- 5458 05d5 5B040000 		.4byte	.LASF77
+ 5458 05d5 91040000 		.4byte	.LASF77
  5459 05d9 01       		.byte	0x1
  5460 05da 7401     		.2byte	0x174
  5461 05dc 00000000 		.4byte	.LFB78
@@ -6495,7 +6495,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5464 05e5 9C       		.byte	0x9c
  5465 05e6 FA050000 		.4byte	0x5fa
  5466 05ea 19       		.uleb128 0x19
- 5467 05eb 73030000 		.4byte	.LASF48
+ 5467 05eb A9030000 		.4byte	.LASF48
  5468 05ef 01       		.byte	0x1
  5469 05f0 7401     		.2byte	0x174
  5470 05f2 AD000000 		.4byte	0xad
@@ -6504,7 +6504,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5473 05f8 77       		.sleb128 -9
  5474 05f9 00       		.byte	0
  5475 05fa 1B       		.uleb128 0x1b
- 5476 05fb B7030000 		.4byte	.LASF78
+ 5476 05fb ED030000 		.4byte	.LASF78
  5477 05ff 01       		.byte	0x1
  5478 0600 7801     		.2byte	0x178
  5479 0602 00000000 		.4byte	.LFB79
@@ -6513,7 +6513,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5482 060b 9C       		.byte	0x9c
  5483 060c 20060000 		.4byte	0x620
  5484 0610 19       		.uleb128 0x19
- 5485 0611 55040000 		.4byte	.LASF51
+ 5485 0611 8B040000 		.4byte	.LASF51
  5486 0615 01       		.byte	0x1
  5487 0616 7801     		.2byte	0x178
  5488 0618 C3000000 		.4byte	0xc3
@@ -6531,19 +6531,19 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5500 0631 9C       		.byte	0x9c
  5501 0632 46060000 		.4byte	0x646
  5502 0636 19       		.uleb128 0x19
- 5503 0637 55040000 		.4byte	.LASF51
+ 5503 0637 8B040000 		.4byte	.LASF51
  5504 063b 01       		.byte	0x1
  5505 063c 7E01     		.2byte	0x17e
  5506 063e C3000000 		.4byte	0xc3
  5507 0642 02       		.uleb128 0x2
  5508 0643 91       		.byte	0x91
  5509 0644 76       		.sleb128 -10
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 110
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 110
 
 
  5510 0645 00       		.byte	0
  5511 0646 1B       		.uleb128 0x1b
- 5512 0647 16060000 		.4byte	.LASF80
+ 5512 0647 E6050000 		.4byte	.LASF80
  5513 064b 01       		.byte	0x1
  5514 064c 8201     		.2byte	0x182
  5515 064e 00000000 		.4byte	.LFB81
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5564 06b2 1A       		.uleb128 0x1a
  5565 06b3 707900   		.ascii	"py\000"
  5566 06b6 01       		.byte	0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 111
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 111
 
 
  5567 06b7 9701     		.2byte	0x197
@@ -6644,7 +6644,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5607 0703 91       		.byte	0x91
  5608 0704 74       		.sleb128 -12
  5609 0705 19       		.uleb128 0x19
- 5610 0706 55040000 		.4byte	.LASF51
+ 5610 0706 8B040000 		.4byte	.LASF51
  5611 070a 01       		.byte	0x1
  5612 070b AB01     		.2byte	0x1ab
  5613 070d C3000000 		.4byte	0xc3
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5621 071b B601     		.2byte	0x1b6
  5622 071d 00000000 		.4byte	.LFB85
  5623 0721 AC010000 		.4byte	.LFE85-.LFB85
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 112
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 112
 
 
  5624 0725 01       		.uleb128 0x1
@@ -6697,7 +6697,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5657 0761 91       		.byte	0x91
  5658 0762 60       		.sleb128 -32
  5659 0763 19       		.uleb128 0x19
- 5660 0764 55040000 		.4byte	.LASF51
+ 5660 0764 8B040000 		.4byte	.LASF51
  5661 0768 01       		.byte	0x1
  5662 0769 B601     		.2byte	0x1b6
  5663 076b C3000000 		.4byte	0xc3
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5678 0788 00       		.byte	0
  5679 0789 00       		.byte	0
  5680 078a 18       		.uleb128 0x18
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 113
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 113
 
 
  5681 078b D6020000 		.4byte	.LASF85
@@ -6762,7 +6762,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5719 07d6 91       		.byte	0x91
  5720 07d7 58       		.sleb128 -40
  5721 07d8 19       		.uleb128 0x19
- 5722 07d9 55040000 		.4byte	.LASF51
+ 5722 07d9 8B040000 		.4byte	.LASF51
  5723 07dd 01       		.byte	0x1
  5724 07de D801     		.2byte	0x1d8
  5725 07e0 C3000000 		.4byte	0xc3
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5735 07f2 91       		.byte	0x91
  5736 07f3 68       		.sleb128 -24
  5737 07f4 16       		.uleb128 0x16
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 114
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 114
 
 
  5738 07f5 21030000 		.4byte	.LASF86
@@ -6813,7 +6813,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5767 082c 91       		.byte	0x91
  5768 082d 6E       		.sleb128 -18
  5769 082e 16       		.uleb128 0x16
- 5770 082f 8A040000 		.4byte	.LASF87
+ 5770 082f C0040000 		.4byte	.LASF87
  5771 0833 01       		.byte	0x1
  5772 0834 EF01     		.2byte	0x1ef
  5773 0836 B8000000 		.4byte	0xb8
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5792 085e 02       		.uleb128 0x2
  5793 085f 91       		.byte	0x91
  5794 0860 6E       		.sleb128 -18
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 115
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 115
 
 
  5795 0861 1A       		.uleb128 0x1a
@@ -6866,7 +6866,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5817 0886 91       		.byte	0x91
  5818 0887 68       		.sleb128 -24
  5819 0888 19       		.uleb128 0x19
- 5820 0889 55040000 		.4byte	.LASF51
+ 5820 0889 8B040000 		.4byte	.LASF51
  5821 088d 01       		.byte	0x1
  5822 088e 0302     		.2byte	0x203
  5823 0890 C3000000 		.4byte	0xc3
@@ -6875,7 +6875,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5826 0896 00       		.sleb128 0
  5827 0897 00       		.byte	0
  5828 0898 18       		.uleb128 0x18
- 5829 0899 FB030000 		.4byte	.LASF89
+ 5829 0899 31040000 		.4byte	.LASF89
  5830 089d 01       		.byte	0x1
  5831 089e 0B02     		.2byte	0x20b
  5832 08a0 00000000 		.4byte	.LFB88
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5849 08c1 B8000000 		.4byte	0xb8
  5850 08c5 02       		.uleb128 0x2
  5851 08c6 91       		.byte	0x91
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 116
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 116
 
 
  5852 08c7 64       		.sleb128 -28
@@ -6919,7 +6919,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5867 08e0 91       		.byte	0x91
  5868 08e1 60       		.sleb128 -32
  5869 08e2 19       		.uleb128 0x19
- 5870 08e3 55040000 		.4byte	.LASF51
+ 5870 08e3 8B040000 		.4byte	.LASF51
  5871 08e7 01       		.byte	0x1
  5872 08e8 0B02     		.2byte	0x20b
  5873 08ea C3000000 		.4byte	0xc3
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5906 0928 1A02     		.2byte	0x21a
  5907 092a B8000000 		.4byte	0xb8
  5908 092e 02       		.uleb128 0x2
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 117
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 117
 
 
  5909 092f 91       		.byte	0x91
@@ -6972,7 +6972,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5917 093c 91       		.byte	0x91
  5918 093d 5A       		.sleb128 -38
  5919 093e 19       		.uleb128 0x19
- 5920 093f 55040000 		.4byte	.LASF51
+ 5920 093f 8B040000 		.4byte	.LASF51
  5921 0943 01       		.byte	0x1
  5922 0944 1A02     		.2byte	0x21a
  5923 0946 C3000000 		.4byte	0xc3
@@ -6988,7 +6988,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5933 0958 91       		.byte	0x91
  5934 0959 6E       		.sleb128 -18
  5935 095a 16       		.uleb128 0x16
- 5936 095b A7050000 		.4byte	.LASF91
+ 5936 095b 77050000 		.4byte	.LASF91
  5937 095f 01       		.byte	0x1
  5938 0960 1D02     		.2byte	0x21d
  5939 0962 B8000000 		.4byte	0xb8
@@ -6996,7 +6996,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5941 0967 91       		.byte	0x91
  5942 0968 6C       		.sleb128 -20
  5943 0969 16       		.uleb128 0x16
- 5944 096a AD050000 		.4byte	.LASF92
+ 5944 096a 7D050000 		.4byte	.LASF92
  5945 096e 01       		.byte	0x1
  5946 096f 1E02     		.2byte	0x21e
  5947 0971 B8000000 		.4byte	0xb8
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  5963 098b B8000000 		.4byte	0xb8
  5964 098f 02       		.uleb128 0x2
  5965 0990 91       		.byte	0x91
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 118
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 118
 
 
  5966 0991 66       		.sleb128 -26
@@ -7078,13 +7078,13 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6020 09f4 3902     		.2byte	0x239
  6021 09f6 B8000000 		.4byte	0xb8
  6022 09fa 02       		.uleb128 0x2
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 119
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 119
 
 
  6023 09fb 91       		.byte	0x91
  6024 09fc 04       		.sleb128 4
  6025 09fd 19       		.uleb128 0x19
- 6026 09fe 55040000 		.4byte	.LASF51
+ 6026 09fe 8B040000 		.4byte	.LASF51
  6027 0a02 01       		.byte	0x1
  6028 0a03 3902     		.2byte	0x239
  6029 0a05 C3000000 		.4byte	0xc3
@@ -7093,7 +7093,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6032 0a0b 08       		.sleb128 8
  6033 0a0c 00       		.byte	0
  6034 0a0d 18       		.uleb128 0x18
- 6035 0a0e 08050000 		.4byte	.LASF94
+ 6035 0a0e 3E050000 		.4byte	.LASF94
  6036 0a12 01       		.byte	0x1
  6037 0a13 4202     		.2byte	0x242
  6038 0a15 00000000 		.4byte	.LFB91
@@ -7126,7 +7126,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6065 0a48 91       		.byte	0x91
  6066 0a49 63       		.sleb128 -29
  6067 0a4a 19       		.uleb128 0x19
- 6068 0a4b 55040000 		.4byte	.LASF51
+ 6068 0a4b 8B040000 		.4byte	.LASF51
  6069 0a4f 01       		.byte	0x1
  6070 0a50 4202     		.2byte	0x242
  6071 0a52 C3000000 		.4byte	0xc3
@@ -7138,14 +7138,14 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6077 0a5d 01       		.byte	0x1
  6078 0a5e 4202     		.2byte	0x242
  6079 0a60 C3000000 		.4byte	0xc3
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 120
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 120
 
 
  6080 0a64 02       		.uleb128 0x2
  6081 0a65 91       		.byte	0x91
  6082 0a66 00       		.sleb128 0
  6083 0a67 19       		.uleb128 0x19
- 6084 0a68 73030000 		.4byte	.LASF48
+ 6084 0a68 A9030000 		.4byte	.LASF48
  6085 0a6c 01       		.byte	0x1
  6086 0a6d 4202     		.2byte	0x242
  6087 0a6f AD000000 		.4byte	0xad
@@ -7164,7 +7164,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6100 0a84 76000000 		.4byte	.LBB8
  6101 0a88 4C010000 		.4byte	.LBE8-.LBB8
  6102 0a8c 16       		.uleb128 0x16
- 6103 0a8d 03050000 		.4byte	.LASF95
+ 6103 0a8d 39050000 		.4byte	.LASF95
  6104 0a91 01       		.byte	0x1
  6105 0a92 4B02     		.2byte	0x24b
  6106 0a94 AD000000 		.4byte	0xad
@@ -7182,7 +7182,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6118 0aa8 00       		.byte	0
  6119 0aa9 00       		.byte	0
  6120 0aaa 18       		.uleb128 0x18
- 6121 0aab 3C040000 		.4byte	.LASF96
+ 6121 0aab 72040000 		.4byte	.LASF96
  6122 0aaf 01       		.byte	0x1
  6123 0ab0 6402     		.2byte	0x264
  6124 0ab2 00000000 		.4byte	.LFB92
@@ -7198,12 +7198,12 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6134 0acb 02       		.uleb128 0x2
  6135 0acc 91       		.byte	0x91
  6136 0acd 6F       		.sleb128 -17
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 121
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 121
 
 
  6137 0ace 00       		.byte	0
  6138 0acf 18       		.uleb128 0x18
- 6139 0ad0 80040000 		.4byte	.LASF97
+ 6139 0ad0 B6040000 		.4byte	.LASF97
  6140 0ad4 01       		.byte	0x1
  6141 0ad5 7402     		.2byte	0x274
  6142 0ad7 00000000 		.4byte	.LFB93
@@ -7237,7 +7237,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6170 0b0d 74       		.sleb128 -12
  6171 0b0e 00       		.byte	0
  6172 0b0f 18       		.uleb128 0x18
- 6173 0b10 23040000 		.4byte	.LASF98
+ 6173 0b10 59040000 		.4byte	.LASF98
  6174 0b14 01       		.byte	0x1
  6175 0b15 7D02     		.2byte	0x27d
  6176 0b17 00000000 		.4byte	.LFB94
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6191 0b34 440B0000 		.4byte	0xb44
  6192 0b38 440B0000 		.4byte	0xb44
  6193 0b3c 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 122
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 122
 
 
  6194 0b3d 0D010000 		.4byte	0x10d
@@ -7267,7 +7267,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6197 0b44 07       		.uleb128 0x7
  6198 0b45 42000000 		.4byte	0x42
  6199 0b49 0C       		.uleb128 0xc
- 6200 0b4a 90040000 		.4byte	.LASF99
+ 6200 0b4a C6040000 		.4byte	.LASF99
  6201 0b4e 06       		.byte	0x6
  6202 0b4f 05       		.byte	0x5
  6203 0b50 5A0B0000 		.4byte	0xb5a
@@ -7277,7 +7277,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6207 0b5a 07       		.uleb128 0x7
  6208 0b5b 330B0000 		.4byte	0xb33
  6209 0b5f 0C       		.uleb128 0xc
- 6210 0b60 A7030000 		.4byte	.LASF100
+ 6210 0b60 DD030000 		.4byte	.LASF100
  6211 0b64 01       		.byte	0x1
  6212 0b65 5B       		.byte	0x5b
  6213 0b66 D9000000 		.4byte	0xd9
@@ -7300,7 +7300,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6230 0b8d 03       		.byte	0x3
  6231 0b8e 00000000 		.4byte	SSD1306_buffer
  6232 0b92 0C       		.uleb128 0xc
- 6233 0b93 8A050000 		.4byte	.LASF102
+ 6233 0b93 5A050000 		.4byte	.LASF102
  6234 0b97 01       		.byte	0x1
  6235 0b98 60       		.byte	0x60
  6236 0b99 8E040000 		.4byte	0x48e
@@ -7308,7 +7308,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6238 0b9e 03       		.byte	0x3
  6239 0b9f 04040000 		.4byte	_displaybuf
  6240 0ba3 0C       		.uleb128 0xc
- 6241 0ba4 78030000 		.4byte	.LASF103
+ 6241 0ba4 AE030000 		.4byte	.LASF103
  6242 0ba8 01       		.byte	0x1
  6243 0ba9 61       		.byte	0x61
  6244 0baa C3000000 		.4byte	0xc3
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6248 0bb4 16       		.uleb128 0x16
  6249 0bb5 1A030000 		.4byte	.LASF104
  6250 0bb9 01       		.byte	0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 123
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 123
 
 
  6251 0bba 4C01     		.2byte	0x14c
@@ -7327,7 +7327,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6254 0bc1 03       		.byte	0x3
  6255 0bc2 02000000 		.4byte	_width
  6256 0bc6 16       		.uleb128 0x16
- 6257 0bc7 6B030000 		.4byte	.LASF105
+ 6257 0bc7 A1030000 		.4byte	.LASF105
  6258 0bcb 01       		.byte	0x1
  6259 0bcc 4C01     		.2byte	0x14c
  6260 0bce B8000000 		.4byte	0xb8
@@ -7351,7 +7351,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6278 0bf7 03       		.byte	0x3
  6279 0bf8 08000000 		.4byte	cursor_y
  6280 0bfc 16       		.uleb128 0x16
- 6281 0bfd F2050000 		.4byte	.LASF108
+ 6281 0bfd C2050000 		.4byte	.LASF108
  6282 0c01 01       		.byte	0x1
  6283 0c02 4E01     		.2byte	0x14e
  6284 0c04 C3000000 		.4byte	0xc3
@@ -7359,7 +7359,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6286 0c09 03       		.byte	0x3
  6287 0c0a 0A000000 		.4byte	textcolor
  6288 0c0e 16       		.uleb128 0x16
- 6289 0c0f FC050000 		.4byte	.LASF109
+ 6289 0c0f CC050000 		.4byte	.LASF109
  6290 0c13 01       		.byte	0x1
  6291 0c14 4E01     		.2byte	0x14e
  6292 0c16 C3000000 		.4byte	0xc3
@@ -7375,10 +7375,10 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6302 0c2d 03       		.byte	0x3
  6303 0c2e 0E000000 		.4byte	textsize
  6304 0c32 20       		.uleb128 0x20
- 6305 0c33 2F040000 		.4byte	.LASF111
+ 6305 0c33 65040000 		.4byte	.LASF111
  6306 0c37 07       		.byte	0x7
  6307 0c38 1207     		.2byte	0x712
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 124
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 124
 
 
  6308 0c3a 3E0C0000 		.4byte	0xc3e
@@ -7409,7 +7409,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6333 0c74 03       		.byte	0x3
  6334 0c75 00000000 		.4byte	rotation
  6335 0c79 22       		.uleb128 0x22
- 6336 0c7a D9040000 		.4byte	.LASF115
+ 6336 0c7a 0F050000 		.4byte	.LASF115
  6337 0c7e 01       		.byte	0x1
  6338 0c7f 5101     		.2byte	0x151
  6339 0c81 AD000000 		.4byte	0xad
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6362 0010 17       		.uleb128 0x17
  6363 0011 00       		.byte	0
  6364 0012 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 125
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 125
 
 
  6365 0013 02       		.uleb128 0x2
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6419 0049 13       		.uleb128 0x13
  6420 004a 00       		.byte	0
  6421 004b 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 126
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 126
 
 
  6422 004c 07       		.uleb128 0x7
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6476 0083 00       		.byte	0
  6477 0084 00       		.byte	0
  6478 0085 0B       		.uleb128 0xb
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 127
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 127
 
 
  6479 0086 05       		.uleb128 0x5
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6533 00bc 3B       		.uleb128 0x3b
  6534 00bd 0B       		.uleb128 0xb
  6535 00be 27       		.uleb128 0x27
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 128
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 128
 
 
  6536 00bf 19       		.uleb128 0x19
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6590 00f6 13       		.uleb128 0x13
  6591 00f7 2E       		.uleb128 0x2e
  6592 00f8 01       		.byte	0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 129
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 129
 
 
  6593 00f9 03       		.uleb128 0x3
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6647 0131 16       		.uleb128 0x16
  6648 0132 34       		.uleb128 0x34
  6649 0133 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 130
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 130
 
 
  6650 0134 03       		.uleb128 0x3
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6704 016b 00       		.byte	0
  6705 016c 03       		.uleb128 0x3
  6706 016d 0E       		.uleb128 0xe
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 131
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 131
 
 
  6707 016e 3A       		.uleb128 0x3a
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6761 01a5 19       		.uleb128 0x19
  6762 01a6 03       		.uleb128 0x3
  6763 01a7 0E       		.uleb128 0xe
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 132
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 132
 
 
  6764 01a8 3A       		.uleb128 0x3a
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6818 01e0 12       		.uleb128 0x12
  6819 01e1 06       		.uleb128 0x6
  6820 01e2 40       		.uleb128 0x40
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 133
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 133
 
 
  6821 01e3 18       		.uleb128 0x18
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6875 021a 18       		.uleb128 0x18
  6876 021b 00       		.byte	0
  6877 021c 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 134
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 134
 
 
  6878 021d 00       		.byte	0
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6932 00c4 AC010000 		.4byte	.LFE85-.LFB85
  6933 00c8 00000000 		.4byte	.LFB86
  6934 00cc 74010000 		.4byte	.LFE86-.LFB86
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 135
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 135
 
 
  6935 00d0 00000000 		.4byte	.LFB87
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  6989 0088 00000000 		.4byte	.LFB80
  6990 008c 20000000 		.4byte	.LFE80
  6991 0090 00000000 		.4byte	.LFB81
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 136
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 136
 
 
  6992 0094 20000000 		.4byte	.LFE81
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  7031      00
  7032              	.LASF79:
  7033 0031 6766785F 		.ascii	"gfx_setTextBg\000"
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 137
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 137
 
 
  7033      73657454 
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  7055      696E6974 
  7055      00
  7056              	.LASF29:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 138
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 138
 
 
  7057 012e 5343524F 		.ascii	"SCROLL_SPEED_0\000"
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  7081      00
  7082              	.LASF107:
  7083 01ca 63757273 		.ascii	"cursor_y\000"
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 139
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 139
 
 
  7083      6F725F79 
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  7107 0265 5343524F 		.ascii	"SCROLL_PAGE_1\000"
  7107      4C4C5F50 
  7107      4147455F 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 140
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 140
 
 
  7107      3100
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  7131      385F7400 
  7132              	.LASF50:
  7133 0306 73746174 		.ascii	"status\000"
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 141
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 141
 
 
  7133      757300
@@ -8413,287 +8413,282 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 1
  7138              	.LASF86:
  7139 0321 73746565 		.ascii	"steep\000"
  7139      7000
- 7140              	.LASF11:
- 7141 0327 6C6F6E67 		.ascii	"long long int\000"
- 7141      206C6F6E 
- 7141      6720696E 
- 7141      7400
- 7142              	.LASF54:
- 7143 0335 636F6E74 		.ascii	"contrast\000"
- 7143      72617374 
- 7143      00
- 7144              	.LASF37:
- 7145 033e 5343524F 		.ascii	"SCROLL_SPEED\000"
- 7145      4C4C5F53 
- 7145      50454544 
- 7145      00
- 7146              	.LASF46:
- 7147 034b 5343524F 		.ascii	"SCROLL_AREA\000"
- 7147      4C4C5F41 
- 7147      52454100 
- 7148              	.LASF73:
- 7149 0357 6766785F 		.ascii	"gfx_width\000"
- 7149      77696474 
- 7149      6800
- 7150              	.LASF4:
- 7151 0361 5F5F696E 		.ascii	"__int16_t\000"
- 7151      7431365F 
- 7151      7400
- 7152              	.LASF105:
- 7153 036b 5F686569 		.ascii	"_height\000"
- 7153      67687400 
- 7154              	.LASF48:
- 7155 0373 73697A65 		.ascii	"size\000"
- 7155      00
- 7156              	.LASF103:
- 7157 0378 5F646973 		.ascii	"_displaybuf_size\000"
- 7157      706C6179 
- 7157      6275665F 
- 7157      73697A65 
- 7157      00
- 7158              	.LASF20:
- 7159 0389 75696E74 		.ascii	"uint32\000"
- 7159      333200
- 7160              	.LASF119:
- 7161 0390 64697370 		.ascii	"display_write_buf\000"
- 7161      6C61795F 
- 7161      77726974 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 142
+ 7140              	.LASF118:
+ 7141 0327 533A5C43 		.ascii	"S:\\CODE 22\\PSOC\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI"
+ 7141      4F444520 
+ 7141      32325C50 
+ 7141      534F435C 
+ 7141      50536F43 
+ 7142 0356 2E637964 		.ascii	".cydsn\000"
+ 7142      736E00
+ 7143              	.LASF11:
+ 7144 035d 6C6F6E67 		.ascii	"long long int\000"
+ 7144      206C6F6E 
+ 7144      6720696E 
+ 7144      7400
+ 7145              	.LASF54:
+ 7146 036b 636F6E74 		.ascii	"contrast\000"
+ 7146      72617374 
+ 7146      00
+ 7147              	.LASF37:
+ 7148 0374 5343524F 		.ascii	"SCROLL_SPEED\000"
+ 7148      4C4C5F53 
+ 7148      50454544 
+ 7148      00
+ 7149              	.LASF46:
+ 7150 0381 5343524F 		.ascii	"SCROLL_AREA\000"
+ 7150      4C4C5F41 
+ 7150      52454100 
+ 7151              	.LASF73:
+ 7152 038d 6766785F 		.ascii	"gfx_width\000"
+ 7152      77696474 
+ 7152      6800
+ 7153              	.LASF4:
+ 7154 0397 5F5F696E 		.ascii	"__int16_t\000"
+ 7154      7431365F 
+ 7154      7400
+ 7155              	.LASF105:
+ 7156 03a1 5F686569 		.ascii	"_height\000"
+ 7156      67687400 
+ 7157              	.LASF48:
+ 7158 03a9 73697A65 		.ascii	"size\000"
+ 7158      00
+ 7159              	.LASF103:
+ 7160 03ae 5F646973 		.ascii	"_displaybuf_size\000"
+ 7160      706C6179 
+ 7160      6275665F 
+ 7160      73697A65 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 142
 
 
- 7161      655F6275 
- 7161      6600
- 7162              	.LASF62:
- 7163 03a2 6D61736B 		.ascii	"mask\000"
- 7163      00
- 7164              	.LASF100:
- 7165 03a7 5F693263 		.ascii	"_i2caddr\000"
- 7165      61646472 
- 7165      00
- 7166              	.LASF72:
- 7167 03b0 68656967 		.ascii	"height\000"
- 7167      687400
- 7168              	.LASF78:
- 7169 03b7 6766785F 		.ascii	"gfx_setTextColor\000"
- 7169      73657454 
- 7169      65787443 
- 7169      6F6C6F72 
- 7169      00
- 7170              	.LASF0:
- 7171 03c8 5F5F696E 		.ascii	"__int8_t\000"
- 7171      74385F74 
- 7171      00
- 7172              	.LASF24:
- 7173 03d1 6C6F6E67 		.ascii	"long double\000"
- 7173      20646F75 
- 7173      626C6500 
- 7174              	.LASF74:
- 7175 03dd 6766785F 		.ascii	"gfx_height\000"
- 7175      68656967 
- 7175      687400
- 7176              	.LASF17:
- 7177 03e8 75696E74 		.ascii	"uint16_t\000"
- 7177      31365F74 
- 7177      00
- 7178              	.LASF117:
- 7179 03f1 73736431 		.ascii	"ssd1306.c\000"
- 7179      3330362E 
- 7179      6300
- 7180              	.LASF89:
- 7181 03fb 6766785F 		.ascii	"gfx_fillRect\000"
- 7181      66696C6C 
- 7181      52656374 
- 7181      00
- 7182              	.LASF5:
- 7183 0408 73686F72 		.ascii	"short int\000"
- 7183      7420696E 
- 7183      7400
- 7184              	.LASF65:
- 7185 0412 7069786D 		.ascii	"pixmask\000"
- 7185      61736B00 
- 7186              	.LASF9:
- 7187 041a 6C6F6E67 		.ascii	"long int\000"
- 7187      20696E74 
- 7187      00
- 7188              	.LASF98:
- 7189 0423 6766785F 		.ascii	"gfx_println\000"
- 7189      7072696E 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 143
+ 7160      00
+ 7161              	.LASF20:
+ 7162 03bf 75696E74 		.ascii	"uint32\000"
+ 7162      333200
+ 7163              	.LASF119:
+ 7164 03c6 64697370 		.ascii	"display_write_buf\000"
+ 7164      6C61795F 
+ 7164      77726974 
+ 7164      655F6275 
+ 7164      6600
+ 7165              	.LASF62:
+ 7166 03d8 6D61736B 		.ascii	"mask\000"
+ 7166      00
+ 7167              	.LASF100:
+ 7168 03dd 5F693263 		.ascii	"_i2caddr\000"
+ 7168      61646472 
+ 7168      00
+ 7169              	.LASF72:
+ 7170 03e6 68656967 		.ascii	"height\000"
+ 7170      687400
+ 7171              	.LASF78:
+ 7172 03ed 6766785F 		.ascii	"gfx_setTextColor\000"
+ 7172      73657454 
+ 7172      65787443 
+ 7172      6F6C6F72 
+ 7172      00
+ 7173              	.LASF0:
+ 7174 03fe 5F5F696E 		.ascii	"__int8_t\000"
+ 7174      74385F74 
+ 7174      00
+ 7175              	.LASF24:
+ 7176 0407 6C6F6E67 		.ascii	"long double\000"
+ 7176      20646F75 
+ 7176      626C6500 
+ 7177              	.LASF74:
+ 7178 0413 6766785F 		.ascii	"gfx_height\000"
+ 7178      68656967 
+ 7178      687400
+ 7179              	.LASF17:
+ 7180 041e 75696E74 		.ascii	"uint16_t\000"
+ 7180      31365F74 
+ 7180      00
+ 7181              	.LASF117:
+ 7182 0427 73736431 		.ascii	"ssd1306.c\000"
+ 7182      3330362E 
+ 7182      6300
+ 7183              	.LASF89:
+ 7184 0431 6766785F 		.ascii	"gfx_fillRect\000"
+ 7184      66696C6C 
+ 7184      52656374 
+ 7184      00
+ 7185              	.LASF5:
+ 7186 043e 73686F72 		.ascii	"short int\000"
+ 7186      7420696E 
+ 7186      7400
+ 7187              	.LASF65:
+ 7188 0448 7069786D 		.ascii	"pixmask\000"
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 143
 
 
- 7189      746C6E00 
- 7190              	.LASF111:
- 7191 042f 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 7191      52784275 
- 7191      66666572 
- 7191      00
- 7192              	.LASF96:
- 7193 043c 6766785F 		.ascii	"gfx_write\000"
- 7193      77726974 
- 7193      6500
- 7194              	.LASF55:
- 7195 0446 64697370 		.ascii	"display_invert\000"
- 7195      6C61795F 
- 7195      696E7665 
- 7195      727400
- 7196              	.LASF51:
- 7197 0455 636F6C6F 		.ascii	"color\000"
- 7197      7200
- 7198              	.LASF77:
- 7199 045b 6766785F 		.ascii	"gfx_setTextSize\000"
- 7199      73657454 
- 7199      65787453 
- 7199      697A6500 
- 7200              	.LASF1:
- 7201 046b 5F5F7569 		.ascii	"__uint8_t\000"
- 7201      6E74385F 
- 7201      7400
- 7202              	.LASF63:
- 7203 0475 6C626974 		.ascii	"lbit\000"
- 7203      00
- 7204              	.LASF68:
- 7205 047a 73746172 		.ascii	"start\000"
- 7205      7400
- 7206              	.LASF97:
- 7207 0480 6766785F 		.ascii	"gfx_print\000"
- 7207      7072696E 
- 7207      7400
- 7208              	.LASF87:
- 7209 048a 79737465 		.ascii	"ystep\000"
- 7209      7000
- 7210              	.LASF99:
- 7211 0490 666F6E74 		.ascii	"font\000"
- 7211      00
- 7212              	.LASF25:
- 7213 0495 73697A65 		.ascii	"sizetype\000"
- 7213      74797065 
- 7213      00
- 7214              	.LASF49:
- 7215 049e 636D6462 		.ascii	"cmdbuf\000"
- 7215      756600
- 7216              	.LASF10:
- 7217 04a5 6C6F6E67 		.ascii	"long unsigned int\000"
- 7217      20756E73 
- 7217      69676E65 
- 7217      6420696E 
- 7217      7400
- 7218              	.LASF27:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 144
+ 7188      61736B00 
+ 7189              	.LASF9:
+ 7190 0450 6C6F6E67 		.ascii	"long int\000"
+ 7190      20696E74 
+ 7190      00
+ 7191              	.LASF98:
+ 7192 0459 6766785F 		.ascii	"gfx_println\000"
+ 7192      7072696E 
+ 7192      746C6E00 
+ 7193              	.LASF111:
+ 7194 0465 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 7194      52784275 
+ 7194      66666572 
+ 7194      00
+ 7195              	.LASF96:
+ 7196 0472 6766785F 		.ascii	"gfx_write\000"
+ 7196      77726974 
+ 7196      6500
+ 7197              	.LASF55:
+ 7198 047c 64697370 		.ascii	"display_invert\000"
+ 7198      6C61795F 
+ 7198      696E7665 
+ 7198      727400
+ 7199              	.LASF51:
+ 7200 048b 636F6C6F 		.ascii	"color\000"
+ 7200      7200
+ 7201              	.LASF77:
+ 7202 0491 6766785F 		.ascii	"gfx_setTextSize\000"
+ 7202      73657454 
+ 7202      65787453 
+ 7202      697A6500 
+ 7203              	.LASF1:
+ 7204 04a1 5F5F7569 		.ascii	"__uint8_t\000"
+ 7204      6E74385F 
+ 7204      7400
+ 7205              	.LASF63:
+ 7206 04ab 6C626974 		.ascii	"lbit\000"
+ 7206      00
+ 7207              	.LASF68:
+ 7208 04b0 73746172 		.ascii	"start\000"
+ 7208      7400
+ 7209              	.LASF97:
+ 7210 04b6 6766785F 		.ascii	"gfx_print\000"
+ 7210      7072696E 
+ 7210      7400
+ 7211              	.LASF87:
+ 7212 04c0 79737465 		.ascii	"ystep\000"
+ 7212      7000
+ 7213              	.LASF99:
+ 7214 04c6 666F6E74 		.ascii	"font\000"
+ 7214      00
+ 7215              	.LASF25:
+ 7216 04cb 73697A65 		.ascii	"sizetype\000"
+ 7216      74797065 
+ 7216      00
+ 7217              	.LASF49:
+ 7218 04d4 636D6462 		.ascii	"cmdbuf\000"
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 144
 
 
- 7219 04b7 5343524F 		.ascii	"SCROLL_LEFT\000"
- 7219      4C4C5F4C 
- 7219      45465400 
- 7220              	.LASF120:
- 7221 04c3 64697370 		.ascii	"display_clear\000"
- 7221      6C61795F 
- 7221      636C6561 
- 7221      7200
- 7222              	.LASF18:
- 7223 04d1 696E7433 		.ascii	"int32_t\000"
- 7223      325F7400 
- 7224              	.LASF115:
- 7225 04d9 77726170 		.ascii	"wrap\000"
- 7225      00
- 7226              	.LASF61:
- 7227 04de 70656E64 		.ascii	"pend\000"
- 7227      00
- 7228              	.LASF26:
- 7229 04e3 5343524F 		.ascii	"SCROLL_RIGHT\000"
- 7229      4C4C5F52 
- 7229      49474854 
- 7229      00
- 7230              	.LASF3:
- 7231 04f0 756E7369 		.ascii	"unsigned char\000"
- 7231      676E6564 
- 7231      20636861 
- 7231      7200
- 7232              	.LASF64:
- 7233 04fe 75626974 		.ascii	"ubit\000"
- 7233      00
- 7234              	.LASF95:
- 7235 0503 6C696E65 		.ascii	"line\000"
- 7235      00
- 7236              	.LASF94:
- 7237 0508 6766785F 		.ascii	"gfx_drawChar\000"
- 7237      64726177 
- 7237      43686172 
- 7237      00
- 7238              	.LASF118:
- 7239 0515 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\Dokumente\\PSoC Creato"
- 7239      73657273 
- 7239      5C73696C 
- 7239      76616E5C 
- 7239      4F6E6544 
- 7240 0543 725C5053 		.ascii	"r\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MID"
- 7240      6F435F41 
- 7240      7564696F 
- 7240      5F4D4944 
- 7240      495C5053 
- 7241 0573 492E6379 		.ascii	"I.cydsn\000"
- 7241      64736E00 
- 7242              	.LASF67:
- 7243 057b 64697370 		.ascii	"display_scroll\000"
- 7243      6C61795F 
- 7243      7363726F 
- 7243      6C6C00
- 7244              	.LASF102:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cchbP5HN.s 			page 145
+ 7218      756600
+ 7219              	.LASF10:
+ 7220 04db 6C6F6E67 		.ascii	"long unsigned int\000"
+ 7220      20756E73 
+ 7220      69676E65 
+ 7220      6420696E 
+ 7220      7400
+ 7221              	.LASF27:
+ 7222 04ed 5343524F 		.ascii	"SCROLL_LEFT\000"
+ 7222      4C4C5F4C 
+ 7222      45465400 
+ 7223              	.LASF120:
+ 7224 04f9 64697370 		.ascii	"display_clear\000"
+ 7224      6C61795F 
+ 7224      636C6561 
+ 7224      7200
+ 7225              	.LASF18:
+ 7226 0507 696E7433 		.ascii	"int32_t\000"
+ 7226      325F7400 
+ 7227              	.LASF115:
+ 7228 050f 77726170 		.ascii	"wrap\000"
+ 7228      00
+ 7229              	.LASF61:
+ 7230 0514 70656E64 		.ascii	"pend\000"
+ 7230      00
+ 7231              	.LASF26:
+ 7232 0519 5343524F 		.ascii	"SCROLL_RIGHT\000"
+ 7232      4C4C5F52 
+ 7232      49474854 
+ 7232      00
+ 7233              	.LASF3:
+ 7234 0526 756E7369 		.ascii	"unsigned char\000"
+ 7234      676E6564 
+ 7234      20636861 
+ 7234      7200
+ 7235              	.LASF64:
+ 7236 0534 75626974 		.ascii	"ubit\000"
+ 7236      00
+ 7237              	.LASF95:
+ 7238 0539 6C696E65 		.ascii	"line\000"
+ 7238      00
+ 7239              	.LASF94:
+ 7240 053e 6766785F 		.ascii	"gfx_drawChar\000"
+ 7240      64726177 
+ 7240      43686172 
+ 7240      00
+ 7241              	.LASF67:
+ 7242 054b 64697370 		.ascii	"display_scroll\000"
+ 7242      6C61795F 
+ 7242      7363726F 
+ 7242      6C6C00
+ 7243              	.LASF102:
+ 7244 055a 5F646973 		.ascii	"_displaybuf\000"
+ 7244      706C6179 
+ 7244      62756600 
+ 7245              	.LASF53:
+ 7246 0566 64697370 		.ascii	"display_contrast\000"
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc7YCuVd.s 			page 145
 
 
- 7245 058a 5F646973 		.ascii	"_displaybuf\000"
- 7245      706C6179 
- 7245      62756600 
- 7246              	.LASF53:
- 7247 0596 64697370 		.ascii	"display_contrast\000"
- 7247      6C61795F 
- 7247      636F6E74 
- 7247      72617374 
- 7247      00
- 7248              	.LASF91:
- 7249 05a7 6464465F 		.ascii	"ddF_x\000"
- 7249      7800
- 7250              	.LASF92:
- 7251 05ad 6464465F 		.ascii	"ddF_y\000"
- 7251      7900
- 7252              	.LASF2:
- 7253 05b3 7369676E 		.ascii	"signed char\000"
- 7253      65642063 
- 7253      68617200 
- 7254              	.LASF7:
- 7255 05bf 73686F72 		.ascii	"short unsigned int\000"
- 7255      7420756E 
- 7255      7369676E 
- 7255      65642069 
- 7255      6E7400
- 7256              	.LASF66:
- 7257 05d2 64697370 		.ascii	"display_stopscroll\000"
- 7257      6C61795F 
- 7257      73746F70 
- 7257      7363726F 
- 7257      6C6C00
- 7258              	.LASF19:
- 7259 05e5 75696E74 		.ascii	"uint8\000"
- 7259      3800
- 7260              	.LASF22:
- 7261 05eb 646F7562 		.ascii	"double\000"
- 7261      6C6500
- 7262              	.LASF108:
- 7263 05f2 74657874 		.ascii	"textcolor\000"
- 7263      636F6C6F 
- 7263      7200
- 7264              	.LASF109:
- 7265 05fc 74657874 		.ascii	"textbgcolor\000"
- 7265      6267636F 
- 7265      6C6F7200 
- 7266              	.LASF76:
- 7267 0608 6766785F 		.ascii	"gfx_setCursor\000"
- 7267      73657443 
- 7267      7572736F 
- 7267      7200
- 7268              	.LASF80:
- 7269 0616 6766785F 		.ascii	"gfx_setTextWrap\000"
- 7269      73657454 
- 7269      65787457 
- 7269      72617000 
- 7270              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 7246      6C61795F 
+ 7246      636F6E74 
+ 7246      72617374 
+ 7246      00
+ 7247              	.LASF91:
+ 7248 0577 6464465F 		.ascii	"ddF_x\000"
+ 7248      7800
+ 7249              	.LASF92:
+ 7250 057d 6464465F 		.ascii	"ddF_y\000"
+ 7250      7900
+ 7251              	.LASF2:
+ 7252 0583 7369676E 		.ascii	"signed char\000"
+ 7252      65642063 
+ 7252      68617200 
+ 7253              	.LASF7:
+ 7254 058f 73686F72 		.ascii	"short unsigned int\000"
+ 7254      7420756E 
+ 7254      7369676E 
+ 7254      65642069 
+ 7254      6E7400
+ 7255              	.LASF66:
+ 7256 05a2 64697370 		.ascii	"display_stopscroll\000"
+ 7256      6C61795F 
+ 7256      73746F70 
+ 7256      7363726F 
+ 7256      6C6C00
+ 7257              	.LASF19:
+ 7258 05b5 75696E74 		.ascii	"uint8\000"
+ 7258      3800
+ 7259              	.LASF22:
+ 7260 05bb 646F7562 		.ascii	"double\000"
+ 7260      6C6500
+ 7261              	.LASF108:
+ 7262 05c2 74657874 		.ascii	"textcolor\000"
+ 7262      636F6C6F 
+ 7262      7200
+ 7263              	.LASF109:
+ 7264 05cc 74657874 		.ascii	"textbgcolor\000"
+ 7264      6267636F 
+ 7264      6C6F7200 
+ 7265              	.LASF76:
+ 7266 05d8 6766785F 		.ascii	"gfx_setCursor\000"
+ 7266      73657443 
+ 7266      7572736F 
+ 7266      7200
+ 7267              	.LASF80:
+ 7268 05e6 6766785F 		.ascii	"gfx_setTextWrap\000"
+ 7268      73657454 
+ 7268      65787457 
+ 7268      72617000 
+ 7269              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

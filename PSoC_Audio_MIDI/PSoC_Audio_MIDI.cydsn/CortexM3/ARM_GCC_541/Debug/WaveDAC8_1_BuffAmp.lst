@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
   22:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** 
   23:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** /*******************************************************************************   
   24:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** * Function Name: WaveDAC8_1_BuffAmp_Init
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 2
 
 
   25:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** ********************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
   52:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** * Parameters:
   53:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** *  void
   54:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** *
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 3
 
 
   55:Generated_Source\PSoC5/WaveDAC8_1_BuffAmp.c **** * Return:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  100 0038 80BC     		pop	{r7}
  101              		.cfi_restore 7
  102              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 4
 
 
  103 003a 7047     		bx	lr
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  132 0004 064B     		ldr	r3, .L7
  133 0006 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  134 0008 002B     		cmp	r3, #0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 5
 
 
  135 000a 04D1     		bne	.L6
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  164              		.cfi_startproc
  165              		@ args = 0, pretend = 0, frame = 0
  166              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 6
 
 
  167              		@ link register save eliminated.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  209 0042 80BC     		pop	{r7}
  210              		.cfi_restore 7
  211              		.cfi_def_cfa_offset 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 7
 
 
  212 0044 7047     		bx	lr
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  245 000a 0C4A     		ldr	r2, .L15
  246 000c 0B4B     		ldr	r3, .L15
  247 000e 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 8
 
 
  248 0010 DBB2     		uxtb	r3, r3
@@ -469,40 +469,40 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  288 0006 00000000 		.4byte	.Ldebug_abbrev0
  289 000a 04       		.byte	0x4
  290 000b 01       		.uleb128 0x1
- 291 000c E8000000 		.4byte	.LASF20
+ 291 000c B8000000 		.4byte	.LASF20
  292 0010 0C       		.byte	0xc
- 293 0011 D0010000 		.4byte	.LASF21
- 294 0015 6A000000 		.4byte	.LASF22
+ 293 0011 A0010000 		.4byte	.LASF21
+ 294 0015 0E000000 		.4byte	.LASF22
  295 0019 00000000 		.4byte	.Ldebug_ranges0+0
  296 001d 00000000 		.4byte	0
  297 0021 00000000 		.4byte	.Ldebug_line0
  298 0025 02       		.uleb128 0x2
  299 0026 01       		.byte	0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 9
 
 
  300 0027 06       		.byte	0x6
- 301 0028 16020000 		.4byte	.LASF0
+ 301 0028 E6010000 		.4byte	.LASF0
  302 002c 02       		.uleb128 0x2
  303 002d 01       		.byte	0x1
  304 002e 08       		.byte	0x8
- 305 002f 76010000 		.4byte	.LASF1
+ 305 002f 46010000 		.4byte	.LASF1
  306 0033 02       		.uleb128 0x2
  307 0034 02       		.byte	0x2
  308 0035 05       		.byte	0x5
- 309 0036 C6010000 		.4byte	.LASF2
+ 309 0036 96010000 		.4byte	.LASF2
  310 003a 02       		.uleb128 0x2
  311 003b 02       		.byte	0x2
  312 003c 07       		.byte	0x7
- 313 003d 03020000 		.4byte	.LASF3
+ 313 003d D3010000 		.4byte	.LASF3
  314 0041 02       		.uleb128 0x2
  315 0042 04       		.byte	0x4
  316 0043 05       		.byte	0x5
- 317 0044 A4010000 		.4byte	.LASF4
+ 317 0044 74010000 		.4byte	.LASF4
  318 0048 02       		.uleb128 0x2
  319 0049 04       		.byte	0x4
  320 004a 07       		.byte	0x7
- 321 004b 3B000000 		.4byte	.LASF5
+ 321 004b 71000000 		.4byte	.LASF5
  322 004f 02       		.uleb128 0x2
  323 0050 08       		.byte	0x8
  324 0051 05       		.byte	0x5
@@ -510,7 +510,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  326 0056 02       		.uleb128 0x2
  327 0057 08       		.byte	0x8
  328 0058 07       		.byte	0x7
- 329 0059 4D000000 		.4byte	.LASF7
+ 329 0059 83000000 		.4byte	.LASF7
  330 005d 03       		.uleb128 0x3
  331 005e 04       		.byte	0x4
  332 005f 05       		.byte	0x5
@@ -518,27 +518,27 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  334 0064 02       		.uleb128 0x2
  335 0065 04       		.byte	0x4
  336 0066 07       		.byte	0x7
- 337 0067 0E000000 		.4byte	.LASF8
+ 337 0067 44000000 		.4byte	.LASF8
  338 006b 04       		.uleb128 0x4
- 339 006c 35000000 		.4byte	.LASF12
+ 339 006c 6B000000 		.4byte	.LASF12
  340 0070 02       		.byte	0x2
  341 0071 9201     		.2byte	0x192
  342 0073 2C000000 		.4byte	0x2c
  343 0077 02       		.uleb128 0x2
  344 0078 04       		.byte	0x4
  345 0079 04       		.byte	0x4
- 346 007a 64000000 		.4byte	.LASF9
+ 346 007a 9A000000 		.4byte	.LASF9
  347 007e 02       		.uleb128 0x2
  348 007f 08       		.byte	0x8
  349 0080 04       		.byte	0x4
- 350 0081 FC010000 		.4byte	.LASF10
+ 350 0081 CC010000 		.4byte	.LASF10
  351 0085 02       		.uleb128 0x2
  352 0086 01       		.byte	0x1
  353 0087 08       		.byte	0x8
- 354 0088 9F010000 		.4byte	.LASF11
+ 354 0088 6F010000 		.4byte	.LASF11
  355 008c 04       		.uleb128 0x4
- 356 008d 4A020000 		.4byte	.LASF13
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 10
+ 356 008d 1A020000 		.4byte	.LASF13
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 10
 
 
  357 0091 02       		.byte	0x2
@@ -549,13 +549,13 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  362 009d 02       		.uleb128 0x2
  363 009e 08       		.byte	0x8
  364 009f 04       		.byte	0x4
- 365 00a0 22020000 		.4byte	.LASF14
+ 365 00a0 F2010000 		.4byte	.LASF14
  366 00a4 02       		.uleb128 0x2
  367 00a5 04       		.byte	0x4
  368 00a6 07       		.byte	0x7
- 369 00a7 67020000 		.4byte	.LASF15
+ 369 00a7 37020000 		.4byte	.LASF15
  370 00ab 06       		.uleb128 0x6
- 371 00ac 4F020000 		.4byte	.LASF16
+ 371 00ac 1F020000 		.4byte	.LASF16
  372 00b0 01       		.byte	0x1
  373 00b1 27       		.byte	0x27
  374 00b2 00000000 		.4byte	.LFB0
@@ -563,7 +563,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  376 00ba 01       		.uleb128 0x1
  377 00bb 9C       		.byte	0x9c
  378 00bc 07       		.uleb128 0x7
- 379 00bd 1B000000 		.4byte	.LASF17
+ 379 00bd 51000000 		.4byte	.LASF17
  380 00c1 01       		.byte	0x1
  381 00c2 3B       		.byte	0x3b
  382 00c3 00000000 		.4byte	.LFB1
@@ -571,7 +571,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  384 00cb 01       		.uleb128 0x1
  385 00cc 9C       		.byte	0x9c
  386 00cd 06       		.uleb128 0x6
- 387 00ce AD010000 		.4byte	.LASF18
+ 387 00ce 7D010000 		.4byte	.LASF18
  388 00d2 01       		.byte	0x1
  389 00d3 5C       		.byte	0x5c
  390 00d4 00000000 		.4byte	.LFB2
@@ -579,7 +579,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  392 00dc 01       		.uleb128 0x1
  393 00dd 9C       		.byte	0x9c
  394 00de 07       		.uleb128 0x7
- 395 00df D0000000 		.4byte	.LASF19
+ 395 00df A0000000 		.4byte	.LASF19
  396 00e3 01       		.byte	0x1
  397 00e4 76       		.byte	0x76
  398 00e5 00000000 		.4byte	.LFB3
@@ -587,7 +587,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  400 00ed 01       		.uleb128 0x1
  401 00ee 9C       		.byte	0x9c
  402 00ef 08       		.uleb128 0x8
- 403 00f0 2E020000 		.4byte	.LASF23
+ 403 00f0 FE010000 		.4byte	.LASF23
  404 00f4 01       		.byte	0x1
  405 00f5 95       		.byte	0x95
  406 00f6 00000000 		.4byte	.LFB4
@@ -596,9 +596,9 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  409 00ff 9C       		.byte	0x9c
  410 0100 13010000 		.4byte	0x113
  411 0104 09       		.uleb128 0x9
- 412 0105 70020000 		.4byte	.LASF24
+ 412 0105 40020000 		.4byte	.LASF24
  413 0109 01       		.byte	0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 11
 
 
  414 010a 95       		.byte	0x95
@@ -608,7 +608,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  418 0111 77       		.sleb128 -9
  419 0112 00       		.byte	0
  420 0113 0A       		.uleb128 0xa
- 421 0114 84010000 		.4byte	.LASF25
+ 421 0114 54010000 		.4byte	.LASF25
  422 0118 01       		.byte	0x1
  423 0119 14       		.byte	0x14
  424 011a 6B000000 		.4byte	0x6b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  468 0025 03       		.uleb128 0x3
  469 0026 08       		.uleb128 0x8
  470 0027 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 12
 
 
  471 0028 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  525 005f 0B       		.uleb128 0xb
  526 0060 27       		.uleb128 0x27
  527 0061 19       		.uleb128 0x19
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 13
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 13
 
 
  528 0062 11       		.uleb128 0x11
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  582 009a 0E       		.uleb128 0xe
  583 009b 3A       		.uleb128 0x3a
  584 009c 0B       		.uleb128 0xb
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 14
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 14
 
 
  585 009d 3B       		.uleb128 0x3b
@@ -838,150 +838,145 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 1
  634      206C6F6E 
  634      6720696E 
  634      7400
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 15
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 15
 
 
- 635              	.LASF8:
- 636 000e 756E7369 		.ascii	"unsigned int\000"
- 636      676E6564 
- 636      20696E74 
- 636      00
- 637              	.LASF17:
- 638 001b 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Enable\000"
- 638      44414338 
- 638      5F315F42 
- 638      75666641 
- 638      6D705F45 
- 639              	.LASF12:
- 640 0035 75696E74 		.ascii	"uint8\000"
- 640      3800
- 641              	.LASF5:
- 642 003b 6C6F6E67 		.ascii	"long unsigned int\000"
- 642      20756E73 
- 642      69676E65 
- 642      6420696E 
- 642      7400
- 643              	.LASF7:
- 644 004d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 644      206C6F6E 
- 644      6720756E 
- 644      7369676E 
- 644      65642069 
- 645              	.LASF9:
- 646 0064 666C6F61 		.ascii	"float\000"
- 646      7400
- 647              	.LASF22:
- 648 006a 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\Dokumente\\PSoC Creato"
- 648      73657273 
- 648      5C73696C 
- 648      76616E5C 
- 648      4F6E6544 
- 649 0098 725C5053 		.ascii	"r\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MID"
- 649      6F435F41 
- 649      7564696F 
- 649      5F4D4944 
- 649      495C5053 
- 650 00c8 492E6379 		.ascii	"I.cydsn\000"
- 650      64736E00 
- 651              	.LASF19:
- 652 00d0 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Stop\000"
- 652      44414338 
- 652      5F315F42 
- 652      75666641 
- 652      6D705F53 
- 653              	.LASF20:
- 654 00e8 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 654      43313120 
- 654      352E342E 
- 654      31203230 
- 654      31363036 
- 655 011b 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 655      20726576 
- 655      6973696F 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 16
+ 635              	.LASF22:
+ 636 000e 533A5C43 		.ascii	"S:\\CODE 22\\PSOC\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI"
+ 636      4F444520 
+ 636      32325C50 
+ 636      534F435C 
+ 636      50536F43 
+ 637 003d 2E637964 		.ascii	".cydsn\000"
+ 637      736E00
+ 638              	.LASF8:
+ 639 0044 756E7369 		.ascii	"unsigned int\000"
+ 639      676E6564 
+ 639      20696E74 
+ 639      00
+ 640              	.LASF17:
+ 641 0051 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Enable\000"
+ 641      44414338 
+ 641      5F315F42 
+ 641      75666641 
+ 641      6D705F45 
+ 642              	.LASF12:
+ 643 006b 75696E74 		.ascii	"uint8\000"
+ 643      3800
+ 644              	.LASF5:
+ 645 0071 6C6F6E67 		.ascii	"long unsigned int\000"
+ 645      20756E73 
+ 645      69676E65 
+ 645      6420696E 
+ 645      7400
+ 646              	.LASF7:
+ 647 0083 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 647      206C6F6E 
+ 647      6720756E 
+ 647      7369676E 
+ 647      65642069 
+ 648              	.LASF9:
+ 649 009a 666C6F61 		.ascii	"float\000"
+ 649      7400
+ 650              	.LASF19:
+ 651 00a0 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Stop\000"
+ 651      44414338 
+ 651      5F315F42 
+ 651      75666641 
+ 651      6D705F53 
+ 652              	.LASF20:
+ 653 00b8 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 653      43313120 
+ 653      352E342E 
+ 653      31203230 
+ 653      31363036 
+ 654 00eb 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 654      20726576 
+ 654      6973696F 
+ 654      6E203233 
+ 654      37373135 
+ 655 011e 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 655      66756E63 
+ 655      74696F6E 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 16
 
 
- 655      6E203233 
- 655      37373135 
- 656 014e 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 656      66756E63 
- 656      74696F6E 
- 656      2D736563 
- 656      74696F6E 
- 657              	.LASF1:
- 658 0176 756E7369 		.ascii	"unsigned char\000"
- 658      676E6564 
- 658      20636861 
- 658      7200
- 659              	.LASF25:
- 660 0184 57617665 		.ascii	"WaveDAC8_1_BuffAmp_initVar\000"
- 660      44414338 
- 660      5F315F42 
- 660      75666641 
- 660      6D705F69 
- 661              	.LASF11:
- 662 019f 63686172 		.ascii	"char\000"
- 662      00
- 663              	.LASF4:
- 664 01a4 6C6F6E67 		.ascii	"long int\000"
- 664      20696E74 
- 664      00
- 665              	.LASF18:
- 666 01ad 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Start\000"
- 666      44414338 
- 666      5F315F42 
- 666      75666641 
- 666      6D705F53 
- 667              	.LASF2:
- 668 01c6 73686F72 		.ascii	"short int\000"
- 668      7420696E 
- 668      7400
- 669              	.LASF21:
- 670 01d0 47656E65 		.ascii	"Generated_Source\\PSoC5\\WaveDAC8_1_BuffAmp.c\000"
- 670      72617465 
- 670      645F536F 
- 670      75726365 
- 670      5C50536F 
- 671              	.LASF10:
- 672 01fc 646F7562 		.ascii	"double\000"
- 672      6C6500
- 673              	.LASF3:
- 674 0203 73686F72 		.ascii	"short unsigned int\000"
- 674      7420756E 
- 674      7369676E 
- 674      65642069 
- 674      6E7400
- 675              	.LASF0:
- 676 0216 7369676E 		.ascii	"signed char\000"
- 676      65642063 
- 676      68617200 
- 677              	.LASF14:
- 678 0222 6C6F6E67 		.ascii	"long double\000"
- 678      20646F75 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc4rofSG.s 			page 17
+ 655      2D736563 
+ 655      74696F6E 
+ 656              	.LASF1:
+ 657 0146 756E7369 		.ascii	"unsigned char\000"
+ 657      676E6564 
+ 657      20636861 
+ 657      7200
+ 658              	.LASF25:
+ 659 0154 57617665 		.ascii	"WaveDAC8_1_BuffAmp_initVar\000"
+ 659      44414338 
+ 659      5F315F42 
+ 659      75666641 
+ 659      6D705F69 
+ 660              	.LASF11:
+ 661 016f 63686172 		.ascii	"char\000"
+ 661      00
+ 662              	.LASF4:
+ 663 0174 6C6F6E67 		.ascii	"long int\000"
+ 663      20696E74 
+ 663      00
+ 664              	.LASF18:
+ 665 017d 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Start\000"
+ 665      44414338 
+ 665      5F315F42 
+ 665      75666641 
+ 665      6D705F53 
+ 666              	.LASF2:
+ 667 0196 73686F72 		.ascii	"short int\000"
+ 667      7420696E 
+ 667      7400
+ 668              	.LASF21:
+ 669 01a0 47656E65 		.ascii	"Generated_Source\\PSoC5\\WaveDAC8_1_BuffAmp.c\000"
+ 669      72617465 
+ 669      645F536F 
+ 669      75726365 
+ 669      5C50536F 
+ 670              	.LASF10:
+ 671 01cc 646F7562 		.ascii	"double\000"
+ 671      6C6500
+ 672              	.LASF3:
+ 673 01d3 73686F72 		.ascii	"short unsigned int\000"
+ 673      7420756E 
+ 673      7369676E 
+ 673      65642069 
+ 673      6E7400
+ 674              	.LASF0:
+ 675 01e6 7369676E 		.ascii	"signed char\000"
+ 675      65642063 
+ 675      68617200 
+ 676              	.LASF14:
+ 677 01f2 6C6F6E67 		.ascii	"long double\000"
+ 677      20646F75 
+ 677      626C6500 
+ 678              	.LASF23:
+ 679 01fe 57617665 		.ascii	"WaveDAC8_1_BuffAmp_SetPower\000"
+ 679      44414338 
+ 679      5F315F42 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccYp4Ogs.s 			page 17
 
 
- 678      626C6500 
- 679              	.LASF23:
- 680 022e 57617665 		.ascii	"WaveDAC8_1_BuffAmp_SetPower\000"
- 680      44414338 
- 680      5F315F42 
- 680      75666641 
- 680      6D705F53 
- 681              	.LASF13:
- 682 024a 72656738 		.ascii	"reg8\000"
- 682      00
- 683              	.LASF16:
- 684 024f 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Init\000"
- 684      44414338 
- 684      5F315F42 
- 684      75666641 
- 684      6D705F49 
- 685              	.LASF15:
- 686 0267 73697A65 		.ascii	"sizetype\000"
- 686      74797065 
- 686      00
- 687              	.LASF24:
- 688 0270 706F7765 		.ascii	"power\000"
- 688      7200
- 689              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 679      75666641 
+ 679      6D705F53 
+ 680              	.LASF13:
+ 681 021a 72656738 		.ascii	"reg8\000"
+ 681      00
+ 682              	.LASF16:
+ 683 021f 57617665 		.ascii	"WaveDAC8_1_BuffAmp_Init\000"
+ 683      44414338 
+ 683      5F315F42 
+ 683      75666641 
+ 683      6D705F49 
+ 684              	.LASF15:
+ 685 0237 73697A65 		.ascii	"sizetype\000"
+ 685      74797065 
+ 685      00
+ 686              	.LASF24:
+ 687 0240 706F7765 		.ascii	"power\000"
+ 687      7200
+ 688              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

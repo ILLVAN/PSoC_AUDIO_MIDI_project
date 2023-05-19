@@ -600,6 +600,7 @@ int main(){
             case 0: 
                 if (lastMode != mode){
                     WaveDAC8_1_Start();
+                    WaveDAC8_2_Start();
                 }
                 playRange(noteIndex,90,120); // set min index, max Index, delay [ms]
                 longSweep();
@@ -607,6 +608,7 @@ int main(){
             case 1:
                 if (lastMode != mode){
                     WaveDAC8_1_Start();
+                    WaveDAC8_2_Start();
                 }
                 distanceEchoPitch();        
                 break;
@@ -633,6 +635,7 @@ int main(){
                     Clock_1_SetDividerValue(250000 / (intFrequency[button3]+pitch[0]/50));
                 } else  {
                     WaveDAC8_1_Stop();
+                    WaveDAC8_2_Stop();
                 }
                 break;
             default:

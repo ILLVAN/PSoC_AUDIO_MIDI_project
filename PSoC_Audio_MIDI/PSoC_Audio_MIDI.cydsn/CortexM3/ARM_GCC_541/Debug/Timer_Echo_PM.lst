@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
   23:Generated_Source\PSoC5/Timer_Echo_PM.c **** 
   24:Generated_Source\PSoC5/Timer_Echo_PM.c **** /*******************************************************************************
   25:Generated_Source\PSoC5/Timer_Echo_PM.c **** * Function Name: Timer_Echo_SaveConfig
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 2
 
 
   26:Generated_Source\PSoC5/Timer_Echo_PM.c **** ********************************************************************************
@@ -118,13 +118,13 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
   55 001a 00BF     		nop
   56 001c 80BD     		pop	{r7, pc}
   57              	.L3:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 3
 
 
   58 001e 00BF     		.align	2
   59              	.L2:
   60 0020 00000000 		.word	Timer_Echo_backup
-  61 0024 83640040 		.word	1073767555
+  61 0024 86650040 		.word	1073767814
   62              		.cfi_endproc
   63              	.LFE0:
   64              		.size	Timer_Echo_SaveConfig, .-Timer_Echo_SaveConfig
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
   87 000a FFF7FEFF 		bl	Timer_Echo_WriteCounter
   82:Generated_Source\PSoC5/Timer_Echo_PM.c ****         Timer_Echo_STATUS_MASK =Timer_Echo_backup.InterruptMaskValue;
   88              		.loc 1 82 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 4
 
 
   89 000e 044B     		ldr	r3, .L5+4
@@ -201,7 +201,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
   97 001a 00BF     		.align	2
   98              	.L5:
   99 001c 00000000 		.word	Timer_Echo_backup
- 100 0020 83640040 		.word	1073767555
+ 100 0020 86650040 		.word	1073767814
  101              		.cfi_endproc
  102              	.LFE1:
  103              		.size	Timer_Echo_RestoreConfig, .-Timer_Echo_RestoreConfig
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  112              		.loc 1 113 0
  113              		.cfi_startproc
  114              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 5
 
 
  115              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  143:Generated_Source\PSoC5/Timer_Echo_PM.c **** *  void
  144:Generated_Source\PSoC5/Timer_Echo_PM.c **** *
  145:Generated_Source\PSoC5/Timer_Echo_PM.c **** * Global variables:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 6
 
 
  146:Generated_Source\PSoC5/Timer_Echo_PM.c **** *  Timer_Echo_backup.enableState:  Is used to restore the enable state of
@@ -344,40 +344,40 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  166 0006 00000000 		.4byte	.Ldebug_abbrev0
  167 000a 04       		.byte	0x4
  168 000b 01       		.uleb128 0x1
- 169 000c 22010000 		.4byte	.LASF25
+ 169 000c F2000000 		.4byte	.LASF25
  170 0010 0C       		.byte	0xc
- 171 0011 1B000000 		.4byte	.LASF26
- 172 0015 A5000000 		.4byte	.LASF27
+ 171 0011 51000000 		.4byte	.LASF26
+ 172 0015 0E000000 		.4byte	.LASF27
  173 0019 00000000 		.4byte	.Ldebug_ranges0+0
  174 001d 00000000 		.4byte	0
  175 0021 00000000 		.4byte	.Ldebug_line0
  176 0025 02       		.uleb128 0x2
  177 0026 01       		.byte	0x1
  178 0027 06       		.byte	0x6
- 179 0028 15020000 		.4byte	.LASF0
+ 179 0028 E5010000 		.4byte	.LASF0
  180 002c 02       		.uleb128 0x2
  181 002d 01       		.byte	0x1
  182 002e 08       		.byte	0x8
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 7
 
 
- 183 002f B0010000 		.4byte	.LASF1
+ 183 002f 80010000 		.4byte	.LASF1
  184 0033 02       		.uleb128 0x2
  185 0034 02       		.byte	0x2
  186 0035 05       		.byte	0x5
- 187 0036 72000000 		.4byte	.LASF2
+ 187 0036 A8000000 		.4byte	.LASF2
  188 003a 02       		.uleb128 0x2
  189 003b 02       		.byte	0x2
  190 003c 07       		.byte	0x7
- 191 003d 02020000 		.4byte	.LASF3
+ 191 003d D2010000 		.4byte	.LASF3
  192 0041 02       		.uleb128 0x2
  193 0042 04       		.byte	0x4
  194 0043 05       		.byte	0x5
- 195 0044 C3010000 		.4byte	.LASF4
+ 195 0044 93010000 		.4byte	.LASF4
  196 0048 02       		.uleb128 0x2
  197 0049 04       		.byte	0x4
  198 004a 07       		.byte	0x7
- 199 004b 60000000 		.4byte	.LASF5
+ 199 004b 96000000 		.4byte	.LASF5
  200 004f 02       		.uleb128 0x2
  201 0050 08       		.byte	0x8
  202 0051 05       		.byte	0x5
@@ -385,7 +385,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  204 0056 02       		.uleb128 0x2
  205 0057 08       		.byte	0x8
  206 0058 07       		.byte	0x7
- 207 0059 7C000000 		.4byte	.LASF7
+ 207 0059 B2000000 		.4byte	.LASF7
  208 005d 03       		.uleb128 0x3
  209 005e 04       		.byte	0x4
  210 005f 05       		.byte	0x5
@@ -393,32 +393,32 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  212 0064 02       		.uleb128 0x2
  213 0065 04       		.byte	0x4
  214 0066 07       		.byte	0x7
- 215 0067 0E000000 		.4byte	.LASF8
+ 215 0067 44000000 		.4byte	.LASF8
  216 006b 04       		.uleb128 0x4
- 217 006c 5A000000 		.4byte	.LASF9
+ 217 006c 90000000 		.4byte	.LASF9
  218 0070 02       		.byte	0x2
  219 0071 9201     		.2byte	0x192
  220 0073 2C000000 		.4byte	0x2c
  221 0077 04       		.uleb128 0x4
- 222 0078 5E020000 		.4byte	.LASF10
+ 222 0078 2E020000 		.4byte	.LASF10
  223 007c 02       		.byte	0x2
  224 007d 9301     		.2byte	0x193
  225 007f 3A000000 		.4byte	0x3a
  226 0083 02       		.uleb128 0x2
  227 0084 04       		.byte	0x4
  228 0085 04       		.byte	0x4
- 229 0086 0B010000 		.4byte	.LASF11
+ 229 0086 DB000000 		.4byte	.LASF11
  230 008a 02       		.uleb128 0x2
  231 008b 08       		.byte	0x8
  232 008c 04       		.byte	0x4
- 233 008d D1010000 		.4byte	.LASF12
+ 233 008d A1010000 		.4byte	.LASF12
  234 0091 02       		.uleb128 0x2
  235 0092 01       		.byte	0x1
  236 0093 08       		.byte	0x8
- 237 0094 BE010000 		.4byte	.LASF13
+ 237 0094 8E010000 		.4byte	.LASF13
  238 0098 04       		.uleb128 0x4
- 239 0099 CC010000 		.4byte	.LASF14
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 8
+ 239 0099 9C010000 		.4byte	.LASF14
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 8
 
 
  240 009d 02       		.byte	0x2
@@ -429,42 +429,42 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  245 00a9 02       		.uleb128 0x2
  246 00aa 08       		.byte	0x8
  247 00ab 04       		.byte	0x4
- 248 00ac 33020000 		.4byte	.LASF15
+ 248 00ac 03020000 		.4byte	.LASF15
  249 00b0 02       		.uleb128 0x2
  250 00b1 04       		.byte	0x4
  251 00b2 07       		.byte	0x7
- 252 00b3 78020000 		.4byte	.LASF16
+ 252 00b3 48020000 		.4byte	.LASF16
  253 00b7 06       		.uleb128 0x6
  254 00b8 06       		.byte	0x6
  255 00b9 03       		.byte	0x3
  256 00ba 43       		.byte	0x43
  257 00bb E4000000 		.4byte	0xe4
  258 00bf 07       		.uleb128 0x7
- 259 00c0 11010000 		.4byte	.LASF17
+ 259 00c0 E1000000 		.4byte	.LASF17
  260 00c4 03       		.byte	0x3
  261 00c5 45       		.byte	0x45
  262 00c6 6B000000 		.4byte	0x6b
  263 00ca 00       		.byte	0
  264 00cb 07       		.uleb128 0x7
- 265 00cc 55020000 		.4byte	.LASF18
+ 265 00cc 25020000 		.4byte	.LASF18
  266 00d0 03       		.byte	0x3
  267 00d1 48       		.byte	0x48
  268 00d2 77000000 		.4byte	0x77
  269 00d6 02       		.byte	0x2
  270 00d7 07       		.uleb128 0x7
- 271 00d8 65020000 		.4byte	.LASF19
+ 271 00d8 35020000 		.4byte	.LASF19
  272 00dc 03       		.byte	0x3
  273 00dd 49       		.byte	0x49
  274 00de 6B000000 		.4byte	0x6b
  275 00e2 04       		.byte	0x4
  276 00e3 00       		.byte	0
  277 00e4 08       		.uleb128 0x8
- 278 00e5 42000000 		.4byte	.LASF20
+ 278 00e5 78000000 		.4byte	.LASF20
  279 00e9 03       		.byte	0x3
  280 00ea 53       		.byte	0x53
  281 00eb B7000000 		.4byte	0xb7
  282 00ef 09       		.uleb128 0x9
- 283 00f0 3F020000 		.4byte	.LASF21
+ 283 00f0 0F020000 		.4byte	.LASF21
  284 00f4 01       		.byte	0x1
  285 00f5 2B       		.byte	0x2b
  286 00f6 00000000 		.4byte	.LFB0
@@ -472,18 +472,18 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  288 00fe 01       		.uleb128 0x1
  289 00ff 9C       		.byte	0x9c
  290 0100 09       		.uleb128 0x9
- 291 0101 D8010000 		.4byte	.LASF22
+ 291 0101 A8010000 		.4byte	.LASF22
  292 0105 01       		.byte	0x1
  293 0106 4D       		.byte	0x4d
  294 0107 00000000 		.4byte	.LFB1
  295 010b 24000000 		.4byte	.LFE1-.LFB1
  296 010f 01       		.uleb128 0x1
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 9
 
 
  297 0110 9C       		.byte	0x9c
  298 0111 09       		.uleb128 0x9
- 299 0112 F1010000 		.4byte	.LASF23
+ 299 0112 C1010000 		.4byte	.LASF23
  300 0116 01       		.byte	0x1
  301 0117 70       		.byte	0x70
  302 0118 00000000 		.4byte	.LFB2
@@ -491,7 +491,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  304 0120 01       		.uleb128 0x1
  305 0121 9C       		.byte	0x9c
  306 0122 09       		.uleb128 0x9
- 307 0123 93000000 		.4byte	.LASF24
+ 307 0123 C9000000 		.4byte	.LASF24
  308 0127 01       		.byte	0x1
  309 0128 96       		.byte	0x96
  310 0129 00000000 		.4byte	.LFB3
@@ -499,7 +499,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  312 0131 01       		.uleb128 0x1
  313 0132 9C       		.byte	0x9c
  314 0133 0A       		.uleb128 0xa
- 315 0134 21020000 		.4byte	.LASF28
+ 315 0134 F1010000 		.4byte	.LASF28
  316 0138 01       		.byte	0x1
  317 0139 15       		.byte	0x15
  318 013a E4000000 		.4byte	0xe4
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  351 001a 03       		.uleb128 0x3
  352 001b 0E       		.uleb128 0xe
  353 001c 00       		.byte	0
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 10
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 10
 
 
  354 001d 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  408 0053 49       		.uleb128 0x49
  409 0054 13       		.uleb128 0x13
  410 0055 38       		.uleb128 0x38
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 11
 
 
  411 0056 0B       		.uleb128 0xb
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  465 008d 00       		.byte	0
  466              		.section	.debug_aranges,"",%progbits
  467 0000 34000000 		.4byte	0x34
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 12
 
 
  468 0004 0200     		.2byte	0x2
@@ -701,166 +701,161 @@ ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 1
  500      206C6F6E 
  500      6720696E 
  500      7400
- 501              	.LASF8:
- 502 000e 756E7369 		.ascii	"unsigned int\000"
- 502      676E6564 
- 502      20696E74 
- 502      00
- 503              	.LASF26:
- 504 001b 47656E65 		.ascii	"Generated_Source\\PSoC5\\Timer_Echo_PM.c\000"
- 504      72617465 
- 504      645F536F 
- 504      75726365 
- 504      5C50536F 
- 505              	.LASF20:
- 506 0042 54696D65 		.ascii	"Timer_Echo_backupStruct\000"
- 506      725F4563 
- 506      686F5F62 
- 506      61636B75 
- 506      70537472 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 13
+ 501              	.LASF27:
+ 502 000e 533A5C43 		.ascii	"S:\\CODE 22\\PSOC\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI"
+ 502      4F444520 
+ 502      32325C50 
+ 502      534F435C 
+ 502      50536F43 
+ 503 003d 2E637964 		.ascii	".cydsn\000"
+ 503      736E00
+ 504              	.LASF8:
+ 505 0044 756E7369 		.ascii	"unsigned int\000"
+ 505      676E6564 
+ 505      20696E74 
+ 505      00
+ 506              	.LASF26:
+ 507 0051 47656E65 		.ascii	"Generated_Source\\PSoC5\\Timer_Echo_PM.c\000"
+ 507      72617465 
+ 507      645F536F 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 13
 
 
- 507              	.LASF9:
- 508 005a 75696E74 		.ascii	"uint8\000"
- 508      3800
- 509              	.LASF5:
- 510 0060 6C6F6E67 		.ascii	"long unsigned int\000"
- 510      20756E73 
- 510      69676E65 
- 510      6420696E 
- 510      7400
- 511              	.LASF2:
- 512 0072 73686F72 		.ascii	"short int\000"
- 512      7420696E 
- 512      7400
- 513              	.LASF7:
- 514 007c 6C6F6E67 		.ascii	"long long unsigned int\000"
- 514      206C6F6E 
- 514      6720756E 
- 514      7369676E 
- 514      65642069 
- 515              	.LASF24:
- 516 0093 54696D65 		.ascii	"Timer_Echo_Wakeup\000"
- 516      725F4563 
- 516      686F5F57 
- 516      616B6575 
- 516      7000
- 517              	.LASF27:
- 518 00a5 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\Dokumente\\PSoC Creato"
- 518      73657273 
- 518      5C73696C 
- 518      76616E5C 
- 518      4F6E6544 
- 519 00d3 725C5053 		.ascii	"r\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MID"
- 519      6F435F41 
- 519      7564696F 
- 519      5F4D4944 
- 519      495C5053 
- 520 0103 492E6379 		.ascii	"I.cydsn\000"
- 520      64736E00 
- 521              	.LASF11:
- 522 010b 666C6F61 		.ascii	"float\000"
- 522      7400
- 523              	.LASF17:
- 524 0111 54696D65 		.ascii	"TimerEnableState\000"
- 524      72456E61 
- 524      626C6553 
- 524      74617465 
- 524      00
- 525              	.LASF25:
- 526 0122 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 526      43313120 
- 526      352E342E 
- 526      31203230 
- 526      31363036 
- 527 0155 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 527      20726576 
- 527      6973696F 
- 527      6E203233 
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 14
+ 507      75726365 
+ 507      5C50536F 
+ 508              	.LASF20:
+ 509 0078 54696D65 		.ascii	"Timer_Echo_backupStruct\000"
+ 509      725F4563 
+ 509      686F5F62 
+ 509      61636B75 
+ 509      70537472 
+ 510              	.LASF9:
+ 511 0090 75696E74 		.ascii	"uint8\000"
+ 511      3800
+ 512              	.LASF5:
+ 513 0096 6C6F6E67 		.ascii	"long unsigned int\000"
+ 513      20756E73 
+ 513      69676E65 
+ 513      6420696E 
+ 513      7400
+ 514              	.LASF2:
+ 515 00a8 73686F72 		.ascii	"short int\000"
+ 515      7420696E 
+ 515      7400
+ 516              	.LASF7:
+ 517 00b2 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 517      206C6F6E 
+ 517      6720756E 
+ 517      7369676E 
+ 517      65642069 
+ 518              	.LASF24:
+ 519 00c9 54696D65 		.ascii	"Timer_Echo_Wakeup\000"
+ 519      725F4563 
+ 519      686F5F57 
+ 519      616B6575 
+ 519      7000
+ 520              	.LASF11:
+ 521 00db 666C6F61 		.ascii	"float\000"
+ 521      7400
+ 522              	.LASF17:
+ 523 00e1 54696D65 		.ascii	"TimerEnableState\000"
+ 523      72456E61 
+ 523      626C6553 
+ 523      74617465 
+ 523      00
+ 524              	.LASF25:
+ 525 00f2 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 525      43313120 
+ 525      352E342E 
+ 525      31203230 
+ 525      31363036 
+ 526 0125 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 526      20726576 
+ 526      6973696F 
+ 526      6E203233 
+ 526      37373135 
+ 527 0158 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 527      66756E63 
+ 527      74696F6E 
+ 527      2D736563 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 14
 
 
- 527      37373135 
- 528 0188 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 528      66756E63 
- 528      74696F6E 
- 528      2D736563 
- 528      74696F6E 
- 529              	.LASF1:
- 530 01b0 756E7369 		.ascii	"unsigned char\000"
- 530      676E6564 
- 530      20636861 
- 530      7200
- 531              	.LASF13:
- 532 01be 63686172 		.ascii	"char\000"
- 532      00
- 533              	.LASF4:
- 534 01c3 6C6F6E67 		.ascii	"long int\000"
- 534      20696E74 
- 534      00
- 535              	.LASF14:
- 536 01cc 72656738 		.ascii	"reg8\000"
- 536      00
- 537              	.LASF12:
- 538 01d1 646F7562 		.ascii	"double\000"
- 538      6C6500
- 539              	.LASF22:
- 540 01d8 54696D65 		.ascii	"Timer_Echo_RestoreConfig\000"
- 540      725F4563 
- 540      686F5F52 
- 540      6573746F 
- 540      7265436F 
- 541              	.LASF23:
- 542 01f1 54696D65 		.ascii	"Timer_Echo_Sleep\000"
- 542      725F4563 
- 542      686F5F53 
- 542      6C656570 
- 542      00
- 543              	.LASF3:
- 544 0202 73686F72 		.ascii	"short unsigned int\000"
- 544      7420756E 
- 544      7369676E 
- 544      65642069 
- 544      6E7400
- 545              	.LASF0:
- 546 0215 7369676E 		.ascii	"signed char\000"
- 546      65642063 
- 546      68617200 
- 547              	.LASF28:
- 548 0221 54696D65 		.ascii	"Timer_Echo_backup\000"
- 548      725F4563 
- 548      686F5F62 
- 548      61636B75 
- 548      7000
- 549              	.LASF15:
- 550 0233 6C6F6E67 		.ascii	"long double\000"
- 550      20646F75 
- 550      626C6500 
- 551              	.LASF21:
-ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc5Acz8M.s 			page 15
+ 527      74696F6E 
+ 528              	.LASF1:
+ 529 0180 756E7369 		.ascii	"unsigned char\000"
+ 529      676E6564 
+ 529      20636861 
+ 529      7200
+ 530              	.LASF13:
+ 531 018e 63686172 		.ascii	"char\000"
+ 531      00
+ 532              	.LASF4:
+ 533 0193 6C6F6E67 		.ascii	"long int\000"
+ 533      20696E74 
+ 533      00
+ 534              	.LASF14:
+ 535 019c 72656738 		.ascii	"reg8\000"
+ 535      00
+ 536              	.LASF12:
+ 537 01a1 646F7562 		.ascii	"double\000"
+ 537      6C6500
+ 538              	.LASF22:
+ 539 01a8 54696D65 		.ascii	"Timer_Echo_RestoreConfig\000"
+ 539      725F4563 
+ 539      686F5F52 
+ 539      6573746F 
+ 539      7265436F 
+ 540              	.LASF23:
+ 541 01c1 54696D65 		.ascii	"Timer_Echo_Sleep\000"
+ 541      725F4563 
+ 541      686F5F53 
+ 541      6C656570 
+ 541      00
+ 542              	.LASF3:
+ 543 01d2 73686F72 		.ascii	"short unsigned int\000"
+ 543      7420756E 
+ 543      7369676E 
+ 543      65642069 
+ 543      6E7400
+ 544              	.LASF0:
+ 545 01e5 7369676E 		.ascii	"signed char\000"
+ 545      65642063 
+ 545      68617200 
+ 546              	.LASF28:
+ 547 01f1 54696D65 		.ascii	"Timer_Echo_backup\000"
+ 547      725F4563 
+ 547      686F5F62 
+ 547      61636B75 
+ 547      7000
+ 548              	.LASF15:
+ 549 0203 6C6F6E67 		.ascii	"long double\000"
+ 549      20646F75 
+ 549      626C6500 
+ 550              	.LASF21:
+ 551 020f 54696D65 		.ascii	"Timer_Echo_SaveConfig\000"
+ 551      725F4563 
+ 551      686F5F53 
+ 551      61766543 
+ 551      6F6E6669 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccKAuD0y.s 			page 15
 
 
- 552 023f 54696D65 		.ascii	"Timer_Echo_SaveConfig\000"
- 552      725F4563 
- 552      686F5F53 
- 552      61766543 
- 552      6F6E6669 
- 553              	.LASF18:
- 554 0255 54696D65 		.ascii	"TimerUdb\000"
- 554      72556462 
- 554      00
- 555              	.LASF10:
- 556 025e 75696E74 		.ascii	"uint16\000"
- 556      313600
- 557              	.LASF19:
- 558 0265 496E7465 		.ascii	"InterruptMaskValue\000"
- 558      72727570 
- 558      744D6173 
- 558      6B56616C 
- 558      756500
- 559              	.LASF16:
- 560 0278 73697A65 		.ascii	"sizetype\000"
- 560      74797065 
- 560      00
- 561              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 552              	.LASF18:
+ 553 0225 54696D65 		.ascii	"TimerUdb\000"
+ 553      72556462 
+ 553      00
+ 554              	.LASF10:
+ 555 022e 75696E74 		.ascii	"uint16\000"
+ 555      313600
+ 556              	.LASF19:
+ 557 0235 496E7465 		.ascii	"InterruptMaskValue\000"
+ 557      72727570 
+ 557      744D6173 
+ 557      6B56616C 
+ 557      756500
+ 558              	.LASF16:
+ 559 0248 73697A65 		.ascii	"sizetype\000"
+ 559      74797065 
+ 559      00
+ 560              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

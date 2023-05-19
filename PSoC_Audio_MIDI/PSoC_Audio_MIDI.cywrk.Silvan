@@ -40,6 +40,9 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_1</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>PSoC_Audio_MIDI</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\TopDesign</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydwr</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydwr\Pins</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydwr\Analog</v>
@@ -91,13 +94,10 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\isr_Echo</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\isr_updateESP</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\P00_Vout</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_1</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_1</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_1\Pin_Dice_1.c</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_1\Pin_Dice_1.h</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_1\Pin_Dice_1_aliases.h</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_2</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_LED_1</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_LED_2</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -171,6 +171,7 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_updateESP.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\P00_Vout.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_1.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_2.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_LED_1.lst</v>
@@ -204,6 +205,14 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_VDAC8_PM.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_Wave1_DMA_dma.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_Wave2_DMA_dma.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2_BuffAmp.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2_BuffAmp_PM.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2_PM.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2_VDAC8.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2_VDAC8_PM.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2_Wave1_DMA_dma.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_2_Wave2_DMA_dma.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.elf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.hex</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.map</v>
@@ -267,9 +276,9 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_updateESP.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\P00_Vout.lst</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_1.lst</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_LED_1.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -287,6 +296,7 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides\cy_boot_v5_60</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ADC_DelSig_v3_30.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\AMux_v1_80.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Connector20_v1_0.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\cy_clock_v2_20</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\cy_isr_v1_71</v>
@@ -298,11 +308,14 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Gnd_v1_0</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\I2C_v3_50.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Speaker_v1_0.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\SwitchSPST_v1_0.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Timer_v2_80</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Timer_v2_80\Timer_v2_80.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\UART_v2_50</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\UART_v2_50\UART_v2_50.pdf</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\WaveDAC8_v2_10.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\WaveDAC8_v2_10</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\WaveDAC8_v2_10\WaveDAC8_v2_10.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ZeroTerminal</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ZeroTerminal\ZeroTerminal.pdf</v>
 </ExpandedNodeIds>
@@ -315,6 +328,7 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides\cy_boot_v5_60</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ADC_DelSig_v3_30.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\AMux_v1_80.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Connector20_v1_0.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\cy_clock_v2_20</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\cy_isr_v1_71</v>
@@ -326,11 +340,14 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Gnd_v1_0</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\I2C_v3_50.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Speaker_v1_0.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\SwitchSPST_v1_0.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Timer_v2_80</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Timer_v2_80\Timer_v2_80.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\UART_v2_50</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\UART_v2_50\UART_v2_50.pdf</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\WaveDAC8_v2_10.pdf</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\WaveDAC8_v2_10</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\WaveDAC8_v2_10\WaveDAC8_v2_10.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ZeroTerminal</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ZeroTerminal\ZeroTerminal.pdf</v>
 </VisibleNodeIds>
@@ -379,11 +396,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\PSoC_Audio_MIDI.cydsn\main.c" />
-<name v=".\PSoC_Audio_MIDI.cydsn\ssd1306.c" />
-<name v=".\PSoC_Audio_MIDI.cydsn\ssd1306.h" />
-<name v=".\PSoC_Audio_MIDI.cydsn\font.h" />
 <name v=".\PSoC_Audio_MIDI.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\PSoC_Audio_MIDI.cydsn\ssd1306.c" />
+<name v=".\PSoC_Audio_MIDI.cydsn\main.c" />
 <name v=".\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
@@ -392,7 +407,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1733, 900" SelectedTabbedMdiWindow="d16b1761-7eeb-4ef3-8e02-fddd0c4d31a1"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\main.c" Guid="8cfa5ee8-e030-4fd9-ae3d-e9c3088dbc3f" /><DocumentWindow Key="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\ssd1306.c" Guid="a8fd7d80-00a0-41ef-9377-677a2f2ecba7" /><DocumentWindow Key="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\ssd1306.h" Guid="69231573-b522-4a13-add3-963ac8d5d938" /><DocumentWindow Key="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\font.h" Guid="cf18638f-5b6c-4f53-be22-6b37dd176f13" /><DocumentWindow Key="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\TopDesign\TopDesign.cysch" Guid="d16b1761-7eeb-4ef3-8e02-fddd0c4d31a1" /><DocumentWindow Key="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cydwr" Guid="38750434-6695-4f22-b215-8ed67c9dc563" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1733, 900" SelectedTabbedMdiWindow="31d2729d-e18d-4d76-8830-6c740565e4e4"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\TopDesign\TopDesign.cysch" Guid="e7681447-db3f-4f2f-b0f0-216c983e7483" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\ssd1306.c" Guid="615e4391-af40-4bf9-92ec-4017205d07d6" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\main.c" Guid="31d2729d-e18d-4d76-8830-6c740565e4e4" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cydwr" Guid="8278054b-332c-451b-9ada-d13ff1459de5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
