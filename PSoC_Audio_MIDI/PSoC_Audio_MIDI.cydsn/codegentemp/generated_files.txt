@@ -105,6 +105,32 @@
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Echo_PM.c" value="SOURCE_C;CortexM3;;;;Timer_Echo" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_Echo.c" value="SOURCE_C;CortexM3;;;;isr_Echo" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_Echo.h" value="HEADER;;;;;isr_Echo" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SDA_1_aliases.h" value="HEADER;;;;;SDA_1" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SDA_1.c" value="SOURCE_C;CortexM3;;;;SDA_1" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SDA_1.h" value="HEADER;;;;;SDA_1" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SCL_1_aliases.h" value="HEADER;;;;;SCL_1" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SCL_1.c" value="SOURCE_C;CortexM3;;;;SCL_1" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SCL_1.h" value="HEADER;;;;;SCL_1" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM3;;;;Clock_2" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED.h" value="HEADER;;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED_BOOT.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED_INT.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED_PM.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED_SLAVE.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED_MASTER.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED_PVT.h" value="HEADER;;;;;I2COLED" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_updateESP.c" value="SOURCE_C;CortexM3;;;;isr_updateESP" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\isr_updateESP.h" value="HEADER;;;;;isr_updateESP" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Display.c" value="SOURCE_C;CortexM3;;;;Timer_Display" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Display.h" value="HEADER;;;;;Timer_Display" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Display_PM.c" value="SOURCE_C;CortexM3;;;;Timer_Display" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP.c" value="SOURCE_C;CortexM3;;;;UART_TOESP" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP.h" value="HEADER;;;;;UART_TOESP" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_PM.c" value="SOURCE_C;CortexM3;;;;UART_TOESP" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_INT.c" value="SOURCE_C;CortexM3;;;;UART_TOESP" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_BOOT.c" value="SOURCE_C;CortexM3;;;;UART_TOESP" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_IntClock.c" value="SOURCE_C;CortexM3;;;;UART_1_IntClock" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_IntClock.h" value="HEADER;;;;;UART_1_IntClock" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave1_DMA" />
@@ -125,6 +151,8 @@
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogADC_IRQ.h" value="HEADER;;;;;analogADC_IRQ" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogADC_theACLK.c" value="SOURCE_C;CortexM3;;;;analogADC_theACLK" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\analogADC_theACLK.h" value="HEADER;;;;;analogADC_theACLK" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_IntClock.c" value="SOURCE_C;CortexM3;;;;UART_TOESP_IntClock" />
+  <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_IntClock.h" value="HEADER;;;;;UART_TOESP_IntClock" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\cm3gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Cm3RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="C:\Users\silvan\OneDrive\Dokumente\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Cm3Start.c" value="SOURCE_C;CortexM3;;;;cy_boot" />
