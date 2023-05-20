@@ -61,9 +61,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cydisabledsheets.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\P00_Vout_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\P00_Vout.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\P00_Vout.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\WaveDAC8_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\WaveDAC8_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\WaveDAC8_1_PM.c</File>
@@ -136,11 +133,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_Mode.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_Mode.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_Mode_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_Mode.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_Mode.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\but1.h</File>
@@ -245,6 +237,26 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\WaveDAC8_2_BuffAmp.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\WaveDAC8_2_BuffAmp.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\WaveDAC8_2_BuffAmp_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_OLED.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_OLED.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ1_LED_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ1_LED.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ1_LED.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ2_LED_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ2_LED.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_OSZ2_LED.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Export\ARM_GCC_Generic">

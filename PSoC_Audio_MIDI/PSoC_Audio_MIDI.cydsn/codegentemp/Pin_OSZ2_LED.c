@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: P00_Vout.c  
+* File Name: Pin_OSZ2_LED.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "P00_Vout.h"
+#include "Pin_OSZ2_LED.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 P00_Vout__PORT == 15 && ((P00_Vout__MASK & 0xC0) != 0))
+	 Pin_OSZ2_LED__PORT == 15 && ((Pin_OSZ2_LED__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: P00_Vout_Write
+* Function Name: Pin_OSZ2_LED_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet P00_Vout_SUT.c usage_P00_Vout_Write
+*  \snippet Pin_OSZ2_LED_SUT.c usage_Pin_OSZ2_LED_Write
 *******************************************************************************/
-void P00_Vout_Write(uint8 value)
+void Pin_OSZ2_LED_Write(uint8 value)
 {
-    uint8 staticBits = (P00_Vout_DR & (uint8)(~P00_Vout_MASK));
-    P00_Vout_DR = staticBits | ((uint8)(value << P00_Vout_SHIFT) & P00_Vout_MASK);
+    uint8 staticBits = (Pin_OSZ2_LED_DR & (uint8)(~Pin_OSZ2_LED_MASK));
+    Pin_OSZ2_LED_DR = staticBits | ((uint8)(value << Pin_OSZ2_LED_SHIFT) & Pin_OSZ2_LED_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: P00_Vout_SetDriveMode
+* Function Name: Pin_OSZ2_LED_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void P00_Vout_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet P00_Vout_SUT.c usage_P00_Vout_SetDriveMode
+*  \snippet Pin_OSZ2_LED_SUT.c usage_Pin_OSZ2_LED_SetDriveMode
 *******************************************************************************/
-void P00_Vout_SetDriveMode(uint8 mode)
+void Pin_OSZ2_LED_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(P00_Vout_0, mode);
+	CyPins_SetPinDriveMode(Pin_OSZ2_LED_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: P00_Vout_Read
+* Function Name: Pin_OSZ2_LED_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void P00_Vout_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet P00_Vout_SUT.c usage_P00_Vout_Read  
+*  \snippet Pin_OSZ2_LED_SUT.c usage_Pin_OSZ2_LED_Read  
 *******************************************************************************/
-uint8 P00_Vout_Read(void)
+uint8 Pin_OSZ2_LED_Read(void)
 {
-    return (P00_Vout_PS & P00_Vout_MASK) >> P00_Vout_SHIFT;
+    return (Pin_OSZ2_LED_PS & Pin_OSZ2_LED_MASK) >> Pin_OSZ2_LED_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: P00_Vout_ReadDataReg
+* Function Name: Pin_OSZ2_LED_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 P00_Vout_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred P00_Vout_Read() API because the 
-* P00_Vout_ReadDataReg() reads the data register instead of the status 
+* preferred Pin_OSZ2_LED_Read() API because the 
+* Pin_OSZ2_LED_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 P00_Vout_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet P00_Vout_SUT.c usage_P00_Vout_ReadDataReg 
+*  \snippet Pin_OSZ2_LED_SUT.c usage_Pin_OSZ2_LED_ReadDataReg 
 *******************************************************************************/
-uint8 P00_Vout_ReadDataReg(void)
+uint8 Pin_OSZ2_LED_ReadDataReg(void)
 {
-    return (P00_Vout_DR & P00_Vout_MASK) >> P00_Vout_SHIFT;
+    return (Pin_OSZ2_LED_DR & Pin_OSZ2_LED_MASK) >> Pin_OSZ2_LED_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(P00_Vout_INTSTAT) 
+#if defined(Pin_OSZ2_LED_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: P00_Vout_SetInterruptMode
+    * Function Name: Pin_OSZ2_LED_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 P00_Vout_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use P00_Vout_INTR_ALL to configure the
+    *  component. Or you may use Pin_OSZ2_LED_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - P00_Vout_0_INTR       (First pin in the list)
-    *  - P00_Vout_1_INTR       (Second pin in the list)
+    *  - Pin_OSZ2_LED_0_INTR       (First pin in the list)
+    *  - Pin_OSZ2_LED_1_INTR       (Second pin in the list)
     *  - ...
-    *  - P00_Vout_INTR_ALL     (All pins in Pins component)
+    *  - Pin_OSZ2_LED_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 P00_Vout_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet P00_Vout_SUT.c usage_P00_Vout_SetInterruptMode
+    *  \snippet Pin_OSZ2_LED_SUT.c usage_Pin_OSZ2_LED_SetInterruptMode
     *******************************************************************************/
-    void P00_Vout_SetInterruptMode(uint16 position, uint16 mode)
+    void Pin_OSZ2_LED_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & P00_Vout_0_INTR) != 0u) 
+		if((position & Pin_OSZ2_LED_0_INTR) != 0u) 
 		{ 
-			 P00_Vout_0_INTTYPE_REG = (uint8)mode; 
+			 Pin_OSZ2_LED_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: P00_Vout_ClearInterrupt
+    * Function Name: Pin_OSZ2_LED_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 P00_Vout_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet P00_Vout_SUT.c usage_P00_Vout_ClearInterrupt
+    *  \snippet Pin_OSZ2_LED_SUT.c usage_Pin_OSZ2_LED_ClearInterrupt
     *******************************************************************************/
-    uint8 P00_Vout_ClearInterrupt(void)
+    uint8 Pin_OSZ2_LED_ClearInterrupt(void)
     {
-        return (P00_Vout_INTSTAT & P00_Vout_MASK) >> P00_Vout_SHIFT;
+        return (Pin_OSZ2_LED_INTSTAT & Pin_OSZ2_LED_MASK) >> Pin_OSZ2_LED_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 

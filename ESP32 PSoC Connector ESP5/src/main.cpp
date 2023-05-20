@@ -217,7 +217,7 @@ const String cScaleShorts[6][8] = {
 
 
 hw_timer_t *displayTimer = NULL;
-const int capacity = 150;         // ca JSON_OBJECT_SIZE(xmembers) + x*JSON_OBJECT_SIZE(1member);
+const int capacity = 180;         // ca JSON_OBJECT_SIZE(xmembers) + x*JSON_OBJECT_SIZE(1member);
 StaticJsonDocument<capacity> JSONrec;
 
 volatile boolean dataToDisplay = 1;
@@ -234,6 +234,7 @@ uint8_t recRoot2display;
 uint8_t recNote2display;
 uint8_t recGroup2display;
 uint8_t recScale2display;
+int8_t recOffset2display;
 
 
 volatile uint8_t cScaleGroupSelect = 100;                                 // 0 world penta | 1 blues and minors | 2 dominant scales | 3 church modes | 100 chromatic
@@ -290,6 +291,8 @@ void loop() {
       Serial.println("Root " + (String) recRoot2display);
       recNote2display = JSONrec["Nt"];
       Serial.println("Note " + (String)  recNote2display);
+      recOffset2display = JSONrec["O2"];
+      Serial.println("Off2 " + (String)  recOffset2display);
       recGroup2display = JSONrec["Gp"];
       Serial.println("Group " + (String) recGroup2display);
       recScale2display = JSONrec["Sc"];
@@ -300,27 +303,36 @@ void loop() {
   if (displayTimerFlag){
     u8x8.clearLine(1);
     u8x8.setCursor(0,1);
-    u8x8.print("R: ");
-    u8x8.print(notes[recRoot2display]);
+    u8x8.print("root1: ");
+    u8x8.print(notes[recRoot2display]); 
     u8x8.clearLine(2);
     u8x8.setCursor(0,2);
-    u8x8.print("N: ");
-    u8x8.print(notes[recNote2display]);
+    u8x8.print("root2: ");
+    u8x8.print(notes[recRoot2display + recOffset2display + 4]);
+    if (recOffset2display + 4 >= 0){
+      u8x8.print("+");
+    }
+    u8x8.print((String) (recOffset2display + 4));
     u8x8.clearLine(3);
-    u8x8.clearLine(4);
-    u8x8.clearLine(5);
     u8x8.setCursor(0,3);
-    u8x8.print("G: ");
+    u8x8.print("note1: ");
+    u8x8.print(notes[recNote2display]);
+    u8x8.clearLine(4);
+    u8x8.setCursor(0,4);
+    u8x8.print("note2: ");
+    u8x8.print(notes[recNote2display + recOffset2display + 4]);
+    u8x8.clearLine(5);
+    u8x8.clearLine(6);
+    u8x8.setCursor(0,5);
     if (recGroup2display == 100){
        u8x8.print(chromatic);
     }
     else{
       u8x8.print(cScaleGroupNames[recGroup2display]);
-      u8x8.setCursor(0,5);
+      u8x8.setCursor(0,6);
       u8x8.print(cScaleShorts[recGroup2display][recScale2display]);
     }
-    
-    u8x8.clearLine(6);
+
     u8x8.clearLine(7);
     displayTimerFlag = 0;
   }

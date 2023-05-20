@@ -39,7 +39,7 @@
 #define WaveDAC8_2_WAVE1_LENGTH   (100u)   /* Length for wave1 */
 #define WaveDAC8_2_WAVE2_LENGTH   (100u)   /* Length for wave2 */
 	
-#define WaveDAC8_2_DEFAULT_RANGE    (16u) /* Default DAC range */
+#define WaveDAC8_2_DEFAULT_RANGE    (17u) /* Default DAC range */
 #define WaveDAC8_2_DAC_RANGE_1V     (0u)
 #define WaveDAC8_2_DAC_RANGE_1V_BUF (16u)
 #define WaveDAC8_2_DAC_RANGE_4V     (1u)
@@ -184,8 +184,8 @@ extern const uint8 CYCODE WaveDAC8_2_wave2[WaveDAC8_2_WAVE2_LENGTH];
 #define WaveDAC8_2_RANGE_3        (0x0Cu)
 #define WaveDAC8_2_IDIR_MASK      (0x04u)
 
-#define WaveDAC8_2_DAC_RANGE      ((uint8)(16u << 2u) & WaveDAC8_2_RANGE_MASK)
-#define WaveDAC8_2_DAC_POL        ((uint8)(16u >> 1u) & WaveDAC8_2_IDIR_MASK)
+#define WaveDAC8_2_DAC_RANGE      ((uint8)(17u << 2u) & WaveDAC8_2_RANGE_MASK)
+#define WaveDAC8_2_DAC_POL        ((uint8)(17u >> 1u) & WaveDAC8_2_IDIR_MASK)
 
 
 #endif /* CY_WaveDAC8_WaveDAC8_2_H  */

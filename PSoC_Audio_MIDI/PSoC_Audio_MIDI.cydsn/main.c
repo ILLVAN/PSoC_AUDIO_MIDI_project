@@ -132,12 +132,12 @@ const double frequency[108] = {16.35,17.32,18.35,19.45,20.60,21.83,23.12,24.50,2
 volatile uint16 delayMS = 20;
 volatile uint8 onOffCount = 0;
 char transmitBuffer[100];
-char espTransmit[80];
+char espTransmit[90];
 volatile double freq;
 volatile uint16 intFreq;
 volatile char note[3];
 volatile uint8 noteIndex;
-volatile uint8 keepNoteIndex;
+volatile uint8 noteIndex2;
 volatile uint8 mode = 1;            // set default mode   
 volatile uint8 modeFlag = 0;        // flag is set by Timer_Mode, resets after check
 volatile uint8 checkingMode = 1;    // set bool if checking mode or not 
@@ -157,6 +157,13 @@ volatile uint8 cScaleSelect = 100;                                      // 0-7 d
 const uint8 cSCALES_LENGTH = 8;                                         // scales per group
 volatile uint8 octaveSelect = 1;                                        // switch octaves
 volatile uint8 offsetUp = BASS_OFFSET_UP;                               // index 12 is C1
+volatile int offset2 = 0;                                             // sub bass
+
+volatile uint8 osz1Select;
+volatile uint8 osz2Select;
+volatile uint8 waveDAC1running;
+volatile uint8 waveDAC2running;
+volatile uint8 toggleSettings;
 
 //////////////////////////////////////////////// MODAL MONDIAL
 const uint8 cScales[6][8][8] =  {{      // WORLD PENTATONICS                       
@@ -363,34 +370,52 @@ void playRange(uint8 minIndex, uint8 maxIndex, uint16 playRangeDelay){
 
 void distanceEchoPitch(){
     if (analogButFlag){      
-        echoTuneDelay *= 2;
-        if (echoTuneDelay > 300){
-           echoTuneDelay = 40; 
-        }
-        sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", echoTuneDelay);             
-        UART_1_PutString(transmitBuffer);
+        toggleSettings ^= 1;
+        Pin_Dice_LED_1_Write(toggleSettings);
+        Pin_Dice_LED_2_Write(!toggleSettings);
         analogButFlag = 0;
     }
     if (pitchFlag == 1){   
         if (pitch[0] < 0){
-            offsetUp++;
+            if (toggleSettings){
+                offset2++;
+            }
+            else{
+                offsetUp++;
+            }
             pitchFlag = 2;
         }
         else if (pitch[0] > 2){
-            offsetUp--;
+            if (toggleSettings){
+                offset2--;
+            }
+            else{
+                offsetUp--;
+            }
             pitchFlag = 2;
         }
         pitchFlag = 2;
     }
     offsetUp = offsetUp > 80 ?  80 : offsetUp;
-    offsetUp = offsetUp < 2 ?  BASS_OFFSET_UP : offsetUp;
-    if (button1){
-        octaveSelect++;
-        if (octaveSelect > 4){
-           octaveSelect = 1; 
+    offsetUp = offsetUp < 1 ?  BASS_OFFSET_UP : offsetUp;
+    offset2 = offset2 > 80 ? 80 : offset2;
+     if (button1){
+        if (toggleSettings){
+            octaveSelect++;
+            if (octaveSelect > 4){
+               octaveSelect = 1; 
+            }
+            sprintf(transmitBuffer, "octaveSelect: %i\n\r", octaveSelect);             
+            UART_1_PutString(transmitBuffer);
         }
-        sprintf(transmitBuffer, "octaveSelect: %i\n\r", octaveSelect);             
-        UART_1_PutString(transmitBuffer);
+        else{
+            echoTuneDelay *= 2;
+            if (echoTuneDelay > 300){
+               echoTuneDelay = 40; 
+            }
+            sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", echoTuneDelay);             
+            UART_1_PutString(transmitBuffer);
+        }
         button1 = 0;
     }
     if (button2){
@@ -444,19 +469,25 @@ void distanceEchoPitch(){
             for (int i = 0; i < 8; i++){
                 if ((echoDistance + BASS_OFFSET_UP) % 12 == cScales[cScaleGroupSelect][cScaleSelect][i]){
                     noteIndex = echoDistance + offsetUp + (octaveSelect * 12);
+                    noteIndex2 = noteIndex + offset2;
                 }
             }         
         }
         else{
            noteIndex = echoDistance + offsetUp + (octaveSelect * 12);  
+           noteIndex2 = noteIndex + offset2;
         }
         if (noteIndex > 100 || noteIndex < 1){                                  // if out of range
             noteIndex = BASS_OFFSET_UP;                                         // restart bassy
+        }
+        if (noteIndex2 > 100 || noteIndex < 1){
+            noteIndex2 = BASS_OFFSET_UP + offset2;
         }
         sprintf(transmitBuffer, "offsetUP: %i\n\r noteIndex: %i \n\r", offsetUp, noteIndex);              
         UART_1_PutString(transmitBuffer);
        
         Clock_1_SetDividerValue(250000 / intFrequency[noteIndex]); 
+        Clock_2_SetDividerValue(250000 / intFrequency[noteIndex2]); 
         echoFlag = 0;
     }
 //    sprintf(transmitBuffer, "echoTuneDelay: %i\n\r", button1);             
@@ -474,6 +505,43 @@ void noteSelect(int xPit)   {
         //UART_1_PutString("pitchFlag cleared \n\r");
     }
 }
+
+void switchLEDcheck(){
+    osz1Select = Pin_OSZ1_Read();
+    osz2Select = Pin_OSZ2_Read();
+    if (!osz1Select){
+        Pin_OSZ1_LED_Write(1);
+    }
+    else if (osz1Select){
+        Pin_OSZ1_LED_Write(0);
+    }
+    if (!osz2Select){
+        Pin_OSZ2_LED_Write(1);
+    }
+    else if (osz2Select){
+        Pin_OSZ2_LED_Write(0);
+    }
+}
+
+void voiceSelect(){
+    if (!osz1Select && !waveDAC1running){
+        WaveDAC8_1_Start();
+        waveDAC1running = 1;
+    }
+    else if (osz1Select && waveDAC1running){   
+        WaveDAC8_1_Stop();
+        waveDAC1running = 0;
+    }
+    if (!osz2Select && !waveDAC2running){       
+        WaveDAC8_2_Start();
+        waveDAC2running = 1;
+    }
+    else if (osz2Select && waveDAC2running){
+        WaveDAC8_2_Stop();
+        waveDAC2running = 0;
+    }
+}
+
 
 void waveSelect(int yInput)   {
     if(yInput>190 && oldYinput<180)    {
@@ -538,7 +606,8 @@ int main(){
     UART_1_PutString("Hello \n\r");
     
     Timer_Mode_Start();
-    Clock_Mode_Start();
+    Clock_1_Start();
+    Clock_2_Start();
     isr_checkMode_StartEx(userModeTimer_ISR);
     
     
@@ -551,7 +620,7 @@ int main(){
     UART_TOESP_Start();
     isr_updateESP_StartEx(userUpdateESP_ISR);
 //    I2COLED_Start();             
-//    display_init(DISPLAY_ADDRESS);                    // DISPLAY DOES NOT WOR THIS LINE KILLS LOOP
+//    display_init(DISPLAY_ADDRESS);                    // DISPLAY DOES NOT WORK THIS LINE KILLS LOOP
 //    gfx_setTextSize(1);
 //    gfx_setTextColor(WHITE);
     
@@ -570,12 +639,11 @@ int main(){
 //            display_update();             
 //            CyDelay(90);
 // ------------------------------           
-
+        switchLEDcheck();
         if (checkingMode && modeFlag){
             modecheck();
             modeFlag = 0;
         }
-
         if(adcFlag) {
             int analogRead = analogADC_GetResult16() -810;
 //            sprintf(transmitBuffer, "read: %i\n\r", analogRead);             
@@ -595,21 +663,14 @@ int main(){
             analogMUX_Select(muxChannel);
             adcFlag = 0;
             analogADC_StartConvert();
-        }          
+        }   
         switch (mode){
             case 0: 
-                if (lastMode != mode){
-                    WaveDAC8_1_Start();
-                    WaveDAC8_2_Start();
-                }
                 playRange(noteIndex,90,120); // set min index, max Index, delay [ms]
                 longSweep();
                 break;
             case 1:
-                if (lastMode != mode){
-                    WaveDAC8_1_Start();
-                    WaveDAC8_2_Start();
-                }
+                voiceSelect();
                 distanceEchoPitch();        
                 break;
             case 2:
@@ -636,6 +697,8 @@ int main(){
                 } else  {
                     WaveDAC8_1_Stop();
                     WaveDAC8_2_Stop();
+                    waveDAC1running = 0;
+                    waveDAC2running = 0;
                 }
                 break;
             default:
@@ -695,7 +758,7 @@ CY_ISR(userModeTimer_ISR){
 }
 
 CY_ISR(userUpdateESP_ISR){ 
-    sprintf(espTransmit, "|{\"Rt\" : %i, \"Nt\" : %i, \"Gp\" : %i, \"Sc\" : %i}| \r\n", offsetUp, noteIndex, cScaleGroupSelect, cScaleSelect);
+    sprintf(espTransmit, "|{\"Rt\" : %i, \"Nt\" : %i, \"O2\" : %i, \"Gp\" : %i, \"Sc\" : %i}| \r\n", offsetUp, noteIndex, offset2, cScaleGroupSelect, cScaleSelect);
     UART_TOESP_PutString(espTransmit);
     Timer_Display_ReadStatusRegister();
 }

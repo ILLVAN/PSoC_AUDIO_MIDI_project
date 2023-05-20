@@ -23,8 +23,6 @@
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Mode.c" value="SOURCE_C;CortexM3;;;;Timer_Mode" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Mode.h" value="HEADER;;;;;Timer_Mode" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Timer_Mode_PM.c" value="SOURCE_C;CortexM3;;;;Timer_Mode" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_Mode.c" value="SOURCE_C;CortexM3;;;;Clock_Mode" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_Mode.h" value="HEADER;;;;;Clock_Mode" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2_aliases.h" value="HEADER;;;;;Pin_Dice_2" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2.c" value="SOURCE_C;CortexM3;;;;Pin_Dice_2" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_Dice_2.h" value="HEADER;;;;;Pin_Dice_2" />
@@ -42,9 +40,9 @@
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_PM.c" value="SOURCE_C;CortexM3;;;;UART_1" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_INT.c" value="SOURCE_C;CortexM3;;;;UART_1" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_BOOT.c" value="SOURCE_C;CortexM3;;;;UART_1" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\P00_Vout_aliases.h" value="HEADER;;;;;P00_Vout" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\P00_Vout.c" value="SOURCE_C;CortexM3;;;;P00_Vout" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\P00_Vout.h" value="HEADER;;;;;P00_Vout" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Vout_2_aliases.h" value="HEADER;;;;;Vout_2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Vout_2.c" value="SOURCE_C;CortexM3;;;;Vout_2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Vout_2.h" value="HEADER;;;;;Vout_2" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_1.c" value="SOURCE_C;CortexM3;;;;Clock_1" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_1.h" value="HEADER;;;;;Clock_1" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1" />
@@ -111,8 +109,8 @@
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SCL_1_aliases.h" value="HEADER;;;;;SCL_1" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SCL_1.c" value="SOURCE_C;CortexM3;;;;SCL_1" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\SCL_1.h" value="HEADER;;;;;SCL_1" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM3;;;;Clock_2" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_OLED.c" value="SOURCE_C;CortexM3;;;;Clock_OLED" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_OLED.h" value="HEADER;;;;;Clock_OLED" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED.h" value="HEADER;;;;;I2COLED" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\I2COLED_BOOT.c" value="SOURCE_C;CortexM3;;;;I2COLED" />
@@ -131,12 +129,26 @@
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_PM.c" value="SOURCE_C;CortexM3;;;;UART_TOESP" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_INT.c" value="SOURCE_C;CortexM3;;;;UART_TOESP" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_TOESP_BOOT.c" value="SOURCE_C;CortexM3;;;;UART_TOESP" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_1_aliases.h" value="HEADER;;;;;Pin_1" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_1.c" value="SOURCE_C;CortexM3;;;;Pin_1" />
-  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_1.h" value="HEADER;;;;;Pin_1" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ2_aliases.h" value="HEADER;;;;;Pin_OSZ2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ2.c" value="SOURCE_C;CortexM3;;;;Pin_OSZ2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ2.h" value="HEADER;;;;;Pin_OSZ2" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_2.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_2" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_2.h" value="HEADER;;;;;WaveDAC8_2" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_2_PM.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM3;;;;Clock_2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Vout_1_aliases.h" value="HEADER;;;;;Vout_1" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Vout_1.c" value="SOURCE_C;CortexM3;;;;Vout_1" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Vout_1.h" value="HEADER;;;;;Vout_1" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ1_aliases.h" value="HEADER;;;;;Pin_OSZ1" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ1.c" value="SOURCE_C;CortexM3;;;;Pin_OSZ1" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ1.h" value="HEADER;;;;;Pin_OSZ1" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ1_LED_aliases.h" value="HEADER;;;;;Pin_OSZ1_LED" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ1_LED.c" value="SOURCE_C;CortexM3;;;;Pin_OSZ1_LED" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ1_LED.h" value="HEADER;;;;;Pin_OSZ1_LED" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ2_LED_aliases.h" value="HEADER;;;;;Pin_OSZ2_LED" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ2_LED.c" value="SOURCE_C;CortexM3;;;;Pin_OSZ2_LED" />
+  <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\Pin_OSZ2_LED.h" value="HEADER;;;;;Pin_OSZ2_LED" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_IntClock.c" value="SOURCE_C;CortexM3;;;;UART_1_IntClock" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\UART_1_IntClock.h" value="HEADER;;;;;UART_1_IntClock" />
   <file name="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave1_DMA" />
