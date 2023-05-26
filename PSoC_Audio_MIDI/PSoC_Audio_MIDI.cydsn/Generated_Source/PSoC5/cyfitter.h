@@ -873,7 +873,7 @@
 #define isr_Echo__INTC_CLR_PD_REG CYREG_NVIC_CLRPEND0
 #define isr_Echo__INTC_MASK 0x80u
 #define isr_Echo__INTC_NUMBER 7u
-#define isr_Echo__INTC_PRIOR_NUM 1u
+#define isr_Echo__INTC_PRIOR_NUM 4u
 #define isr_Echo__INTC_PRIOR_REG CYREG_NVIC_PRI_7
 #define isr_Echo__INTC_SET_EN_REG CYREG_NVIC_SETENA0
 #define isr_Echo__INTC_SET_PD_REG CYREG_NVIC_SETPEND0
@@ -1467,7 +1467,7 @@
 #define isr_updateESP__INTC_CLR_PD_REG CYREG_NVIC_CLRPEND0
 #define isr_updateESP__INTC_MASK 0x20000u
 #define isr_updateESP__INTC_NUMBER 17u
-#define isr_updateESP__INTC_PRIOR_NUM 3u
+#define isr_updateESP__INTC_PRIOR_NUM 4u
 #define isr_updateESP__INTC_PRIOR_REG CYREG_NVIC_PRI_17
 #define isr_updateESP__INTC_SET_EN_REG CYREG_NVIC_SETENA0
 #define isr_updateESP__INTC_SET_PD_REG CYREG_NVIC_SETPEND0

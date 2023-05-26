@@ -873,7 +873,7 @@
 .set isr_Echo__INTC_CLR_PD_REG, CYREG_NVIC_CLRPEND0
 .set isr_Echo__INTC_MASK, 0x80
 .set isr_Echo__INTC_NUMBER, 7
-.set isr_Echo__INTC_PRIOR_NUM, 1
+.set isr_Echo__INTC_PRIOR_NUM, 4
 .set isr_Echo__INTC_PRIOR_REG, CYREG_NVIC_PRI_7
 .set isr_Echo__INTC_SET_EN_REG, CYREG_NVIC_SETENA0
 .set isr_Echo__INTC_SET_PD_REG, CYREG_NVIC_SETPEND0
@@ -1467,7 +1467,7 @@
 .set isr_updateESP__INTC_CLR_PD_REG, CYREG_NVIC_CLRPEND0
 .set isr_updateESP__INTC_MASK, 0x20000
 .set isr_updateESP__INTC_NUMBER, 17
-.set isr_updateESP__INTC_PRIOR_NUM, 3
+.set isr_updateESP__INTC_PRIOR_NUM, 4
 .set isr_updateESP__INTC_PRIOR_REG, CYREG_NVIC_PRI_17
 .set isr_updateESP__INTC_SET_EN_REG, CYREG_NVIC_SETENA0
 .set isr_updateESP__INTC_SET_PD_REG, CYREG_NVIC_SETPEND0

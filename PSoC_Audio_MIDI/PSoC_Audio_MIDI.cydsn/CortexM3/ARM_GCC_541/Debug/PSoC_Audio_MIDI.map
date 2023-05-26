@@ -177,7 +177,7 @@ I2COLED_mstrStatus  0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MI
 analogADC_CountsPerVolt
                     0x4               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
 waveDAC2running     0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
-espTransmit         0x5a              .\CortexM3\ARM_GCC_541\Debug\main.o
+espTransmit         0x10              .\CortexM3\ARM_GCC_541\Debug\main.o
 I2COLED_mstrControl
                     0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 pitchFlag           0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
@@ -2274,9 +2274,9 @@ END GROUP
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
                 0x00005960                __exidx_end = .
 
-.rodata         0x00005960     0x1738
+.rodata         0x00005960     0x1710
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x00005960     0x14d9 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .rodata        0x00005960     0x14b0 .\CortexM3\ARM_GCC_541\Debug\main.o
                 0x00005e5b                DISPLAY_ADDRESS
                 0x00005e5c                notes
                 0x00005fa0                intFrequency
@@ -2285,74 +2285,74 @@ END GROUP
                 0x000063d9                cSCALES_LENGTH
                 0x000063dc                cScales
                 0x0000655c                cScaleNames
- *fill*         0x00006e39        0x3 
- .rodata        0x00006e3c       0x60 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
-                0x00006e3c                analogADC_AMux__addrTable
-                0x00006e44                analogADC_AMux__maskTable
-                0x00006e48                analogMUX__addrTable
-                0x00006e58                analogMUX__maskTable
- .rodata        0x00006e9c       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
-                0x00006e9c                WaveDAC8_1_wave1
-                0x00006f00                WaveDAC8_1_wave2
- .rodata        0x00006f64       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
-                0x00006f64                WaveDAC8_2_wave1
-                0x00006fc8                WaveDAC8_2_wave2
+ .rodata        0x00006e10       0x60 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00006e10                analogADC_AMux__addrTable
+                0x00006e18                analogADC_AMux__maskTable
+                0x00006e1c                analogMUX__addrTable
+                0x00006e2c                analogMUX__maskTable
+ .rodata        0x00006e70       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+                0x00006e70                WaveDAC8_1_wave1
+                0x00006ed4                WaveDAC8_1_wave2
+ .rodata        0x00006f38       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+                0x00006f38                WaveDAC8_2_wave1
+                0x00006f9c                WaveDAC8_2_wave2
  .rodata.str1.1
-                0x0000702c        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x00007000        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
  .rodata.str1.1
-                0x0000702e       0x11 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00007002       0x11 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x0000703f       0x22 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00007064                . = ALIGN (0x4)
- *fill*         0x00007061        0x3 
+                0x00007013       0x22 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00007038                . = ALIGN (0x4)
+ *fill*         0x00007035        0x3 
  *(.init)
- .init          0x00007064        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
-                0x00007064                _init
- .init          0x00007068        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
-                0x00007070                . = ALIGN (0x4)
-                0x00007070                __preinit_array_start = .
+ .init          0x00007038        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00007038                _init
+ .init          0x0000703c        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00007044                . = ALIGN (0x4)
+                0x00007044                __preinit_array_start = .
  *(.preinit_array)
-                0x00007070                __preinit_array_end = .
-                0x00007070                . = ALIGN (0x4)
-                0x00007070                __init_array_start = .
+                0x00007044                __preinit_array_end = .
+                0x00007044                . = ALIGN (0x4)
+                0x00007044                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00007070        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
- .init_array    0x00007074        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                0x00007078                __init_array_end = .
-                0x00007078                . = ALIGN (0x4)
+ .init_array    0x00007044        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .init_array    0x00007048        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x0000704c                __init_array_end = .
+                0x0000704c                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00007078        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
-                0x00007078                _fini
- .fini          0x0000707c        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
-                0x00007084                . = ALIGN (0x4)
-                0x00007084                __fini_array_start = .
+ .fini          0x0000704c        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x0000704c                _fini
+ .fini          0x00007050        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00007058                . = ALIGN (0x4)
+                0x00007058                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00007084        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .fini_array    0x00007058        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00007088                __fini_array_end = .
-                0x00007088                . = ALIGN (0x4)
+                0x0000705c                __fini_array_end = .
+                0x0000705c                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00007088                . = ALIGN (0x4)
+                0x0000705c                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00007088                . = ALIGN (0x4)
-                0x00007088                __cy_regions = .
-                0x00007088        0x4 LONG 0x7098 __cy_region_init_ram
-                0x0000708c        0x4 LONG 0x1fff80c8 __cy_region_start_data
-                0x00007090        0x4 LONG 0xa78 __cy_region_init_size_ram
-                0x00007094        0x4 LONG 0x190 __cy_region_zero_size_ram
-                0x00007098                __cy_regions_end = .
-                0x00007098                . = ALIGN (0x8)
-                0x00007098                _etext = .
+                0x0000705c                . = ALIGN (0x4)
+                0x0000705c                __cy_regions = .
+                0x0000705c        0x4 LONG 0x7070 __cy_region_init_ram
+                0x00007060        0x4 LONG 0x1fff80c8 __cy_region_start_data
+                0x00007064        0x4 LONG 0xa78 __cy_region_init_size_ram
+                0x00007068        0x4 LONG 0x140 __cy_region_zero_size_ram
+                0x0000706c                __cy_regions_end = .
+                0x00007070                . = ALIGN (0x8)
+ *fill*         0x0000706c        0x4 
+                0x00007070                _etext = .
 
 .cy_checksum_exclude
-                0x00007098        0x0
+                0x00007070        0x0
  *(.cy_checksum_exclude)
 
 .ramvectors     0x1fff8000       0xc0
@@ -2367,7 +2367,7 @@ END GROUP
  .noinit        0x1fff80c4        0x1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
                 0x1fff80c4                CyResetStatus
 
-.data           0x1fff80c8      0xa78 load address 0x00007098
+.data           0x1fff80c8      0xa78 load address 0x00007070
                 0x1fff80c8                __cy_region_start_data = .
  *(.jcr)
  .jcr           0x1fff80c8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
@@ -2424,10 +2424,10 @@ END GROUP
  *(.ram)
                 0x1fff8b40                _edata = .
 
-.igot.plt       0x1fff8b40        0x0 load address 0x00007b10
+.igot.plt       0x1fff8b40        0x0 load address 0x00007ae8
  .igot.plt      0x1fff8b40        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
-.bss            0x1fff8b40      0x190 load address 0x00007b10
+.bss            0x1fff8b40      0x140 load address 0x00007ae8
                 0x1fff8b40                PROVIDE (__bss_start__, .)
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
@@ -2475,49 +2475,49 @@ END GROUP
                 0x1fff8bac        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
                 0x1fff8bac                __malloc_free_list
  *(COMMON)
- COMMON         0x1fff8bb0      0x118 .\CortexM3\ARM_GCC_541\Debug\main.o
+ COMMON         0x1fff8bb0       0xc8 .\CortexM3\ARM_GCC_541\Debug\main.o
                 0x1fff8bb0                intFreq
                 0x1fff8bb2                waveDAC2running
                 0x1fff8bb4                espTransmit
-                0x1fff8c0e                pitchFlag
-                0x1fff8c0f                toESPviaUARTFlag
-                0x1fff8c10                echoDuration
-                0x1fff8c18                freq
-                0x1fff8c20                waveDAC1running
-                0x1fff8c21                osz1Select
-                0x1fff8c22                echoReadCounter
-                0x1fff8c24                dice1
-                0x1fff8c28                osz2Select
-                0x1fff8c29                noteIndex2
-                0x1fff8c2a                echoTimerPeriod
-                0x1fff8c2c                note
-                0x1fff8c2f                analogButFlag
-                0x1fff8c30                echoDistance
-                0x1fff8c32                noteIndex
-                0x1fff8c34                transmitBuffer
-                0x1fff8c98                displayScaleName
-                0x1fff8cc0                displayNote
-                0x1fff8cc3                toggleSettings
-                0x1fff8cc4                dice2
- COMMON         0x1fff8cc8        0x4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
-                0x1fff8cc8                analogADC_CountsPerVolt
- COMMON         0x1fff8ccc        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
-                0x1fff8ccc                errno
-                0x1fff8cd0                . = ALIGN (0x8)
+                0x1fff8bc4                pitchFlag
+                0x1fff8bc5                toESPviaUARTFlag
+                0x1fff8bc6                echoDuration
+                0x1fff8bc8                freq
+                0x1fff8bd0                waveDAC1running
+                0x1fff8bd1                osz1Select
+                0x1fff8bd2                echoReadCounter
+                0x1fff8bd4                dice1
+                0x1fff8bd8                osz2Select
+                0x1fff8bd9                noteIndex2
+                0x1fff8bda                echoTimerPeriod
+                0x1fff8bdc                note
+                0x1fff8bdf                analogButFlag
+                0x1fff8be0                echoDistance
+                0x1fff8be2                noteIndex
+                0x1fff8be4                transmitBuffer
+                0x1fff8c48                displayScaleName
+                0x1fff8c70                displayNote
+                0x1fff8c73                toggleSettings
+                0x1fff8c74                dice2
+ COMMON         0x1fff8c78        0x4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+                0x1fff8c78                analogADC_CountsPerVolt
+ COMMON         0x1fff8c7c        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+                0x1fff8c7c                errno
+                0x1fff8c80                . = ALIGN (0x8)
  *(.ram.b)
-                0x1fff8cd0                _end = .
-                0x1fff8cd0                __end = .
-                0x1fff8cd0                PROVIDE (end, .)
-                0x1fff8cd0                PROVIDE (__bss_end__, .)
-                0x00007098                __cy_region_init_ram = LOADADDR (.data)
+                0x1fff8c80                _end = .
+                0x1fff8c80                __end = .
+                0x1fff8c80                PROVIDE (end, .)
+                0x1fff8c80                PROVIDE (__bss_end__, .)
+                0x00007070                __cy_region_init_ram = LOADADDR (.data)
                 0x00000a78                __cy_region_init_size_ram = (_edata - ADDR (.data))
-                0x00000190                __cy_region_zero_size_ram = (_end - _edata)
+                0x00000140                __cy_region_zero_size_ram = (_end - _edata)
 
-.heap           0x1fff8cd0     0x1000 load address 0x00007b10
-                0x1fff8cd0                . = _end
-                0x1fff9cd0                . = (. + 0x1000)
- *fill*         0x1fff8cd0     0x1000 
-                0x1fff9cd0                __cy_heap_limit = .
+.heap           0x1fff8c80     0x1000 load address 0x00007ae8
+                0x1fff8c80                . = _end
+                0x1fff9c80                . = (. + 0x1000)
+ *fill*         0x1fff8c80     0x1000 
+                0x1fff9c80                __cy_heap_limit = .
 
 .stack          0x20004000     0x4000
                 0x20004000                __cy_stack_limit = .
@@ -2564,8 +2564,8 @@ END GROUP
  .cymeta        0x90500000        0xc .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                 0x90500000                cy_metadata
 
-.rel.dyn        0x00007b10        0x0 load address 0x9050000c
- .rel.iplt      0x00007b10        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+.rel.dyn        0x00007ae8        0x0 load address 0x9050000c
+ .rel.iplt      0x00007ae8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
 .stab
  *(.stab)

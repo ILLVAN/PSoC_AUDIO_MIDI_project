@@ -1,3 +1,5 @@
+// ESP32 PSoC connector via UART
+
 #include <Arduino.h>
 #include <U8g2lib.h>
 #include <Wire.h>
@@ -230,11 +232,16 @@ char displayRoot[5] = "n#Y";
 char displayNote[5] = "n#Y";
 char displayGroupName[40] = "helloGroup";
 char displayScaleName[40] = "helloScale";
-uint8_t recRoot2display;
-uint8_t recNote2display;
-uint8_t recGroup2display;
-uint8_t recScale2display;
-int8_t recOffset2display;
+uint8_t recRootDisplay;
+uint8_t recNoteDisplay;
+int8_t recOffsetDisplay;
+uint8_t recGroupDisplay;
+uint8_t recScaleDisplay;
+uint8_t recRootDisplayOld;
+uint8_t recNoteDisplayOld;
+int8_t recOffsetDisplayOld;
+uint8_t recGroupDisplayOld;
+uint8_t recScaleDisplayOld;
 
 
 volatile uint8_t cScaleGroupSelect = 100;                                 // 0 world penta | 1 blues and minors | 2 dominant scales | 3 church modes | 100 chromatic
@@ -253,6 +260,7 @@ void IRAM_ATTR onDisplayTimer(){
   displayTimerFlag = 1;
 }
 
+
 void setup() {
   pinMode(OErestart, OUTPUT);
   digitalWrite(OErestart, HIGH);
@@ -266,7 +274,7 @@ void setup() {
   u8x8.setCursor(0,0);
   displayTimer = timerBegin(0, 80, true); 
   timerAttachInterrupt(displayTimer , &onDisplayTimer, true);
-  timerAlarmWrite(displayTimer, 100, true); 
+  timerAlarmWrite(displayTimer, 50, true); 
   timerAlarmEnable(displayTimer);
   digitalWrite(OErestart, LOW);
 }
@@ -274,70 +282,108 @@ void setup() {
 void loop() {
   while (psocSerial.available()){
     String serialReceive = psocSerial.readStringUntil('\r');   
-    //Serial.println(serialReceive);
+    // Serial.println(serialReceive);
     uint8_t recStartIdx = (serialReceive.indexOf('|'));
     serialReceive.remove(0, recStartIdx + 1);
-      // Serial.println("Start " + (String)  recStartIdx);
     uint8_t recEndIdx = (serialReceive.lastIndexOf('|'));
     serialReceive.remove(recEndIdx);
-    Serial.println(serialReceive);
-      // Serial.println("Stop " + (String)  recEndIdx);  
-    DeserializationError err = deserializeJson(JSONrec, serialReceive);
-    if (err) {
-      Serial.println(err.f_str());
-    }
-    else{
-      recRoot2display = JSONrec["Rt"];
-      Serial.println("Root " + (String) recRoot2display);
-      recNote2display = JSONrec["Nt"];
-      Serial.println("Note " + (String)  recNote2display);
-      recOffset2display = JSONrec["O2"];
-      Serial.println("Off2 " + (String)  recOffset2display);
-      recGroup2display = JSONrec["Gp"];
-      Serial.println("Group " + (String) recGroup2display);
-      recScale2display = JSONrec["Sc"];
-      Serial.println("Scale " + (String)  recScale2display);
-      Serial.println("~~~~");
-    }
-  }
-  if (displayTimerFlag){
-    u8x8.clearLine(1);
-    u8x8.setCursor(0,1);
-    u8x8.print("root1: ");
-    u8x8.print(notes[recRoot2display]); 
-    u8x8.clearLine(2);
-    u8x8.setCursor(0,2);
-    u8x8.print("root2: ");
-    u8x8.print(notes[recRoot2display + recOffset2display + 4]);
-    if (recOffset2display + 4 >= 0){
-      u8x8.print("+");
-    }
-    u8x8.print((String) (recOffset2display + 4));
-    u8x8.clearLine(3);
-    u8x8.setCursor(0,3);
-    u8x8.print("note1: ");
-    u8x8.print(notes[recNote2display]);
-    u8x8.clearLine(4);
-    u8x8.setCursor(0,4);
-    u8x8.print("note2: ");
-    u8x8.print(notes[recNote2display + recOffset2display + 4]);
-    u8x8.clearLine(5);
-    u8x8.clearLine(6);
-    u8x8.setCursor(0,5);
-    if (recGroup2display == 100){
-       u8x8.print(chromatic);
-    }
-    else{
-      u8x8.print(cScaleGroupNames[recGroup2display]);
-      u8x8.setCursor(0,6);
-      u8x8.print(cScaleShorts[recGroup2display][recScale2display]);
-    }
+    // Serial.println(serialReceive);
 
+int tempIntArray[5], r=0, t=0;
+for (int i=0; i < serialReceive.length(); i++)
+{ 
+ if(serialReceive.charAt(i) == ',') 
+  { 
+    tempIntArray[t] = serialReceive.substring(r, i).toInt(); 
+    r=(i+1); 
+    t++; 
+  }
+}
+recRootDisplay = tempIntArray[0];
+recNoteDisplay = tempIntArray[1];
+recOffsetDisplay = tempIntArray[2];
+recGroupDisplay = tempIntArray[3];
+recScaleDisplay = tempIntArray[4];
+
+// JSON VERSION.. slow, to many bytes - but more comfortable
+    // DeserializationError err = deserializeJson(JSONrec, serialReceive);
+    // if (err) {
+    //   Serial.println(err.f_str());
+    // }
+    // else{
+    //   recRootDisplay = JSONrec["Rt"];
+    //   Serial.println("Root " + (String) recRootDisplay);
+    //   recNoteDisplay = JSONrec["Nt"];
+    //   recOffsetDisplay = JSONrec["O2"];
+    //   recGroupDisplay = JSONrec["Gp"];
+    //   recScaleDisplay = JSONrec["Sc"];
+    //   
+    // }
+  }
+  // -------------------
+
+
+  // OPTIONAL DEBUG PRINTS USB UART
+  Serial.println("Root " + (String) recRootDisplay);
+  Serial.println("Note " + (String)  recNoteDisplay);
+  Serial.println("Off2 " + (String)  recOffsetDisplay);
+  Serial.println("Group " + (String) recGroupDisplay);
+  Serial.println("Scale " + (String)  recScaleDisplay); 
+
+  if (displayTimerFlag){
+    if (recRootDisplay != recRootDisplayOld){
+      u8x8.clearLine(1);
+      u8x8.setCursor(0,1);
+      u8x8.print("root1: ");
+      u8x8.print(notes[recRootDisplay]); 
+    }
+    if (recRootDisplay != recRootDisplayOld || recOffsetDisplay != recOffsetDisplayOld){
+          u8x8.clearLine(2);
+      u8x8.setCursor(0,2);
+      u8x8.print("root2: ");
+      u8x8.print(notes[recRootDisplay + recOffsetDisplay + 16]);
+      if (recOffsetDisplay + 16 >= 0){
+        u8x8.print("+");
+      }
+      u8x8.print((String) (recOffsetDisplay + 16));
+    }
+    if (recNoteDisplay != recNoteDisplayOld){
+      u8x8.clearLine(3);
+      u8x8.setCursor(0,3);
+      u8x8.print("note1: ");
+      u8x8.print(notes[recNoteDisplay]);
+    }
+    if (recNoteDisplay != recNoteDisplayOld || recOffsetDisplay != recOffsetDisplayOld){
+      u8x8.clearLine(4);
+      u8x8.setCursor(0,4);
+      u8x8.print("note2: ");
+      u8x8.print(notes[recNoteDisplay + recOffsetDisplay + 16]);
+    }
+    
+    if (recGroupDisplay != recGroupDisplayOld || recScaleDisplay != recScaleDisplayOld){
+      u8x8.clearLine(5);
+      u8x8.clearLine(6);
+      u8x8.setCursor(0,5);
+      if (recGroupDisplay == 100){
+        u8x8.print(chromatic);
+      }
+      else{
+        u8x8.print(cScaleGroupNames[recGroupDisplay]);
+        u8x8.setCursor(0,6);
+        u8x8.print(cScaleShorts[recGroupDisplay][recScaleDisplay]);
+      }
+    }
     u8x8.clearLine(7);
     displayTimerFlag = 0;
   }
-  Serial.print("...");
+  Serial.println("...");
   digitalWrite(OErestart, HIGH);
   delay(15);
   digitalWrite(OErestart, LOW);
+
+  recRootDisplayOld = recRootDisplay;
+  recNoteDisplayOld = recNoteDisplay;
+  recOffsetDisplayOld = recOffsetDisplay;
+  recGroupDisplayOld = recGroupDisplay;
+  recScaleDisplayOld = recScaleDisplay;
 }

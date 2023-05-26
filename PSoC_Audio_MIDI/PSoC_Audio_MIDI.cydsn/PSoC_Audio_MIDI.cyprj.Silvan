@@ -221,32 +221,32 @@
 <file name=".\font.h" />
 <file name=".\main.c" />
 <file name=".\ssd1306.h" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Mode.o">
+<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Display.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
 <dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Mode.c" />
-<dep name=".\Generated_Source\PSoC5\Timer_Mode.h" />
+<dep name=".\Generated_Source\PSoC5\Timer_Display.c" />
+<dep name=".\Generated_Source\PSoC5\Timer_Display.h" />
 <dep name=".\Generated_Source\PSoC5\cyPm.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC5\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
-<file name=".\Generated_Source\PSoC5\Timer_Mode.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Mode_PM.o">
+<file name=".\Generated_Source\PSoC5\Timer_Display.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Display_PM.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
 <dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Mode.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Mode_PM.c" />
+<dep name=".\Generated_Source\PSoC5\Timer_Display.h" />
+<dep name=".\Generated_Source\PSoC5\Timer_Display_PM.c" />
 <dep name=".\Generated_Source\PSoC5\cyPm.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC5\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
-<file name=".\Generated_Source\PSoC5\Timer_Mode_PM.c" />
+<file name=".\Generated_Source\PSoC5\Timer_Display_PM.c" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\ssd1306.o">
 <dep name=".\Generated_Source\PSoC5\ADC_isr.h" />
 <dep name=".\Generated_Source\PSoC5\CYDMAC.H" />
@@ -282,8 +282,8 @@
 <dep name=".\Generated_Source\PSoC5\SCL_1_aliases.h" />
 <dep name=".\Generated_Source\PSoC5\SDA_1.h" />
 <dep name=".\Generated_Source\PSoC5\SDA_1_aliases.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Display.h" />
 <dep name=".\Generated_Source\PSoC5\Timer_Echo.h" />
+<dep name=".\Generated_Source\PSoC5\Timer_Mode.h" />
 <dep name=".\Generated_Source\PSoC5\UART_1.h" />
 <dep name=".\Generated_Source\PSoC5\UART_1_IntClock.h" />
 <dep name=".\Generated_Source\PSoC5\UART_TOESP.h" />
@@ -344,7 +344,7 @@
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
 <dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Mode.h" />
+<dep name=".\Generated_Source\PSoC5\Timer_Display.h" />
 <dep name=".\Generated_Source\PSoC5\cyPm.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice.h" />
 <dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
@@ -687,32 +687,6 @@
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC5\SDA_1.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Display.o">
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Display.c" />
-<dep name=".\Generated_Source\PSoC5\Timer_Display.h" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC5\Timer_Display.c" />
-<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Display_PM.o">
-<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC5\CyLib.h" />
-<dep name=".\Generated_Source\PSoC5\CySpc.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Display.h" />
-<dep name=".\Generated_Source\PSoC5\Timer_Display_PM.c" />
-<dep name=".\Generated_Source\PSoC5\cyPm.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice.h" />
-<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC5\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC5\Timer_Display_PM.c" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Echo.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -739,6 +713,32 @@
 <dep name=".\Generated_Source\PSoC5\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC5\Timer_Echo_PM.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Mode.o">
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\Timer_Mode.c" />
+<dep name=".\Generated_Source\PSoC5\Timer_Mode.h" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\Timer_Mode.c" />
+<file name=".\CortexM3\ARM_GCC_541\Debug\Timer_Mode_PM.o">
+<dep name=".\Generated_Source\PSoC5\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC5\CyLib.h" />
+<dep name=".\Generated_Source\PSoC5\CySpc.h" />
+<dep name=".\Generated_Source\PSoC5\Timer_Mode.h" />
+<dep name=".\Generated_Source\PSoC5\Timer_Mode_PM.c" />
+<dep name=".\Generated_Source\PSoC5\cyPm.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\Timer_Mode_PM.c" />
 <file name=".\CortexM3\ARM_GCC_541\Debug\UART_1.o">
 <dep name=".\Generated_Source\PSoC5\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC5\CyLib.h" />
@@ -2657,7 +2657,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="133290698509619835" />
+<deps_time v="133295940749976337" />
 <top_block v="TopDesign" />
 <last_generation v="6" />
 <pdl_path v="" />
@@ -2667,7 +2667,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="133290702322528553" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="133295950738181435" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

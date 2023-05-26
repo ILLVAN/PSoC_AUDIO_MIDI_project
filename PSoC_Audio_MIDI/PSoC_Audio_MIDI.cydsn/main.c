@@ -132,7 +132,7 @@ const double frequency[108] = {16.35,17.32,18.35,19.45,20.60,21.83,23.12,24.50,2
 volatile uint16 delayMS = 20;
 volatile uint8 onOffCount = 0;
 char transmitBuffer[100];
-char espTransmit[90];
+char espTransmit[16];
 volatile double freq;
 volatile uint16 intFreq;
 volatile char note[3];
@@ -164,6 +164,7 @@ volatile uint8 osz2Select;
 volatile uint8 waveDAC1running;
 volatile uint8 waveDAC2running;
 volatile uint8 toggleSettings;
+
 
 //////////////////////////////////////////////// MODAL MONDIAL
 const uint8 cScales[6][8][8] =  {{      // WORLD PENTATONICS                       
@@ -383,7 +384,7 @@ void distanceEchoPitch(){
             else{
                 offsetUp++;
             }
-            pitchFlag = 2;
+             pitchFlag = 2;
         }
         else if (pitch[0] > 2){
             if (toggleSettings){
@@ -392,9 +393,9 @@ void distanceEchoPitch(){
             else{
                 offsetUp--;
             }
-            pitchFlag = 2;
+             pitchFlag = 2;
         }
-        pitchFlag = 2;
+         pitchFlag = 2;
     }
     offsetUp = offsetUp > 80 ?  80 : offsetUp;
     offsetUp = offsetUp < 1 ?  BASS_OFFSET_UP : offsetUp;
@@ -502,7 +503,7 @@ void noteSelect(int xPit)   {
     }
     else if (xPit < 5 && xPit > -5){
         pitchFlag = 0;                                          // flag reset offset select [root note]
-        //UART_1_PutString("pitchFlag cleared \n\r");
+//        UART_1_PutString("pitchFlag cleared \n\r");
     }
 }
 
@@ -678,7 +679,7 @@ int main(){
             case 3:
                 if(button1){
                     WaveDAC8_1_Start();
-                    UART_1_PutString(transmitBuffer);
+                    UART_1_PutString(transmitBuffer);  
                     Clock_1_SetDividerValue(250000 / (intFrequency[button1]+pitch[0]/50));
                 }
            
@@ -758,7 +759,8 @@ CY_ISR(userModeTimer_ISR){
 }
 
 CY_ISR(userUpdateESP_ISR){ 
-    sprintf(espTransmit, "|{\"Rt\" : %i, \"Nt\" : %i, \"O2\" : %i, \"Gp\" : %i, \"Sc\" : %i}| \r\n", offsetUp, noteIndex, offset2, cScaleGroupSelect, cScaleSelect);
+    sprintf(espTransmit, "|%i,%i,%i,%i,%i,|\r\n", offsetUp, noteIndex, offset2, cScaleGroupSelect, cScaleSelect); // fast version
+    // sprintf(espTransmit, "|{\"Rt\" : %i, \"Nt\" : %i, \"O2\" : %i, \"Gp\" : %i, \"Sc\" : %i}| \r\n", offsetUp, noteIndex, offset2, cScaleGroupSelect, cScaleSelect); // JSON version, slow
     UART_TOESP_PutString(espTransmit);
     Timer_Display_ReadStatusRegister();
 }
