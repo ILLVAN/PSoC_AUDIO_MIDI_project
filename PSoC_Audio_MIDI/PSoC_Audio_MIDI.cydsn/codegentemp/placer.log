@@ -6,7 +6,7 @@
 
 #Build Date:         Sep  9 2019 11:47:43
 
-#File Generated:     May 26 2023 19:01:07
+#File Generated:     May 29 2023 09:26:22
 
 #Purpose:            
 
@@ -136,7 +136,7 @@ Clock: debouncerClock       | Frequency: 142.8 MHz | Target:   0.0 MHz
 ======================================================================
                      End of Clock Summary
 ######################################################################
-D2088: Phase 7, elapsed time : 0.9 (sec)
+D2088: Phase 7, elapsed time : 1.0 (sec)
 
 Final Design Statistics
     Number of Combinational MCs 	:	28

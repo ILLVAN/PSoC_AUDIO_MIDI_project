@@ -244,17 +244,10 @@ uint8_t recGroupDisplayOld;
 uint8_t recScaleDisplayOld;
 
 
-volatile uint8_t cScaleGroupSelect = 100;                                 // 0 world penta | 1 blues and minors | 2 dominant scales | 3 church modes | 100 chromatic
+volatile uint8_t cScaleGroupSelect = 100;                                 // 0 world penta | 1 blues and minors | 2 dominant scales | 3 church modes | 4 HM | 5 MM | 100 chromatic
 const uint8_t cScaleGroupsLength = 6;                                     // scale groups count
 volatile uint8_t cScaleSelect = 100; 
 volatile uint8_t displayTimerFlag = 0;
-
-// void IRAM_ATTR onPSoCTimer(){
-//   if(psocSerial.available()){
-//     psocTimerFlag = 1;
-//   }
-// }
-
 
 void IRAM_ATTR onDisplayTimer(){ 
   displayTimerFlag = 1;
@@ -274,9 +267,10 @@ void setup() {
   u8x8.setCursor(0,0);
   displayTimer = timerBegin(0, 80, true); 
   timerAttachInterrupt(displayTimer , &onDisplayTimer, true);
-  timerAlarmWrite(displayTimer, 50, true); 
+  timerAlarmWrite(displayTimer, 1000, true); 
   timerAlarmEnable(displayTimer);
-  digitalWrite(OErestart, LOW);
+  digitalWrite(OErestart, HIGH);
+  
 }
 
 void loop() {
@@ -289,23 +283,21 @@ void loop() {
     serialReceive.remove(recEndIdx);
     // Serial.println(serialReceive);
 
-int tempIntArray[5], r=0, t=0;
-for (int i=0; i < serialReceive.length(); i++)
-{ 
- if(serialReceive.charAt(i) == ',') 
-  { 
-    tempIntArray[t] = serialReceive.substring(r, i).toInt(); 
-    r=(i+1); 
-    t++; 
+  int tempIntArray[5], r=0, t=0;
+  for (int i=0; i < serialReceive.length(); i++){ 
+    if(serialReceive.charAt(i) == ',') { 
+      tempIntArray[t] = serialReceive.substring(r, i).toInt(); 
+      r=(i+1); 
+      t++; 
+    }
   }
-}
-recRootDisplay = tempIntArray[0];
-recNoteDisplay = tempIntArray[1];
-recOffsetDisplay = tempIntArray[2];
-recGroupDisplay = tempIntArray[3];
-recScaleDisplay = tempIntArray[4];
+  recRootDisplay = tempIntArray[0];
+  recNoteDisplay = tempIntArray[1];
+  recOffsetDisplay = tempIntArray[2];
+  recGroupDisplay = tempIntArray[3];
+  recScaleDisplay = tempIntArray[4];
 
-// JSON VERSION.. slow, to many bytes - but more comfortable
+// old JSON VERSION.. slow, too many bytes - but more comfortable
     // DeserializationError err = deserializeJson(JSONrec, serialReceive);
     // if (err) {
     //   Serial.println(err.f_str());
@@ -319,18 +311,15 @@ recScaleDisplay = tempIntArray[4];
     //   recScaleDisplay = JSONrec["Sc"];
     //   
     // }
+    // -------------------
   }
-  // -------------------
-
-
-  // OPTIONAL DEBUG PRINTS USB UART
-  Serial.println("Root " + (String) recRootDisplay);
-  Serial.println("Note " + (String)  recNoteDisplay);
-  Serial.println("Off2 " + (String)  recOffsetDisplay);
-  Serial.println("Group " + (String) recGroupDisplay);
-  Serial.println("Scale " + (String)  recScaleDisplay); 
-
-  if (displayTimerFlag){
+  if(displayTimerFlag){
+    // OPTIONAL DEBUG PRINTS USB UART
+    Serial.println("Root " + (String) recRootDisplay);
+    Serial.println("Note " + (String)  recNoteDisplay);
+    Serial.println("Off2 " + (String)  recOffsetDisplay);
+    Serial.println("Group " + (String) recGroupDisplay);
+    Serial.println("Scale " + (String)  recScaleDisplay); 
     if (recRootDisplay != recRootDisplayOld){
       u8x8.clearLine(1);
       u8x8.setCursor(0,1);
@@ -373,17 +362,17 @@ recScaleDisplay = tempIntArray[4];
         u8x8.print(cScaleShorts[recGroupDisplay][recScaleDisplay]);
       }
     }
+    u8x8.clearLine(0);
     u8x8.clearLine(7);
     displayTimerFlag = 0;
-  }
-  Serial.println("...");
-  digitalWrite(OErestart, HIGH);
-  delay(15);
-  digitalWrite(OErestart, LOW);
+    Serial.println("...");
+    // delay(10);
 
-  recRootDisplayOld = recRootDisplay;
-  recNoteDisplayOld = recNoteDisplay;
-  recOffsetDisplayOld = recOffsetDisplay;
-  recGroupDisplayOld = recGroupDisplay;
-  recScaleDisplayOld = recScaleDisplay;
+    recRootDisplayOld = recRootDisplay;
+    recNoteDisplayOld = recNoteDisplay;
+    recOffsetDisplayOld = recOffsetDisplay;
+    recGroupDisplayOld = recGroupDisplay;
+    recScaleDisplayOld = recScaleDisplay;
+    
+  }
 }

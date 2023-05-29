@@ -12,7 +12,7 @@
 #define START_FREQ_DIV 1000
 #define MAX_FREQ_DIV 8000
 #define BASS_OFFSET_UP 12
-const uint8 DISPLAY_ADDRESS = 0x3C;// 011110+SA0+RW - 0x3C or 0x3D 
+const uint8 DISPLAY_ADDRESS = 0x3C;             // 011110+SA0+RW - 0x3C or 0x3D 
 
 CY_ISR_PROTO(userModeTimer_ISR);
 CY_ISR_PROTO(userEcho_ISR);

@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydwr">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>PSoC_Audio_MIDI</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI</v>
@@ -40,6 +40,9 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_Dice_1</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>PSoC_Audio_MIDI</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\TopDesign</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydwr</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydwr\Pins</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydwr\Analog</v>
@@ -105,9 +108,6 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Pin_OSZ2_LED</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\SCL_1</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\SDA_1</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Timer_Display</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Timer_Echo</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Generated_Source\PSoC5\Timer_Mode</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -431,6 +431,7 @@
 <name v=".\PSoC_Audio_MIDI.cydsn\ssd1306.c" />
 <name v=".\PSoC_Audio_MIDI.cydsn\main.c" />
 <name v=".\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cydwr" />
+<name v=".\PSoC_Audio_MIDI.cydsn\ssd1306.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -438,7 +439,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1990, 900" SelectedTabbedMdiWindow="8278054b-332c-451b-9ada-d13ff1459de5"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\TopDesign\TopDesign.cysch" Guid="e7681447-db3f-4f2f-b0f0-216c983e7483" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\ssd1306.c" Guid="615e4391-af40-4bf9-92ec-4017205d07d6" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\main.c" Guid="31d2729d-e18d-4d76-8830-6c740565e4e4" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cydwr" Guid="8278054b-332c-451b-9ada-d13ff1459de5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="2081, 1071" SelectedTabbedMdiWindow="e7681447-db3f-4f2f-b0f0-216c983e7483"><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\TopDesign\TopDesign.cysch" Guid="e7681447-db3f-4f2f-b0f0-216c983e7483" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\ssd1306.c" Guid="615e4391-af40-4bf9-92ec-4017205d07d6" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\main.c" Guid="31d2729d-e18d-4d76-8830-6c740565e4e4" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cydwr" Guid="8278054b-332c-451b-9ada-d13ff1459de5" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62714813-e61f-47ba-8570-019de53e7c03" /><DocumentWindow Key="S:\CODE 22\PSOC\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\ssd1306.h" Guid="f1069ef3-786c-4fba-afa8-a50fa7614e8b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
