@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 1s.361ms
+Loading plugins phase: Elapsed time ==> 0s.124ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -d CY8C5888LTI-LP097 -s C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -d CY8C5888LTI-LP097 -s C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 14s.245ms
+Elaboration phase: Elapsed time ==> 6s.557ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.141ms
+HDL generation phase: Elapsed time ==> 0s.060ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -25,23 +25,23 @@ HDL generation phase: Elapsed time ==> 0s.141ms
 ======================================================================
 Compiling:  PSoC_Audio_MIDI.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 PSoC_Audio_MIDI.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 PSoC_Audio_MIDI.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  PSoC_Audio_MIDI.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 PSoC_Audio_MIDI.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 PSoC_Audio_MIDI.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  PSoC_Audio_MIDI.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 -verilog PSoC_Audio_MIDI.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 -verilog PSoC_Audio_MIDI.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Wed May 31 17:22:48 2023
+Wed May 31 20:53:17 2023
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 PSoC_Audio_MIDI.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Wed May 31 17:22:48 2023
+Wed May 31 20:53:17 2023
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
@@ -109,11 +109,11 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  PSoC_Audio_MIDI.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 -verilog PSoC_Audio_MIDI.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 -verilog PSoC_Audio_MIDI.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Wed May 31 17:22:49 2023
+Wed May 31 20:53:17 2023
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -124,9 +124,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.ctl'.
+Linking 'C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.v'.
+Linking 'C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
@@ -152,11 +152,11 @@ tovif:  No errors.
 ======================================================================
 Compiling:  PSoC_Audio_MIDI.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 -verilog PSoC_Audio_MIDI.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 -verilog PSoC_Audio_MIDI.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Wed May 31 17:22:50 2023
+Wed May 31 20:53:18 2023
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -167,9 +167,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.ctl'.
+Linking 'C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
-Linking 'C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.v'.
+Linking 'C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\codegentemp\PSoC_Audio_MIDI.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
@@ -1215,16 +1215,16 @@ topld:  No errors.
 
 CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj" -dcpsoc3 PSoC_Audio_MIDI.v -verilog
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -dcpsoc3 PSoC_Audio_MIDI.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 2s.716ms
+Warp synthesis phase: Elapsed time ==> 1s.477ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Wednesday, 31 May 2023 17:22:51
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -d CY8C5888LTI-LP097 PSoC_Audio_MIDI.v -verilog
+cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Wednesday, 31 May 2023 20:53:18
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\PSoC_Audio_MIDI.cyprj -d CY8C5888LTI-LP097 PSoC_Audio_MIDI.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.112ms
+Design parsing phase: Elapsed time ==> 0s.018ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -4832,8 +4832,8 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    2 :    2 :    4 : 50.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.521ms
-Tech Mapping phase: Elapsed time ==> 0s.710ms
+Technology Mapping: Elapsed time ==> 0s.344ms
+Tech Mapping phase: Elapsed time ==> 0s.399ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Info: apr.M0002: Analog signal "\analogADC:Net_35\" is connected to one terminal only. (App=cydsfit)
@@ -4860,8 +4860,8 @@ IO_5@[IOP=(1)][IoId=(5)] : analogBut(0) (fixed)
 IO_6@[IOP=(1)][IoId=(6)] : analogX(0) (fixed)
 IO_7@[IOP=(1)][IoId=(7)] : analogY(0) (fixed)
 IO_2@[IOP=(2)][IoId=(2)] : but1(0) (fixed)
-IO_3@[IOP=(2)][IoId=(3)] : but2(0) (fixed)
-IO_4@[IOP=(2)][IoId=(4)] : but3(0) (fixed)
+IO_4@[IOP=(2)][IoId=(4)] : but2(0) (fixed)
+IO_3@[IOP=(2)][IoId=(3)] : but3(0) (fixed)
 OpAmp[1]@[FFB(OpAmp,1)] : \WaveDAC8_2:BuffAmp:ABuf\ (fixed)
 OpAmp[3]@[FFB(OpAmp,3)] : \WaveDAC8_1:BuffAmp:ABuf\ (fixed)
 VIDAC[3]@[FFB(VIDAC,3)] : \WaveDAC8_1:VDAC8:viDAC8\
@@ -4894,8 +4894,8 @@ IO_5@[IOP=(1)][IoId=(5)] : analogBut(0) (fixed)
 IO_6@[IOP=(1)][IoId=(6)] : analogX(0) (fixed)
 IO_7@[IOP=(1)][IoId=(7)] : analogY(0) (fixed)
 IO_2@[IOP=(2)][IoId=(2)] : but1(0) (fixed)
-IO_3@[IOP=(2)][IoId=(3)] : but2(0) (fixed)
-IO_4@[IOP=(2)][IoId=(4)] : but3(0) (fixed)
+IO_4@[IOP=(2)][IoId=(4)] : but2(0) (fixed)
+IO_3@[IOP=(2)][IoId=(3)] : but3(0) (fixed)
 OpAmp[1]@[FFB(OpAmp,1)] : \WaveDAC8_2:BuffAmp:ABuf\ (fixed)
 OpAmp[3]@[FFB(OpAmp,3)] : \WaveDAC8_1:BuffAmp:ABuf\ (fixed)
 VIDAC[3]@[FFB(VIDAC,3)] : \WaveDAC8_1:VDAC8:viDAC8\
@@ -4903,10 +4903,10 @@ VIDAC[2]@[FFB(VIDAC,2)] : \WaveDAC8_2:VDAC8:viDAC8\
 DSM[0]@[FFB(DSM,0)] : \analogADC:DSM\
 Vref[6]@[FFB(Vref,6)] : \analogADC:vRef_2\
 
-Analog Placement phase: Elapsed time ==> 0s.853ms
+Analog Placement phase: Elapsed time ==> 0s.548ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.016ms
+Analog Routing phase: Elapsed time ==> 0s.007ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -5092,11 +5092,11 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.299ms
+Analog Code Generation phase: Elapsed time ==> 0s.160ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 2.2 sec.
+I2076: Total run-time: 1.6 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -5120,14 +5120,14 @@ PLD Packing Summary
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.023ms
+PLD Packing: Elapsed time ==> 0s.001ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.277ms
+Partitioning: Elapsed time ==> 0s.121ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -8399,47 +8399,6 @@ Pin : Name = but1(0)
     }
 
 [IoId=3]: 
-Pin : Name = but2(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: NOSYNC
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: RES_PULL_DOWN
-        VTrip: CMOS
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL, ROUTABLE
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => but2(0)__PA ,
-        fb => Net_237 ,
-        pad => but2(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=4]: 
 Pin : Name = but3(0)
     Attributes:
         In Group/Port: True
@@ -8476,6 +8435,47 @@ Pin : Name = but3(0)
         pa_out => but3(0)__PA ,
         fb => Net_242 ,
         pad => but3(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = but2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_DOWN
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => but2(0)__PA ,
+        fb => Net_237 ,
+        pad => but2(0)_PAD );
     Properties:
     {
     }
@@ -9241,8 +9241,8 @@ Port | Pin | Fixed |      Type |       Drive Mode |              Name | Connecti
      |   7 |     * |      NONE |         CMOS_OUT |        analogY(0) | Analog(Net_285)
 -----+-----+-------+-----------+------------------+-------------------+---------------------------------------------------
    2 |   2 |     * |      NONE |    RES_PULL_DOWN |           but1(0) | FB(Net_145)
-     |   3 |     * |      NONE |    RES_PULL_DOWN |           but2(0) | FB(Net_237)
-     |   4 |     * |      NONE |    RES_PULL_DOWN |           but3(0) | FB(Net_242)
+     |   3 |     * |      NONE |    RES_PULL_DOWN |           but3(0) | FB(Net_242)
+     |   4 |     * |      NONE |    RES_PULL_DOWN |           but2(0) | FB(Net_237)
      |   5 |     * |      NONE |      RES_PULL_UP |     Pin_Dice_2(0) | 
      |   6 |     * |      NONE |    RES_PULL_DOWN | Pin_Dice_LED_2(0) | 
 -----+-----+-------+-----------+------------------+-------------------+---------------------------------------------------
@@ -9261,33 +9261,33 @@ Port | Pin | Fixed |      Type |       Drive Mode |              Name | Connecti
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.158ms
-Digital Placement phase: Elapsed time ==> 3s.410ms
+Digital component placer commit/Report: Elapsed time ==> 0s.204ms
+Digital Placement phase: Elapsed time ==> 2s.118ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "PSoC_Audio_MIDI_r.vh2" --pcf-path "PSoC_Audio_MIDI.pco" --des-name "PSoC_Audio_MIDI" --dsf-path "PSoC_Audio_MIDI.dsf" --sdc-path "PSoC_Audio_MIDI.sdc" --lib-path "PSoC_Audio_MIDI_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 3s.436ms
+Digital Routing phase: Elapsed time ==> 2s.563ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.387ms
+Bitstream Generation phase: Elapsed time ==> 0s.136ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.085ms
+Bitstream Verification phase: Elapsed time ==> 0s.024ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in PSoC_Audio_MIDI_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.775ms
+Static timing analysis phase: Elapsed time ==> 0s.531ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.268ms
+Design database save phase: Elapsed time ==> 0s.179ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 10s.452ms
+cydsfit: Elapsed time ==> 6s.703ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 10s.452ms
-API generation phase: Elapsed time ==> 4s.043ms
-Dependency generation phase: Elapsed time ==> 0s.039ms
-Cleanup phase: Elapsed time ==> 0s.002ms
+Fitter phase: Elapsed time ==> 6s.704ms
+API generation phase: Elapsed time ==> 1s.881ms
+Dependency generation phase: Elapsed time ==> 0s.012ms
+Cleanup phase: Elapsed time ==> 0s.000ms

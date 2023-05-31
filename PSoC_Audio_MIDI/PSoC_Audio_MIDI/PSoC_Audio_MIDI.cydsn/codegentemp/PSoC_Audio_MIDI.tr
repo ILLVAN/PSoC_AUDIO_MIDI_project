@@ -89,10 +89,10 @@ All values are in Picoseconds
 Port Name              Setup to Clk  Clock Name:Phase  
 ---------------------  ------------  ----------------  
 Pin_EchoReturn(0)_PAD  21975         Clock_Echo:R      
-analogBut(0)_PAD       15818         debouncerClock:R  
+analogBut(0)_PAD       16468         debouncerClock:R  
 but1(0)_PAD            18465         debouncerClock:R  
-but2(0)_PAD            17790         debouncerClock:R  
-but3(0)_PAD            17006         debouncerClock:R  
+but2(0)_PAD            17591         debouncerClock:R  
+but3(0)_PAD            17761         debouncerClock:R  
 
 
                        3.2::Clock to Out
@@ -1670,48 +1670,6 @@ ClockBlock/dclk_glb_1                                      clockblockcell      0
 
 ++++ Path 23 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
-Path Begin     : \I2COLED:bI2C_UDB:m_state_4\/q
-Path End       : \I2COLED:bI2C_UDB:m_state_2\/main_5
-Capture Clock  : \I2COLED:bI2C_UDB:m_state_2\/clock_0
-Path slack     : 596873p
-
-Capture Clock Arrival Time                                0
-+ Clock path delay                                        0
-+ Cycle adjust (Clock_OLED:R#1 vs. Clock_OLED:R#2)   625000
-- Setup time                                          -3510
---------------------------------------------------   ------ 
-End-of-path required time (ps)                       621490
-
-Launch Clock Arrival Time                       0
-+ Clock path delay                          0
-+ Data path delay                       24617
--------------------------------------   ----- 
-End-of-path arrival time (ps)           24617
- 
-Launch Clock Path
-pin name                                                   model name      delay     AT  edge  Fanout
----------------------------------------------------------  --------------  -----  -----  ----  ------
-ClockBlock/dclk_glb_1                                      clockblockcell      0      0  RISE       1
-\I2COLED:bI2C_UDB:m_state_4\/clock_0                       macrocell59         0      0  RISE       1
-
-Data path
-pin name                                   model name   delay     AT   slack  edge  Fanout
------------------------------------------  -----------  -----  -----  ------  ----  ------
-\I2COLED:bI2C_UDB:m_state_4\/q             macrocell59   1250   1250  596614  RISE       1
-\I2COLED:bI2C_UDB:m_state_2_split\/main_4  macrocell98  13196  14446  596873  RISE       1
-\I2COLED:bI2C_UDB:m_state_2_split\/q       macrocell98   3350  17796  596873  RISE       1
-\I2COLED:bI2C_UDB:m_state_2\/main_5        macrocell61   6821  24617  596873  RISE       1
-
-Capture Clock Path
-pin name                                                   model name      delay     AT  edge  Fanout
----------------------------------------------------------  --------------  -----  -----  ----  ------
-ClockBlock/dclk_glb_1                                      clockblockcell      0      0  RISE       1
-\I2COLED:bI2C_UDB:m_state_2\/clock_0                       macrocell61         0      0  RISE       1
-
-
-
-++++ Path 24 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-
 Path Begin     : \I2COLED:bI2C_UDB:Shifter:u0\/f1_blk_stat_comb
 Path End       : \I2COLED:bI2C_UDB:status_0\/main_1
 Capture Clock  : \I2COLED:bI2C_UDB:status_0\/clock_0
@@ -1749,6 +1707,48 @@ pin name                                                   model name      delay
 ---------------------------------------------------------  --------------  -----  -----  ----  ------
 ClockBlock/dclk_glb_1                                      clockblockcell      0      0  RISE       1
 \I2COLED:bI2C_UDB:status_0\/clock_0                        macrocell67         0      0  RISE       1
+
+
+
+++++ Path 24 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin     : \I2COLED:bI2C_UDB:m_state_4\/q
+Path End       : \I2COLED:bI2C_UDB:m_state_2\/main_5
+Capture Clock  : \I2COLED:bI2C_UDB:m_state_2\/clock_0
+Path slack     : 597077p
+
+Capture Clock Arrival Time                                0
++ Clock path delay                                        0
++ Cycle adjust (Clock_OLED:R#1 vs. Clock_OLED:R#2)   625000
+- Setup time                                          -3510
+--------------------------------------------------   ------ 
+End-of-path required time (ps)                       621490
+
+Launch Clock Arrival Time                       0
++ Clock path delay                          0
++ Data path delay                       24413
+-------------------------------------   ----- 
+End-of-path arrival time (ps)           24413
+ 
+Launch Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_1                                      clockblockcell      0      0  RISE       1
+\I2COLED:bI2C_UDB:m_state_4\/clock_0                       macrocell59         0      0  RISE       1
+
+Data path
+pin name                                   model name   delay     AT   slack  edge  Fanout
+-----------------------------------------  -----------  -----  -----  ------  ----  ------
+\I2COLED:bI2C_UDB:m_state_4\/q             macrocell59   1250   1250  596614  RISE       1
+\I2COLED:bI2C_UDB:m_state_2_split\/main_4  macrocell98  13196  14446  597077  RISE       1
+\I2COLED:bI2C_UDB:m_state_2_split\/q       macrocell98   3350  17796  597077  RISE       1
+\I2COLED:bI2C_UDB:m_state_2\/main_5        macrocell61   6617  24413  597077  RISE       1
+
+Capture Clock Path
+pin name                                                   model name      delay     AT  edge  Fanout
+---------------------------------------------------------  --------------  -----  -----  ----  ------
+ClockBlock/dclk_glb_1                                      clockblockcell      0      0  RISE       1
+\I2COLED:bI2C_UDB:m_state_2\/clock_0                       macrocell61         0      0  RISE       1
 
 
 
@@ -4315,7 +4315,7 @@ ClockBlock/dclk_glb_1                                      clockblockcell      0
 Data path
 pin name                                      model name    delay     AT   slack  edge  Fanout
 --------------------------------------------  ------------  -----  -----  ------  ----  ------
-\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_4  controlcell1   1210   1210  604610  RISE       1
+\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_4  controlcell1   1210   1210  604813  RISE       1
 \I2COLED:bI2C_UDB:m_state_4\/main_0           macrocell59    7155   8365  613125  RISE       1
 
 Capture Clock Path
@@ -4355,7 +4355,7 @@ ClockBlock/dclk_glb_1                                      clockblockcell      0
 Data path
 pin name                                      model name    delay     AT   slack  edge  Fanout
 --------------------------------------------  ------------  -----  -----  ------  ----  ------
-\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_4  controlcell1   1210   1210  604610  RISE       1
+\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_4  controlcell1   1210   1210  604813  RISE       1
 \I2COLED:sda_x_wire\/main_1                   macrocell79    7155   8365  613125  RISE       1
 
 Capture Clock Path
@@ -4835,7 +4835,7 @@ ClockBlock/dclk_glb_1                                      clockblockcell      0
 Data path
 pin name                                      model name    delay     AT   slack  edge  Fanout
 --------------------------------------------  ------------  -----  -----  ------  ----  ------
-\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_5  controlcell1   1210   1210  604044  RISE       1
+\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_5  controlcell1   1210   1210  604248  RISE       1
 \I2COLED:bI2C_UDB:m_state_3\/main_1           macrocell60    5796   7006  614484  RISE       1
 
 Capture Clock Path
@@ -5155,7 +5155,7 @@ ClockBlock/dclk_glb_1                                      clockblockcell      0
 Data path
 pin name                                      model name    delay     AT   slack  edge  Fanout
 --------------------------------------------  ------------  -----  -----  ------  ----  ------
-\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_6  controlcell1   1210   1210  604230  RISE       1
+\I2COLED:bI2C_UDB:SyncCtl:CtrlReg\/control_6  controlcell1   1210   1210  604433  RISE       1
 \I2COLED:bI2C_UDB:m_state_3\/main_0           macrocell60    4144   5354  616136  RISE       1
 
 Capture Clock Path

@@ -1,5 +1,5 @@
 -- Project:   PSoC_Audio_MIDI
--- Generated: 05/31/2023 17:22:53
+-- Generated: 05/31/2023 20:53:20
 -- PSoC Creator  4.4
 
 ENTITY PSoC_Audio_MIDI IS
@@ -330,9 +330,9 @@ ARCHITECTURE __DEFAULT__ OF PSoC_Audio_MIDI IS
     ATTRIBUTE lib_model OF analogX(0) : LABEL IS "iocell10";
     ATTRIBUTE Location OF analogX(0) : LABEL IS "P1[6]";
     ATTRIBUTE lib_model OF but3(0) : LABEL IS "iocell11";
-    ATTRIBUTE Location OF but3(0) : LABEL IS "P2[4]";
+    ATTRIBUTE Location OF but3(0) : LABEL IS "P2[3]";
     ATTRIBUTE lib_model OF but2(0) : LABEL IS "iocell12";
-    ATTRIBUTE Location OF but2(0) : LABEL IS "P2[3]";
+    ATTRIBUTE Location OF but2(0) : LABEL IS "P2[4]";
     ATTRIBUTE lib_model OF but1(0) : LABEL IS "iocell13";
     ATTRIBUTE Location OF but1(0) : LABEL IS "P2[2]";
     ATTRIBUTE lib_model OF Pin_EchoReturn(0) : LABEL IS "iocell14";

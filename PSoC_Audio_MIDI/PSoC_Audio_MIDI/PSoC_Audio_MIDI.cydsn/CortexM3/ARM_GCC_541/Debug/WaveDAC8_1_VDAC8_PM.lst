@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
   24:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** /*******************************************************************************
   25:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** * Function Name: WaveDAC8_1_VDAC8_SaveConfig
   26:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** ********************************************************************************
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 2
 
 
   27:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** * Summary:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
   69 0028 835B0040 		.word	1073765251
   70 002c 00000000 		.word	WaveDAC8_1_VDAC8_backup
   71              		.cfi_endproc
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 3
 
 
   72              	.LFE0:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  105 001e 14D0     		beq	.L8
   65:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c ****         {
   66:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c ****             WaveDAC8_1_VDAC8_Strobe &= (uint8)(~WaveDAC8_1_VDAC8_STRB_MASK);
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 4
 
 
  106              		.loc 1 66 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  150 0064 835B0040 		.word	1073765251
  151 0068 00000000 		.word	WaveDAC8_1_VDAC8_backup
  152              		.cfi_endproc
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 5
 
 
  153              	.LFE1:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  181 0012 074B     		ldr	r3, .L15+4
  182 0014 0122     		movs	r2, #1
  183 0016 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 6
 
 
  184 0018 02E0     		b	.L14
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  126:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** *
  127:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** * Global variables:
  128:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** *  WaveDAC8_1_VDAC8_backup.enableState:  Is used to restore the enable state of 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 7
 
 
  129:Generated_Source\PSoC5/WaveDAC8_1_VDAC8_PM.c **** *  block on wakeup from sleep mode.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  252              	.Letext0:
  253              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
  254              		.file 3 "Generated_Source\\PSoC5\\WaveDAC8_1_VDAC8.h"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 8
 
 
  255              		.section	.debug_info,"",%progbits
@@ -431,14 +431,14 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  262 000c 00000000 		.4byte	.LASF21
  263 0010 0C       		.byte	0xc
  264 0011 8E000000 		.4byte	.LASF22
- 265 0015 C6010000 		.4byte	.LASF23
+ 265 0015 F7010000 		.4byte	.LASF23
  266 0019 00000000 		.4byte	.Ldebug_ranges0+0
  267 001d 00000000 		.4byte	0
  268 0021 00000000 		.4byte	.Ldebug_line0
  269 0025 02       		.uleb128 0x2
  270 0026 01       		.byte	0x1
  271 0027 06       		.byte	0x6
- 272 0028 47020000 		.4byte	.LASF0
+ 272 0028 EB010000 		.4byte	.LASF0
  273 002c 02       		.uleb128 0x2
  274 002d 01       		.byte	0x1
  275 002e 08       		.byte	0x8
@@ -446,7 +446,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  277 0033 02       		.uleb128 0x2
  278 0034 02       		.byte	0x2
  279 0035 05       		.byte	0x5
- 280 0036 22020000 		.4byte	.LASF2
+ 280 0036 C6010000 		.4byte	.LASF2
  281 003a 02       		.uleb128 0x2
  282 003b 02       		.byte	0x2
  283 003c 07       		.byte	0x7
@@ -454,7 +454,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  285 0041 02       		.uleb128 0x2
  286 0042 04       		.byte	0x4
  287 0043 05       		.byte	0x5
- 288 0044 32020000 		.4byte	.LASF4
+ 288 0044 D6010000 		.4byte	.LASF4
  289 0048 02       		.uleb128 0x2
  290 0049 04       		.byte	0x4
  291 004a 07       		.byte	0x7
@@ -476,9 +476,9 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  307 0066 07       		.byte	0x7
  308 0067 70010000 		.4byte	.LASF8
  309 006b 04       		.uleb128 0x4
- 310 006c 2C020000 		.4byte	.LASF12
+ 310 006c D0010000 		.4byte	.LASF12
  311 0070 02       		.byte	0x2
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 9
 
 
  312 0071 9201     		.2byte	0x192
@@ -508,7 +508,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  336 00a0 25       		.byte	0x25
  337 00a1 BE000000 		.4byte	0xbe
  338 00a5 07       		.uleb128 0x7
- 339 00a6 3B020000 		.4byte	.LASF14
+ 339 00a6 DF010000 		.4byte	.LASF14
  340 00aa 03       		.byte	0x3
  341 00ab 27       		.byte	0x27
  342 00ac 6B000000 		.4byte	0x6b
@@ -526,7 +526,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  354 00c4 29       		.byte	0x29
  355 00c5 9D000000 		.4byte	0x9d
  356 00c9 09       		.uleb128 0x9
- 357 00ca 53020000 		.4byte	.LASF17
+ 357 00ca 62020000 		.4byte	.LASF17
  358 00ce 01       		.byte	0x1
  359 00cf 25       		.byte	0x25
  360 00d0 00000000 		.4byte	.LFB0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  366 00df 01       		.byte	0x1
  367 00e0 3C       		.byte	0x3c
  368 00e1 00000000 		.4byte	.LFB1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 10
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 10
 
 
  369 00e5 6C000000 		.4byte	.LFE1-.LFB1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  423 0018 3E       		.uleb128 0x3e
  424 0019 0B       		.uleb128 0xb
  425 001a 03       		.uleb128 0x3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 11
 
 
  426 001b 0E       		.uleb128 0xe
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  480 0051 3B       		.uleb128 0x3b
  481 0052 0B       		.uleb128 0xb
  482 0053 49       		.uleb128 0x49
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 12
 
 
  483 0054 13       		.uleb128 0x13
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  537 008b 11       		.uleb128 0x11
  538 008c 01       		.uleb128 0x1
  539 008d 12       		.uleb128 0x12
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 13
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 13
 
 
  540 008e 06       		.uleb128 0x6
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  594              	.Ldebug_line0:
  595 0000 C0000000 		.section	.debug_str,"MS",%progbits,1
  595      02006600 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 14
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 14
 
 
  595      00000201 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  615      20756E73 
  615      69676E65 
  615      6420696E 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 15
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 15
 
 
  615      7400
@@ -888,43 +888,47 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 1
  632              	.LASF11:
  633 01c1 63686172 		.ascii	"char\000"
  633      00
- 634              	.LASF23:
- 635 01c6 433A5C55 		.ascii	"C:\\Users\\mariu\\Documents\\PSoC Creator\\PSoC_Aud"
- 635      73657273 
- 635      5C6D6172 
- 635      69755C44 
- 635      6F63756D 
- 636 01f4 696F5F4D 		.ascii	"io_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI.cydsn\000"
- 636      4944495C 
- 636      50536F43 
- 636      5F417564 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccWEmCmP.s 			page 16
+ 634              	.LASF2:
+ 635 01c6 73686F72 		.ascii	"short int\000"
+ 635      7420696E 
+ 635      7400
+ 636              	.LASF12:
+ 637 01d0 75696E74 		.ascii	"uint8\000"
+ 637      3800
+ 638              	.LASF4:
+ 639 01d6 6C6F6E67 		.ascii	"long int\000"
+ 639      20696E74 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cc2eVwTK.s 			page 16
 
 
- 636      696F5F4D 
- 637              	.LASF2:
- 638 0222 73686F72 		.ascii	"short int\000"
- 638      7420696E 
- 638      7400
- 639              	.LASF12:
- 640 022c 75696E74 		.ascii	"uint8\000"
- 640      3800
- 641              	.LASF4:
- 642 0232 6C6F6E67 		.ascii	"long int\000"
- 642      20696E74 
- 642      00
- 643              	.LASF14:
- 644 023b 656E6162 		.ascii	"enableState\000"
- 644      6C655374 
- 644      61746500 
- 645              	.LASF0:
- 646 0247 7369676E 		.ascii	"signed char\000"
- 646      65642063 
- 646      68617200 
- 647              	.LASF17:
- 648 0253 57617665 		.ascii	"WaveDAC8_1_VDAC8_SaveConfig\000"
- 648      44414338 
- 648      5F315F56 
- 648      44414338 
- 648      5F536176 
- 649              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 639      00
+ 640              	.LASF14:
+ 641 01df 656E6162 		.ascii	"enableState\000"
+ 641      6C655374 
+ 641      61746500 
+ 642              	.LASF0:
+ 643 01eb 7369676E 		.ascii	"signed char\000"
+ 643      65642063 
+ 643      68617200 
+ 644              	.LASF23:
+ 645 01f7 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\GitHubRepos\\PSoC_Audi"
+ 645      73657273 
+ 645      5C73696C 
+ 645      76616E5C 
+ 645      4F6E6544 
+ 646 0225 6F5F4D49 		.ascii	"o_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI\\PSoC_Audi"
+ 646      44495C50 
+ 646      536F435F 
+ 646      41756469 
+ 646      6F5F4D49 
+ 647 0255 6F5F4D49 		.ascii	"o_MIDI.cydsn\000"
+ 647      44492E63 
+ 647      7964736E 
+ 647      00
+ 648              	.LASF17:
+ 649 0262 57617665 		.ascii	"WaveDAC8_1_VDAC8_SaveConfig\000"
+ 649      44414338 
+ 649      5F315F56 
+ 649      44414338 
+ 649      5F536176 
+ 650              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

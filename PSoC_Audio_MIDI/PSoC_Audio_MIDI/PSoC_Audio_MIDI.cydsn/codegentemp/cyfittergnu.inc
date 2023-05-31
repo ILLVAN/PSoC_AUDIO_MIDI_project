@@ -204,11 +204,11 @@
 .set but1_isr_pos__INTC_SET_PD_REG, CYREG_NVIC_SETPEND0
 
 /* but2 */
-.set but2__0__INTTYPE, CYREG_PICU2_INTTYPE3
-.set but2__0__MASK, 0x08
-.set but2__0__PC, CYREG_PRT2_PC3
+.set but2__0__INTTYPE, CYREG_PICU2_INTTYPE4
+.set but2__0__MASK, 0x10
+.set but2__0__PC, CYREG_PRT2_PC4
 .set but2__0__PORT, 2
-.set but2__0__SHIFT, 3
+.set but2__0__SHIFT, 4
 .set but2__AG, CYREG_PRT2_AG
 .set but2__AMUX, CYREG_PRT2_AMUX
 .set but2__BIE, CYREG_PRT2_BIE
@@ -223,7 +223,7 @@
 .set but2__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU2_BASE
 .set but2__LCD_COM_SEG, CYREG_PRT2_LCD_COM_SEG
 .set but2__LCD_EN, CYREG_PRT2_LCD_EN
-.set but2__MASK, 0x08
+.set but2__MASK, 0x10
 .set but2__PORT, 2
 .set but2__PRT, CYREG_PRT2_PRT
 .set but2__PRTDSI__CAPS_SEL, CYREG_PRT2_CAPS_SEL
@@ -234,7 +234,7 @@
 .set but2__PRTDSI__OUT_SEL1, CYREG_PRT2_OUT_SEL1
 .set but2__PRTDSI__SYNC_OUT, CYREG_PRT2_SYNC_OUT
 .set but2__PS, CYREG_PRT2_PS
-.set but2__SHIFT, 3
+.set but2__SHIFT, 4
 .set but2__SLW, CYREG_PRT2_SLW
 .set but2_isr_neg__INTC_CLR_EN_REG, CYREG_NVIC_CLRENA0
 .set but2_isr_neg__INTC_CLR_PD_REG, CYREG_NVIC_CLRPEND0
@@ -254,11 +254,11 @@
 .set but2_isr_pos__INTC_SET_PD_REG, CYREG_NVIC_SETPEND0
 
 /* but3 */
-.set but3__0__INTTYPE, CYREG_PICU2_INTTYPE4
-.set but3__0__MASK, 0x10
-.set but3__0__PC, CYREG_PRT2_PC4
+.set but3__0__INTTYPE, CYREG_PICU2_INTTYPE3
+.set but3__0__MASK, 0x08
+.set but3__0__PC, CYREG_PRT2_PC3
 .set but3__0__PORT, 2
-.set but3__0__SHIFT, 4
+.set but3__0__SHIFT, 3
 .set but3__AG, CYREG_PRT2_AG
 .set but3__AMUX, CYREG_PRT2_AMUX
 .set but3__BIE, CYREG_PRT2_BIE
@@ -273,7 +273,7 @@
 .set but3__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU2_BASE
 .set but3__LCD_COM_SEG, CYREG_PRT2_LCD_COM_SEG
 .set but3__LCD_EN, CYREG_PRT2_LCD_EN
-.set but3__MASK, 0x10
+.set but3__MASK, 0x08
 .set but3__PORT, 2
 .set but3__PRT, CYREG_PRT2_PRT
 .set but3__PRTDSI__CAPS_SEL, CYREG_PRT2_CAPS_SEL
@@ -284,7 +284,7 @@
 .set but3__PRTDSI__OUT_SEL1, CYREG_PRT2_OUT_SEL1
 .set but3__PRTDSI__SYNC_OUT, CYREG_PRT2_SYNC_OUT
 .set but3__PS, CYREG_PRT2_PS
-.set but3__SHIFT, 4
+.set but3__SHIFT, 3
 .set but3__SLW, CYREG_PRT2_SLW
 .set but3_isr_neg__INTC_CLR_EN_REG, CYREG_NVIC_CLRENA0
 .set but3_isr_neg__INTC_CLR_PD_REG, CYREG_NVIC_CLRPEND0

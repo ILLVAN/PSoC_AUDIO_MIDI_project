@@ -204,11 +204,11 @@
 #define but1_isr_pos__INTC_SET_PD_REG CYREG_NVIC_SETPEND0
 
 /* but2 */
-#define but2__0__INTTYPE CYREG_PICU2_INTTYPE3
-#define but2__0__MASK 0x08u
-#define but2__0__PC CYREG_PRT2_PC3
+#define but2__0__INTTYPE CYREG_PICU2_INTTYPE4
+#define but2__0__MASK 0x10u
+#define but2__0__PC CYREG_PRT2_PC4
 #define but2__0__PORT 2u
-#define but2__0__SHIFT 3u
+#define but2__0__SHIFT 4u
 #define but2__AG CYREG_PRT2_AG
 #define but2__AMUX CYREG_PRT2_AMUX
 #define but2__BIE CYREG_PRT2_BIE
@@ -223,7 +223,7 @@
 #define but2__INTTYPE_BASE CYDEV_PICU_INTTYPE_PICU2_BASE
 #define but2__LCD_COM_SEG CYREG_PRT2_LCD_COM_SEG
 #define but2__LCD_EN CYREG_PRT2_LCD_EN
-#define but2__MASK 0x08u
+#define but2__MASK 0x10u
 #define but2__PORT 2u
 #define but2__PRT CYREG_PRT2_PRT
 #define but2__PRTDSI__CAPS_SEL CYREG_PRT2_CAPS_SEL
@@ -234,7 +234,7 @@
 #define but2__PRTDSI__OUT_SEL1 CYREG_PRT2_OUT_SEL1
 #define but2__PRTDSI__SYNC_OUT CYREG_PRT2_SYNC_OUT
 #define but2__PS CYREG_PRT2_PS
-#define but2__SHIFT 3u
+#define but2__SHIFT 4u
 #define but2__SLW CYREG_PRT2_SLW
 #define but2_isr_neg__INTC_CLR_EN_REG CYREG_NVIC_CLRENA0
 #define but2_isr_neg__INTC_CLR_PD_REG CYREG_NVIC_CLRPEND0
@@ -254,11 +254,11 @@
 #define but2_isr_pos__INTC_SET_PD_REG CYREG_NVIC_SETPEND0
 
 /* but3 */
-#define but3__0__INTTYPE CYREG_PICU2_INTTYPE4
-#define but3__0__MASK 0x10u
-#define but3__0__PC CYREG_PRT2_PC4
+#define but3__0__INTTYPE CYREG_PICU2_INTTYPE3
+#define but3__0__MASK 0x08u
+#define but3__0__PC CYREG_PRT2_PC3
 #define but3__0__PORT 2u
-#define but3__0__SHIFT 4u
+#define but3__0__SHIFT 3u
 #define but3__AG CYREG_PRT2_AG
 #define but3__AMUX CYREG_PRT2_AMUX
 #define but3__BIE CYREG_PRT2_BIE
@@ -273,7 +273,7 @@
 #define but3__INTTYPE_BASE CYDEV_PICU_INTTYPE_PICU2_BASE
 #define but3__LCD_COM_SEG CYREG_PRT2_LCD_COM_SEG
 #define but3__LCD_EN CYREG_PRT2_LCD_EN
-#define but3__MASK 0x10u
+#define but3__MASK 0x08u
 #define but3__PORT 2u
 #define but3__PRT CYREG_PRT2_PRT
 #define but3__PRTDSI__CAPS_SEL CYREG_PRT2_CAPS_SEL
@@ -284,7 +284,7 @@
 #define but3__PRTDSI__OUT_SEL1 CYREG_PRT2_OUT_SEL1
 #define but3__PRTDSI__SYNC_OUT CYREG_PRT2_SYNC_OUT
 #define but3__PS CYREG_PRT2_PS
-#define but3__SHIFT 4u
+#define but3__SHIFT 3u
 #define but3__SLW CYREG_PRT2_SLW
 #define but3_isr_neg__INTC_CLR_EN_REG CYREG_NVIC_CLRENA0
 #define but3_isr_neg__INTC_CLR_PD_REG CYREG_NVIC_CLRPEND0

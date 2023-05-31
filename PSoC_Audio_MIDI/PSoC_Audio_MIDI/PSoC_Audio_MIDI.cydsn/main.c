@@ -6,8 +6,6 @@
 #include <project.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <ssd1306.h>
-#include <font.h>
 
 #define START_FREQ_DIV 1000
 #define MAX_FREQ_DIV 8000
@@ -140,8 +138,8 @@ volatile char note[3];
 volatile uint8 noteIndex;
 volatile uint8 noteIndex2;
 volatile uint8 mode = 1;            // set default mode   
-volatile uint8 modeFlag = 3;        // flag is set by Timer_Mode, resets after check
-volatile uint8 checkingMode = 0;    // set bool if checking mode or not 
+volatile uint8 modeFlag = 1;        // flag is set by Timer_Mode, resets after check
+volatile uint8 checkingMode = 1;    // set bool if checking mode or not 
 volatile uint8 lastMode = 1;
 uint16 freqClockDivCounter = START_FREQ_DIV;
 volatile uint dice1;
@@ -496,13 +494,13 @@ void distanceEchoPitch(){
 
 void noteSelect(int xPit)   {   
     if(xPit>230 && oldXinput<200)    {
-        pitchFlag =2;
+        pitchFlag = 2;
     }
     if(xPit <-230 && oldXinput>-200)    {
-        pitchFlag=1;
+        pitchFlag = 1;
     }
-    if(xPit < 150 || xPit > -150)   {
-        pitchFlag=0;
+    if(xPit < 150 && xPit > -150)   { 
+        pitchFlag = 0;
     }
     oldXinput = xPit;
 }

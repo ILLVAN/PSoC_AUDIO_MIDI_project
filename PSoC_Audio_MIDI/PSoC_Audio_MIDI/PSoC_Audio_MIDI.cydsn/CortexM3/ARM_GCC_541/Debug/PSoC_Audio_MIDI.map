@@ -76,8 +76,6 @@ Archive member included to satisfy reference by file (symbol)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (isr_Echo_StartEx)
 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (Clock_2_Start)
-.\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
-                              .\CortexM3\ARM_GCC_541\Debug\ssd1306.o (I2COLED_MasterSendStart)
 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (Timer_Display_Start)
 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
@@ -110,10 +108,6 @@ Archive member included to satisfy reference by file (symbol)
                               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o) (CyFlash_SetWaitCycles)
 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
                               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o) (CySpcStart)
-.\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
-                              .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o) (I2COLED_state)
-.\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
-                              .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o) (I2COLED_ISR)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (__aeabi_i2d)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivdf3.o)
@@ -144,8 +138,6 @@ c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.
                               c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (sprintf)
-c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strlen.o)
-                              .\CortexM3\ARM_GCC_541\Debug\ssd1306.o (strlen)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
                               c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o) (_svfprintf_r)
 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
@@ -173,52 +165,32 @@ Allocating common symbols
 Common symbol       size              file
 
 intFreq             0x2               .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_mstrStatus  0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 analogADC_CountsPerVolt
                     0x4               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
 waveDAC2running     0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
 espTransmit         0x10              .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_mstrControl
-                    0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 pitchFlag           0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_state       0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
 errno               0x4               c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
 toESPviaUARTFlag    0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_mstrRdBufIndex
-                    0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 echoDuration        0x2               .\CortexM3\ARM_GCC_541\Debug\main.o
 freq                0x8               .\CortexM3\ARM_GCC_541\Debug\main.o
 waveDAC1running     0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_mstrWrBufIndex
-                    0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 osz1Select          0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
 echoReadCounter     0x2               .\CortexM3\ARM_GCC_541\Debug\main.o
-WIDTH               0x2               .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
 dice1               0x4               .\CortexM3\ARM_GCC_541\Debug\main.o
 osz2Select          0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
-rotation            0x1               .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
 noteIndex2          0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_mstrRdBufPtr
-                    0x4               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
-HEIGHT              0x2               .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
 echoTimerPeriod     0x2               .\CortexM3\ARM_GCC_541\Debug\main.o
 note                0x3               .\CortexM3\ARM_GCC_541\Debug\main.o
 analogButFlag       0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_mstrWrBufSize
-                    0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 echoDistance        0x2               .\CortexM3\ARM_GCC_541\Debug\main.o
 noteIndex           0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
 transmitBuffer      0x64              .\CortexM3\ARM_GCC_541\Debug\main.o
 displayScaleName    0x28              .\CortexM3\ARM_GCC_541\Debug\main.o
 displayNote         0x3               .\CortexM3\ARM_GCC_541\Debug\main.o
-wrap                0x1               .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
-I2COLED_mstrWrBufPtr
-                    0x4               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 toggleSettings      0x1               .\CortexM3\ARM_GCC_541\Debug\main.o
 dieTemperature      0x2               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
 dice2               0x4               .\CortexM3\ARM_GCC_541\Debug\main.o
-I2COLED_mstrRdBufSize
-                    0x1               .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
 
 Discarded input sections
 
@@ -232,75 +204,6 @@ Discarded input sections
  .ARM.extab     0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.exidx     0x00000000        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\main.o
- .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .data          0x00000000      0x40a .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .bss           0x00000000        0xf .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .rodata        0x00000000      0x51f .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_init
-                0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_write_buf
-                0x00000000       0x54 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_setPixel
-                0x00000000      0x148 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_clear
-                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_contrast
-                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_invert
-                0x00000000       0x34 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_update
-                0x00000000       0x3c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_line
-                0x00000000      0x24c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_stopscroll
-                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.display_scroll
-                0x00000000       0x58 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_init
-                0x00000000       0x98 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_width
-                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_height
-                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_rotation
-                0x00000000       0x14 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_setCursor
-                0x00000000       0x30 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_setTextSize
-                0x00000000       0x28 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_setTextColor
-                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_setTextBg
-                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_setTextWrap
-                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_setRotation
-                0x00000000       0x80 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_rotation_adjust
-                0x00000000       0xc0 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_drawPixel
-                0x00000000       0x6c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_hvLine
-                0x00000000      0x1ac .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_drawLine
-                0x00000000      0x174 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_drawRect
-                0x00000000       0xe4 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_fillRect
-                0x00000000       0xc8 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_drawCircle
-                0x00000000      0x1d8 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_drawTriangle
-                0x00000000       0x74 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_drawChar
-                0x00000000      0x1f0 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_write
-                0x00000000       0xf4 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_print
-                0x00000000       0x40 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .text.gfx_println
-                0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- COMMON         0x00000000        0x7 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
@@ -1063,36 +966,6 @@ Discarded input sections
                 0x00000000       0x1c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
  .text.Clock_2_SetSourceRegister
                 0x00000000       0xc4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
- .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterWriteBuf
-                0x00000000      0x120 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterReadBuf
-                0x00000000      0x124 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterSendStart
-                0x00000000       0xd8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterSendRestart
-                0x00000000       0xbc .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterSendStop
-                0x00000000       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterWriteByte
-                0x00000000       0xa0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterReadByte
-                0x00000000       0xb0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterStatus
-                0x00000000       0x4c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterClearStatus
-                0x00000000       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterGetReadBufSize
-                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterGetWriteBufSize
-                0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterClearReadBuf
-                0x00000000       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .text.I2COLED_MasterClearWriteBuf
-                0x00000000       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- COMMON         0x00000000       0x11 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
  .text.Timer_Display_Stop
@@ -1316,23 +1189,6 @@ Discarded input sections
                 0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
  .text.CySpcGetAlgorithm
                 0x00000000       0x44 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .bss           0x00000000        0x1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .text.I2COLED_Init
-                0x00000000       0xa0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .text.I2COLED_Enable
-                0x00000000       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .text.I2COLED_Start
-                0x00000000       0x2c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .text.I2COLED_Stop
-                0x00000000       0x5c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- COMMON         0x00000000        0x1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
- .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
- .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
- .text.I2COLED_ISR
-                0x00000000      0x408 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivdf3.o)
@@ -1379,9 +1235,6 @@ Discarded input sections
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o)
  .text._sprintf_r
                 0x00000000       0x40 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o)
- .text          0x00000000       0x10 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strlen.o)
- .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strlen.o)
- .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strlen.o)
  .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
@@ -1442,7 +1295,6 @@ LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm
 LOAD c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o
 START GROUP
 LOAD .\CortexM3\ARM_GCC_541\Debug\main.o
-LOAD .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
 LOAD .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
 LOAD .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
 LOAD .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
@@ -2275,85 +2127,85 @@ END GROUP
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
                 0x00005950                __exidx_end = .
 
-.rodata         0x00005950     0x16d8
+.rodata         0x00005950     0x11e0
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x00005950     0x1478 .\CortexM3\ARM_GCC_541\Debug\main.o
-                0x00005e4b                DISPLAY_ADDRESS
-                0x00005e4c                notes
-                0x00005f90                intFrequency
-                0x00006068                frequency
-                0x000063c8                cGROUPS_LENGTH
-                0x000063c9                cSCALES_LENGTH
-                0x000063cc                cScales
-                0x0000654c                cScaleNames
- .rodata        0x00006dc8       0x60 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
-                0x00006dc8                analogADC_AMux__addrTable
-                0x00006dd0                analogADC_AMux__maskTable
-                0x00006dd4                analogMUX__addrTable
-                0x00006de4                analogMUX__maskTable
- .rodata        0x00006e28       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
-                0x00006e28                WaveDAC8_1_wave1
-                0x00006e8c                WaveDAC8_1_wave2
- .rodata        0x00006ef0       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
-                0x00006ef0                WaveDAC8_2_wave1
-                0x00006f54                WaveDAC8_2_wave2
+ .rodata        0x00005950      0xf80 .\CortexM3\ARM_GCC_541\Debug\main.o
+                0x00005950                DISPLAY_ADDRESS
+                0x00005954                notes
+                0x00005a98                intFrequency
+                0x00005b70                frequency
+                0x00005ed0                cGROUPS_LENGTH
+                0x00005ed1                cSCALES_LENGTH
+                0x00005ed4                cScales
+                0x00006054                cScaleNames
+ .rodata        0x000068d0       0x60 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x000068d0                analogADC_AMux__addrTable
+                0x000068d8                analogADC_AMux__maskTable
+                0x000068dc                analogMUX__addrTable
+                0x000068ec                analogMUX__maskTable
+ .rodata        0x00006930       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+                0x00006930                WaveDAC8_1_wave1
+                0x00006994                WaveDAC8_1_wave2
+ .rodata        0x000069f8       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+                0x000069f8                WaveDAC8_2_wave1
+                0x00006a5c                WaveDAC8_2_wave2
  .rodata.str1.1
-                0x00006fb8        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x00006ac0        0x2 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
  .rodata.str1.1
-                0x00006fba       0x11 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00006ac2       0x11 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x00006fcb       0x22 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00006ff0                . = ALIGN (0x4)
- *fill*         0x00006fed        0x3 
+                0x00006ad3       0x22 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00006af8                . = ALIGN (0x4)
+ *fill*         0x00006af5        0x3 
  *(.init)
- .init          0x00006ff0        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
-                0x00006ff0                _init
- .init          0x00006ff4        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
-                0x00006ffc                . = ALIGN (0x4)
-                0x00006ffc                __preinit_array_start = .
+ .init          0x00006af8        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00006af8                _init
+ .init          0x00006afc        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00006b04                . = ALIGN (0x4)
+                0x00006b04                __preinit_array_start = .
  *(.preinit_array)
-                0x00006ffc                __preinit_array_end = .
-                0x00006ffc                . = ALIGN (0x4)
-                0x00006ffc                __init_array_start = .
+                0x00006b04                __preinit_array_end = .
+                0x00006b04                . = ALIGN (0x4)
+                0x00006b04                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00006ffc        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
- .init_array    0x00007000        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                0x00007004                __init_array_end = .
-                0x00007004                . = ALIGN (0x4)
+ .init_array    0x00006b04        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .init_array    0x00006b08        0x4 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00006b0c                __init_array_end = .
+                0x00006b0c                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00007004        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
-                0x00007004                _fini
- .fini          0x00007008        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
-                0x00007010                . = ALIGN (0x4)
-                0x00007010                __fini_array_start = .
+ .fini          0x00006b0c        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crti.o
+                0x00006b0c                _fini
+ .fini          0x00006b10        0x8 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00006b18                . = ALIGN (0x4)
+                0x00006b18                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00007010        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+ .fini_array    0x00006b18        0x4 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00007014                __fini_array_end = .
-                0x00007014                . = ALIGN (0x4)
+                0x00006b1c                __fini_array_end = .
+                0x00006b1c                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00007014                . = ALIGN (0x4)
+                0x00006b1c                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00007014                . = ALIGN (0x4)
-                0x00007014                __cy_regions = .
-                0x00007014        0x4 LONG 0x7028 __cy_region_init_ram
-                0x00007018        0x4 LONG 0x1fff80c8 __cy_region_start_data
-                0x0000701c        0x4 LONG 0xa78 __cy_region_init_size_ram
-                0x00007020        0x4 LONG 0x148 __cy_region_zero_size_ram
-                0x00007024                __cy_regions_end = .
-                0x00007028                . = ALIGN (0x8)
- *fill*         0x00007024        0x4 
-                0x00007028                _etext = .
+                0x00006b1c                . = ALIGN (0x4)
+                0x00006b1c                __cy_regions = .
+                0x00006b1c        0x4 LONG 0x6b30 __cy_region_init_ram
+                0x00006b20        0x4 LONG 0x1fff80c8 __cy_region_start_data
+                0x00006b24        0x4 LONG 0xa78 __cy_region_init_size_ram
+                0x00006b28        0x4 LONG 0x148 __cy_region_zero_size_ram
+                0x00006b2c                __cy_regions_end = .
+                0x00006b30                . = ALIGN (0x8)
+ *fill*         0x00006b2c        0x4 
+                0x00006b30                _etext = .
 
 .cy_checksum_exclude
-                0x00007028        0x0
+                0x00006b30        0x0
  *(.cy_checksum_exclude)
 
 .ramvectors     0x1fff8000       0xc0
@@ -2368,7 +2220,7 @@ END GROUP
  .noinit        0x1fff80c4        0x1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
                 0x1fff80c4                CyResetStatus
 
-.data           0x1fff80c8      0xa78 load address 0x00007028
+.data           0x1fff80c8      0xa78 load address 0x00006b30
                 0x1fff80c8                __cy_region_start_data = .
  *(.jcr)
  .jcr           0x1fff80c8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
@@ -2386,7 +2238,8 @@ END GROUP
                 0x1fff8aa2                delayMS
                 0x1fff8aa4                mode
                 0x1fff8aa5                modeFlag
-                0x1fff8aa6                lastMode
+                0x1fff8aa6                checkingMode
+                0x1fff8aa7                lastMode
                 0x1fff8aa8                freqClockDivCounter
                 0x1fff8aaa                sendDatatoESP
                 0x1fff8aab                cScaleGroupSelect
@@ -2425,10 +2278,10 @@ END GROUP
  *(.ram)
                 0x1fff8b40                _edata = .
 
-.igot.plt       0x1fff8b40        0x0 load address 0x00007aa0
+.igot.plt       0x1fff8b40        0x0 load address 0x000075a8
  .igot.plt      0x1fff8b40        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
-.bss            0x1fff8b40      0x148 load address 0x00007aa0
+.bss            0x1fff8b40      0x148 load address 0x000075a8
                 0x1fff8b40                PROVIDE (__bss_start__, .)
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
@@ -2445,7 +2298,6 @@ END GROUP
                 0x1fff8b70                oldXinput
                 0x1fff8b74                waveMode
                 0x1fff8b75                onOffCount
-                0x1fff8b76                checkingMode
                 0x1fff8b78                offset2
                 0x1fff8b7c                echoFlag
  .bss           0x1fff8b7d        0x5 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
@@ -2512,11 +2364,11 @@ END GROUP
                 0x1fff8c88                __end = .
                 0x1fff8c88                PROVIDE (end, .)
                 0x1fff8c88                PROVIDE (__bss_end__, .)
-                0x00007028                __cy_region_init_ram = LOADADDR (.data)
+                0x00006b30                __cy_region_init_ram = LOADADDR (.data)
                 0x00000a78                __cy_region_init_size_ram = (_edata - ADDR (.data))
                 0x00000148                __cy_region_zero_size_ram = (_end - _edata)
 
-.heap           0x1fff8c88     0x1000 load address 0x00007aa0
+.heap           0x1fff8c88     0x1000 load address 0x000075a8
                 0x1fff8c88                . = _end
                 0x1fff9c88                . = (. + 0x1000)
  *fill*         0x1fff8c88     0x1000 
@@ -2536,9 +2388,9 @@ END GROUP
 .cyloadablemeta
  *(.cyloadablemeta)
 
-.cyconfigecc    0x80000000      0xef8
+.cyconfigecc    0x80000000      0xefc
  *(.cyconfigecc)
- .cyconfigecc   0x80000000      0xef8 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .cyconfigecc   0x80000000      0xefc .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                 0x80000000                cy_meta_configecc
 
 .cycustnvl      0x90000000        0x4
@@ -2567,8 +2419,8 @@ END GROUP
  .cymeta        0x90500000        0xc .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                 0x90500000                cy_metadata
 
-.rel.dyn        0x00007aa0        0x0 load address 0x9050000c
- .rel.iplt      0x00007aa0        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
+.rel.dyn        0x000075a8        0x0 load address 0x9050000c
+ .rel.iplt      0x000075a8        0x0 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtbegin.o
 
 .stab
  *(.stab)
@@ -2588,535 +2440,503 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000     0x1b60
+.debug_aranges  0x00000000     0x1970
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0xb8 .\CortexM3\ARM_GCC_541\Debug\main.o
  .debug_aranges
-                0x000000b8      0x118 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
+                0x000000b8       0x80 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .debug_aranges
-                0x000001d0       0x80 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000138       0x18 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
  .debug_aranges
-                0x00000250       0x18 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x00000150       0x48 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
  .debug_aranges
-                0x00000268       0x48 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00000198       0x50 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
  .debug_aranges
-                0x000002b0       0x50 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+                0x000001e8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
  .debug_aranges
-                0x00000300       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+                0x00000258       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
  .debug_aranges
-                0x00000370       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+                0x00000348       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
  .debug_aranges
-                0x00000460       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+                0x00000370       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
  .debug_aranges
-                0x00000488       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+                0x00000398       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
  .debug_aranges
-                0x000004b0       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+                0x000003f0       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
  .debug_aranges
-                0x00000508       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+                0x00000430       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
  .debug_aranges
-                0x00000548       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+                0x000004a0       0xd8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
  .debug_aranges
-                0x000005b8       0xd8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+                0x00000578      0x2a0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
  .debug_aranges
-                0x00000690      0x2a0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+                0x00000818       0x98 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
  .debug_aranges
-                0x00000930       0x98 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+                0x000008b0       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
  .debug_aranges
-                0x000009c8       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+                0x000008e8       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
  .debug_aranges
-                0x00000a00       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+                0x00000920       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
  .debug_aranges
-                0x00000a38       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+                0x00000958       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
  .debug_aranges
-                0x00000a70       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+                0x00000990       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
  .debug_aranges
-                0x00000aa8       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+                0x00000a10       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
  .debug_aranges
-                0x00000b28       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+                0x00000a98       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
  .debug_aranges
-                0x00000bb0       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+                0x00000b18       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
  .debug_aranges
-                0x00000c30       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+                0x00000b98       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
  .debug_aranges
-                0x00000cb0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+                0x00000c08       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
  .debug_aranges
-                0x00000d20       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+                0x00000c88       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
  .debug_aranges
-                0x00000da0       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+                0x00000d08       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
  .debug_aranges
-                0x00000e20       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+                0x00000d88       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
  .debug_aranges
-                0x00000ea0       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+                0x00000e08       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
  .debug_aranges
-                0x00000f20       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+                0x00000e88       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
  .debug_aranges
-                0x00000fa0       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+                0x00000eb8       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
  .debug_aranges
-                0x00000fd0       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+                0x00000f38       0xe8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
  .debug_aranges
-                0x00001050       0xe8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+                0x00001020       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
  .debug_aranges
-                0x00001138       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+                0x00001058       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
  .debug_aranges
-                0x00001170       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+                0x00001088       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
  .debug_aranges
-                0x000011a0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+                0x000010f8       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
  .debug_aranges
-                0x00001210       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+                0x00001178       0x48 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
  .debug_aranges
-                0x00001290       0x48 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+                0x000011c0       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
  .debug_aranges
-                0x000012d8       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+                0x000011f8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
  .debug_aranges
-                0x00001310       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
+                0x00001268       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
  .debug_aranges
-                0x00001380       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+                0x000012e8       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
  .debug_aranges
-                0x00001400       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+                0x00001368       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
  .debug_aranges
-                0x00001480       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+                0x000013d8       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
  .debug_aranges
-                0x000014f0       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
+                0x00001460       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
  .debug_aranges
-                0x00001570       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+                0x00001550       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
  .debug_aranges
-                0x000015f8       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+                0x000015c0       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
  .debug_aranges
-                0x000016e8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+                0x00001640       0x50 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
  .debug_aranges
-                0x00001758       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+                0x00001690       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
  .debug_aranges
-                0x000017d8       0x50 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+                0x000016b8       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
  .debug_aranges
-                0x00001828       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+                0x000016e0       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
  .debug_aranges
-                0x00001850       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+                0x00001738       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
  .debug_aranges
-                0x00001878       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+                0x00001778       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
  .debug_aranges
-                0x000018d0       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+                0x000017b0       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
  .debug_aranges
-                0x00001910       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+                0x000017e8       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
  .debug_aranges
-                0x00001948       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+                0x00001820       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
  .debug_aranges
-                0x00001980       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+                0x00001858       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
  .debug_aranges
-                0x000019b8       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+                0x00001878       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
  .debug_aranges
-                0x000019f0       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
- .debug_aranges
-                0x00001a10       0x80 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
- .debug_aranges
-                0x00001a90       0x78 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .debug_aranges
-                0x00001b08       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .debug_aranges
-                0x00001b40       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
+                0x000018f8       0x78 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xab43
+.debug_info     0x00000000     0x97e9
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x87a .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_info    0x0000087a      0xc8c .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .debug_info    0x00001506      0x59a .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_info    0x00001aa0      0x139 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_info    0x00001bd9      0x32b .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_info    0x00001f04      0x248 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
- .debug_info    0x0000214c      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
- .debug_info    0x000023a9      0x50a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
- .debug_info    0x000028b3      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
- .debug_info    0x000029ce      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
- .debug_info    0x00002ae9      0x185 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
- .debug_info    0x00002c6e      0x125 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
- .debug_info    0x00002d93      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
- .debug_info    0x00002ff0      0x8c0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
- .debug_info    0x000038b0      0xe51 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
- .debug_info    0x00004701      0x57a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
- .debug_info    0x00004c7b      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
- .debug_info    0x00004d99      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
- .debug_info    0x00004eb7      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
- .debug_info    0x00004fd5      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
- .debug_info    0x000050f3      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
- .debug_info    0x00005334      0x245 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
- .debug_info    0x00005579      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
- .debug_info    0x000057ba      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
- .debug_info    0x000059fb      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
- .debug_info    0x00005c58      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
- .debug_info    0x00005e99      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
- .debug_info    0x000060da      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
- .debug_info    0x0000631b      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
- .debug_info    0x0000655c      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
- .debug_info    0x0000679d      0x10a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
- .debug_info    0x000068a7      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
- .debug_info    0x00006ae8      0x72c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
- .debug_info    0x00007214       0xd3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
- .debug_info    0x000072e7      0x10a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
- .debug_info    0x000073f1      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
- .debug_info    0x0000764e      0x299 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
- .debug_info    0x000078e7      0x171 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
- .debug_info    0x00007a58      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
- .debug_info    0x00007b76      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
- .debug_info    0x00007dd3      0x21f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
- .debug_info    0x00007ff2      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
- .debug_info    0x00008233      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
- .debug_info    0x00008490      0x3f8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .debug_info    0x00008888      0x245 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
- .debug_info    0x00008acd      0x50a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
- .debug_info    0x00008fd7      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
- .debug_info    0x00009234      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
- .debug_info    0x00009475      0x248 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
- .debug_info    0x000096bd      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
- .debug_info    0x000097d8      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
- .debug_info    0x000098f3      0x185 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
- .debug_info    0x00009a78      0x125 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
- .debug_info    0x00009b9d      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
- .debug_info    0x00009cbb      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
- .debug_info    0x00009dd9      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
- .debug_info    0x00009ef7      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
- .debug_info    0x0000a015       0xaa .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
- .debug_info    0x0000a0bf      0x371 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
- .debug_info    0x0000a430      0x45a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .debug_info    0x0000a88a      0x163 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .debug_info    0x0000a9ed      0x156 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
+ .debug_info    0x00000000      0x84e .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_info    0x0000084e      0x59a .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x00000de8      0x139 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x00000f21      0x32b .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_info    0x0000124c      0x248 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+ .debug_info    0x00001494      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+ .debug_info    0x000016f1      0x50a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+ .debug_info    0x00001bfb      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+ .debug_info    0x00001d16      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+ .debug_info    0x00001e31      0x185 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+ .debug_info    0x00001fb6      0x125 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+ .debug_info    0x000020db      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+ .debug_info    0x00002338      0x8c0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+ .debug_info    0x00002bf8      0xe51 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+ .debug_info    0x00003a49      0x57a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+ .debug_info    0x00003fc3      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+ .debug_info    0x000040e1      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+ .debug_info    0x000041ff      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+ .debug_info    0x0000431d      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+ .debug_info    0x0000443b      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+ .debug_info    0x0000467c      0x245 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+ .debug_info    0x000048c1      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+ .debug_info    0x00004b02      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+ .debug_info    0x00004d43      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+ .debug_info    0x00004fa0      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+ .debug_info    0x000051e1      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+ .debug_info    0x00005422      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+ .debug_info    0x00005663      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+ .debug_info    0x000058a4      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+ .debug_info    0x00005ae5      0x10a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+ .debug_info    0x00005bef      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+ .debug_info    0x00005e30      0x72c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+ .debug_info    0x0000655c       0xd3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+ .debug_info    0x0000662f      0x10a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+ .debug_info    0x00006739      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+ .debug_info    0x00006996      0x299 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+ .debug_info    0x00006c2f      0x171 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+ .debug_info    0x00006da0      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+ .debug_info    0x00006ebe      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
+ .debug_info    0x0000711b      0x21f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+ .debug_info    0x0000733a      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+ .debug_info    0x0000757b      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+ .debug_info    0x000077d8      0x245 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+ .debug_info    0x00007a1d      0x50a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+ .debug_info    0x00007f27      0x25d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+ .debug_info    0x00008184      0x241 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+ .debug_info    0x000083c5      0x248 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+ .debug_info    0x0000860d      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+ .debug_info    0x00008728      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+ .debug_info    0x00008843      0x185 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+ .debug_info    0x000089c8      0x125 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+ .debug_info    0x00008aed      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+ .debug_info    0x00008c0b      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+ .debug_info    0x00008d29      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+ .debug_info    0x00008e47      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+ .debug_info    0x00008f65       0xb9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
+ .debug_info    0x0000901e      0x371 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
+ .debug_info    0x0000938f      0x45a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
 
-.debug_abbrev   0x00000000     0x3fdc
+.debug_abbrev   0x00000000     0x3b57
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x191 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_abbrev  0x00000191      0x21e .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .debug_abbrev  0x000003af      0x1ca .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_abbrev  0x00000579       0x77 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_abbrev  0x000005f0      0x1d6 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_abbrev  0x000007c6       0xe3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
- .debug_abbrev  0x000008a9      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
- .debug_abbrev  0x000009c6      0x163 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
- .debug_abbrev  0x00000b29       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
- .debug_abbrev  0x00000bb4       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
- .debug_abbrev  0x00000c3f       0xeb .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
- .debug_abbrev  0x00000d2a       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
- .debug_abbrev  0x00000dd2      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
- .debug_abbrev  0x00000eef      0x194 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
- .debug_abbrev  0x00001083      0x217 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
- .debug_abbrev  0x0000129a      0x161 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
- .debug_abbrev  0x000013fb       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
- .debug_abbrev  0x0000148b       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
- .debug_abbrev  0x0000151b       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
- .debug_abbrev  0x000015ab       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
- .debug_abbrev  0x0000163b      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
- .debug_abbrev  0x000017ad       0xe9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
- .debug_abbrev  0x00001896      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
- .debug_abbrev  0x00001a08      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
- .debug_abbrev  0x00001b7a      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
- .debug_abbrev  0x00001c97      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
- .debug_abbrev  0x00001e09      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
- .debug_abbrev  0x00001f7b      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
- .debug_abbrev  0x000020ed      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
- .debug_abbrev  0x0000225f      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
- .debug_abbrev  0x000023d1       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
- .debug_abbrev  0x00002440      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
- .debug_abbrev  0x000025b2      0x19d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
- .debug_abbrev  0x0000274f       0x42 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
- .debug_abbrev  0x00002791       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
- .debug_abbrev  0x00002800      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
- .debug_abbrev  0x0000291d      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
- .debug_abbrev  0x00002a3a       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
- .debug_abbrev  0x00002aca       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
- .debug_abbrev  0x00002b5a      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
- .debug_abbrev  0x00002c77      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
- .debug_abbrev  0x00002d92      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
- .debug_abbrev  0x00002f04      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
- .debug_abbrev  0x00003021      0x11e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .debug_abbrev  0x0000313f       0xe9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
- .debug_abbrev  0x00003228      0x163 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
- .debug_abbrev  0x0000338b      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
- .debug_abbrev  0x000034a8      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
- .debug_abbrev  0x0000361a       0xe3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
- .debug_abbrev  0x000036fd       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
- .debug_abbrev  0x00003788       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
- .debug_abbrev  0x00003813       0xeb .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
- .debug_abbrev  0x000038fe       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
- .debug_abbrev  0x000039a6       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
- .debug_abbrev  0x00003a36       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
- .debug_abbrev  0x00003ac6       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
- .debug_abbrev  0x00003b56       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
- .debug_abbrev  0x00003be6       0x14 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
- .debug_abbrev  0x00003bfa      0x13c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
- .debug_abbrev  0x00003d36      0x16c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .debug_abbrev  0x00003ea2       0xb9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .debug_abbrev  0x00003f5b       0x81 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
+ .debug_abbrev  0x00000000      0x182 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_abbrev  0x00000182      0x1ca .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_abbrev  0x0000034c       0x77 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x000003c3      0x1d6 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_abbrev  0x00000599       0xe3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+ .debug_abbrev  0x0000067c      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+ .debug_abbrev  0x00000799      0x163 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+ .debug_abbrev  0x000008fc       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+ .debug_abbrev  0x00000987       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+ .debug_abbrev  0x00000a12       0xeb .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+ .debug_abbrev  0x00000afd       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+ .debug_abbrev  0x00000ba5      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+ .debug_abbrev  0x00000cc2      0x194 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+ .debug_abbrev  0x00000e56      0x217 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+ .debug_abbrev  0x0000106d      0x161 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+ .debug_abbrev  0x000011ce       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+ .debug_abbrev  0x0000125e       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+ .debug_abbrev  0x000012ee       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+ .debug_abbrev  0x0000137e       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+ .debug_abbrev  0x0000140e      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+ .debug_abbrev  0x00001580       0xe9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+ .debug_abbrev  0x00001669      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+ .debug_abbrev  0x000017db      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+ .debug_abbrev  0x0000194d      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+ .debug_abbrev  0x00001a6a      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+ .debug_abbrev  0x00001bdc      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+ .debug_abbrev  0x00001d4e      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+ .debug_abbrev  0x00001ec0      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+ .debug_abbrev  0x00002032      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+ .debug_abbrev  0x000021a4       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+ .debug_abbrev  0x00002213      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+ .debug_abbrev  0x00002385      0x19d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+ .debug_abbrev  0x00002522       0x42 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+ .debug_abbrev  0x00002564       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+ .debug_abbrev  0x000025d3      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+ .debug_abbrev  0x000026f0      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+ .debug_abbrev  0x0000280d       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+ .debug_abbrev  0x0000289d       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+ .debug_abbrev  0x0000292d      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
+ .debug_abbrev  0x00002a4a      0x11b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+ .debug_abbrev  0x00002b65      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+ .debug_abbrev  0x00002cd7      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+ .debug_abbrev  0x00002df4       0xe9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+ .debug_abbrev  0x00002edd      0x163 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+ .debug_abbrev  0x00003040      0x11d .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+ .debug_abbrev  0x0000315d      0x172 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+ .debug_abbrev  0x000032cf       0xe3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+ .debug_abbrev  0x000033b2       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+ .debug_abbrev  0x0000343d       0x8b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+ .debug_abbrev  0x000034c8       0xeb .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+ .debug_abbrev  0x000035b3       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+ .debug_abbrev  0x0000365b       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+ .debug_abbrev  0x000036eb       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+ .debug_abbrev  0x0000377b       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+ .debug_abbrev  0x0000380b       0x90 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+ .debug_abbrev  0x0000389b       0x14 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x000038af      0x13c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
+ .debug_abbrev  0x000039eb      0x16c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
 
-.debug_line     0x00000000     0x615a
+.debug_line     0x00000000     0x5731
  *(.debug_line)
- .debug_line    0x00000000      0x4f2 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_line    0x000004f2      0x5f8 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .debug_line    0x00000aea      0x28e .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_line    0x00000d78      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_line    0x00000eb9      0x1db .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_line    0x00001094       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
- .debug_line    0x00001184      0x1a6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
- .debug_line    0x0000132a      0x2e4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
- .debug_line    0x0000160e       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
- .debug_line    0x00001695       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
- .debug_line    0x0000171c       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
- .debug_line    0x00001814       0xba .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
- .debug_line    0x000018ce      0x1ae .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
- .debug_line    0x00001a7c      0x2b6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
- .debug_line    0x00001d32      0x883 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
- .debug_line    0x000025b5      0x38e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
- .debug_line    0x00002943       0x9a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
- .debug_line    0x000029dd       0x9a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
- .debug_line    0x00002a77       0x9e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
- .debug_line    0x00002b15       0x9e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
- .debug_line    0x00002bb3      0x158 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
- .debug_line    0x00002d0b      0x162 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
- .debug_line    0x00002e6d      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
- .debug_line    0x00002fc4      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
- .debug_line    0x0000311b      0x1ad .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
- .debug_line    0x000032c8      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
- .debug_line    0x0000341f      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
- .debug_line    0x00003576      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
- .debug_line    0x000036cd      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
- .debug_line    0x00003824      0x158 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
- .debug_line    0x0000397c       0x9e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
- .debug_line    0x00003a1a      0x152 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
- .debug_line    0x00003b6c      0x3d1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
- .debug_line    0x00003f3d       0x92 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
- .debug_line    0x00003fcf       0xa3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
- .debug_line    0x00004072      0x1b3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
- .debug_line    0x00004225      0x1d4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
- .debug_line    0x000043f9       0xc3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
- .debug_line    0x000044bc       0x9c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
- .debug_line    0x00004558      0x1a9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
- .debug_line    0x00004701      0x14f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
- .debug_line    0x00004850      0x153 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
- .debug_line    0x000049a3      0x1a6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
- .debug_line    0x00004b49      0x218 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .debug_line    0x00004d61      0x165 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
- .debug_line    0x00004ec6      0x2e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
- .debug_line    0x000051ae      0x1b2 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
- .debug_line    0x00005360      0x158 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
- .debug_line    0x000054b8       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
- .debug_line    0x000055a8       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
- .debug_line    0x0000562f       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
- .debug_line    0x000056b6       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
- .debug_line    0x000057ae       0xba .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
- .debug_line    0x00005868       0x98 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
- .debug_line    0x00005900       0x98 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
- .debug_line    0x00005998       0x9c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
- .debug_line    0x00005a34       0x9c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
- .debug_line    0x00005ad0       0x66 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
- .debug_line    0x00005b36      0x205 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
- .debug_line    0x00005d3b      0x212 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .debug_line    0x00005f4d       0xc9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .debug_line    0x00006016      0x144 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
+ .debug_line    0x00000000      0x4e6 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_line    0x000004e6      0x28e .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x00000774      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x000008b5      0x1db .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_line    0x00000a90       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+ .debug_line    0x00000b80      0x1a6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+ .debug_line    0x00000d26      0x2e4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+ .debug_line    0x0000100a       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+ .debug_line    0x00001091       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+ .debug_line    0x00001118       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+ .debug_line    0x00001210       0xba .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+ .debug_line    0x000012ca      0x1ae .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+ .debug_line    0x00001478      0x2b6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+ .debug_line    0x0000172e      0x883 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+ .debug_line    0x00001fb1      0x38e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+ .debug_line    0x0000233f       0x9a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+ .debug_line    0x000023d9       0x9a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+ .debug_line    0x00002473       0x9e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+ .debug_line    0x00002511       0x9e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+ .debug_line    0x000025af      0x158 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+ .debug_line    0x00002707      0x162 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+ .debug_line    0x00002869      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+ .debug_line    0x000029c0      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+ .debug_line    0x00002b17      0x1ad .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+ .debug_line    0x00002cc4      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+ .debug_line    0x00002e1b      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+ .debug_line    0x00002f72      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+ .debug_line    0x000030c9      0x157 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+ .debug_line    0x00003220      0x158 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+ .debug_line    0x00003378       0x9e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+ .debug_line    0x00003416      0x152 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+ .debug_line    0x00003568      0x3d1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+ .debug_line    0x00003939       0x92 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+ .debug_line    0x000039cb       0xa3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+ .debug_line    0x00003a6e      0x1b3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+ .debug_line    0x00003c21      0x1d4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+ .debug_line    0x00003df5       0xc3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+ .debug_line    0x00003eb8       0x9c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+ .debug_line    0x00003f54      0x1a9 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
+ .debug_line    0x000040fd      0x14f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+ .debug_line    0x0000424c      0x153 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+ .debug_line    0x0000439f      0x1a6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+ .debug_line    0x00004545      0x165 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+ .debug_line    0x000046aa      0x2e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+ .debug_line    0x00004992      0x1b2 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+ .debug_line    0x00004b44      0x158 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+ .debug_line    0x00004c9c       0xf0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+ .debug_line    0x00004d8c       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+ .debug_line    0x00004e13       0x87 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+ .debug_line    0x00004e9a       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+ .debug_line    0x00004f92       0xba .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+ .debug_line    0x0000504c       0x98 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+ .debug_line    0x000050e4       0x98 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+ .debug_line    0x0000517c       0x9c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+ .debug_line    0x00005218       0x9c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+ .debug_line    0x000052b4       0x66 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
+ .debug_line    0x0000531a      0x205 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
+ .debug_line    0x0000551f      0x212 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
 
-.debug_frame    0x00000000     0x6cac
+.debug_frame    0x00000000     0x64a8
  *(.debug_frame)
  .debug_frame   0x00000000      0x2e0 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_frame   0x000002e0      0x528 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .debug_frame   0x00000808      0x20c .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_frame   0x00000a14       0xd8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_frame   0x00000aec       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
- .debug_frame   0x00000be4      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
- .debug_frame   0x00000d98      0x42c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
- .debug_frame   0x000011c4       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
- .debug_frame   0x0000121c       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
- .debug_frame   0x00001274      0x130 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
- .debug_frame   0x000013a4       0xb8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
- .debug_frame   0x0000145c      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
- .debug_frame   0x00001610      0x3d0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
- .debug_frame   0x000019e0      0xc0c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
- .debug_frame   0x000025ec      0x234 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
- .debug_frame   0x00002820       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
- .debug_frame   0x000028c8       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
- .debug_frame   0x00002970       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
- .debug_frame   0x00002a18       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
- .debug_frame   0x00002ac0      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
- .debug_frame   0x00002ca8      0x208 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
- .debug_frame   0x00002eb0      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
- .debug_frame   0x00003098      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
- .debug_frame   0x00003280      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
- .debug_frame   0x00003434      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
- .debug_frame   0x0000361c      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
- .debug_frame   0x00003804      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
- .debug_frame   0x000039ec      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
- .debug_frame   0x00003bd4      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
- .debug_frame   0x00003dbc       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
- .debug_frame   0x00003e44      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
- .debug_frame   0x0000402c      0x40c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
- .debug_frame   0x00004438       0xa0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
- .debug_frame   0x000044d8       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
- .debug_frame   0x00004560      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
- .debug_frame   0x00004714      0x200 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
- .debug_frame   0x00004914       0xf4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
- .debug_frame   0x00004a08       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
- .debug_frame   0x00004ab0      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
- .debug_frame   0x00004c64      0x1e4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
- .debug_frame   0x00004e48      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
- .debug_frame   0x00005030      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
- .debug_frame   0x000051e4      0x208 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .debug_frame   0x000053ec      0x208 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
- .debug_frame   0x000055f4      0x42c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
- .debug_frame   0x00005a20      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
- .debug_frame   0x00005bd4      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
- .debug_frame   0x00005dbc       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
- .debug_frame   0x00005eb4       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
- .debug_frame   0x00005f0c       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
- .debug_frame   0x00005f64      0x130 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
- .debug_frame   0x00006094       0xb8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
- .debug_frame   0x0000614c       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
- .debug_frame   0x000061f4       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
- .debug_frame   0x0000629c       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
- .debug_frame   0x00006344       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
- .debug_frame   0x000063ec      0x210 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
- .debug_frame   0x000065fc      0x1f8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .debug_frame   0x000067f4       0x9c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .debug_frame   0x00006890       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
- .debug_frame   0x000068c8       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
- .debug_frame   0x000068e8       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
- .debug_frame   0x00006910       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
- .debug_frame   0x0000693c       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00006964       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
- .debug_frame   0x00006984       0x70 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o)
- .debug_frame   0x000069f4       0x90 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x00006a84       0x60 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00006ae4       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x00006b0c       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memmove.o)
- .debug_frame   0x00006b34       0x38 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00006b6c       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00006b98       0x3c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00006bd4       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00006c00       0x30 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x00006c30       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x00006c50       0x5c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x000002e0      0x20c .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_frame   0x000004ec       0xd8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_frame   0x000005c4       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+ .debug_frame   0x000006bc      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+ .debug_frame   0x00000870      0x42c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+ .debug_frame   0x00000c9c       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+ .debug_frame   0x00000cf4       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+ .debug_frame   0x00000d4c      0x130 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+ .debug_frame   0x00000e7c       0xb8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+ .debug_frame   0x00000f34      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+ .debug_frame   0x000010e8      0x3d0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+ .debug_frame   0x000014b8      0xc0c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+ .debug_frame   0x000020c4      0x234 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+ .debug_frame   0x000022f8       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+ .debug_frame   0x000023a0       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+ .debug_frame   0x00002448       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+ .debug_frame   0x000024f0       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+ .debug_frame   0x00002598      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+ .debug_frame   0x00002780      0x208 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+ .debug_frame   0x00002988      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+ .debug_frame   0x00002b70      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+ .debug_frame   0x00002d58      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+ .debug_frame   0x00002f0c      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+ .debug_frame   0x000030f4      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+ .debug_frame   0x000032dc      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+ .debug_frame   0x000034c4      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+ .debug_frame   0x000036ac      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+ .debug_frame   0x00003894       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+ .debug_frame   0x0000391c      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+ .debug_frame   0x00003b04      0x40c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+ .debug_frame   0x00003f10       0xa0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+ .debug_frame   0x00003fb0       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+ .debug_frame   0x00004038      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+ .debug_frame   0x000041ec      0x200 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+ .debug_frame   0x000043ec       0xf4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+ .debug_frame   0x000044e0       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+ .debug_frame   0x00004588      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
+ .debug_frame   0x0000473c      0x1e4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+ .debug_frame   0x00004920      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+ .debug_frame   0x00004b08      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+ .debug_frame   0x00004cbc      0x208 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+ .debug_frame   0x00004ec4      0x42c .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+ .debug_frame   0x000052f0      0x1b4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+ .debug_frame   0x000054a4      0x1e8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+ .debug_frame   0x0000568c       0xf8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+ .debug_frame   0x00005784       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+ .debug_frame   0x000057dc       0x58 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+ .debug_frame   0x00005834      0x130 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+ .debug_frame   0x00005964       0xb8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+ .debug_frame   0x00005a1c       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+ .debug_frame   0x00005ac4       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+ .debug_frame   0x00005b6c       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+ .debug_frame   0x00005c14       0xa8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+ .debug_frame   0x00005cbc      0x210 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
+ .debug_frame   0x00005ecc      0x1f8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
+ .debug_frame   0x000060c4       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x000060e4       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000610c       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x00006138       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00006160       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00006180       0x70 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x000061f0       0x90 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x00006280       0x60 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x000062e0       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00006308       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00006330       0x38 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00006368       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00006394       0x3c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x000063d0       0x2c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x000063fc       0x30 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000642c       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000644c       0x5c c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
 
-.debug_str      0x00000000     0x57f7
+.debug_str      0x00000000     0x5150
  *(.debug_str)
- .debug_str     0x00000000      0x592 .\CortexM3\ARM_GCC_541\Debug\main.o
-                                0x5da (size before relaxing)
- .debug_str     0x00000592      0x3de .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
-                                0x61c (size before relaxing)
- .debug_str     0x00000970      0x248 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
-                                0x3fe (size before relaxing)
- .debug_str     0x00000bb8       0x75 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
-                                0x1fe (size before relaxing)
- .debug_str     0x00000c2d      0x11e .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                                0x2f1 (size before relaxing)
- .debug_str     0x00000d4b      0x168 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
-                                0x311 (size before relaxing)
- .debug_str     0x00000eb3      0x162 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
-                                0x308 (size before relaxing)
- .debug_str     0x00001015      0x2ba .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
-                                0x475 (size before relaxing)
- .debug_str     0x000012cf       0xcf .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
-                                0x271 (size before relaxing)
- .debug_str     0x0000139e       0x94 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
-                                0x271 (size before relaxing)
- .debug_str     0x00001432      0x10b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
-                                0x2a7 (size before relaxing)
- .debug_str     0x0000153d       0xcc .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
-                                0x26c (size before relaxing)
- .debug_str     0x00001609      0x177 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
-                                0x368 (size before relaxing)
- .debug_str     0x00001780      0x358 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
-                                0x537 (size before relaxing)
- .debug_str     0x00001ad8      0x7cf .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
-                                0xa04 (size before relaxing)
- .debug_str     0x000022a7      0x371 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
-                                0x55d (size before relaxing)
- .debug_str     0x00002618       0x7f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
-                                0x215 (size before relaxing)
- .debug_str     0x00002697       0x74 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
-                                0x215 (size before relaxing)
- .debug_str     0x0000270b       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
-                                0x229 (size before relaxing)
- .debug_str     0x00002793       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
-                                0x229 (size before relaxing)
- .debug_str     0x0000281b      0x156 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
-                                0x330 (size before relaxing)
- .debug_str     0x00002971      0x1aa .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
-                                0x35f (size before relaxing)
- .debug_str     0x00002b1b      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
-                                0x322 (size before relaxing)
- .debug_str     0x00002c63      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
-                                0x322 (size before relaxing)
- .debug_str     0x00002dab      0x16b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
-                                0x35c (size before relaxing)
- .debug_str     0x00002f16      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
-                                0x322 (size before relaxing)
- .debug_str     0x0000305e      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
-                                0x322 (size before relaxing)
- .debug_str     0x000031a6      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
-                                0x322 (size before relaxing)
- .debug_str     0x000032ee      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
-                                0x322 (size before relaxing)
- .debug_str     0x00003436      0x156 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
-                                0x330 (size before relaxing)
- .debug_str     0x0000358c       0x74 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
-                                0x202 (size before relaxing)
- .debug_str     0x00003600      0x102 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
-                                0x2dc (size before relaxing)
- .debug_str     0x00003702      0x3b1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
-                                0x5d1 (size before relaxing)
- .debug_str     0x00003ab3       0x63 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
-                                0x1f8 (size before relaxing)
- .debug_str     0x00003b16       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
-                                0x21b (size before relaxing)
- .debug_str     0x00003b9e      0x1b3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
-                                0x3a4 (size before relaxing)
- .debug_str     0x00003d51      0x1de .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
-                                0x3cf (size before relaxing)
- .debug_str     0x00003f2f       0xcf .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
-                                0x277 (size before relaxing)
- .debug_str     0x00003ffe       0x7e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
-                                0x21f (size before relaxing)
- .debug_str     0x0000407c      0x13b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
-                                0x32c (size before relaxing)
- .debug_str     0x000041b7      0x171 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+ .debug_str     0x00000000      0x59c .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0x5e4 (size before relaxing)
+ .debug_str     0x0000059c      0x24f .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x40d (size before relaxing)
+ .debug_str     0x000007eb       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                                0x20d (size before relaxing)
+ .debug_str     0x0000086a      0x123 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                                0x300 (size before relaxing)
+ .debug_str     0x0000098d      0x168 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+                                0x320 (size before relaxing)
+ .debug_str     0x00000af5      0x168 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+                                0x317 (size before relaxing)
+ .debug_str     0x00000c5d      0x2ba .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+                                0x484 (size before relaxing)
+ .debug_str     0x00000f17       0xcf .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+                                0x280 (size before relaxing)
+ .debug_str     0x00000fe6       0x94 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+                                0x280 (size before relaxing)
+ .debug_str     0x0000107a      0x111 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+                                0x2b6 (size before relaxing)
+ .debug_str     0x0000118b       0xcc .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+                                0x27b (size before relaxing)
+ .debug_str     0x00001257      0x177 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+                                0x377 (size before relaxing)
+ .debug_str     0x000013ce      0x358 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+                                0x546 (size before relaxing)
+ .debug_str     0x00001726      0x7d4 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+                                0xa13 (size before relaxing)
+ .debug_str     0x00001efa      0x371 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+                                0x56c (size before relaxing)
+ .debug_str     0x0000226b       0x7f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+                                0x224 (size before relaxing)
+ .debug_str     0x000022ea       0x74 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+                                0x224 (size before relaxing)
+ .debug_str     0x0000235e       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+                                0x238 (size before relaxing)
+ .debug_str     0x000023e6       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+                                0x238 (size before relaxing)
+ .debug_str     0x0000246e      0x156 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+                                0x33f (size before relaxing)
+ .debug_str     0x000025c4      0x1aa .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+                                0x36e (size before relaxing)
+ .debug_str     0x0000276e      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+                                0x331 (size before relaxing)
+ .debug_str     0x000028b6      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+                                0x331 (size before relaxing)
+ .debug_str     0x000029fe      0x16b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+                                0x36b (size before relaxing)
+ .debug_str     0x00002b69      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+                                0x331 (size before relaxing)
+ .debug_str     0x00002cb1      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+                                0x331 (size before relaxing)
+ .debug_str     0x00002df9      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+                                0x331 (size before relaxing)
+ .debug_str     0x00002f41      0x148 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+                                0x331 (size before relaxing)
+ .debug_str     0x00003089      0x156 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+                                0x33f (size before relaxing)
+ .debug_str     0x000031df       0x74 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+                                0x211 (size before relaxing)
+ .debug_str     0x00003253      0x102 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+                                0x2eb (size before relaxing)
+ .debug_str     0x00003355      0x3b1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+                                0x5e0 (size before relaxing)
+ .debug_str     0x00003706       0x63 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+                                0x207 (size before relaxing)
+ .debug_str     0x00003769       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+                                0x22a (size before relaxing)
+ .debug_str     0x000037f1      0x1b3 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+                                0x3b3 (size before relaxing)
+ .debug_str     0x000039a4      0x1de .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+                                0x3de (size before relaxing)
+ .debug_str     0x00003b82       0xcf .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+                                0x286 (size before relaxing)
+ .debug_str     0x00003c51       0x7e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+                                0x22e (size before relaxing)
+ .debug_str     0x00003ccf      0x13b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
                                 0x33b (size before relaxing)
- .debug_str     0x00004328      0x110 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
-                                0x2ea (size before relaxing)
- .debug_str     0x00004438      0x117 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
-                                0x308 (size before relaxing)
- .debug_str     0x0000454f      0x261 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
-                                0x41a (size before relaxing)
- .debug_str     0x000047b0      0x1b1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
-                                0x38f (size before relaxing)
- .debug_str     0x00004961      0x2ae .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
-                                0x4e9 (size before relaxing)
- .debug_str     0x00004c0f      0x1a7 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
-                                0x398 (size before relaxing)
- .debug_str     0x00004db6      0x156 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
-                                0x330 (size before relaxing)
- .debug_str     0x00004f0c      0x12b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
-                                0x311 (size before relaxing)
- .debug_str     0x00005037       0x94 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
-                                0x271 (size before relaxing)
- .debug_str     0x000050cb       0x94 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
-                                0x271 (size before relaxing)
- .debug_str     0x0000515f      0x105 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
-                                0x2a7 (size before relaxing)
- .debug_str     0x00005264       0xc6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
-                                0x26c (size before relaxing)
- .debug_str     0x0000532a       0x6a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
-                                0x20b (size before relaxing)
- .debug_str     0x00005394       0x6a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
-                                0x20b (size before relaxing)
- .debug_str     0x000053fe       0x7e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
-                                0x21f (size before relaxing)
- .debug_str     0x0000547c       0x7e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
-                                0x21f (size before relaxing)
- .debug_str     0x000054fa      0x13e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
-                                0x310 (size before relaxing)
- .debug_str     0x00005638      0x11f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
-                                0x30d (size before relaxing)
- .debug_str     0x00005757       0x68 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
-                                0x26d (size before relaxing)
- .debug_str     0x000057bf       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
-                                0x29e (size before relaxing)
+ .debug_str     0x00003e0a      0x171 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+                                0x34a (size before relaxing)
+ .debug_str     0x00003f7b      0x110 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+                                0x2f9 (size before relaxing)
+ .debug_str     0x0000408b      0x117 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+                                0x317 (size before relaxing)
+ .debug_str     0x000041a2      0x1b1 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+                                0x39e (size before relaxing)
+ .debug_str     0x00004353      0x2ae .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+                                0x4f8 (size before relaxing)
+ .debug_str     0x00004601      0x1a7 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+                                0x3a7 (size before relaxing)
+ .debug_str     0x000047a8      0x156 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+                                0x33f (size before relaxing)
+ .debug_str     0x000048fe      0x12b .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+                                0x320 (size before relaxing)
+ .debug_str     0x00004a29       0x94 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+                                0x280 (size before relaxing)
+ .debug_str     0x00004abd       0x94 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+                                0x280 (size before relaxing)
+ .debug_str     0x00004b51      0x105 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+                                0x2b6 (size before relaxing)
+ .debug_str     0x00004c56       0xc6 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+                                0x27b (size before relaxing)
+ .debug_str     0x00004d1c       0x6a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+                                0x21a (size before relaxing)
+ .debug_str     0x00004d86       0x6a .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+                                0x21a (size before relaxing)
+ .debug_str     0x00004df0       0x7e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+                                0x22e (size before relaxing)
+ .debug_str     0x00004e6e       0x7e .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+                                0x22e (size before relaxing)
+ .debug_str     0x00004eec      0x145 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
+                                0x31f (size before relaxing)
+ .debug_str     0x00005031      0x11f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
+                                0x31c (size before relaxing)
 
 .debug_loc
  *(.debug_loc)
@@ -3124,73 +2944,68 @@ END GROUP
 .debug_macinfo
  *(.debug_macinfo)
 
-.debug_ranges   0x00000000     0x1768
+.debug_ranges   0x00000000     0x15b8
  *(.debug_ranges)
  .debug_ranges  0x00000000       0xa8 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_ranges  0x000000a8      0x108 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
- .debug_ranges  0x000001b0       0x70 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_ranges  0x00000220       0x38 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_ranges  0x00000258       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
- .debug_ranges  0x00000298       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
- .debug_ranges  0x000002f8       0xe0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
- .debug_ranges  0x000003d8       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
- .debug_ranges  0x000003f0       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
- .debug_ranges  0x00000408       0x48 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
- .debug_ranges  0x00000450       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
- .debug_ranges  0x00000480       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
- .debug_ranges  0x000004e0       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
- .debug_ranges  0x000005a8      0x290 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
- .debug_ranges  0x00000838       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
- .debug_ranges  0x000008c0       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
- .debug_ranges  0x000008e8       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
- .debug_ranges  0x00000910       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
- .debug_ranges  0x00000938       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
- .debug_ranges  0x00000960       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
- .debug_ranges  0x000009d0       0x78 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
- .debug_ranges  0x00000a48       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
- .debug_ranges  0x00000ab8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
- .debug_ranges  0x00000b28       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
- .debug_ranges  0x00000b88       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
- .debug_ranges  0x00000bf8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
- .debug_ranges  0x00000c68       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
- .debug_ranges  0x00000cd8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
- .debug_ranges  0x00000d48       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
- .debug_ranges  0x00000db8       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
- .debug_ranges  0x00000dd8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
- .debug_ranges  0x00000e48       0xd8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
- .debug_ranges  0x00000f20       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
- .debug_ranges  0x00000f48       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
- .debug_ranges  0x00000f68       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
- .debug_ranges  0x00000fc8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
- .debug_ranges  0x00001038       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
- .debug_ranges  0x00001070       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
- .debug_ranges  0x00001098       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
- .debug_ranges  0x000010f8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
- .debug_ranges  0x00001168       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
- .debug_ranges  0x000011d8       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
- .debug_ranges  0x00001238       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
- .debug_ranges  0x000012a8       0x78 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
- .debug_ranges  0x00001320       0xe0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
- .debug_ranges  0x00001400       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
- .debug_ranges  0x00001460       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
- .debug_ranges  0x000014d0       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
- .debug_ranges  0x00001510       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
- .debug_ranges  0x00001528       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
- .debug_ranges  0x00001540       0x48 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
- .debug_ranges  0x00001588       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
- .debug_ranges  0x000015b8       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
- .debug_ranges  0x000015e0       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
- .debug_ranges  0x00001608       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
- .debug_ranges  0x00001630       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
- .debug_ranges  0x00001658       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
- .debug_ranges  0x000016c8       0x68 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .debug_ranges  0x00001730       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .debug_ranges  0x00001758       0x10 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
+ .debug_ranges  0x000000a8       0x70 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_ranges  0x00000118       0x38 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_ranges  0x00000150       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+ .debug_ranges  0x00000190       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+ .debug_ranges  0x000001f0       0xe0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+ .debug_ranges  0x000002d0       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+ .debug_ranges  0x000002e8       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+ .debug_ranges  0x00000300       0x48 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+ .debug_ranges  0x00000348       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+ .debug_ranges  0x00000378       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+ .debug_ranges  0x000003d8       0xc8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+ .debug_ranges  0x000004a0      0x290 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+ .debug_ranges  0x00000730       0x88 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+ .debug_ranges  0x000007b8       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+ .debug_ranges  0x000007e0       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+ .debug_ranges  0x00000808       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+ .debug_ranges  0x00000830       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+ .debug_ranges  0x00000858       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+ .debug_ranges  0x000008c8       0x78 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+ .debug_ranges  0x00000940       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+ .debug_ranges  0x000009b0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+ .debug_ranges  0x00000a20       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+ .debug_ranges  0x00000a80       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+ .debug_ranges  0x00000af0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+ .debug_ranges  0x00000b60       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+ .debug_ranges  0x00000bd0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+ .debug_ranges  0x00000c40       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+ .debug_ranges  0x00000cb0       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+ .debug_ranges  0x00000cd0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+ .debug_ranges  0x00000d40       0xd8 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+ .debug_ranges  0x00000e18       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+ .debug_ranges  0x00000e40       0x20 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+ .debug_ranges  0x00000e60       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+ .debug_ranges  0x00000ec0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+ .debug_ranges  0x00000f30       0x38 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+ .debug_ranges  0x00000f68       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+ .debug_ranges  0x00000f90       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
+ .debug_ranges  0x00000ff0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+ .debug_ranges  0x00001060       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+ .debug_ranges  0x000010d0       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+ .debug_ranges  0x00001130       0x78 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+ .debug_ranges  0x000011a8       0xe0 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+ .debug_ranges  0x00001288       0x60 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+ .debug_ranges  0x000012e8       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+ .debug_ranges  0x00001358       0x40 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+ .debug_ranges  0x00001398       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+ .debug_ranges  0x000013b0       0x18 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+ .debug_ranges  0x000013c8       0x48 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+ .debug_ranges  0x00001410       0x30 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+ .debug_ranges  0x00001440       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+ .debug_ranges  0x00001468       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+ .debug_ranges  0x00001490       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+ .debug_ranges  0x000014b8       0x28 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+ .debug_ranges  0x000014e0       0x70 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
+ .debug_ranges  0x00001550       0x68 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
 
 .comment        0x00000000       0x6e
  .comment       0x00000000       0x6e .\CortexM3\ARM_GCC_541\Debug\main.o
                                  0x6f (size before relaxing)
- .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
@@ -3232,7 +3047,6 @@ END GROUP
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
- .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
@@ -3248,8 +3062,6 @@ END GROUP
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
- .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
- .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
 
 .debug_weaknames
  *(.debug_weaknames)
@@ -3278,186 +3090,176 @@ END GROUP
  .ARM.attributes
                 0x00000065       0x33 .\CortexM3\ARM_GCC_541\Debug\main.o
  .ARM.attributes
-                0x00000098       0x33 .\CortexM3\ARM_GCC_541\Debug\ssd1306.o
+                0x00000098       0x33 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
  .ARM.attributes
-                0x000000cb       0x33 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x000000cb       0x33 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
  .ARM.attributes
-                0x000000fe       0x33 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                0x000000fe       0x33 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
  .ARM.attributes
-                0x00000131       0x33 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                0x00000131       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
  .ARM.attributes
-                0x00000164       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1.o)
+                0x00000164       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
  .ARM.attributes
-                0x00000197       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_1.o)
+                0x00000197       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
  .ARM.attributes
-                0x000001ca       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1.o)
+                0x000001ca       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
  .ARM.attributes
-                0x000001fd       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave1_DMA_dma.o)
+                0x000001fd       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
  .ARM.attributes
-                0x00000230       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_Wave2_DMA_dma.o)
+                0x00000230       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
  .ARM.attributes
-                0x00000263       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_VDAC8.o)
+                0x00000263       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
  .ARM.attributes
-                0x00000296       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_1_BuffAmp.o)
+                0x00000296       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
  .ARM.attributes
-                0x000002c9       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_1_IntClock.o)
+                0x000002c9       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
  .ARM.attributes
-                0x000002fc       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyDmac.o)
+                0x000002fc       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
  .ARM.attributes
-                0x0000032f       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyLib.o)
+                0x0000032f       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
  .ARM.attributes
-                0x00000362       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(cyPm.o)
+                0x00000362       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
  .ARM.attributes
-                0x00000395       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_1.o)
+                0x00000395       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
  .ARM.attributes
-                0x000003c8       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_2.o)
+                0x000003c8       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
  .ARM.attributes
-                0x000003fb       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_1.o)
+                0x000003fb       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
  .ARM.attributes
-                0x0000042e       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_Dice_LED_2.o)
+                0x0000042e       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
  .ARM.attributes
-                0x00000461       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_checkMode.o)
+                0x00000461       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
  .ARM.attributes
-                0x00000494       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Mode.o)
+                0x00000494       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
  .ARM.attributes
-                0x000004c7       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_pos.o)
+                0x000004c7       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
  .ARM.attributes
-                0x000004fa       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but1_isr_neg.o)
+                0x000004fa       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
  .ARM.attributes
-                0x0000052d       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(debouncerClock.o)
+                0x0000052d       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
  .ARM.attributes
-                0x00000560       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_pos.o)
+                0x00000560       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
  .ARM.attributes
-                0x00000593       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but2_isr_neg.o)
+                0x00000593       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
  .ARM.attributes
-                0x000005c6       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_pos.o)
+                0x000005c6       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
  .ARM.attributes
-                0x000005f9       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(but3_isr_neg.o)
+                0x000005f9       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
  .ARM.attributes
-                0x0000062c       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogBut_isr.o)
+                0x0000062c       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
  .ARM.attributes
-                0x0000065f       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogMUX.o)
+                0x0000065f       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
  .ARM.attributes
-                0x00000692       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(ADC_isr.o)
+                0x00000692       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
  .ARM.attributes
-                0x000006c5       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC.o)
+                0x000006c5       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
  .ARM.attributes
-                0x000006f8       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_INT.o)
+                0x000006f8       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
  .ARM.attributes
-                0x0000072b       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_AMux.o)
+                0x0000072b       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
  .ARM.attributes
-                0x0000075e       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_Ext_CP_Clk.o)
+                0x0000075e       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
  .ARM.attributes
-                0x00000791       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(analogADC_theACLK.o)
+                0x00000791       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
  .ARM.attributes
-                0x000007c4       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoReturn.o)
+                0x000007c4       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
  .ARM.attributes
-                0x000007f7       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_EchoTrig.o)
+                0x000007f7       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
  .ARM.attributes
-                0x0000082a       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_Echo.o)
+                0x0000082a       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
  .ARM.attributes
-                0x0000085d       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Echo.o)
+                0x0000085d       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
  .ARM.attributes
-                0x00000890       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_Echo.o)
+                0x00000890       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
  .ARM.attributes
-                0x000008c3       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Clock_2.o)
+                0x000008c3       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
  .ARM.attributes
-                0x000008f6       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_MASTER.o)
+                0x000008f6       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
  .ARM.attributes
-                0x00000929       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Timer_Display.o)
+                0x00000929       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
  .ARM.attributes
-                0x0000095c       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP.o)
+                0x0000095c       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
  .ARM.attributes
-                0x0000098f       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(UART_TOESP_IntClock.o)
+                0x0000098f       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
  .ARM.attributes
-                0x000009c2       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(isr_updateESP.o)
+                0x000009c2       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
  .ARM.attributes
-                0x000009f5       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2.o)
+                0x000009f5       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
  .ARM.attributes
-                0x00000a28       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave1_DMA_dma.o)
+                0x00000a28       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
  .ARM.attributes
-                0x00000a5b       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_Wave2_DMA_dma.o)
+                0x00000a5b       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
  .ARM.attributes
-                0x00000a8e       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_VDAC8.o)
+                0x00000a8e       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
  .ARM.attributes
-                0x00000ac1       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(WaveDAC8_2_BuffAmp.o)
+                0x00000ac1       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
  .ARM.attributes
-                0x00000af4       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2.o)
+                0x00000af4       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
  .ARM.attributes
-                0x00000b27       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1.o)
+                0x00000b27       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
  .ARM.attributes
-                0x00000b5a       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ1_LED.o)
+                0x00000b5a       0x21 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
  .ARM.attributes
-                0x00000b8d       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(Pin_OSZ2_LED.o)
+                0x00000b7b       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
  .ARM.attributes
-                0x00000bc0       0x21 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyBootAsmGnu.o)
+                0x00000bae       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
  .ARM.attributes
-                0x00000be1       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CyFlash.o)
+                0x00000be1       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000c14       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(CySpc.o)
+                0x00000bfe       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000c47       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED.o)
+                0x00000c1b       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000c7a       0x33 .\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.a(I2COLED_INT.o)
+                0x00000c38       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x00000cad       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubdf3.o)
+                0x00000c55       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
  .ARM.attributes
-                0x00000cca       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivdf3.o)
+                0x00000c72       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00000ce7       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_cmpdf2.o)
+                0x00000c8f       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x00000d04       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixdfsi.o)
+                0x00000cac       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunssfsi.o)
  .ARM.attributes
-                0x00000d21       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
+                0x00000cc9       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000d3e       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
+                0x00000cf6       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000d5b       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_muldivsf3.o)
+                0x00000d23       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000d78       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a(_arm_fixunssfsi.o)
+                0x00000d50       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x00000d95       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-errno.o)
+                0x00000d7d       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x00000dc2       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-exit.o)
+                0x00000daa       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000def       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
+                0x00000dd7       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x00000e1c       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
+                0x00000e04       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000e49       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000e31       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000e76       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
+                0x00000e5e       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x00000ea3       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sprintf.o)
+                0x00000e8b       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000ed0       0x17 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strlen.o)
+                0x00000eb8       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000ee7       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x00000ee5       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x00000f14       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000f12       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x00000f41       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memchr-stub.o)
+                0x00000f3f       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000f6e       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memmove.o)
+                0x00000f6c       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000f9b       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-freer.o)
+                0x00000f99       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-msizer.o)
  .ARM.attributes
-                0x00000fc8       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000fc6       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x00000ff5       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-reallocr.o)
+                0x00000ff3       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
  .ARM.attributes
-                0x00001022       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-sbrkr.o)
- .ARM.attributes
-                0x0000104f       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-mlock.o)
- .ARM.attributes
-                0x0000107c       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-msizer.o)
- .ARM.attributes
-                0x000010a9       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
- .ARM.attributes
-                0x000010d6       0x2d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtend.o
- .ARM.attributes
-                0x00001103       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
+                0x00001020       0x1d c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m/crtn.o
 
 /DISCARD/
  *(.note.GNU-stack)
-OUTPUT(C:\Users\mariu\Documents\PSoC Creator\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.elf elf32-littlearm)
+OUTPUT(C:\Users\silvan\OneDrive\GitHubRepos\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC_Audio_MIDI.cydsn\CortexM3\ARM_GCC_541\Debug\PSoC_Audio_MIDI.elf elf32-littlearm)

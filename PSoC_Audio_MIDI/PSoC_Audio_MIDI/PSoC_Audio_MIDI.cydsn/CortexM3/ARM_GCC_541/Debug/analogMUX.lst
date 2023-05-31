@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
   23:Generated_Source\PSoC5/analogMUX.c **** /*******************************************************************************
   24:Generated_Source\PSoC5/analogMUX.c **** * Function Name: analogMUX_Start
   25:Generated_Source\PSoC5/analogMUX.c **** ********************************************************************************
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 2
 
 
   26:Generated_Source\PSoC5/analogMUX.c **** * Summary:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
   48:Generated_Source\PSoC5/analogMUX.c ****     }
   49:Generated_Source\PSoC5/analogMUX.c **** 
   50:Generated_Source\PSoC5/analogMUX.c ****     analogMUX_lastChannel = analogMUX_NULL_CHANNEL;
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 3
 
 
   63              		.loc 1 50 0 is_stmt 1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
   97              		.cfi_offset 14, -4
   98 0002 82B0     		sub	sp, sp, #8
   99              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 4
 
 
  100 0004 00AF     		add	r7, sp, #0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
   88:Generated_Source\PSoC5/analogMUX.c **** *  channel:  The channel to connect to the common terminal.
   89:Generated_Source\PSoC5/analogMUX.c **** *
   90:Generated_Source\PSoC5/analogMUX.c **** * Return:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 5
 
 
   91:Generated_Source\PSoC5/analogMUX.c **** *  void
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  112:Generated_Source\PSoC5/analogMUX.c **** }
  170              		.loc 1 112 0
  171 002a 00BF     		nop
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 6
 
 
  172 002c 0837     		adds	r7, r7, #8
@@ -327,14 +327,14 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  195 000c 2B000000 		.4byte	.LASF18
  196 0010 0C       		.byte	0xc
  197 0011 00000000 		.4byte	.LASF19
- 198 0015 70010000 		.4byte	.LASF20
+ 198 0015 A6010000 		.4byte	.LASF20
  199 0019 00000000 		.4byte	.Ldebug_ranges0+0
  200 001d 00000000 		.4byte	0
  201 0021 00000000 		.4byte	.Ldebug_line0
  202 0025 02       		.uleb128 0x2
  203 0026 01       		.byte	0x1
  204 0027 06       		.byte	0x6
- 205 0028 E5010000 		.4byte	.LASF0
+ 205 0028 89010000 		.4byte	.LASF0
  206 002c 02       		.uleb128 0x2
  207 002d 01       		.byte	0x1
  208 002e 08       		.byte	0x8
@@ -342,7 +342,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  210 0033 02       		.uleb128 0x2
  211 0034 02       		.byte	0x2
  212 0035 05       		.byte	0x5
- 213 0036 CC010000 		.4byte	.LASF2
+ 213 0036 70010000 		.4byte	.LASF2
  214 003a 02       		.uleb128 0x2
  215 003b 02       		.byte	0x2
  216 003c 07       		.byte	0x7
@@ -350,7 +350,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  218 0041 02       		.uleb128 0x2
  219 0042 04       		.byte	0x4
  220 0043 05       		.byte	0x5
- 221 0044 DC010000 		.4byte	.LASF4
+ 221 0044 80010000 		.4byte	.LASF4
  222 0048 02       		.uleb128 0x2
  223 0049 04       		.byte	0x4
  224 004a 07       		.byte	0x7
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  226 004f 02       		.uleb128 0x2
  227 0050 08       		.byte	0x8
  228 0051 05       		.byte	0x5
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 7
 
 
  229 0052 5D010000 		.4byte	.LASF6
@@ -375,7 +375,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  240 0066 07       		.byte	0x7
  241 0067 1F010000 		.4byte	.LASF8
  242 006b 04       		.uleb128 0x4
- 243 006c D6010000 		.4byte	.LASF21
+ 243 006c 7A010000 		.4byte	.LASF21
  244 0070 02       		.byte	0x2
  245 0071 9201     		.2byte	0x192
  246 0073 2C000000 		.4byte	0x2c
@@ -410,7 +410,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  275 00ae 77       		.sleb128 -9
  276 00af 00       		.byte	0
  277 00b0 05       		.uleb128 0x5
- 278 00b1 F1010000 		.4byte	.LASF13
+ 278 00b1 95010000 		.4byte	.LASF13
  279 00b5 01       		.byte	0x1
  280 00b6 45       		.byte	0x45
  281 00b7 00000000 		.4byte	.LFB1
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  283 00bf 01       		.uleb128 0x1
  284 00c0 9C       		.byte	0x9c
  285 00c1 D4000000 		.4byte	0xd4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 8
 
 
  286 00c5 07       		.uleb128 0x7
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  340 0010 17       		.uleb128 0x17
  341 0011 00       		.byte	0
  342 0012 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 9
 
 
  343 0013 02       		.uleb128 0x2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  397 0049 9642     		.uleb128 0x2116
  398 004b 19       		.uleb128 0x19
  399 004c 01       		.uleb128 0x1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 10
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 10
 
 
  400 004d 13       		.uleb128 0x13
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  454 0008 00000000 		.4byte	.LFB1
  455 000c 28000000 		.4byte	.LFE1
  456 0010 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 11
 
 
  457 0014 38000000 		.4byte	.LFE2
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  479              	.LASF3:
  480 00ef 73686F72 		.ascii	"short unsigned int\000"
  480      7420756E 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 12
 
 
  480      7369676E 
@@ -701,39 +701,43 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 1
  495              	.LASF11:
  496 016b 63686172 		.ascii	"char\000"
  496      00
- 497              	.LASF20:
- 498 0170 433A5C55 		.ascii	"C:\\Users\\mariu\\Documents\\PSoC Creator\\PSoC_Aud"
- 498      73657273 
- 498      5C6D6172 
- 498      69755C44 
- 498      6F63756D 
- 499 019e 696F5F4D 		.ascii	"io_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI.cydsn\000"
- 499      4944495C 
- 499      50536F43 
- 499      5F417564 
- 499      696F5F4D 
- 500              	.LASF2:
- 501 01cc 73686F72 		.ascii	"short int\000"
- 501      7420696E 
- 501      7400
- 502              	.LASF21:
- 503 01d6 75696E74 		.ascii	"uint8\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccamebzW.s 			page 13
+ 497              	.LASF2:
+ 498 0170 73686F72 		.ascii	"short int\000"
+ 498      7420696E 
+ 498      7400
+ 499              	.LASF21:
+ 500 017a 75696E74 		.ascii	"uint8\000"
+ 500      3800
+ 501              	.LASF4:
+ 502 0180 6C6F6E67 		.ascii	"long int\000"
+ 502      20696E74 
+ 502      00
+ 503              	.LASF0:
+ 504 0189 7369676E 		.ascii	"signed char\000"
+ 504      65642063 
+ 504      68617200 
+ 505              	.LASF13:
+ 506 0195 616E616C 		.ascii	"analogMUX_Select\000"
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\ccyOmx8C.s 			page 13
 
 
- 503      3800
- 504              	.LASF4:
- 505 01dc 6C6F6E67 		.ascii	"long int\000"
- 505      20696E74 
- 505      00
- 506              	.LASF0:
- 507 01e5 7369676E 		.ascii	"signed char\000"
- 507      65642063 
- 507      68617200 
- 508              	.LASF13:
- 509 01f1 616E616C 		.ascii	"analogMUX_Select\000"
- 509      6F674D55 
- 509      585F5365 
- 509      6C656374 
- 509      00
- 510              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 506      6F674D55 
+ 506      585F5365 
+ 506      6C656374 
+ 506      00
+ 507              	.LASF20:
+ 508 01a6 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\GitHubRepos\\PSoC_Audi"
+ 508      73657273 
+ 508      5C73696C 
+ 508      76616E5C 
+ 508      4F6E6544 
+ 509 01d4 6F5F4D49 		.ascii	"o_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI\\PSoC_Audi"
+ 509      44495C50 
+ 509      536F435F 
+ 509      41756469 
+ 509      6F5F4D49 
+ 510 0204 6F5F4D49 		.ascii	"o_MIDI.cydsn\000"
+ 510      44492E63 
+ 510      7964736E 
+ 510      00
+ 511              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

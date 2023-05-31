@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
   28:Generated_Source\PSoC5/Pin_EchoReturn.c **** *
   29:Generated_Source\PSoC5/Pin_EchoReturn.c **** * \brief Writes the value to the physical port (data output register), masking
   30:Generated_Source\PSoC5/Pin_EchoReturn.c **** *  and shifting the bits appropriately. 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 2
 
 
   31:Generated_Source\PSoC5/Pin_EchoReturn.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
   52 001c DBB2     		uxtb	r3, r3
   53 001e 03F00203 		and	r3, r3, #2
   54 0022 DAB2     		uxtb	r2, r3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 3
 
 
   55 0024 FB7B     		ldrb	r3, [r7, #15]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
   85:Generated_Source\PSoC5/Pin_EchoReturn.c **** *  APIs (primary method) or disable interrupts around this function.
   86:Generated_Source\PSoC5/Pin_EchoReturn.c **** *
   87:Generated_Source\PSoC5/Pin_EchoReturn.c **** * \funcusage
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 4
 
 
   88:Generated_Source\PSoC5/Pin_EchoReturn.c **** *  \snippet Pin_EchoReturn_SUT.c usage_Pin_EchoReturn_SetDriveMode
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  133              		.align	2
  134              		.global	Pin_EchoReturn_Read
  135              		.thumb
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 5
 
 
  136              		.thumb_func
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  167 001a 00BF     		.align	2
  168              	.L9:
  169 001c 31510040 		.word	1073762609
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 6
 
 
  170              		.cfi_endproc
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  197 0010 DBB2     		uxtb	r3, r3
  144:Generated_Source\PSoC5/Pin_EchoReturn.c **** }
  198              		.loc 1 144 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 7
 
 
  199 0012 1846     		mov	r0, r3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  176:Generated_Source\PSoC5/Pin_EchoReturn.c ****     *  None
  177:Generated_Source\PSoC5/Pin_EchoReturn.c ****     *  
  178:Generated_Source\PSoC5/Pin_EchoReturn.c ****     * \sideeffect
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 8
 
 
  179:Generated_Source\PSoC5/Pin_EchoReturn.c ****     *  It is recommended that the interrupt be disabled before calling this 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  261              	.L19:
  262              		.align	2
  263              	.L18:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 9
 
 
  264 002c 19450040 		.word	1073759513
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  219:Generated_Source\PSoC5/Pin_EchoReturn.c ****     }
  293              		.loc 1 219 0
  294 0012 1846     		mov	r0, r3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 10
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 10
 
 
  295 0014 BD46     		mov	sp, r7
@@ -567,15 +567,15 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  318 000b 01       		.uleb128 0x1
  319 000c 00000000 		.4byte	.LASF24
  320 0010 0C       		.byte	0xc
- 321 0011 27020000 		.4byte	.LASF25
- 322 0015 B2010000 		.4byte	.LASF26
+ 321 0011 CB010000 		.4byte	.LASF25
+ 322 0015 FF010000 		.4byte	.LASF26
  323 0019 00000000 		.4byte	.Ldebug_ranges0+0
  324 001d 00000000 		.4byte	0
  325 0021 00000000 		.4byte	.Ldebug_line0
  326 0025 02       		.uleb128 0x2
  327 0026 01       		.byte	0x1
  328 0027 06       		.byte	0x6
- 329 0028 4F020000 		.4byte	.LASF0
+ 329 0028 F3010000 		.4byte	.LASF0
  330 002c 02       		.uleb128 0x2
  331 002d 01       		.byte	0x1
  332 002e 08       		.byte	0x8
@@ -583,7 +583,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  334 0033 02       		.uleb128 0x2
  335 0034 02       		.byte	0x2
  336 0035 05       		.byte	0x5
- 337 0036 0E020000 		.4byte	.LASF2
+ 337 0036 B2010000 		.4byte	.LASF2
  338 003a 02       		.uleb128 0x2
  339 003b 02       		.byte	0x2
  340 003c 07       		.byte	0x7
@@ -591,14 +591,14 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  342 0041 02       		.uleb128 0x2
  343 0042 04       		.byte	0x4
  344 0043 05       		.byte	0x5
- 345 0044 1E020000 		.4byte	.LASF4
+ 345 0044 C2010000 		.4byte	.LASF4
  346 0048 02       		.uleb128 0x2
  347 0049 04       		.byte	0x4
  348 004a 07       		.byte	0x7
  349 004b D8000000 		.4byte	.LASF5
  350 004f 02       		.uleb128 0x2
  351 0050 08       		.byte	0x8
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 11
 
 
  352 0051 05       		.byte	0x5
@@ -616,7 +616,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  364 0066 07       		.byte	0x7
  365 0067 61010000 		.4byte	.LASF8
  366 006b 04       		.uleb128 0x4
- 367 006c 18020000 		.4byte	.LASF9
+ 367 006c BC010000 		.4byte	.LASF9
  368 0070 02       		.byte	0x2
  369 0071 9201     		.2byte	0x192
  370 0073 2C000000 		.4byte	0x2c
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  406 00c3 01       		.byte	0x1
  407 00c4 39       		.byte	0x39
  408 00c5 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 12
 
 
  409 00c9 02       		.uleb128 0x2
@@ -674,7 +674,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  419 00d9 77       		.sleb128 -9
  420 00da 00       		.byte	0
  421 00db 06       		.uleb128 0x6
- 422 00dc 5B020000 		.4byte	.LASF16
+ 422 00dc 6A020000 		.4byte	.LASF16
  423 00e0 01       		.byte	0x1
  424 00e1 5A       		.byte	0x5a
  425 00e2 00000000 		.4byte	.LFB1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  463 0138 01       		.uleb128 0x1
  464 0139 9C       		.byte	0x9c
  465 013a 5B010000 		.4byte	0x15b
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 13
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 13
 
 
  466 013e 07       		.uleb128 0x7
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  520 0019 0B       		.uleb128 0xb
  521 001a 03       		.uleb128 0x3
  522 001b 0E       		.uleb128 0xe
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 14
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 14
 
 
  523 001c 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  577 0053 01       		.uleb128 0x1
  578 0054 13       		.uleb128 0x13
  579 0055 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 15
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 15
 
 
  580 0056 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  634 008d 00       		.byte	0
  635 008e 00       		.byte	0
  636 008f 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 16
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 16
 
 
  637              		.section	.debug_aranges,"",%progbits
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  680      6E203233 
  680      37373135 
  681 0066 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 17
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 17
 
 
  681      66756E63 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  703      6C6500
  704              	.LASF20:
  705 0136 50696E5F 		.ascii	"Pin_EchoReturn_ReadDataReg\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 18
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 18
 
 
  705      4563686F 
@@ -1060,45 +1060,49 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 1
  720              	.LASF13:
  721 01ad 63686172 		.ascii	"char\000"
  721      00
- 722              	.LASF26:
- 723 01b2 433A5C55 		.ascii	"C:\\Users\\mariu\\Documents\\PSoC Creator\\PSoC_Aud"
- 723      73657273 
- 723      5C6D6172 
- 723      69755C44 
- 723      6F63756D 
- 724 01e0 696F5F4D 		.ascii	"io_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI.cydsn\000"
- 724      4944495C 
- 724      50536F43 
- 724      5F417564 
- 724      696F5F4D 
- 725              	.LASF2:
- 726 020e 73686F72 		.ascii	"short int\000"
- 726      7420696E 
- 726      7400
- 727              	.LASF9:
- 728 0218 75696E74 		.ascii	"uint8\000"
- 728      3800
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\cczoyc85.s 			page 19
+ 722              	.LASF2:
+ 723 01b2 73686F72 		.ascii	"short int\000"
+ 723      7420696E 
+ 723      7400
+ 724              	.LASF9:
+ 725 01bc 75696E74 		.ascii	"uint8\000"
+ 725      3800
+ 726              	.LASF4:
+ 727 01c2 6C6F6E67 		.ascii	"long int\000"
+ 727      20696E74 
+ 727      00
+ 728              	.LASF25:
+ 729 01cb 47656E65 		.ascii	"Generated_Source\\PSoC5\\Pin_EchoReturn.c\000"
+ 729      72617465 
+ 729      645F536F 
+ 729      75726365 
+ 729      5C50536F 
+ 730              	.LASF0:
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cciDgsFg.s 			page 19
 
 
- 729              	.LASF4:
- 730 021e 6C6F6E67 		.ascii	"long int\000"
- 730      20696E74 
- 730      00
- 731              	.LASF25:
- 732 0227 47656E65 		.ascii	"Generated_Source\\PSoC5\\Pin_EchoReturn.c\000"
- 732      72617465 
- 732      645F536F 
- 732      75726365 
- 732      5C50536F 
- 733              	.LASF0:
- 734 024f 7369676E 		.ascii	"signed char\000"
- 734      65642063 
- 734      68617200 
- 735              	.LASF16:
- 736 025b 50696E5F 		.ascii	"Pin_EchoReturn_SetDriveMode\000"
- 736      4563686F 
- 736      52657475 
- 736      726E5F53 
- 736      65744472 
- 737              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 731 01f3 7369676E 		.ascii	"signed char\000"
+ 731      65642063 
+ 731      68617200 
+ 732              	.LASF26:
+ 733 01ff 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\GitHubRepos\\PSoC_Audi"
+ 733      73657273 
+ 733      5C73696C 
+ 733      76616E5C 
+ 733      4F6E6544 
+ 734 022d 6F5F4D49 		.ascii	"o_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI\\PSoC_Audi"
+ 734      44495C50 
+ 734      536F435F 
+ 734      41756469 
+ 734      6F5F4D49 
+ 735 025d 6F5F4D49 		.ascii	"o_MIDI.cydsn\000"
+ 735      44492E63 
+ 735      7964736E 
+ 735      00
+ 736              	.LASF16:
+ 737 026a 50696E5F 		.ascii	"Pin_EchoReturn_SetDriveMode\000"
+ 737      4563686F 
+ 737      52657475 
+ 737      726E5F53 
+ 737      65744472 
+ 738              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

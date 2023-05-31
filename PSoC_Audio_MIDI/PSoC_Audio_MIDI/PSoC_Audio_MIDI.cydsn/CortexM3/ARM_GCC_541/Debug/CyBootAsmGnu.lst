@@ -11510,11 +11510,11 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  204              	.set but1_isr_pos__INTC_SET_PD_REG, CYREG_NVIC_SETPEND0
  205              	
  206              	/* but2 */
- 207              	.set but2__0__INTTYPE, CYREG_PICU2_INTTYPE3
- 208              	.set but2__0__MASK, 0x08
- 209              	.set but2__0__PC, CYREG_PRT2_PC3
+ 207              	.set but2__0__INTTYPE, CYREG_PICU2_INTTYPE4
+ 208              	.set but2__0__MASK, 0x10
+ 209              	.set but2__0__PC, CYREG_PRT2_PC4
  210              	.set but2__0__PORT, 2
- 211              	.set but2__0__SHIFT, 3
+ 211              	.set but2__0__SHIFT, 4
  212              	.set but2__AG, CYREG_PRT2_AG
  213              	.set but2__AMUX, CYREG_PRT2_AMUX
  214              	.set but2__BIE, CYREG_PRT2_BIE
@@ -11532,7 +11532,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  223              	.set but2__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU2_BASE
  224              	.set but2__LCD_COM_SEG, CYREG_PRT2_LCD_COM_SEG
  225              	.set but2__LCD_EN, CYREG_PRT2_LCD_EN
- 226              	.set but2__MASK, 0x08
+ 226              	.set but2__MASK, 0x10
  227              	.set but2__PORT, 2
  228              	.set but2__PRT, CYREG_PRT2_PRT
  229              	.set but2__PRTDSI__CAPS_SEL, CYREG_PRT2_CAPS_SEL
@@ -11543,7 +11543,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  234              	.set but2__PRTDSI__OUT_SEL1, CYREG_PRT2_OUT_SEL1
  235              	.set but2__PRTDSI__SYNC_OUT, CYREG_PRT2_SYNC_OUT
  236              	.set but2__PS, CYREG_PRT2_PS
- 237              	.set but2__SHIFT, 3
+ 237              	.set but2__SHIFT, 4
  238              	.set but2__SLW, CYREG_PRT2_SLW
  239              	.set but2_isr_neg__INTC_CLR_EN_REG, CYREG_NVIC_CLRENA0
  240              	.set but2_isr_neg__INTC_CLR_PD_REG, CYREG_NVIC_CLRPEND0
@@ -11563,11 +11563,11 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  254              	.set but2_isr_pos__INTC_SET_PD_REG, CYREG_NVIC_SETPEND0
  255              	
  256              	/* but3 */
- 257              	.set but3__0__INTTYPE, CYREG_PICU2_INTTYPE4
- 258              	.set but3__0__MASK, 0x10
- 259              	.set but3__0__PC, CYREG_PRT2_PC4
+ 257              	.set but3__0__INTTYPE, CYREG_PICU2_INTTYPE3
+ 258              	.set but3__0__MASK, 0x08
+ 259              	.set but3__0__PC, CYREG_PRT2_PC3
  260              	.set but3__0__PORT, 2
- 261              	.set but3__0__SHIFT, 4
+ 261              	.set but3__0__SHIFT, 3
  262              	.set but3__AG, CYREG_PRT2_AG
  263              	.set but3__AMUX, CYREG_PRT2_AMUX
  264              	.set but3__BIE, CYREG_PRT2_BIE
@@ -11585,7 +11585,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  273              	.set but3__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU2_BASE
  274              	.set but3__LCD_COM_SEG, CYREG_PRT2_LCD_COM_SEG
  275              	.set but3__LCD_EN, CYREG_PRT2_LCD_EN
- 276              	.set but3__MASK, 0x10
+ 276              	.set but3__MASK, 0x08
  277              	.set but3__PORT, 2
  278              	.set but3__PRT, CYREG_PRT2_PRT
  279              	.set but3__PRTDSI__CAPS_SEL, CYREG_PRT2_CAPS_SEL
@@ -11596,7 +11596,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  284              	.set but3__PRTDSI__OUT_SEL1, CYREG_PRT2_OUT_SEL1
  285              	.set but3__PRTDSI__SYNC_OUT, CYREG_PRT2_SYNC_OUT
  286              	.set but3__PS, CYREG_PRT2_PS
- 287              	.set but3__SHIFT, 4
+ 287              	.set but3__SHIFT, 3
  288              	.set but3__SLW, CYREG_PRT2_SLW
  289              	.set but3_isr_neg__INTC_CLR_EN_REG, CYREG_NVIC_CLRENA0
  290              	.set but3_isr_neg__INTC_CLR_PD_REG, CYREG_NVIC_CLRPEND0
