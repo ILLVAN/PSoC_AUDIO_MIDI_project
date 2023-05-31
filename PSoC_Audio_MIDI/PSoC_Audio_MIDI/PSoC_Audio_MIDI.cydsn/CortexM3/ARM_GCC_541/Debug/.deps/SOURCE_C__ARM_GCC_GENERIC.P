@@ -1,0 +1,208 @@
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/ADC_isr.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CYDMAC.H C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CYFITTER.H C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_2.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_Echo.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_OLED.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/I2COLED.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/I2COLED_PVT.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_1_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_2.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_2_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_1_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_2.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_2_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoReturn.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoReturn_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoTrig.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoTrig_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1_LED.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1_LED_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2_LED.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2_LED_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SCL_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SCL_1_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SDA_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SDA_1_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Timer_Display.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Timer_Echo.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Timer_Mode.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_1_IntClock.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_TOESP.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_TOESP_IntClock.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_1_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_2.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_2_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_BuffAmp.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_VDAC8.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_Wave1_DMA_dma.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_Wave2_DMA_dma.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_BuffAmp.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_VDAC8.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_Wave1_DMA_dma.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_Wave2_DMA_dma.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_AMux.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_Ext_CP_Clk.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_IRQ.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_theACLK.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogBut.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogBut_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogBut_isr.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogMUX.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogX.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogX_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogY.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogY_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1_isr_neg.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1_isr_pos.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2_isr_neg.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2_isr_pos.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3_aliases.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3_isr_neg.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3_isr_pos.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cmsis_armcc.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cmsis_compiler.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cmsis_gcc.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/core_cm3.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cydisabledsheets.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/debouncerClock.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/isr_Echo.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/isr_checkMode.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/isr_updateESP.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/project.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/font.h C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/main.c C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/ssd1306.h 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/ADC_isr.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CYDMAC.H : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CYFITTER.H : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_2.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_Echo.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Clock_OLED.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/I2COLED.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/I2COLED_PVT.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_1_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_2.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_2_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_1_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_2.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_Dice_LED_2_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoReturn.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoReturn_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoTrig.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_EchoTrig_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1_LED.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1_LED_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ1_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2_LED.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2_LED_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Pin_OSZ2_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SCL_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SCL_1_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SDA_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/SDA_1_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Timer_Display.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Timer_Echo.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Timer_Mode.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_1_IntClock.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_TOESP.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/UART_TOESP_IntClock.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_1_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_2.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/Vout_2_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_BuffAmp.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_VDAC8.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_Wave1_DMA_dma.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_1_Wave2_DMA_dma.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_BuffAmp.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_VDAC8.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_Wave1_DMA_dma.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/WaveDAC8_2_Wave2_DMA_dma.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_AMux.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_Ext_CP_Clk.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_IRQ.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogADC_theACLK.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogBut.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogBut_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogBut_isr.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogMUX.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogX.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogX_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogY.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/analogY_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1_isr_neg.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but1_isr_pos.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2_isr_neg.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but2_isr_pos.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3_aliases.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3_isr_neg.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/but3_isr_pos.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/debouncerClock.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/isr_Echo.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/isr_checkMode.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/isr_updateESP.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/Generated_Source/PSoC5/project.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/font.h : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/main.c : 
+
+C:/Users/mariu/Documents/PSoC\ Creator/PSoC_Audio_MIDI/PSoC_Audio_MIDI/PSoC_Audio_MIDI.cydsn/ssd1306.h : 
+
