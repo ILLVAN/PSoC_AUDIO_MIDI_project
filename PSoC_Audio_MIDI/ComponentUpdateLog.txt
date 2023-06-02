@@ -1,0 +1,7 @@
+Last Modified Date & Time: 06/02/2023 18:01:58
+
+PSoC_Audio_MIDI: PSoC_Audio_MIDI.cydwr
+	cy_boot [v5.60] to [v6.10]
+	LIN_Dynamic [v4.0] to [v6.0]
+
+
