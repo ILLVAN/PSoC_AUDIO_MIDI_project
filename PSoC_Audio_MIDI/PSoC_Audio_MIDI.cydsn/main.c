@@ -419,23 +419,23 @@ void weddingMarchMendelssohnBartholdy(){
        sprintf(transmitBuffer, "songRepeatCounter %i\n\r", songRepeatCounter);      // Format the string to be transmitted
        UART_1_PutString(transmitBuffer);                                            // Transmit the formatted string
        switch(songRepeatCounter){
-            case 0: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform and frequency 502
-                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
+            case 0: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform
                     break;
-            case 1: WaveDAC8_1_Wave1Setup(squareXSine, 502); // Set up WaveDAC1 with squareXSine waveform and frequency 502
-                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
+            case 1: WaveDAC8_1_Wave1Setup(squareXSine, 502); // Set up WaveDAC1 with squareXSine waveform
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform
                     break;
-            case 2: WaveDAC8_1_Wave1Setup(squarewave, 502); // Set up WaveDAC1 with squarewave waveform and frequency 502
-                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
+            case 2: WaveDAC8_1_Wave1Setup(squarewave, 502); // Set up WaveDAC1 with squarewave waveform
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform
                     break;
-            case 3: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform and frequency 502
-                    WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine waveform and frequency 502
+            case 3: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform
+                    WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine waveform
                     break;
-            case 4: WaveDAC8_1_Wave1Setup(sinewave, 502); // Set up WaveDAC1 with sine waveform and frequency 502
-                    WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine waveform and frequency 502
+            case 4: WaveDAC8_1_Wave1Setup(sinewave, 502); // Set up WaveDAC1 with sine waveform
+                    WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine waveform
                     break;
-            case 5: WaveDAC8_1_Wave1Setup(trianglewave, 502); // Set up WaveDAC1 with trianglewave waveform and frequency 502
-                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
+            case 5: WaveDAC8_1_Wave1Setup(trianglewave, 502); // Set up WaveDAC1 with trianglewave waveform
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform
                     break;    
             default:  break;
         }
