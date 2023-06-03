@@ -233,72 +233,6 @@
 <VisibleNodeIds>
 <v>PSoC_Audio_MIDI</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_isr.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_AMux.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_Ext_CP_Clk.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_INT.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_IRQ.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_PM.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogADC_theACLK.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogBut.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogBut_isr.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogMUX.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogX.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\analogY.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but1_isr_neg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but1_isr_pos.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but2_isr_neg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but2_isr_pos.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but3.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but3_isr_neg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\but3_isr_pos.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_Echo.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_OLED.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\debouncerClock.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_BOOT.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_INT.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_MASTER.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_PM.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\I2COLED_SLAVE.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_checkMode.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_Echo.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\isr_updateESP.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_LED_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Dice_LED_2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_EchoReturn.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_EchoTrig.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_OSZ1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_OSZ1_LED.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_OSZ2.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_OSZ2_LED.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\SCL_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\SDA_1.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_Display.lst</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_Display_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -313,7 +247,7 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC 5LP Architecture TRM</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CY8C58LP Family Datasheet</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides\cy_boot_v5_60</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides\cy_boot_v6_10</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ADC_DelSig_v3_30.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\AMux_v1_80.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Connector20_v1_0.pdf</v>
@@ -350,7 +284,7 @@
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\PSoC 5LP Architecture TRM</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\CY8C58LP Family Datasheet</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides</v>
-<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides\cy_boot_v5_60</v>
+<v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\System Reference Guides\cy_boot_v6_10</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\ADC_DelSig_v3_30.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\AMux_v1_80.pdf</v>
 <v>PSoC_Audio_MIDI\PSoC_Audio_MIDI\Connector20_v1_0.pdf</v>

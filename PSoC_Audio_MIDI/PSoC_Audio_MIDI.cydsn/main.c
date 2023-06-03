@@ -415,38 +415,38 @@ void stopBothDACs(){
 
 void weddingMarchMendelssohnBartholdy(){
     if (songPosition >= songLength || (songPosition == 0 && songRepeatCounter == 0)){ 
-       songPosition = 0; 
-       sprintf(transmitBuffer, "songRepeatCounter %i\n\r", songRepeatCounter);             
-       UART_1_PutString(transmitBuffer);  
+       songPosition = 0;                                                            // Reset the song position if it reaches the end or if it's the first iteration
+       sprintf(transmitBuffer, "songRepeatCounter %i\n\r", songRepeatCounter);      // Format the string to be transmitted
+       UART_1_PutString(transmitBuffer);                                            // Transmit the formatted string
        switch(songRepeatCounter){
-            case 0: WaveDAC8_1_Wave1Setup(sawtooth, 502);
-                    WaveDAC8_2_Wave1Setup(sinewave, 502);
+            case 0: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform and frequency 502
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
                     break;
-            case 1: WaveDAC8_1_Wave1Setup(squareXSine, 502);
-                    WaveDAC8_2_Wave1Setup(sinewave, 502);
+            case 1: WaveDAC8_1_Wave1Setup(squareXSine, 502); // Set up WaveDAC1 with squareXSine waveform and frequency 502
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
                     break;
-            case 2: WaveDAC8_1_Wave1Setup(squarewave, 502);
-                    WaveDAC8_2_Wave1Setup(sinewave, 502);
+            case 2: WaveDAC8_1_Wave1Setup(squarewave, 502); // Set up WaveDAC1 with squarewave waveform and frequency 502
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
                     break;
-            case 3: WaveDAC8_1_Wave1Setup(sawtooth, 502);
-                    WaveDAC8_2_Wave1Setup(squareXSine, 502);
+            case 3: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform and frequency 502
+                    WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine waveform and frequency 502
                     break;
-            case 4: WaveDAC8_1_Wave1Setup(sinewave, 502);
-                    WaveDAC8_2_Wave1Setup(squareXSine, 502);
+            case 4: WaveDAC8_1_Wave1Setup(sinewave, 502); // Set up WaveDAC1 with sine waveform and frequency 502
+                    WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine waveform and frequency 502
                     break;
-            case 5: WaveDAC8_1_Wave1Setup(trianglewave, 502);
-                    WaveDAC8_2_Wave1Setup(sinewave, 502);
+            case 5: WaveDAC8_1_Wave1Setup(trianglewave, 502); // Set up WaveDAC1 with trianglewave waveform and frequency 502
+                    WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and frequency 502
                     break;    
             default:  break;
         }
-        songRepeatCounter++;
-        songDelayMs--;
-        songDelayMs = songDelayMs < 1 ? 9 : songDelayMs;
-        songRepeatCounter = songRepeatCounter > 5 ? 0 : songRepeatCounter;
+        songRepeatCounter++; // Increment the songRepeatCounter
+        songDelayMs--; // Decrement the songDelayMs
+        songDelayMs = songDelayMs < 1 ? 9 : songDelayMs; // If songDelayMs is less than 1, set it to 9
+        songRepeatCounter = songRepeatCounter > 5 ? 0 : songRepeatCounter; // If songRepeatCounter is greater than 5, set it to 0
     }
     else{
-        bar = (songPosition) / 96 + 1;
-        songPosition++;
+        bar = (songPosition) / 96 + 1; // Calculate the current bar number based on the song position
+        songPosition++; // Increment the song position
 //        sprintf(transmitBuffer, "songPos %i\n\r", songPosition);             
 //        UART_1_PutString(transmitBuffer);      
 //        sprintf(transmitBuffer, "bar %i\n\r", bar);             
@@ -634,7 +634,7 @@ void weddingMarchMendelssohnBartholdy(){
                     }; break;          
             default: break;
         }
-        CyDelay(songDelayMs); 
+        CyDelay(songDelayMs);       // controls song speed
     }
 }
 

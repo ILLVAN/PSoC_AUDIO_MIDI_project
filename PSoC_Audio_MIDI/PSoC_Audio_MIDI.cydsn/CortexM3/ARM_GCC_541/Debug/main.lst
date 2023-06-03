@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
   55 001e FC       		.byte	-4
   56 001f FC       		.byte	-4
   57 0020 FC       		.byte	-4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 2
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 2
 
 
   58 0021 FC       		.byte	-4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  112 0057 FC       		.byte	-4
  113 0058 FC       		.byte	-4
  114 0059 FC       		.byte	-4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 3
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 3
 
 
  115 005a FC       		.byte	-4
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  169 0090 00       		.byte	0
  170 0091 00       		.byte	0
  171 0092 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 4
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 4
 
 
  172 0093 00       		.byte	0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  226 00c9 00       		.byte	0
  227 00ca 00       		.byte	0
  228 00cb 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 5
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 5
 
 
  229 00cc 00       		.byte	0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  283 0102 FC       		.byte	-4
  284 0103 FC       		.byte	-4
  285 0104 FC       		.byte	-4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 6
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 6
 
 
  286 0105 FC       		.byte	-4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  340 013b FC       		.byte	-4
  341 013c FC       		.byte	-4
  342 013d FC       		.byte	-4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 7
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 7
 
 
  343 013e FC       		.byte	-4
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  397 0174 FC       		.byte	-4
  398 0175 FC       		.byte	-4
  399 0176 FC       		.byte	-4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 8
 
 
  400 0177 FC       		.byte	-4
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  454 01ad 00       		.byte	0
  455 01ae 00       		.byte	0
  456 01af 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 9
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 9
 
 
  457 01b0 00       		.byte	0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  511 01e6 00       		.byte	0
  512 01e7 00       		.byte	0
  513 01e8 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 10
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 10
 
 
  514 01e9 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  568 021c B5       		.byte	-75
  569 021d B6       		.byte	-74
  570 021e B8       		.byte	-72
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 11
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 11
 
 
  571 021f B9       		.byte	-71
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  625 0255 F1       		.byte	-15
  626 0256 F2       		.byte	-14
  627 0257 F3       		.byte	-13
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 12
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 12
 
 
  628 0258 F3       		.byte	-13
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  682 028e F6       		.byte	-10
  683 028f F5       		.byte	-11
  684 0290 F5       		.byte	-11
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 13
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 13
 
 
  685 0291 F4       		.byte	-12
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  739 02c7 C0       		.byte	-64
  740 02c8 BF       		.byte	-65
  741 02c9 BD       		.byte	-67
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 14
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 14
 
 
  742 02ca BC       		.byte	-68
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  796 0300 6A       		.byte	106
  797 0301 69       		.byte	105
  798 0302 67       		.byte	103
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 15
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 15
 
 
  799 0303 66       		.byte	102
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  853 0339 1E       		.byte	30
  854 033a 1D       		.byte	29
  855 033b 1C       		.byte	28
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 16
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 16
 
 
  856 033c 1C       		.byte	28
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  910 0372 02       		.byte	2
  911 0373 02       		.byte	2
  912 0374 02       		.byte	2
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 17
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 17
 
 
  913 0375 02       		.byte	2
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  967 03ab 22       		.byte	34
  968 03ac 23       		.byte	35
  969 03ad 24       		.byte	36
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 18
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 18
 
 
  970 03ae 25       		.byte	37
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1024 03e4 6F       		.byte	111
  1025 03e5 70       		.byte	112
  1026 03e6 72       		.byte	114
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 19
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 19
 
 
  1027 03e7 74       		.byte	116
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1081 041a A8       		.byte	-88
  1082 041b A9       		.byte	-87
  1083 041c AA       		.byte	-86
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 20
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 20
 
 
  1084 041d AB       		.byte	-85
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1138 0453 E1       		.byte	-31
  1139 0454 E2       		.byte	-30
  1140 0455 E3       		.byte	-29
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 21
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 21
 
 
  1141 0456 E4       		.byte	-28
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1195 048c 1F       		.byte	31
  1196 048d 20       		.byte	32
  1197 048e 21       		.byte	33
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 22
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 22
 
 
  1198 048f 22       		.byte	34
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1252 04c5 58       		.byte	88
  1253 04c6 59       		.byte	89
  1254 04c7 5A       		.byte	90
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 23
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 23
 
 
  1255 04c8 5B       		.byte	91
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1305 05f1 F2       		.byte	-14
  1306 05f2 F1       		.byte	-15
  1307 05f3 F0       		.byte	-16
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 24
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 24
 
 
  1308 05f4 EF       		.byte	-17
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1362 062a B9       		.byte	-71
  1363 062b B8       		.byte	-72
  1364 062c B7       		.byte	-73
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 25
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 25
 
 
  1365 062d B6       		.byte	-74
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1419 0663 80       		.byte	-128
  1420 0664 7F       		.byte	127
  1421 0665 7E       		.byte	126
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 26
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 26
 
 
  1422 0666 7D       		.byte	125
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1476 069c 47       		.byte	71
  1477 069d 46       		.byte	70
  1478 069e 45       		.byte	69
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 27
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 27
 
 
  1479 069f 44       		.byte	68
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1533 06d5 0E       		.byte	14
  1534 06d6 0D       		.byte	13
  1535 06d7 0C       		.byte	12
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 28
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 28
 
 
  1536 06d8 0B       		.byte	11
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1590 070e D0       		.byte	-48
  1591 070f CF       		.byte	-49
  1592 0710 CE       		.byte	-50
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 29
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 29
 
 
  1593 0711 CD       		.byte	-51
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1647 0747 97       		.byte	-105
  1648 0748 96       		.byte	-106
  1649 0749 95       		.byte	-107
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 30
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 30
 
 
  1650 074a 94       		.byte	-108
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1704 0780 5E       		.byte	94
  1705 0781 5D       		.byte	93
  1706 0782 5C       		.byte	92
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 31
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 31
 
 
  1707 0783 5B       		.byte	91
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1761 07b9 25       		.byte	37
  1762 07ba 24       		.byte	36
  1763 07bb 23       		.byte	35
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 32
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 32
 
 
  1764 07bc 22       		.byte	34
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1818 07ef 96       		.byte	-106
  1819 07f0 97       		.byte	-105
  1820 07f1 99       		.byte	-103
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 33
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 33
 
 
  1821 07f2 9A       		.byte	-102
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1875 0828 B4       		.byte	-76
  1876 0829 A0       		.byte	-96
  1877 082a 99       		.byte	-103
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 34
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 34
 
 
  1878 082b 97       		.byte	-105
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1932 0861 44       		.byte	68
  1933 0862 43       		.byte	67
  1934 0863 41       		.byte	65
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 35
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 35
 
 
  1935 0864 40       		.byte	64
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  1989 089a 00       		.byte	0
  1990 089b 00       		.byte	0
  1991 089c 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 36
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 36
 
 
  1992 089d 00       		.byte	0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2046 08d3 1D       		.byte	29
  2047 08d4 1E       		.byte	30
  2048 08d5 1F       		.byte	31
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 37
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 37
 
 
  2049 08d6 20       		.byte	32
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2103 090c C6       		.byte	-58
  2104 090d C8       		.byte	-56
  2105 090e C9       		.byte	-55
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 38
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 38
 
 
  2106 090f CA       		.byte	-54
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2160 0945 F8       		.byte	-8
  2161 0946 F8       		.byte	-8
  2162 0947 F9       		.byte	-7
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 39
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 39
 
 
  2163 0948 F9       		.byte	-7
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2217 097e EE       		.byte	-18
  2218 097f ED       		.byte	-19
  2219 0980 ED       		.byte	-19
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 40
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 40
 
 
  2220 0981 EC       		.byte	-20
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2274 09b7 AE       		.byte	-82
  2275 09b8 AC       		.byte	-84
  2276 09b9 AB       		.byte	-85
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 41
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 41
 
 
  2277 09ba A9       		.byte	-87
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2331 002a 443120   		.ascii	"D1 "
  2332 002d 442331   		.ascii	"D#1"
  2333 0030 453120   		.ascii	"E1 "
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 42
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 42
 
 
  2334 0033 463120   		.ascii	"F1 "
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2388 00d5 423520   		.ascii	"B5 "
  2389 00d8 433620   		.ascii	"C6 "
  2390 00db 432336   		.ascii	"C#6"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 43
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 43
 
 
  2391 00de 443620   		.ascii	"D6 "
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2445 0162 2700     		.short	39
  2446 0164 2900     		.short	41
  2447 0166 2C00     		.short	44
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 44
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 44
 
 
  2448 0168 2E00     		.short	46
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2502 01d4 1704     		.short	1047
  2503 01d6 5504     		.short	1109
  2504 01d8 9704     		.short	1175
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 45
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 45
 
 
  2505 01da DD04     		.short	1245
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2559              		.global	analogButFlag
  2560              		.type	analogButFlag, %object
  2561              		.size	analogButFlag, 1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 46
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 46
 
 
  2562              	analogButFlag:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2615 09d9 01       		.byte	1
  2616              		.global	checkingMode
  2617              		.type	checkingMode, %object
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 47
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 47
 
 
  2618              		.size	checkingMode, 1
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2672              		.size	offset2, 4
  2673              	offset2:
  2674 0018 00000000 		.space	4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 48
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 48
 
 
  2675              		.comm	osz1Select,1,1
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2729 024b 07       		.byte	7
  2730 024c 09       		.byte	9
  2731 024d 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 49
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 49
 
 
  2732 024e 00       		.byte	0
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2786 0284 0A       		.byte	10
  2787 0285 00       		.byte	0
  2788 0286 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 50
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 50
 
 
  2789 0287 00       		.byte	0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2843 02bd 08       		.byte	8
  2844 02be 0A       		.byte	10
  2845 02bf 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 51
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 51
 
 
  2846 02c0 00       		.byte	0
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2900 02f6 0A       		.byte	10
  2901 02f7 00       		.byte	0
  2902 02f8 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 52
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 52
 
 
  2903 02f9 01       		.byte	1
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  2957 032f 00       		.byte	0
  2958 0330 00       		.byte	0
  2959 0331 01       		.byte	1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 53
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 53
 
 
  2960 0332 03       		.byte	3
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3014 0368 00       		.byte	0
  3015 0369 02       		.byte	2
  3016 036a 03       		.byte	3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 54
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 54
 
 
  3017 036b 05       		.byte	5
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3071              		.align	2
  3072              		.type	cScaleNames, %object
  3073              		.size	cScaleNames, 1920
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 55
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 55
 
 
  3074              	cScaleNames:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3085      61205B63 
  3085      68696E61 
  3086 047e 00000000 		.space	18
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 56
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 56
 
 
  3086      00000000 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3098      00000000 
  3098      00000000 
  3098      00000000 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 57
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 57
 
 
  3098      00000000 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3110 065f 00000000 		.space	17
  3110      00000000 
  3110      00000000 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 58
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 58
 
 
  3110      00000000 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3122      00000000 
  3123 0760 30206D61 		.ascii	"0 major pentatonic\000"
  3123      6A6F7220 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 59
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 59
 
 
  3123      70656E74 
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3135 0850 36206165 		.ascii	"6 aeolian [VI]\000"
  3135      6F6C6961 
  3135      6E205B56 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 60
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 60
 
 
  3135      495D00
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3146      00000000 
  3147 0940 3420646F 		.ascii	"4 dorian_#11 [HM4]\000"
  3147      7269616E 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 61
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 61
 
 
  3147      5F233131 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3158      0000
  3159 0a30 3220646F 		.ascii	"2 dorian_b2 [MM2]\000"
  3159      7269616E 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 62
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 62
 
 
  3159      5F623220 
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3170      00000000 
  3170      000000
  3171              		.comm	echoDuration,2,2
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 63
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 63
 
 
  3172              		.comm	echoDistance,2,2
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3222 0b36 0000     		.align	2
  3223              	.LC2:
  3224 0b38 4D4F4445 		.ascii	"MODE 2 \012\015\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 64
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 64
 
 
  3224      2032200A 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
   39:main.c        ****                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
   40:main.c        ****                             0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u, 0u,
   41:main.c        ****                             0u, 0u, 0u, 0u, 0u, 0u,
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 65
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 65
 
 
   42:main.c        ****                             252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u, 252u,
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
   96:main.c        ****                             14u, 15u, 16u, 16u, 17u, 18u, 19u, 20u, 20u, 21u,
   97:main.c        ****                             22u, 23u, 24u, 25u, 26u, 27u, 28u, 28u, 29u, 30u,
   98:main.c        ****                             31u, 32u, 60u, 90u, 100u, 115u,
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 66
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 66
 
 
   99:main.c        ****                             127u, 128u, 130u, 131u, 133u, 134u, 136u, 137u, 139u, 141u, 142u, 144u,
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  153:main.c        **** const uint8 cGROUPS_LENGTH = 6;                 // scale groups count
  154:main.c        **** volatile uint8 cScaleSelect = 100;              // 0-7 depending on group | 100 chromatic
  155:main.c        **** const uint8 cSCALES_LENGTH = 8;                 // scales per group
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 67
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 67
 
 
  156:main.c        **** volatile uint8 octaveSelect = 1;                // switch octaves
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  210:main.c        ****      {0, 1, 4, 5, 7, 8, 10, 0},         // 5 mixo_b9b13 [HM5]
  211:main.c        ****      {0, 3, 4, 6, 7, 9, 11, 0},         // 6 lydian_#9 [HM6]                                   
  212:main.c        ****      {0, 1, 3, 4, 6, 8, 9, 0},          // 7 HM7                                 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 68
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 68
 
 
  213:main.c        ****     },                                  // MELODIC MINOR MODES
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  267:main.c        ****         "7 locrian [VII]"
  268:main.c        ****     },
  269:main.c        ****     // HARMONIC MINOR MODES
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 69
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 69
 
 
  270:main.c        ****     {
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3253              		.loc 1 307 0
  3254 0010 FFF7FEFF 		bl	Pin_Dice_2_Read
  3255 0014 0346     		mov	r3, r0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 70
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 70
 
 
  3256 0016 1A46     		mov	r2, r3
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3300 0060 1B78     		ldrb	r3, [r3]
  3301 0062 DBB2     		uxtb	r3, r3
  3302 0064 012B     		cmp	r3, #1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 71
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 71
 
 
  3303 0066 11D1     		bne	.L4
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3348 00b0 0120     		movs	r0, #1
  3349 00b2 FFF7FEFF 		bl	Pin_Dice_LED_1_Write
  327:main.c        ****         Pin_Dice_LED_2_Write(0);                            // Turn off LED 2
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 72
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 72
 
 
  3350              		.loc 1 327 0
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3394 00fe 80BD     		pop	{r7, pc}
  3395              	.L8:
  3396              		.align	2
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 73
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 73
 
 
  3397              	.L7:
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3443 0014 1B88     		ldrh	r3, [r3]
  3444 0016 B3F5FA5F 		cmp	r3, #8000
  3445 001a 03D9     		bls	.L11
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 74
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 74
 
 
  342:main.c        ****             freqClockDivCounter = START_FREQ_DIV;
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3491 0070 364B     		ldr	r3, .L16+24
  3492 0072 1A70     		strb	r2, [r3]
  351:main.c        ****                 // Create a formatted string with frequency, divider value, and note information
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 75
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 75
 
 
  352:main.c        ****                 sprintf(transmitBuffer, "%c%c%c : %iHz DIV: %i\n\r", notes[noteIndex][0],notes[note
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3545 00da FFF7FEFF 		bl	UART_1_PutString
  3546              	.L13:
  348:main.c        ****             if (intFreq == intFrequency[i]){
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 76
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 76
 
 
  3547              		.loc 1 348 0 discriminator 2
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  364:main.c        ****     }
  365:main.c        **** }
  3590              		.loc 1 365 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 77
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 77
 
 
  3591 012a 00BF     		nop
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3640 0006 0346     		mov	r3, r0
  3641 0008 FB71     		strb	r3, [r7, #7]
  3642 000a 0B46     		mov	r3, r1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 78
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 78
 
 
  3643 000c BB71     		strb	r3, [r7, #6]
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3683 004e 284B     		ldr	r3, .L25+20
  3684 0050 1A80     		strh	r2, [r3]	@ movhi
  382:main.c        ****             
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 79
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 79
 
 
  383:main.c        ****             Clock_1_SetDividerValue(freqClockDivCounter); // Set the clock divider value
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3734              		.loc 1 387 0 discriminator 2
  3735 00b6 1148     		ldr	r0, .L25+32
  3736 00b8 FFF7FEFF 		bl	UART_1_PutString
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 80
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 80
 
 
  388:main.c        ****             
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3783              		.thumb_func
  3784              		.type	setWaveDACnotes, %function
  3785              	setWaveDACnotes:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 81
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 81
 
 
  3786              	.LFB67:
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3833 004c 0C4B     		ldr	r3, .L28+8
  3834 004e 1B88     		ldrh	r3, [r3]
  3835 0050 013B     		subs	r3, r3, #1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 82
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 82
 
 
  3836 0052 9BB2     		uxth	r3, r3
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3881              		@ args = 0, pretend = 0, frame = 0
  3882              		@ frame_needed = 1, uses_anonymous_args = 0
  3883 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 83
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 83
 
 
  3884              		.cfi_def_cfa_offset 8
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3926              		@ args = 0, pretend = 0, frame = 0
  3927              		@ frame_needed = 1, uses_anonymous_args = 0
  3928 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 84
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 84
 
 
  3929              		.cfi_def_cfa_offset 8
@@ -5009,12 +5009,12 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3953 0026 002B     		cmp	r3, #0
  3954 0028 40F08D80 		bne	.L35
  3955              	.L34:
- 418:main.c        ****        songPosition = 0; 
+ 418:main.c        ****        songPosition = 0;                                                            // Reset the so
  3956              		.loc 1 418 0 is_stmt 1
  3957 002c AF4B     		ldr	r3, .L241
  3958 002e 0022     		movs	r2, #0
  3959 0030 1A80     		strh	r2, [r3]	@ movhi
- 419:main.c        ****        sprintf(transmitBuffer, "songRepeatCounter %i\n\r", songRepeatCounter);             
+ 419:main.c        ****        sprintf(transmitBuffer, "songRepeatCounter %i\n\r", songRepeatCounter);      // Format the s
  3960              		.loc 1 419 0
  3961 0032 B04B     		ldr	r3, .L241+8
  3962 0034 1B78     		ldrb	r3, [r3]
@@ -5023,7 +5023,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3965 003a AF49     		ldr	r1, .L241+12
  3966 003c AF48     		ldr	r0, .L241+16
  3967 003e FFF7FEFF 		bl	sprintf
- 420:main.c        ****        UART_1_PutString(transmitBuffer);  
+ 420:main.c        ****        UART_1_PutString(transmitBuffer);                                            // Transmit the
  3968              		.loc 1 420 0
  3969 0042 AE48     		ldr	r0, .L241+16
  3970 0044 FFF7FEFF 		bl	UART_1_PutString
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3978 0054 52F823F0 		ldr	pc, [r2, r3, lsl #2]
  3979              		.p2align 2
  3980              	.L38:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 85
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 85
 
 
  3981 0058 71000000 		.word	.L37+1
@@ -5049,12 +5049,12 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3986 006c DF000000 		.word	.L43+1
  3987              		.p2align 1
  3988              	.L37:
- 422:main.c        ****             case 0: WaveDAC8_1_Wave1Setup(sawtooth, 502);
+ 422:main.c        ****             case 0: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform
  3989              		.loc 1 422 0
  3990 0070 4FF4FB71 		mov	r1, #502
  3991 0074 A248     		ldr	r0, .L241+20
  3992 0076 FFF7FEFF 		bl	WaveDAC8_1_Wave1Setup
- 423:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502);
+ 423:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and
  3993              		.loc 1 423 0
  3994 007a 4FF4FB71 		mov	r1, #502
  3995 007e A148     		ldr	r0, .L241+24
@@ -5063,12 +5063,12 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  3997              		.loc 1 424 0
  3998 0084 37E0     		b	.L44
  3999              	.L39:
- 425:main.c        ****             case 1: WaveDAC8_1_Wave1Setup(squareXSine, 502);
+ 425:main.c        ****             case 1: WaveDAC8_1_Wave1Setup(squareXSine, 502); // Set up WaveDAC1 with squareXSine wa
  4000              		.loc 1 425 0
  4001 0086 4FF4FB71 		mov	r1, #502
  4002 008a 9F48     		ldr	r0, .L241+28
  4003 008c FFF7FEFF 		bl	WaveDAC8_1_Wave1Setup
- 426:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502);
+ 426:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and
  4004              		.loc 1 426 0
  4005 0090 4FF4FB71 		mov	r1, #502
  4006 0094 9B48     		ldr	r0, .L241+24
@@ -5077,12 +5077,12 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4008              		.loc 1 427 0
  4009 009a 2CE0     		b	.L44
  4010              	.L40:
- 428:main.c        ****             case 2: WaveDAC8_1_Wave1Setup(squarewave, 502);
+ 428:main.c        ****             case 2: WaveDAC8_1_Wave1Setup(squarewave, 502); // Set up WaveDAC1 with squarewave wave
  4011              		.loc 1 428 0
  4012 009c 4FF4FB71 		mov	r1, #502
  4013 00a0 9A48     		ldr	r0, .L241+32
  4014 00a2 FFF7FEFF 		bl	WaveDAC8_1_Wave1Setup
- 429:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502);
+ 429:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and
  4015              		.loc 1 429 0
  4016 00a6 4FF4FB71 		mov	r1, #502
  4017 00aa 9648     		ldr	r0, .L241+24
@@ -5091,14 +5091,14 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4019              		.loc 1 430 0
  4020 00b0 21E0     		b	.L44
  4021              	.L41:
- 431:main.c        ****             case 3: WaveDAC8_1_Wave1Setup(sawtooth, 502);
+ 431:main.c        ****             case 3: WaveDAC8_1_Wave1Setup(sawtooth, 502); // Set up WaveDAC1 with sawtooth waveform
  4022              		.loc 1 431 0
  4023 00b2 4FF4FB71 		mov	r1, #502
  4024 00b6 9248     		ldr	r0, .L241+20
  4025 00b8 FFF7FEFF 		bl	WaveDAC8_1_Wave1Setup
- 432:main.c        ****                     WaveDAC8_2_Wave1Setup(squareXSine, 502);
+ 432:main.c        ****                     WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine wa
  4026              		.loc 1 432 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 86
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 86
 
 
  4027 00bc 4FF4FB71 		mov	r1, #502
@@ -5108,12 +5108,12 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4030              		.loc 1 433 0
  4031 00c6 16E0     		b	.L44
  4032              	.L42:
- 434:main.c        ****             case 4: WaveDAC8_1_Wave1Setup(sinewave, 502);
+ 434:main.c        ****             case 4: WaveDAC8_1_Wave1Setup(sinewave, 502); // Set up WaveDAC1 with sine waveform and
  4033              		.loc 1 434 0
  4034 00c8 4FF4FB71 		mov	r1, #502
  4035 00cc 8D48     		ldr	r0, .L241+24
  4036 00ce FFF7FEFF 		bl	WaveDAC8_1_Wave1Setup
- 435:main.c        ****                     WaveDAC8_2_Wave1Setup(squareXSine, 502);
+ 435:main.c        ****                     WaveDAC8_2_Wave1Setup(squareXSine, 502); // Set up WaveDAC2 with squareXSine wa
  4037              		.loc 1 435 0
  4038 00d2 4FF4FB71 		mov	r1, #502
  4039 00d6 8C48     		ldr	r0, .L241+28
@@ -5122,12 +5122,12 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4041              		.loc 1 436 0
  4042 00dc 0BE0     		b	.L44
  4043              	.L43:
- 437:main.c        ****             case 5: WaveDAC8_1_Wave1Setup(trianglewave, 502);
+ 437:main.c        ****             case 5: WaveDAC8_1_Wave1Setup(trianglewave, 502); // Set up WaveDAC1 with trianglewave 
  4044              		.loc 1 437 0
  4045 00de 4FF4FB71 		mov	r1, #502
  4046 00e2 8B48     		ldr	r0, .L241+36
  4047 00e4 FFF7FEFF 		bl	WaveDAC8_1_Wave1Setup
- 438:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502);
+ 438:main.c        ****                     WaveDAC8_2_Wave1Setup(sinewave, 502); // Set up WaveDAC2 with sine waveform and
  4048              		.loc 1 438 0
  4049 00e8 4FF4FB71 		mov	r1, #502
  4050 00ec 8548     		ldr	r0, .L241+24
@@ -5141,7 +5141,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4056 00f4 00BF     		nop
  4057              	.L44:
  441:main.c        ****         }
- 442:main.c        ****         songRepeatCounter++;
+ 442:main.c        ****         songRepeatCounter++; // Increment the songRepeatCounter
  4058              		.loc 1 442 0
  4059 00f6 7F4B     		ldr	r3, .L241+8
  4060 00f8 1B78     		ldrb	r3, [r3]
@@ -5150,7 +5150,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4063 00fe DAB2     		uxtb	r2, r3
  4064 0100 7C4B     		ldr	r3, .L241+8
  4065 0102 1A70     		strb	r2, [r3]
- 443:main.c        ****         songDelayMs--;
+ 443:main.c        ****         songDelayMs--; // Decrement the songDelayMs
  4066              		.loc 1 443 0
  4067 0104 834B     		ldr	r3, .L241+40
  4068 0106 1B78     		ldrb	r3, [r3]
@@ -5158,11 +5158,11 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4070 010a 013B     		subs	r3, r3, #1
  4071 010c DAB2     		uxtb	r2, r3
  4072 010e 814B     		ldr	r3, .L241+40
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 87
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 87
 
 
  4073 0110 1A70     		strb	r2, [r3]
- 444:main.c        ****         songDelayMs = songDelayMs < 1 ? 9 : songDelayMs;
+ 444:main.c        ****         songDelayMs = songDelayMs < 1 ? 9 : songDelayMs; // If songDelayMs is less than 1, set it t
  4074              		.loc 1 444 0
  4075 0112 804B     		ldr	r3, .L241+40
  4076 0114 1B78     		ldrb	r3, [r3]
@@ -5181,7 +5181,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4089              		.loc 1 444 0 discriminator 4
  4090 0126 7B4A     		ldr	r2, .L241+40
  4091 0128 1370     		strb	r3, [r2]
- 445:main.c        ****         songRepeatCounter = songRepeatCounter > 5 ? 0 : songRepeatCounter;
+ 445:main.c        ****         songRepeatCounter = songRepeatCounter > 5 ? 0 : songRepeatCounter; // If songRepeatCounter 
  4092              		.loc 1 445 0 is_stmt 1 discriminator 4
  4093 012a 724B     		ldr	r3, .L241+8
  4094 012c 1B78     		ldrb	r3, [r3]
@@ -5204,7 +5204,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4111              	.L35:
  446:main.c        ****     }
  447:main.c        ****     else{
- 448:main.c        ****         bar = (songPosition) / 96 + 1;
+ 448:main.c        ****         bar = (songPosition) / 96 + 1; // Calculate the current bar number based on the song positi
  4112              		.loc 1 448 0 is_stmt 1
  4113 0146 694B     		ldr	r3, .L241
  4114 0148 1B88     		ldrh	r3, [r3]	@ movhi
@@ -5218,10 +5218,10 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4122 015a DAB2     		uxtb	r2, r3
  4123 015c 6F4B     		ldr	r3, .L241+48
  4124 015e 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 88
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 88
 
 
- 449:main.c        ****         songPosition++;
+ 449:main.c        ****         songPosition++; // Increment the song position
  4125              		.loc 1 449 0
  4126 0160 624B     		ldr	r3, .L241
  4127 0162 1B88     		ldrh	r3, [r3]	@ movhi
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4172 01d4 51020000 		.word	.L235+1
  4173 01d8 51020000 		.word	.L235+1
  4174 01dc 51020000 		.word	.L235+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 89
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 89
 
 
  4175 01e0 51020000 		.word	.L235+1
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4222 0250 00BF     		nop
  4223              	.L73:
  463:main.c        ****                     }; break;    
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 90
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 90
 
 
  4224              		.loc 1 463 0 discriminator 1
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4265 0290 14E0     		b	.L86
  4266              	.L78:
  466:main.c        ****                         case 72:  WaveDAC8_1_Start(); break;
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 91
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 91
 
 
  4267              		.loc 1 466 0
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  476:main.c        ****                         case 1:   WaveDAC8_1_Start(); break;
  477:main.c        ****                         case 46:  WaveDAC8_1_Stop(); break;
  478:main.c        ****                         case 72:  WaveDAC8_1_Start(); break;
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 92
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 92
 
 
  479:main.c        ****                         case 78:  WaveDAC8_1_Stop(); break;
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4357              	.L91:
  478:main.c        ****                         case 78:  WaveDAC8_1_Stop(); break;
  4358              		.loc 1 478 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 93
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 93
 
 
  4359 0336 FFF7FEFF 		bl	WaveDAC8_1_Start
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4406 039c 71050000 		.word	.L236+1
  4407 03a0 71050000 		.word	.L236+1
  4408 03a4 71050000 		.word	.L236+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 94
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 94
 
 
  4409 03a8 71050000 		.word	.L236+1
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4463 0480 71050000 		.word	.L236+1
  4464 0484 71050000 		.word	.L236+1
  4465 0488 71050000 		.word	.L236+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 95
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 95
 
 
  4466 048c 3B050000 		.word	.L110+1
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4514 0510 FFF7FEFF 		bl	WaveDAC8_1_Start
  493:main.c        ****                                   WaveDAC8_2_Start(); break;
  4515              		.loc 1 493 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 96
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 96
 
 
  4516 0514 FFF7FEFF 		bl	WaveDAC8_2_Start
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4558              	.L114:
  506:main.c        ****                         case 86:  stopBothDACs(); break;
  4559              		.loc 1 506 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 97
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 97
 
 
  4560 055a FFF7FEFF 		bl	stopBothDACs
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4608 05d4 8D070000 		.word	.L237+1
  4609 05d8 8D070000 		.word	.L237+1
  4610 05dc 8D070000 		.word	.L237+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 98
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 98
 
 
  4611 05e0 8D070000 		.word	.L237+1
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4665 06b8 8D070000 		.word	.L237+1
  4666 06bc 8D070000 		.word	.L237+1
  4667 06c0 8D070000 		.word	.L237+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 99
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 99
 
 
  4668 06c4 67070000 		.word	.L131+1
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  518:main.c        ****                         case 38:  stopBothDACs(); break; 
  4717              		.loc 1 518 0
  4718 0736 FFF7FEFF 		bl	stopBothDACs
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 100
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 100
 
 
  4719 073a 28E0     		b	.L136
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4764 0780 FFF7FEFF 		bl	setWaveDACnotes
  4765 0784 03E0     		b	.L136
  4766              	.L135:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 101
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 101
 
 
  528:main.c        ****                         case 94:  stopBothDACs(); break;
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4808              	.L141:
  533:main.c        ****                         case 48:  setWaveDACnotes(71, 95); break;
  4809              		.loc 1 533 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 102
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 102
 
 
  4810 07c6 FFF7FEFF 		bl	stopBothDACs
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  548:main.c        ****                                   WaveDAC8_2_Start(); break;     
  549:main.c        ****                         case 94:  stopBothDACs(); break;                                   
  550:main.c        ****                         default:  break;
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 103
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 103
 
 
  4851              		.loc 1 550 0
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  546:main.c        ****                         case 72:  setWaveDACnotes(65, 86);
  4898              		.loc 1 546 0
  4899 0852 FFF7FEFF 		bl	stopBothDACs
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 104
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 104
 
 
  4900 0856 09E0     		b	.L157
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  4949 08d8 D90A0000 		.word	.L238+1
  4950 08dc D90A0000 		.word	.L238+1
  4951 08e0 D90A0000 		.word	.L238+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 105
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 105
 
 
  4952 08e4 D90A0000 		.word	.L238+1
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5006 09bc D90A0000 		.word	.L238+1
  5007 09c0 D90A0000 		.word	.L238+1
  5008 09c4 D90A0000 		.word	.L238+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 106
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 106
 
 
  5009 09c8 D90A0000 		.word	.L238+1
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5057 0a3c 4DE0     		b	.L172
  5058              	.L164:
  559:main.c        ****                         case 42:  freqClockDivCounter = 250000 / intFrequency[84];
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 107
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 107
 
 
  5059              		.loc 1 559 0
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5106 0a96 0121     		movs	r1, #1
  5107 0a98 1846     		mov	r0, r3
  5108 0a9a FFF7FEFF 		bl	Clock_2_SetDividerRegister
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 108
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 108
 
 
  567:main.c        ****                                   WaveDAC8_2_Start(); break;
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5154 0ae8 B74B     		ldr	r3, .L247
  5155 0aea 1B88     		ldrh	r3, [r3]	@ movhi
  5156 0aec 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 109
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 109
 
 
  5157 0aee A3F54073 		sub	r3, r3, #768
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5211 0bb8 E90C0000 		.word	.L239+1
  5212 0bbc A90C0000 		.word	.L181+1
  5213 0bc0 E90C0000 		.word	.L239+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 110
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 110
 
 
  5214 0bc4 E90C0000 		.word	.L239+1
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  577:main.c        ****                         case 22:  WaveDAC8_1_Stop(); break;    
  5267              		.loc 1 577 0
  5268 0c82 FFF7FEFF 		bl	WaveDAC8_1_Stop
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 111
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 111
 
 
  5269 0c86 30E0     		b	.L189
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5314 0ccc FFF7FEFF 		bl	setWaveDACnotes
  5315 0cd0 0BE0     		b	.L189
  5316              	.L186:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 112
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 112
 
 
  587:main.c        ****                         case 82:  stopBothDACs(); break;  
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5356 0d0c 5E2B     		cmp	r3, #94
  5357 0d0e 19D0     		beq	.L196
  5358 0d10 522B     		cmp	r3, #82
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 113
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 113
 
 
  5359 0d12 0FD0     		beq	.L197
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5404 0d58 21D0     		beq	.L200
  5405 0d5a 2E2B     		cmp	r3, #46
  5406 0d5c 06DC     		bgt	.L201
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 114
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 114
 
 
  5407 0d5e 162B     		cmp	r3, #22
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5447 0d98 FFF7FEFF 		bl	setWaveDACnotes
  5448 0d9c 12E0     		b	.L210
  5449              	.L200:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 115
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 115
 
 
  606:main.c        ****                         case 48:  setWaveDACnotes(77, 89); break;
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5497 0df4 BD0F0000 		.word	.L240+1
  5498 0df8 BD0F0000 		.word	.L240+1
  5499 0dfc BD0F0000 		.word	.L240+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 116
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 116
 
 
  5500 0e00 BD0F0000 		.word	.L240+1
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5554 0ed8 BD0F0000 		.word	.L240+1
  5555 0edc BD0F0000 		.word	.L240+1
  5556 0ee0 BD0F0000 		.word	.L240+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 117
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 117
 
 
  5557 0ee4 BD0F0000 		.word	.L240+1
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5607 0f7a 20E0     		b	.L225
  5608              	.L217:
  618:main.c        ****                         case 42:  setWaveDACnotes(76, 84); break;
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 118
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 118
 
 
  5609              		.loc 1 618 0
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5654              	.L64:
  628:main.c        ****             case 13: switch(songPosition - 12 * 96){          // bar 13
  5655              		.loc 1 628 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 119
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 119
 
 
  5656 0fc0 154B     		ldr	r3, .L249
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5699              	.L234:
  635:main.c        ****             default: break;
  5700              		.loc 1 635 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 120
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 120
 
 
  5701 1004 00BF     		nop
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5735 0bde 0000     		.align	2
  5736              	.LC11:
  5737 0be0 6F666673 		.ascii	"offsetUP: %i\012\015 noteIndex: %i \012\015\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 121
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 121
 
 
  5737      65745550 
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5780 002c 1B78     		ldrb	r3, [r3]
  5781 002e DBB2     		uxtb	r3, r3
  5782 0030 002B     		cmp	r3, #0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 122
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 122
 
 
  5783 0032 0CBF     		ite	eq
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5823 0072 814B     		ldr	r3, .L290+8
  5824 0074 0022     		movs	r2, #0
  5825 0076 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 123
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 123
 
 
  5826 0078 18E0     		b	.L256
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5865 00b2 502B     		cmp	r3, #80
  5866 00b4 03D8     		bhi	.L259
  5867              		.loc 1 676 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 124
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 124
 
 
  5868 00b6 724B     		ldr	r3, .L290+16
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5916 00f4 DBB2     		uxtb	r3, r3
  5917 00f6 002B     		cmp	r3, #0
  5918 00f8 3DD0     		beq	.L265
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 125
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 125
 
 
  683:main.c        ****         if (toggleSettings){
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  5960 013e 9BB2     		uxth	r3, r3
  5961 0140 5B00     		lsls	r3, r3, #1
  5962 0142 9AB2     		uxth	r2, r3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 126
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 126
 
 
  5963 0144 534B     		ldr	r3, .L290+36
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6004 0188 06D1     		bne	.L271
  709:main.c        ****             // Reset cScaleGroupSelect and cScaleSelect
  710:main.c        ****             cScaleGroupSelect = 0;
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 127
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 127
 
 
  6005              		.loc 1 710 0
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6046 01c8 1A70     		strb	r2, [r3]
  724:main.c        ****         // Print cScaleGroupSelect value
  725:main.c        ****         sprintf(transmitBuffer, "cScaleGroup: %i\n\r", cScaleGroupSelect);
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 128
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 128
 
 
  6047              		.loc 1 725 0
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6090 0212 06E0     		b	.L276
  6091              	.L277:
  737:main.c        ****         }
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 129
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 129
 
 
  738:main.c        ****         else{
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6130 0254 0120     		movs	r0, #1
  6131 0256 FFF7FEFF 		bl	Pin_EchoTrig_Write
  754:main.c        ****         CyDelayUs(20);
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 130
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 130
 
 
  6132              		.loc 1 754 0
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6179 02d2 9AB2     		uxth	r2, r3
  6180 02d4 794B     		ldr	r3, .L292+12
  6181 02d6 1A80     		strh	r2, [r3]	@ movhi
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 131
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 131
 
 
  762:main.c        ****         
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6226 0328 664B     		ldr	r3, .L292+20
  6227 032a 1B88     		ldrh	r3, [r3]	@ movhi
  6228 032c 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 132
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 132
 
 
  6229 032e 03F10C01 		add	r1, r3, #12
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6280              		.loc 1 774 0
  6281 0396 534B     		ldr	r3, .L292+52
  6282 0398 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 133
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 133
 
 
  6283 039a DAB2     		uxtb	r2, r3
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6328 03e4 1B68     		ldr	r3, [r3]
  6329 03e6 DAB2     		uxtb	r2, r3
  6330 03e8 3D4B     		ldr	r3, .L292+48
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 134
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 134
 
 
  6331 03ea 1B78     		ldrb	r3, [r3]
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6374 042c DAB2     		uxtb	r2, r3
  6375 042e 2E4B     		ldr	r3, .L292+56
  6376 0430 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 135
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 135
 
 
  6377              	.L289:
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6422 0490 1846     		mov	r0, r3
  6423 0492 FFF7FEFF 		bl	Clock_2_SetDividerRegister
  802:main.c        ****         
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 136
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 136
 
 
  803:main.c        ****         // Reset echoFlag
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6471              		.global	noteSelect
  6472              		.thumb
  6473              		.thumb_func
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 137
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 137
 
 
  6474              		.type	noteSelect, %function
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6517              	.L296:
  821:main.c        ****     }
  822:main.c        ****     if (xPit < 150 && xPit > -100) {
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 138
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 138
 
 
  6518              		.loc 1 822 0
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6564              		@ args = 0, pretend = 0, frame = 0
  6565              		@ frame_needed = 1, uses_anonymous_args = 0
  6566 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 139
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 139
 
 
  6567              		.cfi_def_cfa_offset 8
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6609 0044 002B     		cmp	r3, #0
  6610 0046 03D1     		bne	.L303
  843:main.c        ****         // If Pin_OSZ2 is not selected
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 140
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 140
 
 
  844:main.c        ****         Pin_OSZ2_LED_Write(1);  // Turn on Pin_OSZ2_LED
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6655              		.cfi_def_cfa_register 7
  852:main.c        ****     if (!osz1Select && !waveDAC1running){
  6656              		.loc 1 852 0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 141
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 141
 
 
  6657 0004 1F4B     		ldr	r3, .L314
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6700 004a 0AD1     		bne	.L311
  6701              		.loc 1 863 0 is_stmt 0 discriminator 1
  6702 004c 104B     		ldr	r3, .L314+12
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 142
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 142
 
 
  6703 004e 1B78     		ldrb	r3, [r3]
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6743 008c 00000000 		.word	osz2Select
  6744 0090 00000000 		.word	waveDAC2running
  6745              		.cfi_endproc
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 143
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 143
 
 
  6746              	.LFE73:
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6789              		.loc 1 884 0
  6790 0026 2B4B     		ldr	r3, .L328+4
  6791 0028 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 144
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 144
 
 
  6792 002a 0133     		adds	r3, r3, #1
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6832 006e 00BF     		.p2align 2
  6833              	.L323:
  6834 0070 85000000 		.word	.L322+1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 145
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 145
 
 
  6835 0074 91000000 		.word	.L324+1
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6870 00b4 4FF4FB71 		mov	r1, #502
  6871 00b8 0B48     		ldr	r0, .L328+24
  6872 00ba FFF7FEFF 		bl	WaveDAC8_1_Wave1Setup
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 146
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 146
 
 
  918:main.c        ****             break;
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6915 0c29 000000   		.align	2
  6916              	.LC16:
  6917 0c2c 0D0A00   		.ascii	"\015\012\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 147
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 147
 
 
  6918              		.section	.text.main,"ax",%progbits
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6960              		.loc 1 934 0
  6961 0024 BC48     		ldr	r0, .L348+24
  6962 0026 FFF7FEFF 		bl	but3_isr_pos_StartEx
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 148
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 148
 
 
  935:main.c        ****     but3_isr_neg_StartEx(but3_isr_neg_vect);
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  6998              		.loc 1 953 0
  6999 0070 FFF7FEFF 		bl	Clock_Echo_Start
  954:main.c        ****     Timer_Echo_Start();             // Start echo timer
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 149
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 149
 
 
  7000              		.loc 1 954 0
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7023              		.loc 1 985 0
  7024 00a0 FFF7FEFF 		bl	switchLEDcheck
  986:main.c        ****     if (checkingMode && modeFlag) {
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 150
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 150
 
 
  7025              		.loc 1 986 0
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7072 00f6 42F82130 		str	r3, [r2, r1, lsl #2]
  7073 00fa 15E0     		b	.L334
  7074              	.L333:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 151
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 151
 
 
  994:main.c        ****         } else {
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7120              		.loc 1 1002 0
  7121 015c 724B     		ldr	r3, .L348+40
  7122 015e 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 152
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 152
 
 
  7123 0160 DBB2     		uxtb	r3, r3
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
 1014:main.c        ****             voiceSelect();                  // Select the voice based on input
  7166              		.loc 1 1014 0
  7167 01b0 FFF7FEFF 		bl	voiceSelect
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 153
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 153
 
 
 1015:main.c        ****             distanceEchoPitch();            // Perform distance-based echo pitch
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7212 0206 FFF7FEFF 		bl	Clock_1_SetDividerRegister
 1025:main.c        ****             } else if (button2) {
 1026:main.c        ****                 WaveDAC8_1_Start();
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 154
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 154
 
 
 1027:main.c        ****                 UART_1_PutString("\r\n");
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7247 0248 1946     		mov	r1, r3
  7248 024a 414B     		ldr	r3, .L348+80
  7249 024c 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 155
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 155
 
 
  7250 024e 494A     		ldr	r2, .L348+116
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7299 02b0 274B     		ldr	r3, .L348+80
  7300 02b2 1B68     		ldr	r3, [r3]
  7301 02b4 2F4A     		ldr	r2, .L348+116
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 156
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 156
 
 
  7302 02b6 82FB0302 		smull	r0, r2, r2, r3
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7346              	.L348:
  7347 0300 66666666 		.word	1717986918
  7348 0304 66660A40 		.word	1074423398
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 157
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 157
 
 
  7349 0308 00000000 		.word	but1_isr_pos_vect
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7401 0000 80B4     		push	{r7}
  7402              		.cfi_def_cfa_offset 4
  7403              		.cfi_offset 7, -4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 158
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 158
 
 
  7404 0002 00AF     		add	r7, sp, #0
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7452              		@ sp needed
  7453 000e 80BC     		pop	{r7}
  7454              		.cfi_restore 7
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 159
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 159
 
 
  7455              		.cfi_def_cfa_offset 0
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7505              		.thumb
  7506              		.thumb_func
  7507              		.type	but1_isr_neg_vect, %function
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 160
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 160
 
 
  7508              	but1_isr_neg_vect:
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7556 0002 00AF     		add	r7, sp, #0
  7557              		.cfi_def_cfa_register 7
 1066:main.c        ****     button2 = 85;           // Set the button2 value
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 161
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 161
 
 
  7558              		.loc 1 1066 0
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7607              		.cfi_def_cfa_offset 0
  7608 0010 7047     		bx	lr
  7609              	.L367:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 162
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 162
 
 
  7610 0012 00BF     		.align	2
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7660              	but3_isr_neg_vect:
  7661              	.LFB83:
 1076:main.c        **** 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 163
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 163
 
 
 1077:main.c        **** CY_ISR(but3_isr_neg_vect) {
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7710              		.loc 1 1082 0
  7711 0004 0A4B     		ldr	r3, .L377
  7712 0006 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 164
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 164
 
 
  7713 0008 DBB2     		uxtb	r3, r3
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7759 0002 00AF     		add	r7, sp, #0
  7760              		.cfi_def_cfa_register 7
 1091:main.c        ****     modeFlag = 1;                       // Set the mode flag
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 165
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 165
 
 
  7761              		.loc 1 1091 0
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7806 000c 1846     		mov	r0, r3
  7807 000e 104B     		ldr	r3, .L383+4
  7808 0010 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 166
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 166
 
 
  7809 0012 DBB2     		uxtb	r3, r3
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7859              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
  7860              		.section	.debug_info,"",%progbits
  7861              	.Ldebug_info0:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 167
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 167
 
 
  7862 0000 0F080000 		.4byte	0x80f
@@ -9968,19 +9968,19 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7866 000b 01       		.uleb128 0x1
  7867 000c CF000000 		.4byte	.LASF105
  7868 0010 0C       		.byte	0xc
- 7869 0011 32040000 		.4byte	.LASF106
- 7870 0015 B9010000 		.4byte	.LASF107
+ 7869 0011 41040000 		.4byte	.LASF106
+ 7870 0015 70020000 		.4byte	.LASF107
  7871 0019 00000000 		.4byte	.Ldebug_ranges0+0
  7872 001d 00000000 		.4byte	0
  7873 0021 00000000 		.4byte	.Ldebug_line0
  7874 0025 02       		.uleb128 0x2
  7875 0026 01       		.byte	0x1
  7876 0027 06       		.byte	0x6
- 7877 0028 21020000 		.4byte	.LASF0
+ 7877 0028 DE010000 		.4byte	.LASF0
  7878 002c 02       		.uleb128 0x2
  7879 002d 01       		.byte	0x1
  7880 002e 08       		.byte	0x8
- 7881 002f E4020000 		.4byte	.LASF1
+ 7881 002f FC020000 		.4byte	.LASF1
  7882 0033 02       		.uleb128 0x2
  7883 0034 02       		.byte	0x2
  7884 0035 05       		.byte	0x5
@@ -9988,28 +9988,28 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7886 003a 02       		.uleb128 0x2
  7887 003b 02       		.byte	0x2
  7888 003c 07       		.byte	0x7
- 7889 003d 8C030000 		.4byte	.LASF3
+ 7889 003d A4030000 		.4byte	.LASF3
  7890 0041 03       		.uleb128 0x3
- 7891 0042 D9040000 		.4byte	.LASF9
+ 7891 0042 E8040000 		.4byte	.LASF9
  7892 0046 02       		.byte	0x2
  7893 0047 3F       		.byte	0x3f
  7894 0048 4C000000 		.4byte	0x4c
  7895 004c 02       		.uleb128 0x2
  7896 004d 04       		.byte	0x4
  7897 004e 05       		.byte	0x5
- 7898 004f 87020000 		.4byte	.LASF4
+ 7898 004f 44020000 		.4byte	.LASF4
  7899 0053 02       		.uleb128 0x2
  7900 0054 04       		.byte	0x4
  7901 0055 07       		.byte	0x7
- 7902 0056 39040000 		.4byte	.LASF5
+ 7902 0056 48040000 		.4byte	.LASF5
  7903 005a 02       		.uleb128 0x2
  7904 005b 08       		.byte	0x8
  7905 005c 05       		.byte	0x5
- 7906 005d 59020000 		.4byte	.LASF6
+ 7906 005d 16020000 		.4byte	.LASF6
  7907 0061 02       		.uleb128 0x2
  7908 0062 08       		.byte	0x8
  7909 0063 07       		.byte	0x7
- 7910 0064 67020000 		.4byte	.LASF7
+ 7910 0064 24020000 		.4byte	.LASF7
  7911 0068 04       		.uleb128 0x4
  7912 0069 04       		.byte	0x4
  7913 006a 05       		.byte	0x5
@@ -10017,17 +10017,17 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7915 006f 02       		.uleb128 0x2
  7916 0070 04       		.byte	0x4
  7917 0071 07       		.byte	0x7
- 7918 0072 4A030000 		.4byte	.LASF8
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 168
+ 7918 0072 62030000 		.4byte	.LASF8
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 168
 
 
  7919 0076 03       		.uleb128 0x3
- 7920 0077 D1030000 		.4byte	.LASF10
+ 7920 0077 E9030000 		.4byte	.LASF10
  7921 007b 03       		.byte	0x3
  7922 007c 2C       		.byte	0x2c
  7923 007d 41000000 		.4byte	0x41
  7924 0081 05       		.uleb128 0x5
- 7925 0082 08050000 		.4byte	.LASF11
+ 7925 0082 17050000 		.4byte	.LASF11
  7926 0086 04       		.byte	0x4
  7927 0087 E901     		.2byte	0x1e9
  7928 0089 2C000000 		.4byte	0x2c
@@ -10039,15 +10039,15 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7934 0099 02       		.uleb128 0x2
  7935 009a 04       		.byte	0x4
  7936 009b 04       		.byte	0x4
- 7937 009c 39020000 		.4byte	.LASF13
+ 7937 009c F6010000 		.4byte	.LASF13
  7938 00a0 02       		.uleb128 0x2
  7939 00a1 08       		.byte	0x8
  7940 00a2 04       		.byte	0x4
- 7941 00a3 4B040000 		.4byte	.LASF14
+ 7941 00a3 5A040000 		.4byte	.LASF14
  7942 00a7 02       		.uleb128 0x2
  7943 00a8 01       		.byte	0x1
  7944 00a9 08       		.byte	0x8
- 7945 00aa BF030000 		.4byte	.LASF15
+ 7945 00aa D7030000 		.4byte	.LASF15
  7946 00ae 06       		.uleb128 0x6
  7947 00af 81000000 		.4byte	0x81
  7948 00b3 06       		.uleb128 0x6
@@ -10055,7 +10055,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7950 00b8 02       		.uleb128 0x2
  7951 00b9 08       		.byte	0x8
  7952 00ba 04       		.byte	0x4
- 7953 00bb 02030000 		.4byte	.LASF16
+ 7953 00bb 1A030000 		.4byte	.LASF16
  7954 00bf 02       		.uleb128 0x2
  7955 00c0 04       		.byte	0x4
  7956 00c1 07       		.byte	0x7
@@ -10071,14 +10071,14 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  7966 00db 01       		.uleb128 0x1
  7967 00dc 9C       		.byte	0x9c
  7968 00dd 09       		.uleb128 0x9
- 7969 00de 6E040000 		.4byte	.LASF26
+ 7969 00de 7D040000 		.4byte	.LASF26
  7970 00e2 01       		.byte	0x1
  7971 00e3 5301     		.2byte	0x153
  7972 00e5 00000000 		.4byte	.LFB65
  7973 00e9 60010000 		.4byte	.LFE65-.LFB65
  7974 00ed 01       		.uleb128 0x1
  7975 00ee 9C       		.byte	0x9c
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 169
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 169
 
 
  7976 00ef 0B010000 		.4byte	0x10b
@@ -10113,7 +10113,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8005 012e 91       		.byte	0x91
  8006 012f 67       		.sleb128 -25
  8007 0130 0D       		.uleb128 0xd
- 8008 0131 23050000 		.4byte	.LASF19
+ 8008 0131 32050000 		.4byte	.LASF19
  8009 0135 01       		.byte	0x1
  8010 0136 6F01     		.2byte	0x16f
  8011 0138 81000000 		.4byte	0x81
@@ -10138,14 +10138,14 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8030 015d 81000000 		.4byte	0x81
  8031 0161 02       		.uleb128 0x2
  8032 0162 91       		.byte	0x91
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 170
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 170
 
 
  8033 0163 6F       		.sleb128 -17
  8034 0164 00       		.byte	0
  8035 0165 00       		.byte	0
  8036 0166 0C       		.uleb128 0xc
- 8037 0167 BB050000 		.4byte	.LASF22
+ 8037 0167 CA050000 		.4byte	.LASF22
  8038 016b 01       		.byte	0x1
  8039 016c 8A01     		.2byte	0x18a
  8040 016e 00000000 		.4byte	.LFB67
@@ -10187,7 +10187,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8076 01bb 01       		.uleb128 0x1
  8077 01bc 9C       		.byte	0x9c
  8078 01bd 09       		.uleb128 0x9
- 8079 01be 2C050000 		.4byte	.LASF27
+ 8079 01be 3B050000 		.4byte	.LASF27
  8080 01c2 01       		.byte	0x1
  8081 01c3 8102     		.2byte	0x281
  8082 01c5 00000000 		.4byte	.LFB70
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8087 01d3 0A       		.uleb128 0xa
  8088 01d4 22030000 		.4byte	.LBB4
  8089 01d8 96000000 		.4byte	.LBE4-.LBB4
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 171
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 171
 
 
  8090 01dc 0B       		.uleb128 0xb
@@ -10212,7 +10212,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8098 01e9 00       		.byte	0
  8099 01ea 00       		.byte	0
  8100 01eb 0F       		.uleb128 0xf
- 8101 01ec 3F020000 		.4byte	.LASF28
+ 8101 01ec FC010000 		.4byte	.LASF28
  8102 01f0 01       		.byte	0x1
  8103 01f1 2B03     		.2byte	0x32b
  8104 01f3 00000000 		.4byte	.LFB71
@@ -10221,7 +10221,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8107 01fc 9C       		.byte	0x9c
  8108 01fd 11020000 		.4byte	0x211
  8109 0201 0D       		.uleb128 0xd
- 8110 0202 AC030000 		.4byte	.LASF29
+ 8110 0202 C4030000 		.4byte	.LASF29
  8111 0206 01       		.byte	0x1
  8112 0207 2B03     		.2byte	0x32b
  8113 0209 68000000 		.4byte	0x68
@@ -10230,7 +10230,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8116 020f 74       		.sleb128 -12
  8117 0210 00       		.byte	0
  8118 0211 08       		.uleb128 0x8
- 8119 0212 B3020000 		.4byte	.LASF30
+ 8119 0212 CB020000 		.4byte	.LASF30
  8120 0216 01       		.byte	0x1
  8121 0217 3E03     		.2byte	0x33e
  8122 0219 00000000 		.4byte	.LFB72
@@ -10238,7 +10238,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8124 0221 01       		.uleb128 0x1
  8125 0222 9C       		.byte	0x9c
  8126 0223 08       		.uleb128 0x8
- 8127 0224 6D050000 		.4byte	.LASF31
+ 8127 0224 7C050000 		.4byte	.LASF31
  8128 0228 01       		.byte	0x1
  8129 0229 5303     		.2byte	0x353
  8130 022b 00000000 		.4byte	.LFB73
@@ -10246,7 +10246,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8132 0233 01       		.uleb128 0x1
  8133 0234 9C       		.byte	0x9c
  8134 0235 0C       		.uleb128 0xc
- 8135 0236 0E050000 		.4byte	.LASF32
+ 8135 0236 1D050000 		.4byte	.LASF32
  8136 023a 01       		.byte	0x1
  8137 023b 6B03     		.2byte	0x36b
  8138 023d 00000000 		.4byte	.LFB74
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8144 024c 64000000 		.4byte	.LASF33
  8145 0250 01       		.byte	0x1
  8146 0251 6B03     		.2byte	0x36b
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 172
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 172
 
 
  8147 0253 68000000 		.4byte	0x68
@@ -10280,7 +10280,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8163 0276 CC000000 		.4byte	.LBB5
  8164 027a A6000000 		.4byte	.LBE5-.LBB5
  8165 027e 11       		.uleb128 0x11
- 8166 027f 8A040000 		.4byte	.LASF35
+ 8166 027f 99040000 		.4byte	.LASF35
  8167 0283 01       		.byte	0x1
  8168 0284 DF03     		.2byte	0x3df
  8169 0286 68000000 		.4byte	0x68
@@ -10290,7 +10290,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8173 028d 00       		.byte	0
  8174 028e 00       		.byte	0
  8175 028f 12       		.uleb128 0x12
- 8176 0290 0D040000 		.4byte	.LASF36
+ 8176 0290 1C040000 		.4byte	.LASF36
  8177 0294 01       		.byte	0x1
  8178 0295 1904     		.2byte	0x419
  8179 0297 00000000 		.4byte	.LFB76
@@ -10298,7 +10298,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8181 029f 01       		.uleb128 0x1
  8182 02a0 9C       		.byte	0x9c
  8183 02a1 12       		.uleb128 0x12
- 8184 02a2 C2020000 		.4byte	.LASF37
+ 8184 02a2 DA020000 		.4byte	.LASF37
  8185 02a6 01       		.byte	0x1
  8186 02a7 1D04     		.2byte	0x41d
  8187 02a9 00000000 		.4byte	.LFB77
@@ -10306,7 +10306,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8189 02b1 01       		.uleb128 0x1
  8190 02b2 9C       		.byte	0x9c
  8191 02b3 12       		.uleb128 0x12
- 8192 02b4 79050000 		.4byte	.LASF38
+ 8192 02b4 88050000 		.4byte	.LASF38
  8193 02b8 01       		.byte	0x1
  8194 02b9 2104     		.2byte	0x421
  8195 02bb 00000000 		.4byte	.LFB78
@@ -10314,18 +10314,18 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8197 02c3 01       		.uleb128 0x1
  8198 02c4 9C       		.byte	0x9c
  8199 02c5 12       		.uleb128 0x12
- 8200 02c6 48050000 		.4byte	.LASF39
+ 8200 02c6 57050000 		.4byte	.LASF39
  8201 02ca 01       		.byte	0x1
  8202 02cb 2504     		.2byte	0x425
  8203 02cd 00000000 		.4byte	.LFB79
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 173
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 173
 
 
  8204 02d1 18000000 		.4byte	.LFE79-.LFB79
  8205 02d5 01       		.uleb128 0x1
  8206 02d6 9C       		.byte	0x9c
  8207 02d7 12       		.uleb128 0x12
- 8208 02d8 C7040000 		.4byte	.LASF40
+ 8208 02d8 D6040000 		.4byte	.LASF40
  8209 02dc 01       		.byte	0x1
  8210 02dd 2904     		.2byte	0x429
  8211 02df 00000000 		.4byte	.LFB80
@@ -10333,7 +10333,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8213 02e7 01       		.uleb128 0x1
  8214 02e8 9C       		.byte	0x9c
  8215 02e9 12       		.uleb128 0x12
- 8216 02ea 95040000 		.4byte	.LASF41
+ 8216 02ea A4040000 		.4byte	.LASF41
  8217 02ee 01       		.byte	0x1
  8218 02ef 2D04     		.2byte	0x42d
  8219 02f1 00000000 		.4byte	.LFB81
@@ -10341,7 +10341,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8221 02f9 01       		.uleb128 0x1
  8222 02fa 9C       		.byte	0x9c
  8223 02fb 12       		.uleb128 0x12
- 8224 02fc E2030000 		.4byte	.LASF42
+ 8224 02fc FA030000 		.4byte	.LASF42
  8225 0300 01       		.byte	0x1
  8226 0301 3104     		.2byte	0x431
  8227 0303 00000000 		.4byte	.LFB82
@@ -10349,7 +10349,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8229 030b 01       		.uleb128 0x1
  8230 030c 9C       		.byte	0x9c
  8231 030d 12       		.uleb128 0x12
- 8232 030e 78040000 		.4byte	.LASF43
+ 8232 030e 87040000 		.4byte	.LASF43
  8233 0312 01       		.byte	0x1
  8234 0313 3504     		.2byte	0x435
  8235 0315 00000000 		.4byte	.LFB83
@@ -10357,7 +10357,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8237 031d 01       		.uleb128 0x1
  8238 031e 9C       		.byte	0x9c
  8239 031f 13       		.uleb128 0x13
- 8240 0320 9F030000 		.4byte	.LASF44
+ 8240 0320 B7030000 		.4byte	.LASF44
  8241 0324 01       		.byte	0x1
  8242 0325 3904     		.2byte	0x439
  8243 0327 00000000 		.4byte	.LFB84
@@ -10365,7 +10365,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8245 032f 01       		.uleb128 0x1
  8246 0330 9C       		.byte	0x9c
  8247 0331 13       		.uleb128 0x13
- 8248 0332 20040000 		.4byte	.LASF45
+ 8248 0332 2F040000 		.4byte	.LASF45
  8249 0336 01       		.byte	0x1
  8250 0337 4204     		.2byte	0x442
  8251 0339 00000000 		.4byte	.LFB85
@@ -10378,13 +10378,13 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8258 0349 4704     		.2byte	0x447
  8259 034b 00000000 		.4byte	.LFB86
  8260 034f 68000000 		.4byte	.LFE86-.LFB86
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 174
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 174
 
 
  8261 0353 01       		.uleb128 0x1
  8262 0354 9C       		.byte	0x9c
  8263 0355 14       		.uleb128 0x14
- 8264 0356 C4030000 		.4byte	.LASF47
+ 8264 0356 DC030000 		.4byte	.LASF47
  8265 035a 05       		.byte	0x5
  8266 035b 1207     		.2byte	0x712
  8267 035d 61030000 		.4byte	0x361
@@ -10398,7 +10398,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8275 0374 F501     		.2byte	0x1f5
  8276 0376 00       		.byte	0
  8277 0377 17       		.uleb128 0x17
- 8278 0378 8B050000 		.4byte	.LASF48
+ 8278 0378 9A050000 		.4byte	.LASF48
  8279 037c 01       		.byte	0x1
  8280 037d 10       		.byte	0x10
  8281 037e 66030000 		.4byte	0x366
@@ -10406,7 +10406,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8283 0383 03       		.byte	0x3
  8284 0384 00000000 		.4byte	squarewave
  8285 0388 17       		.uleb128 0x17
- 8286 0389 7E020000 		.4byte	.LASF49
+ 8286 0389 3B020000 		.4byte	.LASF49
  8287 038d 01       		.byte	0x1
  8288 038e 45       		.byte	0x45
  8289 038f 66030000 		.4byte	0x366
@@ -10414,7 +10414,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8291 0394 03       		.byte	0x3
  8292 0395 00000000 		.4byte	sinewave
  8293 0399 17       		.uleb128 0x17
- 8294 039a 05020000 		.4byte	.LASF50
+ 8294 039a C2010000 		.4byte	.LASF50
  8295 039e 01       		.byte	0x1
  8296 039f 46       		.byte	0x46
  8297 03a0 66030000 		.4byte	0x366
@@ -10422,7 +10422,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8299 03a5 03       		.byte	0x3
  8300 03a6 00000000 		.4byte	trianglewave
  8301 03aa 17       		.uleb128 0x17
- 8302 03ab CB050000 		.4byte	.LASF51
+ 8302 03ab DA050000 		.4byte	.LASF51
  8303 03af 01       		.byte	0x1
  8304 03b0 47       		.byte	0x47
  8305 03b1 66030000 		.4byte	0x366
@@ -10430,7 +10430,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8307 03b6 03       		.byte	0x3
  8308 03b7 00000000 		.4byte	sawtooth
  8309 03bb 17       		.uleb128 0x17
- 8310 03bc 80030000 		.4byte	.LASF52
+ 8310 03bc 98030000 		.4byte	.LASF52
  8311 03c0 01       		.byte	0x1
  8312 03c1 48       		.byte	0x48
  8313 03c2 66030000 		.4byte	0x366
@@ -10438,10 +10438,10 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8315 03c7 03       		.byte	0x3
  8316 03c8 00000000 		.4byte	squareXSine
  8317 03cc 17       		.uleb128 0x17
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 175
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 175
 
 
- 8318 03cd D9030000 		.4byte	.LASF53
+ 8318 03cd F1030000 		.4byte	.LASF53
  8319 03d1 01       		.byte	0x1
  8320 03d2 64       		.byte	0x64
  8321 03d3 81000000 		.4byte	0x81
@@ -10459,7 +10459,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8333 03f1 02       		.byte	0x2
  8334 03f2 00       		.byte	0
  8335 03f3 17       		.uleb128 0x17
- 8336 03f4 90020000 		.4byte	.LASF54
+ 8336 03f4 4D020000 		.4byte	.LASF54
  8337 03f8 01       		.byte	0x1
  8338 03f9 66       		.byte	0x66
  8339 03fa 04040000 		.4byte	0x404
@@ -10478,7 +10478,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8352 0419 07       		.uleb128 0x7
  8353 041a 8D000000 		.4byte	0x8d
  8354 041e 17       		.uleb128 0x17
- 8355 041f 5A050000 		.4byte	.LASF55
+ 8355 041f 69050000 		.4byte	.LASF55
  8356 0423 01       		.byte	0x1
  8357 0424 67       		.byte	0x67
  8358 0425 2F040000 		.4byte	0x42f
@@ -10488,7 +10488,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8362 042f 07       		.uleb128 0x7
  8363 0430 09040000 		.4byte	0x409
  8364 0434 17       		.uleb128 0x17
- 8365 0435 96020000 		.4byte	.LASF56
+ 8365 0435 53020000 		.4byte	.LASF56
  8366 0439 01       		.byte	0x1
  8367 043a 6A       		.byte	0x6a
  8368 043b 45040000 		.4byte	0x445
@@ -10498,10 +10498,10 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8372 0445 07       		.uleb128 0x7
  8373 0446 81000000 		.4byte	0x81
  8374 044a 17       		.uleb128 0x17
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 176
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 176
 
 
- 8375 044b E3040000 		.4byte	.LASF57
+ 8375 044b F2040000 		.4byte	.LASF57
  8376 044f 01       		.byte	0x1
  8377 0450 7C       		.byte	0x7c
  8378 0451 AE000000 		.4byte	0xae
@@ -10509,7 +10509,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8380 0456 03       		.byte	0x3
  8381 0457 00000000 		.4byte	button1
  8382 045b 17       		.uleb128 0x17
- 8383 045c EB040000 		.4byte	.LASF58
+ 8383 045c FA040000 		.4byte	.LASF58
  8384 0460 01       		.byte	0x1
  8385 0461 7D       		.byte	0x7d
  8386 0462 AE000000 		.4byte	0xae
@@ -10517,7 +10517,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8388 0467 03       		.byte	0x3
  8389 0468 00000000 		.4byte	button2
  8390 046c 17       		.uleb128 0x17
- 8391 046d F3040000 		.4byte	.LASF59
+ 8391 046d 02050000 		.4byte	.LASF59
  8392 0471 01       		.byte	0x1
  8393 0472 7E       		.byte	0x7e
  8394 0473 AE000000 		.4byte	0xae
@@ -10525,7 +10525,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8396 0478 03       		.byte	0x3
  8397 0479 00000000 		.4byte	button3
  8398 047d 17       		.uleb128 0x17
- 8399 047e B9040000 		.4byte	.LASF60
+ 8399 047e C8040000 		.4byte	.LASF60
  8400 0482 01       		.byte	0x1
  8401 0483 7F       		.byte	0x7f
  8402 0484 81000000 		.4byte	0x81
@@ -10533,7 +10533,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8404 0489 03       		.byte	0x3
  8405 048a 00000000 		.4byte	analogButFlag
  8406 048e 17       		.uleb128 0x17
- 8407 048f CF020000 		.4byte	.LASF61
+ 8407 048f E7020000 		.4byte	.LASF61
  8408 0493 01       		.byte	0x1
  8409 0494 82       		.byte	0x82
  8410 0495 AE000000 		.4byte	0xae
@@ -10556,9 +10556,9 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8427 04be 01       		.byte	0x1
  8428 04bf 00       		.byte	0
  8429 04c0 17       		.uleb128 0x17
- 8430 04c1 67050000 		.4byte	.LASF63
+ 8430 04c1 76050000 		.4byte	.LASF63
  8431 04c5 01       		.byte	0x1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 177
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 177
 
 
  8432 04c6 84       		.byte	0x84
@@ -10567,7 +10567,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8435 04cc 03       		.byte	0x3
  8436 04cd 00000000 		.4byte	pitch
  8437 04d1 17       		.uleb128 0x17
- 8438 04d2 4F020000 		.4byte	.LASF64
+ 8438 04d2 0C020000 		.4byte	.LASF64
  8439 04d6 01       		.byte	0x1
  8440 04d7 85       		.byte	0x85
  8441 04d8 68000000 		.4byte	0x68
@@ -10575,7 +10575,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8443 04dd 03       		.byte	0x3
  8444 04de 00000000 		.4byte	oldYinput
  8445 04e2 17       		.uleb128 0x17
- 8446 04e3 DA020000 		.4byte	.LASF65
+ 8446 04e3 F2020000 		.4byte	.LASF65
  8447 04e7 01       		.byte	0x1
  8448 04e8 86       		.byte	0x86
  8449 04e9 68000000 		.4byte	0x68
@@ -10583,7 +10583,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8451 04ee 03       		.byte	0x3
  8452 04ef 00000000 		.4byte	oldXinput
  8453 04f3 17       		.uleb128 0x17
- 8454 04f4 19050000 		.4byte	.LASF66
+ 8454 04f4 28050000 		.4byte	.LASF66
  8455 04f8 01       		.byte	0x1
  8456 04f9 87       		.byte	0x87
  8457 04fa 81000000 		.4byte	0x81
@@ -10591,7 +10591,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8459 04ff 03       		.byte	0x3
  8460 0500 00000000 		.4byte	pitchFlag
  8461 0504 17       		.uleb128 0x17
- 8462 0505 96050000 		.4byte	.LASF67
+ 8462 0505 A5050000 		.4byte	.LASF67
  8463 0509 01       		.byte	0x1
  8464 050a 89       		.byte	0x89
  8465 050b B3000000 		.4byte	0xb3
@@ -10606,7 +10606,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8474 0523 63       		.byte	0x63
  8475 0524 00       		.byte	0
  8476 0525 17       		.uleb128 0x17
- 8477 0526 57030000 		.4byte	.LASF68
+ 8477 0526 6F030000 		.4byte	.LASF68
  8478 052a 01       		.byte	0x1
  8479 052b 8A       		.byte	0x8a
  8480 052c 15050000 		.4byte	0x515
@@ -10618,13 +10618,13 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8486 053b 46050000 		.4byte	0x546
  8487 053f 18       		.uleb128 0x18
  8488 0540 BF000000 		.4byte	0xbf
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 178
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 178
 
 
  8489 0544 0F       		.byte	0xf
  8490 0545 00       		.byte	0
  8491 0546 17       		.uleb128 0x17
- 8492 0547 2D020000 		.4byte	.LASF69
+ 8492 0547 EA010000 		.4byte	.LASF69
  8493 054b 01       		.byte	0x1
  8494 054c 8B       		.byte	0x8b
  8495 054d 36050000 		.4byte	0x536
@@ -10632,7 +10632,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8497 0552 03       		.byte	0x3
  8498 0553 00000000 		.4byte	espTransmit
  8499 0557 17       		.uleb128 0x17
- 8500 0558 4A020000 		.4byte	.LASF70
+ 8500 0558 07020000 		.4byte	.LASF70
  8501 055c 01       		.byte	0x1
  8502 055d 8C       		.byte	0x8c
  8503 055e 68050000 		.4byte	0x568
@@ -10642,7 +10642,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8507 0568 06       		.uleb128 0x6
  8508 0569 A0000000 		.4byte	0xa0
  8509 056d 17       		.uleb128 0x17
- 8510 056e 66040000 		.4byte	.LASF71
+ 8510 056e 75040000 		.4byte	.LASF71
  8511 0572 01       		.byte	0x1
  8512 0573 8D       		.byte	0x8d
  8513 0574 B3000000 		.4byte	0xb3
@@ -10650,7 +10650,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8515 0579 03       		.byte	0x3
  8516 057a 00000000 		.4byte	intFreq
  8517 057e 17       		.uleb128 0x17
- 8518 057f 3E050000 		.4byte	.LASF72
+ 8518 057f 4D050000 		.4byte	.LASF72
  8519 0583 01       		.byte	0x1
  8520 0584 8E       		.byte	0x8e
  8521 0585 AE000000 		.4byte	0xae
@@ -10658,7 +10658,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8523 058a 03       		.byte	0x3
  8524 058b 00000000 		.4byte	noteIndex
  8525 058f 17       		.uleb128 0x17
- 8526 0590 75030000 		.4byte	.LASF73
+ 8526 0590 8D030000 		.4byte	.LASF73
  8527 0594 01       		.byte	0x1
  8528 0595 8F       		.byte	0x8f
  8529 0596 AE000000 		.4byte	0xae
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8543 05b6 01       		.byte	0x1
  8544 05b7 91       		.byte	0x91
  8545 05b8 AE000000 		.4byte	0xae
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 179
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 179
 
 
  8546 05bc 05       		.uleb128 0x5
@@ -10693,7 +10693,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8555 05ce 03       		.byte	0x3
  8556 05cf 00000000 		.4byte	checkingMode
  8557 05d3 17       		.uleb128 0x17
- 8558 05d4 32030000 		.4byte	.LASF77
+ 8558 05d4 4A030000 		.4byte	.LASF77
  8559 05d8 01       		.byte	0x1
  8560 05d9 93       		.byte	0x93
  8561 05da AE000000 		.4byte	0xae
@@ -10701,7 +10701,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8563 05df 03       		.byte	0x3
  8564 05e0 00000000 		.4byte	lastMode
  8565 05e4 17       		.uleb128 0x17
- 8566 05e5 52040000 		.4byte	.LASF78
+ 8566 05e5 61040000 		.4byte	.LASF78
  8567 05e9 01       		.byte	0x1
  8568 05ea 94       		.byte	0x94
  8569 05eb 8D000000 		.4byte	0x8d
@@ -10733,18 +10733,18 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8595 0623 03       		.byte	0x3
  8596 0624 00000000 		.4byte	cScaleGroupSelect
  8597 0628 17       		.uleb128 0x17
- 8598 0629 12020000 		.4byte	.LASF82
+ 8598 0629 CF010000 		.4byte	.LASF82
  8599 062d 01       		.byte	0x1
  8600 062e 99       		.byte	0x99
  8601 062f 45040000 		.4byte	0x445
  8602 0633 05       		.uleb128 0x5
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 180
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 180
 
 
  8603 0634 03       		.byte	0x3
  8604 0635 00000000 		.4byte	cGROUPS_LENGTH
  8605 0639 17       		.uleb128 0x17
- 8606 063a FB040000 		.4byte	.LASF83
+ 8606 063a 0A050000 		.4byte	.LASF83
  8607 063e 01       		.byte	0x1
  8608 063f 9A       		.byte	0x9a
  8609 0640 AE000000 		.4byte	0xae
@@ -10752,7 +10752,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8611 0645 03       		.byte	0x3
  8612 0646 00000000 		.4byte	cScaleSelect
  8613 064a 17       		.uleb128 0x17
- 8614 064b 66030000 		.4byte	.LASF84
+ 8614 064b 7E030000 		.4byte	.LASF84
  8615 064f 01       		.byte	0x1
  8616 0650 9B       		.byte	0x9b
  8617 0651 45040000 		.4byte	0x445
@@ -10786,7 +10786,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8645 068e 06       		.uleb128 0x6
  8646 068f 68000000 		.4byte	0x68
  8647 0693 17       		.uleb128 0x17
- 8648 0694 1B030000 		.4byte	.LASF88
+ 8648 0694 33030000 		.4byte	.LASF88
  8649 0698 01       		.byte	0x1
  8650 0699 A0       		.byte	0xa0
  8651 069a AE000000 		.4byte	0xae
@@ -10798,14 +10798,14 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8657 06a9 01       		.byte	0x1
  8658 06aa A1       		.byte	0xa1
  8659 06ab AE000000 		.4byte	0xae
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 181
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 181
 
 
  8660 06af 05       		.uleb128 0x5
  8661 06b0 03       		.byte	0x3
  8662 06b1 00000000 		.4byte	osz2Select
  8663 06b5 17       		.uleb128 0x17
- 8664 06b6 F2020000 		.4byte	.LASF90
+ 8664 06b6 0A030000 		.4byte	.LASF90
  8665 06ba 01       		.byte	0x1
  8666 06bb A2       		.byte	0xa2
  8667 06bc AE000000 		.4byte	0xae
@@ -10821,7 +10821,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8677 06d2 03       		.byte	0x3
  8678 06d3 00000000 		.4byte	waveDAC2running
  8679 06d7 17       		.uleb128 0x17
- 8680 06d8 3B030000 		.4byte	.LASF92
+ 8680 06d8 53030000 		.4byte	.LASF92
  8681 06dc 01       		.byte	0x1
  8682 06dd A4       		.byte	0xa4
  8683 06de AE000000 		.4byte	0xae
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8714 0724 BF000000 		.4byte	0xbf
  8715 0728 05       		.byte	0x5
  8716 0729 18       		.uleb128 0x18
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 182
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 182
 
 
  8717 072a BF000000 		.4byte	0xbf
@@ -10868,7 +10868,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8721 0734 27       		.byte	0x27
  8722 0735 00       		.byte	0
  8723 0736 17       		.uleb128 0x17
- 8724 0737 26030000 		.4byte	.LASF94
+ 8724 0737 3E030000 		.4byte	.LASF94
  8725 073b 01       		.byte	0x1
  8726 073c E0       		.byte	0xe0
  8727 073d 47070000 		.4byte	0x747
@@ -10878,7 +10878,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8731 0747 07       		.uleb128 0x7
  8732 0748 1A070000 		.4byte	0x71a
  8733 074c 19       		.uleb128 0x19
- 8734 074d 0E030000 		.4byte	.LASF95
+ 8734 074d 26030000 		.4byte	.LASF95
  8735 0751 01       		.byte	0x1
  8736 0752 2401     		.2byte	0x124
  8737 0754 B3000000 		.4byte	0xb3
@@ -10886,7 +10886,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8739 0759 03       		.byte	0x3
  8740 075a 00000000 		.4byte	echoDuration
  8741 075e 19       		.uleb128 0x19
- 8742 075f A6020000 		.4byte	.LASF96
+ 8742 075f 63020000 		.4byte	.LASF96
  8743 0763 01       		.byte	0x1
  8744 0764 2501     		.2byte	0x125
  8745 0766 B3000000 		.4byte	0xb3
@@ -10894,7 +10894,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8747 076b 03       		.byte	0x3
  8748 076c 00000000 		.4byte	echoDistance
  8749 0770 19       		.uleb128 0x19
- 8750 0771 04040000 		.4byte	.LASF97
+ 8750 0771 B9010000 		.4byte	.LASF97
  8751 0775 01       		.byte	0x1
  8752 0776 2601     		.2byte	0x126
  8753 0778 AE000000 		.4byte	0xae
@@ -10902,7 +10902,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8755 077d 03       		.byte	0x3
  8756 077e 00000000 		.4byte	echoFlag
  8757 0782 19       		.uleb128 0x19
- 8758 0783 9E050000 		.4byte	.LASF98
+ 8758 0783 AD050000 		.4byte	.LASF98
  8759 0787 01       		.byte	0x1
  8760 0788 2701     		.2byte	0x127
  8761 078a B3000000 		.4byte	0xb3
@@ -10910,7 +10910,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8763 078f 03       		.byte	0x3
  8764 0790 00000000 		.4byte	echoTimerPeriod
  8765 0794 19       		.uleb128 0x19
- 8766 0795 F4030000 		.4byte	.LASF99
+ 8766 0795 0C040000 		.4byte	.LASF99
  8767 0799 01       		.byte	0x1
  8768 079a 2801     		.2byte	0x128
  8769 079c B3000000 		.4byte	0xb3
@@ -10918,10 +10918,10 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8771 07a1 03       		.byte	0x3
  8772 07a2 00000000 		.4byte	echoReadCounter
  8773 07a6 19       		.uleb128 0x19
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 183
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 183
 
 
- 8774 07a7 B1030000 		.4byte	.LASF100
+ 8774 07a7 C9030000 		.4byte	.LASF100
  8775 07ab 01       		.byte	0x1
  8776 07ac 2901     		.2byte	0x129
  8777 07ae B3000000 		.4byte	0xb3
@@ -10929,7 +10929,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8779 07b3 03       		.byte	0x3
  8780 07b4 00000000 		.4byte	echoTuneDelay
  8781 07b8 19       		.uleb128 0x19
- 8782 07b9 AE050000 		.4byte	.LASF101
+ 8782 07b9 BD050000 		.4byte	.LASF101
  8783 07bd 01       		.byte	0x1
  8784 07be 2A01     		.2byte	0x12a
  8785 07c0 B3000000 		.4byte	0xb3
@@ -10953,7 +10953,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8803 07e9 03       		.byte	0x3
  8804 07ea 00000000 		.4byte	songLength
  8805 07ee 19       		.uleb128 0x19
- 8806 07ef A7040000 		.4byte	.LASF103
+ 8806 07ef B6040000 		.4byte	.LASF103
  8807 07f3 01       		.byte	0x1
  8808 07f4 2D01     		.2byte	0x12d
  8809 07f6 AE000000 		.4byte	0xae
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8828 0004 0E       		.uleb128 0xe
  8829 0005 13       		.uleb128 0x13
  8830 0006 0B       		.uleb128 0xb
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 184
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 184
 
 
  8831 0007 03       		.uleb128 0x3
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8885 003d 3B       		.uleb128 0x3b
  8886 003e 05       		.uleb128 0x5
  8887 003f 49       		.uleb128 0x49
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 185
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 185
 
 
  8888 0040 13       		.uleb128 0x13
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8942 0077 18       		.uleb128 0x18
  8943 0078 9642     		.uleb128 0x2116
  8944 007a 19       		.uleb128 0x19
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 186
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 186
 
 
  8945 007b 01       		.uleb128 0x1
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  8999 00b2 05       		.uleb128 0x5
  9000 00b3 00       		.byte	0
  9001 00b4 03       		.uleb128 0x3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 187
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 187
 
 
  9002 00b5 0E       		.uleb128 0xe
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9056 00ec 3F       		.uleb128 0x3f
  9057 00ed 19       		.uleb128 0x19
  9058 00ee 03       		.uleb128 0x3
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 188
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 188
 
 
  9059 00ef 0E       		.uleb128 0xe
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9113 0127 19       		.uleb128 0x19
  9114 0128 00       		.byte	0
  9115 0129 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 189
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 189
 
 
  9116 012a 13       		.uleb128 0x13
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9170 0161 2F       		.uleb128 0x2f
  9171 0162 05       		.uleb128 0x5
  9172 0163 00       		.byte	0
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 190
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 190
 
 
  9173 0164 00       		.byte	0
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9227 019a 13       		.uleb128 0x13
  9228 019b 3F       		.uleb128 0x3f
  9229 019c 19       		.uleb128 0x19
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 191
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 191
 
 
  9230 019d 02       		.uleb128 0x2
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9284 00b4 38000000 		.4byte	.LFE84-.LFB84
  9285 00b8 00000000 		.4byte	.LFB85
  9286 00bc 18000000 		.4byte	.LFE85-.LFB85
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 192
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 192
 
 
  9287 00c0 00000000 		.4byte	.LFB86
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9341              		.section	.debug_line,"",%progbits
  9342              	.Ldebug_line0:
  9343 0000 BD060000 		.section	.debug_str,"MS",%progbits,1
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 193
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 193
 
 
  9343      02004C01 
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9367      7400
  9368              	.LASF85:
  9369 009a 6F637461 		.ascii	"octaveSelect\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 194
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 194
 
 
  9369      76655365 
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9391      794D7300 
  9392              	.LASF12:
  9393 018e 75696E74 		.ascii	"uint16\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 195
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 195
 
 
  9393      313600
@@ -11657,386 +11657,386 @@ ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 1
  9401 01af 6D6F6465 		.ascii	"modecheck\000"
  9401      63686563 
  9401      6B00
- 9402              	.LASF107:
- 9403 01b9 433A5C55 		.ascii	"C:\\Users\\mariu\\Documents\\PSoC Creator\\PSoC_Aud"
- 9403      73657273 
- 9403      5C6D6172 
- 9403      69755C44 
- 9403      6F63756D 
- 9404 01e7 696F5F4D 		.ascii	"io_MIDI\\PSoC_Audio_MIDI.cydsn\000"
- 9404      4944495C 
- 9404      50536F43 
- 9404      5F417564 
- 9404      696F5F4D 
- 9405              	.LASF50:
- 9406 0205 74726961 		.ascii	"trianglewave\000"
- 9406      6E676C65 
- 9406      77617665 
- 9406      00
- 9407              	.LASF82:
- 9408 0212 6347524F 		.ascii	"cGROUPS_LENGTH\000"
- 9408      5550535F 
- 9408      4C454E47 
- 9408      544800
- 9409              	.LASF0:
- 9410 0221 7369676E 		.ascii	"signed char\000"
- 9410      65642063 
- 9410      68617200 
- 9411              	.LASF69:
- 9412 022d 65737054 		.ascii	"espTransmit\000"
- 9412      72616E73 
- 9412      6D697400 
- 9413              	.LASF13:
- 9414 0239 666C6F61 		.ascii	"float\000"
- 9414      7400
- 9415              	.LASF28:
- 9416 023f 6E6F7465 		.ascii	"noteSelect\000"
- 9416      53656C65 
- 9416      637400
- 9417              	.LASF70:
- 9418 024a 66726571 		.ascii	"freq\000"
- 9418      00
- 9419              	.LASF64:
- 9420 024f 6F6C6459 		.ascii	"oldYinput\000"
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 196
+ 9402              	.LASF97:
+ 9403 01b9 6563686F 		.ascii	"echoFlag\000"
+ 9403      466C6167 
+ 9403      00
+ 9404              	.LASF50:
+ 9405 01c2 74726961 		.ascii	"trianglewave\000"
+ 9405      6E676C65 
+ 9405      77617665 
+ 9405      00
+ 9406              	.LASF82:
+ 9407 01cf 6347524F 		.ascii	"cGROUPS_LENGTH\000"
+ 9407      5550535F 
+ 9407      4C454E47 
+ 9407      544800
+ 9408              	.LASF0:
+ 9409 01de 7369676E 		.ascii	"signed char\000"
+ 9409      65642063 
+ 9409      68617200 
+ 9410              	.LASF69:
+ 9411 01ea 65737054 		.ascii	"espTransmit\000"
+ 9411      72616E73 
+ 9411      6D697400 
+ 9412              	.LASF13:
+ 9413 01f6 666C6F61 		.ascii	"float\000"
+ 9413      7400
+ 9414              	.LASF28:
+ 9415 01fc 6E6F7465 		.ascii	"noteSelect\000"
+ 9415      53656C65 
+ 9415      637400
+ 9416              	.LASF70:
+ 9417 0207 66726571 		.ascii	"freq\000"
+ 9417      00
+ 9418              	.LASF64:
+ 9419 020c 6F6C6459 		.ascii	"oldYinput\000"
+ 9419      696E7075 
+ 9419      7400
+ 9420              	.LASF6:
+ 9421 0216 6C6F6E67 		.ascii	"long long int\000"
+ 9421      206C6F6E 
+ 9421      6720696E 
+ 9421      7400
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 196
 
 
- 9420      696E7075 
- 9420      7400
- 9421              	.LASF6:
- 9422 0259 6C6F6E67 		.ascii	"long long int\000"
- 9422      206C6F6E 
- 9422      6720696E 
- 9422      7400
- 9423              	.LASF7:
- 9424 0267 6C6F6E67 		.ascii	"long long unsigned int\000"
- 9424      206C6F6E 
- 9424      6720756E 
- 9424      7369676E 
- 9424      65642069 
- 9425              	.LASF49:
- 9426 027e 73696E65 		.ascii	"sinewave\000"
- 9426      77617665 
- 9426      00
- 9427              	.LASF4:
- 9428 0287 6C6F6E67 		.ascii	"long int\000"
- 9428      20696E74 
- 9428      00
- 9429              	.LASF54:
- 9430 0290 6E6F7465 		.ascii	"notes\000"
- 9430      7300
- 9431              	.LASF56:
- 9432 0296 44495350 		.ascii	"DISPLAY_ADDRESS\000"
- 9432      4C41595F 
- 9432      41444452 
- 9432      45535300 
- 9433              	.LASF96:
- 9434 02a6 6563686F 		.ascii	"echoDistance\000"
- 9434      44697374 
- 9434      616E6365 
- 9434      00
- 9435              	.LASF30:
- 9436 02b3 73776974 		.ascii	"switchLEDcheck\000"
- 9436      63684C45 
- 9436      44636865 
- 9436      636B00
- 9437              	.LASF37:
- 9438 02c2 6164635F 		.ascii	"adc_isr_vect\000"
- 9438      6973725F 
- 9438      76656374 
- 9438      00
- 9439              	.LASF61:
- 9440 02cf 6D757843 		.ascii	"muxChannel\000"
- 9440      68616E6E 
- 9440      656C00
- 9441              	.LASF65:
- 9442 02da 6F6C6458 		.ascii	"oldXinput\000"
- 9442      696E7075 
- 9442      7400
- 9443              	.LASF1:
- 9444 02e4 756E7369 		.ascii	"unsigned char\000"
- 9444      676E6564 
- 9444      20636861 
- 9444      7200
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 197
+ 9422              	.LASF7:
+ 9423 0224 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 9423      206C6F6E 
+ 9423      6720756E 
+ 9423      7369676E 
+ 9423      65642069 
+ 9424              	.LASF49:
+ 9425 023b 73696E65 		.ascii	"sinewave\000"
+ 9425      77617665 
+ 9425      00
+ 9426              	.LASF4:
+ 9427 0244 6C6F6E67 		.ascii	"long int\000"
+ 9427      20696E74 
+ 9427      00
+ 9428              	.LASF54:
+ 9429 024d 6E6F7465 		.ascii	"notes\000"
+ 9429      7300
+ 9430              	.LASF56:
+ 9431 0253 44495350 		.ascii	"DISPLAY_ADDRESS\000"
+ 9431      4C41595F 
+ 9431      41444452 
+ 9431      45535300 
+ 9432              	.LASF96:
+ 9433 0263 6563686F 		.ascii	"echoDistance\000"
+ 9433      44697374 
+ 9433      616E6365 
+ 9433      00
+ 9434              	.LASF107:
+ 9435 0270 433A5C55 		.ascii	"C:\\Users\\silvan\\OneDrive\\GitHubRepos\\PSoC_Audi"
+ 9435      73657273 
+ 9435      5C73696C 
+ 9435      76616E5C 
+ 9435      4F6E6544 
+ 9436 029e 6F5F4D49 		.ascii	"o_MIDI\\PSoC_Audio_MIDI\\PSoC_Audio_MIDI.cydsn\000"
+ 9436      44495C50 
+ 9436      536F435F 
+ 9436      41756469 
+ 9436      6F5F4D49 
+ 9437              	.LASF30:
+ 9438 02cb 73776974 		.ascii	"switchLEDcheck\000"
+ 9438      63684C45 
+ 9438      44636865 
+ 9438      636B00
+ 9439              	.LASF37:
+ 9440 02da 6164635F 		.ascii	"adc_isr_vect\000"
+ 9440      6973725F 
+ 9440      76656374 
+ 9440      00
+ 9441              	.LASF61:
+ 9442 02e7 6D757843 		.ascii	"muxChannel\000"
+ 9442      68616E6E 
+ 9442      656C00
+ 9443              	.LASF65:
+ 9444 02f2 6F6C6458 		.ascii	"oldXinput\000"
+ 9444      696E7075 
+ 9444      7400
+ 9445              	.LASF1:
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 197
 
 
- 9445              	.LASF90:
- 9446 02f2 77617665 		.ascii	"waveDAC1running\000"
- 9446      44414331 
- 9446      72756E6E 
- 9446      696E6700 
- 9447              	.LASF16:
- 9448 0302 6C6F6E67 		.ascii	"long double\000"
- 9448      20646F75 
- 9448      626C6500 
- 9449              	.LASF95:
- 9450 030e 6563686F 		.ascii	"echoDuration\000"
- 9450      44757261 
- 9450      74696F6E 
- 9450      00
- 9451              	.LASF88:
- 9452 031b 6F737A31 		.ascii	"osz1Select\000"
- 9452      53656C65 
- 9452      637400
- 9453              	.LASF94:
- 9454 0326 63536361 		.ascii	"cScaleNames\000"
- 9454      6C654E61 
- 9454      6D657300 
- 9455              	.LASF77:
- 9456 0332 6C617374 		.ascii	"lastMode\000"
- 9456      4D6F6465 
- 9456      00
- 9457              	.LASF92:
- 9458 033b 746F6767 		.ascii	"toggleSettings\000"
- 9458      6C655365 
- 9458      7474696E 
- 9458      677300
- 9459              	.LASF8:
- 9460 034a 756E7369 		.ascii	"unsigned int\000"
- 9460      676E6564 
- 9460      20696E74 
- 9460      00
- 9461              	.LASF68:
- 9462 0357 7472616E 		.ascii	"transmitBuffer\000"
- 9462      736D6974 
- 9462      42756666 
- 9462      657200
- 9463              	.LASF84:
- 9464 0366 63534341 		.ascii	"cSCALES_LENGTH\000"
- 9464      4C45535F 
- 9464      4C454E47 
- 9464      544800
- 9465              	.LASF73:
- 9466 0375 6E6F7465 		.ascii	"noteIndex2\000"
- 9466      496E6465 
- 9466      783200
- 9467              	.LASF52:
- 9468 0380 73717561 		.ascii	"squareXSine\000"
- 9468      72655853 
- 9468      696E6500 
- 9469              	.LASF3:
- 9470 038c 73686F72 		.ascii	"short unsigned int\000"
- 9470      7420756E 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 198
+ 9446 02fc 756E7369 		.ascii	"unsigned char\000"
+ 9446      676E6564 
+ 9446      20636861 
+ 9446      7200
+ 9447              	.LASF90:
+ 9448 030a 77617665 		.ascii	"waveDAC1running\000"
+ 9448      44414331 
+ 9448      72756E6E 
+ 9448      696E6700 
+ 9449              	.LASF16:
+ 9450 031a 6C6F6E67 		.ascii	"long double\000"
+ 9450      20646F75 
+ 9450      626C6500 
+ 9451              	.LASF95:
+ 9452 0326 6563686F 		.ascii	"echoDuration\000"
+ 9452      44757261 
+ 9452      74696F6E 
+ 9452      00
+ 9453              	.LASF88:
+ 9454 0333 6F737A31 		.ascii	"osz1Select\000"
+ 9454      53656C65 
+ 9454      637400
+ 9455              	.LASF94:
+ 9456 033e 63536361 		.ascii	"cScaleNames\000"
+ 9456      6C654E61 
+ 9456      6D657300 
+ 9457              	.LASF77:
+ 9458 034a 6C617374 		.ascii	"lastMode\000"
+ 9458      4D6F6465 
+ 9458      00
+ 9459              	.LASF92:
+ 9460 0353 746F6767 		.ascii	"toggleSettings\000"
+ 9460      6C655365 
+ 9460      7474696E 
+ 9460      677300
+ 9461              	.LASF8:
+ 9462 0362 756E7369 		.ascii	"unsigned int\000"
+ 9462      676E6564 
+ 9462      20696E74 
+ 9462      00
+ 9463              	.LASF68:
+ 9464 036f 7472616E 		.ascii	"transmitBuffer\000"
+ 9464      736D6974 
+ 9464      42756666 
+ 9464      657200
+ 9465              	.LASF84:
+ 9466 037e 63534341 		.ascii	"cSCALES_LENGTH\000"
+ 9466      4C45535F 
+ 9466      4C454E47 
+ 9466      544800
+ 9467              	.LASF73:
+ 9468 038d 6E6F7465 		.ascii	"noteIndex2\000"
+ 9468      496E6465 
+ 9468      783200
+ 9469              	.LASF52:
+ 9470 0398 73717561 		.ascii	"squareXSine\000"
+ 9470      72655853 
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 198
 
 
- 9470      7369676E 
- 9470      65642069 
- 9470      6E7400
- 9471              	.LASF44:
- 9472 039f 75736572 		.ascii	"userEcho_ISR\000"
- 9472      4563686F 
- 9472      5F495352 
- 9472      00
- 9473              	.LASF29:
- 9474 03ac 78506974 		.ascii	"xPit\000"
+ 9470      696E6500 
+ 9471              	.LASF3:
+ 9472 03a4 73686F72 		.ascii	"short unsigned int\000"
+ 9472      7420756E 
+ 9472      7369676E 
+ 9472      65642069 
+ 9472      6E7400
+ 9473              	.LASF44:
+ 9474 03b7 75736572 		.ascii	"userEcho_ISR\000"
+ 9474      4563686F 
+ 9474      5F495352 
  9474      00
- 9475              	.LASF100:
- 9476 03b1 6563686F 		.ascii	"echoTuneDelay\000"
- 9476      54756E65 
- 9476      44656C61 
- 9476      7900
- 9477              	.LASF15:
- 9478 03bf 63686172 		.ascii	"char\000"
- 9478      00
- 9479              	.LASF47:
- 9480 03c4 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 9480      52784275 
- 9480      66666572 
+ 9475              	.LASF29:
+ 9476 03c4 78506974 		.ascii	"xPit\000"
+ 9476      00
+ 9477              	.LASF100:
+ 9478 03c9 6563686F 		.ascii	"echoTuneDelay\000"
+ 9478      54756E65 
+ 9478      44656C61 
+ 9478      7900
+ 9479              	.LASF15:
+ 9480 03d7 63686172 		.ascii	"char\000"
  9480      00
- 9481              	.LASF10:
- 9482 03d1 696E7433 		.ascii	"int32_t\000"
- 9482      325F7400 
- 9483              	.LASF53:
- 9484 03d9 77617665 		.ascii	"waveMode\000"
- 9484      4D6F6465 
- 9484      00
- 9485              	.LASF42:
- 9486 03e2 62757433 		.ascii	"but3_isr_pos_vect\000"
- 9486      5F697372 
- 9486      5F706F73 
- 9486      5F766563 
- 9486      7400
- 9487              	.LASF99:
- 9488 03f4 6563686F 		.ascii	"echoReadCounter\000"
- 9488      52656164 
- 9488      436F756E 
- 9488      74657200 
- 9489              	.LASF97:
- 9490 0404 6563686F 		.ascii	"echoFlag\000"
- 9490      466C6167 
- 9490      00
+ 9481              	.LASF47:
+ 9482 03dc 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 9482      52784275 
+ 9482      66666572 
+ 9482      00
+ 9483              	.LASF10:
+ 9484 03e9 696E7433 		.ascii	"int32_t\000"
+ 9484      325F7400 
+ 9485              	.LASF53:
+ 9486 03f1 77617665 		.ascii	"waveMode\000"
+ 9486      4D6F6465 
+ 9486      00
+ 9487              	.LASF42:
+ 9488 03fa 62757433 		.ascii	"but3_isr_pos_vect\000"
+ 9488      5F697372 
+ 9488      5F706F73 
+ 9488      5F766563 
+ 9488      7400
+ 9489              	.LASF99:
+ 9490 040c 6563686F 		.ascii	"echoReadCounter\000"
+ 9490      52656164 
+ 9490      436F756E 
+ 9490      74657200 
  9491              	.LASF36:
- 9492 040d 616E616C 		.ascii	"analogBut_isr_vect\000"
+ 9492 041c 616E616C 		.ascii	"analogBut_isr_vect\000"
  9492      6F674275 
  9492      745F6973 
  9492      725F7665 
  9492      637400
  9493              	.LASF45:
- 9494 0420 75736572 		.ascii	"userModeTimer_ISR\000"
+ 9494 042f 75736572 		.ascii	"userModeTimer_ISR\000"
  9494      4D6F6465 
  9494      54696D65 
  9494      725F4953 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 199
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 199
 
 
  9494      5200
  9495              	.LASF106:
- 9496 0432 6D61696E 		.ascii	"main.c\000"
+ 9496 0441 6D61696E 		.ascii	"main.c\000"
  9496      2E6300
  9497              	.LASF5:
- 9498 0439 6C6F6E67 		.ascii	"long unsigned int\000"
+ 9498 0448 6C6F6E67 		.ascii	"long unsigned int\000"
  9498      20756E73 
  9498      69676E65 
  9498      6420696E 
  9498      7400
  9499              	.LASF14:
- 9500 044b 646F7562 		.ascii	"double\000"
+ 9500 045a 646F7562 		.ascii	"double\000"
  9500      6C6500
  9501              	.LASF78:
- 9502 0452 66726571 		.ascii	"freqClockDivCounter\000"
+ 9502 0461 66726571 		.ascii	"freqClockDivCounter\000"
  9502      436C6F63 
  9502      6B446976 
  9502      436F756E 
  9502      74657200 
  9503              	.LASF71:
- 9504 0466 696E7446 		.ascii	"intFreq\000"
+ 9504 0475 696E7446 		.ascii	"intFreq\000"
  9504      72657100 
  9505              	.LASF26:
- 9506 046e 6C6F6E67 		.ascii	"longSweep\000"
+ 9506 047d 6C6F6E67 		.ascii	"longSweep\000"
  9506      53776565 
  9506      7000
  9507              	.LASF43:
- 9508 0478 62757433 		.ascii	"but3_isr_neg_vect\000"
+ 9508 0487 62757433 		.ascii	"but3_isr_neg_vect\000"
  9508      5F697372 
  9508      5F6E6567 
  9508      5F766563 
  9508      7400
  9509              	.LASF35:
- 9510 048a 616E616C 		.ascii	"analogRead\000"
+ 9510 0499 616E616C 		.ascii	"analogRead\000"
  9510      6F675265 
  9510      616400
  9511              	.LASF41:
- 9512 0495 62757432 		.ascii	"but2_isr_neg_vect\000"
+ 9512 04a4 62757432 		.ascii	"but2_isr_neg_vect\000"
  9512      5F697372 
  9512      5F6E6567 
  9512      5F766563 
  9512      7400
  9513              	.LASF103:
- 9514 04a7 736F6E67 		.ascii	"songRepeatCounter\000"
+ 9514 04b6 736F6E67 		.ascii	"songRepeatCounter\000"
  9514      52657065 
  9514      6174436F 
  9514      756E7465 
  9514      7200
  9515              	.LASF60:
- 9516 04b9 616E616C 		.ascii	"analogButFlag\000"
+ 9516 04c8 616E616C 		.ascii	"analogButFlag\000"
  9516      6F674275 
  9516      74466C61 
  9516      6700
  9517              	.LASF40:
- 9518 04c7 62757432 		.ascii	"but2_isr_pos_vect\000"
+ 9518 04d6 62757432 		.ascii	"but2_isr_pos_vect\000"
  9518      5F697372 
  9518      5F706F73 
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 200
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 200
 
 
  9518      5F766563 
  9518      7400
  9519              	.LASF9:
- 9520 04d9 5F5F696E 		.ascii	"__int32_t\000"
+ 9520 04e8 5F5F696E 		.ascii	"__int32_t\000"
  9520      7433325F 
  9520      7400
  9521              	.LASF57:
- 9522 04e3 62757474 		.ascii	"button1\000"
+ 9522 04f2 62757474 		.ascii	"button1\000"
  9522      6F6E3100 
  9523              	.LASF58:
- 9524 04eb 62757474 		.ascii	"button2\000"
+ 9524 04fa 62757474 		.ascii	"button2\000"
  9524      6F6E3200 
  9525              	.LASF59:
- 9526 04f3 62757474 		.ascii	"button3\000"
+ 9526 0502 62757474 		.ascii	"button3\000"
  9526      6F6E3300 
  9527              	.LASF83:
- 9528 04fb 63536361 		.ascii	"cScaleSelect\000"
+ 9528 050a 63536361 		.ascii	"cScaleSelect\000"
  9528      6C655365 
  9528      6C656374 
  9528      00
  9529              	.LASF11:
- 9530 0508 75696E74 		.ascii	"uint8\000"
+ 9530 0517 75696E74 		.ascii	"uint8\000"
  9530      3800
  9531              	.LASF32:
- 9532 050e 77617665 		.ascii	"waveSelect\000"
+ 9532 051d 77617665 		.ascii	"waveSelect\000"
  9532      53656C65 
  9532      637400
  9533              	.LASF66:
- 9534 0519 70697463 		.ascii	"pitchFlag\000"
+ 9534 0528 70697463 		.ascii	"pitchFlag\000"
  9534      68466C61 
  9534      6700
  9535              	.LASF19:
- 9536 0523 6D617849 		.ascii	"maxIndex\000"
+ 9536 0532 6D617849 		.ascii	"maxIndex\000"
  9536      6E646578 
  9536      00
  9537              	.LASF27:
- 9538 052c 64697374 		.ascii	"distanceEchoPitch\000"
+ 9538 053b 64697374 		.ascii	"distanceEchoPitch\000"
  9538      616E6365 
  9538      4563686F 
  9538      50697463 
  9538      6800
  9539              	.LASF72:
- 9540 053e 6E6F7465 		.ascii	"noteIndex\000"
+ 9540 054d 6E6F7465 		.ascii	"noteIndex\000"
  9540      496E6465 
  9540      7800
  9541              	.LASF39:
- 9542 0548 62757431 		.ascii	"but1_isr_neg_vect\000"
+ 9542 0557 62757431 		.ascii	"but1_isr_neg_vect\000"
  9542      5F697372 
  9542      5F6E6567 
  9542      5F766563 
  9542      7400
  9543              	.LASF55:
- 9544 055a 696E7446 		.ascii	"intFrequency\000"
+ 9544 0569 696E7446 		.ascii	"intFrequency\000"
  9544      72657175 
  9544      656E6379 
  9544      00
  9545              	.LASF63:
-ARM GAS  C:\Users\mariu\AppData\Local\Temp\ccVmpeWD.s 			page 201
+ARM GAS  C:\Users\silvan\AppData\Local\Temp\cctA33Sf.s 			page 201
 
 
- 9546 0567 70697463 		.ascii	"pitch\000"
+ 9546 0576 70697463 		.ascii	"pitch\000"
  9546      6800
  9547              	.LASF31:
- 9548 056d 766F6963 		.ascii	"voiceSelect\000"
+ 9548 057c 766F6963 		.ascii	"voiceSelect\000"
  9548      6553656C 
  9548      65637400 
  9549              	.LASF38:
- 9550 0579 62757431 		.ascii	"but1_isr_pos_vect\000"
+ 9550 0588 62757431 		.ascii	"but1_isr_pos_vect\000"
  9550      5F697372 
  9550      5F706F73 
  9550      5F766563 
  9550      7400
  9551              	.LASF48:
- 9552 058b 73717561 		.ascii	"squarewave\000"
+ 9552 059a 73717561 		.ascii	"squarewave\000"
  9552      72657761 
  9552      766500
  9553              	.LASF67:
- 9554 0596 64656C61 		.ascii	"delayMS\000"
+ 9554 05a5 64656C61 		.ascii	"delayMS\000"
  9554      794D5300 
  9555              	.LASF98:
- 9556 059e 6563686F 		.ascii	"echoTimerPeriod\000"
+ 9556 05ad 6563686F 		.ascii	"echoTimerPeriod\000"
  9556      54696D65 
  9556      72506572 
  9556      696F6400 
  9557              	.LASF101:
- 9558 05ae 736F6E67 		.ascii	"songPosition\000"
+ 9558 05bd 736F6E67 		.ascii	"songPosition\000"
  9558      506F7369 
  9558      74696F6E 
  9558      00
  9559              	.LASF22:
- 9560 05bb 73657457 		.ascii	"setWaveDACnotes\000"
+ 9560 05ca 73657457 		.ascii	"setWaveDACnotes\000"
  9560      61766544 
  9560      41436E6F 
  9560      74657300 
  9561              	.LASF51:
- 9562 05cb 73617774 		.ascii	"sawtooth\000"
+ 9562 05da 73617774 		.ascii	"sawtooth\000"
  9562      6F6F7468 
  9562      00
  9563              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
