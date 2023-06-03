@@ -157,14 +157,14 @@ volatile uint8 octaveSelect = 1;                // switch octaves
 volatile uint8 offsetUp = BASS_OFFSET_UP;       // index 12 is C1
 volatile int offset2 = 0;                       // sub bass
 
-volatile uint8 osz1Select;                      //
-volatile uint8 osz2Select;
-volatile uint8 waveDAC1running;
-volatile uint8 waveDAC2running;
-volatile uint8 toggleSettings;
+volatile uint8 osz1Select;                      // switch oscillator 1 on off
+volatile uint8 osz2Select;                      // switch oscillator 2 on off
+volatile uint8 waveDAC1running;                 // indicates if osc1 is running
+volatile uint8 waveDAC2running;                 // indicates if osc2 is running   
+volatile uint8 toggleSettings;                  // switch between 2 settings pages
 
 
-//////////////////////////////////////////////// MODAL MONDIAL
+//////////////////////////////////////////////// MODAL MONDIAL: JAZZ SCALES
 const uint8 cScales[6][8][8] =  {{      // WORLD PENTATONICS                       
      {0, 2, 4, 7, 9, 0, 0, 0},          // 0 major pentatonic
      {0, 3, 5, 7, 10, 0, 0, 0},         // 1 minor pentatonic
@@ -292,14 +292,14 @@ const char cScaleNames[6][8][40] = {
 volatile uint16 echoDuration;               // duration between send and receive fo the echo sensor
 volatile uint16 echoDistance;               // calculated distance
 volatile uint8 echoFlag = 0;                // 0 idle | 1 trig sent | 2 timer value ready
-volatile uint16 echoTimerPeriod;
-volatile uint16 echoReadCounter;
-volatile uint16 echoTuneDelay = 40;
-volatile uint16 songPosition = 0;
-volatile uint8 bar;
-volatile uint16 songLength = 96 * 13;
-volatile uint8 songRepeatCounter = 0;
-volatile uint8 songDelayMs = 9;
+volatile uint16 echoTimerPeriod;            // the cycle length depending on input clock
+volatile uint16 echoReadCounter;            // length of echo pulse
+volatile uint16 echoTuneDelay = 40;         // controlling responsivness of distance sensor
+volatile uint16 songPosition = 0;           // counted from start
+volatile uint8 bar;                         // current bar
+volatile uint16 songLength = 96 * 13;       // wedding march theme length, 13 bars
+volatile uint8 songRepeatCounter = 0;       // count number of repeats
+volatile uint8 songDelayMs = 9;             // song speed^-1
 
 // MODECHECK FUNCTION checks mode on 4 state cube
 void modecheck(){
