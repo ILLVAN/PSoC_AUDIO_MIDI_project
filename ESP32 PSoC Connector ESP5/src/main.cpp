@@ -1,4 +1,9 @@
-// ESP32 PSoC connector via UART
+/*******************************************************************************
+* PSoC 5LP Audio Project   
+*
+* A music instrument based on a PSoC 5LP. ESP32 PSoC connector via UART.
+* Marius Mannel, Silvan Weber, 2023 
+*******************************************************************************/
 
 #include <Arduino.h>
 #include <U8g2lib.h>
