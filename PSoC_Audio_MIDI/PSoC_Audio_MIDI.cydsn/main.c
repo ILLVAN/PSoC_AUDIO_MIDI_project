@@ -1,6 +1,8 @@
 /*******************************************************************************
-* File: main.c      
+* PSoC 5LP Audio Project   
 *
+* A music instrument based on a PSoC 5LP.
+* Marius Mannel, Silvan Weber, 2023 
 *******************************************************************************/
 
 #include <project.h>
